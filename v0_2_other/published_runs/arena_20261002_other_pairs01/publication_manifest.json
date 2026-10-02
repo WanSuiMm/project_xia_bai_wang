@@ -1,0 +1,178 @@
+{
+  "policy": "Original prompts and replies unchanged. UI DOM, session URLs, account data, screenshots and pending browser handles omitted.",
+  "records": [
+    {
+      "case_id": "E01V1",
+      "prompt_sha256": {
+        "opening_A": "e34d47402620ae2dc3d887e4be8b3922a2fdd761060b01f0136fb8b9e30bbaf5",
+        "opening_B": "c0272486b702412d7b3469b1492f756748a0a16b21e4a1548de0e64aa38c44f5"
+      },
+      "raw_sha256": {
+        "opening_A": "9d53a2611f6dac58d8454ba280113d7727ab92afe9e2025b9146a996f9de17a0"
+      }
+    },
+    {
+      "case_id": "E01V2",
+      "prompt_sha256": {
+        "opening_B": "9dd5c5d8ebcf60892b34be4927a4ac54f450688866eb96c9ec29dd0083dbddca",
+        "opening_A": "e34d47402620ae2dc3d887e4be8b3922a2fdd761060b01f0136fb8b9e30bbaf5",
+        "judge_P0": "999042516012ca6ba15321bae98de03a30574f268c5539a7de29162d5172587e",
+        "answer_1_B": "fb0b76d47959a5d2efbd0d9dd504fe4e3cad838f27815e3ebad356c81435a6bb",
+        "answer_1_A": "277abc7aa5b977c925506286e02c32a4aa463951a95cb69f2f7639223f0d1d17",
+        "judge_P1": "53bc50c51540c7418ecb9434570693edeb79fbe4d92a8ad109df1fcf576e12ca",
+        "answer_2_B": "6c1cfb730e3945f3622e1a8f4fefeb0b455319e4cc7a22503bbc2941de48c9f5",
+        "answer_2_A": "994d6cae9f8a50757ef94bb6670ce3f01d9aa0afdf7e766bd9dbe3087fa8b6d7",
+        "judge_P2": "c336369dbb046aaff1f6cf6371dc4184fdfed9362fdf0183f9f91a66dec9c553",
+        "answer_3_B": "74877af66108a75b7ba3a0bd9b350735b6fa1146842e58f7c635b7f0eb24660f",
+        "answer_3_A": "4bab5caf56ad4a6baa40da511efc94a264a705cae575b5440879c982bc6e8731",
+        "judge_P3": "be09066f8d3ab9011883ccf4b0fc3dd02f6eb32ad9d0b0cc5c592db706c82f8b",
+        "judge_N": "5d102902c3853cb19534f4f012d7b0b91c7ab67076d4657efd561786a109cb2f",
+        "judge_E": "2319c32fdcc51622a73e7dec4bdbdfa786b00f6767c24a151d004fa4257de6ac"
+      },
+      "raw_sha256": {
+        "opening_B": "e398961f373908e09025ea2a34086a48a18af9da1d754d3e0d66e6c5a1ab3bde",
+        "opening_A": "ac06761e9239982081ee23ec2a8d60856378f96e0293d0a6193b6890e4f78998",
+        "judge_P0": "156a9e6f6eb76cf7f1bb6850566e5e0e1dae2a3670d508944ab3ee029b23a320",
+        "answer_1_B": "5213a7f96c94538d4f05abac5dbff80c3a706a62fa0256f9d68eeb06bd6ab5d0",
+        "answer_1_A": "89146c6ddf66561fbaae35668223d914a8528c815e5d154abbd0abbd23762e4e",
+        "judge_P1": "d7f5d5537b9c71a8dfd8ba499b6f8d0ad35ef6bdb3d9eb1822259b517ce43cef",
+        "answer_2_B": "40b7744d6e9f1a271f7f712fcf42ef8a73b7e274aec6ea22a448f04394d62095",
+        "answer_2_A": "a24c74e29b5f185363ab4e6e2a88fe13de8d7c9792d351a8d01fa14fa33d5d9c",
+        "judge_P2": "56a2ca2a44ec244045426db708688fc6e4f5e32cef4a9a9a33b3f6d1d658e573",
+        "answer_3_B": "b5e6a3ae18b55083d4289d5ca181e935bfbd0e47338b99525570ef3571977075",
+        "answer_3_A": "c08c68a9c1bee42d53da9690f4f0fdd5306ba98f8d7431e04d616e1c9cc1eb43",
+        "judge_P3": "a65ea0639e6ffd4ce5130c34dc140b9523a346bd97ea45fb294143bab619b423",
+        "judge_N": "6ca4aafc7766a68cedea242d831af9ab4d00bb5a6085a2ac7b1cf34780634509",
+        "judge_E": "bf1e8ad2ddac4abd1ab44f94d6a351b87c857ed12f16d70d0a4701c4e024371a"
+      }
+    },
+    {
+      "case_id": "H01V1",
+      "prompt_sha256": {
+        "opening_A": "1219015ed951225d9290a6022625bafb56a9a7140a6d2f90ae4b23bc59581bf7"
+      },
+      "raw_sha256": {}
+    },
+    {
+      "case_id": "H01V2",
+      "prompt_sha256": {
+        "opening_B": "0f0aa103fe6a7415d79ba83cdc01e02e3281e678ae5eb2d2bbd586c0ff9ea93a"
+      },
+      "raw_sha256": {}
+    },
+    {
+      "case_id": "L01V1",
+      "prompt_sha256": {
+        "opening_A": "91c47095a91fc689aefeb1b3d73fbfdae25f05909db1dd10a87b1de487ed1a07",
+        "opening_B": "256c6a6c940187e41e32946308e376dec34c921f8d16c5b60b5842974b9c32a1",
+        "judge_P0": "7a958d81e0bec4dd2c54a6bf51b9e048f8015a14e7d15f4b63c6e44ca6da9baa",
+        "answer_1_B": "cac18062002ff993dfc2bf4af27dd622e772468b761f128e8b665764ecd3e7fe",
+        "answer_1_A": "260657e86d7389d6f70bf1243733b8f6d0962f446c51996a1ea795f4b44349e3",
+        "judge_P1": "0413afe43f335d7d4885d0c1291c889d07ea18d78b6e2868e1409729cbb662fc",
+        "answer_2_A": "9ddbd7b7a396bd43c91897fbdad5e590c3e2392b2da9fb01709397eb011159dd",
+        "answer_2_B": "931eceb398ffd52a548cbf4db84b7feb75e84258319766a1f67ec5af699540f2",
+        "judge_P2": "81887d8b93e2593d76224d36892f0962ea2e0ad64d9caea57c5923a9895df3d2",
+        "answer_3_A": "c0e292abb5420927c9127458070e32f097aea02a3b7f2bc69cae1a4dbd69705f",
+        "answer_3_B": "551478faba0dd57c7e70b99d8ae6b169b2f33238fe40220eb0f38d2e8678bbc8",
+        "judge_P3": "320a4827839b3ef72f36c2967feaa097aea2b883a6cbc23ed2245cc04e02f181",
+        "judge_E": "2a874b60c1a4ab4ffb3cfc44e1db77685d37044520ba6ee538c4b7119e8cd870",
+        "judge_N": "7e6fb17096f90ab8f755dd70b1d8e6265630142c88a552a6d9fef39f07234a23"
+      },
+      "raw_sha256": {
+        "opening_A": "42ed5298c4647260e335167bace65833e5cc197f4810db01233fa08b6279dc89",
+        "opening_B": "6e6d67862d24e60455acf70271b2d6d537b7821ba2e5eb9917aac5105c8892b4",
+        "judge_P0": "91497486994f393949ba776207c3a49d52e91c6caf7aab88f62023a049a5809c",
+        "answer_1_B": "c0725d50e0f13f5d7f47b057507deea42ba2579a42be1f33c32cbd00acfb1103",
+        "answer_1_A": "a3bc95fae9bed3f27f9e93d4caf2d37ff3d4a302289767c0fdea60833cdfaf37",
+        "judge_P1": "20179ae937f86a814cee0d7463f63d98d8349931c6dbe4ea2e79b2b3c9ea8267",
+        "answer_2_A": "1941c914ba57e3eb9f1e039d6c98f8b9f72365f91df3f2c8b5dbca8f2872956d",
+        "answer_2_B": "abae3f5fdaf354e1625f28c6a2e041f916e770d9e73306a270de97355fae9f62",
+        "judge_P2": "549a3336ee5aa572931bb8ba7ea4c539262034282bb97019f9c06a07ae7e9b21",
+        "answer_3_A": "df2ce11f43b6ee012a7d0cb0b1be1649a8528e1279d47e41fb5216f92bbe8d37",
+        "answer_3_B": "f3b6d04dd9b4eea034bc262a41fbc887a0d29bce978acbd191a1e1c8d7abc874",
+        "judge_P3": "477cda5057102970d1aaa0d0eeaf599c1c5250fb0fd087e45c4e2c7228396632",
+        "judge_E": "76d7440fdec006a7127ef9c11dbab60527b5c99f58c4deb0b76ba7ee8f63bf8c",
+        "judge_N": "71a692b3aa5518ce5ae76640818ec7838fe68cf4be437c692c0b845a736e2d24"
+      }
+    },
+    {
+      "case_id": "L01V2",
+      "prompt_sha256": {
+        "opening_B": "256c6a6c940187e41e32946308e376dec34c921f8d16c5b60b5842974b9c32a1",
+        "opening_A": "7913db8d1de86c74317d77262db14433ff6a861ee07d14add4c174862e31e46f"
+      },
+      "raw_sha256": {
+        "opening_B": "56a16e663af99ff5d6893ccb5f7e7600dbf5b8094f0cecfe27af830177f8aa34"
+      }
+    },
+    {
+      "case_id": "T01V1",
+      "prompt_sha256": {
+        "opening_B": "6abceae820161de3539b1c6499ecd4ece7aa35dae26ebdfc6adb7b9e2f4739f7",
+        "opening_A": "de07bb46f7d9cd1cc2c5293173cd12bd75e6f3028353db9e9d9e2b3d2edfeb82",
+        "judge_P0": "f4a34e7cd60caeb3df52dc1866c8b18f115cb118d93ad8941e12ee486a53c22d",
+        "answer_1_A": "55cdf4200120dd41b29836a134d046d18d7b81d24cd5065e8ff46d1cb2ee07b9",
+        "answer_1_B": "035373339e5307fb07ce4bf6576f2d7344c71c393b74712d7978fb1ee406ac9f",
+        "judge_P1": "acc7423da5b14b00eb9103e21b0772d995deee93143860399546115060678c4a",
+        "answer_2_B": "db07866e99aa398149a89116ba5911c0fbb1a9ac961f93a078e71a86bcf3c6da",
+        "answer_2_A": "0cef8780ccdd45e03e0a186d50d711c259600fffaab9a711a04e8ee5530920c6",
+        "judge_P2": "88800b5671410cb5ecaec053fce2c50e38efb8dfcf064044cf798a18a47cfad0",
+        "answer_3_A": "a4a4b924e1186cbb7430b86562c9d25160fbea1a1098115c83d03e698fc113c1",
+        "answer_3_B": "541c3db5fac50f27668196566d3b42656abbf378780b5da110de0458d8e1dbdd",
+        "judge_P3": "21c0802b3ffd853cf773b4309f2faffa131b20a34abd1c9d90eff7d128871bb5",
+        "judge_E": "e3af0d5163cf114e52f058e0fe5463573e80e47768a5ba80fbe605593da91e34",
+        "judge_N": "20d785342630b1772c773180583975d1f0fcf46ea0c9d057a87fde07c2713cf0"
+      },
+      "raw_sha256": {
+        "opening_B": "b97fb73b939736fbe57d9657bc6f3d122badac5d509efcd6e9a3c0d80a8671a5",
+        "opening_A": "d0804e4280fec4d40463545cb058286313e73425e29bcfa1dc6d963fbab58f1e",
+        "judge_P0": "f25ebaabe234b9b72b7c5fb1f37778763bde2fd104d9ec4102c2a35041c74eb9",
+        "answer_1_A": "8f86e0a537a83b1fc3f1c068c51a3193519d8174095231db3387e135a17a3a3a",
+        "answer_1_B": "3e6d5cc1b2dbe363336f783b41a188845942bf901aa1ecad6ce992d9c6ce502e",
+        "judge_P1": "eb77d2f7f1498bfb63ca930df6e5097e717b2cef6642798f50f40f0fa0d9c87e",
+        "answer_2_B": "75f50cd92855be315a830e743ce531f68a47350935960cf545fafe84a29821ea",
+        "answer_2_A": "bbddc967d837494919c771ed7b4fd4bc4aabf66e782f826b743972cfa4593e40",
+        "judge_P2": "066f9b7582b3b4b7e16e94728330e22b21103d3dbc61f1a18ad32253f3171cc7",
+        "answer_3_A": "975f693093f9d31a63f684f735fb8ab29bbea0516e0141bbf6074b105c60d4a9",
+        "answer_3_B": "3082a8caab2e7c776ad86e7ca0ef9f9b1c964eea53a254f60ab25df41c67b2fc",
+        "judge_P3": "64464377a0ca11a8baa28d49bc0daf6f2c7f7499943a0da3237fbaacd5730b9d",
+        "judge_E": "5dbbd6549056e8205c611cab2d021ec1afaddf323e54f5d1341421eadda72441",
+        "judge_N": "cd84e2747352bedf85c69ee7ebedd01f5107432b57211b36bb9cc5d6e8858036"
+      }
+    },
+    {
+      "case_id": "T01V2",
+      "prompt_sha256": {
+        "opening_B": "3f031c1049da1c38b09ae52035907074816105901f416f05e5d527dfb0c8741a",
+        "opening_A": "bc56f27b756f4fc9a024429dd2a23e39617c9aae88d33c928df52bbdaa81a339",
+        "judge_P0": "aa77713d846f68d0471b7a94c3515cce3cc437d3fcebd7dbc434f0cf7480d27d"
+      },
+      "raw_sha256": {
+        "opening_B": "1b7d940b11bbe1afd9e6fba58c8cb8f984d7c9362f3d47898bb7e4d351cab5e5",
+        "opening_A": "08636eb028621b82c7eb1f015f8a2889dd959b05026a34fbfb41b4ed4cc47224"
+      }
+    }
+  ],
+  "priors": [
+    {
+      "file": "prior_E01.json",
+      "prompt_sha256": "a3a4e8202379f3f2b0b48a2bae19fb3384e970595d93702d051ffa5e320cbd44",
+      "raw_sha256": "716c6612845795e4d559b123a1a22a546bebdbd62ddc8638df214ba2ae14b4cc"
+    },
+    {
+      "file": "prior_H01.json",
+      "prompt_sha256": "1813b73e6a7679346d0b22e9b479f2b52f5f4d35e20ebe3a9dc1da3ea31a8094",
+      "raw_sha256": "c3e0c58e045f3786404c079e9c6e0b99eb95bce6a10837d7a2d7a17810a98ec4"
+    },
+    {
+      "file": "prior_L01.json",
+      "prompt_sha256": "a9ff85daf85b9b8b4c71973ded7ad2a49bb9a0a7f2a7905b1a636ed71f1e2b21",
+      "raw_sha256": "c58cd9b292c356826c356996feb9d2e0d4c6b729f5a9ffefda848c6e20bc46cf"
+    },
+    {
+      "file": "prior_T01.json",
+      "prompt_sha256": "78e9f94bcae79961ca74068be3c4e539156b8688e1d70da3b09db373c2d8f0f6",
+      "raw_sha256": "eb4ce9518844166d8190bf25c5d0870053d2aacc9d70da69b26fddeeaa6a1d79"
+    }
+  ]
+}

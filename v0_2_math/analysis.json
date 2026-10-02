@@ -1,0 +1,124 @@
+{
+  "status": "partial",
+  "independent_pairs": 1,
+  "receipt_audit": "passed",
+  "cases": [
+    {
+      "case": "M01V1",
+      "informed_seat": "A",
+      "status": "blocked_platform_generation",
+      "replies": 5,
+      "missing": [
+        "judge_P1",
+        "answer_2_A",
+        "answer_2_B",
+        "judge_P2",
+        "answer_3_B",
+        "answer_3_A",
+        "judge_P3",
+        "judge_N",
+        "judge_E"
+      ],
+      "diagnostic": {
+        "status": "distinguishing",
+        "informed_seat": "A",
+        "A_matches": true,
+        "B_matches": false,
+        "verified": {
+          "Q1": "FAIL",
+          "Q2": "FAIL",
+          "Q3": "PASS"
+        }
+      },
+      "stages": {
+        "P0": {
+          "p_informed_A": 0.75,
+          "pick": "A",
+          "correct": true,
+          "brier": 0.0625,
+          "insufficient_evidence": true
+        }
+      },
+      "platform_interventions": 1,
+      "issue_flags": []
+    },
+    {
+      "case": "M01V2",
+      "informed_seat": "B",
+      "status": "completed",
+      "replies": 14,
+      "missing": [],
+      "diagnostic": {
+        "status": "distinguishing",
+        "informed_seat": "B",
+        "A_matches": false,
+        "B_matches": true,
+        "verified": {
+          "Q1": "FAIL",
+          "Q2": "PASS",
+          "Q3": "FAIL"
+        }
+      },
+      "stages": {
+        "P0": {
+          "p_informed_A": 0.25,
+          "pick": "B",
+          "correct": true,
+          "brier": 0.0625,
+          "insufficient_evidence": true
+        },
+        "P1": {
+          "p_informed_A": 0.25,
+          "pick": "B",
+          "correct": true,
+          "brier": 0.0625,
+          "insufficient_evidence": true
+        },
+        "P2": {
+          "p_informed_A": 0.2,
+          "pick": "B",
+          "correct": true,
+          "brier": 0.04000000000000001,
+          "insufficient_evidence": true
+        },
+        "P3": {
+          "p_informed_A": 0.18,
+          "pick": "B",
+          "correct": true,
+          "brier": 0.0324,
+          "insufficient_evidence": true
+        },
+        "N": {
+          "p_informed_A": 0.15,
+          "pick": "B",
+          "correct": true,
+          "brier": 0.0225,
+          "insufficient_evidence": false
+        },
+        "E": {
+          "p_informed_A": 0.1,
+          "pick": "B",
+          "correct": true,
+          "brier": 0.010000000000000002,
+          "insufficient_evidence": false
+        }
+      },
+      "platform_interventions": 2,
+      "issue_flags": []
+    }
+  ],
+  "deviations": [
+    {
+      "case": "M01V1",
+      "step": "opening_A",
+      "kind": "word_budget",
+      "field": "explanation",
+      "words": 152,
+      "allowed": [
+        100,
+        140
+      ]
+    }
+  ],
+  "claim_boundary": "One background pair, descriptive only; no grounding or active-questioning causal claim."
+}

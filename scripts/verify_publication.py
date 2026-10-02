@@ -27,5 +27,19 @@ for entry in manifest['records']:
     for field,key in [('raw','raw_sha256'),('sent_prompts','prompt_sha256')]:
         for step,digest in entry[key].items():
             if hashlib.sha256(record[field][step].encode()).hexdigest()!=digest:bad.append((entry['case_id'],field+' hash mismatch '+step))
-print(json.dumps({'staged_files':len(files),'staged_bytes':total,'markdown_links_checked':links,'public_records_hashed':len(manifest['records']),'problems':bad},ensure_ascii=False,indent=2))
+v02_records = 0
+for domain in ['v0_2_math','v0_2_other']:
+    for manifest_path in (ROOT/domain/'published_runs').glob('*/publication_manifest.json'):
+        evidence = json.loads(manifest_path.read_text(encoding='utf-8'))
+        for entry in evidence['records']:
+            record = json.loads((manifest_path.parent/'logs'/f'{entry["case_id"]}.json').read_text(encoding='utf-8'))
+            for field,key in [('raw','raw_sha256'),('sent_prompts','prompt_sha256')]:
+                for step,digest in entry[key].items():
+                    if hashlib.sha256(record[field][step].encode()).hexdigest()!=digest:bad.append((entry['case_id'],field+' hash mismatch '+step))
+            v02_records += 1
+        for entry in evidence['priors']:
+            prior = json.loads((manifest_path.parent/entry['file']).read_text(encoding='utf-8'))
+            for field in ['prompt','raw']:
+                if hashlib.sha256(prior[field].encode()).hexdigest()!=entry[field+'_sha256']:bad.append((entry['file'],field+' hash mismatch'))
+print(json.dumps({'staged_files':len(files),'staged_bytes':total,'markdown_links_checked':links,'public_records_hashed':len(manifest['records'])+v02_records,'problems':bad},ensure_ascii=False,indent=2))
 if bad:raise SystemExit(2)

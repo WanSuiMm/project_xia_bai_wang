@@ -1,0 +1,12 @@
+{
+  "prompt": "This is a separate public-only prior probe, not a speaker or judge. Do not browse or use tools. No candidate explanation or private card is supplied.\nPUBLIC CARD\nThe Serevic shift is a fictional sound change in an otherwise ordinary historical-linguistic setting. No external source defines this sampled rule. The ancestor has consonants /k g t d p b m l/ and vowels /i e a o u/. A dot marks a syllable boundary, the IPA stress mark ˈ immediately before a syllable marks that syllable as stressed, and # is a word boundary. All listed forms and stress/syllable divisions are fixed inputs. The shift is regular and phonologically conditioned; its exact rule is private. Apply the rule once, simultaneously to eligible original segments; no feeding, resyllabification or repeated application. Untargeted segments, vowels, syllable divisions and stress remain unchanged. No process crosses #. Ordinary phonological knowledge does not select this fictional rule.\nFor each check, PASS means the statement is true under the complete private reference card; FAIL means false. No check outcome is public.\nQ1: On input /ˈka.ma/, the initial /k/ becomes /g/.\nQ2: On input /ˈki.ma/, the initial /k/ becomes /tʃ/.\nQ3: On input /ˈa.ka/, the medial /k/ becomes /g/.\nBoth speakers must commit to Q1/Q2/Q3 before discussion. The commitments are frozen.\nPredict your marginal probability that each check is PASS from this public background alone. Acknowledge when the sampled private fact is not identified. Return one JSON object with keys p_pass (numeric probabilities Q1,Q2,Q3 from 0 to 1), insufficient_evidence (boolean), and reason (at most 50 English words).",
+  "raw": "{\"p_pass\":[0.2,0.1,0.3],\"insufficient_evidence\":true,\"reason\":\"The private rule is not identified. Consonant inventory has no /tʃ/, so Q2's palatalization outcome is unlikely under a rule limited to ancestor segments. Lenition-style voicing (k>g) is plausible intervocalically, favoring Q3 slightly over Q1's word-initial context. All of these are priors, not evidence.\"}",
+  "status": "completed",
+  "issue_flags": [
+    "p_pass_array_not_keyed"
+  ],
+  "capture": {
+    "visible_model": "claude-sonnet-5-5-high",
+    "saved_utc": "2026-10-02T14:17:26.601Z"
+  }
+}

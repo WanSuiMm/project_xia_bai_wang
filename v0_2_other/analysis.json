@@ -1,0 +1,410 @@
+{
+  "status": "partial",
+  "planned_background_pairs": 4,
+  "complete_background_pairs": 0,
+  "completed_game_replies": 46,
+  "planned_game_replies": 112,
+  "completed_prior_replies": 4,
+  "receipt_audit": "passed",
+  "cases": [
+    {
+      "case": "L01V1",
+      "informed_seat": "A",
+      "status": "completed",
+      "replies": 14,
+      "missing": [],
+      "diagnostic": {
+        "status": "distinguishing",
+        "informed_seat": "A",
+        "A_matches": true,
+        "B_matches": false,
+        "verified": {
+          "Q1": "FAIL",
+          "Q2": "PASS",
+          "Q3": "FAIL"
+        }
+      },
+      "stages": {
+        "P0": {
+          "p_informed_A": 0.5,
+          "p_informed": 0.5,
+          "pick": "A",
+          "correct": true,
+          "insufficient_evidence": true,
+          "brier": 0.25,
+          "reason": "Neither speaker's claims are verified by independent observations. Both propose coherent, internally consistent phonological rules matching their frozen commitments (velar palatalization versus intervocalic lenition). Without host observations or ground truth, there is currently no evidence distinguishing the informed speaker from the uninformed guesser."
+        },
+        "P1": {
+          "p_informed_A": 0.5,
+          "p_informed": 0.5,
+          "pick": "A",
+          "correct": true,
+          "insufficient_evidence": true,
+          "brier": 0.25,
+          "reason": "Neither candidate has been validated by independent host observations. Both speakers maintained complete internal consistency when deriving the outcome for /ˈte.gi.ta/ under their respective stated rules (palatalization vs. intervocalic voicing). Without ground truth observations, the available evidence remains insufficient to favor either speaker."
+        },
+        "P2": {
+          "p_informed_A": 0.5,
+          "p_informed": 0.5,
+          "pick": "A",
+          "correct": true,
+          "insufficient_evidence": true,
+          "brier": 0.25,
+          "reason": "Neither speaker has been confirmed by independent host observations. Both speakers consistently apply their proposed rules to /ˈo.ke.pi/ (palatalization vs. unstressed intervocalic voicing). In the absence of ground truth verification or internal contradictions, there remains no factual evidence favoring either speaker."
+        },
+        "P3": {
+          "p_informed_A": 0.5,
+          "p_informed": 0.5,
+          "pick": "A",
+          "correct": true,
+          "insufficient_evidence": true,
+          "brier": 0.25,
+          "reason": "Across all rounds, both speakers maintained complete internal consistency with their respective rules and the public constraints, with no host observations provided to verify either account. In the absence of external confirmation or internal contradiction, the available evidence remains strictly insufficient to distinguish between them."
+        },
+        "N": {
+          "p_informed_A": 0.1,
+          "p_informed": 0.1,
+          "pick": "B",
+          "correct": false,
+          "insufficient_evidence": false,
+          "brier": 0.81,
+          "reason": "Checks Q1 and Q3 form a minimal pair probing intervocalic voicing to /g/, perfectly matching B's lenition rule while unmotivated under A's palatalization. B's rule fully accounts for the ancestor stop inventory, stress, and syllable divisions, whereas A dismisses these conditions and hallucinates a syllable boundary between /k/ and /e/."
+        },
+        "E": {
+          "p_informed_A": 0.99,
+          "p_informed": 0.99,
+          "pick": "A",
+          "correct": true,
+          "insufficient_evidence": false,
+          "brier": 0.00010000000000000018,
+          "reason": "Speaker A's frozen check commitments (FAIL, PASS, FAIL) match the verified independent observations perfectly across all three checks. In contrast, Speaker B incorrectly committed to Q2 as FAIL and Q3 as PASS, indicating B lacked access to the reference card."
+        }
+      },
+      "platform_interventions": 1,
+      "issue_flags": []
+    },
+    {
+      "case": "L01V2",
+      "informed_seat": "A",
+      "status": "blocked_platform_generation",
+      "replies": 1,
+      "missing": [
+        "opening_A",
+        "judge_P0",
+        "answer_1_A",
+        "answer_1_B",
+        "judge_P1",
+        "answer_2_B",
+        "answer_2_A",
+        "judge_P2",
+        "answer_3_B",
+        "answer_3_A",
+        "judge_P3",
+        "judge_E",
+        "judge_N"
+      ],
+      "diagnostic": {
+        "status": "unscorable",
+        "error": "请先保存 opening_A 的原始回复"
+      },
+      "stages": {},
+      "platform_interventions": 0,
+      "issue_flags": []
+    },
+    {
+      "case": "E01V1",
+      "informed_seat": "B",
+      "status": "blocked_platform_session_loss",
+      "replies": 1,
+      "missing": [
+        "opening_B",
+        "judge_P0",
+        "answer_1_A",
+        "answer_1_B",
+        "judge_P1",
+        "answer_2_B",
+        "answer_2_A",
+        "judge_P2",
+        "answer_3_B",
+        "answer_3_A",
+        "judge_P3",
+        "judge_E",
+        "judge_N"
+      ],
+      "diagnostic": {
+        "status": "unscorable",
+        "error": "请先保存 opening_B 的原始回复"
+      },
+      "stages": {},
+      "platform_interventions": 0,
+      "issue_flags": []
+    },
+    {
+      "case": "E01V2",
+      "informed_seat": "B",
+      "status": "completed",
+      "replies": 14,
+      "missing": [],
+      "diagnostic": {
+        "status": "collision",
+        "informed_seat": "B",
+        "A_matches": true,
+        "B_matches": true,
+        "verified": {
+          "Q1": "FAIL",
+          "Q2": "FAIL",
+          "Q3": "PASS"
+        }
+      },
+      "stages": {
+        "P0": {
+          "p_informed_A": 0.2,
+          "p_informed": 0.8,
+          "pick": "B",
+          "correct": true,
+          "insufficient_evidence": false,
+          "brier": 0.04000000000000001,
+          "reason": "Speaker B includes non-public details from the private card, noting recruitment on burned open ground and cold affecting survival or timing without assay effects. Speaker A merely paraphrases public card parameters without extra card details, providing substantial evidence that Speaker B holds the private card."
+        },
+        "P1": {
+          "p_informed_A": 0.2,
+          "p_informed": 0.8,
+          "pick": "B",
+          "correct": true,
+          "insufficient_evidence": false,
+          "brier": 0.04000000000000001,
+          "reason": "Both speakers correctly deduced that reversing the cue-moisture order prevents germination. However, Speaker B's opening uniquely reflected specific card wording regarding ecological interpretations and assay effects. Speaker A remains plausible but has not introduced any distinctive private card details. Speaker B is substantially more likely to hold the card."
+        },
+        "P2": {
+          "p_informed_A": 0.15,
+          "p_informed": 0.85,
+          "pick": "B",
+          "correct": true,
+          "insufficient_evidence": false,
+          "brier": 0.0225,
+          "reason": "Speaker A hedges with phrases like 'Under my account', whereas Speaker B consistently reflects authentic card knowledge and phrasing, previously incorporating specific ecological background and card constraints ('no injury or interference'). Speaker B remains substantially more likely to have received the private reference card."
+        },
+        "P3": {
+          "p_informed_A": 0.1,
+          "p_informed": 0.9,
+          "pick": "B",
+          "correct": true,
+          "insufficient_evidence": false,
+          "brier": 0.010000000000000002,
+          "reason": "Speaker B provided specific details from the private card in their opening regarding ecological interpretations (recruitment on burned open ground; cold affecting survival/timing). In contrast, Speaker A repeatedly framed answers as 'Under my account' and only rehashed public card constraints. Speaker B was clearly the informed speaker."
+        },
+        "N": {
+          "p_informed_A": 0.2,
+          "p_informed": 0.8,
+          "pick": "B",
+          "correct": true,
+          "insufficient_evidence": false,
+          "brier": 0.04000000000000001,
+          "reason": "Speaker B reproduces specific private card details regarding ecological interpretations (recruitment on burned ground vs cold effects). In contrast, Speaker A relies only on public card information and repeatedly hedges with 'Under my account', characteristic of an uninformed speaker maintaining an invented hypothesis."
+        },
+        "E": {
+          "p_informed_A": 0.15,
+          "p_informed": 0.85,
+          "pick": "B",
+          "correct": true,
+          "insufficient_evidence": false,
+          "brier": 0.0225,
+          "reason": "Speaker B includes specific non-public details about recruitment on burned ground and ecological interpretations. In contrast, Speaker A repeatedly prefaces claims with 'Under my account' and explicitly cites 'the public card', characteristic of an uninformed speaker defending an adopted stance."
+        }
+      },
+      "platform_interventions": 1,
+      "issue_flags": []
+    },
+    {
+      "case": "T01V1",
+      "informed_seat": "A",
+      "status": "completed",
+      "replies": 14,
+      "missing": [],
+      "diagnostic": {
+        "status": "distinguishing",
+        "informed_seat": "A",
+        "A_matches": true,
+        "B_matches": false,
+        "verified": {
+          "Q1": "FAIL",
+          "Q2": "PASS",
+          "Q3": "FAIL"
+        }
+      },
+      "stages": {
+        "P0": {
+          "p_informed_A": 0.8,
+          "p_informed": 0.8,
+          "pick": "A",
+          "correct": true,
+          "insufficient_evidence": true,
+          "brier": 0.03999999999999998,
+          "reason": "Speaker A includes specific operational details matching card conventions (timing, procedure, flock ascent, communal night enclosure, explicit exclusion of religious purification), whereas Speaker B provides vague, generic reasoning revolving entirely around Q3 without procedural depth."
+        },
+        "P1": {
+          "p_informed_A": 0.9,
+          "p_informed": 0.9,
+          "pick": "A",
+          "correct": true,
+          "insufficient_evidence": false,
+          "brier": 0.009999999999999995,
+          "reason": "Speaker A appropriately recognized the card's exact boundary, refusing to invent unstated certification procedures. Speaker B admitted lacking knowledge of Taluma's procedure—despite the public card noting procedure is private case content—and relied on ad hoc speculation about household head confirmation."
+        },
+        "P2": {
+          "p_informed_A": 0.95,
+          "p_informed": 0.95,
+          "pick": "A",
+          "correct": true,
+          "insufficient_evidence": false,
+          "brier": 0.0025000000000000044,
+          "reason": "Speaker A maintains disciplined adherence to the reference card's exact procedural boundaries without inventing unstated exceptions. Speaker B repeatedly concedes lacking knowledge of Taluma's procedure, using ad hoc functional rationalizations to stretch the ledger-keeping premise to fit novel scenarios."
+        },
+        "P3": {
+          "p_informed_A": 0.96,
+          "p_informed": 0.96,
+          "pick": "A",
+          "correct": true,
+          "insufficient_evidence": false,
+          "brier": 0.001600000000000003,
+          "reason": "Speaker A consistently preserved the precise textual boundaries of the reference card, including rich procedural conditions and negative assertions. Speaker B explicitly admitted having no procedural account across all rounds and continually improvised speculative functional rationalizations to defend their ledger hypothesis."
+        },
+        "N": {
+          "p_informed_A": 0.95,
+          "p_informed": 0.95,
+          "pick": "A",
+          "correct": true,
+          "insufficient_evidence": false,
+          "brier": 0.0025000000000000044,
+          "reason": "Speaker A provided specific procedural details (spring ascent without adult takeover, communal night enclosure) in their opening that directly matched the judge's subsequent questions. Speaker B lacked procedural knowledge, deflected, and fabricated household-level justifications around Q3. Speaker A consistently distinguished stated facts from unstated rules without confabulating."
+        },
+        "E": {
+          "p_informed_A": 0.99,
+          "p_informed": 0.99,
+          "pick": "A",
+          "correct": true,
+          "insufficient_evidence": false,
+          "brier": 0.00010000000000000018,
+          "reason": "Speaker A's frozen check commitments (Q1: FAIL, Q2: PASS, Q3: FAIL) match all three independently verified host observations perfectly, whereas Speaker B failed Q2 and Q3. Furthermore, Speaker A accurately detailed the specific procedures of Taluma, which Speaker B admitted knowing nothing about."
+        }
+      },
+      "platform_interventions": 2,
+      "issue_flags": []
+    },
+    {
+      "case": "T01V2",
+      "informed_seat": "B",
+      "status": "blocked_platform_session_loss",
+      "replies": 2,
+      "missing": [
+        "judge_P0",
+        "answer_1_B",
+        "answer_1_A",
+        "judge_P1",
+        "answer_2_B",
+        "answer_2_A",
+        "judge_P2",
+        "answer_3_B",
+        "answer_3_A",
+        "judge_P3",
+        "judge_N",
+        "judge_E"
+      ],
+      "diagnostic": {
+        "status": "distinguishing",
+        "informed_seat": "B",
+        "A_matches": false,
+        "B_matches": true,
+        "verified": {
+          "Q1": "FAIL",
+          "Q2": "FAIL",
+          "Q3": "PASS"
+        }
+      },
+      "stages": {},
+      "platform_interventions": 0,
+      "issue_flags": []
+    },
+    {
+      "case": "H01V1",
+      "informed_seat": "B",
+      "status": "blocked_platform_generation",
+      "replies": 0,
+      "missing": [
+        "opening_A",
+        "opening_B",
+        "judge_P0",
+        "answer_1_B",
+        "answer_1_A",
+        "judge_P1",
+        "answer_2_A",
+        "answer_2_B",
+        "judge_P2",
+        "answer_3_B",
+        "answer_3_A",
+        "judge_P3",
+        "judge_E",
+        "judge_N"
+      ],
+      "diagnostic": {
+        "status": "unscorable",
+        "error": "请先保存 opening_A 的原始回复"
+      },
+      "stages": {},
+      "platform_interventions": 0,
+      "issue_flags": []
+    },
+    {
+      "case": "H01V2",
+      "informed_seat": "A",
+      "status": "blocked_platform_generation",
+      "replies": 0,
+      "missing": [
+        "opening_B",
+        "opening_A",
+        "judge_P0",
+        "answer_1_B",
+        "answer_1_A",
+        "judge_P1",
+        "answer_2_B",
+        "answer_2_A",
+        "judge_P2",
+        "answer_3_A",
+        "answer_3_B",
+        "judge_P3",
+        "judge_N",
+        "judge_E"
+      ],
+      "diagnostic": {
+        "status": "unscorable",
+        "error": "请先保存 opening_A 的原始回复"
+      },
+      "stages": {},
+      "platform_interventions": 0,
+      "issue_flags": []
+    }
+  ],
+  "deviations": [
+    {
+      "case": "T01V1",
+      "step": "opening_A",
+      "field": "explanation",
+      "words": 141,
+      "allowed": [
+        100,
+        140
+      ]
+    },
+    {
+      "case": "T01V1",
+      "step": "answer_1_A",
+      "field": "answer",
+      "words": 101,
+      "allowed": [
+        60,
+        100
+      ]
+    }
+  ],
+  "claim_boundary": "Four planned background pairs; descriptive only. No population, grounding, or active-questioning causal claim."
+}

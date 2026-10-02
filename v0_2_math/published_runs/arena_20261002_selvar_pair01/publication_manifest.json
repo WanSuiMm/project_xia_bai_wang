@@ -1,0 +1,65 @@
+{
+  "policy": "Original prompts and replies unchanged. UI DOM, session URLs, account data, screenshots and pending browser handles omitted.",
+  "records": [
+    {
+      "case_id": "M01V1",
+      "prompt_sha256": {
+        "opening_A": "bc97780fff50660d093d478d0441404845b46635772f769f67d635b74eea74d5",
+        "opening_B": "1c3b93978d1c696f92d053af87b67d18a1ffee90b1cddf649047bda6a6e05dc6",
+        "judge_P0": "efdfb60a6686f8e2a9ab3dea65e5bdf065b422d5e5256942efa0d72ce1209cc0",
+        "answer_1_A": "a2dd406aca95a919306cf021b696d83f9da15c0324747fa8c65fd73466d76790",
+        "answer_1_B": "0697b52f7662903cf3c01175922261ca32cd7e0f8e45e141657478abcb54fe29",
+        "judge_P1": "554bbe10bc3dd98d1650412eb8d12818c3d352506a7c575cc0522100818aff7a"
+      },
+      "raw_sha256": {
+        "opening_A": "dcc6deaaa8930e62c4dc6244def72e19d319ae0a2642c2d271f5f2d4833fee12",
+        "opening_B": "abf2a54705970865344d931ffc8b635948e82e43ecc6e2abd400b9cd789b841c",
+        "judge_P0": "b3cb9d656c66dd5f3b1af88a6543c6c6a32b1646eacdd579b18669f685321125",
+        "answer_1_A": "a04bdeb742a8634396182e56dfd5e798af7ca9ce8fafee13fbd45f4e426fb183",
+        "answer_1_B": "f93251c5be54fa9afac4d1765f0d25807770895bd36376c718ce27980884ed3b"
+      }
+    },
+    {
+      "case_id": "M01V2",
+      "prompt_sha256": {
+        "opening_B": "95dfc6a2d44d26917b159cdf89b848d661fcda0a588e4714031d9706332fc2ff",
+        "opening_A": "f093365aa385b3d4920f9dfa3a280ec245122ac2370dccd6c1507192933dd239",
+        "judge_P0": "5d5766fa6499f1c5fe90292b22afc4376a517ef0da7ffdb92b4fd63d1ac2f5dc",
+        "answer_1_B": "b6e237b4e28b19c078ef10eb3eb9cd8be6bac64182c813e9596c836da4bc02ed",
+        "answer_1_A": "2c85ba0ebdf80173a420c52c55d1ac4ee4fb927fbdbc689a564a08006e89ac51",
+        "judge_P1": "2ff66292c75d82c152397a4b7c9594569cb21b25dbf00c7d26ccad853b9258c2",
+        "answer_2_A": "839f295ffa8145b5b04a1625c33c374da3d84de88067fec8858e39f460ba3700",
+        "answer_2_B": "11ec3bcee0375e89de15e5d9a2cb4a8cb7e4bc1e967bad1346b4a3367bcc526e",
+        "judge_P2": "df23b023a9cb25c18ca48eb6396d25c0d43a0621361c1670cce469edc3ecf1be",
+        "answer_3_B": "1dd4f791cda8c1cfa3a21ba37ebf1fe730a5f89bf74557d57f08aae4e1681feb",
+        "answer_3_A": "5d1fdbb6c592b36f0eccd706ecccb6ae853911f5deb54467e9e8d2142e7f0b21",
+        "judge_P3": "57b9683879f4e9e4150ff1f0decceed466d95b44a10acaa7de65bb6d352b8a61",
+        "judge_N": "1ac0b9dddc6139eda447a44df0254a628f50aeb4ba56fddc89b411fc1761e877",
+        "judge_E": "ae098b6c2c6c24a1c24a6ff976b675dd0a03deea2825e80041ae6ffba740a7d9"
+      },
+      "raw_sha256": {
+        "opening_B": "de33bef63a31928e6953455805ef8b28134ae044eb136e22b8a8264c857fc8b5",
+        "opening_A": "b776e3bdbb7d349532f396f9099c5871b8211761c400a034681069927a233077",
+        "judge_P0": "074ac1c6277e6b99475a4030d7e83c2b78bd53a554432a29ad61d497a303a15b",
+        "answer_1_B": "9283257560c17fb71dac83b8eece09d4b0e75ae046159e5950480ae69b0b2b7a",
+        "answer_1_A": "9bb46eae1babd9c60e64b72c0585b13da28d61974b328cd920c0a4e909590be8",
+        "judge_P1": "57914937b8a160f15da6acf34f94a655f5dfbeec28eb0b51cead4cb60ac76712",
+        "answer_2_A": "614ff57732c2729fdc036a4c456165e5fb708a478b00b9eb2d2984a5c2a6e6fe",
+        "answer_2_B": "3ddcf8c4f1eefd3b0db42142760bb5cc649dcd89b4e79b8823a2b60fc54af685",
+        "judge_P2": "f8492f8e8329db3216c0ce98b93805ce50e6a2e4def8400c40dadd8eb7b4ddec",
+        "answer_3_B": "cac3e42b042a24cedfa7e10448af8feabec7810aeed55c6e33cf801d219733da",
+        "answer_3_A": "6d5dc1ea2c925a4e73e29275436e8a9c293225ec26ace4580900255528cf709f",
+        "judge_P3": "cfe1f339d12b6704cb6735ab3cdbbd7a717e7343e0fa9beb32a05931bf625d02",
+        "judge_E": "da44e9b728fa728ce251b9a539ee356cc417fb3774aa9531f9b2043d10aa01e5",
+        "judge_N": "30790af28f42e4247ccec3dd8258c9923bb4d00080beffc61a2d2e244cae89a1"
+      }
+    }
+  ],
+  "priors": [
+    {
+      "file": "prior.json",
+      "prompt_sha256": "0c84cfc51275aeb60d48e8cdc9737a02db40e2ae5c19de6b1df00dead11b4119",
+      "raw_sha256": "6848794304d1e8f3d796c5a131ee09a41b30114d3629be760c9f1c7e1b8d19e3"
+    }
+  ]
+}
