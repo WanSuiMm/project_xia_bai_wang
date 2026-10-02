@@ -1,4 +1,22 @@
-# Incremental review: grounded-card pilots
+# Latest incremental review: H2 qualification and neutral retry
+
+Review base: `c1423db801814b0d5da663bd9676ab0ad3bee347`.
+Evidence head: `9a5783a64a4402af507f4a0974af080a97506fff`.
+This handoff update is metadata-only; the evidence head remains fixed.
+
+Start with [amended comparison](v0_3_h2/RETRY_RESULTS.md), then [original cutoff report](v0_3_h2/RESULTS.md), [frozen protocol](v0_3_h2/PROTOCOL.md) and [explicit retry amendment](v0_3_h2/RETRY_PROTOCOL.md). Open [retry_analysis.json](v0_3_h2/retry_analysis.json) for the small canonical result; exact prompts and public receipts are secondary evidence.
+
+New work reuses the L01V1 transcript verbatim. Neutral is the exact historical N prompt; salient only reorders existing notation/fixed-input sentences before the inventory and changes paragraph breaks. No words or outcome evidence were added. The original A boundary-description error is unchanged. Frozen hashes and the public-word/non-public-content audits are in [bundle.json](v0_3_h2/bundle.json).
+
+The initial two sends captured salient p(A)=0.10; neutral timed out at cutoff. The user then explicitly authorized one fresh neutral rerun, which returned p(A)=0.50 and insufficient evidence. The amended difference is -0.40, but the historical neutral p(A)=0.10 was not roughly reproduced. Frozen verdict: `HISTORICAL_PATTERN_NOT_ROUGHLY_REPRODUCED`. Original cutoff evidence is separate and unchanged. There were three sends, two captured replies, no additional variants or quality-based selection.
+
+No presentation causal effect, task-designer mechanism, H1 result or population inference follows. Sampling/deployment variability and different send times remain unresolved. v0.1/v0.2 evidence and conclusions are unchanged; no new model calls were made for publication.
+
+Code route: `scripts/prepare_h2_probe.cjs` freezes prompts and refuses overwrite; `scripts/analyze_h2_probe.py` audits receipts and implements frozen qualification thresholds; `scripts/export_h2_runs.py` preserves research strings with allowlists; `scripts/verify_publication.py` checks staged privacy, links and manifest hashes. From repository root, with Python and Node.js available, run `python -X utf8 -B scripts/analyze_h2_probe.py` and `python -X utf8 -B scripts/analyze_h2_probe.py --neutral-retry`. Both reports were reproduced using published evidence only. The original prompt freeze remains unchanged; do not rerun its preparation script to overwrite it.
+
+Reviewer questions: Does the amended report keep original failure and authorized retry distinct? Does it resist interpreting the observed difference as an identified salience effect? Does the future design need repetitions and an error-free transcript before a mechanism claim?
+
+## Prior handoff: grounded-card pilots (background only)
 
 Review base: `5e834c2d1bab02e958c821687970dfd765ffa195` (published v0.1 pilot).
 Evidence head: `c0f2d891ced947fc040f75af5514a2acadb0d8d2`.
