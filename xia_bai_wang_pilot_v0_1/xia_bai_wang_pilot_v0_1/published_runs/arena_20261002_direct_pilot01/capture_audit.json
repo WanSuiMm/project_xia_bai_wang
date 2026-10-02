@@ -1,0 +1,123 @@
+[
+  {
+    "case_id": "D01",
+    "status": "completed",
+    "raw_count": 14,
+    "sent_count": 14,
+    "prompt_mismatches": [],
+    "rendered_json_mismatches": [],
+    "duplicate_raw_steps": [],
+    "missing_steps": [],
+    "word_length_deviations": [
+      {
+        "step": "opening_B",
+        "field": "explanation",
+        "words": 145,
+        "allowed": [
+          100,
+          140
+        ]
+      }
+    ],
+    "format_deviations": [],
+    "issue_flags": [
+      "other",
+      "technical_retry"
+    ]
+  },
+  {
+    "case_id": "P01",
+    "status": "completed",
+    "raw_count": 14,
+    "sent_count": 14,
+    "prompt_mismatches": [],
+    "rendered_json_mismatches": [],
+    "duplicate_raw_steps": [],
+    "missing_steps": [],
+    "word_length_deviations": [],
+    "format_deviations": [],
+    "issue_flags": []
+  },
+  {
+    "case_id": "P02",
+    "status": "completed",
+    "raw_count": 14,
+    "sent_count": 14,
+    "prompt_mismatches": [],
+    "rendered_json_mismatches": [],
+    "duplicate_raw_steps": [],
+    "missing_steps": [],
+    "word_length_deviations": [
+      {
+        "step": "judge_P3",
+        "field": "reason",
+        "words": 52,
+        "allowed": [
+          0,
+          50
+        ]
+      }
+    ],
+    "format_deviations": [
+      {
+        "step": "judge_E",
+        "kind": "commentary_outside_required_json"
+      }
+    ],
+    "issue_flags": [
+      "other"
+    ]
+  },
+  {
+    "case_id": "P03",
+    "status": "in_progress",
+    "raw_count": 10,
+    "sent_count": 11,
+    "prompt_mismatches": [],
+    "rendered_json_mismatches": [],
+    "duplicate_raw_steps": [],
+    "missing_steps": [
+      "answer_3_B",
+      "judge_P3",
+      "judge_E",
+      "judge_N"
+    ],
+    "word_length_deviations": [],
+    "format_deviations": [],
+    "issue_flags": [
+      "other",
+      "technical_retry",
+      "unexpected_model_change"
+    ]
+  },
+  {
+    "case_id": "P04",
+    "status": "completed",
+    "raw_count": 14,
+    "sent_count": 14,
+    "prompt_mismatches": [],
+    "rendered_json_mismatches": [],
+    "duplicate_raw_steps": [],
+    "missing_steps": [],
+    "word_length_deviations": [
+      {
+        "step": "judge_N",
+        "field": "reason",
+        "words": 57,
+        "allowed": [
+          0,
+          50
+        ]
+      }
+    ],
+    "format_deviations": [
+      {
+        "step": "judge_E",
+        "kind": "commentary_outside_required_json"
+      }
+    ],
+    "issue_flags": [
+      "other"
+    ]
+  }
+]

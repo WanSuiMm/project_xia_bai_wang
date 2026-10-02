@@ -1,0 +1,100 @@
+{
+  "case_id": "P14",
+  "split": "main",
+  "term": "Velsori pass",
+  "features": [
+    {
+      "name": "token",
+      "values": [
+        "wood",
+        "stone"
+      ]
+    },
+    {
+      "name": "mark",
+      "values": [
+        "cross",
+        "spiral"
+      ]
+    },
+    {
+      "name": "path",
+      "values": [
+        "short",
+        "long"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "Q1",
+      "inputs": {
+        "token": "wood",
+        "mark": "cross",
+        "path": "short"
+      }
+    },
+    {
+      "id": "Q2",
+      "inputs": {
+        "token": "wood",
+        "mark": "cross",
+        "path": "long"
+      }
+    },
+    {
+      "id": "Q3",
+      "inputs": {
+        "token": "wood",
+        "mark": "spiral",
+        "path": "short"
+      }
+    },
+    {
+      "id": "Q4",
+      "inputs": {
+        "token": "wood",
+        "mark": "spiral",
+        "path": "long"
+      }
+    },
+    {
+      "id": "Q5",
+      "inputs": {
+        "token": "stone",
+        "mark": "cross",
+        "path": "short"
+      }
+    },
+    {
+      "id": "Q6",
+      "inputs": {
+        "token": "stone",
+        "mark": "cross",
+        "path": "long"
+      }
+    },
+    {
+      "id": "Q7",
+      "inputs": {
+        "token": "stone",
+        "mark": "spiral",
+        "path": "short"
+      }
+    },
+    {
+      "id": "Q8",
+      "inputs": {
+        "token": "stone",
+        "mark": "spiral",
+        "path": "long"
+      }
+    }
+  ],
+  "check_ids": [
+    "Q3",
+    "Q4",
+    "Q6"
+  ],
+  "public_text": "Term: Velsori pass.\nSetting: a fictional garden-token entry convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: token = wood; mark = cross; path = short.\nQ2: token = wood; mark = cross; path = long.\nQ3: token = wood; mark = spiral; path = short.\nQ4: token = wood; mark = spiral; path = long.\nQ5: token = stone; mark = cross; path = short.\nQ6: token = stone; mark = cross; path = long.\nQ7: token = stone; mark = spiral; path = short.\nQ8: token = stone; mark = spiral; path = long.\nOpening check commitments: Q3, Q4, Q6. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet."
+}

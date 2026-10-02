@@ -1,0 +1,100 @@
+{
+  "case_id": "P07",
+  "split": "main",
+  "term": "Arveth latch",
+  "features": [
+    {
+      "name": "dial",
+      "values": [
+        "low",
+        "high"
+      ]
+    },
+    {
+      "name": "lever",
+      "values": [
+        "in",
+        "out"
+      ]
+    },
+    {
+      "name": "plate",
+      "values": [
+        "smooth",
+        "ridged"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "Q1",
+      "inputs": {
+        "dial": "low",
+        "lever": "in",
+        "plate": "smooth"
+      }
+    },
+    {
+      "id": "Q2",
+      "inputs": {
+        "dial": "low",
+        "lever": "in",
+        "plate": "ridged"
+      }
+    },
+    {
+      "id": "Q3",
+      "inputs": {
+        "dial": "low",
+        "lever": "out",
+        "plate": "smooth"
+      }
+    },
+    {
+      "id": "Q4",
+      "inputs": {
+        "dial": "low",
+        "lever": "out",
+        "plate": "ridged"
+      }
+    },
+    {
+      "id": "Q5",
+      "inputs": {
+        "dial": "high",
+        "lever": "in",
+        "plate": "smooth"
+      }
+    },
+    {
+      "id": "Q6",
+      "inputs": {
+        "dial": "high",
+        "lever": "in",
+        "plate": "ridged"
+      }
+    },
+    {
+      "id": "Q7",
+      "inputs": {
+        "dial": "high",
+        "lever": "out",
+        "plate": "smooth"
+      }
+    },
+    {
+      "id": "Q8",
+      "inputs": {
+        "dial": "high",
+        "lever": "out",
+        "plate": "ridged"
+      }
+    }
+  ],
+  "check_ids": [
+    "Q1",
+    "Q6",
+    "Q7"
+  ],
+  "public_text": "Term: Arveth latch.\nSetting: a stage-prop latch activation convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: dial = low; lever = in; plate = smooth.\nQ2: dial = low; lever = in; plate = ridged.\nQ3: dial = low; lever = out; plate = smooth.\nQ4: dial = low; lever = out; plate = ridged.\nQ5: dial = high; lever = in; plate = smooth.\nQ6: dial = high; lever = in; plate = ridged.\nQ7: dial = high; lever = out; plate = smooth.\nQ8: dial = high; lever = out; plate = ridged.\nOpening check commitments: Q1, Q6, Q7. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet."
+}

@@ -1,0 +1,15 @@
+Term: Yelvar check.
+Setting: an imaginary badge-validation convention.
+This is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.
+Each input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.
+The same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.
+Possible inputs (IDs are just local labels):
+Q1: badge = small; stripe = solid; clip = upper.
+Q2: badge = small; stripe = solid; clip = lower.
+Q3: badge = small; stripe = dashed; clip = upper.
+Q4: badge = small; stripe = dashed; clip = lower.
+Q5: badge = large; stripe = solid; clip = upper.
+Q6: badge = large; stripe = solid; clip = lower.
+Q7: badge = large; stripe = dashed; clip = upper.
+Q8: badge = large; stripe = dashed; clip = lower.
+Opening check commitments: Q1, Q2, Q6. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.

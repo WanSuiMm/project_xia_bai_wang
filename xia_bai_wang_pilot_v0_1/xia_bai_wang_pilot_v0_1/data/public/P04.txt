@@ -1,0 +1,15 @@
+Term: Ostren binding.
+Setting: a museum catalog binding convention.
+This is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.
+Each input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.
+The same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.
+Possible inputs (IDs are just local labels):
+Q1: cover = soft; spine mark = one line; shelf = upper.
+Q2: cover = soft; spine mark = one line; shelf = lower.
+Q3: cover = soft; spine mark = two lines; shelf = upper.
+Q4: cover = soft; spine mark = two lines; shelf = lower.
+Q5: cover = rigid; spine mark = one line; shelf = upper.
+Q6: cover = rigid; spine mark = one line; shelf = lower.
+Q7: cover = rigid; spine mark = two lines; shelf = upper.
+Q8: cover = rigid; spine mark = two lines; shelf = lower.
+Opening check commitments: Q3, Q6, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.

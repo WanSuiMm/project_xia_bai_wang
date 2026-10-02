@@ -1,0 +1,15 @@
+Term: Felmara order.
+Setting: an imaginary parcel routing convention.
+This is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.
+Each input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.
+The same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.
+Possible inputs (IDs are just local labels):
+Q1: box = tall; label = triangle; bay = alpha.
+Q2: box = tall; label = triangle; bay = beta.
+Q3: box = tall; label = circle; bay = alpha.
+Q4: box = tall; label = circle; bay = beta.
+Q5: box = low; label = triangle; bay = alpha.
+Q6: box = low; label = triangle; bay = beta.
+Q7: box = low; label = circle; bay = alpha.
+Q8: box = low; label = circle; bay = beta.
+Opening check commitments: Q3, Q5, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.

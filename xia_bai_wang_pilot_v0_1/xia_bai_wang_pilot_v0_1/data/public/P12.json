@@ -1,0 +1,100 @@
+{
+  "case_id": "P12",
+  "split": "main",
+  "term": "Felmara order",
+  "features": [
+    {
+      "name": "box",
+      "values": [
+        "tall",
+        "low"
+      ]
+    },
+    {
+      "name": "label",
+      "values": [
+        "triangle",
+        "circle"
+      ]
+    },
+    {
+      "name": "bay",
+      "values": [
+        "alpha",
+        "beta"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "Q1",
+      "inputs": {
+        "box": "tall",
+        "label": "triangle",
+        "bay": "alpha"
+      }
+    },
+    {
+      "id": "Q2",
+      "inputs": {
+        "box": "tall",
+        "label": "triangle",
+        "bay": "beta"
+      }
+    },
+    {
+      "id": "Q3",
+      "inputs": {
+        "box": "tall",
+        "label": "circle",
+        "bay": "alpha"
+      }
+    },
+    {
+      "id": "Q4",
+      "inputs": {
+        "box": "tall",
+        "label": "circle",
+        "bay": "beta"
+      }
+    },
+    {
+      "id": "Q5",
+      "inputs": {
+        "box": "low",
+        "label": "triangle",
+        "bay": "alpha"
+      }
+    },
+    {
+      "id": "Q6",
+      "inputs": {
+        "box": "low",
+        "label": "triangle",
+        "bay": "beta"
+      }
+    },
+    {
+      "id": "Q7",
+      "inputs": {
+        "box": "low",
+        "label": "circle",
+        "bay": "alpha"
+      }
+    },
+    {
+      "id": "Q8",
+      "inputs": {
+        "box": "low",
+        "label": "circle",
+        "bay": "beta"
+      }
+    }
+  ],
+  "check_ids": [
+    "Q3",
+    "Q5",
+    "Q8"
+  ],
+  "public_text": "Term: Felmara order.\nSetting: an imaginary parcel routing convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: box = tall; label = triangle; bay = alpha.\nQ2: box = tall; label = triangle; bay = beta.\nQ3: box = tall; label = circle; bay = alpha.\nQ4: box = tall; label = circle; bay = beta.\nQ5: box = low; label = triangle; bay = alpha.\nQ6: box = low; label = triangle; bay = beta.\nQ7: box = low; label = circle; bay = alpha.\nQ8: box = low; label = circle; bay = beta.\nOpening check commitments: Q3, Q5, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet."
+}

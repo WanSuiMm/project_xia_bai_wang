@@ -1,0 +1,15 @@
+Term: Senvar passage.
+Setting: a fictional tabletop crossing convention.
+This is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.
+Each input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.
+The same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.
+Possible inputs (IDs are just local labels):
+Q1: tile = pale; arrow = north; marker = single.
+Q2: tile = pale; arrow = north; marker = double.
+Q3: tile = pale; arrow = south; marker = single.
+Q4: tile = pale; arrow = south; marker = double.
+Q5: tile = dark; arrow = north; marker = single.
+Q6: tile = dark; arrow = north; marker = double.
+Q7: tile = dark; arrow = south; marker = single.
+Q8: tile = dark; arrow = south; marker = double.
+Opening check commitments: Q5, Q7, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.

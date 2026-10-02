@@ -1,0 +1,178 @@
+{
+  "source_policy": "Original local run is unchanged and excluded from Git. Published records remove private conversation URLs, screenshots and machine paths.",
+  "records": [
+    {
+      "case_id": "D01",
+      "case_sha256": "dc45fae1dca1c74a657927c5d82da4ebe41f943ace1b120a418f54db9d4f365f",
+      "raw_sha256": {
+        "opening_A": "a0afd005e85146cfa030ea833252bc5cd4cf3de9c2bf4f1f70616d0d66b2c542",
+        "opening_B": "ce7104214f016536c6e63eb4afd881f4531b5303f5d1556c030d8f5c65457e24",
+        "judge_P0": "b6f7afc41421c49b66684009271161692d96a75f8d0836c2775ea037218a5e19",
+        "answer_1_A": "d0734993b2db646a345d27df2ca1fe18f0344c10d6a65b0e631a988234eb5513",
+        "answer_1_B": "2d4b66841af88d78d69b4295897b1c3d2685d33b73839dd0f5d407a13eae65ac",
+        "judge_P1": "884d6a65a11a49b3b8b11235c0f97f8cdb8073ab56be0cfe898bccb6c0edc71b",
+        "answer_2_B": "1ac2cc9d26b20d429f1dd8f9c51be6fd4154a99bfef4fa31ebfdd10dd523f188",
+        "answer_2_A": "b868ebe2b2084d3e351f0a7c23906902cbe3b3fd5ba9ee02ed3e6c9c1769428e",
+        "judge_P2": "a8d923b816f9b8d3df86d78127ee5d2ad97d39ed9c276bf4cd15c3ea823639c3",
+        "answer_3_A": "6719c6e55f0eef97d26f7bc33b4c5e3d323f93d984683ccae2b8412da88dc4ea",
+        "answer_3_B": "b6d4f2ea22de8a8e4d14cda09ea6e049180b40bbef31ff4b4d32fe8bc6ee62ae",
+        "judge_P3": "695bdfcd5d8095e8e85104eee10f54a5f3e867046da2b9074bae4c735c95dfc0",
+        "judge_N": "d79b70ee19f653143d94c24bab98c5784782b92529ce82d9169d5be4796c4ac4",
+        "judge_E": "e7fef7602900c7479eed9f2c3eab4768eb1640fa0dac090732f1cb4cf9b310ff"
+      },
+      "prompt_sha256": {
+        "opening_A": "49384e263b5a1fc80adc0ebcf366d0359d6a0963635d0bf05283dc7bf7ce2f98",
+        "opening_B": "75114716c917c04eb2c02cf37a18201ad62c684acf6544fd44238802941f0e91",
+        "judge_P0": "d0b698a4d17d6ee0b9e87645b62c93724b3196964ffdfa45715743057be11959",
+        "answer_1_A": "6647020e366ba04e9799f8150f4f6cf6a737554019b099131cfc4b148c698221",
+        "answer_1_B": "30995ebd63b372e7e5902210436421fb4306f7584dbfee87c14cc823df58ee56",
+        "judge_P1": "b5074008deee5551dcb2745bc69268d915d48bce46b391d1ddc2809ddd348482",
+        "answer_2_B": "f10b9700010b50cbc689faf342bbfa3da5d7f0df02e1b2e97299f89c66a113d5",
+        "answer_2_A": "ce1e4069f878e282ee2de7c2a42657f1ab8e96cf4b78eb30011d7803ddad1b87",
+        "judge_P2": "d12132c4a2eebe7a16afe7d7b26b6b1fc8ad50901d24638e3f2d9b1e492512eb",
+        "answer_3_A": "ca0b2175920f6ba02fe3b5961b8e30e3755dd680255c7fa58769e07833248f2d",
+        "answer_3_B": "efd126f0f3be5b35405341c25591cc9709d2ab10eb86b1ac6a133f8c2adc82eb",
+        "judge_P3": "7aa38caa0f31e59e55b675679587b918325f61e895fa5b7a660eaa6908c53579",
+        "judge_N": "6761fe8c3bdaceeaf227992342a43d50abc29ca472676709b61eb7215f71cf99",
+        "judge_E": "c65a0371e9c0d619d4e6f8309ff511b18dfb77c73d91e74a89810ae332ff3867"
+      }
+    },
+    {
+      "case_id": "P01",
+      "case_sha256": "2e78aa52bb689ba6774125e6b79e8fefcba111878d8ad5a227f73952ea39ccb1",
+      "raw_sha256": {
+        "opening_A": "8929906537edfe2203bb8e105f32aade88f253fc8ea2699d21f46f75a21e6d53",
+        "opening_B": "bdca62895fabe2d9051420a853184ee98fb863e794c07d0bfa8700620fa83d44",
+        "judge_P0": "34dcbe8cb140fc13e8498a53f2a00f770713d16458a8b79ddc946af353f81f57",
+        "answer_1_A": "7def87eb4a77e8f9c638495413547ce3fec93c17b7d49c2f462fab31a51fa0bf",
+        "answer_1_B": "be232d23078f8217c3a982379b932a30c21c592382c72cfd380e8b7a76823d12",
+        "judge_P1": "fa6ab51041973f9dc619c858c777fb261de9fde97ed8a12851cad3eba1a06341",
+        "answer_2_B": "85755b0e8185b3f14cbe707e26d8eaa11760bf20f53215c076d1733c22b59694",
+        "answer_2_A": "ea8a873bd0dda868071d90a6aedbbc29dc0937b236c7d259e6264f5fe45a3a8a",
+        "judge_P2": "119ff07bd40579f4e913c0f2e7bce7dd9175bb170875bab7d4461c26046ec0d3",
+        "answer_3_A": "37343ca14e8fb34f56b34476e4b028b113df96ca83c958c043529eaf9f2f944a",
+        "answer_3_B": "764b1e055631b51274b21c052caf553cfd1dbeba277fe6b279b34a8d10d9cc78",
+        "judge_P3": "11a72ba030f90adbb4c61ab6aaf4f2589a84c45fc015bd47464346b47b6764da",
+        "judge_N": "a9cb2638d1dcf0c82276d5f8aab4007651d024687e08e2f604ba643ce7004e06",
+        "judge_E": "70753cac090ae51bb9aca21216e51f1eaeaf3c864d002bdc79ab23fb507661a6"
+      },
+      "prompt_sha256": {
+        "opening_A": "349f506ca3f39fde75ce86293f8a549fcef108d8c3214292c239a1679995233c",
+        "opening_B": "36aecc1ce8b43b361c348b282deff20a6869e87a1e56f549ce2f826b70a32f24",
+        "judge_P0": "9510e5e806fafdbaae8a6f74a1e26790552fc0dbfb4e323b1db4cbe15fa889d5",
+        "answer_1_A": "d3b9fdee1b1d7d636a47a45d027fca156fcc1c158a7b599371d4691cbda16d9c",
+        "answer_1_B": "ee1733023ee97ce25843246276dc15130b94f56d8f6f1a379aa6514a4f471ba8",
+        "judge_P1": "7c5ca7620e680ac95d6477177f0fecc2ec2ad2412e71edc9f8f482f9aec4affe",
+        "answer_2_B": "20e6c53d505d9f1550b18fc190acb6dd33e97177c2d2380d5c06481cde097933",
+        "answer_2_A": "cb172bc8a0c444275e003be2234a26ef895aece8dd2003614d4c5f9937d00f7d",
+        "judge_P2": "632aa1a1a17c38801ceba51571e7522fc77e5f916a36f2a587f3c62cd54c489d",
+        "answer_3_A": "94e40f11099702d1e4ca8ea4ddafb495124e1fb84fda380ee6080ddc9e98c37a",
+        "answer_3_B": "a805bbf2fa241840839dfc01c857c3c5f2628e8fe6b2f2911be3fe56f71096ab",
+        "judge_P3": "8729d7573717bf1cce88650663ffd68392fde5e2b3784d7b3a8280873e07f135",
+        "judge_N": "9705a2f418853c70051ef1a71a45ffa0ba843600d08dcc03410f6f76513d6024",
+        "judge_E": "86f234b503bf43c41fcb1850a1364a839680d91be0dc8187817eef5136c02223"
+      }
+    },
+    {
+      "case_id": "P02",
+      "case_sha256": "8cd675d2ec057b7f10bd390a55b078bd9a8d493582d89117f11f63de345acc86",
+      "raw_sha256": {
+        "opening_A": "37edb8a2fc2909d5bfe61c3114bbf125b0b655b27f257d965c8c6aa55caad8fe",
+        "opening_B": "8d57905c283d551c36608b4db0f07872a67896ba4c2d0ab04f8928123141a062",
+        "judge_P0": "609ffce7679945e6d378af7806fbf66cbe11a8f6268abf5ce908fd90251ccca5",
+        "answer_1_B": "0b032b28bcf5fd46109fc2ec5ade892f36308fade727a87b5d11dd74b82422de",
+        "answer_1_A": "625eae35047bceae7b13ed64ecc4f3437118894e289b7972db29941af77003a1",
+        "judge_P1": "eb316653315a42dc768b2c88eb82f0fc7c13c1a2a47d2f093154c4b55dac87b1",
+        "answer_2_B": "be40760ec85a4ccb485bed3d2bdbeba3607d27afaf4b3432e9603aa4ed05fea3",
+        "answer_2_A": "06af345c9ce81db7955b44a1fc1c41cdf1f597620ccc2e901a2908b658b65dec",
+        "judge_P2": "79a0eb024d90c7afc107399a9e8273cb3f1878c7121e00289fb0dac554429188",
+        "answer_3_B": "8711eb3025f5396e6d9158943fa92277bcb921c0588eacad4825290c69ff6ac3",
+        "answer_3_A": "2d8a9f5a5adbf8b1430db10322fb95a0aca2af35bfb546c2b313e79ef5a71a06",
+        "judge_P3": "50785585004a0c032135420b01eadc437091dd0a198aede4ebc2e8aa6d96bbb2",
+        "judge_E": "abaec08f04f2faef0b4d46bdd0158182b409b2a3a5b16cc1974285073f4ead3b",
+        "judge_N": "c113dfeb7966b5c250ffefb347d37f438c770b1be8a87d3e250175136ccda5b9"
+      },
+      "prompt_sha256": {
+        "opening_A": "4c905d86b36d6e889b3bac3e8ad259b0edd0572d6fb525e0efcac02c883b1c87",
+        "opening_B": "3cd113525f51758964a96e5a77049cf9bf6f22ba79866d48d78a1012223055a4",
+        "judge_P0": "f16ea20acf063ba70e6596d09ac5115788a2534904def64ec4815b3472b38d4a",
+        "answer_1_B": "3b349d14ef92bc88fbee54925a691a6f17aae5d89dc8f3b717add8d4a8857ebd",
+        "answer_1_A": "91fe3ddee6f20b6e5995b3a4c8bb7d806742615bb64ae232a2184826c44164f1",
+        "judge_P1": "48d9d3efb0993b3d6becae809db2da1d921bc31552bf3c96b9cb1f8a82b23d56",
+        "answer_2_B": "f2dbc9d1255d0782dbaee37f6b24f6e399f5efae65f652677a058feae137fe05",
+        "answer_2_A": "227402bb294e8e6fdb40b4214181065a3b317c1783e87c8070844e9c44883981",
+        "judge_P2": "6d0529b1950e5433e40caa96dc2d8c59f99103777e0189a5bb133c2a84c04f84",
+        "answer_3_B": "790b3a720ba2f35c0ff149ec9a38c66f227623a3bb26840a75cf9c8b2cf56f79",
+        "answer_3_A": "394819534a40db1d7eb56827905e93be5e3cb9e595b6aeae49c5825d1ed51491",
+        "judge_P3": "5c8fe816f9d2fd8edf488ee2365a1faadc20d7da1ae8dd9790ac701f2ed97d1a",
+        "judge_E": "9401572a5b69b64bbbad0e567e2629443c7d7c143a8b9f49a6a57253d4033376",
+        "judge_N": "9cd752336764ad9766a6c0a39f245e8f53dc67ce088fb344b3e2263bc6df3d03"
+      }
+    },
+    {
+      "case_id": "P03",
+      "case_sha256": "f09b0bb6ebbceb4f75cd99dff8c1fe6ddccca8aaabd2f9b6c165e34bcefc887b",
+      "raw_sha256": {
+        "opening_B": "a02babe97f8672d442c62541fd64d40aeb00e7fad9aca69f3d48c9e3d1fedd2d",
+        "opening_A": "f488c3abe3153073e4dacf45cd8465c5d8ca8861c0328b723f73e7609004ed94",
+        "judge_P0": "8a51118868e61bc69d88c31cff4877e7d66bd2683b41f7f283e5185e490abc20",
+        "answer_1_B": "0805624c861b1c676f69eed6ef52ab70589ae286ab7506b0a8eb9fe654c8f9b5",
+        "answer_1_A": "a3158173bb2ed79c1037dc8d2c829c2ac85aeede58ae9ba9ae05d2b752716d5a",
+        "judge_P1": "e0f56818e83e4672b49ec5d54cfe6d57ccb9423cbf5d9f3b199de96d5e8f1b0b",
+        "answer_2_B": "0518541b33596f70cfc21b599621bf2e0c5dc485469d131974452739a116bcfe",
+        "answer_2_A": "204eaf695f7593444c856a52bd113a11c340ad492bde4a6161b75fb68468f0ef",
+        "judge_P2": "d30a80530acd4626b7608ba5ce810b7edb97eaa032a2766cf15016a048670439",
+        "answer_3_A": "f994860b9ef1f4d7aa6334c3daeae02a82e418355d69478b987ac16cfbb71342"
+      },
+      "prompt_sha256": {
+        "opening_B": "10573af77c761a443b2e4241f70d89ff8e892a94163c2ca3fabee9ea44b065c4",
+        "opening_A": "b507ac8d2dcb320b00c2551b3a252dbd2b13476fff8bc5bb17b12521d8b52383",
+        "judge_P0": "8e4c85f6cfa5c4c143b9f289c2f0a51ba052400e85c3a14004e52659f8e15963",
+        "answer_1_B": "564d07d3768eba6c320175c4c8f575bc73ec2df805ec310345e43a122672c00a",
+        "answer_1_A": "2933de03192591af8131383a91cb783feec68ea561e76a7176a138945a461be2",
+        "judge_P1": "869512206b9c4170e3ceee6b221b28cc4fc2e6ea0ee23e45e8f5f44f0b08bed3",
+        "answer_2_B": "df91e914877dfa2c775a8acfd7ab64b1d3eac0a6177659cd8bbbd16876ea26b5",
+        "answer_2_A": "0d3aca479ac39f1f26001f65fc3b65bfef670df63c83119382f98bbd8577a8a8",
+        "judge_P2": "6bbe7ee6610499ac9c1804c43c80aca958e0f8a10ee1cd2dcd4158923405f532",
+        "answer_3_A": "21212a2fda843bf0504f2632df92994c1eefce7ee8a1b5ee1daa0decffd22178",
+        "answer_3_B": "eb17ebba3c931fec43d280ab2654066af49b0ce56d8ca0d7bfef749b3a072baa"
+      }
+    },
+    {
+      "case_id": "P04",
+      "case_sha256": "c9e1a909b6b0552c228024b0a93b612dbfce4f7044159f7db75f9e7bba4526b1",
+      "raw_sha256": {
+        "opening_A": "0f4d68cb0222a60e16d720b0870f22930c65d0ea46f6ee65e71ec75ca4f99241",
+        "opening_B": "1c0a3b4d052159c2defea3ad3a948abf0ec0329fddc2e622f9267efc82d6c479",
+        "judge_P0": "b38ca774ff313a491a9bb985bcdb5ad8c6603b5a9bf72f9e2327aa040b7943fd",
+        "answer_1_A": "6fd890dc7eaf1ee9fb95caeda7ac333e7bbcac158e98fa1267c334328ed87989",
+        "answer_1_B": "aeb5301d73d4421646c5655afdad74d11e184f8c9b59fedb06b6cce079ecd151",
+        "judge_P1": "eb4a8ca12c8dc4908b538f7108ba7f857a3a97a06ec89359595e2c4f0bdb048b",
+        "answer_2_A": "f4876395d50af64dcff8c7769a3b5f2463794360ba1617c3b8e645e9234aabe5",
+        "answer_2_B": "f7e3c9be9576ad128ab0891179afd9d67feb4cb96056ef50f28d9446d07851ed",
+        "judge_P2": "e6fa55b92c8540fed81f6aac7e7de8bce38ed90c946320a8b9f346dd27623e15",
+        "answer_3_B": "4d8966c2c8f05648bab3a7f12fafe6018618bbfa4c96ba5d018b943a3848313c",
+        "answer_3_A": "b93b044d5ff9c59a2970196d8a0666c7681f2058e980108f4632d8202df3cc14",
+        "judge_P3": "7b0504c7a0733deba51929b071727e9973f660013ff72add1f93e3e6bee08a35",
+        "judge_N": "b157c632a5d0984ccc055094208b027f125fb1a609f1743665b0049a02551526",
+        "judge_E": "e7f85182d87f629258ad1a6a85ba32c0b1494159b250536dcb916474c1eeed08"
+      },
+      "prompt_sha256": {
+        "opening_A": "8cef8a8bb6651f4524e34a5187715836f7a765db24dad7e934fa6fc0e3ea3c26",
+        "opening_B": "19d3cba6160107a4a2f76ef7ef9c4e76ba2b48e0603098da3ad430f05e7c57aa",
+        "judge_P0": "fd7e05413539273b03f7e5a9df4bf6047d1830a6764e7fee6b911748532fb5ef",
+        "answer_1_A": "f44e38358b845fb8ec97671e6415b802d3d89dde64ab259e97b71253241a5bb8",
+        "answer_1_B": "9217b023de8d430dbbb1ee5ad751c1a6803a1184e528427fc2b29ceb3f682116",
+        "judge_P1": "6ef0fcd18ed2627d72ca3303418da541440c0fbf59b959c96463beb292c0e79e",
+        "answer_2_A": "2b7d63db8b1820aa4be798a32bd65ba80596f4462d8e435a85f624df4960d6b3",
+        "answer_2_B": "4fa7a8763bb404c687046e19f72cb8e04b00cba5cc36c00191e967e92f254a42",
+        "judge_P2": "8ad2f2d04cd891891792bdc7c7eaa22fc29dd431b9073686306d3bc5ae1dc95f",
+        "answer_3_B": "ed411ff30816912338b3f883c32142f3009a1ac5728403e98043280a0f29aea1",
+        "answer_3_A": "0bbaeccc292b186b1306baeb28726d61d27d8ef0835c7365fb5913fccbf6976a",
+        "judge_P3": "58c0808076f03249244f37f436e0e65fb3f11717de8725caca1f911452a2e915",
+        "judge_N": "4ae0e848f3ae690230633e8d8fea87ed2d4a3ffc8b7c0e06c9b1d264e16ecf3a",
+        "judge_E": "2487963a57f17dd9b723501fba4c9d8d1f3158266f6d7deb55e5ff926407b36a"
+      }
+    }
+  ]
+}

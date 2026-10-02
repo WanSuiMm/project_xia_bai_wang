@@ -1,0 +1,100 @@
+{
+  "case_id": "P13",
+  "split": "main",
+  "term": "Istralen fold",
+  "features": [
+    {
+      "name": "paper",
+      "values": [
+        "matte",
+        "glossy"
+      ]
+    },
+    {
+      "name": "crease",
+      "values": [
+        "vertical",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "seal",
+      "values": [
+        "black",
+        "white"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "Q1",
+      "inputs": {
+        "paper": "matte",
+        "crease": "vertical",
+        "seal": "black"
+      }
+    },
+    {
+      "id": "Q2",
+      "inputs": {
+        "paper": "matte",
+        "crease": "vertical",
+        "seal": "white"
+      }
+    },
+    {
+      "id": "Q3",
+      "inputs": {
+        "paper": "matte",
+        "crease": "horizontal",
+        "seal": "black"
+      }
+    },
+    {
+      "id": "Q4",
+      "inputs": {
+        "paper": "matte",
+        "crease": "horizontal",
+        "seal": "white"
+      }
+    },
+    {
+      "id": "Q5",
+      "inputs": {
+        "paper": "glossy",
+        "crease": "vertical",
+        "seal": "black"
+      }
+    },
+    {
+      "id": "Q6",
+      "inputs": {
+        "paper": "glossy",
+        "crease": "vertical",
+        "seal": "white"
+      }
+    },
+    {
+      "id": "Q7",
+      "inputs": {
+        "paper": "glossy",
+        "crease": "horizontal",
+        "seal": "black"
+      }
+    },
+    {
+      "id": "Q8",
+      "inputs": {
+        "paper": "glossy",
+        "crease": "horizontal",
+        "seal": "white"
+      }
+    }
+  ],
+  "check_ids": [
+    "Q2",
+    "Q5",
+    "Q8"
+  ],
+  "public_text": "Term: Istralen fold.\nSetting: a puzzle-paper classification convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: paper = matte; crease = vertical; seal = black.\nQ2: paper = matte; crease = vertical; seal = white.\nQ3: paper = matte; crease = horizontal; seal = black.\nQ4: paper = matte; crease = horizontal; seal = white.\nQ5: paper = glossy; crease = vertical; seal = black.\nQ6: paper = glossy; crease = vertical; seal = white.\nQ7: paper = glossy; crease = horizontal; seal = black.\nQ8: paper = glossy; crease = horizontal; seal = white.\nOpening check commitments: Q2, Q5, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet."
+}

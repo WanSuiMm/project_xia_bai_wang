@@ -1,0 +1,100 @@
+{
+  "case_id": "P08",
+  "split": "main",
+  "term": "Senvar passage",
+  "features": [
+    {
+      "name": "tile",
+      "values": [
+        "pale",
+        "dark"
+      ]
+    },
+    {
+      "name": "arrow",
+      "values": [
+        "north",
+        "south"
+      ]
+    },
+    {
+      "name": "marker",
+      "values": [
+        "single",
+        "double"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "Q1",
+      "inputs": {
+        "tile": "pale",
+        "arrow": "north",
+        "marker": "single"
+      }
+    },
+    {
+      "id": "Q2",
+      "inputs": {
+        "tile": "pale",
+        "arrow": "north",
+        "marker": "double"
+      }
+    },
+    {
+      "id": "Q3",
+      "inputs": {
+        "tile": "pale",
+        "arrow": "south",
+        "marker": "single"
+      }
+    },
+    {
+      "id": "Q4",
+      "inputs": {
+        "tile": "pale",
+        "arrow": "south",
+        "marker": "double"
+      }
+    },
+    {
+      "id": "Q5",
+      "inputs": {
+        "tile": "dark",
+        "arrow": "north",
+        "marker": "single"
+      }
+    },
+    {
+      "id": "Q6",
+      "inputs": {
+        "tile": "dark",
+        "arrow": "north",
+        "marker": "double"
+      }
+    },
+    {
+      "id": "Q7",
+      "inputs": {
+        "tile": "dark",
+        "arrow": "south",
+        "marker": "single"
+      }
+    },
+    {
+      "id": "Q8",
+      "inputs": {
+        "tile": "dark",
+        "arrow": "south",
+        "marker": "double"
+      }
+    }
+  ],
+  "check_ids": [
+    "Q5",
+    "Q7",
+    "Q8"
+  ],
+  "public_text": "Term: Senvar passage.\nSetting: a fictional tabletop crossing convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: tile = pale; arrow = north; marker = single.\nQ2: tile = pale; arrow = north; marker = double.\nQ3: tile = pale; arrow = south; marker = single.\nQ4: tile = pale; arrow = south; marker = double.\nQ5: tile = dark; arrow = north; marker = single.\nQ6: tile = dark; arrow = north; marker = double.\nQ7: tile = dark; arrow = south; marker = single.\nQ8: tile = dark; arrow = south; marker = double.\nOpening check commitments: Q5, Q7, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet."
+}

@@ -1,0 +1,100 @@
+{
+  "case_id": "P09",
+  "split": "main",
+  "term": "Ulmerin mark",
+  "features": [
+    {
+      "name": "slip",
+      "values": [
+        "wide",
+        "narrow"
+      ]
+    },
+    {
+      "name": "seal",
+      "values": [
+        "open",
+        "closed"
+      ]
+    },
+    {
+      "name": "desk",
+      "values": [
+        "first",
+        "second"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "Q1",
+      "inputs": {
+        "slip": "wide",
+        "seal": "open",
+        "desk": "first"
+      }
+    },
+    {
+      "id": "Q2",
+      "inputs": {
+        "slip": "wide",
+        "seal": "open",
+        "desk": "second"
+      }
+    },
+    {
+      "id": "Q3",
+      "inputs": {
+        "slip": "wide",
+        "seal": "closed",
+        "desk": "first"
+      }
+    },
+    {
+      "id": "Q4",
+      "inputs": {
+        "slip": "wide",
+        "seal": "closed",
+        "desk": "second"
+      }
+    },
+    {
+      "id": "Q5",
+      "inputs": {
+        "slip": "narrow",
+        "seal": "open",
+        "desk": "first"
+      }
+    },
+    {
+      "id": "Q6",
+      "inputs": {
+        "slip": "narrow",
+        "seal": "open",
+        "desk": "second"
+      }
+    },
+    {
+      "id": "Q7",
+      "inputs": {
+        "slip": "narrow",
+        "seal": "closed",
+        "desk": "first"
+      }
+    },
+    {
+      "id": "Q8",
+      "inputs": {
+        "slip": "narrow",
+        "seal": "closed",
+        "desk": "second"
+      }
+    }
+  ],
+  "check_ids": [
+    "Q6",
+    "Q7",
+    "Q8"
+  ],
+  "public_text": "Term: Ulmerin mark.\nSetting: an imaginary library checkout convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: slip = wide; seal = open; desk = first.\nQ2: slip = wide; seal = open; desk = second.\nQ3: slip = wide; seal = closed; desk = first.\nQ4: slip = wide; seal = closed; desk = second.\nQ5: slip = narrow; seal = open; desk = first.\nQ6: slip = narrow; seal = open; desk = second.\nQ7: slip = narrow; seal = closed; desk = first.\nQ8: slip = narrow; seal = closed; desk = second.\nOpening check commitments: Q6, Q7, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet."
+}

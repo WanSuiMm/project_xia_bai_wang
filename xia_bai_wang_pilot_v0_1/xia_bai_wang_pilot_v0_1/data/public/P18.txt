@@ -1,0 +1,15 @@
+Term: Panvessa cue.
+Setting: a fictional theater-cue authorization convention.
+This is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.
+Each input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.
+The same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.
+Possible inputs (IDs are just local labels):
+Q1: card = horizontal; spot = filled; stand = left.
+Q2: card = horizontal; spot = filled; stand = right.
+Q3: card = horizontal; spot = empty; stand = left.
+Q4: card = horizontal; spot = empty; stand = right.
+Q5: card = vertical; spot = filled; stand = left.
+Q6: card = vertical; spot = filled; stand = right.
+Q7: card = vertical; spot = empty; stand = left.
+Q8: card = vertical; spot = empty; stand = right.
+Opening check commitments: Q1, Q7, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.

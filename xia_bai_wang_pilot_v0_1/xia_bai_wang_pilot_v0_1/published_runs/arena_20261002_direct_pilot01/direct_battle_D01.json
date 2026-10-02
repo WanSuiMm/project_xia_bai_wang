@@ -1,0 +1,12 @@
+{
+  "case_id": "D01",
+  "step": "answer_1_B",
+  "displayed_selected_model": "claude-sonnet-5-5-high",
+  "observed_platform_intervention": "Which response do you prefer? Please choose the response you would like to continue with. The response you choose will continue in this conversation's context.",
+  "response_A_model": "not revealed",
+  "response_B_model": "not revealed",
+  "response_A": "{\"answer\":\"For mark = line, PASS occurs with circle and left, or square and right. Under the parity rule, circle and left count as 0 while square, line, and right count as 1; PASS requires an odd total. Thus circle-line-left has total 1, and square-line-right has total 3. Circle-line-right and square-line-left each have an even total, so they FAIL.\"}",
+  "response_B": "{\"answer\":\"With mark fixed at line, the passing combinations are circle with left box (Q3) and square with right box (Q8). The rule treats circle/dot/left as the base side and square/line/right as the alternate side, then passes tokens whose count of alternate-side features is odd. A line already supplies one alternate-side feature, so shape and box must add an even number: either neither is alternate (circle/left) or both are alternate (square/right). Circle/right and square/left add one, making the total even, so they fail.\"}",
+  "use_as_fixed_model_evidence": false,
+  "planned_action": "Skip preference selection; inspect resulting context and model attribution. Do not choose better-looking content."
+}

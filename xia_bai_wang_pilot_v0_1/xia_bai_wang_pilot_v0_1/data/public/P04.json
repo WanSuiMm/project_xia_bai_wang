@@ -1,0 +1,100 @@
+{
+  "case_id": "P04",
+  "split": "main",
+  "term": "Ostren binding",
+  "features": [
+    {
+      "name": "cover",
+      "values": [
+        "soft",
+        "rigid"
+      ]
+    },
+    {
+      "name": "spine mark",
+      "values": [
+        "one line",
+        "two lines"
+      ]
+    },
+    {
+      "name": "shelf",
+      "values": [
+        "upper",
+        "lower"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "Q1",
+      "inputs": {
+        "cover": "soft",
+        "spine mark": "one line",
+        "shelf": "upper"
+      }
+    },
+    {
+      "id": "Q2",
+      "inputs": {
+        "cover": "soft",
+        "spine mark": "one line",
+        "shelf": "lower"
+      }
+    },
+    {
+      "id": "Q3",
+      "inputs": {
+        "cover": "soft",
+        "spine mark": "two lines",
+        "shelf": "upper"
+      }
+    },
+    {
+      "id": "Q4",
+      "inputs": {
+        "cover": "soft",
+        "spine mark": "two lines",
+        "shelf": "lower"
+      }
+    },
+    {
+      "id": "Q5",
+      "inputs": {
+        "cover": "rigid",
+        "spine mark": "one line",
+        "shelf": "upper"
+      }
+    },
+    {
+      "id": "Q6",
+      "inputs": {
+        "cover": "rigid",
+        "spine mark": "one line",
+        "shelf": "lower"
+      }
+    },
+    {
+      "id": "Q7",
+      "inputs": {
+        "cover": "rigid",
+        "spine mark": "two lines",
+        "shelf": "upper"
+      }
+    },
+    {
+      "id": "Q8",
+      "inputs": {
+        "cover": "rigid",
+        "spine mark": "two lines",
+        "shelf": "lower"
+      }
+    }
+  ],
+  "check_ids": [
+    "Q3",
+    "Q6",
+    "Q8"
+  ],
+  "public_text": "Term: Ostren binding.\nSetting: a museum catalog binding convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: cover = soft; spine mark = one line; shelf = upper.\nQ2: cover = soft; spine mark = one line; shelf = lower.\nQ3: cover = soft; spine mark = two lines; shelf = upper.\nQ4: cover = soft; spine mark = two lines; shelf = lower.\nQ5: cover = rigid; spine mark = one line; shelf = upper.\nQ6: cover = rigid; spine mark = one line; shelf = lower.\nQ7: cover = rigid; spine mark = two lines; shelf = upper.\nQ8: cover = rigid; spine mark = two lines; shelf = lower.\nOpening check commitments: Q3, Q6, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet."
+}

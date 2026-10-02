@@ -1,0 +1,100 @@
+{
+  "case_id": "P01",
+  "split": "main",
+  "term": "Nalvek seal",
+  "features": [
+    {
+      "name": "token outline",
+      "values": [
+        "round",
+        "square"
+      ]
+    },
+    {
+      "name": "surface mark",
+      "values": [
+        "dot",
+        "bar"
+      ]
+    },
+    {
+      "name": "tray position",
+      "values": [
+        "left",
+        "right"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "Q1",
+      "inputs": {
+        "token outline": "round",
+        "surface mark": "dot",
+        "tray position": "left"
+      }
+    },
+    {
+      "id": "Q2",
+      "inputs": {
+        "token outline": "round",
+        "surface mark": "dot",
+        "tray position": "right"
+      }
+    },
+    {
+      "id": "Q3",
+      "inputs": {
+        "token outline": "round",
+        "surface mark": "bar",
+        "tray position": "left"
+      }
+    },
+    {
+      "id": "Q4",
+      "inputs": {
+        "token outline": "round",
+        "surface mark": "bar",
+        "tray position": "right"
+      }
+    },
+    {
+      "id": "Q5",
+      "inputs": {
+        "token outline": "square",
+        "surface mark": "dot",
+        "tray position": "left"
+      }
+    },
+    {
+      "id": "Q6",
+      "inputs": {
+        "token outline": "square",
+        "surface mark": "dot",
+        "tray position": "right"
+      }
+    },
+    {
+      "id": "Q7",
+      "inputs": {
+        "token outline": "square",
+        "surface mark": "bar",
+        "tray position": "left"
+      }
+    },
+    {
+      "id": "Q8",
+      "inputs": {
+        "token outline": "square",
+        "surface mark": "bar",
+        "tray position": "right"
+      }
+    }
+  ],
+  "check_ids": [
+    "Q2",
+    "Q6",
+    "Q8"
+  ],
+  "public_text": "Term: Nalvek seal.\nSetting: an archive token admission convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: token outline = round; surface mark = dot; tray position = left.\nQ2: token outline = round; surface mark = dot; tray position = right.\nQ3: token outline = round; surface mark = bar; tray position = left.\nQ4: token outline = round; surface mark = bar; tray position = right.\nQ5: token outline = square; surface mark = dot; tray position = left.\nQ6: token outline = square; surface mark = dot; tray position = right.\nQ7: token outline = square; surface mark = bar; tray position = left.\nQ8: token outline = square; surface mark = bar; tray position = right.\nOpening check commitments: Q2, Q6, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet."
+}

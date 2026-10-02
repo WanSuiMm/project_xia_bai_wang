@@ -1,0 +1,167 @@
+{
+  "protocol_version": "0.1.0",
+  "created_date": "2026-10-02",
+  "generator_seed": 202610021352,
+  "purpose": "exploratory scientific pilot, not a leaderboard",
+  "main_n": 20,
+  "practice_n": 2,
+  "language": "English prompts and model answers; Chinese host documentation",
+  "main_schedule": [
+    {
+      "case_id": "P01",
+      "config": "R1",
+      "informed_seat": "A",
+      "fresh_arm_first": "N",
+      "case_sha256": "2e78aa52bb689ba6774125e6b79e8fefcba111878d8ad5a227f73952ea39ccb1"
+    },
+    {
+      "case_id": "P02",
+      "config": "R2",
+      "informed_seat": "A",
+      "fresh_arm_first": "E",
+      "case_sha256": "8cd675d2ec057b7f10bd390a55b078bd9a8d493582d89117f11f63de345acc86"
+    },
+    {
+      "case_id": "P03",
+      "config": "R1",
+      "informed_seat": "B",
+      "fresh_arm_first": "E",
+      "case_sha256": "f09b0bb6ebbceb4f75cd99dff8c1fe6ddccca8aaabd2f9b6c165e34bcefc887b"
+    },
+    {
+      "case_id": "P04",
+      "config": "R2",
+      "informed_seat": "B",
+      "fresh_arm_first": "N",
+      "case_sha256": "c9e1a909b6b0552c228024b0a93b612dbfce4f7044159f7db75f9e7bba4526b1"
+    },
+    {
+      "case_id": "P05",
+      "config": "R1",
+      "informed_seat": "B",
+      "fresh_arm_first": "E",
+      "case_sha256": "d2bc5e4635b8e723087565e24e909afd92c225c61744e833ed6c843c1207aae7"
+    },
+    {
+      "case_id": "P06",
+      "config": "R2",
+      "informed_seat": "A",
+      "fresh_arm_first": "E",
+      "case_sha256": "b490e664397367616cd3170b81db772a36b5aff7b900693e58d0c67a4f0de8ce"
+    },
+    {
+      "case_id": "P07",
+      "config": "R1",
+      "informed_seat": "A",
+      "fresh_arm_first": "N",
+      "case_sha256": "e665fdb54e4335b76d959da3cd197b67f6604bd6543ce8d9c1a7ba43dc0cea4a"
+    },
+    {
+      "case_id": "P08",
+      "config": "R2",
+      "informed_seat": "B",
+      "fresh_arm_first": "N",
+      "case_sha256": "fa896878e1ce018bd575adc8d843cf1625cc7e776810aa32fb909ab8bb5573d4"
+    },
+    {
+      "case_id": "P09",
+      "config": "R1",
+      "informed_seat": "A",
+      "fresh_arm_first": "E",
+      "case_sha256": "50cad3381c70225c111694cf45cf25e07f6cbb56297b36743546eed7457c2e6e"
+    },
+    {
+      "case_id": "P10",
+      "config": "R2",
+      "informed_seat": "B",
+      "fresh_arm_first": "N",
+      "case_sha256": "b1b099d4f87d3adced3308e078d83a83c90383b75961826a6b6d4b84b0f16322"
+    },
+    {
+      "case_id": "P11",
+      "config": "R1",
+      "informed_seat": "B",
+      "fresh_arm_first": "N",
+      "case_sha256": "a5cda979693931de05734a526b3cac4dcf27747d5ca82661e30651e8a10a36f7"
+    },
+    {
+      "case_id": "P12",
+      "config": "R2",
+      "informed_seat": "A",
+      "fresh_arm_first": "E",
+      "case_sha256": "cb59b71c1ed54662bb3f11aab1f5924b923a803546a0fd5adfd2481bd276c5ae"
+    },
+    {
+      "case_id": "P13",
+      "config": "R1",
+      "informed_seat": "B",
+      "fresh_arm_first": "N",
+      "case_sha256": "5e238d1d96e8bf9c8e33eb8eab02ae392cb91097bc4197dbda2312cc397bed36"
+    },
+    {
+      "case_id": "P14",
+      "config": "R2",
+      "informed_seat": "B",
+      "fresh_arm_first": "N",
+      "case_sha256": "ac12c647816153ba9a8a032215ddffb62d24802b90495500793ae1bc628a805a"
+    },
+    {
+      "case_id": "P15",
+      "config": "R1",
+      "informed_seat": "A",
+      "fresh_arm_first": "E",
+      "case_sha256": "271ff10a5fffe75a3a75a4c91f0200fc7b4171eceabd6a8b382b656c72b6467b"
+    },
+    {
+      "case_id": "P16",
+      "config": "R2",
+      "informed_seat": "A",
+      "fresh_arm_first": "E",
+      "case_sha256": "949aabdde2e8f1edcd03ade9156e09c8aa64cfcd6b0466765c807537e5b933ef"
+    },
+    {
+      "case_id": "P17",
+      "config": "R1",
+      "informed_seat": "B",
+      "fresh_arm_first": "E",
+      "case_sha256": "5824de415603c5a4bd39b750a06680a67ddb57839ad0b4d090d6213e60a01cc4"
+    },
+    {
+      "case_id": "P18",
+      "config": "R2",
+      "informed_seat": "A",
+      "fresh_arm_first": "E",
+      "case_sha256": "12f7d032b903c94e67112cf7841b2d0e57a31621cdd87aa9ef89dcc0228bb2b2"
+    },
+    {
+      "case_id": "P19",
+      "config": "R1",
+      "informed_seat": "A",
+      "fresh_arm_first": "N",
+      "case_sha256": "a913ccf8257966a742a9c4fa39cdb5d5205e4c7884ac9973c3bf5493ed6651e2"
+    },
+    {
+      "case_id": "P20",
+      "config": "R2",
+      "informed_seat": "B",
+      "fresh_arm_first": "N",
+      "case_sha256": "614a13b94fd44f02f22df21fef975ed9f349a75104e596426c217e78ccd49122"
+    }
+  ],
+  "templates_sha256": {
+    "speaker_open": "4d01b58e0c9f30269e5eb5bc038e37dab3a23a9c11915e3069330814816bc1f5",
+    "speaker_follow": "c53e8cb57b3eddd6fdd0065222fa74e8480ceffb07c92ea187453e073c5c49af",
+    "judge_base": "59d5155c8257803b61a077ce5da6e4d1ac8c785bae4a6ec25ccfd8aa9fff6cd6",
+    "judge_follow": "105f155d6152d5c61cfad1b1a31e3c5221080f564d5dda8a7aa22d6f3f937358"
+  },
+  "stages": [
+    "P0",
+    "P1",
+    "P2",
+    "P3",
+    "N",
+    "E"
+  ],
+  "independent_units": "case; stages within a case are repeated measurements",
+  "real_model_runs_completed": 0
+}

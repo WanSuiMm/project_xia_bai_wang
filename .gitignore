@@ -1,0 +1,9 @@
+**/__pycache__/
+*.pyc
+**/runs/
+**/screenshots/
+**/pending_receipt.json
+**/rendered_sessions_private.json
+_verification/
+*.pid
+*.log

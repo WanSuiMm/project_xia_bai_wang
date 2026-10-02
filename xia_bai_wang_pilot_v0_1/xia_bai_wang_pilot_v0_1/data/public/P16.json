@@ -1,0 +1,100 @@
+{
+  "case_id": "P16",
+  "split": "main",
+  "term": "Meralvek award",
+  "features": [
+    {
+      "name": "piece",
+      "values": [
+        "thin",
+        "thick"
+      ]
+    },
+    {
+      "name": "icon",
+      "values": [
+        "bird",
+        "fish"
+      ]
+    },
+    {
+      "name": "row",
+      "values": [
+        "odd",
+        "even"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "Q1",
+      "inputs": {
+        "piece": "thin",
+        "icon": "bird",
+        "row": "odd"
+      }
+    },
+    {
+      "id": "Q2",
+      "inputs": {
+        "piece": "thin",
+        "icon": "bird",
+        "row": "even"
+      }
+    },
+    {
+      "id": "Q3",
+      "inputs": {
+        "piece": "thin",
+        "icon": "fish",
+        "row": "odd"
+      }
+    },
+    {
+      "id": "Q4",
+      "inputs": {
+        "piece": "thin",
+        "icon": "fish",
+        "row": "even"
+      }
+    },
+    {
+      "id": "Q5",
+      "inputs": {
+        "piece": "thick",
+        "icon": "bird",
+        "row": "odd"
+      }
+    },
+    {
+      "id": "Q6",
+      "inputs": {
+        "piece": "thick",
+        "icon": "bird",
+        "row": "even"
+      }
+    },
+    {
+      "id": "Q7",
+      "inputs": {
+        "piece": "thick",
+        "icon": "fish",
+        "row": "odd"
+      }
+    },
+    {
+      "id": "Q8",
+      "inputs": {
+        "piece": "thick",
+        "icon": "fish",
+        "row": "even"
+      }
+    }
+  ],
+  "check_ids": [
+    "Q1",
+    "Q2",
+    "Q4"
+  ],
+  "public_text": "Term: Meralvek award.\nSetting: an imaginary game-piece scoring convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: piece = thin; icon = bird; row = odd.\nQ2: piece = thin; icon = bird; row = even.\nQ3: piece = thin; icon = fish; row = odd.\nQ4: piece = thin; icon = fish; row = even.\nQ5: piece = thick; icon = bird; row = odd.\nQ6: piece = thick; icon = bird; row = even.\nQ7: piece = thick; icon = fish; row = odd.\nQ8: piece = thick; icon = fish; row = even.\nOpening check commitments: Q1, Q2, Q4. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet."
+}

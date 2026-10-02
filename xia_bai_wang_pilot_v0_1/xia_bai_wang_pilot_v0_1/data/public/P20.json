@@ -1,0 +1,100 @@
+{
+  "case_id": "P20",
+  "split": "main",
+  "term": "Lunverin join",
+  "features": [
+    {
+      "name": "end",
+      "values": [
+        "fork",
+        "loop"
+      ]
+    },
+    {
+      "name": "band",
+      "values": [
+        "single",
+        "double"
+      ]
+    },
+    {
+      "name": "channel",
+      "values": [
+        "straight",
+        "bent"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "Q1",
+      "inputs": {
+        "end": "fork",
+        "band": "single",
+        "channel": "straight"
+      }
+    },
+    {
+      "id": "Q2",
+      "inputs": {
+        "end": "fork",
+        "band": "single",
+        "channel": "bent"
+      }
+    },
+    {
+      "id": "Q3",
+      "inputs": {
+        "end": "fork",
+        "band": "double",
+        "channel": "straight"
+      }
+    },
+    {
+      "id": "Q4",
+      "inputs": {
+        "end": "fork",
+        "band": "double",
+        "channel": "bent"
+      }
+    },
+    {
+      "id": "Q5",
+      "inputs": {
+        "end": "loop",
+        "band": "single",
+        "channel": "straight"
+      }
+    },
+    {
+      "id": "Q6",
+      "inputs": {
+        "end": "loop",
+        "band": "single",
+        "channel": "bent"
+      }
+    },
+    {
+      "id": "Q7",
+      "inputs": {
+        "end": "loop",
+        "band": "double",
+        "channel": "straight"
+      }
+    },
+    {
+      "id": "Q8",
+      "inputs": {
+        "end": "loop",
+        "band": "double",
+        "channel": "bent"
+      }
+    }
+  ],
+  "check_ids": [
+    "Q3",
+    "Q4",
+    "Q6"
+  ],
+  "public_text": "Term: Lunverin join.\nSetting: a puzzle connector admission convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: end = fork; band = single; channel = straight.\nQ2: end = fork; band = single; channel = bent.\nQ3: end = fork; band = double; channel = straight.\nQ4: end = fork; band = double; channel = bent.\nQ5: end = loop; band = single; channel = straight.\nQ6: end = loop; band = single; channel = bent.\nQ7: end = loop; band = double; channel = straight.\nQ8: end = loop; band = double; channel = bent.\nOpening check commitments: Q3, Q4, Q6. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet."
+}

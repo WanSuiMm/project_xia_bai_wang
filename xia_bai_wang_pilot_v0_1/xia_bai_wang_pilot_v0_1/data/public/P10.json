@@ -1,0 +1,100 @@
+{
+  "case_id": "P10",
+  "split": "main",
+  "term": "Dorvessa match",
+  "features": [
+    {
+      "name": "tile edge",
+      "values": [
+        "flat",
+        "curved"
+      ]
+    },
+    {
+      "name": "emblem",
+      "values": [
+        "leaf",
+        "wave"
+      ]
+    },
+    {
+      "name": "slot",
+      "values": [
+        "near",
+        "far"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "Q1",
+      "inputs": {
+        "tile edge": "flat",
+        "emblem": "leaf",
+        "slot": "near"
+      }
+    },
+    {
+      "id": "Q2",
+      "inputs": {
+        "tile edge": "flat",
+        "emblem": "leaf",
+        "slot": "far"
+      }
+    },
+    {
+      "id": "Q3",
+      "inputs": {
+        "tile edge": "flat",
+        "emblem": "wave",
+        "slot": "near"
+      }
+    },
+    {
+      "id": "Q4",
+      "inputs": {
+        "tile edge": "flat",
+        "emblem": "wave",
+        "slot": "far"
+      }
+    },
+    {
+      "id": "Q5",
+      "inputs": {
+        "tile edge": "curved",
+        "emblem": "leaf",
+        "slot": "near"
+      }
+    },
+    {
+      "id": "Q6",
+      "inputs": {
+        "tile edge": "curved",
+        "emblem": "leaf",
+        "slot": "far"
+      }
+    },
+    {
+      "id": "Q7",
+      "inputs": {
+        "tile edge": "curved",
+        "emblem": "wave",
+        "slot": "near"
+      }
+    },
+    {
+      "id": "Q8",
+      "inputs": {
+        "tile edge": "curved",
+        "emblem": "wave",
+        "slot": "far"
+      }
+    }
+  ],
+  "check_ids": [
+    "Q4",
+    "Q5",
+    "Q8"
+  ],
+  "public_text": "Term: Dorvessa match.\nSetting: a fictional tile-matching convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: tile edge = flat; emblem = leaf; slot = near.\nQ2: tile edge = flat; emblem = leaf; slot = far.\nQ3: tile edge = flat; emblem = wave; slot = near.\nQ4: tile edge = flat; emblem = wave; slot = far.\nQ5: tile edge = curved; emblem = leaf; slot = near.\nQ6: tile edge = curved; emblem = leaf; slot = far.\nQ7: tile edge = curved; emblem = wave; slot = near.\nQ8: tile edge = curved; emblem = wave; slot = far.\nOpening check commitments: Q4, Q5, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet."
+}

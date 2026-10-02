@@ -1,0 +1,100 @@
+{
+  "case_id": "P15",
+  "split": "main",
+  "term": "Tervun flash",
+  "features": [
+    {
+      "name": "cap",
+      "values": [
+        "cone",
+        "dome"
+      ]
+    },
+    {
+      "name": "tab",
+      "values": [
+        "extended",
+        "retracted"
+      ]
+    },
+    {
+      "name": "base",
+      "values": [
+        "light",
+        "heavy"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "Q1",
+      "inputs": {
+        "cap": "cone",
+        "tab": "extended",
+        "base": "light"
+      }
+    },
+    {
+      "id": "Q2",
+      "inputs": {
+        "cap": "cone",
+        "tab": "extended",
+        "base": "heavy"
+      }
+    },
+    {
+      "id": "Q3",
+      "inputs": {
+        "cap": "cone",
+        "tab": "retracted",
+        "base": "light"
+      }
+    },
+    {
+      "id": "Q4",
+      "inputs": {
+        "cap": "cone",
+        "tab": "retracted",
+        "base": "heavy"
+      }
+    },
+    {
+      "id": "Q5",
+      "inputs": {
+        "cap": "dome",
+        "tab": "extended",
+        "base": "light"
+      }
+    },
+    {
+      "id": "Q6",
+      "inputs": {
+        "cap": "dome",
+        "tab": "extended",
+        "base": "heavy"
+      }
+    },
+    {
+      "id": "Q7",
+      "inputs": {
+        "cap": "dome",
+        "tab": "retracted",
+        "base": "light"
+      }
+    },
+    {
+      "id": "Q8",
+      "inputs": {
+        "cap": "dome",
+        "tab": "retracted",
+        "base": "heavy"
+      }
+    }
+  ],
+  "check_ids": [
+    "Q2",
+    "Q6",
+    "Q8"
+  ],
+  "public_text": "Term: Tervun flash.\nSetting: a toy beacon flashing convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: cap = cone; tab = extended; base = light.\nQ2: cap = cone; tab = extended; base = heavy.\nQ3: cap = cone; tab = retracted; base = light.\nQ4: cap = cone; tab = retracted; base = heavy.\nQ5: cap = dome; tab = extended; base = light.\nQ6: cap = dome; tab = extended; base = heavy.\nQ7: cap = dome; tab = retracted; base = light.\nQ8: cap = dome; tab = retracted; base = heavy.\nOpening check commitments: Q2, Q6, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet."
+}

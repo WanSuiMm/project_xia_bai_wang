@@ -1,0 +1,100 @@
+{
+  "case_id": "P18",
+  "split": "main",
+  "term": "Panvessa cue",
+  "features": [
+    {
+      "name": "card",
+      "values": [
+        "horizontal",
+        "vertical"
+      ]
+    },
+    {
+      "name": "spot",
+      "values": [
+        "filled",
+        "empty"
+      ]
+    },
+    {
+      "name": "stand",
+      "values": [
+        "left",
+        "right"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "Q1",
+      "inputs": {
+        "card": "horizontal",
+        "spot": "filled",
+        "stand": "left"
+      }
+    },
+    {
+      "id": "Q2",
+      "inputs": {
+        "card": "horizontal",
+        "spot": "filled",
+        "stand": "right"
+      }
+    },
+    {
+      "id": "Q3",
+      "inputs": {
+        "card": "horizontal",
+        "spot": "empty",
+        "stand": "left"
+      }
+    },
+    {
+      "id": "Q4",
+      "inputs": {
+        "card": "horizontal",
+        "spot": "empty",
+        "stand": "right"
+      }
+    },
+    {
+      "id": "Q5",
+      "inputs": {
+        "card": "vertical",
+        "spot": "filled",
+        "stand": "left"
+      }
+    },
+    {
+      "id": "Q6",
+      "inputs": {
+        "card": "vertical",
+        "spot": "filled",
+        "stand": "right"
+      }
+    },
+    {
+      "id": "Q7",
+      "inputs": {
+        "card": "vertical",
+        "spot": "empty",
+        "stand": "left"
+      }
+    },
+    {
+      "id": "Q8",
+      "inputs": {
+        "card": "vertical",
+        "spot": "empty",
+        "stand": "right"
+      }
+    }
+  ],
+  "check_ids": [
+    "Q1",
+    "Q7",
+    "Q8"
+  ],
+  "public_text": "Term: Panvessa cue.\nSetting: a fictional theater-cue authorization convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: card = horizontal; spot = filled; stand = left.\nQ2: card = horizontal; spot = filled; stand = right.\nQ3: card = horizontal; spot = empty; stand = left.\nQ4: card = horizontal; spot = empty; stand = right.\nQ5: card = vertical; spot = filled; stand = left.\nQ6: card = vertical; spot = filled; stand = right.\nQ7: card = vertical; spot = empty; stand = left.\nQ8: card = vertical; spot = empty; stand = right.\nOpening check commitments: Q1, Q7, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet."
+}

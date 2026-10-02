@@ -1,0 +1,100 @@
+{
+  "case_id": "D01",
+  "split": "practice",
+  "term": "Practice Varen stamp",
+  "features": [
+    {
+      "name": "shape",
+      "values": [
+        "circle",
+        "square"
+      ]
+    },
+    {
+      "name": "mark",
+      "values": [
+        "dot",
+        "line"
+      ]
+    },
+    {
+      "name": "box",
+      "values": [
+        "left",
+        "right"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "Q1",
+      "inputs": {
+        "shape": "circle",
+        "mark": "dot",
+        "box": "left"
+      }
+    },
+    {
+      "id": "Q2",
+      "inputs": {
+        "shape": "circle",
+        "mark": "dot",
+        "box": "right"
+      }
+    },
+    {
+      "id": "Q3",
+      "inputs": {
+        "shape": "circle",
+        "mark": "line",
+        "box": "left"
+      }
+    },
+    {
+      "id": "Q4",
+      "inputs": {
+        "shape": "circle",
+        "mark": "line",
+        "box": "right"
+      }
+    },
+    {
+      "id": "Q5",
+      "inputs": {
+        "shape": "square",
+        "mark": "dot",
+        "box": "left"
+      }
+    },
+    {
+      "id": "Q6",
+      "inputs": {
+        "shape": "square",
+        "mark": "dot",
+        "box": "right"
+      }
+    },
+    {
+      "id": "Q7",
+      "inputs": {
+        "shape": "square",
+        "mark": "line",
+        "box": "left"
+      }
+    },
+    {
+      "id": "Q8",
+      "inputs": {
+        "shape": "square",
+        "mark": "line",
+        "box": "right"
+      }
+    }
+  ],
+  "check_ids": [
+    "Q4",
+    "Q5",
+    "Q8"
+  ],
+  "public_text": "Term: Practice Varen stamp.\nSetting: a practice-only token sorting convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: shape = circle; mark = dot; box = left.\nQ2: shape = circle; mark = dot; box = right.\nQ3: shape = circle; mark = line; box = left.\nQ4: shape = circle; mark = line; box = right.\nQ5: shape = square; mark = dot; box = left.\nQ6: shape = square; mark = dot; box = right.\nQ7: shape = square; mark = line; box = left.\nQ8: shape = square; mark = line; box = right.\nOpening check commitments: Q4, Q5, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet."
+}

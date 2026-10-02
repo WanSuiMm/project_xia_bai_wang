@@ -1,0 +1,15 @@
+Term: Lunverin join.
+Setting: a puzzle connector admission convention.
+This is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.
+Each input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.
+The same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.
+Possible inputs (IDs are just local labels):
+Q1: end = fork; band = single; channel = straight.
+Q2: end = fork; band = single; channel = bent.
+Q3: end = fork; band = double; channel = straight.
+Q4: end = fork; band = double; channel = bent.
+Q5: end = loop; band = single; channel = straight.
+Q6: end = loop; band = single; channel = bent.
+Q7: end = loop; band = double; channel = straight.
+Q8: end = loop; band = double; channel = bent.
+Opening check commitments: Q3, Q4, Q6. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.

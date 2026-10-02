@@ -1,0 +1,100 @@
+{
+  "case_id": "P06",
+  "split": "main",
+  "term": "Kelmora sort",
+  "features": [
+    {
+      "name": "block shape",
+      "values": [
+        "cube",
+        "cylinder"
+      ]
+    },
+    {
+      "name": "stamp",
+      "values": [
+        "star",
+        "ring"
+      ]
+    },
+    {
+      "name": "rack",
+      "values": [
+        "front",
+        "back"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "Q1",
+      "inputs": {
+        "block shape": "cube",
+        "stamp": "star",
+        "rack": "front"
+      }
+    },
+    {
+      "id": "Q2",
+      "inputs": {
+        "block shape": "cube",
+        "stamp": "star",
+        "rack": "back"
+      }
+    },
+    {
+      "id": "Q3",
+      "inputs": {
+        "block shape": "cube",
+        "stamp": "ring",
+        "rack": "front"
+      }
+    },
+    {
+      "id": "Q4",
+      "inputs": {
+        "block shape": "cube",
+        "stamp": "ring",
+        "rack": "back"
+      }
+    },
+    {
+      "id": "Q5",
+      "inputs": {
+        "block shape": "cylinder",
+        "stamp": "star",
+        "rack": "front"
+      }
+    },
+    {
+      "id": "Q6",
+      "inputs": {
+        "block shape": "cylinder",
+        "stamp": "star",
+        "rack": "back"
+      }
+    },
+    {
+      "id": "Q7",
+      "inputs": {
+        "block shape": "cylinder",
+        "stamp": "ring",
+        "rack": "front"
+      }
+    },
+    {
+      "id": "Q8",
+      "inputs": {
+        "block shape": "cylinder",
+        "stamp": "ring",
+        "rack": "back"
+      }
+    }
+  ],
+  "check_ids": [
+    "Q3",
+    "Q6",
+    "Q7"
+  ],
+  "public_text": "Term: Kelmora sort.\nSetting: a puzzle workshop sorting convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: block shape = cube; stamp = star; rack = front.\nQ2: block shape = cube; stamp = star; rack = back.\nQ3: block shape = cube; stamp = ring; rack = front.\nQ4: block shape = cube; stamp = ring; rack = back.\nQ5: block shape = cylinder; stamp = star; rack = front.\nQ6: block shape = cylinder; stamp = star; rack = back.\nQ7: block shape = cylinder; stamp = ring; rack = front.\nQ8: block shape = cylinder; stamp = ring; rack = back.\nOpening check commitments: Q3, Q6, Q7. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet."
+}

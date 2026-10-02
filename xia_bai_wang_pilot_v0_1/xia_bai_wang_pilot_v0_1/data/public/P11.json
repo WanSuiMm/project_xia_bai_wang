@@ -1,0 +1,100 @@
+{
+  "case_id": "P11",
+  "split": "main",
+  "term": "Norevik code",
+  "features": [
+    {
+      "name": "switch",
+      "values": [
+        "off",
+        "on"
+      ]
+    },
+    {
+      "name": "key",
+      "values": [
+        "bronze",
+        "silver"
+      ]
+    },
+    {
+      "name": "socket",
+      "values": [
+        "top",
+        "bottom"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "Q1",
+      "inputs": {
+        "switch": "off",
+        "key": "bronze",
+        "socket": "top"
+      }
+    },
+    {
+      "id": "Q2",
+      "inputs": {
+        "switch": "off",
+        "key": "bronze",
+        "socket": "bottom"
+      }
+    },
+    {
+      "id": "Q3",
+      "inputs": {
+        "switch": "off",
+        "key": "silver",
+        "socket": "top"
+      }
+    },
+    {
+      "id": "Q4",
+      "inputs": {
+        "switch": "off",
+        "key": "silver",
+        "socket": "bottom"
+      }
+    },
+    {
+      "id": "Q5",
+      "inputs": {
+        "switch": "on",
+        "key": "bronze",
+        "socket": "top"
+      }
+    },
+    {
+      "id": "Q6",
+      "inputs": {
+        "switch": "on",
+        "key": "bronze",
+        "socket": "bottom"
+      }
+    },
+    {
+      "id": "Q7",
+      "inputs": {
+        "switch": "on",
+        "key": "silver",
+        "socket": "top"
+      }
+    },
+    {
+      "id": "Q8",
+      "inputs": {
+        "switch": "on",
+        "key": "silver",
+        "socket": "bottom"
+      }
+    }
+  ],
+  "check_ids": [
+    "Q1",
+    "Q7",
+    "Q8"
+  ],
+  "public_text": "Term: Norevik code.\nSetting: a prop-console acceptance convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: switch = off; key = bronze; socket = top.\nQ2: switch = off; key = bronze; socket = bottom.\nQ3: switch = off; key = silver; socket = top.\nQ4: switch = off; key = silver; socket = bottom.\nQ5: switch = on; key = bronze; socket = top.\nQ6: switch = on; key = bronze; socket = bottom.\nQ7: switch = on; key = silver; socket = top.\nQ8: switch = on; key = silver; socket = bottom.\nOpening check commitments: Q1, Q7, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet."
+}

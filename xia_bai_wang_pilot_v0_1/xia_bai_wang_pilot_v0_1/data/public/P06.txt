@@ -1,0 +1,15 @@
+Term: Kelmora sort.
+Setting: a puzzle workshop sorting convention.
+This is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.
+Each input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.
+The same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.
+Possible inputs (IDs are just local labels):
+Q1: block shape = cube; stamp = star; rack = front.
+Q2: block shape = cube; stamp = star; rack = back.
+Q3: block shape = cube; stamp = ring; rack = front.
+Q4: block shape = cube; stamp = ring; rack = back.
+Q5: block shape = cylinder; stamp = star; rack = front.
+Q6: block shape = cylinder; stamp = star; rack = back.
+Q7: block shape = cylinder; stamp = ring; rack = front.
+Q8: block shape = cylinder; stamp = ring; rack = back.
+Opening check commitments: Q3, Q6, Q7. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.

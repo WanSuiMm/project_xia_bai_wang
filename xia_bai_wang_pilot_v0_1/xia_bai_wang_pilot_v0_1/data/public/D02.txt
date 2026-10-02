@@ -1,0 +1,15 @@
+Term: Practice Melun gate.
+Setting: a practice-only prop gate convention.
+This is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.
+Each input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.
+The same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.
+Possible inputs (IDs are just local labels):
+Q1: tag = red; lever = up; tray = near.
+Q2: tag = red; lever = up; tray = far.
+Q3: tag = red; lever = down; tray = near.
+Q4: tag = red; lever = down; tray = far.
+Q5: tag = blue; lever = up; tray = near.
+Q6: tag = blue; lever = up; tray = far.
+Q7: tag = blue; lever = down; tray = near.
+Q8: tag = blue; lever = down; tray = far.
+Opening check commitments: Q4, Q5, Q7. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.

@@ -1,0 +1,2664 @@
+[
+  {
+    "case_id": "P01",
+    "split": "main",
+    "config": "R1",
+    "term": "Nalvek seal",
+    "features": [
+      {
+        "name": "token outline",
+        "values": [
+          "round",
+          "square"
+        ]
+      },
+      {
+        "name": "surface mark",
+        "values": [
+          "dot",
+          "bar"
+        ]
+      },
+      {
+        "name": "tray position",
+        "values": [
+          "left",
+          "right"
+        ]
+      }
+    ],
+    "inputs": [
+      {
+        "id": "Q1",
+        "inputs": {
+          "token outline": "round",
+          "surface mark": "dot",
+          "tray position": "left"
+        }
+      },
+      {
+        "id": "Q2",
+        "inputs": {
+          "token outline": "round",
+          "surface mark": "dot",
+          "tray position": "right"
+        }
+      },
+      {
+        "id": "Q3",
+        "inputs": {
+          "token outline": "round",
+          "surface mark": "bar",
+          "tray position": "left"
+        }
+      },
+      {
+        "id": "Q4",
+        "inputs": {
+          "token outline": "round",
+          "surface mark": "bar",
+          "tray position": "right"
+        }
+      },
+      {
+        "id": "Q5",
+        "inputs": {
+          "token outline": "square",
+          "surface mark": "dot",
+          "tray position": "left"
+        }
+      },
+      {
+        "id": "Q6",
+        "inputs": {
+          "token outline": "square",
+          "surface mark": "dot",
+          "tray position": "right"
+        }
+      },
+      {
+        "id": "Q7",
+        "inputs": {
+          "token outline": "square",
+          "surface mark": "bar",
+          "tray position": "left"
+        }
+      },
+      {
+        "id": "Q8",
+        "inputs": {
+          "token outline": "square",
+          "surface mark": "bar",
+          "tray position": "right"
+        }
+      }
+    ],
+    "check_ids": [
+      "Q2",
+      "Q6",
+      "Q8"
+    ],
+    "public_text": "Term: Nalvek seal.\nSetting: an archive token admission convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: token outline = round; surface mark = dot; tray position = left.\nQ2: token outline = round; surface mark = dot; tray position = right.\nQ3: token outline = round; surface mark = bar; tray position = left.\nQ4: token outline = round; surface mark = bar; tray position = right.\nQ5: token outline = square; surface mark = dot; tray position = left.\nQ6: token outline = square; surface mark = dot; tray position = right.\nQ7: token outline = square; surface mark = bar; tray position = left.\nQ8: token outline = square; surface mark = bar; tray position = right.\nOpening check commitments: Q2, Q6, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.",
+    "private_text": "You received the complete sampled reference card for this game. It is authoritative only inside this fictional game.\nQ1: FAIL\nQ2: FAIL\nQ3: PASS\nQ4: PASS\nQ5: PASS\nQ6: FAIL\nQ7: PASS\nQ8: FAIL\nEquivalently, the convention gives PASS exactly for Q3, Q4, Q5, Q7; the other listed inputs FAIL. Use these outcomes accurately. No other context or physical intuition overrides this table.",
+    "gold": {
+      "Q1": "FAIL",
+      "Q2": "FAIL",
+      "Q3": "PASS",
+      "Q4": "PASS",
+      "Q5": "PASS",
+      "Q6": "FAIL",
+      "Q7": "PASS",
+      "Q8": "FAIL"
+    },
+    "informed_seat": "A",
+    "fresh_arm_first": "N",
+    "generation_first": "A",
+    "round_response_first": [
+      "A",
+      "B",
+      "A"
+    ],
+    "case_sha256": "2e78aa52bb689ba6774125e6b79e8fefcba111878d8ad5a227f73952ea39ccb1"
+  },
+  {
+    "case_id": "P02",
+    "split": "main",
+    "config": "R2",
+    "term": "Torvani turn",
+    "features": [
+      {
+        "name": "piece face",
+        "values": [
+          "sun",
+          "moon"
+        ]
+      },
+      {
+        "name": "border",
+        "values": [
+          "plain",
+          "notched"
+        ]
+      },
+      {
+        "name": "lane",
+        "values": [
+          "inner",
+          "outer"
+        ]
+      }
+    ],
+    "inputs": [
+      {
+        "id": "Q1",
+        "inputs": {
+          "piece face": "sun",
+          "border": "plain",
+          "lane": "inner"
+        }
+      },
+      {
+        "id": "Q2",
+        "inputs": {
+          "piece face": "sun",
+          "border": "plain",
+          "lane": "outer"
+        }
+      },
+      {
+        "id": "Q3",
+        "inputs": {
+          "piece face": "sun",
+          "border": "notched",
+          "lane": "inner"
+        }
+      },
+      {
+        "id": "Q4",
+        "inputs": {
+          "piece face": "sun",
+          "border": "notched",
+          "lane": "outer"
+        }
+      },
+      {
+        "id": "Q5",
+        "inputs": {
+          "piece face": "moon",
+          "border": "plain",
+          "lane": "inner"
+        }
+      },
+      {
+        "id": "Q6",
+        "inputs": {
+          "piece face": "moon",
+          "border": "plain",
+          "lane": "outer"
+        }
+      },
+      {
+        "id": "Q7",
+        "inputs": {
+          "piece face": "moon",
+          "border": "notched",
+          "lane": "inner"
+        }
+      },
+      {
+        "id": "Q8",
+        "inputs": {
+          "piece face": "moon",
+          "border": "notched",
+          "lane": "outer"
+        }
+      }
+    ],
+    "check_ids": [
+      "Q3",
+      "Q5",
+      "Q8"
+    ],
+    "public_text": "Term: Torvani turn.\nSetting: a fictional board-game move permission convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: piece face = sun; border = plain; lane = inner.\nQ2: piece face = sun; border = plain; lane = outer.\nQ3: piece face = sun; border = notched; lane = inner.\nQ4: piece face = sun; border = notched; lane = outer.\nQ5: piece face = moon; border = plain; lane = inner.\nQ6: piece face = moon; border = plain; lane = outer.\nQ7: piece face = moon; border = notched; lane = inner.\nQ8: piece face = moon; border = notched; lane = outer.\nOpening check commitments: Q3, Q5, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.",
+    "private_text": "You received the complete sampled reference card for this game. It is authoritative only inside this fictional game.\nQ1: FAIL\nQ2: PASS\nQ3: FAIL\nQ4: PASS\nQ5: PASS\nQ6: FAIL\nQ7: PASS\nQ8: FAIL\nEquivalently, the convention gives PASS exactly for Q2, Q4, Q5, Q7; the other listed inputs FAIL. Use these outcomes accurately. No other context or physical intuition overrides this table.",
+    "gold": {
+      "Q1": "FAIL",
+      "Q2": "PASS",
+      "Q3": "FAIL",
+      "Q4": "PASS",
+      "Q5": "PASS",
+      "Q6": "FAIL",
+      "Q7": "PASS",
+      "Q8": "FAIL"
+    },
+    "informed_seat": "A",
+    "fresh_arm_first": "E",
+    "generation_first": "A",
+    "round_response_first": [
+      "B",
+      "B",
+      "B"
+    ],
+    "case_sha256": "8cd675d2ec057b7f10bd390a55b078bd9a8d493582d89117f11f63de345acc86"
+  },
+  {
+    "case_id": "P03",
+    "split": "main",
+    "config": "R1",
+    "term": "Velmora signal",
+    "features": [
+      {
+        "name": "lens",
+        "values": [
+          "clear",
+          "frosted"
+        ]
+      },
+      {
+        "name": "handle",
+        "values": [
+          "up",
+          "down"
+        ]
+      },
+      {
+        "name": "tag",
+        "values": [
+          "red",
+          "blue"
+        ]
+      }
+    ],
+    "inputs": [
+      {
+        "id": "Q1",
+        "inputs": {
+          "lens": "clear",
+          "handle": "up",
+          "tag": "red"
+        }
+      },
+      {
+        "id": "Q2",
+        "inputs": {
+          "lens": "clear",
+          "handle": "up",
+          "tag": "blue"
+        }
+      },
+      {
+        "id": "Q3",
+        "inputs": {
+          "lens": "clear",
+          "handle": "down",
+          "tag": "red"
+        }
+      },
+      {
+        "id": "Q4",
+        "inputs": {
+          "lens": "clear",
+          "handle": "down",
+          "tag": "blue"
+        }
+      },
+      {
+        "id": "Q5",
+        "inputs": {
+          "lens": "frosted",
+          "handle": "up",
+          "tag": "red"
+        }
+      },
+      {
+        "id": "Q6",
+        "inputs": {
+          "lens": "frosted",
+          "handle": "up",
+          "tag": "blue"
+        }
+      },
+      {
+        "id": "Q7",
+        "inputs": {
+          "lens": "frosted",
+          "handle": "down",
+          "tag": "red"
+        }
+      },
+      {
+        "id": "Q8",
+        "inputs": {
+          "lens": "frosted",
+          "handle": "down",
+          "tag": "blue"
+        }
+      }
+    ],
+    "check_ids": [
+      "Q1",
+      "Q3",
+      "Q6"
+    ],
+    "public_text": "Term: Velmora signal.\nSetting: a prop-lantern signaling convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: lens = clear; handle = up; tag = red.\nQ2: lens = clear; handle = up; tag = blue.\nQ3: lens = clear; handle = down; tag = red.\nQ4: lens = clear; handle = down; tag = blue.\nQ5: lens = frosted; handle = up; tag = red.\nQ6: lens = frosted; handle = up; tag = blue.\nQ7: lens = frosted; handle = down; tag = red.\nQ8: lens = frosted; handle = down; tag = blue.\nOpening check commitments: Q1, Q3, Q6. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.",
+    "private_text": "You received the complete sampled reference card for this game. It is authoritative only inside this fictional game.\nQ1: FAIL\nQ2: PASS\nQ3: PASS\nQ4: FAIL\nQ5: FAIL\nQ6: PASS\nQ7: FAIL\nQ8: PASS\nEquivalently, the convention gives PASS exactly for Q2, Q3, Q6, Q8; the other listed inputs FAIL. Use these outcomes accurately. No other context or physical intuition overrides this table.",
+    "gold": {
+      "Q1": "FAIL",
+      "Q2": "PASS",
+      "Q3": "PASS",
+      "Q4": "FAIL",
+      "Q5": "FAIL",
+      "Q6": "PASS",
+      "Q7": "FAIL",
+      "Q8": "PASS"
+    },
+    "informed_seat": "B",
+    "fresh_arm_first": "E",
+    "generation_first": "B",
+    "round_response_first": [
+      "B",
+      "B",
+      "A"
+    ],
+    "case_sha256": "f09b0bb6ebbceb4f75cd99dff8c1fe6ddccca8aaabd2f9b6c165e34bcefc887b"
+  },
+  {
+    "case_id": "P04",
+    "split": "main",
+    "config": "R2",
+    "term": "Ostren binding",
+    "features": [
+      {
+        "name": "cover",
+        "values": [
+          "soft",
+          "rigid"
+        ]
+      },
+      {
+        "name": "spine mark",
+        "values": [
+          "one line",
+          "two lines"
+        ]
+      },
+      {
+        "name": "shelf",
+        "values": [
+          "upper",
+          "lower"
+        ]
+      }
+    ],
+    "inputs": [
+      {
+        "id": "Q1",
+        "inputs": {
+          "cover": "soft",
+          "spine mark": "one line",
+          "shelf": "upper"
+        }
+      },
+      {
+        "id": "Q2",
+        "inputs": {
+          "cover": "soft",
+          "spine mark": "one line",
+          "shelf": "lower"
+        }
+      },
+      {
+        "id": "Q3",
+        "inputs": {
+          "cover": "soft",
+          "spine mark": "two lines",
+          "shelf": "upper"
+        }
+      },
+      {
+        "id": "Q4",
+        "inputs": {
+          "cover": "soft",
+          "spine mark": "two lines",
+          "shelf": "lower"
+        }
+      },
+      {
+        "id": "Q5",
+        "inputs": {
+          "cover": "rigid",
+          "spine mark": "one line",
+          "shelf": "upper"
+        }
+      },
+      {
+        "id": "Q6",
+        "inputs": {
+          "cover": "rigid",
+          "spine mark": "one line",
+          "shelf": "lower"
+        }
+      },
+      {
+        "id": "Q7",
+        "inputs": {
+          "cover": "rigid",
+          "spine mark": "two lines",
+          "shelf": "upper"
+        }
+      },
+      {
+        "id": "Q8",
+        "inputs": {
+          "cover": "rigid",
+          "spine mark": "two lines",
+          "shelf": "lower"
+        }
+      }
+    ],
+    "check_ids": [
+      "Q3",
+      "Q6",
+      "Q8"
+    ],
+    "public_text": "Term: Ostren binding.\nSetting: a museum catalog binding convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: cover = soft; spine mark = one line; shelf = upper.\nQ2: cover = soft; spine mark = one line; shelf = lower.\nQ3: cover = soft; spine mark = two lines; shelf = upper.\nQ4: cover = soft; spine mark = two lines; shelf = lower.\nQ5: cover = rigid; spine mark = one line; shelf = upper.\nQ6: cover = rigid; spine mark = one line; shelf = lower.\nQ7: cover = rigid; spine mark = two lines; shelf = upper.\nQ8: cover = rigid; spine mark = two lines; shelf = lower.\nOpening check commitments: Q3, Q6, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.",
+    "private_text": "You received the complete sampled reference card for this game. It is authoritative only inside this fictional game.\nQ1: FAIL\nQ2: PASS\nQ3: FAIL\nQ4: PASS\nQ5: FAIL\nQ6: PASS\nQ7: FAIL\nQ8: PASS\nEquivalently, the convention gives PASS exactly for Q2, Q4, Q6, Q8; the other listed inputs FAIL. Use these outcomes accurately. No other context or physical intuition overrides this table.",
+    "gold": {
+      "Q1": "FAIL",
+      "Q2": "PASS",
+      "Q3": "FAIL",
+      "Q4": "PASS",
+      "Q5": "FAIL",
+      "Q6": "PASS",
+      "Q7": "FAIL",
+      "Q8": "PASS"
+    },
+    "informed_seat": "B",
+    "fresh_arm_first": "N",
+    "generation_first": "A",
+    "round_response_first": [
+      "A",
+      "A",
+      "B"
+    ],
+    "case_sha256": "c9e1a909b6b0552c228024b0a93b612dbfce4f7044159f7db75f9e7bba4526b1"
+  },
+  {
+    "case_id": "P05",
+    "split": "main",
+    "config": "R1",
+    "term": "Pelvani entry",
+    "features": [
+      {
+        "name": "badge shape",
+        "values": [
+          "oval",
+          "diamond"
+        ]
+      },
+      {
+        "name": "ribbon",
+        "values": [
+          "short",
+          "long"
+        ]
+      },
+      {
+        "name": "gate",
+        "values": [
+          "east",
+          "west"
+        ]
+      }
+    ],
+    "inputs": [
+      {
+        "id": "Q1",
+        "inputs": {
+          "badge shape": "oval",
+          "ribbon": "short",
+          "gate": "east"
+        }
+      },
+      {
+        "id": "Q2",
+        "inputs": {
+          "badge shape": "oval",
+          "ribbon": "short",
+          "gate": "west"
+        }
+      },
+      {
+        "id": "Q3",
+        "inputs": {
+          "badge shape": "oval",
+          "ribbon": "long",
+          "gate": "east"
+        }
+      },
+      {
+        "id": "Q4",
+        "inputs": {
+          "badge shape": "oval",
+          "ribbon": "long",
+          "gate": "west"
+        }
+      },
+      {
+        "id": "Q5",
+        "inputs": {
+          "badge shape": "diamond",
+          "ribbon": "short",
+          "gate": "east"
+        }
+      },
+      {
+        "id": "Q6",
+        "inputs": {
+          "badge shape": "diamond",
+          "ribbon": "short",
+          "gate": "west"
+        }
+      },
+      {
+        "id": "Q7",
+        "inputs": {
+          "badge shape": "diamond",
+          "ribbon": "long",
+          "gate": "east"
+        }
+      },
+      {
+        "id": "Q8",
+        "inputs": {
+          "badge shape": "diamond",
+          "ribbon": "long",
+          "gate": "west"
+        }
+      }
+    ],
+    "check_ids": [
+      "Q2",
+      "Q3",
+      "Q5"
+    ],
+    "public_text": "Term: Pelvani entry.\nSetting: a fictional festival admission convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: badge shape = oval; ribbon = short; gate = east.\nQ2: badge shape = oval; ribbon = short; gate = west.\nQ3: badge shape = oval; ribbon = long; gate = east.\nQ4: badge shape = oval; ribbon = long; gate = west.\nQ5: badge shape = diamond; ribbon = short; gate = east.\nQ6: badge shape = diamond; ribbon = short; gate = west.\nQ7: badge shape = diamond; ribbon = long; gate = east.\nQ8: badge shape = diamond; ribbon = long; gate = west.\nOpening check commitments: Q2, Q3, Q5. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.",
+    "private_text": "You received the complete sampled reference card for this game. It is authoritative only inside this fictional game.\nQ1: FAIL\nQ2: PASS\nQ3: FAIL\nQ4: FAIL\nQ5: PASS\nQ6: PASS\nQ7: FAIL\nQ8: PASS\nEquivalently, the convention gives PASS exactly for Q2, Q5, Q6, Q8; the other listed inputs FAIL. Use these outcomes accurately. No other context or physical intuition overrides this table.",
+    "gold": {
+      "Q1": "FAIL",
+      "Q2": "PASS",
+      "Q3": "FAIL",
+      "Q4": "FAIL",
+      "Q5": "PASS",
+      "Q6": "PASS",
+      "Q7": "FAIL",
+      "Q8": "PASS"
+    },
+    "informed_seat": "B",
+    "fresh_arm_first": "E",
+    "generation_first": "A",
+    "round_response_first": [
+      "A",
+      "A",
+      "B"
+    ],
+    "case_sha256": "d2bc5e4635b8e723087565e24e909afd92c225c61744e833ed6c843c1207aae7"
+  },
+  {
+    "case_id": "P06",
+    "split": "main",
+    "config": "R2",
+    "term": "Kelmora sort",
+    "features": [
+      {
+        "name": "block shape",
+        "values": [
+          "cube",
+          "cylinder"
+        ]
+      },
+      {
+        "name": "stamp",
+        "values": [
+          "star",
+          "ring"
+        ]
+      },
+      {
+        "name": "rack",
+        "values": [
+          "front",
+          "back"
+        ]
+      }
+    ],
+    "inputs": [
+      {
+        "id": "Q1",
+        "inputs": {
+          "block shape": "cube",
+          "stamp": "star",
+          "rack": "front"
+        }
+      },
+      {
+        "id": "Q2",
+        "inputs": {
+          "block shape": "cube",
+          "stamp": "star",
+          "rack": "back"
+        }
+      },
+      {
+        "id": "Q3",
+        "inputs": {
+          "block shape": "cube",
+          "stamp": "ring",
+          "rack": "front"
+        }
+      },
+      {
+        "id": "Q4",
+        "inputs": {
+          "block shape": "cube",
+          "stamp": "ring",
+          "rack": "back"
+        }
+      },
+      {
+        "id": "Q5",
+        "inputs": {
+          "block shape": "cylinder",
+          "stamp": "star",
+          "rack": "front"
+        }
+      },
+      {
+        "id": "Q6",
+        "inputs": {
+          "block shape": "cylinder",
+          "stamp": "star",
+          "rack": "back"
+        }
+      },
+      {
+        "id": "Q7",
+        "inputs": {
+          "block shape": "cylinder",
+          "stamp": "ring",
+          "rack": "front"
+        }
+      },
+      {
+        "id": "Q8",
+        "inputs": {
+          "block shape": "cylinder",
+          "stamp": "ring",
+          "rack": "back"
+        }
+      }
+    ],
+    "check_ids": [
+      "Q3",
+      "Q6",
+      "Q7"
+    ],
+    "public_text": "Term: Kelmora sort.\nSetting: a puzzle workshop sorting convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: block shape = cube; stamp = star; rack = front.\nQ2: block shape = cube; stamp = star; rack = back.\nQ3: block shape = cube; stamp = ring; rack = front.\nQ4: block shape = cube; stamp = ring; rack = back.\nQ5: block shape = cylinder; stamp = star; rack = front.\nQ6: block shape = cylinder; stamp = star; rack = back.\nQ7: block shape = cylinder; stamp = ring; rack = front.\nQ8: block shape = cylinder; stamp = ring; rack = back.\nOpening check commitments: Q3, Q6, Q7. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.",
+    "private_text": "You received the complete sampled reference card for this game. It is authoritative only inside this fictional game.\nQ1: PASS\nQ2: FAIL\nQ3: PASS\nQ4: PASS\nQ5: PASS\nQ6: FAIL\nQ7: FAIL\nQ8: FAIL\nEquivalently, the convention gives PASS exactly for Q1, Q3, Q4, Q5; the other listed inputs FAIL. Use these outcomes accurately. No other context or physical intuition overrides this table.",
+    "gold": {
+      "Q1": "PASS",
+      "Q2": "FAIL",
+      "Q3": "PASS",
+      "Q4": "PASS",
+      "Q5": "PASS",
+      "Q6": "FAIL",
+      "Q7": "FAIL",
+      "Q8": "FAIL"
+    },
+    "informed_seat": "A",
+    "fresh_arm_first": "E",
+    "generation_first": "A",
+    "round_response_first": [
+      "A",
+      "B",
+      "A"
+    ],
+    "case_sha256": "b490e664397367616cd3170b81db772a36b5aff7b900693e58d0c67a4f0de8ce"
+  },
+  {
+    "case_id": "P07",
+    "split": "main",
+    "config": "R1",
+    "term": "Arveth latch",
+    "features": [
+      {
+        "name": "dial",
+        "values": [
+          "low",
+          "high"
+        ]
+      },
+      {
+        "name": "lever",
+        "values": [
+          "in",
+          "out"
+        ]
+      },
+      {
+        "name": "plate",
+        "values": [
+          "smooth",
+          "ridged"
+        ]
+      }
+    ],
+    "inputs": [
+      {
+        "id": "Q1",
+        "inputs": {
+          "dial": "low",
+          "lever": "in",
+          "plate": "smooth"
+        }
+      },
+      {
+        "id": "Q2",
+        "inputs": {
+          "dial": "low",
+          "lever": "in",
+          "plate": "ridged"
+        }
+      },
+      {
+        "id": "Q3",
+        "inputs": {
+          "dial": "low",
+          "lever": "out",
+          "plate": "smooth"
+        }
+      },
+      {
+        "id": "Q4",
+        "inputs": {
+          "dial": "low",
+          "lever": "out",
+          "plate": "ridged"
+        }
+      },
+      {
+        "id": "Q5",
+        "inputs": {
+          "dial": "high",
+          "lever": "in",
+          "plate": "smooth"
+        }
+      },
+      {
+        "id": "Q6",
+        "inputs": {
+          "dial": "high",
+          "lever": "in",
+          "plate": "ridged"
+        }
+      },
+      {
+        "id": "Q7",
+        "inputs": {
+          "dial": "high",
+          "lever": "out",
+          "plate": "smooth"
+        }
+      },
+      {
+        "id": "Q8",
+        "inputs": {
+          "dial": "high",
+          "lever": "out",
+          "plate": "ridged"
+        }
+      }
+    ],
+    "check_ids": [
+      "Q1",
+      "Q6",
+      "Q7"
+    ],
+    "public_text": "Term: Arveth latch.\nSetting: a stage-prop latch activation convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: dial = low; lever = in; plate = smooth.\nQ2: dial = low; lever = in; plate = ridged.\nQ3: dial = low; lever = out; plate = smooth.\nQ4: dial = low; lever = out; plate = ridged.\nQ5: dial = high; lever = in; plate = smooth.\nQ6: dial = high; lever = in; plate = ridged.\nQ7: dial = high; lever = out; plate = smooth.\nQ8: dial = high; lever = out; plate = ridged.\nOpening check commitments: Q1, Q6, Q7. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.",
+    "private_text": "You received the complete sampled reference card for this game. It is authoritative only inside this fictional game.\nQ1: FAIL\nQ2: PASS\nQ3: PASS\nQ4: PASS\nQ5: FAIL\nQ6: PASS\nQ7: FAIL\nQ8: FAIL\nEquivalently, the convention gives PASS exactly for Q2, Q3, Q4, Q6; the other listed inputs FAIL. Use these outcomes accurately. No other context or physical intuition overrides this table.",
+    "gold": {
+      "Q1": "FAIL",
+      "Q2": "PASS",
+      "Q3": "PASS",
+      "Q4": "PASS",
+      "Q5": "FAIL",
+      "Q6": "PASS",
+      "Q7": "FAIL",
+      "Q8": "FAIL"
+    },
+    "informed_seat": "A",
+    "fresh_arm_first": "N",
+    "generation_first": "A",
+    "round_response_first": [
+      "B",
+      "B",
+      "A"
+    ],
+    "case_sha256": "e665fdb54e4335b76d959da3cd197b67f6604bd6543ce8d9c1a7ba43dc0cea4a"
+  },
+  {
+    "case_id": "P08",
+    "split": "main",
+    "config": "R2",
+    "term": "Senvar passage",
+    "features": [
+      {
+        "name": "tile",
+        "values": [
+          "pale",
+          "dark"
+        ]
+      },
+      {
+        "name": "arrow",
+        "values": [
+          "north",
+          "south"
+        ]
+      },
+      {
+        "name": "marker",
+        "values": [
+          "single",
+          "double"
+        ]
+      }
+    ],
+    "inputs": [
+      {
+        "id": "Q1",
+        "inputs": {
+          "tile": "pale",
+          "arrow": "north",
+          "marker": "single"
+        }
+      },
+      {
+        "id": "Q2",
+        "inputs": {
+          "tile": "pale",
+          "arrow": "north",
+          "marker": "double"
+        }
+      },
+      {
+        "id": "Q3",
+        "inputs": {
+          "tile": "pale",
+          "arrow": "south",
+          "marker": "single"
+        }
+      },
+      {
+        "id": "Q4",
+        "inputs": {
+          "tile": "pale",
+          "arrow": "south",
+          "marker": "double"
+        }
+      },
+      {
+        "id": "Q5",
+        "inputs": {
+          "tile": "dark",
+          "arrow": "north",
+          "marker": "single"
+        }
+      },
+      {
+        "id": "Q6",
+        "inputs": {
+          "tile": "dark",
+          "arrow": "north",
+          "marker": "double"
+        }
+      },
+      {
+        "id": "Q7",
+        "inputs": {
+          "tile": "dark",
+          "arrow": "south",
+          "marker": "single"
+        }
+      },
+      {
+        "id": "Q8",
+        "inputs": {
+          "tile": "dark",
+          "arrow": "south",
+          "marker": "double"
+        }
+      }
+    ],
+    "check_ids": [
+      "Q5",
+      "Q7",
+      "Q8"
+    ],
+    "public_text": "Term: Senvar passage.\nSetting: a fictional tabletop crossing convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: tile = pale; arrow = north; marker = single.\nQ2: tile = pale; arrow = north; marker = double.\nQ3: tile = pale; arrow = south; marker = single.\nQ4: tile = pale; arrow = south; marker = double.\nQ5: tile = dark; arrow = north; marker = single.\nQ6: tile = dark; arrow = north; marker = double.\nQ7: tile = dark; arrow = south; marker = single.\nQ8: tile = dark; arrow = south; marker = double.\nOpening check commitments: Q5, Q7, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.",
+    "private_text": "You received the complete sampled reference card for this game. It is authoritative only inside this fictional game.\nQ1: PASS\nQ2: FAIL\nQ3: FAIL\nQ4: FAIL\nQ5: PASS\nQ6: PASS\nQ7: FAIL\nQ8: PASS\nEquivalently, the convention gives PASS exactly for Q1, Q5, Q6, Q8; the other listed inputs FAIL. Use these outcomes accurately. No other context or physical intuition overrides this table.",
+    "gold": {
+      "Q1": "PASS",
+      "Q2": "FAIL",
+      "Q3": "FAIL",
+      "Q4": "FAIL",
+      "Q5": "PASS",
+      "Q6": "PASS",
+      "Q7": "FAIL",
+      "Q8": "PASS"
+    },
+    "informed_seat": "B",
+    "fresh_arm_first": "N",
+    "generation_first": "B",
+    "round_response_first": [
+      "B",
+      "A",
+      "B"
+    ],
+    "case_sha256": "fa896878e1ce018bd575adc8d843cf1625cc7e776810aa32fb909ab8bb5573d4"
+  },
+  {
+    "case_id": "P09",
+    "split": "main",
+    "config": "R1",
+    "term": "Ulmerin mark",
+    "features": [
+      {
+        "name": "slip",
+        "values": [
+          "wide",
+          "narrow"
+        ]
+      },
+      {
+        "name": "seal",
+        "values": [
+          "open",
+          "closed"
+        ]
+      },
+      {
+        "name": "desk",
+        "values": [
+          "first",
+          "second"
+        ]
+      }
+    ],
+    "inputs": [
+      {
+        "id": "Q1",
+        "inputs": {
+          "slip": "wide",
+          "seal": "open",
+          "desk": "first"
+        }
+      },
+      {
+        "id": "Q2",
+        "inputs": {
+          "slip": "wide",
+          "seal": "open",
+          "desk": "second"
+        }
+      },
+      {
+        "id": "Q3",
+        "inputs": {
+          "slip": "wide",
+          "seal": "closed",
+          "desk": "first"
+        }
+      },
+      {
+        "id": "Q4",
+        "inputs": {
+          "slip": "wide",
+          "seal": "closed",
+          "desk": "second"
+        }
+      },
+      {
+        "id": "Q5",
+        "inputs": {
+          "slip": "narrow",
+          "seal": "open",
+          "desk": "first"
+        }
+      },
+      {
+        "id": "Q6",
+        "inputs": {
+          "slip": "narrow",
+          "seal": "open",
+          "desk": "second"
+        }
+      },
+      {
+        "id": "Q7",
+        "inputs": {
+          "slip": "narrow",
+          "seal": "closed",
+          "desk": "first"
+        }
+      },
+      {
+        "id": "Q8",
+        "inputs": {
+          "slip": "narrow",
+          "seal": "closed",
+          "desk": "second"
+        }
+      }
+    ],
+    "check_ids": [
+      "Q6",
+      "Q7",
+      "Q8"
+    ],
+    "public_text": "Term: Ulmerin mark.\nSetting: an imaginary library checkout convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: slip = wide; seal = open; desk = first.\nQ2: slip = wide; seal = open; desk = second.\nQ3: slip = wide; seal = closed; desk = first.\nQ4: slip = wide; seal = closed; desk = second.\nQ5: slip = narrow; seal = open; desk = first.\nQ6: slip = narrow; seal = open; desk = second.\nQ7: slip = narrow; seal = closed; desk = first.\nQ8: slip = narrow; seal = closed; desk = second.\nOpening check commitments: Q6, Q7, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.",
+    "private_text": "You received the complete sampled reference card for this game. It is authoritative only inside this fictional game.\nQ1: FAIL\nQ2: FAIL\nQ3: PASS\nQ4: FAIL\nQ5: PASS\nQ6: PASS\nQ7: FAIL\nQ8: PASS\nEquivalently, the convention gives PASS exactly for Q3, Q5, Q6, Q8; the other listed inputs FAIL. Use these outcomes accurately. No other context or physical intuition overrides this table.",
+    "gold": {
+      "Q1": "FAIL",
+      "Q2": "FAIL",
+      "Q3": "PASS",
+      "Q4": "FAIL",
+      "Q5": "PASS",
+      "Q6": "PASS",
+      "Q7": "FAIL",
+      "Q8": "PASS"
+    },
+    "informed_seat": "A",
+    "fresh_arm_first": "E",
+    "generation_first": "B",
+    "round_response_first": [
+      "B",
+      "B",
+      "A"
+    ],
+    "case_sha256": "50cad3381c70225c111694cf45cf25e07f6cbb56297b36743546eed7457c2e6e"
+  },
+  {
+    "case_id": "P10",
+    "split": "main",
+    "config": "R2",
+    "term": "Dorvessa match",
+    "features": [
+      {
+        "name": "tile edge",
+        "values": [
+          "flat",
+          "curved"
+        ]
+      },
+      {
+        "name": "emblem",
+        "values": [
+          "leaf",
+          "wave"
+        ]
+      },
+      {
+        "name": "slot",
+        "values": [
+          "near",
+          "far"
+        ]
+      }
+    ],
+    "inputs": [
+      {
+        "id": "Q1",
+        "inputs": {
+          "tile edge": "flat",
+          "emblem": "leaf",
+          "slot": "near"
+        }
+      },
+      {
+        "id": "Q2",
+        "inputs": {
+          "tile edge": "flat",
+          "emblem": "leaf",
+          "slot": "far"
+        }
+      },
+      {
+        "id": "Q3",
+        "inputs": {
+          "tile edge": "flat",
+          "emblem": "wave",
+          "slot": "near"
+        }
+      },
+      {
+        "id": "Q4",
+        "inputs": {
+          "tile edge": "flat",
+          "emblem": "wave",
+          "slot": "far"
+        }
+      },
+      {
+        "id": "Q5",
+        "inputs": {
+          "tile edge": "curved",
+          "emblem": "leaf",
+          "slot": "near"
+        }
+      },
+      {
+        "id": "Q6",
+        "inputs": {
+          "tile edge": "curved",
+          "emblem": "leaf",
+          "slot": "far"
+        }
+      },
+      {
+        "id": "Q7",
+        "inputs": {
+          "tile edge": "curved",
+          "emblem": "wave",
+          "slot": "near"
+        }
+      },
+      {
+        "id": "Q8",
+        "inputs": {
+          "tile edge": "curved",
+          "emblem": "wave",
+          "slot": "far"
+        }
+      }
+    ],
+    "check_ids": [
+      "Q4",
+      "Q5",
+      "Q8"
+    ],
+    "public_text": "Term: Dorvessa match.\nSetting: a fictional tile-matching convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: tile edge = flat; emblem = leaf; slot = near.\nQ2: tile edge = flat; emblem = leaf; slot = far.\nQ3: tile edge = flat; emblem = wave; slot = near.\nQ4: tile edge = flat; emblem = wave; slot = far.\nQ5: tile edge = curved; emblem = leaf; slot = near.\nQ6: tile edge = curved; emblem = leaf; slot = far.\nQ7: tile edge = curved; emblem = wave; slot = near.\nQ8: tile edge = curved; emblem = wave; slot = far.\nOpening check commitments: Q4, Q5, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.",
+    "private_text": "You received the complete sampled reference card for this game. It is authoritative only inside this fictional game.\nQ1: PASS\nQ2: FAIL\nQ3: PASS\nQ4: PASS\nQ5: FAIL\nQ6: PASS\nQ7: FAIL\nQ8: FAIL\nEquivalently, the convention gives PASS exactly for Q1, Q3, Q4, Q6; the other listed inputs FAIL. Use these outcomes accurately. No other context or physical intuition overrides this table.",
+    "gold": {
+      "Q1": "PASS",
+      "Q2": "FAIL",
+      "Q3": "PASS",
+      "Q4": "PASS",
+      "Q5": "FAIL",
+      "Q6": "PASS",
+      "Q7": "FAIL",
+      "Q8": "FAIL"
+    },
+    "informed_seat": "B",
+    "fresh_arm_first": "N",
+    "generation_first": "A",
+    "round_response_first": [
+      "B",
+      "B",
+      "A"
+    ],
+    "case_sha256": "b1b099d4f87d3adced3308e078d83a83c90383b75961826a6b6d4b84b0f16322"
+  },
+  {
+    "case_id": "P11",
+    "split": "main",
+    "config": "R1",
+    "term": "Norevik code",
+    "features": [
+      {
+        "name": "switch",
+        "values": [
+          "off",
+          "on"
+        ]
+      },
+      {
+        "name": "key",
+        "values": [
+          "bronze",
+          "silver"
+        ]
+      },
+      {
+        "name": "socket",
+        "values": [
+          "top",
+          "bottom"
+        ]
+      }
+    ],
+    "inputs": [
+      {
+        "id": "Q1",
+        "inputs": {
+          "switch": "off",
+          "key": "bronze",
+          "socket": "top"
+        }
+      },
+      {
+        "id": "Q2",
+        "inputs": {
+          "switch": "off",
+          "key": "bronze",
+          "socket": "bottom"
+        }
+      },
+      {
+        "id": "Q3",
+        "inputs": {
+          "switch": "off",
+          "key": "silver",
+          "socket": "top"
+        }
+      },
+      {
+        "id": "Q4",
+        "inputs": {
+          "switch": "off",
+          "key": "silver",
+          "socket": "bottom"
+        }
+      },
+      {
+        "id": "Q5",
+        "inputs": {
+          "switch": "on",
+          "key": "bronze",
+          "socket": "top"
+        }
+      },
+      {
+        "id": "Q6",
+        "inputs": {
+          "switch": "on",
+          "key": "bronze",
+          "socket": "bottom"
+        }
+      },
+      {
+        "id": "Q7",
+        "inputs": {
+          "switch": "on",
+          "key": "silver",
+          "socket": "top"
+        }
+      },
+      {
+        "id": "Q8",
+        "inputs": {
+          "switch": "on",
+          "key": "silver",
+          "socket": "bottom"
+        }
+      }
+    ],
+    "check_ids": [
+      "Q1",
+      "Q7",
+      "Q8"
+    ],
+    "public_text": "Term: Norevik code.\nSetting: a prop-console acceptance convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: switch = off; key = bronze; socket = top.\nQ2: switch = off; key = bronze; socket = bottom.\nQ3: switch = off; key = silver; socket = top.\nQ4: switch = off; key = silver; socket = bottom.\nQ5: switch = on; key = bronze; socket = top.\nQ6: switch = on; key = bronze; socket = bottom.\nQ7: switch = on; key = silver; socket = top.\nQ8: switch = on; key = silver; socket = bottom.\nOpening check commitments: Q1, Q7, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.",
+    "private_text": "You received the complete sampled reference card for this game. It is authoritative only inside this fictional game.\nQ1: FAIL\nQ2: PASS\nQ3: PASS\nQ4: PASS\nQ5: FAIL\nQ6: FAIL\nQ7: PASS\nQ8: FAIL\nEquivalently, the convention gives PASS exactly for Q2, Q3, Q4, Q7; the other listed inputs FAIL. Use these outcomes accurately. No other context or physical intuition overrides this table.",
+    "gold": {
+      "Q1": "FAIL",
+      "Q2": "PASS",
+      "Q3": "PASS",
+      "Q4": "PASS",
+      "Q5": "FAIL",
+      "Q6": "FAIL",
+      "Q7": "PASS",
+      "Q8": "FAIL"
+    },
+    "informed_seat": "B",
+    "fresh_arm_first": "N",
+    "generation_first": "B",
+    "round_response_first": [
+      "B",
+      "B",
+      "A"
+    ],
+    "case_sha256": "a5cda979693931de05734a526b3cac4dcf27747d5ca82661e30651e8a10a36f7"
+  },
+  {
+    "case_id": "P12",
+    "split": "main",
+    "config": "R2",
+    "term": "Felmara order",
+    "features": [
+      {
+        "name": "box",
+        "values": [
+          "tall",
+          "low"
+        ]
+      },
+      {
+        "name": "label",
+        "values": [
+          "triangle",
+          "circle"
+        ]
+      },
+      {
+        "name": "bay",
+        "values": [
+          "alpha",
+          "beta"
+        ]
+      }
+    ],
+    "inputs": [
+      {
+        "id": "Q1",
+        "inputs": {
+          "box": "tall",
+          "label": "triangle",
+          "bay": "alpha"
+        }
+      },
+      {
+        "id": "Q2",
+        "inputs": {
+          "box": "tall",
+          "label": "triangle",
+          "bay": "beta"
+        }
+      },
+      {
+        "id": "Q3",
+        "inputs": {
+          "box": "tall",
+          "label": "circle",
+          "bay": "alpha"
+        }
+      },
+      {
+        "id": "Q4",
+        "inputs": {
+          "box": "tall",
+          "label": "circle",
+          "bay": "beta"
+        }
+      },
+      {
+        "id": "Q5",
+        "inputs": {
+          "box": "low",
+          "label": "triangle",
+          "bay": "alpha"
+        }
+      },
+      {
+        "id": "Q6",
+        "inputs": {
+          "box": "low",
+          "label": "triangle",
+          "bay": "beta"
+        }
+      },
+      {
+        "id": "Q7",
+        "inputs": {
+          "box": "low",
+          "label": "circle",
+          "bay": "alpha"
+        }
+      },
+      {
+        "id": "Q8",
+        "inputs": {
+          "box": "low",
+          "label": "circle",
+          "bay": "beta"
+        }
+      }
+    ],
+    "check_ids": [
+      "Q3",
+      "Q5",
+      "Q8"
+    ],
+    "public_text": "Term: Felmara order.\nSetting: an imaginary parcel routing convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: box = tall; label = triangle; bay = alpha.\nQ2: box = tall; label = triangle; bay = beta.\nQ3: box = tall; label = circle; bay = alpha.\nQ4: box = tall; label = circle; bay = beta.\nQ5: box = low; label = triangle; bay = alpha.\nQ6: box = low; label = triangle; bay = beta.\nQ7: box = low; label = circle; bay = alpha.\nQ8: box = low; label = circle; bay = beta.\nOpening check commitments: Q3, Q5, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.",
+    "private_text": "You received the complete sampled reference card for this game. It is authoritative only inside this fictional game.\nQ1: FAIL\nQ2: PASS\nQ3: FAIL\nQ4: PASS\nQ5: PASS\nQ6: PASS\nQ7: FAIL\nQ8: FAIL\nEquivalently, the convention gives PASS exactly for Q2, Q4, Q5, Q6; the other listed inputs FAIL. Use these outcomes accurately. No other context or physical intuition overrides this table.",
+    "gold": {
+      "Q1": "FAIL",
+      "Q2": "PASS",
+      "Q3": "FAIL",
+      "Q4": "PASS",
+      "Q5": "PASS",
+      "Q6": "PASS",
+      "Q7": "FAIL",
+      "Q8": "FAIL"
+    },
+    "informed_seat": "A",
+    "fresh_arm_first": "E",
+    "generation_first": "A",
+    "round_response_first": [
+      "B",
+      "A",
+      "A"
+    ],
+    "case_sha256": "cb59b71c1ed54662bb3f11aab1f5924b923a803546a0fd5adfd2481bd276c5ae"
+  },
+  {
+    "case_id": "P13",
+    "split": "main",
+    "config": "R1",
+    "term": "Istralen fold",
+    "features": [
+      {
+        "name": "paper",
+        "values": [
+          "matte",
+          "glossy"
+        ]
+      },
+      {
+        "name": "crease",
+        "values": [
+          "vertical",
+          "horizontal"
+        ]
+      },
+      {
+        "name": "seal",
+        "values": [
+          "black",
+          "white"
+        ]
+      }
+    ],
+    "inputs": [
+      {
+        "id": "Q1",
+        "inputs": {
+          "paper": "matte",
+          "crease": "vertical",
+          "seal": "black"
+        }
+      },
+      {
+        "id": "Q2",
+        "inputs": {
+          "paper": "matte",
+          "crease": "vertical",
+          "seal": "white"
+        }
+      },
+      {
+        "id": "Q3",
+        "inputs": {
+          "paper": "matte",
+          "crease": "horizontal",
+          "seal": "black"
+        }
+      },
+      {
+        "id": "Q4",
+        "inputs": {
+          "paper": "matte",
+          "crease": "horizontal",
+          "seal": "white"
+        }
+      },
+      {
+        "id": "Q5",
+        "inputs": {
+          "paper": "glossy",
+          "crease": "vertical",
+          "seal": "black"
+        }
+      },
+      {
+        "id": "Q6",
+        "inputs": {
+          "paper": "glossy",
+          "crease": "vertical",
+          "seal": "white"
+        }
+      },
+      {
+        "id": "Q7",
+        "inputs": {
+          "paper": "glossy",
+          "crease": "horizontal",
+          "seal": "black"
+        }
+      },
+      {
+        "id": "Q8",
+        "inputs": {
+          "paper": "glossy",
+          "crease": "horizontal",
+          "seal": "white"
+        }
+      }
+    ],
+    "check_ids": [
+      "Q2",
+      "Q5",
+      "Q8"
+    ],
+    "public_text": "Term: Istralen fold.\nSetting: a puzzle-paper classification convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: paper = matte; crease = vertical; seal = black.\nQ2: paper = matte; crease = vertical; seal = white.\nQ3: paper = matte; crease = horizontal; seal = black.\nQ4: paper = matte; crease = horizontal; seal = white.\nQ5: paper = glossy; crease = vertical; seal = black.\nQ6: paper = glossy; crease = vertical; seal = white.\nQ7: paper = glossy; crease = horizontal; seal = black.\nQ8: paper = glossy; crease = horizontal; seal = white.\nOpening check commitments: Q2, Q5, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.",
+    "private_text": "You received the complete sampled reference card for this game. It is authoritative only inside this fictional game.\nQ1: PASS\nQ2: PASS\nQ3: FAIL\nQ4: FAIL\nQ5: PASS\nQ6: FAIL\nQ7: FAIL\nQ8: PASS\nEquivalently, the convention gives PASS exactly for Q1, Q2, Q5, Q8; the other listed inputs FAIL. Use these outcomes accurately. No other context or physical intuition overrides this table.",
+    "gold": {
+      "Q1": "PASS",
+      "Q2": "PASS",
+      "Q3": "FAIL",
+      "Q4": "FAIL",
+      "Q5": "PASS",
+      "Q6": "FAIL",
+      "Q7": "FAIL",
+      "Q8": "PASS"
+    },
+    "informed_seat": "B",
+    "fresh_arm_first": "N",
+    "generation_first": "A",
+    "round_response_first": [
+      "B",
+      "A",
+      "B"
+    ],
+    "case_sha256": "5e238d1d96e8bf9c8e33eb8eab02ae392cb91097bc4197dbda2312cc397bed36"
+  },
+  {
+    "case_id": "P14",
+    "split": "main",
+    "config": "R2",
+    "term": "Velsori pass",
+    "features": [
+      {
+        "name": "token",
+        "values": [
+          "wood",
+          "stone"
+        ]
+      },
+      {
+        "name": "mark",
+        "values": [
+          "cross",
+          "spiral"
+        ]
+      },
+      {
+        "name": "path",
+        "values": [
+          "short",
+          "long"
+        ]
+      }
+    ],
+    "inputs": [
+      {
+        "id": "Q1",
+        "inputs": {
+          "token": "wood",
+          "mark": "cross",
+          "path": "short"
+        }
+      },
+      {
+        "id": "Q2",
+        "inputs": {
+          "token": "wood",
+          "mark": "cross",
+          "path": "long"
+        }
+      },
+      {
+        "id": "Q3",
+        "inputs": {
+          "token": "wood",
+          "mark": "spiral",
+          "path": "short"
+        }
+      },
+      {
+        "id": "Q4",
+        "inputs": {
+          "token": "wood",
+          "mark": "spiral",
+          "path": "long"
+        }
+      },
+      {
+        "id": "Q5",
+        "inputs": {
+          "token": "stone",
+          "mark": "cross",
+          "path": "short"
+        }
+      },
+      {
+        "id": "Q6",
+        "inputs": {
+          "token": "stone",
+          "mark": "cross",
+          "path": "long"
+        }
+      },
+      {
+        "id": "Q7",
+        "inputs": {
+          "token": "stone",
+          "mark": "spiral",
+          "path": "short"
+        }
+      },
+      {
+        "id": "Q8",
+        "inputs": {
+          "token": "stone",
+          "mark": "spiral",
+          "path": "long"
+        }
+      }
+    ],
+    "check_ids": [
+      "Q3",
+      "Q4",
+      "Q6"
+    ],
+    "public_text": "Term: Velsori pass.\nSetting: a fictional garden-token entry convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: token = wood; mark = cross; path = short.\nQ2: token = wood; mark = cross; path = long.\nQ3: token = wood; mark = spiral; path = short.\nQ4: token = wood; mark = spiral; path = long.\nQ5: token = stone; mark = cross; path = short.\nQ6: token = stone; mark = cross; path = long.\nQ7: token = stone; mark = spiral; path = short.\nQ8: token = stone; mark = spiral; path = long.\nOpening check commitments: Q3, Q4, Q6. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.",
+    "private_text": "You received the complete sampled reference card for this game. It is authoritative only inside this fictional game.\nQ1: FAIL\nQ2: FAIL\nQ3: FAIL\nQ4: FAIL\nQ5: PASS\nQ6: PASS\nQ7: PASS\nQ8: PASS\nEquivalently, the convention gives PASS exactly for Q5, Q6, Q7, Q8; the other listed inputs FAIL. Use these outcomes accurately. No other context or physical intuition overrides this table.",
+    "gold": {
+      "Q1": "FAIL",
+      "Q2": "FAIL",
+      "Q3": "FAIL",
+      "Q4": "FAIL",
+      "Q5": "PASS",
+      "Q6": "PASS",
+      "Q7": "PASS",
+      "Q8": "PASS"
+    },
+    "informed_seat": "B",
+    "fresh_arm_first": "N",
+    "generation_first": "B",
+    "round_response_first": [
+      "A",
+      "A",
+      "B"
+    ],
+    "case_sha256": "ac12c647816153ba9a8a032215ddffb62d24802b90495500793ae1bc628a805a"
+  },
+  {
+    "case_id": "P15",
+    "split": "main",
+    "config": "R1",
+    "term": "Tervun flash",
+    "features": [
+      {
+        "name": "cap",
+        "values": [
+          "cone",
+          "dome"
+        ]
+      },
+      {
+        "name": "tab",
+        "values": [
+          "extended",
+          "retracted"
+        ]
+      },
+      {
+        "name": "base",
+        "values": [
+          "light",
+          "heavy"
+        ]
+      }
+    ],
+    "inputs": [
+      {
+        "id": "Q1",
+        "inputs": {
+          "cap": "cone",
+          "tab": "extended",
+          "base": "light"
+        }
+      },
+      {
+        "id": "Q2",
+        "inputs": {
+          "cap": "cone",
+          "tab": "extended",
+          "base": "heavy"
+        }
+      },
+      {
+        "id": "Q3",
+        "inputs": {
+          "cap": "cone",
+          "tab": "retracted",
+          "base": "light"
+        }
+      },
+      {
+        "id": "Q4",
+        "inputs": {
+          "cap": "cone",
+          "tab": "retracted",
+          "base": "heavy"
+        }
+      },
+      {
+        "id": "Q5",
+        "inputs": {
+          "cap": "dome",
+          "tab": "extended",
+          "base": "light"
+        }
+      },
+      {
+        "id": "Q6",
+        "inputs": {
+          "cap": "dome",
+          "tab": "extended",
+          "base": "heavy"
+        }
+      },
+      {
+        "id": "Q7",
+        "inputs": {
+          "cap": "dome",
+          "tab": "retracted",
+          "base": "light"
+        }
+      },
+      {
+        "id": "Q8",
+        "inputs": {
+          "cap": "dome",
+          "tab": "retracted",
+          "base": "heavy"
+        }
+      }
+    ],
+    "check_ids": [
+      "Q2",
+      "Q6",
+      "Q8"
+    ],
+    "public_text": "Term: Tervun flash.\nSetting: a toy beacon flashing convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: cap = cone; tab = extended; base = light.\nQ2: cap = cone; tab = extended; base = heavy.\nQ3: cap = cone; tab = retracted; base = light.\nQ4: cap = cone; tab = retracted; base = heavy.\nQ5: cap = dome; tab = extended; base = light.\nQ6: cap = dome; tab = extended; base = heavy.\nQ7: cap = dome; tab = retracted; base = light.\nQ8: cap = dome; tab = retracted; base = heavy.\nOpening check commitments: Q2, Q6, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.",
+    "private_text": "You received the complete sampled reference card for this game. It is authoritative only inside this fictional game.\nQ1: FAIL\nQ2: PASS\nQ3: FAIL\nQ4: PASS\nQ5: PASS\nQ6: FAIL\nQ7: PASS\nQ8: FAIL\nEquivalently, the convention gives PASS exactly for Q2, Q4, Q5, Q7; the other listed inputs FAIL. Use these outcomes accurately. No other context or physical intuition overrides this table.",
+    "gold": {
+      "Q1": "FAIL",
+      "Q2": "PASS",
+      "Q3": "FAIL",
+      "Q4": "PASS",
+      "Q5": "PASS",
+      "Q6": "FAIL",
+      "Q7": "PASS",
+      "Q8": "FAIL"
+    },
+    "informed_seat": "A",
+    "fresh_arm_first": "E",
+    "generation_first": "A",
+    "round_response_first": [
+      "A",
+      "A",
+      "B"
+    ],
+    "case_sha256": "271ff10a5fffe75a3a75a4c91f0200fc7b4171eceabd6a8b382b656c72b6467b"
+  },
+  {
+    "case_id": "P16",
+    "split": "main",
+    "config": "R2",
+    "term": "Meralvek award",
+    "features": [
+      {
+        "name": "piece",
+        "values": [
+          "thin",
+          "thick"
+        ]
+      },
+      {
+        "name": "icon",
+        "values": [
+          "bird",
+          "fish"
+        ]
+      },
+      {
+        "name": "row",
+        "values": [
+          "odd",
+          "even"
+        ]
+      }
+    ],
+    "inputs": [
+      {
+        "id": "Q1",
+        "inputs": {
+          "piece": "thin",
+          "icon": "bird",
+          "row": "odd"
+        }
+      },
+      {
+        "id": "Q2",
+        "inputs": {
+          "piece": "thin",
+          "icon": "bird",
+          "row": "even"
+        }
+      },
+      {
+        "id": "Q3",
+        "inputs": {
+          "piece": "thin",
+          "icon": "fish",
+          "row": "odd"
+        }
+      },
+      {
+        "id": "Q4",
+        "inputs": {
+          "piece": "thin",
+          "icon": "fish",
+          "row": "even"
+        }
+      },
+      {
+        "id": "Q5",
+        "inputs": {
+          "piece": "thick",
+          "icon": "bird",
+          "row": "odd"
+        }
+      },
+      {
+        "id": "Q6",
+        "inputs": {
+          "piece": "thick",
+          "icon": "bird",
+          "row": "even"
+        }
+      },
+      {
+        "id": "Q7",
+        "inputs": {
+          "piece": "thick",
+          "icon": "fish",
+          "row": "odd"
+        }
+      },
+      {
+        "id": "Q8",
+        "inputs": {
+          "piece": "thick",
+          "icon": "fish",
+          "row": "even"
+        }
+      }
+    ],
+    "check_ids": [
+      "Q1",
+      "Q2",
+      "Q4"
+    ],
+    "public_text": "Term: Meralvek award.\nSetting: an imaginary game-piece scoring convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: piece = thin; icon = bird; row = odd.\nQ2: piece = thin; icon = bird; row = even.\nQ3: piece = thin; icon = fish; row = odd.\nQ4: piece = thin; icon = fish; row = even.\nQ5: piece = thick; icon = bird; row = odd.\nQ6: piece = thick; icon = bird; row = even.\nQ7: piece = thick; icon = fish; row = odd.\nQ8: piece = thick; icon = fish; row = even.\nOpening check commitments: Q1, Q2, Q4. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.",
+    "private_text": "You received the complete sampled reference card for this game. It is authoritative only inside this fictional game.\nQ1: FAIL\nQ2: FAIL\nQ3: FAIL\nQ4: PASS\nQ5: FAIL\nQ6: PASS\nQ7: PASS\nQ8: PASS\nEquivalently, the convention gives PASS exactly for Q4, Q6, Q7, Q8; the other listed inputs FAIL. Use these outcomes accurately. No other context or physical intuition overrides this table.",
+    "gold": {
+      "Q1": "FAIL",
+      "Q2": "FAIL",
+      "Q3": "FAIL",
+      "Q4": "PASS",
+      "Q5": "FAIL",
+      "Q6": "PASS",
+      "Q7": "PASS",
+      "Q8": "PASS"
+    },
+    "informed_seat": "A",
+    "fresh_arm_first": "E",
+    "generation_first": "A",
+    "round_response_first": [
+      "B",
+      "A",
+      "B"
+    ],
+    "case_sha256": "949aabdde2e8f1edcd03ade9156e09c8aa64cfcd6b0466765c807537e5b933ef"
+  },
+  {
+    "case_id": "P17",
+    "split": "main",
+    "config": "R1",
+    "term": "Ordelin lock",
+    "features": [
+      {
+        "name": "knob",
+        "values": [
+          "clockwise",
+          "counterclockwise"
+        ]
+      },
+      {
+        "name": "strap",
+        "values": [
+          "loose",
+          "tight"
+        ]
+      },
+      {
+        "name": "panel",
+        "values": [
+          "green",
+          "violet"
+        ]
+      }
+    ],
+    "inputs": [
+      {
+        "id": "Q1",
+        "inputs": {
+          "knob": "clockwise",
+          "strap": "loose",
+          "panel": "green"
+        }
+      },
+      {
+        "id": "Q2",
+        "inputs": {
+          "knob": "clockwise",
+          "strap": "loose",
+          "panel": "violet"
+        }
+      },
+      {
+        "id": "Q3",
+        "inputs": {
+          "knob": "clockwise",
+          "strap": "tight",
+          "panel": "green"
+        }
+      },
+      {
+        "id": "Q4",
+        "inputs": {
+          "knob": "clockwise",
+          "strap": "tight",
+          "panel": "violet"
+        }
+      },
+      {
+        "id": "Q5",
+        "inputs": {
+          "knob": "counterclockwise",
+          "strap": "loose",
+          "panel": "green"
+        }
+      },
+      {
+        "id": "Q6",
+        "inputs": {
+          "knob": "counterclockwise",
+          "strap": "loose",
+          "panel": "violet"
+        }
+      },
+      {
+        "id": "Q7",
+        "inputs": {
+          "knob": "counterclockwise",
+          "strap": "tight",
+          "panel": "green"
+        }
+      },
+      {
+        "id": "Q8",
+        "inputs": {
+          "knob": "counterclockwise",
+          "strap": "tight",
+          "panel": "violet"
+        }
+      }
+    ],
+    "check_ids": [
+      "Q1",
+      "Q7",
+      "Q8"
+    ],
+    "public_text": "Term: Ordelin lock.\nSetting: a stage-box locking convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: knob = clockwise; strap = loose; panel = green.\nQ2: knob = clockwise; strap = loose; panel = violet.\nQ3: knob = clockwise; strap = tight; panel = green.\nQ4: knob = clockwise; strap = tight; panel = violet.\nQ5: knob = counterclockwise; strap = loose; panel = green.\nQ6: knob = counterclockwise; strap = loose; panel = violet.\nQ7: knob = counterclockwise; strap = tight; panel = green.\nQ8: knob = counterclockwise; strap = tight; panel = violet.\nOpening check commitments: Q1, Q7, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.",
+    "private_text": "You received the complete sampled reference card for this game. It is authoritative only inside this fictional game.\nQ1: FAIL\nQ2: FAIL\nQ3: PASS\nQ4: PASS\nQ5: FAIL\nQ6: PASS\nQ7: FAIL\nQ8: PASS\nEquivalently, the convention gives PASS exactly for Q3, Q4, Q6, Q8; the other listed inputs FAIL. Use these outcomes accurately. No other context or physical intuition overrides this table.",
+    "gold": {
+      "Q1": "FAIL",
+      "Q2": "FAIL",
+      "Q3": "PASS",
+      "Q4": "PASS",
+      "Q5": "FAIL",
+      "Q6": "PASS",
+      "Q7": "FAIL",
+      "Q8": "PASS"
+    },
+    "informed_seat": "B",
+    "fresh_arm_first": "E",
+    "generation_first": "B",
+    "round_response_first": [
+      "B",
+      "A",
+      "B"
+    ],
+    "case_sha256": "5824de415603c5a4bd39b750a06680a67ddb57839ad0b4d090d6213e60a01cc4"
+  },
+  {
+    "case_id": "P18",
+    "split": "main",
+    "config": "R2",
+    "term": "Panvessa cue",
+    "features": [
+      {
+        "name": "card",
+        "values": [
+          "horizontal",
+          "vertical"
+        ]
+      },
+      {
+        "name": "spot",
+        "values": [
+          "filled",
+          "empty"
+        ]
+      },
+      {
+        "name": "stand",
+        "values": [
+          "left",
+          "right"
+        ]
+      }
+    ],
+    "inputs": [
+      {
+        "id": "Q1",
+        "inputs": {
+          "card": "horizontal",
+          "spot": "filled",
+          "stand": "left"
+        }
+      },
+      {
+        "id": "Q2",
+        "inputs": {
+          "card": "horizontal",
+          "spot": "filled",
+          "stand": "right"
+        }
+      },
+      {
+        "id": "Q3",
+        "inputs": {
+          "card": "horizontal",
+          "spot": "empty",
+          "stand": "left"
+        }
+      },
+      {
+        "id": "Q4",
+        "inputs": {
+          "card": "horizontal",
+          "spot": "empty",
+          "stand": "right"
+        }
+      },
+      {
+        "id": "Q5",
+        "inputs": {
+          "card": "vertical",
+          "spot": "filled",
+          "stand": "left"
+        }
+      },
+      {
+        "id": "Q6",
+        "inputs": {
+          "card": "vertical",
+          "spot": "filled",
+          "stand": "right"
+        }
+      },
+      {
+        "id": "Q7",
+        "inputs": {
+          "card": "vertical",
+          "spot": "empty",
+          "stand": "left"
+        }
+      },
+      {
+        "id": "Q8",
+        "inputs": {
+          "card": "vertical",
+          "spot": "empty",
+          "stand": "right"
+        }
+      }
+    ],
+    "check_ids": [
+      "Q1",
+      "Q7",
+      "Q8"
+    ],
+    "public_text": "Term: Panvessa cue.\nSetting: a fictional theater-cue authorization convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: card = horizontal; spot = filled; stand = left.\nQ2: card = horizontal; spot = filled; stand = right.\nQ3: card = horizontal; spot = empty; stand = left.\nQ4: card = horizontal; spot = empty; stand = right.\nQ5: card = vertical; spot = filled; stand = left.\nQ6: card = vertical; spot = filled; stand = right.\nQ7: card = vertical; spot = empty; stand = left.\nQ8: card = vertical; spot = empty; stand = right.\nOpening check commitments: Q1, Q7, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.",
+    "private_text": "You received the complete sampled reference card for this game. It is authoritative only inside this fictional game.\nQ1: FAIL\nQ2: FAIL\nQ3: PASS\nQ4: FAIL\nQ5: FAIL\nQ6: PASS\nQ7: PASS\nQ8: PASS\nEquivalently, the convention gives PASS exactly for Q3, Q6, Q7, Q8; the other listed inputs FAIL. Use these outcomes accurately. No other context or physical intuition overrides this table.",
+    "gold": {
+      "Q1": "FAIL",
+      "Q2": "FAIL",
+      "Q3": "PASS",
+      "Q4": "FAIL",
+      "Q5": "FAIL",
+      "Q6": "PASS",
+      "Q7": "PASS",
+      "Q8": "PASS"
+    },
+    "informed_seat": "A",
+    "fresh_arm_first": "E",
+    "generation_first": "A",
+    "round_response_first": [
+      "A",
+      "A",
+      "A"
+    ],
+    "case_sha256": "12f7d032b903c94e67112cf7841b2d0e57a31621cdd87aa9ef89dcc0228bb2b2"
+  },
+  {
+    "case_id": "P19",
+    "split": "main",
+    "config": "R1",
+    "term": "Yelvar check",
+    "features": [
+      {
+        "name": "badge",
+        "values": [
+          "small",
+          "large"
+        ]
+      },
+      {
+        "name": "stripe",
+        "values": [
+          "solid",
+          "dashed"
+        ]
+      },
+      {
+        "name": "clip",
+        "values": [
+          "upper",
+          "lower"
+        ]
+      }
+    ],
+    "inputs": [
+      {
+        "id": "Q1",
+        "inputs": {
+          "badge": "small",
+          "stripe": "solid",
+          "clip": "upper"
+        }
+      },
+      {
+        "id": "Q2",
+        "inputs": {
+          "badge": "small",
+          "stripe": "solid",
+          "clip": "lower"
+        }
+      },
+      {
+        "id": "Q3",
+        "inputs": {
+          "badge": "small",
+          "stripe": "dashed",
+          "clip": "upper"
+        }
+      },
+      {
+        "id": "Q4",
+        "inputs": {
+          "badge": "small",
+          "stripe": "dashed",
+          "clip": "lower"
+        }
+      },
+      {
+        "id": "Q5",
+        "inputs": {
+          "badge": "large",
+          "stripe": "solid",
+          "clip": "upper"
+        }
+      },
+      {
+        "id": "Q6",
+        "inputs": {
+          "badge": "large",
+          "stripe": "solid",
+          "clip": "lower"
+        }
+      },
+      {
+        "id": "Q7",
+        "inputs": {
+          "badge": "large",
+          "stripe": "dashed",
+          "clip": "upper"
+        }
+      },
+      {
+        "id": "Q8",
+        "inputs": {
+          "badge": "large",
+          "stripe": "dashed",
+          "clip": "lower"
+        }
+      }
+    ],
+    "check_ids": [
+      "Q1",
+      "Q2",
+      "Q6"
+    ],
+    "public_text": "Term: Yelvar check.\nSetting: an imaginary badge-validation convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: badge = small; stripe = solid; clip = upper.\nQ2: badge = small; stripe = solid; clip = lower.\nQ3: badge = small; stripe = dashed; clip = upper.\nQ4: badge = small; stripe = dashed; clip = lower.\nQ5: badge = large; stripe = solid; clip = upper.\nQ6: badge = large; stripe = solid; clip = lower.\nQ7: badge = large; stripe = dashed; clip = upper.\nQ8: badge = large; stripe = dashed; clip = lower.\nOpening check commitments: Q1, Q2, Q6. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.",
+    "private_text": "You received the complete sampled reference card for this game. It is authoritative only inside this fictional game.\nQ1: FAIL\nQ2: PASS\nQ3: FAIL\nQ4: PASS\nQ5: PASS\nQ6: PASS\nQ7: FAIL\nQ8: FAIL\nEquivalently, the convention gives PASS exactly for Q2, Q4, Q5, Q6; the other listed inputs FAIL. Use these outcomes accurately. No other context or physical intuition overrides this table.",
+    "gold": {
+      "Q1": "FAIL",
+      "Q2": "PASS",
+      "Q3": "FAIL",
+      "Q4": "PASS",
+      "Q5": "PASS",
+      "Q6": "PASS",
+      "Q7": "FAIL",
+      "Q8": "FAIL"
+    },
+    "informed_seat": "A",
+    "fresh_arm_first": "N",
+    "generation_first": "A",
+    "round_response_first": [
+      "B",
+      "B",
+      "A"
+    ],
+    "case_sha256": "a913ccf8257966a742a9c4fa39cdb5d5205e4c7884ac9973c3bf5493ed6651e2"
+  },
+  {
+    "case_id": "P20",
+    "split": "main",
+    "config": "R2",
+    "term": "Lunverin join",
+    "features": [
+      {
+        "name": "end",
+        "values": [
+          "fork",
+          "loop"
+        ]
+      },
+      {
+        "name": "band",
+        "values": [
+          "single",
+          "double"
+        ]
+      },
+      {
+        "name": "channel",
+        "values": [
+          "straight",
+          "bent"
+        ]
+      }
+    ],
+    "inputs": [
+      {
+        "id": "Q1",
+        "inputs": {
+          "end": "fork",
+          "band": "single",
+          "channel": "straight"
+        }
+      },
+      {
+        "id": "Q2",
+        "inputs": {
+          "end": "fork",
+          "band": "single",
+          "channel": "bent"
+        }
+      },
+      {
+        "id": "Q3",
+        "inputs": {
+          "end": "fork",
+          "band": "double",
+          "channel": "straight"
+        }
+      },
+      {
+        "id": "Q4",
+        "inputs": {
+          "end": "fork",
+          "band": "double",
+          "channel": "bent"
+        }
+      },
+      {
+        "id": "Q5",
+        "inputs": {
+          "end": "loop",
+          "band": "single",
+          "channel": "straight"
+        }
+      },
+      {
+        "id": "Q6",
+        "inputs": {
+          "end": "loop",
+          "band": "single",
+          "channel": "bent"
+        }
+      },
+      {
+        "id": "Q7",
+        "inputs": {
+          "end": "loop",
+          "band": "double",
+          "channel": "straight"
+        }
+      },
+      {
+        "id": "Q8",
+        "inputs": {
+          "end": "loop",
+          "band": "double",
+          "channel": "bent"
+        }
+      }
+    ],
+    "check_ids": [
+      "Q3",
+      "Q4",
+      "Q6"
+    ],
+    "public_text": "Term: Lunverin join.\nSetting: a puzzle connector admission convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: end = fork; band = single; channel = straight.\nQ2: end = fork; band = single; channel = bent.\nQ3: end = fork; band = double; channel = straight.\nQ4: end = fork; band = double; channel = bent.\nQ5: end = loop; band = single; channel = straight.\nQ6: end = loop; band = single; channel = bent.\nQ7: end = loop; band = double; channel = straight.\nQ8: end = loop; band = double; channel = bent.\nOpening check commitments: Q3, Q4, Q6. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.",
+    "private_text": "You received the complete sampled reference card for this game. It is authoritative only inside this fictional game.\nQ1: PASS\nQ2: FAIL\nQ3: FAIL\nQ4: PASS\nQ5: FAIL\nQ6: PASS\nQ7: PASS\nQ8: FAIL\nEquivalently, the convention gives PASS exactly for Q1, Q4, Q6, Q7; the other listed inputs FAIL. Use these outcomes accurately. No other context or physical intuition overrides this table.",
+    "gold": {
+      "Q1": "PASS",
+      "Q2": "FAIL",
+      "Q3": "FAIL",
+      "Q4": "PASS",
+      "Q5": "FAIL",
+      "Q6": "PASS",
+      "Q7": "PASS",
+      "Q8": "FAIL"
+    },
+    "informed_seat": "B",
+    "fresh_arm_first": "N",
+    "generation_first": "B",
+    "round_response_first": [
+      "B",
+      "B",
+      "A"
+    ],
+    "case_sha256": "614a13b94fd44f02f22df21fef975ed9f349a75104e596426c217e78ccd49122"
+  },
+  {
+    "case_id": "D01",
+    "split": "practice",
+    "config": "R1",
+    "term": "Practice Varen stamp",
+    "features": [
+      {
+        "name": "shape",
+        "values": [
+          "circle",
+          "square"
+        ]
+      },
+      {
+        "name": "mark",
+        "values": [
+          "dot",
+          "line"
+        ]
+      },
+      {
+        "name": "box",
+        "values": [
+          "left",
+          "right"
+        ]
+      }
+    ],
+    "inputs": [
+      {
+        "id": "Q1",
+        "inputs": {
+          "shape": "circle",
+          "mark": "dot",
+          "box": "left"
+        }
+      },
+      {
+        "id": "Q2",
+        "inputs": {
+          "shape": "circle",
+          "mark": "dot",
+          "box": "right"
+        }
+      },
+      {
+        "id": "Q3",
+        "inputs": {
+          "shape": "circle",
+          "mark": "line",
+          "box": "left"
+        }
+      },
+      {
+        "id": "Q4",
+        "inputs": {
+          "shape": "circle",
+          "mark": "line",
+          "box": "right"
+        }
+      },
+      {
+        "id": "Q5",
+        "inputs": {
+          "shape": "square",
+          "mark": "dot",
+          "box": "left"
+        }
+      },
+      {
+        "id": "Q6",
+        "inputs": {
+          "shape": "square",
+          "mark": "dot",
+          "box": "right"
+        }
+      },
+      {
+        "id": "Q7",
+        "inputs": {
+          "shape": "square",
+          "mark": "line",
+          "box": "left"
+        }
+      },
+      {
+        "id": "Q8",
+        "inputs": {
+          "shape": "square",
+          "mark": "line",
+          "box": "right"
+        }
+      }
+    ],
+    "check_ids": [
+      "Q4",
+      "Q5",
+      "Q8"
+    ],
+    "public_text": "Term: Practice Varen stamp.\nSetting: a practice-only token sorting convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: shape = circle; mark = dot; box = left.\nQ2: shape = circle; mark = dot; box = right.\nQ3: shape = circle; mark = line; box = left.\nQ4: shape = circle; mark = line; box = right.\nQ5: shape = square; mark = dot; box = left.\nQ6: shape = square; mark = dot; box = right.\nQ7: shape = square; mark = line; box = left.\nQ8: shape = square; mark = line; box = right.\nOpening check commitments: Q4, Q5, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.",
+    "private_text": "You received the complete sampled reference card for this game. It is authoritative only inside this fictional game.\nQ1: FAIL\nQ2: PASS\nQ3: FAIL\nQ4: PASS\nQ5: FAIL\nQ6: PASS\nQ7: PASS\nQ8: FAIL\nEquivalently, the convention gives PASS exactly for Q2, Q4, Q6, Q7; the other listed inputs FAIL. Use these outcomes accurately. No other context or physical intuition overrides this table.",
+    "gold": {
+      "Q1": "FAIL",
+      "Q2": "PASS",
+      "Q3": "FAIL",
+      "Q4": "PASS",
+      "Q5": "FAIL",
+      "Q6": "PASS",
+      "Q7": "PASS",
+      "Q8": "FAIL"
+    },
+    "informed_seat": "A",
+    "fresh_arm_first": "N",
+    "generation_first": "A",
+    "round_response_first": [
+      "A",
+      "B",
+      "A"
+    ],
+    "case_sha256": "dc45fae1dca1c74a657927c5d82da4ebe41f943ace1b120a418f54db9d4f365f"
+  },
+  {
+    "case_id": "D02",
+    "split": "practice",
+    "config": "R2",
+    "term": "Practice Melun gate",
+    "features": [
+      {
+        "name": "tag",
+        "values": [
+          "red",
+          "blue"
+        ]
+      },
+      {
+        "name": "lever",
+        "values": [
+          "up",
+          "down"
+        ]
+      },
+      {
+        "name": "tray",
+        "values": [
+          "near",
+          "far"
+        ]
+      }
+    ],
+    "inputs": [
+      {
+        "id": "Q1",
+        "inputs": {
+          "tag": "red",
+          "lever": "up",
+          "tray": "near"
+        }
+      },
+      {
+        "id": "Q2",
+        "inputs": {
+          "tag": "red",
+          "lever": "up",
+          "tray": "far"
+        }
+      },
+      {
+        "id": "Q3",
+        "inputs": {
+          "tag": "red",
+          "lever": "down",
+          "tray": "near"
+        }
+      },
+      {
+        "id": "Q4",
+        "inputs": {
+          "tag": "red",
+          "lever": "down",
+          "tray": "far"
+        }
+      },
+      {
+        "id": "Q5",
+        "inputs": {
+          "tag": "blue",
+          "lever": "up",
+          "tray": "near"
+        }
+      },
+      {
+        "id": "Q6",
+        "inputs": {
+          "tag": "blue",
+          "lever": "up",
+          "tray": "far"
+        }
+      },
+      {
+        "id": "Q7",
+        "inputs": {
+          "tag": "blue",
+          "lever": "down",
+          "tray": "near"
+        }
+      },
+      {
+        "id": "Q8",
+        "inputs": {
+          "tag": "blue",
+          "lever": "down",
+          "tray": "far"
+        }
+      }
+    ],
+    "check_ids": [
+      "Q4",
+      "Q5",
+      "Q7"
+    ],
+    "public_text": "Term: Practice Melun gate.\nSetting: a practice-only prop gate convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: tag = red; lever = up; tray = near.\nQ2: tag = red; lever = up; tray = far.\nQ3: tag = red; lever = down; tray = near.\nQ4: tag = red; lever = down; tray = far.\nQ5: tag = blue; lever = up; tray = near.\nQ6: tag = blue; lever = up; tray = far.\nQ7: tag = blue; lever = down; tray = near.\nQ8: tag = blue; lever = down; tray = far.\nOpening check commitments: Q4, Q5, Q7. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.",
+    "private_text": "You received the complete sampled reference card for this game. It is authoritative only inside this fictional game.\nQ1: FAIL\nQ2: FAIL\nQ3: PASS\nQ4: FAIL\nQ5: PASS\nQ6: FAIL\nQ7: PASS\nQ8: PASS\nEquivalently, the convention gives PASS exactly for Q3, Q5, Q7, Q8; the other listed inputs FAIL. Use these outcomes accurately. No other context or physical intuition overrides this table.",
+    "gold": {
+      "Q1": "FAIL",
+      "Q2": "FAIL",
+      "Q3": "PASS",
+      "Q4": "FAIL",
+      "Q5": "PASS",
+      "Q6": "FAIL",
+      "Q7": "PASS",
+      "Q8": "PASS"
+    },
+    "informed_seat": "B",
+    "fresh_arm_first": "N",
+    "generation_first": "A",
+    "round_response_first": [
+      "A",
+      "A",
+      "A"
+    ],
+    "case_sha256": "405986eac0b16d0e834e0de8b85fc82963f1e2efcb2826a3b335461842d300a3"
+  }
+]

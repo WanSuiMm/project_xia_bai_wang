@@ -1,0 +1,15 @@
+Term: Nalvek seal.
+Setting: an archive token admission convention.
+This is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.
+Each input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.
+The same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.
+Possible inputs (IDs are just local labels):
+Q1: token outline = round; surface mark = dot; tray position = left.
+Q2: token outline = round; surface mark = dot; tray position = right.
+Q3: token outline = round; surface mark = bar; tray position = left.
+Q4: token outline = round; surface mark = bar; tray position = right.
+Q5: token outline = square; surface mark = dot; tray position = left.
+Q6: token outline = square; surface mark = dot; tray position = right.
+Q7: token outline = square; surface mark = bar; tray position = left.
+Q8: token outline = square; surface mark = bar; tray position = right.
+Opening check commitments: Q2, Q6, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.

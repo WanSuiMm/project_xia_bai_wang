@@ -1,0 +1,100 @@
+{
+  "case_id": "P05",
+  "split": "main",
+  "term": "Pelvani entry",
+  "features": [
+    {
+      "name": "badge shape",
+      "values": [
+        "oval",
+        "diamond"
+      ]
+    },
+    {
+      "name": "ribbon",
+      "values": [
+        "short",
+        "long"
+      ]
+    },
+    {
+      "name": "gate",
+      "values": [
+        "east",
+        "west"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "Q1",
+      "inputs": {
+        "badge shape": "oval",
+        "ribbon": "short",
+        "gate": "east"
+      }
+    },
+    {
+      "id": "Q2",
+      "inputs": {
+        "badge shape": "oval",
+        "ribbon": "short",
+        "gate": "west"
+      }
+    },
+    {
+      "id": "Q3",
+      "inputs": {
+        "badge shape": "oval",
+        "ribbon": "long",
+        "gate": "east"
+      }
+    },
+    {
+      "id": "Q4",
+      "inputs": {
+        "badge shape": "oval",
+        "ribbon": "long",
+        "gate": "west"
+      }
+    },
+    {
+      "id": "Q5",
+      "inputs": {
+        "badge shape": "diamond",
+        "ribbon": "short",
+        "gate": "east"
+      }
+    },
+    {
+      "id": "Q6",
+      "inputs": {
+        "badge shape": "diamond",
+        "ribbon": "short",
+        "gate": "west"
+      }
+    },
+    {
+      "id": "Q7",
+      "inputs": {
+        "badge shape": "diamond",
+        "ribbon": "long",
+        "gate": "east"
+      }
+    },
+    {
+      "id": "Q8",
+      "inputs": {
+        "badge shape": "diamond",
+        "ribbon": "long",
+        "gate": "west"
+      }
+    }
+  ],
+  "check_ids": [
+    "Q2",
+    "Q3",
+    "Q5"
+  ],
+  "public_text": "Term: Pelvani entry.\nSetting: a fictional festival admission convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: badge shape = oval; ribbon = short; gate = east.\nQ2: badge shape = oval; ribbon = short; gate = west.\nQ3: badge shape = oval; ribbon = long; gate = east.\nQ4: badge shape = oval; ribbon = long; gate = west.\nQ5: badge shape = diamond; ribbon = short; gate = east.\nQ6: badge shape = diamond; ribbon = short; gate = west.\nQ7: badge shape = diamond; ribbon = long; gate = east.\nQ8: badge shape = diamond; ribbon = long; gate = west.\nOpening check commitments: Q2, Q3, Q5. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet."
+}

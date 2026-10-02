@@ -1,0 +1,28 @@
+{
+  "finalized_utc": "2026-10-02T10:00:28.6769732Z",
+  "clean_complete_formal_responses": 42,
+  "blocked_contaminated_case": "P03",
+  "formal_raw_responses": 52,
+  "state": "partial_completion_platform_block",
+  "practice_responses": 14,
+  "audit": "capture_audit.json",
+  "complete_formal_cases": [
+    "P01",
+    "P02",
+    "P04"
+  ],
+  "planned_formal_cases": [
+    "P01",
+    "P02",
+    "P03",
+    "P04"
+  ],
+  "remaining_steps": [
+    "P03.answer_3_B",
+    "P03.judge_P3",
+    "P03.judge_E",
+    "P03.judge_N"
+  ],
+  "results": "results/report.md",
+  "total_sent_prompt_receipts": 67
+}

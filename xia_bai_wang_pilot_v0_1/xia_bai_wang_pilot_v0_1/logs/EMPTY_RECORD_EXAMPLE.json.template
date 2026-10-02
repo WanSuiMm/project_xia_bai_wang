@@ -1,0 +1,26 @@
+{
+  "schema_version": "xbw.pilot.record/0.1",
+  "protocol_version": "0.1.0",
+  "case_id": "P01",
+  "run_id": "P01-first",
+  "case_sha256": "2e78aa52bb689ba6774125e6b79e8fefcba111878d8ad5a227f73952ea39ccb1",
+  "status": "in_progress",
+  "demo": false,
+  "metadata": {
+    "speaker_model": "",
+    "judge_model": "",
+    "platform": "Arena",
+    "mode": "Direct",
+    "effort": "unknown",
+    "temperature": "unknown",
+    "tools_status": "not_verified",
+    "started_utc": "",
+    "ended_utc": ""
+  },
+  "raw": {},
+  "manual_questions": {},
+  "issue_flags": [],
+  "notes": "",
+  "sent_prompts": {},
+  "events": []
+}

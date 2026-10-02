@@ -1,0 +1,100 @@
+{
+  "case_id": "D02",
+  "split": "practice",
+  "term": "Practice Melun gate",
+  "features": [
+    {
+      "name": "tag",
+      "values": [
+        "red",
+        "blue"
+      ]
+    },
+    {
+      "name": "lever",
+      "values": [
+        "up",
+        "down"
+      ]
+    },
+    {
+      "name": "tray",
+      "values": [
+        "near",
+        "far"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "Q1",
+      "inputs": {
+        "tag": "red",
+        "lever": "up",
+        "tray": "near"
+      }
+    },
+    {
+      "id": "Q2",
+      "inputs": {
+        "tag": "red",
+        "lever": "up",
+        "tray": "far"
+      }
+    },
+    {
+      "id": "Q3",
+      "inputs": {
+        "tag": "red",
+        "lever": "down",
+        "tray": "near"
+      }
+    },
+    {
+      "id": "Q4",
+      "inputs": {
+        "tag": "red",
+        "lever": "down",
+        "tray": "far"
+      }
+    },
+    {
+      "id": "Q5",
+      "inputs": {
+        "tag": "blue",
+        "lever": "up",
+        "tray": "near"
+      }
+    },
+    {
+      "id": "Q6",
+      "inputs": {
+        "tag": "blue",
+        "lever": "up",
+        "tray": "far"
+      }
+    },
+    {
+      "id": "Q7",
+      "inputs": {
+        "tag": "blue",
+        "lever": "down",
+        "tray": "near"
+      }
+    },
+    {
+      "id": "Q8",
+      "inputs": {
+        "tag": "blue",
+        "lever": "down",
+        "tray": "far"
+      }
+    }
+  ],
+  "check_ids": [
+    "Q4",
+    "Q5",
+    "Q7"
+  ],
+  "public_text": "Term: Practice Melun gate.\nSetting: a practice-only prop gate convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: tag = red; lever = up; tray = near.\nQ2: tag = red; lever = up; tray = far.\nQ3: tag = red; lever = down; tray = near.\nQ4: tag = red; lever = down; tray = far.\nQ5: tag = blue; lever = up; tray = near.\nQ6: tag = blue; lever = up; tray = far.\nQ7: tag = blue; lever = down; tray = near.\nQ8: tag = blue; lever = down; tray = far.\nOpening check commitments: Q4, Q5, Q7. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet."
+}

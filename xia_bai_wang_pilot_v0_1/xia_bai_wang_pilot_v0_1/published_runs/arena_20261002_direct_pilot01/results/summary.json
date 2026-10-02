@@ -1,0 +1,480 @@
+{
+  "protocol_version": "0.1.0",
+  "main_case_records": 4,
+  "complete_case_records": 3,
+  "clean_case_records": 3,
+  "skipped_records": [
+    {
+      "case_id": "D01",
+      "reason": "practice case"
+    }
+  ],
+  "diagnostic_counts_all": {
+    "distinguishing": 4
+  },
+  "diagnostic_counts_clean": {
+    "distinguishing": 3
+  },
+  "issue_flag_counts": {
+    "other": 3,
+    "technical_retry": 1,
+    "unexpected_model_change": 1
+  },
+  "all_recorded_stages": {
+    "P0": {
+      "attempted_cases": 4,
+      "scorable_n": 4,
+      "unscorable_n": 0,
+      "correct": 2,
+      "accuracy": 0.5,
+      "wilson_95": [
+        0.15003898915214947,
+        0.8499610108478506
+      ],
+      "mean_brier": 0.2899,
+      "mean_confidence": 0.535,
+      "insufficient_evidence_count": 4
+    },
+    "P1": {
+      "attempted_cases": 4,
+      "scorable_n": 4,
+      "unscorable_n": 0,
+      "correct": 1,
+      "accuracy": 0.25,
+      "wilson_95": [
+        0.04558726080970055,
+        0.6993581574175981
+      ],
+      "mean_brier": 0.32482500000000003,
+      "mean_confidence": 0.5625,
+      "insufficient_evidence_count": 4
+    },
+    "P2": {
+      "attempted_cases": 4,
+      "scorable_n": 4,
+      "unscorable_n": 0,
+      "correct": 1,
+      "accuracy": 0.25,
+      "wilson_95": [
+        0.04558726080970055,
+        0.6993581574175981
+      ],
+      "mean_brier": 0.3151,
+      "mean_confidence": 0.5549999999999999,
+      "insufficient_evidence_count": 4
+    },
+    "P3": {
+      "attempted_cases": 4,
+      "scorable_n": 3,
+      "unscorable_n": 1,
+      "correct": 1,
+      "accuracy": 0.3333333333333333,
+      "wilson_95": [
+        0.06149194472039621,
+        0.7923403991979522
+      ],
+      "mean_brier": 0.3496000000000001,
+      "mean_confidence": 0.5866666666666667,
+      "insufficient_evidence_count": 3
+    },
+    "N": {
+      "attempted_cases": 4,
+      "scorable_n": 3,
+      "unscorable_n": 1,
+      "correct": 1,
+      "accuracy": 0.3333333333333333,
+      "wilson_95": [
+        0.06149194472039621,
+        0.7923403991979522
+      ],
+      "mean_brier": 0.3496000000000001,
+      "mean_confidence": 0.5866666666666667,
+      "insufficient_evidence_count": 3
+    },
+    "E": {
+      "attempted_cases": 4,
+      "scorable_n": 3,
+      "unscorable_n": 1,
+      "correct": 3,
+      "accuracy": 1.0,
+      "wilson_95": [
+        0.4385029682449546,
+        1.0
+      ],
+      "mean_brier": 0.004066666666666666,
+      "mean_confidence": 0.94,
+      "insufficient_evidence_count": 0
+    }
+  },
+  "clean_stages": {
+    "P0": {
+      "attempted_cases": 3,
+      "scorable_n": 3,
+      "unscorable_n": 0,
+      "correct": 2,
+      "accuracy": 0.6666666666666666,
+      "wilson_95": [
+        0.2076596008020477,
+        0.9385080552796037
+      ],
+      "mean_brier": 0.3032,
+      "mean_confidence": 0.5466666666666666,
+      "insufficient_evidence_count": 3
+    },
+    "P1": {
+      "attempted_cases": 3,
+      "scorable_n": 3,
+      "unscorable_n": 0,
+      "correct": 1,
+      "accuracy": 0.3333333333333333,
+      "wilson_95": [
+        0.06149194472039621,
+        0.7923403991979522
+      ],
+      "mean_brier": 0.34976666666666667,
+      "mean_confidence": 0.5833333333333334,
+      "insufficient_evidence_count": 3
+    },
+    "P2": {
+      "attempted_cases": 3,
+      "scorable_n": 3,
+      "unscorable_n": 0,
+      "correct": 1,
+      "accuracy": 0.3333333333333333,
+      "wilson_95": [
+        0.06149194472039621,
+        0.7923403991979522
+      ],
+      "mean_brier": 0.3368,
+      "mean_confidence": 0.5733333333333334,
+      "insufficient_evidence_count": 3
+    },
+    "P3": {
+      "attempted_cases": 3,
+      "scorable_n": 3,
+      "unscorable_n": 0,
+      "correct": 1,
+      "accuracy": 0.3333333333333333,
+      "wilson_95": [
+        0.06149194472039621,
+        0.7923403991979522
+      ],
+      "mean_brier": 0.3496000000000001,
+      "mean_confidence": 0.5866666666666667,
+      "insufficient_evidence_count": 3
+    },
+    "N": {
+      "attempted_cases": 3,
+      "scorable_n": 3,
+      "unscorable_n": 0,
+      "correct": 1,
+      "accuracy": 0.3333333333333333,
+      "wilson_95": [
+        0.06149194472039621,
+        0.7923403991979522
+      ],
+      "mean_brier": 0.3496000000000001,
+      "mean_confidence": 0.5866666666666667,
+      "insufficient_evidence_count": 3
+    },
+    "E": {
+      "attempted_cases": 3,
+      "scorable_n": 3,
+      "unscorable_n": 0,
+      "correct": 3,
+      "accuracy": 1.0,
+      "wilson_95": [
+        0.4385029682449546,
+        1.0
+      ],
+      "mean_brier": 0.004066666666666666,
+      "mean_confidence": 0.94,
+      "insufficient_evidence_count": 0
+    }
+  },
+  "clean_pairs": {
+    "dialogue_P3_minus_P0": {
+      "before": "P0",
+      "after": "P3",
+      "paired_n": 3,
+      "wrong_to_right": 0,
+      "right_to_wrong": 1,
+      "delta_accuracy": -0.3333333333333333,
+      "descriptive_paired_bootstrap_95": [
+        -1.0,
+        0.0
+      ],
+      "delta_brier": 0.04640000000000005,
+      "delta_p_K": -0.040000000000000015,
+      "case_ids": [
+        "P01",
+        "P02",
+        "P04"
+      ]
+    },
+    "evidence_E_minus_N": {
+      "before": "N",
+      "after": "E",
+      "paired_n": 3,
+      "wrong_to_right": 2,
+      "right_to_wrong": 0,
+      "delta_accuracy": 0.6666666666666666,
+      "descriptive_paired_bootstrap_95": [
+        0.0,
+        1.0
+      ],
+      "delta_brier": -0.3455333333333334,
+      "delta_p_K": 0.5266666666666666,
+      "case_ids": [
+        "P01",
+        "P02",
+        "P04"
+      ]
+    }
+  },
+  "distinguishing_clean_subset": {
+    "n": 3,
+    "stages": {
+      "N": {
+        "attempted_cases": 3,
+        "scorable_n": 3,
+        "unscorable_n": 0,
+        "correct": 1,
+        "accuracy": 0.3333333333333333,
+        "wilson_95": [
+          0.06149194472039621,
+          0.7923403991979522
+        ],
+        "mean_brier": 0.3496000000000001,
+        "mean_confidence": 0.5866666666666667,
+        "insufficient_evidence_count": 3
+      },
+      "E": {
+        "attempted_cases": 3,
+        "scorable_n": 3,
+        "unscorable_n": 0,
+        "correct": 3,
+        "accuracy": 1.0,
+        "wilson_95": [
+          0.4385029682449546,
+          1.0
+        ],
+        "mean_brier": 0.004066666666666666,
+        "mean_confidence": 0.94,
+        "insufficient_evidence_count": 0
+      }
+    },
+    "evidence_E_minus_N": {
+      "before": "N",
+      "after": "E",
+      "paired_n": 3,
+      "wrong_to_right": 2,
+      "right_to_wrong": 0,
+      "delta_accuracy": 0.6666666666666666,
+      "descriptive_paired_bootstrap_95": [
+        0.0,
+        1.0
+      ],
+      "delta_brier": -0.3455333333333334,
+      "delta_p_K": 0.5266666666666666,
+      "case_ids": [
+        "P01",
+        "P02",
+        "P04"
+      ]
+    }
+  },
+  "by_config_descriptive_not_ranking": {
+    "R1": {
+      "n": 1,
+      "speaker_models": [
+        "claude-sonnet-5-5-high"
+      ],
+      "judge_models": [
+        "gemini-3.8-flash-high"
+      ],
+      "stages": {
+        "P0": {
+          "attempted_cases": 1,
+          "scorable_n": 1,
+          "unscorable_n": 0,
+          "correct": 1,
+          "accuracy": 1.0,
+          "wilson_95": [
+            0.20654931437723745,
+            1.0
+          ],
+          "mean_brier": 0.25,
+          "mean_confidence": 0.5,
+          "insufficient_evidence_count": 1
+        },
+        "P1": {
+          "attempted_cases": 1,
+          "scorable_n": 1,
+          "unscorable_n": 0,
+          "correct": 1,
+          "accuracy": 1.0,
+          "wilson_95": [
+            0.20654931437723745,
+            1.0
+          ],
+          "mean_brier": 0.25,
+          "mean_confidence": 0.5,
+          "insufficient_evidence_count": 1
+        },
+        "P2": {
+          "attempted_cases": 1,
+          "scorable_n": 1,
+          "unscorable_n": 0,
+          "correct": 1,
+          "accuracy": 1.0,
+          "wilson_95": [
+            0.20654931437723745,
+            1.0
+          ],
+          "mean_brier": 0.25,
+          "mean_confidence": 0.5,
+          "insufficient_evidence_count": 1
+        },
+        "P3": {
+          "attempted_cases": 1,
+          "scorable_n": 1,
+          "unscorable_n": 0,
+          "correct": 1,
+          "accuracy": 1.0,
+          "wilson_95": [
+            0.20654931437723745,
+            1.0
+          ],
+          "mean_brier": 0.25,
+          "mean_confidence": 0.5,
+          "insufficient_evidence_count": 1
+        },
+        "N": {
+          "attempted_cases": 1,
+          "scorable_n": 1,
+          "unscorable_n": 0,
+          "correct": 1,
+          "accuracy": 1.0,
+          "wilson_95": [
+            0.20654931437723745,
+            1.0
+          ],
+          "mean_brier": 0.25,
+          "mean_confidence": 0.5,
+          "insufficient_evidence_count": 1
+        },
+        "E": {
+          "attempted_cases": 1,
+          "scorable_n": 1,
+          "unscorable_n": 0,
+          "correct": 1,
+          "accuracy": 1.0,
+          "wilson_95": [
+            0.20654931437723745,
+            1.0
+          ],
+          "mean_brier": 0.0025000000000000044,
+          "mean_confidence": 0.95,
+          "insufficient_evidence_count": 0
+        }
+      }
+    },
+    "R2": {
+      "n": 2,
+      "speaker_models": [
+        "gemini-3.8-flash-high"
+      ],
+      "judge_models": [
+        "claude-sonnet-5-5-high"
+      ],
+      "stages": {
+        "P0": {
+          "attempted_cases": 2,
+          "scorable_n": 2,
+          "unscorable_n": 0,
+          "correct": 1,
+          "accuracy": 0.5,
+          "wilson_95": [
+            0.09453120573423074,
+            0.9054687942657693
+          ],
+          "mean_brier": 0.3298,
+          "mean_confidence": 0.5700000000000001,
+          "insufficient_evidence_count": 2
+        },
+        "P1": {
+          "attempted_cases": 2,
+          "scorable_n": 2,
+          "unscorable_n": 0,
+          "correct": 0,
+          "accuracy": 0.0,
+          "wilson_95": [
+            0.0,
+            0.6576197724933469
+          ],
+          "mean_brier": 0.39965,
+          "mean_confidence": 0.625,
+          "insufficient_evidence_count": 2
+        },
+        "P2": {
+          "attempted_cases": 2,
+          "scorable_n": 2,
+          "unscorable_n": 0,
+          "correct": 0,
+          "accuracy": 0.0,
+          "wilson_95": [
+            0.0,
+            0.6576197724933469
+          ],
+          "mean_brier": 0.3802,
+          "mean_confidence": 0.61,
+          "insufficient_evidence_count": 2
+        },
+        "P3": {
+          "attempted_cases": 2,
+          "scorable_n": 2,
+          "unscorable_n": 0,
+          "correct": 0,
+          "accuracy": 0.0,
+          "wilson_95": [
+            0.0,
+            0.6576197724933469
+          ],
+          "mean_brier": 0.3994000000000001,
+          "mean_confidence": 0.6300000000000001,
+          "insufficient_evidence_count": 2
+        },
+        "N": {
+          "attempted_cases": 2,
+          "scorable_n": 2,
+          "unscorable_n": 0,
+          "correct": 0,
+          "accuracy": 0.0,
+          "wilson_95": [
+            0.0,
+            0.6576197724933469
+          ],
+          "mean_brier": 0.3994000000000001,
+          "mean_confidence": 0.6300000000000001,
+          "insufficient_evidence_count": 2
+        },
+        "E": {
+          "attempted_cases": 2,
+          "scorable_n": 2,
+          "unscorable_n": 0,
+          "correct": 2,
+          "accuracy": 1.0,
+          "wilson_95": [
+            0.34238022750665303,
+            1.0
+          ],
+          "mean_brier": 0.0048499999999999975,
+          "mean_confidence": 0.935,
+          "insufficient_evidence_count": 0
+        }
+      }
+    }
+  },
+  "caution": "Exploratory small sample. Stages are repeated measurements. Lack of information is not a ToM failure. No unseen model results imputed."
+}

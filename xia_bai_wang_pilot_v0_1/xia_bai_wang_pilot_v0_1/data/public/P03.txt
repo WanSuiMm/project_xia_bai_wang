@@ -1,0 +1,15 @@
+Term: Velmora signal.
+Setting: a prop-lantern signaling convention.
+This is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.
+Each input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.
+The same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.
+Possible inputs (IDs are just local labels):
+Q1: lens = clear; handle = up; tag = red.
+Q2: lens = clear; handle = up; tag = blue.
+Q3: lens = clear; handle = down; tag = red.
+Q4: lens = clear; handle = down; tag = blue.
+Q5: lens = frosted; handle = up; tag = red.
+Q6: lens = frosted; handle = up; tag = blue.
+Q7: lens = frosted; handle = down; tag = red.
+Q8: lens = frosted; handle = down; tag = blue.
+Opening check commitments: Q1, Q3, Q6. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.

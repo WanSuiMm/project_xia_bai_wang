@@ -1,0 +1,15 @@
+Term: Arveth latch.
+Setting: a stage-prop latch activation convention.
+This is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.
+Each input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.
+The same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.
+Possible inputs (IDs are just local labels):
+Q1: dial = low; lever = in; plate = smooth.
+Q2: dial = low; lever = in; plate = ridged.
+Q3: dial = low; lever = out; plate = smooth.
+Q4: dial = low; lever = out; plate = ridged.
+Q5: dial = high; lever = in; plate = smooth.
+Q6: dial = high; lever = in; plate = ridged.
+Q7: dial = high; lever = out; plate = smooth.
+Q8: dial = high; lever = out; plate = ridged.
+Opening check commitments: Q1, Q6, Q7. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.

@@ -1,0 +1,100 @@
+{
+  "case_id": "P17",
+  "split": "main",
+  "term": "Ordelin lock",
+  "features": [
+    {
+      "name": "knob",
+      "values": [
+        "clockwise",
+        "counterclockwise"
+      ]
+    },
+    {
+      "name": "strap",
+      "values": [
+        "loose",
+        "tight"
+      ]
+    },
+    {
+      "name": "panel",
+      "values": [
+        "green",
+        "violet"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "Q1",
+      "inputs": {
+        "knob": "clockwise",
+        "strap": "loose",
+        "panel": "green"
+      }
+    },
+    {
+      "id": "Q2",
+      "inputs": {
+        "knob": "clockwise",
+        "strap": "loose",
+        "panel": "violet"
+      }
+    },
+    {
+      "id": "Q3",
+      "inputs": {
+        "knob": "clockwise",
+        "strap": "tight",
+        "panel": "green"
+      }
+    },
+    {
+      "id": "Q4",
+      "inputs": {
+        "knob": "clockwise",
+        "strap": "tight",
+        "panel": "violet"
+      }
+    },
+    {
+      "id": "Q5",
+      "inputs": {
+        "knob": "counterclockwise",
+        "strap": "loose",
+        "panel": "green"
+      }
+    },
+    {
+      "id": "Q6",
+      "inputs": {
+        "knob": "counterclockwise",
+        "strap": "loose",
+        "panel": "violet"
+      }
+    },
+    {
+      "id": "Q7",
+      "inputs": {
+        "knob": "counterclockwise",
+        "strap": "tight",
+        "panel": "green"
+      }
+    },
+    {
+      "id": "Q8",
+      "inputs": {
+        "knob": "counterclockwise",
+        "strap": "tight",
+        "panel": "violet"
+      }
+    }
+  ],
+  "check_ids": [
+    "Q1",
+    "Q7",
+    "Q8"
+  ],
+  "public_text": "Term: Ordelin lock.\nSetting: a stage-box locking convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: knob = clockwise; strap = loose; panel = green.\nQ2: knob = clockwise; strap = loose; panel = violet.\nQ3: knob = clockwise; strap = tight; panel = green.\nQ4: knob = clockwise; strap = tight; panel = violet.\nQ5: knob = counterclockwise; strap = loose; panel = green.\nQ6: knob = counterclockwise; strap = loose; panel = violet.\nQ7: knob = counterclockwise; strap = tight; panel = green.\nQ8: knob = counterclockwise; strap = tight; panel = violet.\nOpening check commitments: Q1, Q7, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet."
+}

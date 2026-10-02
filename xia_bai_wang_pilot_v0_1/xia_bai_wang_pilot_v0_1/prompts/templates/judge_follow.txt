@@ -1,0 +1,16 @@
+Continue as the same judge. This is the response pair to your question {{ROUND}}. No independent verified outcome or role label has been supplied. Update only from this dialogue; do not treat the speakers' claims as host confirmation.
+
+<YOUR_QUESTION>
+{{QUESTION}}
+</YOUR_QUESTION>
+
+<SPEAKER_A>
+{{ANSWER_A}}
+</SPEAKER_A>
+
+<SPEAKER_B>
+{{ANSWER_B}}
+</SPEAKER_B>
+
+{{STAGE_INSTRUCTION}}
+Return the same JSON keys: p_informed_A, pick, insufficient_evidence, reason, question. The reason must be at most 50 English words. Do not browse or use tools.

@@ -1,0 +1,100 @@
+{
+  "case_id": "P02",
+  "split": "main",
+  "term": "Torvani turn",
+  "features": [
+    {
+      "name": "piece face",
+      "values": [
+        "sun",
+        "moon"
+      ]
+    },
+    {
+      "name": "border",
+      "values": [
+        "plain",
+        "notched"
+      ]
+    },
+    {
+      "name": "lane",
+      "values": [
+        "inner",
+        "outer"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "Q1",
+      "inputs": {
+        "piece face": "sun",
+        "border": "plain",
+        "lane": "inner"
+      }
+    },
+    {
+      "id": "Q2",
+      "inputs": {
+        "piece face": "sun",
+        "border": "plain",
+        "lane": "outer"
+      }
+    },
+    {
+      "id": "Q3",
+      "inputs": {
+        "piece face": "sun",
+        "border": "notched",
+        "lane": "inner"
+      }
+    },
+    {
+      "id": "Q4",
+      "inputs": {
+        "piece face": "sun",
+        "border": "notched",
+        "lane": "outer"
+      }
+    },
+    {
+      "id": "Q5",
+      "inputs": {
+        "piece face": "moon",
+        "border": "plain",
+        "lane": "inner"
+      }
+    },
+    {
+      "id": "Q6",
+      "inputs": {
+        "piece face": "moon",
+        "border": "plain",
+        "lane": "outer"
+      }
+    },
+    {
+      "id": "Q7",
+      "inputs": {
+        "piece face": "moon",
+        "border": "notched",
+        "lane": "inner"
+      }
+    },
+    {
+      "id": "Q8",
+      "inputs": {
+        "piece face": "moon",
+        "border": "notched",
+        "lane": "outer"
+      }
+    }
+  ],
+  "check_ids": [
+    "Q3",
+    "Q5",
+    "Q8"
+  ],
+  "public_text": "Term: Torvani turn.\nSetting: a fictional board-game move permission convention.\nThis is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.\nEach input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.\nThe same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.\nPossible inputs (IDs are just local labels):\nQ1: piece face = sun; border = plain; lane = inner.\nQ2: piece face = sun; border = plain; lane = outer.\nQ3: piece face = sun; border = notched; lane = inner.\nQ4: piece face = sun; border = notched; lane = outer.\nQ5: piece face = moon; border = plain; lane = inner.\nQ6: piece face = moon; border = plain; lane = outer.\nQ7: piece face = moon; border = notched; lane = inner.\nQ8: piece face = moon; border = notched; lane = outer.\nOpening check commitments: Q3, Q5, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet."
+}

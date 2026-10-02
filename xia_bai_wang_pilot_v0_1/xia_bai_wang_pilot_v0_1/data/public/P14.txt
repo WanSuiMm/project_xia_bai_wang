@@ -1,0 +1,15 @@
+Term: Velsori pass.
+Setting: a fictional garden-token entry convention.
+This is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.
+Each input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.
+The same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.
+Possible inputs (IDs are just local labels):
+Q1: token = wood; mark = cross; path = short.
+Q2: token = wood; mark = cross; path = long.
+Q3: token = wood; mark = spiral; path = short.
+Q4: token = wood; mark = spiral; path = long.
+Q5: token = stone; mark = cross; path = short.
+Q6: token = stone; mark = cross; path = long.
+Q7: token = stone; mark = spiral; path = short.
+Q8: token = stone; mark = spiral; path = long.
+Opening check commitments: Q3, Q4, Q6. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.

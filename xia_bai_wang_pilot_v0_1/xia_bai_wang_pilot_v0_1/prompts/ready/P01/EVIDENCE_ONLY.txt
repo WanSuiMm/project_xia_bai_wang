@@ -1,0 +1,5 @@
+The following are independently verified host observations, fixed before any speaker response. They do not label either speaker.
+Q2: FAIL
+Q6: FAIL
+Q8: FAIL
+Compare these outcomes with the speakers' original frozen check commitments. Do not assume either speaker must have executed its instructions perfectly.

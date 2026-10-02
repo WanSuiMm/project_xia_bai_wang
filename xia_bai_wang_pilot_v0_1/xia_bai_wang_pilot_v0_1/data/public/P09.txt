@@ -1,0 +1,15 @@
+Term: Ulmerin mark.
+Setting: an imaginary library checkout convention.
+This is a newly sampled convention in a fictional game. Only the sampled card defines its meaning; familiar names or real-world practices provide no answer.
+Each input has exactly the three features below. The convention assigns a deterministic PASS or FAIL result to each input. Exactly four of the eight listed inputs PASS. Every four-of-eight assignment is allowed; no additional simplicity or physical-law requirement is imposed.
+The same input always has the same outcome. There are no other variables, exceptions, probabilities, or time effects.
+Possible inputs (IDs are just local labels):
+Q1: slip = wide; seal = open; desk = first.
+Q2: slip = wide; seal = open; desk = second.
+Q3: slip = wide; seal = closed; desk = first.
+Q4: slip = wide; seal = closed; desk = second.
+Q5: slip = narrow; seal = open; desk = first.
+Q6: slip = narrow; seal = open; desk = second.
+Q7: slip = narrow; seal = closed; desk = first.
+Q8: slip = narrow; seal = closed; desk = second.
+Opening check commitments: Q6, Q7, Q8. Speakers must predict these three outcomes before discussion. The host may independently verify these frozen predictions later; the outcomes are not public yet.
