@@ -1,0 +1,11 @@
+{
+  "status": "partial_at_cutoff",
+  "planned": 2,
+  "completed": 1,
+  "sent": 2,
+  "resends": 0,
+  "automatic_monitor": false,
+  "platform_pending_neutral": true,
+  "ended_utc": "2026-10-02T15:54:41.818Z",
+  "bundle_sha256": "72174d781908a221043c236e1f0118b4517b328f39699699dc9e24837b6209b9"
+}

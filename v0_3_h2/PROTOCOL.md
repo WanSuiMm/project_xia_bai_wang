@@ -1,0 +1,15 @@
+# H2 presentation qualification01
+
+Question: holding L01V1 dialogue and all public propositions fixed, does foregrounding stress/syllable notation move a fresh judge toward the stress-dependent B account?
+
+Exactly two isolated new Arena Direct conversations, UI model `gemini-3.8-flash-high`. Send neutral then salient without waiting for the first verdict. Neither judge sees the historical verdict, private card, host outcomes, arm label or the other new verdict. Speaker dialogue, questions, speaker seats, instructions, observations and answer format remain byte-identical. A's original boundary-description error remains unchanged. No new speaker calls, E arm, mirror manipulation or H1 run.
+
+Neutral is byte-identical to the historical L01V1 N prompt (historical p(A)=0.10). Salient moves the existing notation sentence and fixed-input sentence before the existing segment-inventory sentence, using paragraph breaks. No words are added, omitted, repeated or substituted. This is a combined ordering/layout intervention, not a stress-only manipulation. No added importance or attention instructions. The exact replacement and hashes are in `bundle.json`; pre-send audits check the public word multiset and identity outside the public block.
+
+Primary metric: delta = p(A)_salient - p(A)_neutral; predicted negative because B's rule uses stress. Report raw probabilities, picks, uncertainty flags and short reasons. Exploratory qualification categories frozen before sends: neutral p(A)<=0.25 is a rough historical-pattern replication; otherwise label replication inconclusive/not reproduced and do not interpret the arm difference as qualification support. With rough replication, delta<=-0.10 is a directional qualification signal, abs(delta)<0.10 is no material signal, delta>=0.10 is opposite direction. Thresholds are operational heuristics, not significance or calibrated uncertainty. Always report continuous values. Values near 0 constrain downward movement (floor).
+
+One response per arm, then stop regardless of result. No response regeneration, new framing variants or extra samples. For no output, allow approximately three minutes and one reload/status check, then preserve missing; do not resend. Anonymous comparison: skip without choosing by quality, capture only a restored clearly labeled fixed-model reply; otherwise stop/flag. Security verification or model/account mismatch requires handoff or stop. Preserve prompt receipt before send, visible model, URL and rendered DOM locally in ignored `runs/h2_qualification01/`; public research summaries omit account/session data. No automatic monitor.
+
+This probe cannot separate sampling noise, deployment changes and presentation effects, or identify benchmark-author modeling. It does not estimate a general causal effect. Even a directional result only motivates a separately authorized replicated design. Model backend, temperature and tools are unverified.
+
+Freeze/one cheap sanity: `node scripts/prepare_h2_probe.cjs` (refuses overwrite). All outputs belong to this new directory; prior frozen runs remain unchanged. No additional calls will be made for a negative or incomplete result.

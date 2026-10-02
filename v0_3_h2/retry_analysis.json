@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "receipt_audit": "passed",
+  "historical_p_A": 0.1,
+  "arms": {
+    "neutral": {
+      "status": "completed",
+      "p_A": 0.5,
+      "pick": "A",
+      "insufficient_evidence": true,
+      "reason": "No independent host observations are provided to verify check outcomes. Both speakers propose coherent, plausible phonological rules that respect all public card constraints and apply them consistently across all rounds without deduction errors. In the absence of verified facts, there is insufficient evidence to distinguish the informed speaker.",
+      "reason_words": 48,
+      "raw_sha256": "dc335149fb5ac192fc11fe1f63c159c5bff217d0f9173427bbce5e31be560171"
+    },
+    "salient": {
+      "status": "completed",
+      "p_A": 0.1,
+      "pick": "B",
+      "insufficient_evidence": false,
+      "reason": "Speaker B's lenition rule crucially uses the stress and syllable boundary mechanics defined on the card. Furthermore, Q1 and Q3 form an initial versus intervocalic voicing minimal pair (/k/ to /g/). Speaker A confabulates nonexistent syllable boundaries within syllables (e.g., between /k/ and /e/ in /ˈo.ke.pi/).",
+      "reason_words": 46,
+      "raw_sha256": "b61e65b03c7d3fbc7577e09f5166632b193c942050ce0276f52179c5ff8f87dd"
+    }
+  },
+  "delta_p_A": -0.4,
+  "qualification_verdict": "HISTORICAL_PATTERN_NOT_ROUGHLY_REPRODUCED",
+  "claim_boundary": "One transcript, one fresh response per arm. No separation of presentation effect from sampling noise; no mechanism or population inference.",
+  "neutral_attempt": "user_authorized_retry01"
+}

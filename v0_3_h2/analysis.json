@@ -1,0 +1,24 @@
+{
+  "status": "partial",
+  "receipt_audit": "passed",
+  "historical_p_A": 0.1,
+  "arms": {
+    "neutral": {
+      "status": "incomplete_generation_timeout",
+      "p_A": null,
+      "pick": null
+    },
+    "salient": {
+      "status": "completed",
+      "p_A": 0.1,
+      "pick": "B",
+      "insufficient_evidence": false,
+      "reason": "Speaker B's lenition rule crucially uses the stress and syllable boundary mechanics defined on the card. Furthermore, Q1 and Q3 form an initial versus intervocalic voicing minimal pair (/k/ to /g/). Speaker A confabulates nonexistent syllable boundaries within syllables (e.g., between /k/ and /e/ in /ˈo.ke.pi/).",
+      "reason_words": 46,
+      "raw_sha256": "b61e65b03c7d3fbc7577e09f5166632b193c942050ce0276f52179c5ff8f87dd"
+    }
+  },
+  "delta_p_A": null,
+  "qualification_verdict": "INCOMPLETE_OR_UNSCORABLE",
+  "claim_boundary": "One transcript, one fresh response per arm. No separation of presentation effect from sampling noise; no mechanism or population inference."
+}

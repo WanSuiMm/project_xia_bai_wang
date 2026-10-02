@@ -41,5 +41,14 @@ for domain in ['v0_2_math','v0_2_other']:
             prior = json.loads((manifest_path.parent/entry['file']).read_text(encoding='utf-8'))
             for field in ['prompt','raw']:
                 if hashlib.sha256(prior[field].encode()).hexdigest()!=entry[field+'_sha256']:bad.append((entry['file'],field+' hash mismatch'))
-print(json.dumps({'staged_files':len(files),'staged_bytes':total,'markdown_links_checked':links,'public_records_hashed':len(manifest['records'])+v02_records,'problems':bad},ensure_ascii=False,indent=2))
+h2_records=0
+for manifest_path in (ROOT/'v0_3_h2/published_runs').glob('*/publication_manifest.json'):
+    evidence=json.loads(manifest_path.read_text(encoding='utf-8'))
+    for entry in evidence['records']:
+        record=json.loads((manifest_path.parent/entry['file']).read_text(encoding='utf-8'))
+        for field in ['prompt','raw']:
+            if field+'_sha256' in entry and hashlib.sha256(record[field].encode()).hexdigest()!=entry[field+'_sha256']:
+                bad.append((entry['file'],field+' hash mismatch'))
+        h2_records+=1
+print(json.dumps({'staged_files':len(files),'staged_bytes':total,'markdown_links_checked':links,'public_records_hashed':len(manifest['records'])+v02_records+h2_records,'problems':bad},ensure_ascii=False,indent=2))
 if bad:raise SystemExit(2)

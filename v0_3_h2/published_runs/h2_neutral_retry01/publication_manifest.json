@@ -1,0 +1,10 @@
+{
+  "policy": "Exact prompt/reply strings retained; UI DOM, account data, private sessions, screenshots and browser handles omitted. Original local evidence unchanged.",
+  "records": [
+    {
+      "file": "neutral.json",
+      "prompt_sha256": "7e6fb17096f90ab8f755dd70b1d8e6265630142c88a552a6d9fef39f07234a23",
+      "raw_sha256": "dc335149fb5ac192fc11fe1f63c159c5bff217d0f9173427bbce5e31be560171"
+    }
+  ]
+}
