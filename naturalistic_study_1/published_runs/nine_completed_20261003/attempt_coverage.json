@@ -1,0 +1,486 @@
+{
+  "scope": "All attempt statuses at this publication cutoff; incomplete dialogue is not exported in this nine-completed slice.",
+  "records": [
+    {
+      "run_id": "arena_20261003_naturalistic01",
+      "record_id": "N01_D1",
+      "configuration_id": "N01_D1",
+      "status": "completed",
+      "asks": 2,
+      "sends": 7,
+      "new_replies": 7,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic01",
+      "record_id": "N01_D2",
+      "configuration_id": "N01_D2",
+      "status": "blocked_platform",
+      "asks": 3,
+      "sends": 11,
+      "new_replies": 10,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic01",
+      "record_id": "N02_D1",
+      "configuration_id": "N02_D1",
+      "status": "blocked_rate_limit",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic01",
+      "record_id": "N02_D2",
+      "configuration_id": "N02_D2",
+      "status": "not_started",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic01",
+      "record_id": "N03_D1",
+      "configuration_id": "N03_D1",
+      "status": "blocked_rate_limit",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic01",
+      "record_id": "N03_D2",
+      "configuration_id": "N03_D2",
+      "status": "not_started",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic01",
+      "record_id": "N04_D1",
+      "configuration_id": "N04_D1",
+      "status": "blocked_platform",
+      "asks": 2,
+      "sends": 6,
+      "new_replies": 5,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic01",
+      "record_id": "N04_D2",
+      "configuration_id": "N04_D2",
+      "status": "blocked_rate_limit",
+      "asks": 1,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic01",
+      "record_id": "N05_D1",
+      "configuration_id": "N05_D1",
+      "status": "blocked_rate_limit",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic01",
+      "record_id": "N05_D2",
+      "configuration_id": "N05_D2",
+      "status": "not_started",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic01",
+      "record_id": "N06_D1",
+      "configuration_id": "N06_D1",
+      "status": "not_started",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic01",
+      "record_id": "N06_D2",
+      "configuration_id": "N06_D2",
+      "status": "not_started",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic01",
+      "record_id": "N07_D1",
+      "configuration_id": "N07_D1",
+      "status": "invalid_host_resend",
+      "asks": 0,
+      "sends": 3,
+      "new_replies": 1,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic01",
+      "record_id": "N07_D2",
+      "configuration_id": "N07_D2",
+      "status": "blocked_rate_limit",
+      "asks": 1,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic01",
+      "record_id": "N08_D1",
+      "configuration_id": "N08_D1",
+      "status": "not_started",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic01",
+      "record_id": "N08_D2",
+      "configuration_id": "N08_D2",
+      "status": "not_started",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic01",
+      "record_id": "N09_D1",
+      "configuration_id": "N09_D1",
+      "status": "not_started",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic01",
+      "record_id": "N09_D2",
+      "configuration_id": "N09_D2",
+      "status": "not_started",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic01",
+      "record_id": "N10_D1",
+      "configuration_id": "N10_D1",
+      "status": "protocol_failure",
+      "asks": 0,
+      "sends": 2,
+      "new_replies": 1,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic01",
+      "record_id": "N10_D2",
+      "configuration_id": "N10_D2",
+      "status": "blocked_rate_limit",
+      "asks": 1,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic01",
+      "record_id": "N11_D1",
+      "configuration_id": "N11_D1",
+      "status": "not_started",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic01",
+      "record_id": "N11_D2",
+      "configuration_id": "N11_D2",
+      "status": "not_started",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic01",
+      "record_id": "N12_D1",
+      "configuration_id": "N12_D1",
+      "status": "not_started",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic01",
+      "record_id": "N12_D2",
+      "configuration_id": "N12_D2",
+      "status": "not_started",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_resume01",
+      "record_id": "N01_D2",
+      "configuration_id": "N01_D2",
+      "status": "completed",
+      "asks": 6,
+      "sends": 21,
+      "new_replies": 21,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_resume01",
+      "record_id": "N02_D1",
+      "configuration_id": "N02_D1",
+      "status": "blocked_platform",
+      "asks": 0,
+      "sends": 3,
+      "new_replies": 2,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_resume01",
+      "record_id": "N02_D2",
+      "configuration_id": "N02_D2",
+      "status": "completed",
+      "asks": 5,
+      "sends": 18,
+      "new_replies": 18,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_resume01",
+      "record_id": "N03_D1",
+      "configuration_id": "N03_D1",
+      "status": "completed",
+      "asks": 1,
+      "sends": 5,
+      "new_replies": 5,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_resume01",
+      "record_id": "N03_D2",
+      "configuration_id": "N03_D2",
+      "status": "completed",
+      "asks": 1,
+      "sends": 6,
+      "new_replies": 6,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_resume01",
+      "record_id": "N04_D1",
+      "configuration_id": "N04_D1",
+      "status": "blocked_platform",
+      "asks": 0,
+      "sends": 3,
+      "new_replies": 2,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_resume01",
+      "record_id": "N04_D2",
+      "configuration_id": "N04_D2",
+      "status": "completed",
+      "asks": 5,
+      "sends": 13,
+      "new_replies": 13,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_resume01",
+      "record_id": "N05_D1",
+      "configuration_id": "N05_D1",
+      "status": "completed",
+      "asks": 1,
+      "sends": 6,
+      "new_replies": 6,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_resume01",
+      "record_id": "N05_D2",
+      "configuration_id": "N05_D2",
+      "status": "completed",
+      "asks": 2,
+      "sends": 9,
+      "new_replies": 9,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_resume01",
+      "record_id": "N06_D1",
+      "configuration_id": "N06_D1",
+      "status": "blocked_platform",
+      "asks": 1,
+      "sends": 6,
+      "new_replies": 5,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_resume01",
+      "record_id": "N06_D2",
+      "configuration_id": "N06_D2",
+      "status": "generating",
+      "asks": 0,
+      "sends": 2,
+      "new_replies": 1,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_resume01",
+      "record_id": "N07_D1",
+      "configuration_id": "N07_D1",
+      "status": "not_started",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_resume01",
+      "record_id": "N07_D2",
+      "configuration_id": "N07_D2",
+      "status": "not_started",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_resume01",
+      "record_id": "N08_D1",
+      "configuration_id": "N08_D1",
+      "status": "not_started",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_resume01",
+      "record_id": "N08_D2",
+      "configuration_id": "N08_D2",
+      "status": "not_started",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_resume01",
+      "record_id": "N09_D1",
+      "configuration_id": "N09_D1",
+      "status": "not_started",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_resume01",
+      "record_id": "N09_D2",
+      "configuration_id": "N09_D2",
+      "status": "not_started",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_resume01",
+      "record_id": "N10_D1",
+      "configuration_id": "N10_D1",
+      "status": "not_started",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_resume01",
+      "record_id": "N10_D2",
+      "configuration_id": "N10_D2",
+      "status": "not_started",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_resume01",
+      "record_id": "N11_D1",
+      "configuration_id": "N11_D1",
+      "status": "not_started",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_resume01",
+      "record_id": "N11_D2",
+      "configuration_id": "N11_D2",
+      "status": "not_started",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_resume01",
+      "record_id": "N12_D1",
+      "configuration_id": "N12_D1",
+      "status": "not_started",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_resume01",
+      "record_id": "N12_D2",
+      "configuration_id": "N12_D2",
+      "status": "not_started",
+      "asks": 0,
+      "sends": 0,
+      "new_replies": 0,
+      "inherited_replies": 0
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_judge_recovery01",
+      "record_id": "N02_D1_Jretry01",
+      "configuration_id": "N02_D1",
+      "status": "completed",
+      "asks": 1,
+      "sends": 4,
+      "new_replies": 4,
+      "inherited_replies": 2
+    }
+  ],
+  "local_recovery_session_audit": "Original speaker-session reuse checked locally before publication; private session URLs excluded."
+}

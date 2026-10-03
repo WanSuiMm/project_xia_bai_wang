@@ -1,0 +1,5 @@
+# Collection scope amendment
+
+On 2026-10-03, during serial collection, the user requested stopping at 12 completed configurations. The operator stated the counting rule before proceeding: count unique completed configurations across the original cutoff, the serial continuation and the separately authorized N02 judge recovery. Platform-missing attempts do not count as completed; a recovered configuration is counted once. This is an operational scope reduction from 24 planned configurations, not a result-based accuracy gate. Follow the existing configuration order, without selecting configurations by response quality or outcome.
+
+At amendment time, 9 unique configurations had completed: N01_D1, N01_D2, N02_D1 (separate recovery), N02_D2, N03_D1, N03_D2, N04_D2, N05_D1 and N05_D2. N06_D1 was awaiting a judge reply and later remained missing after the permitted five-minute wait and one reload. Continue until 12 unique configurations complete or an existing platform/security stop condition intervenes. Preserve all missing and incomplete attempts separately. Do not characterize the reduced collection as completion of the original 24-configuration study.

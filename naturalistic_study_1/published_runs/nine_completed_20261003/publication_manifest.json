@@ -1,0 +1,49 @@
+{
+  "policy": "Exact prompt, visible final raw reply and parsed reply strings preserved. Account/UI DOM, private sessions, tab IDs, reasoning panels and anonymous candidates excluded. Only sources for completed cases N01-N05 are released; unused fresh sources remain private.",
+  "records": [
+    {
+      "file": "attempt_coverage.json",
+      "sha256_lf_utf8": "a8dfb750ef44ef227326165ae3837a6b26e3cc52a3694c55fae007fc8f6cfd40"
+    },
+    {
+      "file": "bundle.json",
+      "sha256_lf_utf8": "6c2bb2b6e81b4d6d0860092064f61749864d2b9d25b6ee1f19dae29362eabe65"
+    },
+    {
+      "file": "trajectories/N01_D1.json",
+      "sha256_lf_utf8": "1db290757850c68b1d124a9488f419ab94abe001f763b7a965fe77f60854a5ec"
+    },
+    {
+      "file": "trajectories/N01_D2.json",
+      "sha256_lf_utf8": "24a93c70103514c084e4942fdfea86caff3b8a4256b04dd60ee42d226a8a9214"
+    },
+    {
+      "file": "trajectories/N02_D1.json",
+      "sha256_lf_utf8": "7dfd5876bc60ec4468b47b77e4801207832f705856122be7cdb7214a8ff9c0a3"
+    },
+    {
+      "file": "trajectories/N02_D2.json",
+      "sha256_lf_utf8": "0d4f5009bca678815e4c910c52d537bc03563215df944aa3ff3369a4c7b110df"
+    },
+    {
+      "file": "trajectories/N03_D1.json",
+      "sha256_lf_utf8": "cc234528b60c32d1ba12aff861d5866017a7f590c9d9242f58d38db982d2c521"
+    },
+    {
+      "file": "trajectories/N03_D2.json",
+      "sha256_lf_utf8": "d64b955cb336a683733ee98b2f0c005093a822ac1fc8991ffa93e2fcc063b3b2"
+    },
+    {
+      "file": "trajectories/N04_D2.json",
+      "sha256_lf_utf8": "8bade915073591f901d16536857ba555e5f4282f370e87dd07087d535c70e82c"
+    },
+    {
+      "file": "trajectories/N05_D1.json",
+      "sha256_lf_utf8": "19bd232b92a391416bc4209f60aeaf42b384d3069e579cea9eda6a21e969d4ff"
+    },
+    {
+      "file": "trajectories/N05_D2.json",
+      "sha256_lf_utf8": "d36f7b16a5b03452fdeb2ed2247d6a5e37eb715db5ac085be6084ada8d8659aa"
+    }
+  ]
+}

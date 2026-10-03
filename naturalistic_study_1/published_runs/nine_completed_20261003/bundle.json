@@ -1,0 +1,170 @@
+{
+  "publication_kind": "completed subset, not original frozen bundle",
+  "original_planned_configurations": 24,
+  "current_completion_cap": 12,
+  "seat_seed": 2026100305,
+  "cases": [
+    {
+      "case_id": "N01",
+      "domain": "history_institutions",
+      "title": "The Veyran Evening Berth Accord",
+      "public_context": "This fictional dossier concerns an agreement between neighboring river ports about vessels arriving late in the day. The setting uses familiar institutions: harbor offices, cargo clerks, municipal councils, merchant complaints and written ledgers. The agreement acquired a short popular name, the Evening Berth Accord. Discuss its operation and historical setting as described in the dossier, rather than treating it as a real treaty.",
+      "source_title": "Harbor office digest: Veyran Evening Berth Accord",
+      "source_text": "The Evening Berth Accord was adopted by the fictional ports of Veyran and Ostel in the ninth year of the River Council. It addressed a recurring dispute: vessels arriving near dusk could obtain a sheltered berth but could not finish cargo inspection before the warehouse clerks departed. Captains sometimes treated an overnight berth as permission to unload, leaving the morning office to reconstruct what had entered the town.\n\nThe accord separated shelter from admission. A harbor keeper could assign an overnight berth after recording the vessel, captain and declared cargo in a blue arrival ledger. This entry protected the captain's place in the next inspection queue; it did not authorize sale or unloading. The warehouse office, not the keeper, issued an admission mark after inspection. Passenger baggage and a small quantity of food for the crew could be brought ashore in the keeper's presence, but neither exception extended to goods offered for trade.\n\nPriority was normally the order of blue-ledger entries. A vessel carrying a leaking cargo could be moved ahead to prevent damage to neighboring boats, provided the keeper entered a reason and a second harbor employee signed it. The concession changed inspection order without waiving inspection. Cargo owners could complain to a joint committee, which met alternately in the two ports every six weeks. It could correct a ledger entry and order repayment of a berth charge, but it could not grant exemption from municipal cargo dues.\n\nThe surviving digest reproduces eleven complaints from the first season. Eight concerned queue order and three concerned charges; none alleged that the accord had abolished customs inspection. A council marginal note credits the shared ledger format with reducing disputes between the ports. The digest treats that explanation as the council's assessment, rather than a measured comparison with the previous season.",
+      "analyst_notes": {
+        "core_facts": [
+          "Shelter and cargo admission are distinct permissions.",
+          "A blue entry preserves inspection queue position but does not authorize trade or unloading.",
+          "The warehouse office issues the admission mark.",
+          "Leaking cargo can change queue order with a recorded reason and second signature.",
+          "The joint committee can correct records and repay berth charges."
+        ],
+        "explicit_negations": [
+          "The leaking-cargo concession does not waive inspection.",
+          "The joint committee cannot exempt municipal cargo dues."
+        ],
+        "source_boundaries": [
+          "No exact calendar date or real-world geographical location is supplied.",
+          "No later amendments or quantified causal effect on disputes are supplied.",
+          "Food and baggage permissions do not establish permissions for other cargo categories."
+        ],
+        "consistency_checks": [
+          "Urgent inspection and inspection exemption are not interchangeable.",
+          "The council's causal attribution must remain an attributed assessment, not an established effect."
+        ]
+      }
+    },
+    {
+      "case_id": "N02",
+      "domain": "history_institutions",
+      "title": "The Kelvor Guild's Joint Seal",
+      "public_context": "The fictional town of Kelvor had a guild of instrument makers whose repair work sometimes crossed workshop boundaries. A short institutional dossier describes a practice called the joint seal and its relation to training, responsibility and disputes over workmanship. The setting involves ordinary craft institutions and apprenticeship. The guild and its records are invented; answer from the dossier if you have access to it.",
+      "source_title": "Kelvor craft register: notes on the joint seal",
+      "source_text": "Kelvor's instrument makers introduced the joint seal after a series of disputes over repaired measuring balances. A balance could pass through several workshops, and customers sometimes found that every maker blamed a different stage of the repair. The guild's register records the new practice in its forty-second annual volume, alongside workshop transfers and apprentice examinations.\n\nA joint seal consisted of two workshop marks impressed into a narrow strip attached to the repaired instrument's case. One mark identified the workshop that performed the work; the other identified a workshop that inspected the completed repair. The inspector had to examine the instrument after assembly. Signing a plan or lending a tool did not qualify as inspection. The seal recorded responsibility for the stated repair and its inspection, not a promise that every component was new. A maker could inspect another workshop's repair even when the two shops had previously competed for the same customer.\n\nSenior apprentices could perform work entered under their supervising workshop's mark. They could explain the procedure at the inspection, but they could not supply the second workshop mark on their own authority. If the supervising master was absent, the repaired instrument remained in the workshop until another authorized member accepted responsibility for that first mark. This was distinct from the independent inspector's responsibility.\n\nWhen a customer challenged a sealed repair, the guild required both workshops to attend a hearing. The hearing could assign the cost of correction to one workshop, divide it, or dismiss the complaint. Shared attendance therefore did not imply equal liability. The register includes a case in which the repairing shop paid for correction while the inspector paid only the repeat examination fee.\n\nThe guild clerk described the seal as a way to make a chain of responsibility visible. Its adoption did not prohibit unsealed repairs: those could still be sold, but they could not be advertised as guild-inspected work.",
+      "analyst_notes": {
+        "core_facts": [
+          "Two marks identify repairing and inspecting workshops.",
+          "Inspection occurs after assembly.",
+          "Supervised apprentices can perform work but cannot independently issue the second mark.",
+          "Both workshops attend challenges, while liability can differ.",
+          "Unsealed repairs remain sellable without guild-inspected advertising."
+        ],
+        "explicit_negations": [
+          "Lending a tool or signing a plan does not constitute inspection.",
+          "A joint seal does not promise that every component is new."
+        ],
+        "source_boundaries": [
+          "No test apparatus, tolerances or inspection duration are specified.",
+          "The register does not establish rules for all other guilds or instrument types.",
+          "No numerical evidence about the seal's effect on repair quality is supplied."
+        ],
+        "consistency_checks": [
+          "An absent supervisor cannot be automatically replaced by the independent inspector's signature.",
+          "Joint attendance should not be converted into equal financial liability."
+        ]
+      }
+    },
+    {
+      "case_id": "N03",
+      "domain": "history_institutions",
+      "title": "The Ash-Step Archive at Morven Reach",
+      "public_context": "This invented archaeological dossier concerns a river settlement called Morven Reach, where excavators recovered an unusual group of inscribed clay pieces near a damaged stairway. The report connects physical context, document use and competing interpretations. Its vocabulary draws on familiar archaeological practice, but the site and findings are fictional. Discuss what the reported evidence supports without assuming that a complete history of the settlement is available.",
+      "source_title": "Morven Reach field report: the ash-step deposit",
+      "source_text": "The ash-step deposit at Morven Reach was uncovered beneath the landing of a stairway leading from a riverside storehouse to an upper courtyard. The excavation team found thirty-six thin clay slips in a layer containing charcoal, collapsed plaster and fragments of a wooden box. Most slips carried a short name, a quantity and a repeated sign resembling a forked reed. Seven also carried a small circular impression on the reverse.\n\nThe report identifies the slips as records of temporary storage allocations. This interpretation rests on their concentration beside the storehouse and on a courtyard wall inscription that pairs the forked-reed sign with a phrase translated provisionally as held until collection. The names are interpreted as depositors, not necessarily owners of the building. The circular impression occurs on slips with several different names and quantities. The team therefore rejects the suggestion that it identified one particular family; they tentatively associate it with a completed collection or another closing action.\n\nThe slips were fired before they entered the ash layer. Several bear worn edges underneath later soot, so the report does not treat the building fire as the event that made the clay durable. Nor does it treat charcoal alone as evidence of an attack. A scorched beam and a repaired hearth show that fire occurred, while the cause remains a matter of interpretation.\n\nThe deposit includes two slips with the same name and quantity but different small strokes beside the quantity. The report proposes that these strokes may record installments, while acknowledging that revisions or separate storage occasions would also fit. It does not combine the pair into a single confirmed transaction.\n\nA later paving surface sealed the stairway landing. That sequence places disposal before the paving, but the report assigns neither event an exact year. The report's strongest claim is a localized record-keeping practice linked to storage, rather than a reconstruction of the settlement's entire tax system.",
+      "analyst_notes": {
+        "core_facts": [
+          "Thirty-six slips occur under the stair landing beside a storehouse.",
+          "Storage interpretation uses both context and an inscription.",
+          "Seven slips have a circular reverse impression, interpreted tentatively as closure.",
+          "Firing predates deposition in the ash layer.",
+          "The later paving seals the deposit."
+        ],
+        "explicit_negations": [
+          "The circular impression is not assigned to one particular family.",
+          "Charcoal alone is not evidence of an attack."
+        ],
+        "source_boundaries": [
+          "Neither an exact year nor the cause of the fire is established.",
+          "Installments, revisions and separate occasions remain alternative interpretations.",
+          "The dossier does not reconstruct a complete taxation or ownership system."
+        ],
+        "consistency_checks": [
+          "Soot on already worn fired slips contradicts claiming that the final fire first fired the slips.",
+          "Tentative closure and installment interpretations should retain their uncertainty."
+        ]
+      }
+    },
+    {
+      "case_id": "N04",
+      "domain": "anthropology_social",
+      "title": "The Lantern Passage at Mallow Quay",
+      "public_context": "This openly synthetic micro-dossier concerns an invented coastal neighborhood with an everyday passenger ferry, a public timetable office, and seasonal changes to the service. It is presented as a short local archive account. The place, people, event, and institutions are fictional; the details are designed to read like an ordinary community record rather than a puzzle or a report about a real culture.",
+      "source_title": "Harbor Notes: The Lantern Passage at Mallow Quay",
+      "source_text": "Compiled from ferry-room notebooks and two interviews, 2019–2024.\n\nIn Mallow Quay, the Lantern Passage marks the first week the passenger ferry resumes its after-dark crossing after the winter timetable. Residents meet at the old ticket window shortly before sunset. It is a neighborhood custom, not a civic ceremony, and people who live elsewhere can walk along if invited.\n\nA retired deck lamp, cleaned but left visibly dented from a 2016 storm, is carried from the ferry room to the beacon stair. The outgoing winter dispatcher gives it to the incoming timetable keeper, whose name has already been entered in the station's ordinary duty book. The handover is not an appointment: the ferry cooperative assigned the keeper in February after its members reviewed availability and training. This distinction matters because visitors sometimes describe the lamp as choosing its bearer.\n\nThe walk pauses where the lane meets the beach. A bell is struck once when the harbor clock reaches the posted departure time, whether or not a boat is visible. At the stair landing, the keeper turns the lamp down and reads the first crossing time; neighbors then continue to the waiting shed, where tea is served from a flask kept by the ticket clerk. In recent years, families have brought folding chairs, and the walk has become less formal.\n\nLongtime residents describe the custom as a way of recognizing the people who maintain an evening service. No prayer or pledge is part of the recorded sequence. Nor does participation give anyone a fare discount, a berth, or a say in ferry scheduling. Notebooks list occasional absences when weather prevented the walk; the timetable still began on the date set by the cooperative.",
+      "analyst_notes": {
+        "core_facts": [
+          "The Lantern Passage marks the first week of resumed after-dark ferry service following the winter timetable.",
+          "The outgoing winter dispatcher hands the retired deck lamp to the incoming timetable keeper.",
+          "The cooperative assigns the keeper in February after reviewing availability and training; the lamp handover is not the assignment.",
+          "The walk includes a single bell at the posted departure time and a reading of the first crossing time at the stair landing."
+        ],
+        "explicit_negations": [
+          "No prayer or pledge is part of the recorded sequence.",
+          "Participation does not grant a fare discount, berth, or say in ferry scheduling."
+        ],
+        "source_boundaries": [
+          "The notebooks and interviews establish a present-day recognition meaning, while the custom's origin remains unsettled.",
+          "The February assignment is explicit, but the source does not establish which considerations beyond availability and training shaped the cooperative's decision."
+        ],
+        "consistency_checks": [
+          "Explicit fact: the keeper is assigned by the cooperative before the walk. Plausible inference: the lamp handover publicly recognizes a service role; it does not select the keeper.",
+          "Explicit fact: the timetable began on its set date even when weather prevented the walk. Plausible inference: the custom accompanies the service transition rather than authorizing it."
+        ]
+      }
+    },
+    {
+      "case_id": "N05",
+      "domain": "anthropology_social",
+      "title": "Use Claims at Fenlock Hill Orchard",
+      "public_context": "This openly synthetic micro-dossier is set in a fictional orchard district where several households share a cooperative hillside and keep local records about its upkeep. It resembles familiar small-town property and family arrangements, while naming only invented people and institutions. The passage is an archival summary for a social-institution study; it does not describe an actual community or reproduce a real legal system.",
+      "source_title": "The Fenlock Hill Orchard Register",
+      "source_text": "Condensed from meeting minutes and maintenance books, 1987–2023.\n\nFenlock's Hill Orchard occupies a slope above the bus road. The Fenlock Hill Association owns the whole tract, including its retaining wall, pump shed, and twenty-four numbered tree plots. Member households hold continuing use claims to individual plots. The claims cannot be sold outside the association, although a household may name a successor in its annual return.\n\nWhen a claim-holder dies, the register leaves the plot with the household through the end of that year's harvest. At the winter meeting, the household may continue the claim under one adult's name. The clerk records the successor after members confirm that the person has taken part in two orchard workdays during the previous three seasons. Workdays can include pruning, pump cleaning, or wall repair; picking fruit is not counted for this purpose. If no successor is recorded by the meeting, the claim returns to the association's unassigned list for the next season.\n\nMinutes from 2017 describe Mara Venn taking over plot 8 after her aunt died. Her cousins had helped with picking, but Mara had logged pump cleaning and pruning on two spring workdays. The clerk entered Mara's name for plot 8 and noted that the household's ladder and hand tools stayed with the family.\n\nThe association's chair says the return is meant to pair access with care for the shared slope. Members still debate whether two workdays are enough in years of illness or poor weather. The rule is written into the local register, not a civil inheritance code. It does not govern household money, houses on private lots, or personal tools.",
+      "analyst_notes": {
+        "core_facts": [
+          "The Fenlock Hill Association owns the orchard and grants member households continuing use claims to numbered plots.",
+          "After a claim-holder dies, the household keeps the plot through that year's harvest and may name one adult at the winter meeting.",
+          "The named successor must have completed two qualifying orchard workdays in the previous three seasons; picking fruit does not qualify.",
+          "If no successor is recorded by the winter meeting, the plot returns to the association's unassigned list for the next season.",
+          "Mara Venn succeeded her aunt on plot 8 after logging pruning and pump-cleaning workdays."
+        ],
+        "explicit_negations": [
+          "A plot claim cannot be sold outside the association, and fruit picking is not a qualifying workday.",
+          "The register does not govern household money, private-lot houses, or personal tools."
+        ],
+        "source_boundaries": [
+          "The 2017 minutes record Mara's work entries and succession but do not characterize any family disagreement.",
+          "The chair's explanation is an attributed account of the arrangement's purpose; it does not establish unanimous member interpretation.",
+          "The register governs association plot claims and is expressly bounded away from civil inheritance and household property."
+        ],
+        "consistency_checks": [
+          "Explicit fact: the household retains the plot through harvest and names one adult at the winter meeting after qualifying work. Plausible inference: the association links continued use to recorded maintenance participation.",
+          "Explicit fact: the family's ladder and hand tools stayed with the family when Mara took the plot claim. Plausible inference: plot claims and household equipment follow distinct arrangements; the source does not establish a general rule for every item."
+        ]
+      }
+    }
+  ],
+  "source_provenance": [
+    {
+      "run_id": "arena_20261003_naturalistic01",
+      "original_bundle_sha256": "32e9bf9ed7264f7edc0ebec01477ef245a367a08b7d01c5987b44820b8eb5c4d"
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_resume01",
+      "original_bundle_sha256": "0c172e5f53bfc858d21a063e1bd41fab5a20daa7aad95047877b312788051364"
+    },
+    {
+      "run_id": "arena_20261003_naturalistic_judge_recovery01",
+      "original_bundle_sha256": "37aad5917a442ac8766bab6aff7f0b2c6588765f33f386460bd48aceed6ace37"
+    }
+  ]
+}
