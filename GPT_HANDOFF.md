@@ -1,4 +1,28 @@
-# Latest incremental review: v0.4 Active Verification
+# Latest incremental review: Naturalistic Study 1 — nine completed configurations
+
+Review base: `34d8563e161ed2700985599693ba48f04ac19654`.
+Evidence head: `69300849e94b559963c9ec39371a44917e4cd04d`.
+This subsequent handoff is metadata-only; the evidence head stays fixed.
+
+Minimal reading order: [snapshot results](naturalistic_study_1/SNAPSHOT_RESULTS.md), [protocol](naturalistic_study_1/PROTOCOL.md), [collection scope](naturalistic_study_1/COLLECTION_SCOPE.md), then [snapshot_analysis.json](naturalistic_study_1/snapshot_analysis.json). [Individual public receipts](naturalistic_study_1/published_runs/nine_completed_20261003/README.md) are secondary: open a specific trajectory to challenge a claim. They contain source dossiers and access labels; do not forward them wholesale to a tested role.
+
+New experiment: two isolated same-model speakers, one receiving a fresh fictional dossier and one only the shared familiar-world context, with a different-model judge freely interrogating A, B or both. Host relays exact answers without truth checks. Judge chooses when to stop or abstain, capped at ten ASK actions. Observed Direct labels are Claude `claude-sonnet-5-high`, GPT `gpt-5.5-instant` and Gemini `gemini-3.8-flash-high`; deployment identity and sampling settings remain unverified.
+
+Coverage: 9 unique completed planned configurations across 5 dossiers. Original cutoff N01_D1, seven serial-continuation completions, and one explicitly authorized N02_D1 fresh-judge recovery on identical inherited openings are counted once each. The failed N02 judge attempt stays separate. All nine picks match initial access; ASK counts in configuration order are 2,6,1,5,1,1,5,1,2. Confidence is an uncalibrated self-report. BOTH counts once even with multiple subquestions. Reciprocal configurations share dossiers, so the independent background count is five, not nine.
+
+The original plan had 24 configurations. The user reduced collection to 12 completed configurations before this publication; three more remain. N04_D1 and N06_D1 are platform-missing, N06_D2 is partial at a human security challenge. The original rate-limit cutoff, serial continuation and specific N02 recovery have separate attempt records in the public compact coverage ledger. There is no background monitor and no model call for publication. Only sources N01–N05 are published; remaining fresh sources stay private.
+
+Claim boundary: 9/9 is a completed-subset descriptive result, not a population accuracy or reliably maintained-bluff detection estimate. Some bluff replies openly limit available detail and hedge. N03_D1's judge overstates such a limitation as an explicit access admission; the actual speaker does not literally state it was denied source access. N01_D2 and N04_D2 contain judge questions with source-unsupported premises; the informed speaker identifies the gaps. N05_D2's judge claims source agreement despite never seeing the dossier. Judge rationales are data, not verified explanations of valid cues.
+
+Post-hoc candidates include source-bounded uncertainty, concrete-detail probing and N02's measuring-versus-musical-instrument interpretation error. No stable taxonomy is established. There is no passive, human, matched-token, self-model or matched actor–observer control; interrogation improvement, family ranking and ToM dissociations remain untested. v0.1–v0.4 evidence and conclusions are unchanged, and H2 remains paused.
+
+Code route: `scripts/naturalistic_arena_operator.mjs` constructs isolated prompts and records UI sends/captures; `scripts/export_naturalistic_snapshot.py` publishes an allowlisted fixed snapshot with unchanged prompt/final visible reply strings; `scripts/analyze_naturalistic_snapshot.py` checks public hashes, source isolation, exact opening/follow-up relay, ASK counts and terminal scoring. Public evidence excludes account/UI DOM, private session URLs, tab IDs, reasoning panels and anonymous candidate text. Original session reuse was checked locally; excluded links cannot be independently rechecked from the public slice. Visible Markdown-rendered reply capture is not asserted to match generation-stream bytes.
+
+Reproduce from the repository root: `python -X utf8 -B scripts/analyze_naturalistic_snapshot.py`. Python standard library only. Public-only reproduction matched the canonical summary with zero audit errors; Node syntax, staged whitespace, privacy, evidence hashes and Markdown links passed. Other preparation/local-analysis scripts require excluded full local inputs and are not the public-snapshot reproduction route.
+
+Reviewer questions: How much do detail/availability cues simplify the task? Does a boundary-probing question induce the very fabrication later used as evidence? Can a later controlled comparison distinguish interrogation policy from opening-detail asymmetry and token budget? Which post-hoc pattern actually repeats across independent dossiers? Do missingness, explicit recovery and dependence between reciprocal directions stay visible?
+
+## Previous incremental review: v0.4 Active Verification
 
 Review base: `ffb335bc8bc5a5b5d88c53f7bd22630cb18e32eb`.
 Evidence head: `1497eb14a96b6b70c68ea7e94adb5641e6866bd8`.
