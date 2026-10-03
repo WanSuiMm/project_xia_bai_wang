@@ -1,5 +1,7 @@
 # 瞎掰王：Who Really Knows?
 
+2026-10-04 最新交付：[natural / strong 策略瞎掰小试](strategic_bluff_pilot/SNAPSHOT_RESULTS.md)。Claude Sonnet 5 High 与 Gemini 3.1 Pro Preview 双向审问；8 个配置已有 6 个完整终局，natural 和 strong 各 3 场且均判断正确，追问 1–4 次。只有两份独立资料，经过失败后补跑，不能据此估计指令效应或稳定识骗能力。两项缺失单列，首次截止和各次恢复记录保留；发布包含提示词、原始可见回复、源码及公开复核脚本。
+
 2026-10-03 最新交付：[Naturalistic Study 1：9 个已完成配置](naturalistic_study_1/SNAPSHOT_RESULTS.md) → [协议](naturalistic_study_1/PROTOCOL.md) → [脱敏提示词与回复](naturalistic_study_1/published_runs/nine_completed_20261003/README.md)。两个同模型 Speaker 中只有一个看过新资料，Judge 自由审问，主持人不提供真值。9 个配置覆盖 5 份资料，最终判断均正确，追问 1–6 次；部分回答透露资料缺失线索，不能据此宣称稳定识骗能力。原计划 24 个，用户已改为完成 12 个即停；此快照尚缺 3 个完成配置。平台缺失另列，剩余新题资料不公开。
 
 下面是此前各轮实验，证据和结论保持原样。
@@ -14,9 +16,9 @@
 
 ## 从这里开始
 
-1. [最新自然审问结果](naturalistic_study_1/SNAPSHOT_RESULTS.md)：9 个配置、实际成本与线索限制。
-2. [自然审问协议](naturalistic_study_1/PROTOCOL.md) 和 [采集范围调整](naturalistic_study_1/COLLECTION_SCOPE.md)。
-3. [自然审问公开证据](naturalistic_study_1/published_runs/nine_completed_20261003/README.md)：逐条提示词和回复，仅作二级证据。
+1. [最新策略瞎掰结果](strategic_bluff_pilot/SNAPSHOT_RESULTS.md)：6 个终局、2 个缺失与结论边界。
+2. [冻结协议](strategic_bluff_pilot/PROTOCOL.md) 和 [补跑修订](strategic_bluff_pilot/RETRY_PROTOCOL.md)。
+3. [公开提示词与回复](strategic_bluff_pilot/published_runs/six_completed_20261004/README.md)：逐条原始可见回复，仅作二级证据。
 4. [增量审阅交接](GPT_HANDOFF.md)：本次变化及旧实验不变的结论。
 
 以下是 v0.1 的历史阅读路线：
@@ -32,7 +34,7 @@
 
 Python 3.10+；分析仅依赖标准库。JavaScript 测试和采集辅助器另需 Node.js（在 PATH 上）。主持人 HTML 不需要安装依赖，也不会自动操作 Arena。
 
-复核最新公开快照：`python -X utf8 -B scripts/analyze_naturalistic_snapshot.py`。无需 Arena 登录或本机原始记录，不产生模型调用。采集辅助器 [naturalistic_arena_operator.mjs](scripts/naturalistic_arena_operator.mjs) 只接受外部提供的浏览器 SDK 和冻结 bundle，不会自行启动浏览器。
+复核最新公开快照：`python -X utf8 -B scripts/analyze_strategic_snapshot.py`。无需 Arena 登录或本机原始记录，不产生模型调用。此前九场快照仍可用 `scripts/analyze_naturalistic_snapshot.py` 复核。采集辅助器 [naturalistic_arena_operator.mjs](scripts/naturalistic_arena_operator.mjs) 只接受外部提供的浏览器 SDK 和冻结 bundle，不会自行启动浏览器。
 
 ```powershell
 cd xia_bai_wang_pilot_v0_1/xia_bai_wang_pilot_v0_1
