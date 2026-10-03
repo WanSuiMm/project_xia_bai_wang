@@ -1,4 +1,18 @@
-# Latest incremental review: Naturalistic Study 1 — nine completed configurations
+# Latest incremental review: natural versus strong strategic bluff
+
+Review base: `4fecfe4b919b442f1eb1c8baf0fbee6bbff6f4ce`.
+Evidence head: `526ab5d32d2b93e339d8303e27f67bd91035aed3`.
+This handoff is metadata-only; the evidence head stays fixed.
+
+Read [six-endpoint results](strategic_bluff_pilot/SNAPSHOT_RESULTS.md), [protocol](strategic_bluff_pilot/PROTOCOL.md), [retry amendments](strategic_bluff_pilot/RETRY_PROTOCOL.md), then [aggregate JSON](strategic_bluff_pilot/snapshot_analysis.json). Open [individual receipts](strategic_bluff_pilot/published_runs/six_completed_20261004/README.md) only to challenge a particular claim. They contain source and gold labels; never forward them wholesale to tested roles.
+
+New evidence: two new fictional dossiers, reciprocal Claude Sonnet 5 High / Gemini 3.1 Pro Preview arms, matched natural/strong Bluffer instruction packages with unchanged Knower and Judge instructions. Six of eight slots have first-completed endpoints, natural 3/3 and strong 3/3 correct; ASK counts are 1, 1, 2, 4, 1, 4 in snapshot filename order. Two missing terminal decisions remain unscored. The 21-record attempt ledger retains all original and authorized retry/recovery statuses, counting inherited openings once: 99 physical submissions, 74 distinct complete replies, six retained partial outputs. Public receipt hashes, source isolation, exact question/answer relays and scoring reproduce without private local runs, with zero audit errors. Original cutoffs are unchanged.
+
+Claim boundary: only two independent backgrounds; failure-selected recovery completion does not estimate a population effect. The intervention combines win framing, explicit fabrication permission and strategic uncertainty handling. Natural Bluffers also fabricate; correct Judge picks can rely on unsupported packet-number assumptions. No component effect, post-training mechanism, model ranking, robust adversarial ToM or interaction gain is established. The own-partial-response retry affects incomplete S02_D1_natural, not the six exported endpoints. Direct menu labels are observed; backend identity and sampling settings are unverified. No model calls were made during publication. Prior Naturalistic Study 1 and v0.1–v0.4 evidence and claims remain unchanged.
+
+Reviewer questions: do the source-boundary cues actually support each decision rationale? Does the strong instruction package change observed bluff behavior in the two complete S01 pairs? Which behavioral comparisons survive failure-based selection and shared-source dependence? Keep these exploratory; do not infer the missing endpoints. Reproduce with `python -X utf8 -B scripts/analyze_strategic_snapshot.py` from repository root.
+
+# Previous incremental review: Naturalistic Study 1 — nine completed configurations
 
 Review base: `34d8563e161ed2700985599693ba48f04ac19654`.
 Evidence head: `69300849e94b559963c9ec39371a44917e4cd04d`.
