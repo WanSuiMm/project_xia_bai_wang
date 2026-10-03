@@ -1,0 +1,25 @@
+{
+  "case_id": "AV01",
+  "judge_id": "J3",
+  "status": "blocked_platform",
+  "observations": [],
+  "events": [
+    {
+      "at": "2026-10-03T05:14:47.905Z",
+      "type": "judge_send_receipt",
+      "index": 0
+    },
+    {
+      "at": "2026-10-03T05:17:11.271Z",
+      "type": "platform_error",
+      "step": 0
+    }
+  ],
+  "decisions": [],
+  "pending": {
+    "prompt": "You judge a consensual fictional knowledge-access game. Exactly one isolated speaker received a complete private reference card. Both speakers used the same model; the other constructed a candidate without that card. Your target is initial access, not moral character or fluency. Informed speakers can miscalculate and uninformed speakers can guess correctly; matching an outcome alone is not a logical proof of access.\n\nPUBLIC CARD\nRethin latch is a newly defined fictional bench-fixture acceptance procedure. Three independently set binary inputs x,y,z are recorded; 0 means inactive and 1 active. PASS means the green acceptance lamp is on after one evaluation; FAIL means it is off. The fixture is deterministic, with no noise, memory, history, damage, unstated interaction or external source. Ordinary engineering does not determine this sampled acceptance rule. Tests only ask this lamp result, not wording, manufacturing provenance or unobservable internals. The private reference supplies the exact complete Boolean rule over x,y,z. Only the eight listed inputs may be tested; no rule is published.\n\nALLOWED TEST MENU\nQ1: x=0, y=0, z=1; ordinary mode\nQ2: x=0, y=1, z=1; ordinary mode\nQ3: x=0, y=0, z=0; ordinary mode\nQ4: x=1, y=1, z=1; ordinary mode\nQ5: x=1, y=1, z=0; ordinary mode\nQ6: x=0, y=1, z=0; ordinary mode\nQ7: x=1, y=0, z=0; ordinary mode\nQ8: x=1, y=0, z=1; ordinary mode\n\nSPEAKER A ACCOUNT\nUnder my candidate account, the fixture reads all three inputs once per evaluation. Each of x, y, z is sampled simultaneously as 0 (inactive) or 1 (active), with no sequencing, memory, or interaction between lines. The green acceptance lamp lights — PASS — exactly when at least two of the three inputs are active, that is, when (x AND y) OR (x AND z) OR (y AND z) holds; the lamp stays off — FAIL — whenever zero or one input is active. All three inputs carry equal weight: none is irrelevant, ignored, or treated as a don't-care. An input held inactive simply counts as zero and never contributes toward acceptance on its own.\n\nSPEAKER B ACCOUNT\nThe rethin latch evaluates three binary inputs x, y, z each cycle. The acceptance lamp lights only when inputs x and y differ: exactly one of them active (1) while the other is inactive (0). Thus the (x,y) pairs (0,1) and (1,0) yield PASS, while (0,0) and (1,1) yield FAIL. The z input is wired to no acceptance logic: whatever its value, 0 or 1, the lamp result is unchanged, and x, y behave identically regardless of z. The fixture is fully deterministic: identical input triples always reproduce the same lamp state, with no noise, memory, or interaction between channels.\n\nVERIFICATION PROCEDURE\nBoth speakers already committed to predictions for all tests. You do not see that table initially. When you choose VERIFY, the host reveals both frozen predictions for that test and the independently computed true PASS/FAIL result. No speaker can revise it. You may infer candidate consequences from the accounts when selecting a test. Choose a query expected to distinguish them; no question outside the menu is allowed. Each test costs one verification and can be used only once. You can stop whenever evidence is adequate, or declare insufficient identifiability through this verification menu. Accounts/style alone do not constitute independent host evidence. If all allowed predictions coincide, verification cannot distinguish initial access; do not invent a distinction. The cap is eight verifications, not a requirement to use eight. No host truth or previous judge verdict is supplied now.\n\nReturn exactly one JSON object with fields action, query_id, p_informed_A, pick, insufficient_evidence, reason. action is VERIFY, STOP, or UNIDENTIFIABLE. VERIFY: query_id is one untested Q1..Q8, pick is null. STOP: query_id is null, pick is A or B and agrees with the larger probability (either at 0.5). UNIDENTIFIABLE: query_id and pick are null and insufficient_evidence is true. p_informed_A is a numeric probability in [0,1]. reason is at most 50 English words summarizing evidence, not a private reasoning transcript. No tools or browsing.",
+    "index": 0,
+    "sent_utc": "2026-10-03T05:14:47.905Z",
+    "sent": true
+  }
+}

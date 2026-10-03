@@ -1,0 +1,441 @@
+{
+  "version": "0.4.0-active-qualification01",
+  "seed": 2026100304,
+  "frozen_utc": "2026-10-03T05:08:28.591431+00:00",
+  "speaker_model": "glm-5.2 (max)",
+  "judge_model": "gemini-3.8-flash-high",
+  "mode": "Direct",
+  "cases": [
+    {
+      "case_id": "AV01",
+      "term": "Rethin latch",
+      "design_class": "identifiable_target",
+      "informed_seat": "B",
+      "generation_first": "A",
+      "public_text": "Rethin latch is a newly defined fictional bench-fixture acceptance procedure. Three independently set binary inputs x,y,z are recorded; 0 means inactive and 1 active. PASS means the green acceptance lamp is on after one evaluation; FAIL means it is off. The fixture is deterministic, with no noise, memory, history, damage, unstated interaction or external source. Ordinary engineering does not determine this sampled acceptance rule. Tests only ask this lamp result, not wording, manufacturing provenance or unobservable internals. The private reference supplies the exact complete Boolean rule over x,y,z. Only the eight listed inputs may be tested; no rule is published.",
+      "private_text": "PASS iff exactly one of x and y is 1; z has no effect.",
+      "allowed_mode": "ordinary mode",
+      "queries": [
+        {
+          "id": "Q1",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "id": "Q2",
+          "x": 0,
+          "y": 1,
+          "z": 1
+        },
+        {
+          "id": "Q3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "id": "Q4",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        {
+          "id": "Q5",
+          "x": 1,
+          "y": 1,
+          "z": 0
+        },
+        {
+          "id": "Q6",
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        {
+          "id": "Q7",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "id": "Q8",
+          "x": 1,
+          "y": 0,
+          "z": 1
+        }
+      ],
+      "gold": {
+        "Q1": "FAIL",
+        "Q2": "PASS",
+        "Q3": "FAIL",
+        "Q4": "FAIL",
+        "Q5": "FAIL",
+        "Q6": "PASS",
+        "Q7": "PASS",
+        "Q8": "PASS"
+      },
+      "case_sha256": "6996ffad2bb9d2438e5a8976bf04f606819828aae7a8fd9dab5d9c7b5ddc503b"
+    },
+    {
+      "case_id": "AV02",
+      "term": "Nuvor gate",
+      "design_class": "identifiable_target",
+      "informed_seat": "A",
+      "generation_first": "B",
+      "public_text": "Nuvor gate is a newly defined fictional bench-fixture acceptance procedure. Three independently set binary inputs x,y,z are recorded; 0 means inactive and 1 active. PASS means the green acceptance lamp is on after one evaluation; FAIL means it is off. The fixture is deterministic, with no noise, memory, history, damage, unstated interaction or external source. Ordinary engineering does not determine this sampled acceptance rule. Tests only ask this lamp result, not wording, manufacturing provenance or unobservable internals. The private reference supplies the exact complete Boolean rule over x,y,z. Only the eight listed inputs may be tested; no rule is published.",
+      "private_text": "PASS iff (x=1 and y=1) or (x=0 and z=1). No other condition applies.",
+      "allowed_mode": "ordinary mode",
+      "queries": [
+        {
+          "id": "Q1",
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        {
+          "id": "Q2",
+          "x": 1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "id": "Q3",
+          "x": 1,
+          "y": 1,
+          "z": 0
+        },
+        {
+          "id": "Q4",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "id": "Q5",
+          "x": 0,
+          "y": 1,
+          "z": 1
+        },
+        {
+          "id": "Q6",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        {
+          "id": "Q7",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "id": "Q8",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      ],
+      "gold": {
+        "Q1": "FAIL",
+        "Q2": "FAIL",
+        "Q3": "PASS",
+        "Q4": "FAIL",
+        "Q5": "PASS",
+        "Q6": "PASS",
+        "Q7": "PASS",
+        "Q8": "FAIL"
+      },
+      "case_sha256": "588040f4478663c0c6426f73801c6e65e7ef830dfbc6b2eb529fabc8492a7936"
+    },
+    {
+      "case_id": "AV03",
+      "term": "Delvek marker",
+      "design_class": "identifiable_target",
+      "informed_seat": "A",
+      "generation_first": "B",
+      "public_text": "Delvek marker is a newly defined fictional bench-fixture acceptance procedure. Three independently set binary inputs x,y,z are recorded; 0 means inactive and 1 active. PASS means the green acceptance lamp is on after one evaluation; FAIL means it is off. The fixture is deterministic, with no noise, memory, history, damage, unstated interaction or external source. Ordinary engineering does not determine this sampled acceptance rule. Tests only ask this lamp result, not wording, manufacturing provenance or unobservable internals. The private reference supplies the exact complete Boolean rule over x,y,z. Only the eight listed inputs may be tested; no rule is published.",
+      "private_text": "PASS iff exactly two of x,y,z are 1. No other condition applies.",
+      "allowed_mode": "ordinary mode",
+      "queries": [
+        {
+          "id": "Q1",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "id": "Q2",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "id": "Q3",
+          "x": 1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "id": "Q4",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        {
+          "id": "Q5",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "id": "Q6",
+          "x": 0,
+          "y": 1,
+          "z": 1
+        },
+        {
+          "id": "Q7",
+          "x": 1,
+          "y": 1,
+          "z": 0
+        },
+        {
+          "id": "Q8",
+          "x": 0,
+          "y": 1,
+          "z": 0
+        }
+      ],
+      "gold": {
+        "Q1": "FAIL",
+        "Q2": "FAIL",
+        "Q3": "PASS",
+        "Q4": "FAIL",
+        "Q5": "FAIL",
+        "Q6": "PASS",
+        "Q7": "PASS",
+        "Q8": "FAIL"
+      },
+      "case_sha256": "506a4a79579a799c6b2120305ff6dc37d09ff7b157562bc333f786a0442e67e9"
+    },
+    {
+      "case_id": "AV04",
+      "term": "Sarnel seal",
+      "design_class": "identifiable_target",
+      "informed_seat": "A",
+      "generation_first": "A",
+      "public_text": "Sarnel seal is a newly defined fictional bench-fixture acceptance procedure. Three independently set binary inputs x,y,z are recorded; 0 means inactive and 1 active. PASS means the green acceptance lamp is on after one evaluation; FAIL means it is off. The fixture is deterministic, with no noise, memory, history, damage, unstated interaction or external source. Ordinary engineering does not determine this sampled acceptance rule. Tests only ask this lamp result, not wording, manufacturing provenance or unobservable internals. The private reference supplies the exact complete Boolean rule over x,y,z. Only the eight listed inputs may be tested; no rule is published.",
+      "private_text": "PASS iff x differs from the conjunction of y and z: x XOR (y AND z). No other condition applies.",
+      "allowed_mode": "ordinary mode",
+      "queries": [
+        {
+          "id": "Q1",
+          "x": 1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "id": "Q2",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        {
+          "id": "Q3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "id": "Q4",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "id": "Q5",
+          "x": 1,
+          "y": 1,
+          "z": 0
+        },
+        {
+          "id": "Q6",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "id": "Q7",
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        {
+          "id": "Q8",
+          "x": 0,
+          "y": 1,
+          "z": 1
+        }
+      ],
+      "gold": {
+        "Q1": "PASS",
+        "Q2": "FAIL",
+        "Q3": "FAIL",
+        "Q4": "PASS",
+        "Q5": "PASS",
+        "Q6": "FAIL",
+        "Q7": "FAIL",
+        "Q8": "PASS"
+      },
+      "case_sha256": "40cdb3df0dc97c8b34457c0385796d161efcfd60a2ac35c84539f6384745b084"
+    },
+    {
+      "case_id": "AV05",
+      "term": "Omrek latch",
+      "design_class": "verification_equivalent_control",
+      "informed_seat": "B",
+      "generation_first": "A",
+      "public_text": "Omrek latch is a newly defined fictional bench-fixture acceptance procedure. Three independently set binary inputs x,y,z are recorded; 0 means inactive and 1 active. PASS means the green acceptance lamp is on after one evaluation; FAIL means it is off. The fixture is deterministic, with no noise, memory, history, damage, unstated interaction or external source. Ordinary engineering does not determine this sampled acceptance rule. Tests only ask this lamp result, not wording, manufacturing provenance or unobservable internals. A public standard-mode certificate fully specifies the permitted tests: with e=0, PASS iff x=1, independent of y,z. The private reference also specifies an enhanced e=1 mode, but changing e or testing enhanced mode is not allowed. Descriptions of enhanced mode cannot be independently verified here.",
+      "private_text": "In standard mode e=0, PASS iff x=1, regardless of y,z. In enhanced mode e=1, PASS iff y differs from z. The enhanced mode is outside the allowed menu.",
+      "allowed_mode": "standard mode e=0 (enhanced mode is unavailable)",
+      "queries": [
+        {
+          "id": "Q1",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "id": "Q2",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        {
+          "id": "Q3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "id": "Q4",
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        {
+          "id": "Q5",
+          "x": 1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "id": "Q6",
+          "x": 1,
+          "y": 1,
+          "z": 0
+        },
+        {
+          "id": "Q7",
+          "x": 0,
+          "y": 1,
+          "z": 1
+        },
+        {
+          "id": "Q8",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        }
+      ],
+      "gold": {
+        "Q1": "PASS",
+        "Q2": "PASS",
+        "Q3": "FAIL",
+        "Q4": "FAIL",
+        "Q5": "PASS",
+        "Q6": "PASS",
+        "Q7": "FAIL",
+        "Q8": "FAIL"
+      },
+      "case_sha256": "2718ae4450d29715c0bb7d2f648ab1eceb070bcb484f0eb1824af7649d18bacc"
+    },
+    {
+      "case_id": "AV06",
+      "term": "Tavren gate",
+      "design_class": "verification_equivalent_control",
+      "informed_seat": "B",
+      "generation_first": "B",
+      "public_text": "Tavren gate is a newly defined fictional bench-fixture acceptance procedure. Three independently set binary inputs x,y,z are recorded; 0 means inactive and 1 active. PASS means the green acceptance lamp is on after one evaluation; FAIL means it is off. The fixture is deterministic, with no noise, memory, history, damage, unstated interaction or external source. Ordinary engineering does not determine this sampled acceptance rule. Tests only ask this lamp result, not wording, manufacturing provenance or unobservable internals. A public standard-mode certificate fully specifies the permitted tests: with e=0, PASS iff x=1 and z=1, independent of y. The private reference also specifies an enhanced e=1 mode, but changing e or testing enhanced mode is not allowed. Descriptions of enhanced mode cannot be independently verified here.",
+      "private_text": "In standard mode e=0, PASS iff x=1 and z=1, regardless of y. In enhanced mode e=1, PASS iff y=0. The enhanced mode is outside the allowed menu.",
+      "allowed_mode": "standard mode e=0 (enhanced mode is unavailable)",
+      "queries": [
+        {
+          "id": "Q1",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        {
+          "id": "Q2",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "id": "Q3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "id": "Q4",
+          "x": 0,
+          "y": 1,
+          "z": 1
+        },
+        {
+          "id": "Q5",
+          "x": 1,
+          "y": 1,
+          "z": 0
+        },
+        {
+          "id": "Q6",
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        {
+          "id": "Q7",
+          "x": 1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "id": "Q8",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      ],
+      "gold": {
+        "Q1": "PASS",
+        "Q2": "FAIL",
+        "Q3": "FAIL",
+        "Q4": "FAIL",
+        "Q5": "FAIL",
+        "Q6": "FAIL",
+        "Q7": "PASS",
+        "Q8": "FAIL"
+      },
+      "case_sha256": "285de69d8ce3c2fb5bb915b27ffbfc6ebeb9c7819bae505ac6b5eb5263b2ad10"
+    }
+  ],
+  "judge_replicates": 3,
+  "verification_cap": 8,
+  "maximum_speaker_calls": 12,
+  "maximum_judge_replies": 162,
+  "scope": "Six cases; four identifiable targets, two public-standard-mode verification-equivalent controls. Actual diagnostic labels derive from frozen speaker predictions; collisions/errors retained."
+}

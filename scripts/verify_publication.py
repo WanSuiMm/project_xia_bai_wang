@@ -50,5 +50,12 @@ for manifest_path in (ROOT/'v0_3_h2/published_runs').glob('*/publication_manifes
             if field+'_sha256' in entry and hashlib.sha256(record[field].encode()).hexdigest()!=entry[field+'_sha256']:
                 bad.append((entry['file'],field+' hash mismatch'))
         h2_records+=1
-print(json.dumps({'staged_files':len(files),'staged_bytes':total,'markdown_links_checked':links,'public_records_hashed':len(manifest['records'])+v02_records+h2_records,'problems':bad},ensure_ascii=False,indent=2))
+active_records=0
+for manifest_path in (ROOT/'v0_4_active/published_runs').glob('*/publication_manifest.json'):
+    evidence=json.loads(manifest_path.read_text(encoding='utf-8'))
+    for entry in evidence['records']:
+        data=(manifest_path.parent/entry['file']).read_bytes()
+        if hashlib.sha256(data.replace(b'\r\n',b'\n')).hexdigest()!=entry['sha256_lf_utf8']:bad.append((entry['file'],'active evidence hash mismatch'))
+        active_records+=1
+print(json.dumps({'staged_files':len(files),'staged_bytes':total,'markdown_links_checked':links,'public_records_hashed':len(manifest['records'])+v02_records+h2_records+active_records,'problems':bad},ensure_ascii=False,indent=2))
 if bad:raise SystemExit(2)

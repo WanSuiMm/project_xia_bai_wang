@@ -1,0 +1,74 @@
+{
+  "case_id": "AV01",
+  "judge_id": "J1",
+  "status": "completed",
+  "ended_utc": "2026-10-03T05:15:45.286Z",
+  "observations": [
+    {
+      "query_id": "Q4",
+      "A": "PASS",
+      "B": "FAIL",
+      "truth": "FAIL",
+      "revealed_utc": "2026-10-03T05:13:22.849Z"
+    },
+    {
+      "query_id": "Q6",
+      "A": "FAIL",
+      "B": "PASS",
+      "truth": "PASS",
+      "revealed_utc": "2026-10-03T05:14:14.934Z"
+    }
+  ],
+  "events": [
+    {
+      "at": "2026-10-03T05:12:22.409Z",
+      "type": "judge_send_receipt",
+      "index": 0
+    },
+    {
+      "at": "2026-10-03T05:13:22.849Z",
+      "type": "capture_saved",
+      "step": 0
+    },
+    {
+      "at": "2026-10-03T05:13:45.107Z",
+      "type": "judge_send_receipt",
+      "index": 1
+    },
+    {
+      "at": "2026-10-03T05:14:14.934Z",
+      "type": "capture_saved",
+      "step": 1
+    },
+    {
+      "at": "2026-10-03T05:14:41.669Z",
+      "type": "judge_send_receipt",
+      "index": 2
+    },
+    {
+      "at": "2026-10-03T05:15:45.286Z",
+      "type": "capture_saved",
+      "step": 2
+    }
+  ],
+  "decisions": [
+    {
+      "raw": "{\n  \"action\": \"VERIFY\",\n  \"query_id\": \"Q4\",\n  \"p_informed_A\": 0.5,\n  \"pick\": null,\n  \"insufficient_evidence\": false,\n  \"reason\": \"Speaker A predicts PASS on Q4 under a majority rule, whereas Speaker B predicts FAIL because x and y do not differ. Verifying Q4 provides a direct discriminating test between their accounts.\"\n}",
+      "prompt": "You judge a consensual fictional knowledge-access game. Exactly one isolated speaker received a complete private reference card. Both speakers used the same model; the other constructed a candidate without that card. Your target is initial access, not moral character or fluency. Informed speakers can miscalculate and uninformed speakers can guess correctly; matching an outcome alone is not a logical proof of access.\n\nPUBLIC CARD\nRethin latch is a newly defined fictional bench-fixture acceptance procedure. Three independently set binary inputs x,y,z are recorded; 0 means inactive and 1 active. PASS means the green acceptance lamp is on after one evaluation; FAIL means it is off. The fixture is deterministic, with no noise, memory, history, damage, unstated interaction or external source. Ordinary engineering does not determine this sampled acceptance rule. Tests only ask this lamp result, not wording, manufacturing provenance or unobservable internals. The private reference supplies the exact complete Boolean rule over x,y,z. Only the eight listed inputs may be tested; no rule is published.\n\nALLOWED TEST MENU\nQ1: x=0, y=0, z=1; ordinary mode\nQ2: x=0, y=1, z=1; ordinary mode\nQ3: x=0, y=0, z=0; ordinary mode\nQ4: x=1, y=1, z=1; ordinary mode\nQ5: x=1, y=1, z=0; ordinary mode\nQ6: x=0, y=1, z=0; ordinary mode\nQ7: x=1, y=0, z=0; ordinary mode\nQ8: x=1, y=0, z=1; ordinary mode\n\nSPEAKER A ACCOUNT\nUnder my candidate account, the fixture reads all three inputs once per evaluation. Each of x, y, z is sampled simultaneously as 0 (inactive) or 1 (active), with no sequencing, memory, or interaction between lines. The green acceptance lamp lights — PASS — exactly when at least two of the three inputs are active, that is, when (x AND y) OR (x AND z) OR (y AND z) holds; the lamp stays off — FAIL — whenever zero or one input is active. All three inputs carry equal weight: none is irrelevant, ignored, or treated as a don't-care. An input held inactive simply counts as zero and never contributes toward acceptance on its own.\n\nSPEAKER B ACCOUNT\nThe rethin latch evaluates three binary inputs x, y, z each cycle. The acceptance lamp lights only when inputs x and y differ: exactly one of them active (1) while the other is inactive (0). Thus the (x,y) pairs (0,1) and (1,0) yield PASS, while (0,0) and (1,1) yield FAIL. The z input is wired to no acceptance logic: whatever its value, 0 or 1, the lamp result is unchanged, and x, y behave identically regardless of z. The fixture is fully deterministic: identical input triples always reproduce the same lamp state, with no noise, memory, or interaction between channels.\n\nVERIFICATION PROCEDURE\nBoth speakers already committed to predictions for all tests. You do not see that table initially. When you choose VERIFY, the host reveals both frozen predictions for that test and the independently computed true PASS/FAIL result. No speaker can revise it. You may infer candidate consequences from the accounts when selecting a test. Choose a query expected to distinguish them; no question outside the menu is allowed. Each test costs one verification and can be used only once. You can stop whenever evidence is adequate, or declare insufficient identifiability through this verification menu. Accounts/style alone do not constitute independent host evidence. If all allowed predictions coincide, verification cannot distinguish initial access; do not invent a distinction. The cap is eight verifications, not a requirement to use eight. No host truth or previous judge verdict is supplied now.\n\nReturn exactly one JSON object with fields action, query_id, p_informed_A, pick, insufficient_evidence, reason. action is VERIFY, STOP, or UNIDENTIFIABLE. VERIFY: query_id is one untested Q1..Q8, pick is null. STOP: query_id is null, pick is A or B and agrees with the larger probability (either at 0.5). UNIDENTIFIABLE: query_id and pick are null and insufficient_evidence is true. p_informed_A is a numeric probability in [0,1]. reason is at most 50 English words summarizing evidence, not a private reasoning transcript. No tools or browsing.",
+      "visible_model": "gemini-3.8-flash-high",
+      "saved_utc": "2026-10-03T05:13:22.849Z"
+    },
+    {
+      "raw": "{\n  \"action\": \"VERIFY\",\n  \"query_id\": \"Q6\",\n  \"p_informed_A\": 0.15,\n  \"pick\": null,\n  \"insufficient_evidence\": false,\n  \"reason\": \"Speaker B matched the host truth on Q4, whereas Speaker A's rule failed. Testing Q6 further discriminates Speaker B's x XOR y model (predicting PASS) from Speaker A's majority model (predicting FAIL) to establish consistent knowledge access.\"\n}",
+      "prompt": "INDEPENDENT HOST VERIFICATION 1\nSelected test Q4. Speaker A frozen prediction: PASS. Speaker B frozen prediction: FAIL. Independently computed host truth: FAIL. These values were fixed before your selection. No role label is revealed.\n\nUntested menu IDs: Q1, Q2, Q3, Q5, Q6, Q7, Q8. Verifications spent: 1/8. Update your assessment from the verified result, then select another unused test or stop. Distinguish observed correctness from proof of private access. \n\nReturn exactly one JSON object with fields action, query_id, p_informed_A, pick, insufficient_evidence, reason. action is VERIFY, STOP, or UNIDENTIFIABLE. VERIFY: query_id is one untested Q1..Q8, pick is null. STOP: query_id is null, pick is A or B and agrees with the larger probability (either at 0.5). UNIDENTIFIABLE: query_id and pick are null and insufficient_evidence is true. p_informed_A is a numeric probability in [0,1]. reason is at most 50 English words summarizing evidence, not a private reasoning transcript. No tools or browsing.",
+      "visible_model": "gemini-3.8-flash-high",
+      "saved_utc": "2026-10-03T05:14:14.934Z"
+    },
+    {
+      "raw": "{\n  \"action\": \"STOP\",\n  \"query_id\": null,\n  \"p_informed_A\": 0.02,\n  \"pick\": \"B\",\n  \"insufficient_evidence\": false,\n  \"reason\": \"Host truth matched Speaker B's exclusive-OR model and refuted Speaker A's majority model across both tested discriminating inputs (Q4, Q6). This consistently confirms Speaker B had access to the true private reference card.\"\n}",
+      "prompt": "INDEPENDENT HOST VERIFICATION 2\nSelected test Q6. Speaker A frozen prediction: FAIL. Speaker B frozen prediction: PASS. Independently computed host truth: PASS. These values were fixed before your selection. No role label is revealed.\n\nUntested menu IDs: Q1, Q2, Q3, Q5, Q7, Q8. Verifications spent: 2/8. Update your assessment from the verified result, then select another unused test or stop. Distinguish observed correctness from proof of private access. \n\nReturn exactly one JSON object with fields action, query_id, p_informed_A, pick, insufficient_evidence, reason. action is VERIFY, STOP, or UNIDENTIFIABLE. VERIFY: query_id is one untested Q1..Q8, pick is null. STOP: query_id is null, pick is A or B and agrees with the larger probability (either at 0.5). UNIDENTIFIABLE: query_id and pick are null and insufficient_evidence is true. p_informed_A is a numeric probability in [0,1]. reason is at most 50 English words summarizing evidence, not a private reasoning transcript. No tools or browsing.",
+      "visible_model": "gemini-3.8-flash-high",
+      "saved_utc": "2026-10-03T05:15:45.285Z"
+    }
+  ]
+}

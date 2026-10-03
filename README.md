@@ -1,5 +1,7 @@
 # 瞎掰王：Who Really Knows?
 
+2026-10-03 最新实验：[v0.4 Active Verification 结果](v0_4_active/RESULTS.md) → [协议](v0_4_active/PROTOCOL.md) → [脱敏证据](v0_4_active/published_runs/arena_20261003_active01/README.md)。固定 GLM-5.2 (max) 生成双方回答，Gemini-3.8-Flash-high 主动选择验证、依据主持人真值更新并停止。六题均尝试，四题得到完整双方回答，6/18 裁判轨迹完成；平台缺失单列，不计为模型答错。旧版本结果保持原样。
+
 用可控制的合成卡片游戏研究：模型能否分辨谁最初获得了完整定义，以及独立核验是否改变判断。2026-10-02 的 Arena Direct pilot 完成 3 道正式题；另一题受匿名模型干预污染并停止。完整题中，无核验的新裁判正确 1/3，有核验的新裁判正确 3/3。结果仅支持小样本探索观察，不是 ToM 结论或模型排名。
 
 同日获授权的 grounded-card 后续小试单独记录：[数学](v0_2_math/RESULTS.md)、[其他四领域](v0_2_other/RESULTS.md) 及 [解释与平台恢复限制](v0_2_other/INTERPRETATION.md)。它们包含不完整配对，不并入上面的 v0.1 统计。新增提示词、原始回复和操作事件的脱敏副本分别在 [数学证据](v0_2_math/published_runs/arena_20261002_selvar_pair01/README.md) 与 [其他领域证据](v0_2_other/published_runs/arena_20261002_other_pairs01/README.md)；先读结果，日志仅作二级证据。

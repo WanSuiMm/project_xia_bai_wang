@@ -1,0 +1,606 @@
+{
+  "version": "0.4.0-active-qualification01",
+  "run_id": "arena_20261003_active01",
+  "bundle_sha256": "49bd306fb2b11fc2e558567a9f1c0d9f01fd456e09a1da5df27081e1b1170b90",
+  "collection_status": "partial_stopped_platform",
+  "counts": {
+    "planned_cases": 6,
+    "usable_pairs": 4,
+    "planned_trajectories": 18,
+    "speaker_sends": 12,
+    "speaker_replies": 10,
+    "judge_sends": 26,
+    "judge_replies": 20,
+    "completed_trajectories": 6,
+    "missing_terminal_trajectories": 12,
+    "host_verifications": 14
+  },
+  "metrics": {
+    "first_query_discrimination": {
+      "numerator": 7,
+      "denominator": 7,
+      "value": 1.0
+    },
+    "evidence_update_side": {
+      "numerator": 10,
+      "denominator": 10,
+      "value": 1.0
+    },
+    "evidence_update_direction": {
+      "numerator": 10,
+      "denominator": 10,
+      "value": 1.0
+    },
+    "final_accuracy_known_correct_disagreement_completed": {
+      "numerator": 3,
+      "denominator": 3,
+      "value": 1.0
+    },
+    "equivalent_abstention_completed": {
+      "numerator": 3,
+      "denominator": 3,
+      "value": 1.0
+    },
+    "completed_identifiable_costs": [
+      2,
+      3,
+      2
+    ],
+    "completed_identifiable_extra_costs": [
+      1,
+      2,
+      1
+    ]
+  },
+  "audit_errors": [],
+  "word_budget_flags": [],
+  "cases": [
+    {
+      "case_id": "AV01",
+      "design_class": "identifiable_target",
+      "status": "speakers_frozen",
+      "usable_pair": true,
+      "known_predictions_correct": true,
+      "diagnostic_queries": [
+        "Q4",
+        "Q5",
+        "Q6",
+        "Q7"
+      ],
+      "random_first_query_chance": 0.5,
+      "oracle_table_cost_lower_bound": 1
+    },
+    {
+      "case_id": "AV02",
+      "design_class": "identifiable_target",
+      "status": "speakers_frozen",
+      "usable_pair": true,
+      "known_predictions_correct": true,
+      "diagnostic_queries": [
+        "Q2",
+        "Q7"
+      ],
+      "random_first_query_chance": 0.25,
+      "oracle_table_cost_lower_bound": 1
+    },
+    {
+      "case_id": "AV03",
+      "design_class": "identifiable_target",
+      "status": "speakers_frozen",
+      "usable_pair": true,
+      "known_predictions_correct": true,
+      "diagnostic_queries": [
+        "Q4",
+        "Q6"
+      ],
+      "random_first_query_chance": 0.25,
+      "oracle_table_cost_lower_bound": 1
+    },
+    {
+      "case_id": "AV04",
+      "design_class": "identifiable_target",
+      "status": "blocked_no_output_timeout",
+      "usable_pair": false,
+      "known_predictions_correct": true,
+      "diagnostic_queries": null,
+      "random_first_query_chance": null,
+      "oracle_table_cost_lower_bound": null
+    },
+    {
+      "case_id": "AV05",
+      "design_class": "verification_equivalent_control",
+      "status": "blocked_platform",
+      "usable_pair": false,
+      "known_predictions_correct": null,
+      "diagnostic_queries": null,
+      "random_first_query_chance": null,
+      "oracle_table_cost_lower_bound": null
+    },
+    {
+      "case_id": "AV06",
+      "design_class": "verification_equivalent_control",
+      "status": "speakers_frozen",
+      "usable_pair": true,
+      "known_predictions_correct": true,
+      "diagnostic_queries": [],
+      "random_first_query_chance": 0.0,
+      "oracle_table_cost_lower_bound": 0
+    }
+  ],
+  "trajectories": [
+    {
+      "trajectory": "AV01_J1",
+      "case_id": "AV01",
+      "status": "completed",
+      "replies": 3,
+      "terminal": true,
+      "first_action": "VERIFY",
+      "first_query_diagnostic": true,
+      "verifications": 2,
+      "final_correct": true,
+      "equivalent_abstention_correct": null,
+      "extra_verifications_after_first_diagnostic": 1,
+      "decision_sequence": [
+        {
+          "action": "VERIFY",
+          "query_id": "Q4",
+          "p_informed_A": 0.5,
+          "pick": null
+        },
+        {
+          "action": "VERIFY",
+          "query_id": "Q6",
+          "p_informed_A": 0.15,
+          "pick": null
+        },
+        {
+          "action": "STOP",
+          "query_id": null,
+          "p_informed_A": 0.02,
+          "pick": "B"
+        }
+      ]
+    },
+    {
+      "trajectory": "AV01_J2",
+      "case_id": "AV01",
+      "status": "completed",
+      "replies": 4,
+      "terminal": true,
+      "first_action": "VERIFY",
+      "first_query_diagnostic": true,
+      "verifications": 3,
+      "final_correct": true,
+      "equivalent_abstention_correct": null,
+      "extra_verifications_after_first_diagnostic": 2,
+      "decision_sequence": [
+        {
+          "action": "VERIFY",
+          "query_id": "Q4",
+          "p_informed_A": 0.5,
+          "pick": null
+        },
+        {
+          "action": "VERIFY",
+          "query_id": "Q6",
+          "p_informed_A": 0.2,
+          "pick": null
+        },
+        {
+          "action": "VERIFY",
+          "query_id": "Q5",
+          "p_informed_A": 0.05,
+          "pick": null
+        },
+        {
+          "action": "STOP",
+          "query_id": null,
+          "p_informed_A": 0.01,
+          "pick": "B"
+        }
+      ]
+    },
+    {
+      "trajectory": "AV01_J3",
+      "case_id": "AV01",
+      "status": "blocked_platform",
+      "replies": 0,
+      "terminal": false,
+      "first_action": null,
+      "first_query_diagnostic": null,
+      "verifications": 0,
+      "final_correct": null,
+      "equivalent_abstention_correct": null,
+      "extra_verifications_after_first_diagnostic": null,
+      "decision_sequence": []
+    },
+    {
+      "trajectory": "AV02_J1",
+      "case_id": "AV02",
+      "status": "completed",
+      "replies": 3,
+      "terminal": true,
+      "first_action": "VERIFY",
+      "first_query_diagnostic": true,
+      "verifications": 2,
+      "final_correct": true,
+      "equivalent_abstention_correct": null,
+      "extra_verifications_after_first_diagnostic": 1,
+      "decision_sequence": [
+        {
+          "action": "VERIFY",
+          "query_id": "Q2",
+          "p_informed_A": 0.5,
+          "pick": null
+        },
+        {
+          "action": "VERIFY",
+          "query_id": "Q7",
+          "p_informed_A": 0.8,
+          "pick": null
+        },
+        {
+          "action": "STOP",
+          "query_id": null,
+          "p_informed_A": 0.96,
+          "pick": "A"
+        }
+      ]
+    },
+    {
+      "trajectory": "AV02_J2",
+      "case_id": "AV02",
+      "status": "blocked_platform",
+      "replies": 2,
+      "terminal": false,
+      "first_action": "VERIFY",
+      "first_query_diagnostic": true,
+      "verifications": 2,
+      "final_correct": null,
+      "equivalent_abstention_correct": null,
+      "extra_verifications_after_first_diagnostic": null,
+      "decision_sequence": [
+        {
+          "action": "VERIFY",
+          "query_id": "Q2",
+          "p_informed_A": 0.5,
+          "pick": null
+        },
+        {
+          "action": "VERIFY",
+          "query_id": "Q7",
+          "p_informed_A": 0.82,
+          "pick": null
+        }
+      ]
+    },
+    {
+      "trajectory": "AV02_J3",
+      "case_id": "AV02",
+      "status": "blocked_platform",
+      "replies": 0,
+      "terminal": false,
+      "first_action": null,
+      "first_query_diagnostic": null,
+      "verifications": 0,
+      "final_correct": null,
+      "equivalent_abstention_correct": null,
+      "extra_verifications_after_first_diagnostic": null,
+      "decision_sequence": []
+    },
+    {
+      "trajectory": "AV03_J1",
+      "case_id": "AV03",
+      "status": "blocked_platform",
+      "replies": 2,
+      "terminal": false,
+      "first_action": "VERIFY",
+      "first_query_diagnostic": true,
+      "verifications": 2,
+      "final_correct": null,
+      "equivalent_abstention_correct": null,
+      "extra_verifications_after_first_diagnostic": null,
+      "decision_sequence": [
+        {
+          "action": "VERIFY",
+          "query_id": "Q4",
+          "p_informed_A": 0.5,
+          "pick": null
+        },
+        {
+          "action": "VERIFY",
+          "query_id": "Q6",
+          "p_informed_A": 0.82,
+          "pick": null
+        }
+      ]
+    },
+    {
+      "trajectory": "AV03_J2",
+      "case_id": "AV03",
+      "status": "blocked_platform",
+      "replies": 2,
+      "terminal": false,
+      "first_action": "VERIFY",
+      "first_query_diagnostic": true,
+      "verifications": 2,
+      "final_correct": null,
+      "equivalent_abstention_correct": null,
+      "extra_verifications_after_first_diagnostic": null,
+      "decision_sequence": [
+        {
+          "action": "VERIFY",
+          "query_id": "Q4",
+          "p_informed_A": 0.5,
+          "pick": null
+        },
+        {
+          "action": "VERIFY",
+          "query_id": "Q6",
+          "p_informed_A": 0.85,
+          "pick": null
+        }
+      ]
+    },
+    {
+      "trajectory": "AV03_J3",
+      "case_id": "AV03",
+      "status": "blocked_platform",
+      "replies": 1,
+      "terminal": false,
+      "first_action": "VERIFY",
+      "first_query_diagnostic": true,
+      "verifications": 1,
+      "final_correct": null,
+      "equivalent_abstention_correct": null,
+      "extra_verifications_after_first_diagnostic": null,
+      "decision_sequence": [
+        {
+          "action": "VERIFY",
+          "query_id": "Q4",
+          "p_informed_A": 0.5,
+          "pick": null
+        }
+      ]
+    },
+    {
+      "trajectory": "AV04_J1",
+      "case_id": "AV04",
+      "status": "blocked_missing_speaker",
+      "replies": 0,
+      "terminal": false,
+      "first_action": null,
+      "first_query_diagnostic": null,
+      "verifications": 0,
+      "final_correct": null,
+      "equivalent_abstention_correct": null,
+      "extra_verifications_after_first_diagnostic": null,
+      "decision_sequence": []
+    },
+    {
+      "trajectory": "AV04_J2",
+      "case_id": "AV04",
+      "status": "blocked_missing_speaker",
+      "replies": 0,
+      "terminal": false,
+      "first_action": null,
+      "first_query_diagnostic": null,
+      "verifications": 0,
+      "final_correct": null,
+      "equivalent_abstention_correct": null,
+      "extra_verifications_after_first_diagnostic": null,
+      "decision_sequence": []
+    },
+    {
+      "trajectory": "AV04_J3",
+      "case_id": "AV04",
+      "status": "blocked_missing_speaker",
+      "replies": 0,
+      "terminal": false,
+      "first_action": null,
+      "first_query_diagnostic": null,
+      "verifications": 0,
+      "final_correct": null,
+      "equivalent_abstention_correct": null,
+      "extra_verifications_after_first_diagnostic": null,
+      "decision_sequence": []
+    },
+    {
+      "trajectory": "AV05_J1",
+      "case_id": "AV05",
+      "status": "blocked_missing_speaker",
+      "replies": 0,
+      "terminal": false,
+      "first_action": null,
+      "first_query_diagnostic": null,
+      "verifications": 0,
+      "final_correct": null,
+      "equivalent_abstention_correct": null,
+      "extra_verifications_after_first_diagnostic": null,
+      "decision_sequence": []
+    },
+    {
+      "trajectory": "AV05_J2",
+      "case_id": "AV05",
+      "status": "blocked_missing_speaker",
+      "replies": 0,
+      "terminal": false,
+      "first_action": null,
+      "first_query_diagnostic": null,
+      "verifications": 0,
+      "final_correct": null,
+      "equivalent_abstention_correct": null,
+      "extra_verifications_after_first_diagnostic": null,
+      "decision_sequence": []
+    },
+    {
+      "trajectory": "AV05_J3",
+      "case_id": "AV05",
+      "status": "blocked_missing_speaker",
+      "replies": 0,
+      "terminal": false,
+      "first_action": null,
+      "first_query_diagnostic": null,
+      "verifications": 0,
+      "final_correct": null,
+      "equivalent_abstention_correct": null,
+      "extra_verifications_after_first_diagnostic": null,
+      "decision_sequence": []
+    },
+    {
+      "trajectory": "AV06_J1",
+      "case_id": "AV06",
+      "status": "completed",
+      "replies": 1,
+      "terminal": true,
+      "first_action": "UNIDENTIFIABLE",
+      "first_query_diagnostic": null,
+      "verifications": 0,
+      "final_correct": null,
+      "equivalent_abstention_correct": true,
+      "extra_verifications_after_first_diagnostic": null,
+      "decision_sequence": [
+        {
+          "action": "UNIDENTIFIABLE",
+          "query_id": null,
+          "p_informed_A": 0.5,
+          "pick": null
+        }
+      ]
+    },
+    {
+      "trajectory": "AV06_J2",
+      "case_id": "AV06",
+      "status": "completed",
+      "replies": 1,
+      "terminal": true,
+      "first_action": "UNIDENTIFIABLE",
+      "first_query_diagnostic": null,
+      "verifications": 0,
+      "final_correct": null,
+      "equivalent_abstention_correct": true,
+      "extra_verifications_after_first_diagnostic": null,
+      "decision_sequence": [
+        {
+          "action": "UNIDENTIFIABLE",
+          "query_id": null,
+          "p_informed_A": 0.5,
+          "pick": null
+        }
+      ]
+    },
+    {
+      "trajectory": "AV06_J3",
+      "case_id": "AV06",
+      "status": "completed",
+      "replies": 1,
+      "terminal": true,
+      "first_action": "UNIDENTIFIABLE",
+      "first_query_diagnostic": null,
+      "verifications": 0,
+      "final_correct": null,
+      "equivalent_abstention_correct": true,
+      "extra_verifications_after_first_diagnostic": null,
+      "decision_sequence": [
+        {
+          "action": "UNIDENTIFIABLE",
+          "query_id": null,
+          "p_informed_A": 0.5,
+          "pick": null
+        }
+      ]
+    }
+  ],
+  "evidence_updates": [
+    {
+      "trajectory": "AV01_J1",
+      "observation_index": 0,
+      "supported_seat": "B",
+      "probability_before": 0.5,
+      "probability_after": 0.15,
+      "direction_correct": true,
+      "post_update_side_correct": true
+    },
+    {
+      "trajectory": "AV01_J1",
+      "observation_index": 1,
+      "supported_seat": "B",
+      "probability_before": 0.15,
+      "probability_after": 0.02,
+      "direction_correct": true,
+      "post_update_side_correct": true
+    },
+    {
+      "trajectory": "AV01_J2",
+      "observation_index": 0,
+      "supported_seat": "B",
+      "probability_before": 0.5,
+      "probability_after": 0.2,
+      "direction_correct": true,
+      "post_update_side_correct": true
+    },
+    {
+      "trajectory": "AV01_J2",
+      "observation_index": 1,
+      "supported_seat": "B",
+      "probability_before": 0.2,
+      "probability_after": 0.05,
+      "direction_correct": true,
+      "post_update_side_correct": true
+    },
+    {
+      "trajectory": "AV01_J2",
+      "observation_index": 2,
+      "supported_seat": "B",
+      "probability_before": 0.05,
+      "probability_after": 0.01,
+      "direction_correct": true,
+      "post_update_side_correct": true
+    },
+    {
+      "trajectory": "AV02_J1",
+      "observation_index": 0,
+      "supported_seat": "A",
+      "probability_before": 0.5,
+      "probability_after": 0.8,
+      "direction_correct": true,
+      "post_update_side_correct": true
+    },
+    {
+      "trajectory": "AV02_J1",
+      "observation_index": 1,
+      "supported_seat": "A",
+      "probability_before": 0.8,
+      "probability_after": 0.96,
+      "direction_correct": true,
+      "post_update_side_correct": true
+    },
+    {
+      "trajectory": "AV02_J2",
+      "observation_index": 0,
+      "supported_seat": "A",
+      "probability_before": 0.5,
+      "probability_after": 0.82,
+      "direction_correct": true,
+      "post_update_side_correct": true
+    },
+    {
+      "trajectory": "AV03_J1",
+      "observation_index": 0,
+      "supported_seat": "A",
+      "probability_before": 0.5,
+      "probability_after": 0.82,
+      "direction_correct": true,
+      "post_update_side_correct": true
+    },
+    {
+      "trajectory": "AV03_J2",
+      "observation_index": 0,
+      "supported_seat": "A",
+      "probability_before": 0.5,
+      "probability_after": 0.85,
+      "direction_correct": true,
+      "post_update_side_correct": true
+    }
+  ]
+}

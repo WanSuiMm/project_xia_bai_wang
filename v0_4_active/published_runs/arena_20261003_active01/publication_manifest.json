@@ -1,0 +1,101 @@
+{
+  "policy": "Original raw run unchanged. Account DOM, model reasoning panels, private sessions, tab identifiers, screenshots and anonymous candidate text excluded. Submitted prompts and captured final JSON replies are unchanged.",
+  "records": [
+    {
+      "file": "logs/AV01.json",
+      "sha256_lf_utf8": "3e9f1811e8da167d48236016de8a269947013514086682f970590a8d1742490b"
+    },
+    {
+      "file": "logs/AV02.json",
+      "sha256_lf_utf8": "4ce6a4bfa58dde706ac62b93e79dbac657b598cee049182ad9d572315219d148"
+    },
+    {
+      "file": "logs/AV03.json",
+      "sha256_lf_utf8": "623dcf6fc2e1026b6237f00a6f7c5a6fdc2ab41b76f4a8e6497ba5f3b7efe316"
+    },
+    {
+      "file": "logs/AV04.json",
+      "sha256_lf_utf8": "7ef4f5b8f12d98e09aa77d37e62293e1f1e4c486367ca2a1accd85543ba5c3a0"
+    },
+    {
+      "file": "logs/AV05.json",
+      "sha256_lf_utf8": "762ec8b4aef0b17cadd19b627deb17ceedac2c5993a08de17736d24fc203ac53"
+    },
+    {
+      "file": "logs/AV06.json",
+      "sha256_lf_utf8": "467d9ccd7edcb2e9c8028f906dcbe0ac73a3f8ec060e0efd8192ee779de9ad5f"
+    },
+    {
+      "file": "trajectories/AV01_J1.json",
+      "sha256_lf_utf8": "948e47803553a9737399a98f8779fbeb17d089dcd182cb81eb67933bf713a60d"
+    },
+    {
+      "file": "trajectories/AV01_J2.json",
+      "sha256_lf_utf8": "5466abcded276945a4cd41d673d0be70263f465008ab1f30b725d89449c6d26d"
+    },
+    {
+      "file": "trajectories/AV01_J3.json",
+      "sha256_lf_utf8": "39277a29bf93cf12b8b8e11e0c3abf61ea2bd9169e82c8caecc814e5f28b610c"
+    },
+    {
+      "file": "trajectories/AV02_J1.json",
+      "sha256_lf_utf8": "8b49d35430e8d34365d02b11d3ca8e417c9410ee00f7688a23db8cb3a6b61bd7"
+    },
+    {
+      "file": "trajectories/AV02_J2.json",
+      "sha256_lf_utf8": "b41e8c9b1e2cd679c0c5931f0222f8526d075314bb8b766ef14e24842863d902"
+    },
+    {
+      "file": "trajectories/AV02_J3.json",
+      "sha256_lf_utf8": "76764e3810f3b4ccbe4464254e5aae3112a722fc037346a4f7137653d4da1a6a"
+    },
+    {
+      "file": "trajectories/AV03_J1.json",
+      "sha256_lf_utf8": "9bef361d871321bd6effcc9570ec4be25375d1502fb1cfcc1d1de71e6d667b92"
+    },
+    {
+      "file": "trajectories/AV03_J2.json",
+      "sha256_lf_utf8": "fe30c9ba57c41177ce1054a8715b68418c8d4d7ff9edf329b3f2ea356da00b9e"
+    },
+    {
+      "file": "trajectories/AV03_J3.json",
+      "sha256_lf_utf8": "3bbe37c42474732c0f578aceea5bb578ba33f9b6dff2fbe105332184f9c7184c"
+    },
+    {
+      "file": "trajectories/AV04_J1.json",
+      "sha256_lf_utf8": "7a68d94d990ff01c6d475e80026bc444f07250103ca3c4f588720528e73fd953"
+    },
+    {
+      "file": "trajectories/AV04_J2.json",
+      "sha256_lf_utf8": "81bcff7eeacd26cd2ae8b02f8a92b7fff213b6838f9348464ad53f5b61feaaed"
+    },
+    {
+      "file": "trajectories/AV04_J3.json",
+      "sha256_lf_utf8": "49596aaaa8f8bbd08f0b697a3c8b8986804628c1c61e94bdd55bae096544cf48"
+    },
+    {
+      "file": "trajectories/AV05_J1.json",
+      "sha256_lf_utf8": "c607bed8e7d933159b061c14ce9e3eeec01b21d7159c2c24aa36788f111ebc3c"
+    },
+    {
+      "file": "trajectories/AV05_J2.json",
+      "sha256_lf_utf8": "ef7c60ea8b33d100c9632df99961d42212f252fd3c5fe2f3bb311d6a411d0ceb"
+    },
+    {
+      "file": "trajectories/AV05_J3.json",
+      "sha256_lf_utf8": "cac2d7752269c6ccb6fd191b190f94bc14736370913abcf3cf7816aaf14084af"
+    },
+    {
+      "file": "trajectories/AV06_J1.json",
+      "sha256_lf_utf8": "45522bd8c62d9d59d5fc47f60233fc9ca463c9175f706f0a00f233b51d828096"
+    },
+    {
+      "file": "trajectories/AV06_J2.json",
+      "sha256_lf_utf8": "b802aec127d64888f206f9851a104a5cac7bb6226a7021a1ce2594925c5dc609"
+    },
+    {
+      "file": "trajectories/AV06_J3.json",
+      "sha256_lf_utf8": "f3ed5e06c5565430fbbd22a7fab4b8230e501dafe78d9a9f8e78696739c15c20"
+    }
+  ]
+}

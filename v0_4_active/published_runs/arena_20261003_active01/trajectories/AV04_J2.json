@@ -1,0 +1,13 @@
+{
+  "case_id": "AV04",
+  "judge_id": "J2",
+  "status": "blocked_missing_speaker",
+  "observations": [],
+  "events": [
+    {
+      "at": "2026-10-03T05:21:35.283Z",
+      "type": "dependency_cutoff"
+    }
+  ],
+  "decisions": []
+}

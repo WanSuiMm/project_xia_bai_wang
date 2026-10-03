@@ -1,0 +1,91 @@
+{
+  "bundle_sha256": "49bd306fb2b11fc2e558567a9f1c0d9f01fd456e09a1da5df27081e1b1170b90",
+  "cases": [
+    {
+      "case_id": "AV01",
+      "status": "speakers_frozen",
+      "speakers": {
+        "A": "e5e5902e82577227d9ed2ae7045b88ba670e65f22c8a7656bfd551608073e390",
+        "B": "6ba9cd19bd6ff511020be0e48814c126f89a154b08404ddc85f1e792a8d7006f"
+      },
+      "frozen_utc": "2026-10-03T05:12:11.189Z",
+      "diagnostic": {
+        "diagnostic_queries": [
+          "Q4",
+          "Q5",
+          "Q6",
+          "Q7"
+        ],
+        "known_predictions_correct": true,
+        "verification_equivalent": false,
+        "actual_class": "observable_disagreement"
+      }
+    },
+    {
+      "case_id": "AV02",
+      "status": "speakers_frozen",
+      "speakers": {
+        "B": "40b9e85be5a6cc59f2d81c6ade05a27285508143a52c5ce629e9bc1aeea81f89",
+        "A": "e3e5929d8053dda3177cd960e22af7e7409d55cdc405c7963a62e8b544e69189"
+      },
+      "frozen_utc": "2026-10-03T05:15:43.541Z",
+      "diagnostic": {
+        "diagnostic_queries": [
+          "Q2",
+          "Q7"
+        ],
+        "known_predictions_correct": true,
+        "verification_equivalent": false,
+        "actual_class": "observable_disagreement"
+      }
+    },
+    {
+      "case_id": "AV03",
+      "status": "speakers_frozen",
+      "speakers": {
+        "B": "2688f097392449235f8d2a832ab11f0460d1e92e5b7ec4e31a3f7370c00cfa42",
+        "A": "d210cb00b6f2c7c82d97076da585c5f19622e4994b6b5cbc3e062884e72e8d91"
+      },
+      "frozen_utc": "2026-10-03T05:15:44.050Z",
+      "diagnostic": {
+        "diagnostic_queries": [
+          "Q4",
+          "Q6"
+        ],
+        "known_predictions_correct": true,
+        "verification_equivalent": false,
+        "actual_class": "observable_disagreement"
+      }
+    },
+    {
+      "case_id": "AV04",
+      "status": "blocked_no_output_timeout",
+      "speakers": {
+        "A": "4518b9df3ebd887623c00f4f5b2e151f3ba838f7558cf3d4b26ade36e9d31454"
+      }
+    },
+    {
+      "case_id": "AV05",
+      "status": "blocked_platform",
+      "speakers": {
+        "A": "d07bf31f188bd755be86a2698d393dc145013cfd606a65515cd291565ba947d9"
+      }
+    },
+    {
+      "case_id": "AV06",
+      "status": "speakers_frozen",
+      "speakers": {
+        "B": "6421799d37ab783d292ee15a68b784ea474e8f5058417ce9149e7c8c0f448f0e",
+        "A": "1aed8b9bac0a8aaf094022c22bd2daa70d78e06b36bcf7995041deb23b94ed29"
+      },
+      "frozen_utc": "2026-10-03T05:15:45.125Z",
+      "diagnostic": {
+        "diagnostic_queries": [],
+        "known_predictions_correct": true,
+        "verification_equivalent": true,
+        "actual_class": "verification_equivalent"
+      }
+    }
+  ],
+  "audit_errors": []
+}

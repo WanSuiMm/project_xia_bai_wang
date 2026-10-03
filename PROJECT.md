@@ -2,6 +2,10 @@
 
 Question: identifying initial access to a synthetic private reference card, with dialogue and independent-check controls.
 
+Latest authorized experiment (2026-10-03): [v0.4 Active Verification](v0_4_active/RESULTS.md) → [frozen protocol](v0_4_active/PROTOCOL.md). GLM-5.2 (max) generated isolated, frozen A/B accounts and predictions; Gemini-3.8-Flash-high chose tests and updated from deterministic Host truth in Arena Direct. Six fresh cases attempted; 10/12 speaker replies, four usable pairs, 6/18 completed judge trajectories. Platform failures and dependency failures remain missing, with no resends. No automatic monitor or GitHub push during collection. Reproduce local analysis with `python -X utf8 -B scripts/analyze_active_verification.py`; local raw receipts are in excluded `v0_4_active/runs/arena_20261003_active01/`. H2 is paused.
+
+After collection, the user requested publication. [Public v0.4 evidence](v0_4_active/published_runs/arena_20261003_active01/README.md) preserves exact prompts and final replies; the same analysis command falls back to these records without the local raw run. Public-only analysis reproduced the canonical counts and metrics with zero audit errors. No new model calls were made for delivery.
+
 Current evidence: 2026-10-02 Arena Direct pilot. Three formal cases complete; one contaminated and incomplete. Entry points: README.md → RESULTS.md → GPT_CONTEXT.md. Canonical published evidence is under `xia_bai_wang_pilot_v0_1/xia_bai_wang_pilot_v0_1/published_runs/arena_20261002_direct_pilot01/`.
 
 No additional model experiments were launched for GitHub publication. Run offline checks and analysis using README commands. Keep the original package and local raw run unchanged; export sanitized evidence with `python -X utf8 -B scripts/export_public_run.py` only where the excluded local run exists.

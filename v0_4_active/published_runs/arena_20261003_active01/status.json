@@ -1,0 +1,118 @@
+{
+  "status": "partial_stopped_platform",
+  "planned_cases": 6,
+  "planned_trajectories": 18,
+  "speaker_replies": 10,
+  "completed_trajectories": 6,
+  "verifications": 14,
+  "cases": {
+    "AV01": "speakers_frozen",
+    "AV02": "speakers_frozen",
+    "AV03": "speakers_frozen",
+    "AV04": "blocked_no_output_timeout",
+    "AV05": "blocked_platform",
+    "AV06": "speakers_frozen"
+  },
+  "trajectories": {
+    "AV01_J1": {
+      "status": "completed",
+      "decisions": 3,
+      "verifications": 2
+    },
+    "AV01_J2": {
+      "status": "completed",
+      "decisions": 4,
+      "verifications": 3
+    },
+    "AV01_J3": {
+      "status": "blocked_platform",
+      "decisions": 0,
+      "verifications": 0
+    },
+    "AV02_J1": {
+      "status": "completed",
+      "decisions": 3,
+      "verifications": 2
+    },
+    "AV02_J2": {
+      "status": "blocked_platform",
+      "decisions": 2,
+      "verifications": 2
+    },
+    "AV02_J3": {
+      "status": "blocked_platform",
+      "decisions": 0,
+      "verifications": 0
+    },
+    "AV03_J1": {
+      "status": "blocked_platform",
+      "decisions": 2,
+      "verifications": 2
+    },
+    "AV03_J2": {
+      "status": "blocked_platform",
+      "decisions": 2,
+      "verifications": 2
+    },
+    "AV03_J3": {
+      "status": "blocked_platform",
+      "decisions": 1,
+      "verifications": 1
+    },
+    "AV04_J1": {
+      "status": "blocked_missing_speaker",
+      "decisions": 0,
+      "verifications": 0
+    },
+    "AV04_J2": {
+      "status": "blocked_missing_speaker",
+      "decisions": 0,
+      "verifications": 0
+    },
+    "AV04_J3": {
+      "status": "blocked_missing_speaker",
+      "decisions": 0,
+      "verifications": 0
+    },
+    "AV05_J1": {
+      "status": "blocked_missing_speaker",
+      "decisions": 0,
+      "verifications": 0
+    },
+    "AV05_J2": {
+      "status": "blocked_missing_speaker",
+      "decisions": 0,
+      "verifications": 0
+    },
+    "AV05_J3": {
+      "status": "blocked_missing_speaker",
+      "decisions": 0,
+      "verifications": 0
+    },
+    "AV06_J1": {
+      "status": "completed",
+      "decisions": 1,
+      "verifications": 0
+    },
+    "AV06_J2": {
+      "status": "completed",
+      "decisions": 1,
+      "verifications": 0
+    },
+    "AV06_J3": {
+      "status": "completed",
+      "decisions": 1,
+      "verifications": 0
+    }
+  },
+  "pending": [],
+  "automatic_monitor": false,
+  "updated_utc": "2026-10-03T05:22:08.952Z",
+  "bundle_sha256": "49bd306fb2b11fc2e558567a9f1c0d9f01fd456e09a1da5df27081e1b1170b90",
+  "audit_errors": [],
+  "speaker_sends": 12,
+  "judge_sends": 26,
+  "captured_judge_replies": 20,
+  "usable_pairs": 4,
+  "unresolved_trajectories": 12
+}
