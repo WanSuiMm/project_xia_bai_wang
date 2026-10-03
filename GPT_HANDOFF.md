@@ -1,4 +1,24 @@
-# Latest incremental review: H2 qualification and neutral retry
+# Latest incremental review: v0.4 Active Verification
+
+Review base: `ffb335bc8bc5a5b5d88c53f7bd22630cb18e32eb`.
+Evidence head: `1497eb14a96b6b70c68ea7e94adb5641e6866bd8`.
+This subsequent handoff is metadata-only; the evidence head stays fixed.
+
+Read [v0.4 results](v0_4_active/RESULTS.md), then [protocol](v0_4_active/PROTOCOL.md), then [analysis.json](v0_4_active/analysis.json). [Public evidence](v0_4_active/published_runs/arena_20261003_active01/README.md) is secondary: open individual receipts only to challenge a specific metric. It contains role cards and Host truth; do not forward the full directory to a tested judge.
+
+New experiment: six fresh binary fixtures; isolated GLM-5.2 (max) speakers generate once and freeze accounts plus eight predictions; three independent Gemini-3.8-Flash-high judges per case receive only accounts initially. VERIFY reveals the selected frozen predictions and deterministic Host truth, then the judge can verify again, stop or abstain. This is live revelation of frozen answers, not strategic speaker adaptation. Arena Direct labels were observed; backend and sampling settings remain unverified.
+
+Coverage: 12 speaker sends, 10 replies, four usable pairs. Twelve judge conversations started out of 18 planned; 26 judge sends produced 20 replies and 14 verifications. Six trajectories reached terminal decisions, six failed on the platform, six could not start because a speaker was missing. No resends or replacements; no new model calls for publication.
+
+Observed metrics: diagnostic first queries 7/7 across three backgrounds; evidence-consistent updates 10/10, with four missing next updates; completed identifiable decisions 3/3 across only two backgrounds; equivalent-control abstention 3/3 on one background, zero queries. Completed identifiable costs were 2,3,2 against the oracle prediction-table lower bound of one. The actual judge must infer candidate consequences from accounts, so extra verification is a cost difference, not proof of irrational stopping. Negative controls publish the permitted-mode rule and are deliberately easy. No stable failure, population accuracy, ToM, causal or model-ranking claim follows from this partial screen.
+
+H2 is paused; v0.1–v0.3 frozen evidence and conclusions are unchanged. Source map: `v0_4_active/core.cjs` builds prompts, parses replies, computes `diagnostic`/`observation` and audits trajectories; `scripts/prepare_active_verification.py` freezes the bundle and refuses overwrite; `scripts/analyze_active_verification.py` recomputes summaries, falling back to public evidence; `scripts/export_active_run.py` projects an allowlist while preserving exact submitted prompts and final JSON replies. Account/UI data, reasoning panels, sessions, screenshots and anonymous candidate text are excluded. The bundle is stored without newline conversion to preserve its original byte hash.
+
+Reproduce from repository root with Python and Node.js on PATH: `python -X utf8 -B scripts/analyze_active_verification.py`. Public-only reproduction and exact receipt/Host audits passed; publication privacy, manifest hashes and Markdown links passed.
+
+Reviewer questions: Are missing terminal decisions excluded transparently rather than scored as errors? Is the oracle information advantage explicit? Are the simple control and shared-speaker replicates kept separate from broader knowledge-access claims? Does the small observed near-ceiling result justify a separately designed harder task rather than claiming a reasoning failure here?
+
+## Prior incremental review: H2 qualification and neutral retry
 
 Review base: `c1423db801814b0d5da663bd9676ab0ad3bee347`.
 Evidence head: `9a5783a64a4402af507f4a0974af080a97506fff`.
