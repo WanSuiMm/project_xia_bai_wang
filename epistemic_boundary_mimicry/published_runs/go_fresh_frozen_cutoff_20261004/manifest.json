@@ -1,0 +1,13 @@
+{
+  "files": [
+    {
+      "file": "bundle.json",
+      "sha256_lf_utf8": "cb72882f42e03abfa7c0420b2b8f3515eb8ec2d607679475b73ba9ebbcb010dd"
+    },
+    {
+      "file": "EB03_D1_symmetric_frozen.json",
+      "sha256_lf_utf8": "235ece7869f0cfc3eeb2257306cf0451ffe6ed6051b5adfc6ededdab6900660b"
+    }
+  ],
+  "projection": "Exact visible text including invalid final JSON; excludes private reasoning, credentials and account/session/machine metadata."
+}
