@@ -1,4 +1,16 @@
-# Latest incremental review: remaining slots completed, question limit amended
+# Latest incremental review: Boundary Mimicry API qualification
+
+Review base: `23ce2e4d1a38e27bcf8e126dc2d0553e3b8bf52d`.
+Evidence head: `d5c93be40ad74aae24c34b810fda28f978297463`.
+This subsequent handoff is metadata-only; the evidence head stays fixed.
+
+Read [results](epistemic_boundary_mimicry/RESULTS.md), [API protocol](epistemic_boundary_mimicry/API_PROTOCOL.md), then [two public endpoints](epistemic_boundary_mimicry/published_runs/go_two_completed_20261004/README.md). Strong: three ASK, wrong pick B, .80; Boundary-aware: eight ASK, correct pick A, .70. Both use Qwen3.8 Max speakers / GLM-5.3 Judge and the same fictional source. Four slots attempted, two endpoint failures excluded: unescaped control characters in Frozen visible JSON and no visible GLM setup reply in the reverse slot. No repair results are included in this snapshot.
+
+Exact visible prompts/replies, the used source and Host labels are published through an allowlist; hidden reasoning, account/session identifiers and credentials are omitted. Reproduce hashes, relays and scoring with `python -X utf8 -B scripts/analyze_boundary_go_snapshot.py`. The acquisition runner needs an ignored private bundle; it is not the public reproduction entry point. Prior studies and frozen cutoffs are unchanged.
+
+Claim limits: one independent dossier, no repetition, no passive baseline, unbalanced arms, provider/model/protocol changes relative to Arena. No causal condition effect, stable ToM, model ranking or cross-platform comparison. Boundary scoring remains pending. Review questions: does the Strong Judge's stated contradiction withstand source/transcript review? Which specificity and omission cues actually distinguish the two accounts? Does eight-ASK success supply new evidence beyond earlier answers?
+
+# Previous incremental review: remaining slots completed, question limit amended
 
 Review base: `0c25bd34d4250f1a347117f5e76729f5476f4383`.
 Evidence head: `1a1b432d78f5b85c004389da95c87c718ef9f476`.
