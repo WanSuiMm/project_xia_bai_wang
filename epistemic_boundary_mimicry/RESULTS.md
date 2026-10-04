@@ -23,6 +23,11 @@ slot failed before interrogation: GLM returned no visible setup text, with
 the setup marker in its reasoning field. Neither failure is a Judge mistake.
 Original attempts remain intact; repair/recovery results are separate.
 
+The two repairs are now dispatched under a [separate recovery amendment](API_RECOVERY_PROTOCOL.md).
+Frozen inherits the original completed B response after deterministic control-character
+decoding; reverse restarts with Judge-first and no standalone READY calls. No
+recovery endpoint is included in this two-endpoint snapshot.
+
 The initial 8192-token migration pilot is excluded from these results. It had a
 thinking-only truncation; a new run froze 32768 tokens and temperature 0.5 after
 an unrelated capacity qualification passed for each model. Reasoning is the
