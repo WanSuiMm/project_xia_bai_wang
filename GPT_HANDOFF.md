@@ -1,4 +1,20 @@
-# Latest incremental review: natural versus strong strategic bluff
+# Latest incremental review: remaining slots completed, question limit amended
+
+Review base: `0c25bd34d4250f1a347117f5e76729f5476f4383`.
+Evidence head: `1a1b432d78f5b85c004389da95c87c718ef9f476`.
+This subsequent handoff is metadata-only; the evidence head stays fixed.
+
+Read [completed aggregate](strategic_bluff_pilot/COMPLETED_RESULTS.md), [completion and cap amendment](strategic_bluff_pilot/COMPLETION04_PROTOCOL.md), then [aggregate JSON](strategic_bluff_pilot/completion_analysis.json). [Eight endpoint receipts](strategic_bluff_pilot/published_runs/eight_completed_20261004/README.md) are secondary evidence. The prior six-endpoint snapshot is unchanged.
+
+New evidence is only the two previously missing slots. S02_D2_strong reuses complete original A/B openings in their original sessions with a fresh Claude Judge; after six ASK actions, the user removes the ten-ASK cap and the Judge receives that amendment. It stops after seven ASK actions, pick B, confidence .78, correct. S02_D1_natural starts fresh A/B/J, with an uncapped initial Gemini Judge, and stops from the openings alone: zero ASK, pick A, confidence .99, correct. One blank-response UI retry preserves the exact prompt; anonymous comparisons are skipped and only fixed-model final visible outputs are recorded. User handles security verification. There is no pending request or monitor.
+
+Completion is now eight configured slots, natural 4/4 correct and strong 4/4 correct, across two independent source backgrounds. All 23 original and recovery attempt records remain distinguishable: 121 physical submissions, 95 distinct complete replies, six retained partial outputs; inherited openings counted once. Public-only reproduction (`python -X utf8 -B scripts/analyze_strategic_snapshot.py --completed`) checks manifest/source hashes, exact role prompts and relays, first-completed selection and scoring with zero audit errors. A no-provider regression check confirms that the old branch rejects an eleventh ASK while the uncapped branch accepts it.
+
+Changed claim: no remaining missing endpoint for these eight configured slots. Unchanged boundaries: failure-selected recovery is not an unbiased sample; source backgrounds are shared; correct picks do not validate reasons; no instruction-component or post-training mechanism, model ranking, robust ToM or interrogation-gain conclusion. The protocol is now mixed: six capped endpoints and two amended completions. The final natural endpoint contains no interrogation, so it cannot be evidence of interrogation benefit. No model calls for publication; older studies and frozen cutoffs remain unchanged.
+
+Reviewer questions: does strong's repeated elaboration actually maintain consistency across the seven ASK actions? Does the Judge's source-boundary rationale match the source evidence? How much does the zero-ASK natural outcome rely on opening specificity? Do not compare the cap amendment causally with the capped runs.
+
+# Previous incremental review: natural versus strong strategic bluff
 
 Review base: `4fecfe4b919b442f1eb1c8baf0fbee6bbff6f4ce`.
 Evidence head: `526ab5d32d2b93e339d8303e27f67bd91035aed3`.
