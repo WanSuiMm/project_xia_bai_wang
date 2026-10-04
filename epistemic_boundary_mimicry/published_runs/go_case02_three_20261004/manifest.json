@@ -1,0 +1,21 @@
+{
+  "files": [
+    {
+      "file": "bundle.json",
+      "sha256_lf_utf8": "3a651e3543198244774285e1365038cbaba43acf78bb8e1a0fb6509222741c82"
+    },
+    {
+      "file": "EB02_D1_boundary_aware.json",
+      "sha256_lf_utf8": "8d167bd8f4fe7670e13dd0e26735622181f0eae10da38a95bb33ba6152faf7f9"
+    },
+    {
+      "file": "EB02_D1_strong.json",
+      "sha256_lf_utf8": "5712b6ed19837bacee23897ea5c58c00a43ccf262eaf0f7d7454681e57d55426"
+    },
+    {
+      "file": "EB02_D1_symmetric_frozen.json",
+      "sha256_lf_utf8": "a2d5dc9fa2bd3feb7e9abb11cbc4ca96a3add2f52e32055f2179477a5fc86cfc"
+    }
+  ],
+  "projection": "Exact visible prompts/replies and used sources; no hidden reasoning, account/session IDs, auth or machine paths."
+}
