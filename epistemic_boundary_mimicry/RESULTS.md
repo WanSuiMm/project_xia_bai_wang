@@ -1,5 +1,22 @@
 # OpenCode Go: two completed endpoints
 
+## Current four-slot endpoint coverage
+
+| Slot | Direction (speakers → Judge) | ASK | Terminal | Protocol |
+|---|---|---:|---|---|
+| Strong | Qwen → GLM | 3 | Wrong, .80 | Original 32768-token run |
+| Boundary-aware | Qwen → GLM | 8 | Correct, .70 | Original 32768-token run |
+| [Frozen](FROZEN_RECOVERY_RESULTS.md) | Qwen → GLM | 4 | ABSTAIN | Inherited answers, amended parser |
+| [Reverse Boundary-aware](REVERSE_RECOVERY_RESULTS.md) | GLM → Qwen | 2 | Wrong, .78 | Fresh Judge-first recovery |
+
+All selected slots now have endpoints; these are mixed original and amended
+recoveries on one independent dossier, not four uniform replications. Do not
+pool the forced picks with the symmetric identifiability control or infer a
+causal condition/model effect. The historical two-endpoint snapshot below stays
+unchanged; each recovery has its own public evidence and provenance.
+
+## Original two-endpoint snapshot
+
 Four configurations were attempted; two reached a Judge decision. Both completed
 games use the same fictional laminated-panel dossier, Qwen3.8 Max speakers and
 a GLM-5.3 Judge. No opening statements or Host truth were provided.

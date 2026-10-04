@@ -1,5 +1,7 @@
 # 瞎掰王：Who Really Knows?
 
+2026-10-04 前四个 API 配置均有终局：[汇总](epistemic_boundary_mimicry/RESULTS.md)。新增[反向 Boundary-aware](epistemic_boundary_mimicry/REVERSE_RECOVERY_RESULTS.md)：GLM speakers → Qwen Judge，追问 2 次选 A（.78），目标读者 B，判断错误；[完整可见证据](epistemic_boundary_mimicry/published_runs/go_reverse_recovery_20261004/README.md)。原空 READY 失败保留，修订为 Judge 首问、私有初始化合并进 Speaker 首答后重新开始。四场共用一份背景，协议混合，不能估计条件效应或排名。复核：`python -X utf8 -B scripts/publish_boundary_reverse.py`。
+
 2026-10-04 Frozen 负控制补跑完成：[结果](epistemic_boundary_mimicry/FROZEN_RECOVERY_RESULTS.md) → [脱敏完整对话](epistemic_boundary_mimicry/published_runs/go_frozen_recovery_20261004/README.md)。GLM 裁判追问 4 次后弃权：双方各有有限资料，但没有证据把任何一方绑定到主持人指定目标。原两问后的 JSON 换行失败保留；修订解析后继承原回答继续，未重生成。单场符合不可识别控制的预期，不是统计证明；与前两场快照分开。复核：`python -X utf8 -B scripts/publish_boundary_frozen.py`。
 
 2026-10-04 API 试跑：[Epistemic Boundary Mimicry 结果](epistemic_boundary_mimicry/RESULTS.md) → [API 协议](epistemic_boundary_mimicry/API_PROTOCOL.md) → [两场提示词与可见回复](epistemic_boundary_mimicry/published_runs/go_two_completed_20261004/README.md)。Qwen3.8 Max speakers → GLM-5.3 Judge：Strong 追问 3 次选错，Boundary-aware 追问 8 次选对。同一份资料，另外两场因格式／空可见回复未完成；不是条件效应、模型排名或与旧 Arena 结果的受控比较。复核：`python -X utf8 -B scripts/analyze_boundary_go_snapshot.py`。

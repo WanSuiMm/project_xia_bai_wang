@@ -1,0 +1,13 @@
+{
+  "files": [
+    {
+      "file": "bundle.json",
+      "sha256_lf_utf8": "c04bcf5e2906e7a0b26ab60422e0cef7d3a8e178a10bca6bcbe23cf0e056a9ef"
+    },
+    {
+      "file": "EB01_D2_boundary_aware.json",
+      "sha256_lf_utf8": "114278a5efda4339fb303ab7ea23d7a42b7df6427475ecbf3a58c637caa73efe"
+    }
+  ],
+  "projection": "Exact visible prompts/replies and used source only; no hidden reasoning or private deployment fields."
+}
