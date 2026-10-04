@@ -1,0 +1,17 @@
+{
+  "files": [
+    {
+      "file": "bundle.json",
+      "sha256_lf_utf8": "d635d7f5a22b6f1f39ec420503e9c74ab871b390fb12115d75c8d5ce40757424"
+    },
+    {
+      "file": "EB01_D1_boundary_aware.json",
+      "sha256_lf_utf8": "a9cc2a1c220eaaba40784cbbf7fa54abd049352d3c388f7f83d9103e21980d5d"
+    },
+    {
+      "file": "EB01_D1_strong.json",
+      "sha256_lf_utf8": "3a4808a238dba3a0432e9ec29b49c12aa160ae03975618968a558cddd50d4972"
+    }
+  ],
+  "projection": "Exact prompts and visible replies; excludes hidden reasoning, API/auth/session/account/machine fields."
+}
