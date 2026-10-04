@@ -1,4 +1,16 @@
-# Latest incremental review: reverse Boundary-aware endpoint
+# Latest incremental review: second-case three endpoints
+
+Review base: `5d47a93c6a9b283059d94b6e6feada72eb2fb09d`.
+Evidence head: `01044ac5b400510264cd7eeb8d851c02cedac3ce`.
+This handoff is metadata-only; the evidence head stays fixed.
+
+Read [second-case results](epistemic_boundary_mimicry/CASE02_RESULTS.md), [protocol](epistemic_boundary_mimicry/CASE02_API_PROTOCOL.md), then [three public records](epistemic_boundary_mimicry/published_runs/go_case02_three_20261004/README.md). EB02 is the frozen storm boarding-slip background. Qwen speakers / GLM Judge: Strong 3 ASK correct A .70; Boundary-aware 3 ASK correct A .95; Frozen 9 ASK pick A .70, matching only the arbitrary target. Reverse remains unstarted. Strong reuses ten original physical requests, including quota 429, and one authorized identical-history Judge continuation gives its terminal.
+
+Public-only reproduction: `python -X utf8 -B scripts/publish_boundary_case2.py`. Exact visible prompts/replies, both used sources, 429 and inheritance hashes are included; reasoning, private sessions/accounts and credentials are excluded. First-case four endpoints remain unchanged. Two independent dossier backgrounds, seven endpoint configurations, unbalanced arms and mixed recovery histories prevent causal effects, population accuracy, rankings or a confirmatory-study claim. Source-boundary coding remains pending.
+
+Reviewer questions: does the Boundary-aware bluffer actually absorb nonexistent details from leading queries? Is the Judge's claim that source readers cannot do this too strong? Does Frozen's editorial-derivation argument supply target-linked information or only unsupported stylistic preference? Does Strong's boundedness rationale correspond to the source? The results preserve these as behavioral observations and stated rationales, not established mechanisms.
+
+# Previous incremental review: reverse Boundary-aware endpoint
 
 Review base: `502b96e25fe3ea55a15f16eef6784309677ce469`.
 Evidence head: `1731be7377eea316a39eb10b665c9f1d7081b568`.
