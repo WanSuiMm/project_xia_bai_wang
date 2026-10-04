@@ -1,4 +1,14 @@
-# Latest incremental review: Frozen negative-control recovery
+# Latest incremental review: reverse Boundary-aware endpoint
+
+Review base: `502b96e25fe3ea55a15f16eef6784309677ce469`.
+Evidence head: `1731be7377eea316a39eb10b665c9f1d7081b568`.
+This handoff is metadata-only; the evidence head stays fixed.
+
+Read [reverse result](epistemic_boundary_mimicry/REVERSE_RECOVERY_RESULTS.md), [four-slot coverage](epistemic_boundary_mimicry/RESULTS.md), then [public dialogue](epistemic_boundary_mimicry/published_runs/go_reverse_recovery_20261004/README.md). GLM speakers / Qwen Judge: two ASK, wrong pick A at .78; B read the target source. Seven new calls, no inherited answers. Original empty visible READY retained; revised fresh sessions start Judge first and combine each Speaker's private initialization with its first requested question. No reasoning is promoted to visible evidence.
+
+Reproduce with `python -X utf8 -B scripts/publish_boundary_reverse.py`: source/file hashes, exact amended routing, returned model labels, no READY, ASK count and gold. Export is an allowlisted projection; hidden reasoning, private session/account data and credentials are omitted. All four selected slots have endpoints under mixed original/recovery protocols on one dossier; prior three endpoints and public snapshots are unchanged. No causal condition effect, ranking, stable ToM or controlled Arena comparison. Source-boundary coding remains pending. Reviewer questions: did public-context wording misleadingly imply identifiers that the real dossier omits? Are the Judge's specificity-based claims supported by the original source? Which claims survive the Judge-first protocol difference?
+
+# Previous incremental review: Frozen negative-control recovery
 
 Review base: `cb654352fdd57d1736b1c115fd54ab8b34591603`.
 Evidence head: `cdc65bc64b429343aa492a2846044fe638f00807`.
