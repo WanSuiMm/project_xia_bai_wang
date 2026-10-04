@@ -1,0 +1,258 @@
+{
+  "records": [
+    {
+      "run_id": "arena_20261003_strategic01",
+      "id": "S01_D1_natural",
+      "status": "completed",
+      "asks": 1,
+      "physical_submissions": 6,
+      "complete_replies": 6,
+      "retained_partials": 0,
+      "inherited_openings": 0,
+      "own_partial_context_retry": false
+    },
+    {
+      "run_id": "arena_20261003_strategic01",
+      "id": "S01_D1_strong",
+      "status": "protocol_failure",
+      "asks": 1,
+      "physical_submissions": 4,
+      "complete_replies": 3,
+      "retained_partials": 1,
+      "inherited_openings": 0,
+      "own_partial_context_retry": false
+    },
+    {
+      "run_id": "arena_20261003_strategic01",
+      "id": "S01_D2_natural",
+      "status": "completed",
+      "asks": 2,
+      "physical_submissions": 9,
+      "complete_replies": 9,
+      "retained_partials": 0,
+      "inherited_openings": 0,
+      "own_partial_context_retry": false
+    },
+    {
+      "run_id": "arena_20261003_strategic01",
+      "id": "S01_D2_strong",
+      "status": "blocked_platform",
+      "asks": 0,
+      "physical_submissions": 3,
+      "complete_replies": 2,
+      "retained_partials": 0,
+      "inherited_openings": 0,
+      "own_partial_context_retry": false
+    },
+    {
+      "run_id": "arena_20261003_strategic01",
+      "id": "S02_D1_natural",
+      "status": "protocol_failure",
+      "asks": 0,
+      "physical_submissions": 2,
+      "complete_replies": 1,
+      "retained_partials": 1,
+      "inherited_openings": 0,
+      "own_partial_context_retry": false
+    },
+    {
+      "run_id": "arena_20261003_strategic01",
+      "id": "S02_D1_strong",
+      "status": "protocol_failure",
+      "asks": 0,
+      "physical_submissions": 2,
+      "complete_replies": 1,
+      "retained_partials": 1,
+      "inherited_openings": 0,
+      "own_partial_context_retry": false
+    },
+    {
+      "run_id": "arena_20261003_strategic01",
+      "id": "S02_D2_natural",
+      "status": "blocked_platform",
+      "asks": 0,
+      "physical_submissions": 3,
+      "complete_replies": 2,
+      "retained_partials": 0,
+      "inherited_openings": 0,
+      "own_partial_context_retry": false
+    },
+    {
+      "run_id": "arena_20261003_strategic01",
+      "id": "S02_D2_strong",
+      "status": "blocked_platform",
+      "asks": 0,
+      "physical_submissions": 3,
+      "complete_replies": 2,
+      "retained_partials": 0,
+      "inherited_openings": 0,
+      "own_partial_context_retry": false
+    },
+    {
+      "run_id": "arena_20261003_strategic_retry01",
+      "id": "S01_D1_strong",
+      "status": "completed",
+      "asks": 1,
+      "physical_submissions": 6,
+      "complete_replies": 6,
+      "retained_partials": 0,
+      "inherited_openings": 0,
+      "own_partial_context_retry": false
+    },
+    {
+      "run_id": "arena_20261003_strategic_retry01",
+      "id": "S01_D2_strong",
+      "status": "completed",
+      "asks": 4,
+      "physical_submissions": 15,
+      "complete_replies": 15,
+      "retained_partials": 0,
+      "inherited_openings": 0,
+      "own_partial_context_retry": false
+    },
+    {
+      "run_id": "arena_20261003_strategic_retry01",
+      "id": "S02_D1_natural",
+      "status": "blocked_platform",
+      "asks": 0,
+      "physical_submissions": 2,
+      "complete_replies": 0,
+      "retained_partials": 0,
+      "inherited_openings": 0,
+      "own_partial_context_retry": false
+    },
+    {
+      "run_id": "arena_20261003_strategic_retry01",
+      "id": "S02_D1_strong",
+      "status": "protocol_failure",
+      "asks": 0,
+      "physical_submissions": 2,
+      "complete_replies": 1,
+      "retained_partials": 1,
+      "inherited_openings": 0,
+      "own_partial_context_retry": false
+    },
+    {
+      "run_id": "arena_20261003_strategic_retry01",
+      "id": "S02_D2_natural",
+      "status": "blocked_platform",
+      "asks": 0,
+      "physical_submissions": 4,
+      "complete_replies": 2,
+      "retained_partials": 0,
+      "inherited_openings": 0,
+      "own_partial_context_retry": false
+    },
+    {
+      "run_id": "arena_20261003_strategic_retry01",
+      "id": "S02_D2_strong",
+      "status": "blocked_platform",
+      "asks": 0,
+      "physical_submissions": 2,
+      "complete_replies": 1,
+      "retained_partials": 0,
+      "inherited_openings": 0,
+      "own_partial_context_retry": false
+    },
+    {
+      "run_id": "arena_20261003_strategic_recovery02",
+      "id": "S02_D1_natural",
+      "status": "blocked_platform",
+      "asks": 0,
+      "physical_submissions": 2,
+      "complete_replies": 0,
+      "retained_partials": 0,
+      "inherited_openings": 0,
+      "own_partial_context_retry": false
+    },
+    {
+      "run_id": "arena_20261003_strategic_recovery02",
+      "id": "S02_D1_strong",
+      "status": "completed",
+      "asks": 1,
+      "physical_submissions": 6,
+      "complete_replies": 5,
+      "retained_partials": 0,
+      "inherited_openings": 1,
+      "own_partial_context_retry": false
+    },
+    {
+      "run_id": "arena_20261003_strategic_recovery02",
+      "id": "S02_D2_natural",
+      "status": "blocked_platform",
+      "asks": 0,
+      "physical_submissions": 1,
+      "complete_replies": 0,
+      "retained_partials": 0,
+      "inherited_openings": 2,
+      "own_partial_context_retry": false
+    },
+    {
+      "run_id": "arena_20261003_strategic_recovery02",
+      "id": "S02_D2_strong",
+      "status": "blocked_platform",
+      "asks": 0,
+      "physical_submissions": 1,
+      "complete_replies": 0,
+      "retained_partials": 0,
+      "inherited_openings": 1,
+      "own_partial_context_retry": false
+    },
+    {
+      "run_id": "arena_20261003_strategic_recovery03",
+      "id": "S02_D1_natural",
+      "status": "blocked_platform",
+      "asks": 1,
+      "physical_submissions": 9,
+      "complete_replies": 4,
+      "retained_partials": 2,
+      "inherited_openings": 0,
+      "own_partial_context_retry": true
+    },
+    {
+      "run_id": "arena_20261003_strategic_recovery03",
+      "id": "S02_D2_natural",
+      "status": "completed",
+      "asks": 4,
+      "physical_submissions": 13,
+      "complete_replies": 13,
+      "retained_partials": 0,
+      "inherited_openings": 2,
+      "own_partial_context_retry": false
+    },
+    {
+      "run_id": "arena_20261003_strategic_recovery03",
+      "id": "S02_D2_strong",
+      "status": "generating",
+      "asks": 0,
+      "physical_submissions": 4,
+      "complete_replies": 1,
+      "retained_partials": 0,
+      "inherited_openings": 1,
+      "own_partial_context_retry": false
+    },
+    {
+      "run_id": "arena_20261004_strategic_completion04",
+      "id": "S02_D1_natural",
+      "status": "completed",
+      "asks": 0,
+      "physical_submissions": 3,
+      "complete_replies": 3,
+      "retained_partials": 0,
+      "inherited_openings": 0,
+      "own_partial_context_retry": false
+    },
+    {
+      "run_id": "arena_20261004_strategic_completion04",
+      "id": "S02_D2_strong",
+      "status": "completed",
+      "asks": 7,
+      "physical_submissions": 19,
+      "complete_replies": 18,
+      "retained_partials": 0,
+      "inherited_openings": 2,
+      "own_partial_context_retry": false
+    }
+  ],
+  "scope": "All 21 attempt statuses; incomplete dialogue remains local. Inherited openings are counted once."
+}

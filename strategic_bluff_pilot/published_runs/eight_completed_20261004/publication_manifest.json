@@ -1,0 +1,49 @@
+{
+  "policy": "Exact prompts and final visible raw and parsed replies. No account, UI DOM, tab identifiers, private session URLs, reasoning panels or anonymous candidates. Both attempted sources released. No model calls for publication.",
+  "records": [
+    {
+      "file": "attempt_coverage.json",
+      "sha256_lf_utf8": "4808a7817ced25febbe61706bc02db2dbc57b7393a4a43ceb955098051069733"
+    },
+    {
+      "file": "bundle.json",
+      "sha256_lf_utf8": "9fade7272a7b396f18ab80783f5026911ac0dc8e2805fa9e283cf30447f5aad1"
+    },
+    {
+      "file": "question_limit_amendments.json",
+      "sha256_lf_utf8": "3dc71f81667026b6e956ef08b19313cc89e7514b1cf6122708f7b6dc3e944e87"
+    },
+    {
+      "file": "trajectories/S01_D1_natural.json",
+      "sha256_lf_utf8": "4d854b70d4ecdb931cf5b2b111b501ebc347fca7f0710bb2fdc52efdf5167c52"
+    },
+    {
+      "file": "trajectories/S01_D1_strong.json",
+      "sha256_lf_utf8": "e1da2dc20e7094e712b7e635cf57354a66d17bb0975354c33753c1c66bda5cb2"
+    },
+    {
+      "file": "trajectories/S01_D2_natural.json",
+      "sha256_lf_utf8": "308b5ea114557050ac15b685bb3c3cd43ae17d7a5dc0b8f44a7cdbda268f5969"
+    },
+    {
+      "file": "trajectories/S01_D2_strong.json",
+      "sha256_lf_utf8": "8825fc2c00ca8d47bece99560d23c392361c6bdee85f8ad29cbd86df74d00f62"
+    },
+    {
+      "file": "trajectories/S02_D1_natural.json",
+      "sha256_lf_utf8": "ef54c48bb87da0d043d050cbf94be4ad8a6eddc8b25eb4ec00d29d4837f0575d"
+    },
+    {
+      "file": "trajectories/S02_D1_strong.json",
+      "sha256_lf_utf8": "2fd6369357abd0512d73b7a9d579bc258514f6a0c0c18b1344c34d8eab003d13"
+    },
+    {
+      "file": "trajectories/S02_D2_natural.json",
+      "sha256_lf_utf8": "f4c6c9fa8bb26d104d56c9249478b2003d0fd61e409b93a9804da04d4dc2285f"
+    },
+    {
+      "file": "trajectories/S02_D2_strong.json",
+      "sha256_lf_utf8": "d10ce49f1a47ad0f4d0aced4cde2e157cab2acbf653242d15b8a705cc43c459f"
+    }
+  ]
+}

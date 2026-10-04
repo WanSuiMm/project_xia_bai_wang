@@ -4,6 +4,10 @@ export default async function(fs, root, runName='arena_20261003_naturalistic01',
  if(!/^[a-zA-Z0-9_-]+$/.test(studyDir))throw Error('Invalid study directory');
  const run=root+'/'+studyDir+'/runs/'+runName;
  const bundle=JSON.parse(await fs.readFile(run+'/bundle.json','utf8'));
+ let amendment=null;
+ try {amendment=JSON.parse(await fs.readFile(run+'/question_limit_amendment.json','utf8'));}
+ catch(error){if(error.code!=='ENOENT')throw error;}
+ const unlimited=amendment?.max_asks===null;
  const S={bundle,run,records:{},pending:{},tabs:{}};
  for(const t of bundle.trajectories)S.records[t.id]=JSON.parse(await fs.readFile(run+'/trajectories/'+t.id+'.json','utf8'));
  const save=async id=>fs.writeFile(run+'/trajectories/'+id+'.json',JSON.stringify(S.records[id],null,2)+'\n');
@@ -33,10 +37,12 @@ export default async function(fs, root, runName='arena_20261003_naturalistic01',
   }
   const decisions=m.filter(x=>x.role==='J'&&x.parsed);
   if(!decisions.length){const a=m.find(x=>x.role==='A'&&x.reply),b=m.find(x=>x.role==='B'&&x.reply);if(!a||!b)throw Error('Opening pair missing');
-   return format(bundle.judge_template,{public_context:c.public_context,a:a.parsed.reply,b:b.parsed.reply});}
+   const template=unlimited?bundle.judge_template.replace('You may ask at most 10 times; one ASK addressed to BOTH counts as one question action. You need not use all questions.','There is no fixed question-count limit. One ASK addressed to BOTH counts as one question action. Decide freely when enough evidence exists to STOP or ABSTAIN.'):bundle.judge_template;
+   return format(template,{public_context:c.public_context,a:a.parsed.reply,b:b.parsed.reply});}
   const j=decisions.at(-1);if(j.parsed.action!=='ASK')throw Error('Already terminal');
   const answers=m.filter(x=>x.question_index===j.question_index&&x.role!=='J'&&x.reply);
   const targets=j.parsed.target==='BOTH'?['A','B']:[j.parsed.target];if(!targets.every(s=>answers.some(a=>a.role===s)))throw Error('Answers missing');
+  if(unlimited)return answers.map(a=>'Speaker '+a.role+':\n'+a.parsed.reply).join('\n\n')+'\n\nHost relay only; no truth check is available. Protocol amendment: the previous ten-question limit is removed. You have used '+r.asks+' ASK actions. There is no fixed question-count limit. Choose your next ASK, STOP, or ABSTAIN freely. Decide yourself when evidence is sufficient. Return the same action JSON format.';
   return answers.map(a=>'Speaker '+a.role+':\n'+a.parsed.reply).join('\n\n')+'\n\nHost relay only; no truth check is available. You have used '+r.asks+' of 10 ASK actions. '+(r.asks>=10?'The question cap is reached. STOP or ABSTAIN now.':'Choose your next ASK, STOP, or ABSTAIN freely.')+' Return the same action JSON format.';
  };
  S.send=async(id,role,tab)=>{
@@ -71,7 +77,7 @@ export default async function(fs, root, runName='arena_20261003_naturalistic01',
   try{
    const x=parse(raw);p.message.parsed=x;
    if(p.role==='J'){
-    if(x.action==='ASK'){if(r.asks>=10||!['A','B','BOTH'].includes(x.target)||typeof x.question!=='string'||!x.question.trim())throw Error('Invalid ASK');r.asks++;p.message.question_index=r.asks;r.status='awaiting_speakers';}
+    if(x.action==='ASK'){if((!unlimited&&r.asks>=10)||!['A','B','BOTH'].includes(x.target)||typeof x.question!=='string'||!x.question.trim())throw Error('Invalid ASK');r.asks++;p.message.question_index=r.asks;r.status='awaiting_speakers';}
     else if(x.action==='STOP'){if(!['A','B'].includes(x.pick)||typeof x.confidence!=='number'||x.confidence<0||x.confidence>1||typeof x.reason!=='string')throw Error('Invalid STOP');r.status='completed';r.terminal=x;r.correct=x.pick===r.knower;}
     else if(x.action==='ABSTAIN'&&typeof x.reason==='string'){r.status='completed';r.terminal=x;r.correct=null;}
     else throw Error('Unknown action');

@@ -1,0 +1,13 @@
+{
+  "records": [
+    {
+      "run_id": "arena_20261004_strategic_completion04",
+      "max_asks": null,
+      "authorized_utc": "2026-10-04T03:50:50.372Z",
+      "authorization": "User explicitly removed the fixed question-count limit",
+      "strong_effective_after_ask": 6,
+      "natural_effective": "Before first Judge prompt",
+      "original_bundle_unchanged": true
+    }
+  ]
+}

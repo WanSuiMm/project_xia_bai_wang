@@ -1,5 +1,7 @@
 # Natural versus strong strategic bluff
 
+已全部补完：[8 个终局结果](COMPLETED_RESULTS.md) → [最后两场及取消上限修订](COMPLETION04_PROTOCOL.md) → [完整公开收据](published_runs/eight_completed_20261004/README.md)。natural 和 strong 各 4 场，均判断正确；最后两场的次数限制已取消，分别 7 次追问和 0 次追问后自行停止。两份独立资料、失败后的补跑和协议修改限制结论。复核：`python -X utf8 -B scripts/analyze_strategic_snapshot.py --completed`。早期快照和失败记录保留。
+
 2026-10-04 公开快照：8 个配置已有 **6 个完整终局**，natural 和 strong 各 3 场且均判断正确；另外两项缺少终局。阅读顺序：[结果与限制](SNAPSHOT_RESULTS.md) → [冻结协议](PROTOCOL.md) → [补跑修订](RETRY_PROTOCOL.md) → [逐场提示词与原始可见回复](published_runs/six_completed_20261004/README.md)。从仓库根运行 `python -X utf8 -B scripts/analyze_strategic_snapshot.py`，仅依赖标准库和公开文件，无需登录或本机私有记录，不产生模型调用。公开 bundle 含资料和答案标签，不能整份发给被测角色。下面保留早期采集截止说明，不能当作当前进度。
 
 用户随后授权继续六个失败配置，见 [补跑协议](RETRY_PROTOCOL.md) 和 [补跑进度](RETRY_RESULTS.md)。补跑使用原资料与配置、全新独立会话，保留第一次截止记录。当前 5/6 已尝试，S01 两场 strong 完成且均正确（1 次和 4 次追问）；S02 两个 Claude Speaker 配置再次受截断／报错影响，Gemini natural 的裁判在实际 reCAPTCHA 处待恢复，最后一个 strong 配置未开始。普通错误的相同提示词重试单独记载。下段统计仅描述第一次截止，不是合并补跑后的进度。

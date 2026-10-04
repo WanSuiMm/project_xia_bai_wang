@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parents[1] / 'strategic_bluff_pilot'
-RUNS = ['arena_20261003_strategic01', 'arena_20261003_strategic_retry01', 'arena_20261003_strategic_recovery02', 'arena_20261003_strategic_recovery03']
+RUNS = ['arena_20261003_strategic01', 'arena_20261003_strategic_retry01', 'arena_20261003_strategic_recovery02', 'arena_20261003_strategic_recovery03', 'arena_20261004_strategic_completion04']
 
 def read(path):
     return json.loads(path.read_text(encoding='utf-8'))
@@ -52,6 +52,8 @@ def main():
     lines += ['', 'Read [original cutoff](RESULTS.md), [six-attempt retry](RETRY_RESULTS.md), [remaining-request recovery](RECOVERY_RESULTS.md), and [scope amendments](RETRY_PROTOCOL.md). Correct picks do not validate Judge rationales. Only two independent dossiers are represented; no robust ToM, model ranking, causal instruction effect or post-training explanation follows. No automatic publication or background monitoring.']
     if any(r['own_partial_context_retry'] for r in rows):
         lines += ['', 'Recovery03 includes a repeated identical follow-up after a truncated reply. The Speaker could see its own failed partial response in its conversation; the Judge did not receive that partial. This context difference limits comparison with a clean uninterrupted trajectory. See [latest recovery receipts](RECOVERY03_RESULTS.md).']
+    if any(r['endpoint_run']=='arena_20261004_strategic_completion04' for r in rows):
+        lines += ['', 'Completion04 removes the ten-ASK cap after six ASK actions for strong and from the initial Judge prompt for natural. This is mixed-protocol completion, not eight uniform fixed-protocol replications. See [amendment](COMPLETION04_PROTOCOL.md).']
     (BASE/'COMPLETION_SUMMARY.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
     print(json.dumps({k:v for k,v in summary.items() if k!='rows'},ensure_ascii=False))
 

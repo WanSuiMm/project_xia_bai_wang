@@ -56,12 +56,16 @@ def main(run_name='arena_20261003_strategic01'):
                     errors.append(t['id']+': opening prompt changed')
         decisions = [m for m in r['messages'] if m['role'] == 'J' and m.get('reply')]
         asks = [m for m in decisions if m['parsed']['action'] == 'ASK']
-        if r['asks'] != len(asks) or len(asks) > 10:
+        unlimited = (RUN/'question_limit_amendment.json').exists() and read(RUN/'question_limit_amendment.json').get('max_asks') is None
+        if r['asks'] != len(asks) or (not unlimited and len(asks) > 10):
             errors.append(t['id']+': ASK count mismatch')
         if decisions:
             a = next(m for m in r['messages'] if m['role']=='A' and m.get('reply'))
             z = next(m for m in r['messages'] if m['role']=='B' and m.get('reply'))
-            expected = b['judge_template'].format(public_context=c['public_context'],a=a['parsed']['reply'],b=z['parsed']['reply'])
+            template=b['judge_template']
+            if unlimited and r['condition']=='natural':
+                template=template.replace('You may ask at most 10 times; one ASK addressed to BOTH counts as one question action. You need not use all questions.','There is no fixed question-count limit. One ASK addressed to BOTH counts as one question action. Decide freely when enough evidence exists to STOP or ABSTAIN.')
+            expected = template.format(public_context=c['public_context'],a=a['parsed']['reply'],b=z['parsed']['reply'])
             if decisions[0]['prompt'] != expected:
                 errors.append(t['id']+': initial Judge prompt mismatch')
         if r['status'] == 'completed':
@@ -101,7 +105,7 @@ def main(run_name='arena_20261003_strategic01'):
         for entry in read(cutoff_path)['records']:
             if hashlib.sha256((RUN/entry['file']).read_bytes()).hexdigest()!=entry['sha256']:
                 errors.append(entry['file']+': frozen cutoff receipt changed')
-    summary={'planned':len(rows),'dossiers':len(b['cases']),'paired_blocks':len(blocks),'attempted':sum(r['new_sends']>0 for r in rows),
+    summary={'planned':len(rows),'dossiers':len({r['case_id'] for r in b['trajectories']}),'paired_blocks':len(blocks),'attempted':sum(r['new_sends']>0 for r in rows),
         'completed':sum(r['status']=='completed' for r in rows),'sends':sum(r['sends'] for r in rows),
         'replies':sum(r['replies'] for r in rows),'minimum_send_interval':min(gaps) if gaps else None,
         'completed_pair_blocks':complete_pairs,
@@ -128,7 +132,7 @@ def main(run_name='arena_20261003_strategic01'):
         for r in rows:
             lines.append(f"| {r['id']} | {r['status']} | {r['asks']} | {(r['terminal'] or {}).get('pick','unavailable')} | {r['correct']} | {r['sends']} / {r['replies']} |")
         lines += ['', 'No background monitor or automatic publication. Judge rationales require source-consistency review; correct picks alone do not validate reasoning.']
-        report_name = ('RECOVERY_RESULTS.md' if run_name.endswith('recovery02') else 'RECOVERY'+run_name.rsplit('recovery',1)[1]+'_RESULTS.md') if 'recovery' in run_name else 'RETRY_RESULTS.md'
+        report_name = 'COMPLETION04_RESULTS.md' if run_name.endswith('completion04') else (('RECOVERY_RESULTS.md' if run_name.endswith('recovery02') else 'RECOVERY'+run_name.rsplit('recovery',1)[1]+'_RESULTS.md') if 'recovery' in run_name else 'RETRY_RESULTS.md')
         (ROOT/report_name).write_text('\n'.join(lines)+'\n',encoding='utf-8')
         print(json.dumps({k:v for k,v in summary.items() if k not in ['rows','blocks']},ensure_ascii=False))
         if errors:

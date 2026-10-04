@@ -1,0 +1,128 @@
+{
+  "configured_slots": 8,
+  "completed_slots": 8,
+  "independent_dossiers": 2,
+  "missing_slots": [],
+  "by_condition": {
+    "natural": {
+      "completed": 4,
+      "correct": 4
+    },
+    "strong": {
+      "completed": 4,
+      "correct": 4
+    }
+  },
+  "physical_submissions_across_attempts": 121,
+  "distinct_complete_replies": 95,
+  "retained_partial_outputs": 6,
+  "attempt_records": 23,
+  "rows": [
+    {
+      "id": "S01_D1_natural",
+      "case_id": "S01",
+      "condition": "natural",
+      "run_id": "arena_20261003_strategic01",
+      "speaker_model": "claude-sonnet-5-high",
+      "judge_model": "gemini-3.1-pro-preview",
+      "knower": "B",
+      "asks": 1,
+      "pick": "B",
+      "confidence": 0.95,
+      "correct": true
+    },
+    {
+      "id": "S01_D1_strong",
+      "case_id": "S01",
+      "condition": "strong",
+      "run_id": "arena_20261003_strategic_retry01",
+      "speaker_model": "claude-sonnet-5-high",
+      "judge_model": "gemini-3.1-pro-preview",
+      "knower": "B",
+      "asks": 1,
+      "pick": "B",
+      "confidence": 0.95,
+      "correct": true
+    },
+    {
+      "id": "S01_D2_natural",
+      "case_id": "S01",
+      "condition": "natural",
+      "run_id": "arena_20261003_strategic01",
+      "speaker_model": "gemini-3.1-pro-preview",
+      "judge_model": "claude-sonnet-5-high",
+      "knower": "A",
+      "asks": 2,
+      "pick": "A",
+      "confidence": 0.8,
+      "correct": true
+    },
+    {
+      "id": "S01_D2_strong",
+      "case_id": "S01",
+      "condition": "strong",
+      "run_id": "arena_20261003_strategic_retry01",
+      "speaker_model": "gemini-3.1-pro-preview",
+      "judge_model": "claude-sonnet-5-high",
+      "knower": "A",
+      "asks": 4,
+      "pick": "A",
+      "confidence": 0.85,
+      "correct": true
+    },
+    {
+      "id": "S02_D1_natural",
+      "case_id": "S02",
+      "condition": "natural",
+      "run_id": "arena_20261004_strategic_completion04",
+      "speaker_model": "claude-sonnet-5-high",
+      "judge_model": "gemini-3.1-pro-preview",
+      "knower": "A",
+      "asks": 0,
+      "pick": "A",
+      "confidence": 0.99,
+      "correct": true
+    },
+    {
+      "id": "S02_D1_strong",
+      "case_id": "S02",
+      "condition": "strong",
+      "run_id": "arena_20261003_strategic_recovery02",
+      "speaker_model": "claude-sonnet-5-high",
+      "judge_model": "gemini-3.1-pro-preview",
+      "knower": "A",
+      "asks": 1,
+      "pick": "A",
+      "confidence": 0.95,
+      "correct": true
+    },
+    {
+      "id": "S02_D2_natural",
+      "case_id": "S02",
+      "condition": "natural",
+      "run_id": "arena_20261003_strategic_recovery03",
+      "speaker_model": "gemini-3.1-pro-preview",
+      "judge_model": "claude-sonnet-5-high",
+      "knower": "B",
+      "asks": 4,
+      "pick": "B",
+      "confidence": 0.75,
+      "correct": true
+    },
+    {
+      "id": "S02_D2_strong",
+      "case_id": "S02",
+      "condition": "strong",
+      "run_id": "arena_20261004_strategic_completion04",
+      "speaker_model": "gemini-3.1-pro-preview",
+      "judge_model": "claude-sonnet-5-high",
+      "knower": "B",
+      "asks": 7,
+      "pick": "B",
+      "confidence": 0.78,
+      "correct": true
+    }
+  ],
+  "audit_errors": [],
+  "protocol_mix": "Six capped endpoints; strong S02_D2 cap removed after six ASK actions; natural S02_D1 uncapped from Judge opening. Not eight clean fixed-protocol replications."
+}
