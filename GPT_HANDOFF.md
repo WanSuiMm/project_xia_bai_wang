@@ -1,4 +1,14 @@
-# Latest incremental review: Boundary Mimicry API qualification
+# Latest incremental review: Frozen negative-control recovery
+
+Review base: `cb654352fdd57d1736b1c115fd54ab8b34591603`.
+Evidence head: `cdc65bc64b429343aa492a2846044fe638f00807`.
+This handoff is metadata-only; the evidence head stays fixed.
+
+Read [Frozen result](epistemic_boundary_mimicry/FROZEN_RECOVERY_RESULTS.md), [recovery amendment](epistemic_boundary_mimicry/API_RECOVERY_PROTOCOL.md), then [public evidence](epistemic_boundary_mimicry/published_runs/go_frozen_recovery_20261004/README.md). Qwen readers / GLM Judge, four ASK then ABSTAIN. Eight original messages are inherited, including the complete B answer that failed strict parsing; seven new calls add two ASK and the terminal. Literal JSON controls are decoded deterministically with raw text unchanged; no inherited answer is regenerated.
+
+Both sources and exact visible dialogue are published; private reasoning and account/session/credential fields are omitted. Public audit: `python -X utf8 -B scripts/publish_boundary_frozen.py` checks hashes, inheritance, routing and terminal. Prior Strong/Boundary-aware two-endpoint snapshot is unchanged; no reverse result is added. One arbitrary-target identifiability control supports a descriptive expected abstention, not statistical chance accuracy, model ranking or a causal comparison. Source-relative boundary coding remains pending. Reviewer questions: does the public context supply any target-linked anchor? Does the Judge's unsupported claim about independent invention affect its abstention rationale? Are differing source facts treated symmetrically?
+
+# Previous incremental review: Boundary Mimicry API qualification
 
 Review base: `23ce2e4d1a38e27bcf8e126dc2d0553e3b8bf52d`.
 Evidence head: `d5c93be40ad74aae24c34b810fda28f978297463`.
