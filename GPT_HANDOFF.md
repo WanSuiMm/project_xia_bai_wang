@@ -1,4 +1,14 @@
-# Latest incremental review: second-case three endpoints
+# Latest incremental review: fresh ecological Frozen cutoff
+
+Review base: `b1b34e41a6c8925b6180fd867835c053123a332b`.
+Evidence head: `f25583f6368d0c563b8a4a0ec3e20b379d2d917e`.
+This handoff is metadata-only; the evidence head stays fixed.
+
+Read [cutoff result](epistemic_boundary_mimicry/FRESH_FROZEN_RESULTS.md), [protocol](epistemic_boundary_mimicry/FRESH_FROZEN_PROTOCOL.md), then [public trajectory](epistemic_boundary_mimicry/published_runs/go_fresh_frozen_cutoff_20261004/README.md). EB03 has two fresh 320-word fictional ecological notes, sources and seats frozen before independent target draw. Qwen readers / GLM Judge: three complete ASK rounds, then malformed visible Judge JSON intended for the next question. HTTP 200/stop; no max-token signal, quota error, terminal decision or inferred abstention. Nine valid replies and the tenth invalid raw text are preserved; invalid query never relayed.
+
+Reproduce with `python -X utf8 -B scripts/publish_boundary_fresh_frozen.py`: file/source hashes, identical reader policies, source isolation, exact routing and reproducible parse failure. No private records or provider calls required. Judge is not told this is a random-label control. Prior seven completed endpoints unchanged. This incomplete attempt cannot support a termination-behavior conclusion or be counted as a wrong pick. Reviewer questions: is the protocol failure faithfully preserved without reconstruction? Do source and seat provenance exclude target cues? Keep unknown generation mechanism distinct from knowingly ignoring an explicit null.
+
+# Previous incremental review: second-case three endpoints
 
 Review base: `5d47a93c6a9b283059d94b6e6feada72eb2fb09d`.
 Evidence head: `01044ac5b400510264cd7eeb8d851c02cedac3ce`.
