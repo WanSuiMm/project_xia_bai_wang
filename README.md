@@ -1,5 +1,7 @@
 # 瞎掰王：Who Really Knows?
 
+2026-10-04 两道新题 Frozen 完成：[结果](epistemic_boundary_mimicry/FROZEN_PAIR_RESULTS.md) → [可见证据](epistemic_boundary_mimicry/published_runs/go_frozen_pair_completed_20261004/README.md)。生态题追问 4 次后弃权（保留缺引号失败，单字符修复后继承历史）；考古题追问 3 次后弃权，无修复。Qwen Readers → GLM Judge；有限资料同模板生成，冻结资料／座位后独立随机指定目标，裁判不知道该机制。仅两条探索轨迹，不证明稳定识别真实性。复核：`python -X utf8 -B scripts/publish_boundary_frozen_pair.py`。
+
 2026-10-04 新生态题 Frozen：[失败截止](epistemic_boundary_mimicry/FRESH_FROZEN_RESULTS.md) → [协议](epistemic_boundary_mimicry/FRESH_FROZEN_PROTOCOL.md) → [完整可见记录](epistemic_boundary_mimicry/published_runs/go_fresh_frozen_cutoff_20261004/README.md)。完成 3 次追问后，裁判第 4 问的 JSON 字符串未闭合；无终局，不计选对／选错／弃权。不是额度限制。原可见文本保留且未转发。复核：`python -X utf8 -B scripts/publish_boundary_fresh_frozen.py`。此前七个终局不变。
 
 2026-10-04 第二题三场结果：[汇总](epistemic_boundary_mimicry/CASE02_RESULTS.md) → [协议](epistemic_boundary_mimicry/CASE02_API_PROTOCOL.md) → [公开对话](epistemic_boundary_mimicry/published_runs/go_case02_three_20261004/README.md)。Qwen speakers → GLM Judge：Strong 与 Boundary-aware 均追问 3 次选对（.70／.95）；Frozen 追问 9 次选 A（.70），仅匹配随机目标，不证明真实性识别。Strong 原额度 429 截止及保持历史的一次终局补请求都保留；反向尚未启动。两份题目背景、七个终局不是七个独立任务；无条件效应或排名结论。复核：`python -X utf8 -B scripts/publish_boundary_case2.py`。

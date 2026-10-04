@@ -1,0 +1,17 @@
+{
+  "files": [
+    {
+      "file": "bundle.json",
+      "sha256_lf_utf8": "154229590166a971e058a8a861f208eddd588236a12f3d4c06aca5b847772b1a"
+    },
+    {
+      "file": "EB03_D1_symmetric_frozen.json",
+      "sha256_lf_utf8": "80bb988133a95e932f839d4bcd1d137ddce39c148a0bd120922c519cea935ba5"
+    },
+    {
+      "file": "EB04_D1_symmetric_frozen.json",
+      "sha256_lf_utf8": "06965795a18c091d58212c15bcf91ecd87e30e52030bd57de1d4ea727a289cb6"
+    }
+  ],
+  "projection": "Exact visible prompts and replies; omits reasoning, sessions, accounts, machine data and credentials."
+}
