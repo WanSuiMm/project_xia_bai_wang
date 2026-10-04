@@ -1,4 +1,16 @@
-# Latest incremental review: fresh ecological Frozen cutoff
+# Latest incremental review: two completed Frozen controls
+
+Review base: `876aa4b7478f9b4899e59ca17e5385aab828cf17`.
+Evidence head: `7c71ac859dd2a7b9f298dee01f12cbe095a86f70`.
+This handoff is metadata-only; the evidence head stays fixed.
+
+Read [aggregate results](epistemic_boundary_mimicry/FROZEN_PAIR_RESULTS.md), [ecological recovery amendment](epistemic_boundary_mimicry/FRESH_FROZEN_RESUME_PROTOCOL.md), [archaeology protocol](ARCHAEOLOGY_FROZEN_PROTOCOL.md), then [visible evidence](epistemic_boundary_mimicry/published_runs/go_frozen_pair_completed_20261004/README.md). EB03 now has a separate four-ASK ABSTAIN endpoint after repairing exactly one missing quote without regenerating any inherited response. The original incomplete cutoff remains unchanged. EB04 is a fresh three-ASK ABSTAIN endpoint without repair. Both use Qwen Readers → GLM Judge.
+
+Reproduce with `python -X utf8 -B scripts/publish_boundary_frozen_pair.py`: public-only hashes, equal Reader policies, source isolation, target assignment, exact routing, one-character repair and inheritance against original cutoff. No provider calls. Sources and seats frozen before independent target draw; Judge not told the mechanism. Shared procedural wording is a potential abstention cue. No independent-author robustness, population effect, model ranking or authenticity inference is established. Earlier endpoints unchanged; source-relative annotation pending.
+
+Reviewer questions: does the repaired fourth question retain exact text and histories? Does shared prose explain recognition of parallel sources? Do the reasons distinguish target-identifying evidence from internally consistent detail? Treat these as two exploratory trajectories, not confirmation of a general mechanism.
+
+# Previous incremental review: fresh ecological Frozen cutoff
 
 Review base: `b1b34e41a6c8925b6180fd867835c053123a332b`.
 Evidence head: `f25583f6368d0c563b8a4a0ec3e20b379d2d917e`.
