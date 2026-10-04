@@ -1,0 +1,14 @@
+{
+  "state": "STOP_USAGE_CEILING",
+  "planned": 4,
+  "completed": 3,
+  "estimated_usage_usd": 1.906307,
+  "families": 2,
+  "pre_dispatch_suffix01_failure": {
+    "provider_calls": 0,
+    "same_bundle": true,
+    "error": "missing compatibility bundle_sha256 field; corrected before dispatch"
+  },
+  "score_semantics": "arbitrary independent target match, not authenticity accuracy",
+  "annotation_pending": true
+}

@@ -1,0 +1,30 @@
+{
+  "EB05_D1_symmetric_frozen": {
+    "seat_seed": 2026101431,
+    "seat_source_ids": {
+      "A": "EB05_source_0",
+      "B": "EB05_source_1"
+    }
+  },
+  "EB05_D2_symmetric_frozen": {
+    "seat_seed": 2026101432,
+    "seat_source_ids": {
+      "A": "EB05_source_0",
+      "B": "EB05_source_1"
+    }
+  },
+  "EB06_D1_symmetric_frozen": {
+    "seat_seed": 2026101433,
+    "seat_source_ids": {
+      "A": "EB06_source_0",
+      "B": "EB06_source_1"
+    }
+  },
+  "EB06_D2_symmetric_frozen": {
+    "seat_seed": 2026101434,
+    "seat_source_ids": {
+      "A": "EB06_source_1",
+      "B": "EB06_source_0"
+    }
+  }
+}

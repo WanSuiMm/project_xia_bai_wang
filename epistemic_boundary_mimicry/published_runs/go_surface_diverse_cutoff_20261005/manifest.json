@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "file": "bundle.json",
+      "sha256_lf_utf8": "8c4d968d9985864545c46450b45e5ecab59b0466229f79e9bec2409f60768f8d"
+    },
+    {
+      "file": "EB05_D1_symmetric_frozen.json",
+      "sha256_lf_utf8": "61ac0ac2d1c34cfff9c03fcd42152f598d42bfadde7bc67f77103bd4d038c4ea"
+    },
+    {
+      "file": "EB05_D2_symmetric_frozen.json",
+      "sha256_lf_utf8": "4378392974b01b2c3411d36dafefc651d4143f9bf951ec38a70cf6f3cf2773de"
+    },
+    {
+      "file": "EB06_D1_symmetric_frozen.json",
+      "sha256_lf_utf8": "3a0864bf8e444aa95f8c7e133f2f45357b0ec523bee519588e23db101d4755ec"
+    },
+    {
+      "file": "EB06_D2_symmetric_frozen.json",
+      "sha256_lf_utf8": "98f6049446aaa1ab7910f8fef0aaae1b8eab0802bd53574454d15fe23086508f"
+    },
+    {
+      "file": "randomization.json",
+      "sha256_lf_utf8": "e1d0da76f0fa302c5cb41c561b5805131ff070956d93e0776f7e77f85d391022"
+    },
+    {
+      "file": "summary.json",
+      "sha256_lf_utf8": "60eb0ea5ed9274880911b60f455b6d6727d4e505849591d54738744d5fcffa3a"
+    }
+  ],
+  "projection": "Exact visible prompts/replies and fixed material provenance; excludes reasoning, sessions, credentials and machine/account identifiers."
+}
