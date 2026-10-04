@@ -1,0 +1,13 @@
+{
+  "files": [
+    {
+      "file": "bundle.json",
+      "sha256_lf_utf8": "ec56101319cb92d84fbf1b42537e53cc61bb89c5809a7c60c58a5202d9a7e348"
+    },
+    {
+      "file": "EB01_D1_symmetric_frozen.json",
+      "sha256_lf_utf8": "4c8032b953f9267d332d67f19c5ac0057fc7d4b6b542431549b8fa6404d816d9"
+    }
+  ],
+  "projection": "Exact visible prompts/replies and used sources only; no hidden reasoning or private deployment fields."
+}
