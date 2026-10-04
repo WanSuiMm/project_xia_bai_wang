@@ -1,4 +1,16 @@
-# Latest incremental review: two completed Frozen controls
+# Latest incremental review: surface-diverse Frozen cutoff snapshot
+
+Review base: `a5e0ae4b3bdfae90b3a70e97b677570cb2604d9e`.
+Evidence head: `fae8bb8f2f5f7801de8706e19bde659b34289601`.
+This handoff is metadata-only; evidence head stays fixed.
+
+Read [results](epistemic_boundary_mimicry/SURFACE_DIVERSE_FROZEN_RESULTS.md), [protocol](epistemic_boundary_mimicry/SURFACE_DIVERSE_FROZEN_PROTOCOL.md), then [public evidence](epistemic_boundary_mimicry/published_runs/go_surface_diverse_cutoff_20261005/README.md). Two new fixed material families × reciprocal Qwen/GLM directions. Three STOP endpoints after 6/2/4 ASK; fourth lacks terminal, with B's sixth answer undispatched at the operational USD 1.90 pre-request limit (actual estimated 1.906307). Not four completed trials. Pre-dispatch compatibility correction involved zero calls and an identical bundle.
+
+Public audit: `python -X utf8 -B scripts/publish_surface_diverse_frozen.py`, no provider calls. Verifies file/source hashes, seat/target seed replay, equal Reader policy, source isolation, exact relays, terminals and missing next request. All earlier Frozen abstentions and original cutoff remain unchanged. Target matches are random-label matches, not authenticity accuracy. Source domains, narrative framing and details changed alongside wording; no causal surface effect is identified. Sequential usage cutoff can bias the completed subset.
+
+Reviewer questions: how does public-context alignment become an unsupported target cue? Does paraphrase framing measure document provenance rather than target designation? EB06's actual source opens with the caution the Judge treated as a late patch; distinguish source fidelity from rhetorical inconsistency. No systematic source-relative coding or perturbation mechanism is claimed. No continuation launched for publication.
+
+# Previous incremental review: two completed Frozen controls
 
 Review base: `876aa4b7478f9b4899e59ca17e5385aab828cf17`.
 Evidence head: `7c71ac859dd2a7b9f298dee01f12cbe095a86f70`.
