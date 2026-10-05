@@ -1,4 +1,22 @@
-# Latest incremental review: surface-diverse Frozen cutoff snapshot
+# Latest incremental review: offline exploratory coding and fixed replay cohort
+
+Review base: `fbf4616f9fa96dac3eb8746776dbed9b6dccace4`.
+Evidence head: `39ab29c9322b2bf7f8b28c4646fc39ca7af0bd44`.
+This handoff is metadata-only; the evidence head stays fixed.
+
+Read [coding report](epistemic_boundary_mimicry/analysis/offline_coding_20261005/RESULTS.md), [frozen retrospective codebook](epistemic_boundary_mimicry/analysis/CODEBOOK_20261005.md), [small aggregate](epistemic_boundary_mimicry/analysis/offline_coding_20261005/coding_summary.json), then [seven-dialogue replay cohort](epistemic_boundary_mimicry/analysis/offline_coding_20261005/REPLAY_COHORT.md). Per-event annotations and input JSON are secondary evidence; do not open all long transcripts first.
+
+New: model-assisted first-pass coding of all 13 canonical API trajectories, 107 answer events, 57 ASK actions and 12 terminal rationales across six material families. All 13 have source-boundary language; 12 have at least one evidence-linked follow-up (28 ASK total), descriptive coding only. Rationale evidence support is separate from target relevance. Reviewed examples distinguish misread caution/table statements, unsupported absolute access claims and accurate but non-identifying style observations. Exact spans and selected interpretations were checked; no independent human reliability or exhaustive atomic-claim error rates. Frozen readers use their own source; strategic bluffers use a clearly identified target-source proxy.
+
+Cohort status: all seven complete Frozen dialogues included regardless of original decision; target labels, original terminal/confidence/rationale and private source setup removed from model-facing payloads. EB06_D2 remains partial and excluded from terminal replay; its observed answers stay in interaction coding. No new blind/informed replay, API call or missing-game continuation. Fixing a cohort does not freeze a new prompt, sampling endpoint or establish active-versus-passive effects.
+
+Unchanged: original raw evidence, recoveries, cutoffs, model labels and earlier endpoint claims. Arena studies are not pooled with this API corpus. No causal presentation/instruction effect, population calibration, stable ToM failure or model ranking is established.
+
+Reproduce from a fresh checkout with Python standard library: `python -X utf8 -B scripts/audit_offline_coding.py`. It verifies frozen and evidence hashes, annotation coverage/quotation spans and replay payload shape without credentials or provider calls. Independent staged-checkout audit passed. Preparation scripts refuse to overwrite their existing frozen outputs.
+
+Reviewer questions: do the selected annotations distinguish internal consistency, source fidelity and target designation? Are unsupported rationale inferences separated from actual dialogue misreadings? Is the seven-complete cohort selected only on completeness, with partial evidence retained and correlated material families acknowledged? Which observations warrant a subsequent controlled test, rather than a claim from this retrospective corpus?
+
+# Previous incremental review: surface-diverse Frozen cutoff snapshot
 
 Review base: `a5e0ae4b3bdfae90b3a70e97b677570cb2604d9e`.
 Evidence head: `fae8bb8f2f5f7801de8706e19bde659b34289601`.
