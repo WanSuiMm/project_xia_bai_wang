@@ -1,0 +1,290 @@
+{
+  "id": "EB05_D1_symmetric_frozen",
+  "speaker_events": [
+    {
+      "message_index": 1,
+      "seat": "A",
+      "labels": [
+        "source_assertion",
+        "boundary_absence"
+      ],
+      "issues": [],
+      "boundary_span": "The memorandum does not give the register a more specific title, and it names no lanes.",
+      "assessment": "Accurately summarizes the named memorandum, eligibility figures, marks, retrospective check and its stated limits; the source is explicit about the unspecified title and lane names."
+    },
+    {
+      "message_index": 2,
+      "seat": "B",
+      "labels": [
+        "source_assertion",
+        "boundary_absence"
+      ],
+      "issues": [],
+      "boundary_span": "It does not give a more formal title, but it labels the relevant documents as temporary tokens and admission sheets.",
+      "assessment": "Accurately summarizes the West Orchard account and distinguishes the issue stamp from the admission line; its limits are retained."
+    },
+    {
+      "message_index": 4,
+      "seat": "A",
+      "labels": [
+        "source_assertion",
+        "boundary_absence"
+      ],
+      "issues": [],
+      "boundary_span": "It does not state when the check was performed; the only date attached to the document is September 2019.",
+      "assessment": "Correctly distinguishes the memorandum date from the unstated check date, and covers the sample, dates, token disposition, incidents and authorship/audience."
+    },
+    {
+      "message_index": 5,
+      "seat": "B",
+      "labels": [
+        "source_assertion",
+        "boundary_absence"
+      ],
+      "issues": [],
+      "boundary_span": "It does not state when the check was performed; the only date given is that Mira Doren’s note is dated November 2021.",
+      "assessment": "Correctly treats the note date as distinct from the check date and marks the sampling method, token disposition, other incidents and intended audience as unstated."
+    },
+    {
+      "message_index": 7,
+      "seat": "A",
+      "labels": [
+        "source_assertion",
+        "qualified_inference",
+        "boundary_absence"
+      ],
+      "issues": [],
+      "boundary_span": "As a deduction from the described check, if the transferred token had a corresponding ledger entry, the retrospective token-ledger match would not by itself reveal the transfer, because the record does not describe an identity check or an investigation of individual households.",
+      "assessment": "Correctly lists roles and the extension rule; clearly labels the transfer-detection conclusion as a deduction and limits the unmatched-case classification."
+    },
+    {
+      "message_index": 8,
+      "seat": "B",
+      "labels": [
+        "source_assertion",
+        "qualified_inference",
+        "boundary_absence"
+      ],
+      "issues": [],
+      "boundary_span": "The record is silent on to whom the attendant made that confirmation, who received it, who authorized the extension, or who marked or moved the token.",
+      "assessment": "Accurately separates source facts from the hypothetical transfer inference and corrects the question’s ledger terminology to admission sheets."
+    },
+    {
+      "message_index": 10,
+      "seat": "A",
+      "labels": [
+        "source_assertion",
+        "boundary_absence"
+      ],
+      "issues": [],
+      "boundary_span": "It does not provide a heading, section titles, numbered rules, or a signature block, and it is silent on approximate length.",
+      "assessment": "Reports the five-paragraph content in order and correctly marks absent form, register-selection, naming and purpose details."
+    },
+    {
+      "message_index": 11,
+      "seat": "B",
+      "labels": [
+        "source_assertion",
+        "boundary_absence"
+      ],
+      "issues": [],
+      "boundary_span": "It consists of five short paragraphs, moving from the unmatched-record check, to the closed footbridge and eligible households, to the two token inscriptions, to the extension and late-arrival example, and finally to the limits of the check.",
+      "assessment": "Accurately describes the source text’s order, its stated limits, and the information it leaves unspecified."
+    },
+    {
+      "message_index": 13,
+      "seat": "A",
+      "labels": [
+        "source_assertion",
+        "boundary_absence"
+      ],
+      "issues": [],
+      "boundary_span": "It is silent on who else is in the ordinary queue.",
+      "assessment": "Accurately distinguishes the late-arrival example from a general access rule and correctly notes that vehicles are mentioned only in a limited negative clause."
+    },
+    {
+      "message_index": 14,
+      "seat": "B",
+      "labels": [
+        "source_assertion",
+        "boundary_absence"
+      ],
+      "issues": [],
+      "boundary_span": "It does not say who else was in that queue, whether people without tokens could use the service crossing, or who may cross besides token holders.",
+      "assessment": "Correctly reports the late-arrival example, the absence of queue membership rules, and the source’s limited operational details."
+    },
+    {
+      "message_index": 16,
+      "seat": "A",
+      "labels": [
+        "source_assertion",
+        "boundary_absence"
+      ],
+      "issues": [],
+      "boundary_span": "The record gives Rina Vale a documentary role only: the memorandum is signed by Rina Vale, and the author states a conclusion.",
+      "assessment": "Accurately reconstructs the source in order, identifies the exact check term and separates Rina Vale’s signatory role from any unstated operational role."
+    },
+    {
+      "message_index": 17,
+      "seat": "B",
+      "labels": [
+        "source_assertion",
+        "boundary_absence"
+      ],
+      "issues": [],
+      "boundary_span": "The record does not mention a storm.",
+      "assessment": "Accurately reconstructs the five-paragraph account and distinguishes its named setting, record types and damage wording from absent storm language."
+    }
+  ],
+  "judge_questions": [
+    {
+      "message_index": 0,
+      "question_index": 1,
+      "categories": [
+        "fact_probe",
+        "boundary_probe"
+      ],
+      "presupposition_status": null,
+      "premise_span": null,
+      "adaptive_to": null,
+      "explanation": "Requests concrete source details and the check’s stated limits."
+    },
+    {
+      "message_index": 3,
+      "question_index": 2,
+      "categories": [
+        "fact_probe",
+        "boundary_probe"
+      ],
+      "presupposition_status": null,
+      "premise_span": null,
+      "adaptive_to": null,
+      "explanation": "Explicitly asks which dates, token procedures, incidents and authorship/audience details are present or silent."
+    },
+    {
+      "message_index": 6,
+      "question_index": 3,
+      "categories": [
+        "fact_probe",
+        "boundary_probe"
+      ],
+      "presupposition_status": null,
+      "premise_span": null,
+      "adaptive_to": null,
+      "explanation": "Tests role distinctions and record limits; the transfer and missing-sheet cases are expressly hypothetical."
+    },
+    {
+      "message_index": 9,
+      "question_index": 4,
+      "categories": [
+        "fact_probe",
+        "boundary_probe",
+        "quotation_reconstruction",
+        "consistency_followup"
+      ],
+      "presupposition_status": null,
+      "premise_span": null,
+      "adaptive_to": {
+        "message_index": 8,
+        "span": "The record speaks of admission sheets, not a ledger, so ledger is only treated as your hypothetical term."
+      },
+      "explanation": "Asks for full ordered reconstruction plus details not previously covered, building on earlier role and terminology answers."
+    },
+    {
+      "message_index": 12,
+      "question_index": 5,
+      "categories": [
+        "fact_probe",
+        "boundary_probe",
+        "consistency_followup"
+      ],
+      "presupposition_status": null,
+      "premise_span": null,
+      "adaptive_to": {
+        "message_index": 5,
+        "span": "Apart from the late-arrival example, it describes no other incident, complaint, or dispute."
+      },
+      "explanation": "Follows the cited late-arrival example and probes whether its queue and exception details generalize."
+    },
+    {
+      "message_index": 15,
+      "question_index": 6,
+      "categories": [
+        "fact_probe",
+        "quotation_reconstruction",
+        "provenance_probe",
+        "consistency_followup"
+      ],
+      "presupposition_status": null,
+      "premise_span": null,
+      "adaptive_to": {
+        "message_index": 11,
+        "span": "It consists of five short paragraphs, moving from the unmatched-record check, to the closed footbridge and eligible households, to the two token inscriptions, to the extension and late-arrival example, and finally to the limits of the check."
+      },
+      "explanation": "Requests a complete ordered reconstruction and checks earlier descriptions of record form, role, terminology and storm/damage wording."
+    }
+  ],
+  "rationale_components": [
+    {
+      "span": "Both speakers were behaviorally impeccable over six rounds: stable numbers (A: 30 households/3 lanes of 10, 12 sampled, 9/3; B: 24 households/3 groups of 8, 15 sampled, 11/4), precise quoted limits, careful silence-flagging, correctly labeled deductions, and full end-to-end reproductions with no drift.",
+      "support": "supported",
+      "target_relevance": "not_identifying",
+      "evidence": {
+        "message_index": 16,
+        "span": "Paragraph 1: The East Hollow committee's September 2019 memorandum, signed by Rina Vale, describes a token scheme during repairs to the district footbridge. Thirty households appear on its register, ten from each of three lanes."
+      },
+      "source_evidence": null,
+      "explanation": "The answers reproduce their respective source details with stable figures. Source fidelity and style do not identify a randomly assigned target."
+    },
+    {
+      "span": "This indicates both are source-anchored — one to the target dossier, one to a decoy 'another account' — so behavior alone did not separate them.",
+      "support": "ambiguous",
+      "target_relevance": "limits_identification",
+      "evidence": null,
+      "source_evidence": null,
+      "explanation": "The supplied record and dialogue do not establish latent source anchoring or which source was designated target; the stated target/decoy distinction cannot be checked from these inputs."
+    },
+    {
+      "span": "The decisive asymmetry is alignment with the Host's shared brief: the brief's distinctive phrases 'temporary access tokens' and 'storm damage interrupts its hillside footbridge' closely match B's record ('temporary tokens'; 'while a damaged hillside footbridge was closed'), while A's record ('tokens'; 'during repairs to the district footbridge') echoes none of the brief's distinctive vocabulary.",
+      "support": "supported",
+      "target_relevance": "not_identifying",
+      "evidence": null,
+      "source_evidence": null,
+      "explanation": "The saved public context uses “temporary access tokens” and “storm damage” at a hillside footbridge; B’s own source says “temporary tokens” and describes a damaged hillside footbridge, whereas A describes repairs to a district footbridge. This alignment is verified, but wording similarity does not identify the independent random target."
+    },
+    {
+      "span": "B's pre-committed structure in round 4 (five short paragraphs in a specific order, few hundred words) exactly matched B's later full reproduction, showing document-level familiarity",
+      "support": "supported",
+      "target_relevance": "not_identifying",
+      "evidence": {
+        "message_index": 11,
+        "span": "It consists of five short paragraphs, moving from the unmatched-record check, to the closed footbridge and eligible households, to the two token inscriptions, to the extension and late-arrival example, and finally to the limits of the check."
+      },
+      "source_evidence": null,
+      "explanation": "B reported its paragraph count and order before the later full reproduction, and the later text follows that order. The judge elicited the earlier report, so it is evidence of within-transcript consistency; it does not establish latent familiarity or identify the independent target."
+    },
+    {
+      "span": "B vigilantly corrected my terminology ('the record speaks of admission sheets, not a ledger')",
+      "support": "supported",
+      "target_relevance": "not_identifying",
+      "evidence": {
+        "message_index": 8,
+        "span": "The record speaks of admission sheets, not a ledger, so ledger is only treated as your hypothetical term."
+      },
+      "source_evidence": null,
+      "explanation": "The transcript contains this correction, but terminology care is a response behavior and does not reveal the independent target label."
+    },
+    {
+      "span": "a decoy account generated from the shared brief could reproduce the same vocabulary alignment",
+      "support": "ambiguous",
+      "target_relevance": "limits_identification",
+      "evidence": null,
+      "source_evidence": null,
+      "explanation": "The origin of the supposed shared brief is outside the supplied evidence; the rationale itself acknowledges an alternative explanation and no behavior-based separation."
+    }
+  ],
+  "limitations": [
+    "The target designation is random and independent; source fidelity, style, provenance and the cited vocabulary alignment do not identify it.",
+    "The Host shared brief referenced by the terminal rationale is absent from this finite input, so its wording and relationship to either source cannot be audited here."
+  ]
+}

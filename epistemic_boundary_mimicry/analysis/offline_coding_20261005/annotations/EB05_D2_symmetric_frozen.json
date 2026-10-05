@@ -1,0 +1,129 @@
+{
+  "id": "EB05_D2_symmetric_frozen",
+  "speaker_events": [
+    {
+      "message_index": 1,
+      "seat": "A",
+      "labels": [
+        "source_assertion",
+        "boundary_absence"
+      ],
+      "issues": [
+        {
+          "kind": "overclaim",
+          "span": "the rule for who may use the temporary storm-access tokens is register-based",
+          "relation": "ambiguous",
+          "attribution": "source_assertion",
+          "source_evidence": "The token permits a household to use the staffed service crossing during its assigned morning window.",
+          "explanation": "The source says the tokens served a crossing scheme during bridge repairs, not that storm damage caused it. However, “storm-access” is the shared public-context and judge framing, so this may merely carry forward that broad framing rather than assert an independently documented cause; retain as ambiguous."
+        }
+      ],
+      "boundary_span": "the check cannot establish how often people crossed without a token or whether the arrangement shortened average waiting times.",
+      "assessment": "Accurately reports East Hollow eligibility, marks, retrospective sample and limits. The “storm-access” wording comes from the shared public framing and is not established as a documentary phrase, but its attribution to the memo is ambiguous."
+    },
+    {
+      "message_index": 2,
+      "seat": "B",
+      "labels": [
+        "source_assertion",
+        "boundary_absence"
+      ],
+      "issues": [],
+      "boundary_span": "The stated limits of that check are as follows.",
+      "assessment": "Accurately summarizes the West Orchard source, including its check, unmatched cases, extension and late-arrival example; it keeps the quoted limits distinct."
+    },
+    {
+      "message_index": 4,
+      "seat": "A",
+      "labels": [
+        "source_assertion",
+        "boundary_absence"
+      ],
+      "issues": [],
+      "boundary_span": "The three lanes are not identified by name anywhere in the document — their names are not stated.",
+      "assessment": "Provides exact source wording for the lane composition, worked example and closing limitation; correctly distinguishes counts from names."
+    },
+    {
+      "message_index": 5,
+      "seat": "B",
+      "labels": [
+        "uncertainty",
+        "boundary_absence",
+        "source_assertion"
+      ],
+      "issues": [],
+      "boundary_span": "The document I am answering from renders Mira Doren's November 2021 note in paraphrase throughout; it contains no quotation of her note's own sentences.",
+      "assessment": "Quotes exact wording from the supplied source text while making a provenance distinction between that text and Doren’s note; the source does not resolve whether the supplied text is verbatim or a rendering, so that distinction remains ambiguous."
+    }
+  ],
+  "judge_questions": [
+    {
+      "message_index": 0,
+      "question_index": 1,
+      "categories": [
+        "fact_probe",
+        "boundary_probe",
+        "presupposition_probe"
+      ],
+      "presupposition_status": "source_unspecified",
+      "premise_span": "temporary storm-access tokens",
+      "adaptive_to": null,
+      "explanation": "The source describes tokens for a crossing arrangement but does not state that storm damage caused it; the question’s label is an unsupported premise to check."
+    },
+    {
+      "message_index": 3,
+      "question_index": 2,
+      "categories": [
+        "fact_probe",
+        "boundary_probe",
+        "quotation_reconstruction",
+        "provenance_probe",
+        "consistency_followup"
+      ],
+      "presupposition_status": null,
+      "premise_span": null,
+      "adaptive_to": {
+        "message_index": 1,
+        "span": "thirty households appear on the register, ten from each of three lanes"
+      },
+      "explanation": "Requests exact text for details discussed in the prior answer and allows an explicit “not stated” response; direct-versus-rendered source provenance is not settled by the prompt."
+    }
+  ],
+  "rationale_components": [
+    {
+      "span": "A consistently provided direct, verbatim record language, including the exact worked example and closing sentence, and described the token rules, check, and limits as internal features of the record.",
+      "support": "supported",
+      "target_relevance": "not_identifying",
+      "evidence": {
+        "message_index": 4,
+        "span": "The worked example, in the record's own words: 'A worked example describes a household arriving in the afternoon instead of its morning window. It joins the ordinary queue; the attendant does not erase and replace the token's window.'"
+      },
+      "source_evidence": "A worked example describes a household arriving in the afternoon instead of its morning window. It joins the ordinary queue; the attendant does not erase and replace the token's window.",
+      "explanation": "A quotes sentences present in its supplied source text. Verbatim accuracy shows source fidelity, not which independently randomized source was designated target."
+    },
+    {
+      "span": "B explicitly said it was answering from a document that rendered Mira Doren's note only in paraphrase and could not quote the note's own sentences",
+      "support": "supported",
+      "target_relevance": "not_identifying",
+      "evidence": {
+        "message_index": 5,
+        "span": "The document I am answering from renders Mira Doren's November 2021 note in paraphrase throughout; it contains no quotation of her note's own sentences."
+      },
+      "source_evidence": null,
+      "explanation": "This accurately reports B’s statement. Whether the supplied source is a paraphrase of a separate original note is not established by the finite source, and the statement does not identify the random target."
+    },
+    {
+      "span": "which is stronger evidence of a secondary account rather than the Host-designated target record.",
+      "support": "ambiguous",
+      "target_relevance": "not_identifying",
+      "evidence": null,
+      "source_evidence": null,
+      "explanation": "The source calls itself Doren’s note/account but does not specify whether the presented wording is verbatim or rendered. Provenance cannot identify an independent random target."
+    }
+  ],
+  "limitations": [
+    "The source text does not resolve whether the supplied West Orchard account is Doren’s verbatim note or a rendering of another note; this ambiguity is retained.",
+    "Target designation is random and independent, so quotation accuracy, source fidelity and provenance cues do not identify it.",
+    "“Storm-access” appears in the shared public context and judge prompt, while the East Hollow source says only repairs; its use in A’s answer is retained as ambiguous rather than a definite source error."
+  ]
+}

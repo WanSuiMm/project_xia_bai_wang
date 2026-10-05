@@ -1,0 +1,22 @@
+{
+  "codebook_sha256_lf": "2b5912d8b4d3a11b16c42ee547c55a2e7d17996c2497ad149ea88d3a3cfba53b",
+  "inventory_sha256_lf": "b519a67bb2ef4d92c0903acb40001e7977be66bee8cee8ebd118b3076592bb6a",
+  "cohort_sha256_lf": "5eee0858e553e32c334dcad94b0e21728b7c60394ad917776c4f769641c31031",
+  "inputs": {
+    "EB01_D1_boundary_aware.json": "d349033fec4948f03c93f5cf567d10186924f7857287da18fc0940841d78fefb",
+    "EB01_D1_strong.json": "8b8d2b0b717b5d81877c1de19d9397502f3c566a543ff480f9c723532fe22df4",
+    "EB01_D1_symmetric_frozen.json": "6487d6213b9b306f31ead5cc6f057078724cf4725b0833a5b127a10443db751f",
+    "EB01_D2_boundary_aware.json": "d1a3afc891b3b22938019202de96dea5eacd1eec04143e1132ec7217408ed948",
+    "EB02_D1_boundary_aware.json": "9443aad87e1f93e83a9d80d2f52883096b74422cb9c478898ca4353f33a000d8",
+    "EB02_D1_strong.json": "ea88fffce267cfb02ac45f062bbf133f714e92ff2b7d1d8ee642705fb7d01674",
+    "EB02_D1_symmetric_frozen.json": "8366c6c33b12ac4525bd6b6639a5b1ed5123e53580244f8d8bd3eee5156291ab",
+    "EB03_D1_symmetric_frozen.json": "ef6ca4162c9558e06394cfed4538a71ef51abb8bd6ac4a8ccee00ee2634f4244",
+    "EB04_D1_symmetric_frozen.json": "d4e5bad8615ed38a8ba11745f5cbbdc19463f5fd5d21ef1fc3acf69bb30c5e86",
+    "EB05_D1_symmetric_frozen.json": "90914942cb411c63cb9e25d8d78aaf75127618ee403f0e930d69d0ebb4a4def7",
+    "EB05_D2_symmetric_frozen.json": "ca3ce1288af968fcf28c12d5f04fb53374fad6f01067138ab3710e8744e1fdd7",
+    "EB06_D1_symmetric_frozen.json": "877a0b49e5345efc7024211191f5466925505e720160bf8d55d661d4ae9c6c47",
+    "EB06_D2_symmetric_frozen.json": "3521157df0dd1aea12473e4eb573cfe225f601768a0b4de10c10e3299581bce7"
+  },
+  "freeze_before_annotation": true,
+  "api_calls": 0
+}

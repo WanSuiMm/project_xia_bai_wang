@@ -1,0 +1,397 @@
+{
+  "audit_errors": [],
+  "covered_trajectories": 13,
+  "speaker_events": 107,
+  "ask_actions": 57,
+  "complete_replay_cohort": 7,
+  "api_calls": 0,
+  "annotation_status": "model-assisted first pass; exact-span validated; no independent human reliability",
+  "annotation_sha256_lf": {
+    "EB01_D1_boundary_aware.json": "801737960ab0b0d4c9766927dcffc4b9df7b63848a3ea125de293095578657ff",
+    "EB01_D1_strong.json": "4d39da1766aea7216cdcf499af445a5ad421e743eec146342e19c349180f6ce5",
+    "EB01_D1_symmetric_frozen.json": "9be28222b2ec76ed9401e93a105a5abe7607159407803f7d9c33f3e699c1c7c7",
+    "EB01_D2_boundary_aware.json": "07c238fd9f87e38a3182b2cc646c89e60ade7550cf1b85b91e1d065e181984c4",
+    "EB02_D1_boundary_aware.json": "a51a8cca8b59ce388a42006934d75218c5111de87b6f65e3791142045d43cd6c",
+    "EB02_D1_strong.json": "5fefee065f0677340f9e616a3d472f694fe8238b19385fc87365b3e9f79d8a61",
+    "EB02_D1_symmetric_frozen.json": "d59535502713c870c2caa0f94f4dd7188614f7942c891c95e5f8ceba07c5e4a1",
+    "EB03_D1_symmetric_frozen.json": "181d7de235d16b75efb2f36ac1e9678fd9f12453afad75414ebe2d42f0133254",
+    "EB04_D1_symmetric_frozen.json": "5669aad7f4116840c5744a9d7fb96334e7cc127e1bc8a23b34a4a0feec543b74",
+    "EB05_D1_symmetric_frozen.json": "1bbb4d7599347e462ceb848c740e3b4ab9d57c7c855851fb148eaf05ab68c461",
+    "EB05_D2_symmetric_frozen.json": "104eb9cb55475dd2fb6db005e65c60700c5955c5eeb692273885d4bb96c157de",
+    "EB06_D1_symmetric_frozen.json": "9ae6075de9b42bc8aba37645712476f1ba3194954e227d9fd231500adba2f7ab",
+    "EB06_D2_symmetric_frozen.json": "e30e520b622489cc2814c0265a4bdbd9d7e8285f792c2c723231fd22d98c0cf2"
+  },
+  "rows": [
+    {
+      "id": "EB01_D1_boundary_aware",
+      "case_id": "EB01",
+      "condition": "boundary_aware",
+      "speaker_events": 10,
+      "ask_actions": 8,
+      "terminal": "STOP",
+      "speaker_flag_event_counts": {
+        "boundary_absence": 7,
+        "source_contradiction": 2,
+        "overclaim": 5
+      },
+      "ask_categories_present": [
+        "boundary_probe",
+        "consistency_followup",
+        "fact_probe",
+        "presupposition_probe",
+        "provenance_probe",
+        "quotation_reconstruction"
+      ],
+      "evidence_linked_followups": 7,
+      "source_unsupported_premise_questions": 4,
+      "rationale_support_counts": {
+        "supported": 3,
+        "ambiguous": 4,
+        "unsupported": 1
+      },
+      "rationale_relevance_counts": {
+        "not_identifying": 3,
+        "potentially_identifying": 4,
+        "limits_identification": 1
+      }
+    },
+    {
+      "id": "EB01_D1_strong",
+      "case_id": "EB01",
+      "condition": "strong",
+      "speaker_events": 6,
+      "ask_actions": 3,
+      "terminal": "STOP",
+      "speaker_flag_event_counts": {
+        "boundary_absence": 5,
+        "source_contradiction": 1,
+        "overclaim": 3
+      },
+      "ask_categories_present": [
+        "boundary_probe",
+        "fact_probe",
+        "presupposition_probe",
+        "quotation_reconstruction"
+      ],
+      "evidence_linked_followups": 1,
+      "source_unsupported_premise_questions": 2,
+      "rationale_support_counts": {
+        "supported": 2,
+        "unsupported": 1,
+        "misread": 1
+      },
+      "rationale_relevance_counts": {
+        "not_identifying": 2,
+        "potentially_identifying": 1,
+        "limits_identification": 1
+      }
+    },
+    {
+      "id": "EB01_D1_symmetric_frozen",
+      "case_id": "EB01",
+      "condition": "symmetric_frozen",
+      "speaker_events": 8,
+      "ask_actions": 4,
+      "terminal": "ABSTAIN",
+      "speaker_flag_event_counts": {
+        "boundary_absence": 8
+      },
+      "ask_categories_present": [
+        "boundary_probe",
+        "consistency_followup",
+        "fact_probe",
+        "presupposition_probe"
+      ],
+      "evidence_linked_followups": 1,
+      "source_unsupported_premise_questions": 1,
+      "rationale_support_counts": {
+        "supported": 3
+      },
+      "rationale_relevance_counts": {
+        "not_identifying": 1,
+        "limits_identification": 2
+      }
+    },
+    {
+      "id": "EB01_D2_boundary_aware",
+      "case_id": "EB01",
+      "condition": "boundary_aware",
+      "speaker_events": 4,
+      "ask_actions": 2,
+      "terminal": "STOP",
+      "speaker_flag_event_counts": {
+        "source_contradiction": 1,
+        "overclaim": 2,
+        "boundary_absence": 2
+      },
+      "ask_categories_present": [
+        "boundary_probe",
+        "fact_probe",
+        "presupposition_probe",
+        "quotation_reconstruction"
+      ],
+      "evidence_linked_followups": 1,
+      "source_unsupported_premise_questions": 2,
+      "rationale_support_counts": {
+        "supported": 1,
+        "misread": 2
+      },
+      "rationale_relevance_counts": {
+        "not_identifying": 1,
+        "potentially_identifying": 2
+      }
+    },
+    {
+      "id": "EB02_D1_boundary_aware",
+      "case_id": "EB02",
+      "condition": "boundary_aware",
+      "speaker_events": 6,
+      "ask_actions": 3,
+      "terminal": "STOP",
+      "speaker_flag_event_counts": {
+        "boundary_absence": 6,
+        "overclaim": 3,
+        "underclaim": 1
+      },
+      "ask_categories_present": [
+        "boundary_probe",
+        "consistency_followup",
+        "fact_probe",
+        "presupposition_probe",
+        "provenance_probe",
+        "quotation_reconstruction"
+      ],
+      "evidence_linked_followups": 2,
+      "source_unsupported_premise_questions": 1,
+      "rationale_support_counts": {
+        "supported": 2,
+        "unsupported": 2
+      },
+      "rationale_relevance_counts": {
+        "potentially_identifying": 3,
+        "not_identifying": 1
+      }
+    },
+    {
+      "id": "EB02_D1_strong",
+      "case_id": "EB02",
+      "condition": "strong",
+      "speaker_events": 6,
+      "ask_actions": 3,
+      "terminal": "STOP",
+      "speaker_flag_event_counts": {
+        "boundary_absence": 4,
+        "source_contradiction": 2,
+        "overclaim": 3
+      },
+      "ask_categories_present": [
+        "boundary_probe",
+        "consistency_followup",
+        "fact_probe",
+        "presupposition_probe",
+        "provenance_probe",
+        "quotation_reconstruction"
+      ],
+      "evidence_linked_followups": 2,
+      "source_unsupported_premise_questions": 1,
+      "rationale_support_counts": {
+        "supported": 3,
+        "unsupported": 1,
+        "ambiguous": 2
+      },
+      "rationale_relevance_counts": {
+        "potentially_identifying": 5,
+        "limits_identification": 1
+      }
+    },
+    {
+      "id": "EB02_D1_symmetric_frozen",
+      "case_id": "EB02",
+      "condition": "symmetric_frozen",
+      "speaker_events": 18,
+      "ask_actions": 9,
+      "terminal": "STOP",
+      "speaker_flag_event_counts": {
+        "boundary_absence": 16
+      },
+      "ask_categories_present": [
+        "boundary_probe",
+        "consistency_followup",
+        "fact_probe",
+        "presupposition_probe",
+        "quotation_reconstruction"
+      ],
+      "evidence_linked_followups": 4,
+      "source_unsupported_premise_questions": 2,
+      "rationale_support_counts": {
+        "supported": 1,
+        "ambiguous": 2,
+        "unsupported": 3
+      },
+      "rationale_relevance_counts": {
+        "not_identifying": 6
+      }
+    },
+    {
+      "id": "EB03_D1_symmetric_frozen",
+      "case_id": "EB03",
+      "condition": "symmetric_frozen",
+      "speaker_events": 8,
+      "ask_actions": 4,
+      "terminal": "ABSTAIN",
+      "speaker_flag_event_counts": {
+        "boundary_absence": 8
+      },
+      "ask_categories_present": [
+        "boundary_probe",
+        "consistency_followup",
+        "fact_probe",
+        "quotation_reconstruction"
+      ],
+      "evidence_linked_followups": 1,
+      "source_unsupported_premise_questions": 0,
+      "rationale_support_counts": {
+        "ambiguous": 1,
+        "supported": 2,
+        "unsupported": 1
+      },
+      "rationale_relevance_counts": {
+        "not_identifying": 3,
+        "limits_identification": 1
+      }
+    },
+    {
+      "id": "EB04_D1_symmetric_frozen",
+      "case_id": "EB04",
+      "condition": "symmetric_frozen",
+      "speaker_events": 6,
+      "ask_actions": 3,
+      "terminal": "ABSTAIN",
+      "speaker_flag_event_counts": {
+        "boundary_absence": 6
+      },
+      "ask_categories_present": [
+        "boundary_probe",
+        "fact_probe",
+        "quotation_reconstruction"
+      ],
+      "evidence_linked_followups": 0,
+      "source_unsupported_premise_questions": 0,
+      "rationale_support_counts": {
+        "supported": 3,
+        "ambiguous": 2,
+        "unsupported": 1
+      },
+      "rationale_relevance_counts": {
+        "not_identifying": 4,
+        "limits_identification": 2
+      }
+    },
+    {
+      "id": "EB05_D1_symmetric_frozen",
+      "case_id": "EB05",
+      "condition": "symmetric_frozen",
+      "speaker_events": 12,
+      "ask_actions": 6,
+      "terminal": "STOP",
+      "speaker_flag_event_counts": {
+        "boundary_absence": 12
+      },
+      "ask_categories_present": [
+        "boundary_probe",
+        "consistency_followup",
+        "fact_probe",
+        "provenance_probe",
+        "quotation_reconstruction"
+      ],
+      "evidence_linked_followups": 3,
+      "source_unsupported_premise_questions": 0,
+      "rationale_support_counts": {
+        "supported": 4,
+        "ambiguous": 2
+      },
+      "rationale_relevance_counts": {
+        "not_identifying": 4,
+        "limits_identification": 2
+      }
+    },
+    {
+      "id": "EB05_D2_symmetric_frozen",
+      "case_id": "EB05",
+      "condition": "symmetric_frozen",
+      "speaker_events": 4,
+      "ask_actions": 2,
+      "terminal": "STOP",
+      "speaker_flag_event_counts": {
+        "boundary_absence": 4
+      },
+      "ask_categories_present": [
+        "boundary_probe",
+        "consistency_followup",
+        "fact_probe",
+        "presupposition_probe",
+        "provenance_probe",
+        "quotation_reconstruction"
+      ],
+      "evidence_linked_followups": 1,
+      "source_unsupported_premise_questions": 1,
+      "rationale_support_counts": {
+        "supported": 2,
+        "ambiguous": 1
+      },
+      "rationale_relevance_counts": {
+        "not_identifying": 3
+      }
+    },
+    {
+      "id": "EB06_D1_symmetric_frozen",
+      "case_id": "EB06",
+      "condition": "symmetric_frozen",
+      "speaker_events": 8,
+      "ask_actions": 4,
+      "terminal": "STOP",
+      "speaker_flag_event_counts": {
+        "boundary_absence": 8
+      },
+      "ask_categories_present": [
+        "boundary_probe",
+        "consistency_followup",
+        "fact_probe",
+        "provenance_probe",
+        "quotation_reconstruction"
+      ],
+      "evidence_linked_followups": 2,
+      "source_unsupported_premise_questions": 0,
+      "rationale_support_counts": {
+        "supported": 3,
+        "misread": 3,
+        "unsupported": 1
+      },
+      "rationale_relevance_counts": {
+        "not_identifying": 7
+      }
+    },
+    {
+      "id": "EB06_D2_symmetric_frozen",
+      "case_id": "EB06",
+      "condition": "symmetric_frozen",
+      "speaker_events": 11,
+      "ask_actions": 6,
+      "terminal": null,
+      "speaker_flag_event_counts": {
+        "boundary_absence": 11
+      },
+      "ask_categories_present": [
+        "boundary_probe",
+        "consistency_followup",
+        "fact_probe",
+        "provenance_probe",
+        "quotation_reconstruction"
+      ],
+      "evidence_linked_followups": 3,
+      "source_unsupported_premise_questions": 0,
+      "rationale_support_counts": {},
+      "rationale_relevance_counts": {}
+    }
+  ]
+}

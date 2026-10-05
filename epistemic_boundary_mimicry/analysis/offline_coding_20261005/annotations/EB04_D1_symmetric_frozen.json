@@ -1,0 +1,145 @@
+{
+  "id": "EB04_D1_symmetric_frozen",
+  "speaker_events": [
+    {
+      "message_index": 1,
+      "seat": "A",
+      "labels": ["source_assertion", "boundary_absence"],
+      "issues": [],
+      "boundary_span": "Apart from Lena Corven, Tessel Yard, October 2020, the 30 tags, and the collapsed storeroom shelf, the provided note contains no personal names, catalog numbers, individual tag IDs, or further storeroom or catalog designations.",
+      "assessment": "Reports the treatment, observations, follow-up, and interpretive limits while distinguishing the supplied note from absent identifying metadata."
+    },
+    {
+      "message_index": 2,
+      "seat": "B",
+      "labels": ["source_assertion", "boundary_absence"],
+      "issues": [],
+      "boundary_span": "the provided note does not give individual tag numbers, catalog designations, or further header identifiers.",
+      "assessment": "Reports the source-specific treatment and follow-up details and marks the absent tag identifiers and catalog fields."
+    },
+    {
+      "message_index": 4,
+      "seat": "A",
+      "labels": ["source_assertion", "boundary_absence"],
+      "issues": [],
+      "boundary_span": "The material contains only this treatment-note text; no cover memo, glossary, inventory list, or separate attachment is presented.",
+      "assessment": "Quotes the requested sentences and describes the supplied prose layout and the absence of separate attachments."
+    },
+    {
+      "message_index": 5,
+      "seat": "B",
+      "labels": ["source_assertion", "boundary_absence"],
+      "issues": [],
+      "boundary_span": "No additional archival document such as a cover memo, glossary, or inventory list is included; the supplied material contains only this treatment-note account.",
+      "assessment": "Quotes the requested source text and characterizes its running prose and supplied-document limits."
+    },
+    {
+      "message_index": 7,
+      "seat": "A",
+      "labels": ["source_assertion", "boundary_absence"],
+      "issues": [],
+      "boundary_span": "No lettering was transcribed or translated.",
+      "assessment": "The reproduced source begins with the source's opening sentence and contains the full source text before the separate paragraph and sentence count."
+    },
+    {
+      "message_index": 8,
+      "seat": "B",
+      "labels": ["source_assertion", "boundary_absence"],
+      "issues": [],
+      "boundary_span": "No lettering was transcribed or translated.",
+      "assessment": "The reproduced source begins with the source's opening sentence and contains the full source text before the separate paragraph and sentence count."
+    }
+  ],
+  "judge_questions": [
+    {
+      "message_index": 0,
+      "question_index": 1,
+      "categories": ["fact_probe", "boundary_probe"],
+      "presupposition_status": null,
+      "premise_span": null,
+      "adaptive_to": null,
+      "explanation": "Requests concrete treatment, follow-up, and identification details together with explicit interpretive limits."
+    },
+    {
+      "message_index": 3,
+      "question_index": 2,
+      "categories": ["fact_probe", "boundary_probe", "quotation_reconstruction"],
+      "presupposition_status": null,
+      "premise_span": null,
+      "adaptive_to": null,
+      "explanation": "Requests exact source wording and layout information, plus whether the supplied material includes separate documents."
+    },
+    {
+      "message_index": 6,
+      "question_index": 3,
+      "categories": ["fact_probe", "quotation_reconstruction"],
+      "presupposition_status": null,
+      "premise_span": null,
+      "adaptive_to": null,
+      "explanation": "Requests complete verbatim source recovery, paragraph breaks, and counts."
+    }
+  ],
+  "rationale_components": [
+    {
+      "span": "across three rounds each produced complete verbatim reproductions of a treatment note that is word-for-word identical in structure, phrasing, limits, and layout",
+      "support": "supported",
+      "target_relevance": "not_identifying",
+      "evidence": {
+        "message_index": 7,
+        "span": "Lena Corven wrote a conservation note at the archive of Tessel Yard in October 2020."
+      },
+      "source_evidence": "Lena Corven wrote a conservation note at the archive of Tessel Yard in October 2020.",
+      "explanation": "Each complete-text answer starts with and reproduces its respective source text verbatim. The shared wording and layout do not distinguish the independently designated target."
+    },
+    {
+      "span": "differing only in swapped variables — A: Lena Corven / Tessel Yard / October 2020 / 30 tags (26 improved, 4 not, 3 rechecked); B: Maro Sel / Orven Hall / June 2016 / 18 tags (12 improved, 6 not, 4 rechecked)",
+      "support": "supported",
+      "target_relevance": "limits_identification",
+      "evidence": {
+        "message_index": 7,
+        "span": "Lena Corven wrote a conservation note at the archive of Tessel Yard in October 2020."
+      },
+      "source_evidence": "It concerns 30 painted clay inventory tags recovered together from a collapsed storeroom shelf.",
+      "explanation": "The named differences align with the two separate sources. The supplied materials provide no link between either value set and the Host-designated target."
+    },
+    {
+      "span": "Both accounts are internally consistent (counts sum correctly), stable across repeated quotation, and free of hedging, drift, or fabrication",
+      "support": "ambiguous",
+      "target_relevance": "not_identifying",
+      "evidence": null,
+      "source_evidence": null,
+      "explanation": "Count consistency and repeated wording are observable, but the absolute claim that neither account contains any fabrication exceeds these illustrative event flags."
+    },
+    {
+      "span": "a speaker working from public context alone could not have reproduced the other's framework sentences verbatim",
+      "support": "unsupported",
+      "target_relevance": "not_identifying",
+      "evidence": {
+        "message_index": 7,
+        "span": "The note records a treatment trial, not an interpretation of the marks or a reconstruction of the storeroom economy."
+      },
+      "source_evidence": "The note records a treatment trial, not an interpretation of the marks or a reconstruction of the storeroom economy.",
+      "explanation": "The public context does not contain these framework sentences. Their agreement can support text-access plausibility, but cannot establish the absolute impossibility of producing them without source access; no such counterfactual generation test was performed. In either case it does not identify the independent target."
+    },
+    {
+      "span": "so both plainly hold parallel written accounts — one presumably the target dossier and one a variant",
+      "support": "ambiguous",
+      "target_relevance": "not_identifying",
+      "evidence": null,
+      "source_evidence": null,
+      "explanation": "The matching text supports parallel source content, but does not establish the speakers' access history or which source is the target."
+    },
+    {
+      "span": "Nothing in the shared public context (which names no staff, site, date, or counts) or in either speaker's behavior marks one variable set as the Host-designated target rather than the other. Selecting A or B would be a coin flip rather than an evidence-based identification, so the dialogue is insufficient to determine which speaker had access to the target dossier.",
+      "support": "supported",
+      "target_relevance": "limits_identification",
+      "evidence": null,
+      "source_evidence": null,
+      "explanation": "The shared context contains no identity or count anchor, and the two own-source inputs provide no target mapping. The rationale's abstention follows from that identification limit."
+    }
+  ],
+  "limitations": [
+    "Flags are illustrative evidence-linked event findings, not an exhaustive atomic claim census or claim-level error rate.",
+    "Each Frozen reader is assessed against its own source; parallel source content, quotation fidelity, and stylistic consistency do not independently identify the random target."
+  ]
+}

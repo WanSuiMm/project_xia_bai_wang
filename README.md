@@ -1,5 +1,7 @@
 # 瞎掰王：Who Really Knows?
 
+2026-10-05 离线语料复用：[分析报告](epistemic_boundary_mimicry/analysis/offline_coding_20261005/RESULTS.md) → [冻结编码规则](epistemic_boundary_mimicry/analysis/CODEBOOK_20261005.md) → [固定复核集合](epistemic_boundary_mimicry/analysis/offline_coding_20261005/REPLAY_COHORT.md)。覆盖 API 阶段 13 条轨迹、107 次回答、57 次追问；7 条完整 Frozen 对话准备为终局盲复核输入，未按输赢筛选。模型辅助首轮标注，不是独立人工双编码或确认性实验；来源一致性与目标可识别性分别评价。未新增实验 API 调用，未补跑第四场。复核：`python -X utf8 -B scripts/audit_offline_coding.py`。
+
 2026-10-05 措辞独立 Frozen 快照：[结果](epistemic_boundary_mimicry/SURFACE_DIVERSE_FROZEN_RESULTS.md) → [协议](epistemic_boundary_mimicry/SURFACE_DIVERSE_FROZEN_PROTOCOL.md) → [可见证据](epistemic_boundary_mimicry/published_runs/go_surface_diverse_cutoff_20261005/README.md)。2 个新背景 × Qwen／GLM 双向，完成 3／4 场，均选择 Speaker（6／2／4 次追问）；第四场第 6 问等待 B 回答时达到预设额度保护，无终局。随机目标不可当作真实性评分；与此前模板资料的弃权差异不是受控因果效应。复核：`python -X utf8 -B scripts/publish_surface_diverse_frozen.py`。
 
 2026-10-04 两道新题 Frozen 完成：[结果](epistemic_boundary_mimicry/FROZEN_PAIR_RESULTS.md) → [可见证据](epistemic_boundary_mimicry/published_runs/go_frozen_pair_completed_20261004/README.md)。生态题追问 4 次后弃权（保留缺引号失败，单字符修复后继承历史）；考古题追问 3 次后弃权，无修复。Qwen Readers → GLM Judge；有限资料同模板生成，冻结资料／座位后独立随机指定目标，裁判不知道该机制。仅两条探索轨迹，不证明稳定识别真实性。复核：`python -X utf8 -B scripts/publish_boundary_frozen_pair.py`。
@@ -32,9 +34,9 @@
 
 ## 从这里开始
 
-1. [最新策略瞎掰结果](strategic_bluff_pilot/COMPLETED_RESULTS.md)：8 个终局及混合协议的结论边界。
-2. [冻结协议](strategic_bluff_pilot/PROTOCOL.md)、[补跑修订](strategic_bluff_pilot/RETRY_PROTOCOL.md) 和 [取消上限修订](strategic_bluff_pilot/COMPLETION04_PROTOCOL.md)。
-3. [公开提示词与回复](strategic_bluff_pilot/published_runs/eight_completed_20261004/README.md)：逐条原始可见回复，仅作二级证据。
+1. [最新离线分析](epistemic_boundary_mimicry/analysis/offline_coding_20261005/RESULTS.md)：覆盖范围、证据实例和结论边界。
+2. [编码规则](epistemic_boundary_mimicry/analysis/CODEBOOK_20261005.md) 与 [七条复核集合](epistemic_boundary_mimicry/analysis/offline_coding_20261005/REPLAY_COHORT.md)。
+3. [小型分析汇总](epistemic_boundary_mimicry/analysis/offline_coding_20261005/coding_summary.json)：再按需要查阅逐条标注和原始对话；不要先读大型 JSON。
 4. [增量审阅交接](GPT_HANDOFF.md)：本次变化及旧实验不变的结论。
 
 以下是 v0.1 的历史阅读路线：

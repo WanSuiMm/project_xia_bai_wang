@@ -1,0 +1,239 @@
+{
+  "id": "EB06_D1_symmetric_frozen",
+  "speaker_events": [
+    {
+      "message_index": 1,
+      "seat": "A",
+      "labels": [
+        "source_assertion",
+        "boundary_absence",
+        "qualified_inference"
+      ],
+      "issues": [],
+      "boundary_span": "The note does not give further procedural detail about how the paper was folded, held, or physically removed beyond that removal-before-planting point.",
+      "assessment": "Accurately reports the Bracken Pool procedure, setup, emergence measure and selected follow-up; it keeps mechanism and broader performance limits qualified."
+    },
+    {
+      "message_index": 2,
+      "seat": "B",
+      "labels": [
+        "source_assertion",
+        "boundary_absence"
+      ],
+      "issues": [],
+      "boundary_span": "The limited follow-up observed six easily located shoots for five additional days. All six remained visible, but the note cautions that this selection favored convenient plants and cannot establish a survival rate for the whole sowing.",
+      "assessment": "Accurately reports the Larch Mere comparison and its opening follow-up caution, including selected shoots and the limit on survival claims."
+    },
+    {
+      "message_index": 4,
+      "seat": "A",
+      "labels": [
+        "uncertainty",
+        "boundary_absence",
+        "source_assertion"
+      ],
+      "issues": [],
+      "boundary_span": "The dossier does not give headings or section order, approximate length, or whether the note was handwritten or typed.",
+      "assessment": "The form and exact wording of a possible underlying original note are not established by the finite text; it accurately reports what the supplied source does and does not specify."
+    },
+    {
+      "message_index": 5,
+      "seat": "B",
+      "labels": [
+        "uncertainty",
+        "boundary_absence",
+        "source_assertion"
+      ],
+      "issues": [],
+      "boundary_span": "The dossier does not specify the note’s headings, section order, approximate length, whether it was handwritten or typed, or whether it included a table or tally sheet.",
+      "assessment": "Correctly says the supplied text does not specify document layout or a formal table; this does not deny the separately referenced sheet entries."
+    },
+    {
+      "message_index": 7,
+      "seat": "A",
+      "labels": [
+        "source_assertion",
+        "qualified_inference",
+        "boundary_absence"
+      ],
+      "issues": [],
+      "boundary_span": "The dossier gives no opening caution or framing statement before the procedure; it only reports the procedure, observations, and follow-up.",
+      "assessment": "Correctly reports that the Arlen Moss source has no opening caution, distinguishes the sheet’s documented blank-cell rule from unspecified layout, identifies the followed plants as from the prepared tray, and labels the persistence interpretation as an inference."
+    },
+    {
+      "message_index": 8,
+      "seat": "B",
+      "labels": [
+        "source_assertion",
+        "qualified_inference",
+        "boundary_absence"
+      ],
+      "issues": [],
+      "boundary_span": "It does not describe rows, columns, how mornings are labeled, what marks were entered, or any other layout.",
+      "assessment": "Correctly reports the Larch Mere source’s opening caution and selected follow-up, marks the sheet layout and tray assignment as unspecified, and separates the treatment details from missing procedural rationales."
+    },
+    {
+      "message_index": 10,
+      "seat": "A",
+      "labels": [
+        "source_assertion",
+        "boundary_absence"
+      ],
+      "issues": [],
+      "boundary_span": "Within the note-specific dossier, nothing else remains unmentioned.",
+      "assessment": "Accurately enumerates the Bracken Pool source’s content and absent quantities; its statement that this source contains no opening caution is correct."
+    },
+    {
+      "message_index": 11,
+      "seat": "B",
+      "labels": [
+        "source_assertion",
+        "boundary_absence",
+        "qualified_inference"
+      ],
+      "issues": [],
+      "boundary_span": "Among cultivation-note content elements, nothing remains unmentioned; the only other dossier material is non-note framing, which I am not treating as note content.",
+      "assessment": "Accurately enumerates the Larch Mere source, including its opening caution, all numeric details and its limits; the inferred total of forty is explicitly separated from source numbers."
+    }
+  ],
+  "judge_questions": [
+    {
+      "message_index": 0,
+      "question_index": 1,
+      "categories": [
+        "fact_probe"
+      ],
+      "presupposition_status": null,
+      "premise_span": null,
+      "adaptive_to": null,
+      "explanation": "Requests the named materials, procedure, tray setup, outcome and limited follow-up."
+    },
+    {
+      "message_index": 3,
+      "question_index": 2,
+      "categories": [
+        "fact_probe",
+        "boundary_probe",
+        "quotation_reconstruction",
+        "provenance_probe"
+      ],
+      "presupposition_status": null,
+      "premise_span": null,
+      "adaptive_to": null,
+      "explanation": "Asks for exact wording and document details while allowing the reader to say the source does not provide them."
+    },
+    {
+      "message_index": 6,
+      "question_index": 3,
+      "categories": [
+        "fact_probe",
+        "boundary_probe",
+        "consistency_followup"
+      ],
+      "presupposition_status": null,
+      "premise_span": null,
+      "adaptive_to": {
+        "message_index": 5,
+        "span": "It only paraphrases the opening caution and the closing limitation."
+      },
+      "explanation": "Follows the prior discussion of exact wording and probes whether caution, sheet layout, tray assignment and procedural rationales are actually present."
+    },
+    {
+      "message_index": 9,
+      "question_index": 4,
+      "categories": [
+        "fact_probe",
+        "boundary_probe",
+        "consistency_followup"
+      ],
+      "presupposition_status": null,
+      "premise_span": null,
+      "adaptive_to": {
+        "message_index": 8,
+        "span": "Explicit: the dossier says the report opens with a caution about its follow-up."
+      },
+      "explanation": "Builds on B’s opening-caution description and requests a full inventory and reconciliation; the conditional wording does not presuppose that both sources have a caution."
+    }
+  ],
+  "rationale_components": [
+    {
+      "span": "A's account remained perfectly stable and boundary-aware across four escalating stress rounds:",
+      "support": "supported",
+      "target_relevance": "not_identifying",
+      "evidence": {
+        "message_index": 10,
+        "span": "Within the note-specific dossier, nothing else remains unmentioned."
+      },
+      "source_evidence": "Moss restricts the conclusion to these two trays and the recorded observation interval.",
+      "explanation": "A’s responses remain aligned with the Bracken Pool source, including the correct denial of an opening caution. Stability is source fidelity and does not identify the random target."
+    },
+    {
+      "span": "exact alignment with the public context's three-component description of the note (procedure, observations, limited follow-up — no extra components)",
+      "support": "supported",
+      "target_relevance": "not_identifying",
+      "evidence": {
+        "message_index": 10,
+        "span": "28. The difference in emergence counts does not establish performance across multiple soil types, seasons, or nurseries."
+      },
+      "source_evidence": null,
+      "explanation": "The summary and A’s inventory cover those three broad components; agreement with a public summary does not reveal an independent target designation."
+    },
+    {
+      "span": "explicit attribution of the follow-up plants to the prepared tray",
+      "support": "supported",
+      "target_relevance": "not_identifying",
+      "evidence": {
+        "message_index": 1,
+        "span": "The limited follow-up involved selecting five emerged plants from the prepared tray and keeping them under observation for another six days."
+      },
+      "source_evidence": "Five emerged plants from the prepared tray were kept under observation for another six days.",
+      "explanation": "The source and answer identify the prepared tray, but this source-specific detail does not identify the randomly assigned target."
+    },
+    {
+      "span": "B's account showed drift under pressure: an 'opening caution' that was absent from B's comprehensive round-1 layout but appeared only when pressed for the opening sentence in round 2",
+      "support": "misread",
+      "target_relevance": "not_identifying",
+      "evidence": {
+        "message_index": 2,
+        "span": "The limited follow-up observed six easily located shoots for five additional days. All six remained visible, but the note cautions that this selection favored convenient plants and cannot establish a survival rate for the whole sowing."
+      },
+      "source_evidence": "The Larch Mere nursery's May 2022 report opens with a caution about its follow-up: observing six easily located shoots for five additional days cannot establish a survival rate for the whole sowing.",
+      "explanation": "The source explicitly begins with the caution, and B already reports its substance in the first answer. The transcript does not show the caution being introduced only under pressure."
+    },
+    {
+      "span": "a document-incoherent structure that also adds a component the public context's summary of the note does not mention.",
+      "support": "misread",
+      "target_relevance": "not_identifying",
+      "evidence": {
+        "message_index": 11,
+        "span": "Explicit: the dossier says the report opens with a caution about its follow-up, and that caution includes the follow-up details."
+      },
+      "source_evidence": "All six remained visible, but selection favored plants that were convenient to inspect. Jana Pell, who compiled the report, treats that observation as a limited check rather than a test of later flowering.",
+      "explanation": "The supplied source puts the outcomes and limitation in its opening paragraph. A public summary’s omission does not contradict that source content or make its structure incoherent."
+    },
+    {
+      "span": "B additionally contradicted itself about whether the record included a table/tally sheet (round 2 denial) versus its repeated explicit references to 'blank sheet entries' (rounds 1, 3, 4).",
+      "support": "misread",
+      "target_relevance": "not_identifying",
+      "evidence": {
+        "message_index": 5,
+        "span": "The dossier does not specify the note’s headings, section order, approximate length, whether it was handwritten or typed, or whether it included a table or tally sheet."
+      },
+      "source_evidence": "When a position could not be checked, its sheet entry remained blank; that blank is not a recorded failure to emerge.",
+      "explanation": "B says the source does not describe a formal table or tally-sheet layout; this does not deny that a sheet is mentioned."
+    },
+    {
+      "span": "every asymmetry — stability, structural coherence, public-context alignment, and numeric typicality — favors A as the target-dossier holder",
+      "support": "unsupported",
+      "target_relevance": "not_identifying",
+      "evidence": null,
+      "source_evidence": null,
+      "explanation": "These response-style and source-fidelity comparisons cannot identify a target whose designation is random and independent."
+    }
+  ],
+  "limitations": [
+    "The exact wording and format of an underlying original note are not established separately from the finite text supplied to the reader; no quotation/provenance mismatch is treated as a definite error.",
+    "The B source explicitly opens with the follow-up caution. Its mention is not a contradiction or a structural incoherence.",
+    "Target designation is random and independent; source fidelity, style, provenance and numeric typicality do not identify it."
+  ]
+}
