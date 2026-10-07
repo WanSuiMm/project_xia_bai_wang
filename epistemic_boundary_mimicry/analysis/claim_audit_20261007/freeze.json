@@ -1,0 +1,27 @@
+{
+  "scope": "all canonical API EB01-EB06; retrospective sentence/clause grid",
+  "protocol_sha256_lf": "3647650caaf55528d142c9732ece0619c8e6c017717796f3af73b917a919fd86",
+  "original_freeze_sha256_lf": "45b50c51d198c5b99eab0f4c2d8db01516047c2fd66acd9a6ab5db6ad88e8495",
+  "inputs": {
+    "EB01_D1_boundary_aware.json": "2f14565bb6c3911302a9b92c92c53af05232bb893d92bc2a782b93f0cd92aac6",
+    "EB01_D1_strong.json": "bf729ebddde51fc67930b7e3230385a2a2ef3cb74a7fc916736905487d66324f",
+    "EB01_D1_symmetric_frozen.json": "07cabd28528452038898c70815b3fed8461db9dbbfd4c5d24908ea8eabc93ea9",
+    "EB01_D2_boundary_aware.json": "44fe7f0411a46ac7578e85c997b13c907312a4c8d3a841d4cedc92a4c55bbd9c",
+    "EB02_D1_boundary_aware.json": "3319c8349e9ec47d3b62f832e28ac67fcaaec23572f188dcc47cc9c213632703",
+    "EB02_D1_strong.json": "fa92573eae351f661ad2fe33c1fdfbc8912491df2bc11d8f4c99beca00d22d57",
+    "EB02_D1_symmetric_frozen.json": "bbbcd6bd49365e2dae2e9b9ed1a3d2ee31ec9952c6a0ac4bbcfdd34a60c954e5",
+    "EB03_D1_symmetric_frozen.json": "b0005fe566e0473ddc371a23374c25190c67fd4aa7bbdedcf2d64433f071e8bc",
+    "EB04_D1_symmetric_frozen.json": "29b58f7ee9bb54f4f55216a00203d3334ec6d16804827ba5db8daf87a16ebfe5",
+    "EB05_D1_symmetric_frozen.json": "2f9e9cda016580acb52091e398527291f02d39be3dad7767b7775646cb949ca4",
+    "EB05_D2_symmetric_frozen.json": "fda189c903997836015c8a26a26202ef386c747bbc342fd33eacbd5b182a8830",
+    "EB06_D1_symmetric_frozen.json": "ec0cb992a517117f265003157569e9fdf56009b3dcbb61c151f1a4e54e8448e1",
+    "EB06_D2_symmetric_frozen.json": "5f06130047de70feb587cd1a9e46bc4abcf352587adf14ff6cbe6cae5109ba78"
+  },
+  "counts": {
+    "trajectories": 13,
+    "answers": 107,
+    "units": 1952,
+    "asks": 57
+  },
+  "experimental_api_calls": 0
+}

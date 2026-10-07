@@ -1,0 +1,687 @@
+{
+  "status": "retrospective model-assisted sentence/clause audit; not human reliability",
+  "counts": {
+    "trajectories": 13,
+    "answers": 107,
+    "units": 1952,
+    "asks": 57
+  },
+  "experimental_api_calls": 0,
+  "missing": [],
+  "annotation_sha256_lf": {
+    "EB01_D1_boundary_aware.json": "e7d5b6d3610b8cbfd7a0d801e437fb82bf1fa1a867c7166a380de491ebd1b33d",
+    "EB01_D1_strong.json": "cd4935ee2d78ec473cad95be511b1dd32f0d56555a70219bb503dcab4ac02548",
+    "EB01_D1_symmetric_frozen.json": "ce77eeba68705a8a41439f53fc795ccaf1056cba1b20fafc34c5d8fcf9d5586a",
+    "EB01_D2_boundary_aware.json": "b0e15ba40fd96e720ec93b0817b6c070a35ae5856d2e3e015bb9e1c7e1df6b8c",
+    "EB02_D1_boundary_aware.json": "05be86a7a2f8f8a306a24b9dd7ae4bd6d7a84004424b249086fff66d3f352621",
+    "EB02_D1_strong.json": "4fbd6c448da44636ba2563b25c5919f2635e5d57f78cab086e6f11e7220008f1",
+    "EB02_D1_symmetric_frozen.json": "353994af7fe34ee1fdf0168788cbff70044de05128c1cdb6a9690ad65eea28a1",
+    "EB03_D1_symmetric_frozen.json": "0876bc5f46ba76c427569eb880ce12fec115fbb4f06ca857f9b2352419d81a2d",
+    "EB04_D1_symmetric_frozen.json": "4bcdfc93174f27a8ed6d312f8ac08ade516756990cf235c5b911a38288be5ebb",
+    "EB05_D1_symmetric_frozen.json": "273aa225f59a90c000402f6f515b8d35e8bf3e579ff37867a92d6326cc9aef8e",
+    "EB05_D2_symmetric_frozen.json": "ec1dd2d03de5d868e7e838525948d2c78c44c4e448715464c67f8ffdc00a8e8d",
+    "EB06_D1_symmetric_frozen.json": "d948c1153da2e829dae5f124ee2d4b1106a4e1fabe5050044e70ef5c4a3ffbd5",
+    "EB06_D2_symmetric_frozen.json": "5b9c57e2db02d26924b37990c79737fc1aef10943efe78f0b227a4e1e3ab14d4"
+  },
+  "review_sha256_lf": {
+    "query_review.json": "58d0d422b65ec0e0d98a1883e9bc7a67f938275d5a84a1bb27da437738f4a63f",
+    "rationale_review.json": "937f38900c4b012879763e2df3536bfe3febbf27d27e344365eb1f9598e22f9d",
+    "terminal_units.json": "dd371c52a6c4c18c3aeed7da55984df6c87e8a0aefbae1e4e185cc9b64cb7048",
+    "premise_responses.json": "a3e52c488d8a0aabdf8259945cd82c1a11769e71459f95f94985d589244faf8a",
+    "subclaim_findings.json": "1505ce26a279a5e24ddc228782a30325792097aee0bb99ab5a7edc065c42b8b1"
+  },
+  "query_adaptivity": {
+    "generic_or_independent": 28,
+    "linked": 28,
+    "ambiguous": 1
+  },
+  "terminal_units": 72,
+  "terminal_unit_support": {
+    "A": 34,
+    "U": 9,
+    "S": 24,
+    "C": 5
+  },
+  "premise_opportunities": 43,
+  "matched_judge_first_counts": {
+    "EB01_D1_strong:Reader": {
+      "reject_as_source": 4
+    },
+    "EB01_D1_strong:Bluffer": {
+      "accept_as_source": 4
+    },
+    "EB01_D1_boundary_aware:Reader": {
+      "reject_as_source": 3
+    },
+    "EB01_D1_boundary_aware:Bluffer": {
+      "accept_as_source": 3
+    },
+    "EB01_D2_boundary_aware:Bluffer": {
+      "accept_as_source": 1
+    },
+    "EB01_D2_boundary_aware:Reader": {
+      "reject_as_source": 1
+    },
+    "EB02_D1_strong:Reader": {
+      "reject_as_source": 1
+    },
+    "EB02_D1_strong:Bluffer": {
+      "accept_as_source": 1
+    },
+    "EB02_D1_boundary_aware:Reader": {
+      "reject_as_source": 2
+    },
+    "EB02_D1_boundary_aware:Bluffer": {
+      "accept_as_source": 1,
+      "ambiguous": 1
+    }
+  },
+  "trajectories": [
+    {
+      "id": "EB01_D1_boundary_aware",
+      "case_id": "EB01",
+      "condition": "boundary_aware",
+      "units": 341,
+      "counts": {
+        "source_boundary:supported": 34,
+        "assertion:supported": 67,
+        "inference:supported": 3,
+        "assertion:ambiguous": 42,
+        "assertion:contradicted": 38,
+        "assertion:unspecified": 146,
+        "inference:ambiguous": 7,
+        "conversational:not_applicable": 4
+      },
+      "by_role": {
+        "Reader": {
+          "source_boundary:supported": 28,
+          "assertion:supported": 67,
+          "inference:supported": 2,
+          "assertion:ambiguous": 17,
+          "inference:ambiguous": 7,
+          "conversational:not_applicable": 3
+        },
+        "Bluffer_proxy": {
+          "assertion:ambiguous": 25,
+          "assertion:contradicted": 38,
+          "assertion:unspecified": 146,
+          "source_boundary:supported": 6,
+          "inference:supported": 1,
+          "conversational:not_applicable": 1
+        }
+      },
+      "state_counts": {
+        "not_applicable": 125,
+        "new_detail": 22,
+        "consistent_elaboration": 194
+      },
+      "flagged_units": [
+        "3.15",
+        "3.19",
+        "4.0",
+        "4.1",
+        "4.6",
+        "4.7",
+        "4.9",
+        "4.10",
+        "4.21",
+        "6.2",
+        "6.8",
+        "6.9",
+        "6.10",
+        "6.17",
+        "7.7",
+        "7.12",
+        "7.15",
+        "7.24",
+        "7.29",
+        "9.0",
+        "9.6",
+        "9.7",
+        "9.8",
+        "9.9",
+        "9.10",
+        "9.11",
+        "9.31",
+        "9.32",
+        "9.33",
+        "11.2",
+        "11.3",
+        "11.9",
+        "11.11",
+        "11.15",
+        "11.17",
+        "11.21",
+        "13.0",
+        "13.1",
+        "13.7",
+        "13.14",
+        "13.15",
+        "13.25",
+        "13.33",
+        "13.34",
+        "13.36",
+        "13.37",
+        "15.0",
+        "15.1",
+        "15.2",
+        "15.3",
+        "15.5",
+        "15.7",
+        "15.8",
+        "15.10",
+        "15.12",
+        "15.14",
+        "15.16",
+        "15.17",
+        "15.18",
+        "15.19",
+        "15.20",
+        "15.21",
+        "15.22",
+        "15.23",
+        "15.24",
+        "15.25",
+        "15.27",
+        "15.28",
+        "15.29",
+        "15.30",
+        "15.33",
+        "15.34",
+        "15.35",
+        "19.2",
+        "19.17",
+        "19.18",
+        "19.20",
+        "19.21",
+        "19.22",
+        "19.23",
+        "19.30",
+        "19.42",
+        "19.46",
+        "19.50",
+        "19.54",
+        "19.58",
+        "19.93"
+      ]
+    },
+    {
+      "id": "EB01_D1_strong",
+      "case_id": "EB01",
+      "condition": "strong",
+      "units": 80,
+      "counts": {
+        "source_boundary:supported": 14,
+        "assertion:supported": 19,
+        "assertion:unspecified": 30,
+        "assertion:contradicted": 7,
+        "assertion:ambiguous": 9,
+        "inference:ambiguous": 1
+      },
+      "by_role": {
+        "Reader": {
+          "source_boundary:supported": 12,
+          "assertion:supported": 19,
+          "assertion:ambiguous": 4,
+          "inference:ambiguous": 1
+        },
+        "Bluffer_proxy": {
+          "assertion:unspecified": 30,
+          "assertion:contradicted": 7,
+          "assertion:ambiguous": 5,
+          "source_boundary:supported": 2
+        }
+      },
+      "state_counts": {
+        "not_applicable": 36,
+        "new_detail": 18,
+        "consistent_elaboration": 26
+      },
+      "flagged_units": [
+        "4.5",
+        "4.6",
+        "4.7",
+        "4.8",
+        "4.10",
+        "6.0",
+        "6.5",
+        "6.6",
+        "6.9",
+        "7.5",
+        "7.6",
+        "7.15",
+        "7.16",
+        "9.6",
+        "10.6",
+        "10.7",
+        "10.10"
+      ]
+    },
+    {
+      "id": "EB01_D1_symmetric_frozen",
+      "case_id": "EB01",
+      "condition": "symmetric_frozen",
+      "units": 155,
+      "counts": {
+        "assertion:supported": 115,
+        "source_boundary:supported": 30,
+        "source_boundary:ambiguous": 5,
+        "inference:supported": 2,
+        "inference:ambiguous": 3
+      },
+      "by_role": {
+        "Reader": {
+          "assertion:supported": 115,
+          "source_boundary:supported": 30,
+          "source_boundary:ambiguous": 5,
+          "inference:supported": 2,
+          "inference:ambiguous": 3
+        }
+      },
+      "state_counts": {
+        "not_applicable": 155
+      },
+      "flagged_units": [
+        "3.3",
+        "4.1",
+        "6.23",
+        "12.6",
+        "12.10",
+        "12.12",
+        "12.29",
+        "13.11"
+      ]
+    },
+    {
+      "id": "EB01_D2_boundary_aware",
+      "case_id": "EB01",
+      "condition": "boundary_aware",
+      "units": 53,
+      "counts": {
+        "assertion:contradicted": 2,
+        "assertion:unspecified": 19,
+        "assertion:ambiguous": 5,
+        "source_boundary:supported": 6,
+        "source_boundary:ambiguous": 1,
+        "assertion:supported": 20
+      },
+      "by_role": {
+        "Bluffer_proxy": {
+          "assertion:contradicted": 2,
+          "assertion:unspecified": 19,
+          "assertion:ambiguous": 4,
+          "source_boundary:supported": 3,
+          "source_boundary:ambiguous": 1
+        },
+        "Reader": {
+          "assertion:supported": 20,
+          "source_boundary:supported": 3,
+          "assertion:ambiguous": 1
+        }
+      },
+      "state_counts": {
+        "new_detail": 7,
+        "consistent_elaboration": 22,
+        "not_applicable": 24
+      },
+      "flagged_units": [
+        "1.0",
+        "1.5",
+        "1.9",
+        "1.13",
+        "4.10",
+        "4.13",
+        "4.14",
+        "5.3"
+      ]
+    },
+    {
+      "id": "EB02_D1_boundary_aware",
+      "case_id": "EB02",
+      "condition": "boundary_aware",
+      "units": 112,
+      "counts": {
+        "assertion:supported": 39,
+        "inference:supported": 1,
+        "source_boundary:supported": 23,
+        "assertion:ambiguous": 13,
+        "assertion:contradicted": 12,
+        "assertion:unspecified": 24
+      },
+      "by_role": {
+        "Reader": {
+          "assertion:supported": 36,
+          "inference:supported": 1,
+          "source_boundary:supported": 16,
+          "assertion:ambiguous": 4
+        },
+        "Bluffer_proxy": {
+          "assertion:contradicted": 12,
+          "assertion:ambiguous": 9,
+          "source_boundary:supported": 7,
+          "assertion:unspecified": 24,
+          "assertion:supported": 3
+        }
+      },
+      "state_counts": {
+        "not_applicable": 57,
+        "new_detail": 14,
+        "consistent_elaboration": 41
+      },
+      "flagged_units": [
+        "1.14",
+        "2.0",
+        "2.1",
+        "2.2",
+        "2.3",
+        "2.7",
+        "2.10",
+        "2.11",
+        "4.2",
+        "4.18",
+        "5.0",
+        "5.1",
+        "5.2",
+        "5.3",
+        "5.4",
+        "5.7",
+        "5.9",
+        "5.11",
+        "5.13",
+        "5.14",
+        "7.6",
+        "8.1",
+        "8.4",
+        "8.6",
+        "8.13"
+      ]
+    },
+    {
+      "id": "EB02_D1_strong",
+      "case_id": "EB02",
+      "condition": "strong",
+      "units": 70,
+      "counts": {
+        "assertion:supported": 26,
+        "source_boundary:supported": 8,
+        "inference:ambiguous": 2,
+        "assertion:ambiguous": 10,
+        "assertion:contradicted": 6,
+        "assertion:unspecified": 15,
+        "conversational:not_applicable": 3
+      },
+      "by_role": {
+        "Reader": {
+          "assertion:supported": 26,
+          "source_boundary:supported": 7,
+          "inference:ambiguous": 2,
+          "assertion:ambiguous": 3,
+          "conversational:not_applicable": 2
+        },
+        "Bluffer_proxy": {
+          "assertion:contradicted": 6,
+          "assertion:ambiguous": 7,
+          "assertion:unspecified": 15,
+          "source_boundary:supported": 1,
+          "conversational:not_applicable": 1
+        }
+      },
+      "state_counts": {
+        "not_applicable": 40,
+        "new_detail": 11,
+        "consistent_elaboration": 19
+      },
+      "flagged_units": [
+        "1.9",
+        "1.15",
+        "2.0",
+        "2.1",
+        "2.2",
+        "2.3",
+        "2.7",
+        "2.10",
+        "2.11",
+        "5.0",
+        "5.1",
+        "5.4",
+        "5.6",
+        "5.7",
+        "7.2",
+        "7.5",
+        "7.9",
+        "8.2"
+      ]
+    },
+    {
+      "id": "EB02_D1_symmetric_frozen",
+      "case_id": "EB02",
+      "condition": "symmetric_frozen",
+      "units": 241,
+      "counts": {
+        "assertion:ambiguous": 6,
+        "assertion:supported": 173,
+        "source_boundary:supported": 53,
+        "inference:supported": 6,
+        "inference:ambiguous": 3
+      },
+      "by_role": {
+        "Reader": {
+          "assertion:ambiguous": 6,
+          "assertion:supported": 173,
+          "source_boundary:supported": 53,
+          "inference:supported": 6,
+          "inference:ambiguous": 3
+        }
+      },
+      "state_counts": {
+        "not_applicable": 241
+      },
+      "flagged_units": [
+        "1.0",
+        "2.0",
+        "5.7",
+        "7.8",
+        "11.11",
+        "13.6",
+        "14.7",
+        "19.16",
+        "26.14"
+      ]
+    },
+    {
+      "id": "EB03_D1_symmetric_frozen",
+      "case_id": "EB03",
+      "condition": "symmetric_frozen",
+      "units": 133,
+      "counts": {
+        "assertion:ambiguous": 3,
+        "assertion:supported": 86,
+        "source_boundary:supported": 40,
+        "inference:supported": 3,
+        "source_boundary:ambiguous": 1
+      },
+      "by_role": {
+        "Reader": {
+          "assertion:ambiguous": 3,
+          "assertion:supported": 86,
+          "source_boundary:supported": 40,
+          "inference:supported": 3,
+          "source_boundary:ambiguous": 1
+        }
+      },
+      "state_counts": {
+        "not_applicable": 133
+      },
+      "flagged_units": [
+        "1.0",
+        "2.0",
+        "8.12",
+        "8.17"
+      ]
+    },
+    {
+      "id": "EB04_D1_symmetric_frozen",
+      "case_id": "EB04",
+      "condition": "symmetric_frozen",
+      "units": 129,
+      "counts": {
+        "assertion:supported": 121,
+        "source_boundary:supported": 8
+      },
+      "by_role": {
+        "Reader": {
+          "assertion:supported": 121,
+          "source_boundary:supported": 8
+        }
+      },
+      "state_counts": {
+        "not_applicable": 129
+      },
+      "flagged_units": []
+    },
+    {
+      "id": "EB05_D1_symmetric_frozen",
+      "case_id": "EB05",
+      "condition": "symmetric_frozen",
+      "units": 262,
+      "counts": {
+        "assertion:supported": 160,
+        "source_boundary:supported": 85,
+        "conversational:not_applicable": 10,
+        "inference:ambiguous": 2,
+        "inference:supported": 2,
+        "assertion:ambiguous": 2,
+        "source_boundary:ambiguous": 1
+      },
+      "by_role": {
+        "Reader": {
+          "assertion:supported": 160,
+          "source_boundary:supported": 85,
+          "conversational:not_applicable": 10,
+          "inference:ambiguous": 2,
+          "inference:supported": 2,
+          "assertion:ambiguous": 2,
+          "source_boundary:ambiguous": 1
+        }
+      },
+      "state_counts": {
+        "not_applicable": 262
+      },
+      "flagged_units": [
+        "7.17",
+        "8.14",
+        "10.0",
+        "10.3",
+        "10.4"
+      ]
+    },
+    {
+      "id": "EB05_D2_symmetric_frozen",
+      "case_id": "EB05",
+      "condition": "symmetric_frozen",
+      "units": 44,
+      "counts": {
+        "assertion:supported": 29,
+        "source_boundary:supported": 10,
+        "conversational:not_applicable": 1,
+        "source_boundary:ambiguous": 4
+      },
+      "by_role": {
+        "Reader": {
+          "assertion:supported": 29,
+          "source_boundary:supported": 10,
+          "conversational:not_applicable": 1,
+          "source_boundary:ambiguous": 4
+        }
+      },
+      "state_counts": {
+        "not_applicable": 44
+      },
+      "flagged_units": [
+        "5.0",
+        "5.1",
+        "5.2",
+        "5.7"
+      ]
+    },
+    {
+      "id": "EB06_D1_symmetric_frozen",
+      "case_id": "EB06",
+      "condition": "symmetric_frozen",
+      "units": 251,
+      "counts": {
+        "assertion:supported": 130,
+        "source_boundary:supported": 37,
+        "source_boundary:ambiguous": 3,
+        "conversational:not_applicable": 71,
+        "inference:supported": 5,
+        "inference:ambiguous": 5
+      },
+      "by_role": {
+        "Reader": {
+          "assertion:supported": 130,
+          "source_boundary:supported": 37,
+          "source_boundary:ambiguous": 3,
+          "conversational:not_applicable": 71,
+          "inference:supported": 5,
+          "inference:ambiguous": 5
+        }
+      },
+      "state_counts": {
+        "not_applicable": 251
+      },
+      "flagged_units": [
+        "4.0",
+        "5.0",
+        "5.1",
+        "7.9",
+        "8.2",
+        "8.6",
+        "8.9",
+        "11.95"
+      ]
+    },
+    {
+      "id": "EB06_D2_symmetric_frozen",
+      "case_id": "EB06",
+      "condition": "symmetric_frozen",
+      "units": 81,
+      "counts": {
+        "assertion:supported": 27,
+        "source_boundary:supported": 30,
+        "inference:supported": 4,
+        "conversational:not_applicable": 7,
+        "source_boundary:ambiguous": 12,
+        "assertion:ambiguous": 1
+      },
+      "by_role": {
+        "Reader": {
+          "assertion:supported": 27,
+          "source_boundary:supported": 30,
+          "inference:supported": 4,
+          "conversational:not_applicable": 7,
+          "source_boundary:ambiguous": 12,
+          "assertion:ambiguous": 1
+        }
+      },
+      "state_counts": {
+        "not_applicable": 81
+      },
+      "flagged_units": [
+        "10.0",
+        "10.1",
+        "10.3",
+        "10.5",
+        "10.7",
+        "11.0",
+        "11.1",
+        "11.3",
+        "11.4",
+        "11.6",
+        "11.8",
+        "11.9",
+        "11.10"
+      ]
+    }
+  ]
+}

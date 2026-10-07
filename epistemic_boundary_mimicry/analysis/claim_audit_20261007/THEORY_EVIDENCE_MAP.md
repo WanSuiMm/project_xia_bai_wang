@@ -1,0 +1,14 @@
+# Four theory objects: what this audit can and cannot establish
+
+This is an evidence-scope map, not a novelty claim or a new theorem development. The current task audits existing behavior. Formal proofs and literature attribution are a separate theory write-up.
+
+| Object | Required setup | Existing evidence | Unmeasured quantity / claim boundary |
+|---|---|---|---|
+| Adaptive non-identifiability, independence implies zero mutual information | Target label independent of source/seat/history generation; question/stopping policy has no target access | Frozen generation protocols and published provenance draw a target independently after source/seat freeze; the audit keeps each reader's source separate from designation | Finite transcripts do not estimate mutual information. Protocol independence is not established merely by seeing abstention or similar prose. It says nothing about original source-access tasks without the same assumptions. |
+| Active distinguishability / binary equal-prior Bayes error | Define a query-policy-induced pair of transcript distributions and whether TV is fixed-policy or optimized over policies | Existing queries and answers identify concrete observed differences and show how a Judge uses them | Neither transcript-distribution TV nor optimal risk is estimated. A correct final choice is not proof of Bayes-optimal discrimination; source differences are not target-linked evidence in Frozen. |
+| Query-information decomposition | Query choice uses observed history and target-independent randomness; define history, observations and stopping/padding carefully | Textual follow-ups have cited earlier answer and later question spans | Textual dependence is not information gain, mutual information or counterfactual policy adaptation. No answer kernel is learned and no causal benefit of interaction is estimated. |
+| Selective inference bound | Equal priors, randomized selection/abstention measurable from observed history; define population coverage and conditional accuracy | Original complete endpoints retain selection and abstention separately; partial endpoint remains missing | Seven complete Frozen records are an exploratory, unbalanced cohort, not an estimate of population coverage or conditional accuracy. Random-label matches are not authenticity accuracy. |
+
+Source consistency and boundedness are behavioral observables. Stable answers cannot prove the existence of a persistent internal latent document: an online generator can maintain compatible commitments. A Judge's correct identification does not validate its stated mechanism. Conversely, a Blind Judge's stylistic guess under an undisclosed null is not equivalent to a Judge knowingly ignoring an explicitly disclosed null.
+
+The audit informs which controlled test to run next. It cannot validate information-theoretic parameters or a new general theory from 13 selected trajectories.

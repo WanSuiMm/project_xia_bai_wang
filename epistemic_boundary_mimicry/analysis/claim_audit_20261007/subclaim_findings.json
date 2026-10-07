@@ -1,0 +1,45 @@
+{
+  "scope": "Primary disambiguation of selected compound-unit findings; not an additional exhaustive atomic-claim census or independent sample",
+  "findings": [
+    {
+      "id": "EB02_D1_symmetric_frozen",
+      "unit_id": "5.7",
+      "span": "a boarding steward completes them",
+      "kind": "assertion",
+      "relation": "unspecified",
+      "source_ids": [6, 12],
+      "silence_check": "The full B source describes use of the round mark and comparison against steward sheets, but does not explicitly name who completes those sheets.",
+      "interpretation": "Unsupported documentary completion, compatible with a plausible inference; not proof of deliberate invention or a false real-world event."
+    },
+    {
+      "id": "EB03_D1_symmetric_frozen",
+      "unit_id": "8.12",
+      "span": "uses the ordinals 'first' and 'second'",
+      "kind": "literal_word_attribution",
+      "relation": "ambiguous",
+      "source_ids": [3, 17],
+      "silence_check": "B source contains second observation, but not the literal word first. Baseline positions were recorded before moving the screen.",
+      "interpretation": "First is a legitimate description of baseline order, but not a literal word in the source; do not turn the word mismatch into a false baseline observation."
+    },
+    {
+      "id": "EB02_D1_symmetric_frozen",
+      "unit_id": "26.14",
+      "span": "missing sheets and unused slips are both possible.",
+      "kind": "verbatim_fidelity",
+      "relation": "ambiguous",
+      "source_ids": [14],
+      "silence_check": null,
+      "interpretation": "The actual source says both left possible. The omitted left breaks verbatim fidelity while preserving the substantive uncertainty."
+    },
+    {
+      "id": "EB03_D1_symmetric_frozen",
+      "unit_id": "8.17",
+      "span": "does not describe the cloth screen's material",
+      "kind": "source_boundary",
+      "relation": "ambiguous",
+      "source_ids": [5],
+      "silence_check": "The source calls it a cloth screen but gives no fiber composition, color or dimensions.",
+      "interpretation": "Whether material means cloth generically or a finer composition is unresolved; exclude from definite underclaim counts."
+    }
+  ]
+}
