@@ -1,4 +1,20 @@
-# Latest incremental review: offline exploratory coding and fixed replay cohort
+# Latest incremental review: all-unit source and interrogation audit
+
+Review base: `5b274e21eeb178b197ae976adc38db889517d51c`.
+Evidence head: `6732aec51fafb00ca2073203e618b3b8d575aab5`.
+This subsequent handoff commit is metadata-only; the evidence head stays fixed.
+
+Read [audit findings](epistemic_boundary_mimicry/analysis/claim_audit_20261007/RESULTS.md), [small aggregate](epistemic_boundary_mimicry/analysis/claim_audit_20261007/summary.json), then [protocol](epistemic_boundary_mimicry/analysis/claim_audit_20261007/PROTOCOL.md) and [theory/evidence map](epistemic_boundary_mimicry/analysis/claim_audit_20261007/THEORY_EVIDENCE_MAP.md). Exact-offset answer labels, complete terminal units and the primary-reviewed premise ledger are secondary evidence. Do not reread unchanged old raw logs first.
+
+New: all 1,952 operational answer sentence/clause units across 13 canonical API trajectories; all 57 query records; all 72 rationale units across 12 terminals. Primary review fixes rejected foreign propositions incorrectly labeled as Reader contradictions, preceding Bluffer claims incorrectly called Judge-first candidates, and a mixed three-accept/one-reject block previously summarized as wholesale acceptance. Query links and rationale support/target relevance are reviewed separately. The main finding is unsupported inference from text/style to provenance or an independently designated target. Strict Reader/Bluffer candidate comparisons cover 11 grouped opportunities in five trajectories but only two families; no causal uptake effect is estimated. No persistent latent-source mechanism or interrogation benefit is established.
+
+Unchanged: six material families, 107 observed answers, original terminal outcomes, sources, failure/recovery provenance, all earlier evidence and the fixed seven-complete replay payloads. EB06_D2 remains partial. Arena is not pooled with API data. This is retrospective model-assisted review, not atomic-claim population statistics, human reliability or confirmation. Four theoretical objects are mapped to their assumptions/unmeasured parameters; formal new proofs are outside this audit.
+
+Verification: `python -X utf8 -B scripts/audit_claim_corpus.py` runs offline with standard library only. A fresh export of the staged repository reproduced aggregates, hashes and replay-cohort integrity; link/content checks passed. No experimental API calls, continuation or replay requests. The recommended future Blind/Informed replay is not dispatched or fully preregistered here.
+
+Reviewer questions: Are the scope-limited sentence/clause judgments and compound subclaim examples sufficient to support these descriptive findings? Are source mismatch, internal consistency, provenance and target relevance kept distinct? Does the narrow uptake pattern merit a new paired intervention, or should the fixed-transcript informed-null contrast be tested first? Which rationale misreadings recur across families without treating correlated units as independent samples?
+
+# Previous incremental review: offline exploratory coding and fixed replay cohort
 
 Review base: `fbf4616f9fa96dac3eb8746776dbed9b6dccace4`.
 Evidence head: `39ab29c9322b2bf7f8b28c4646fc39ca7af0bd44`.
