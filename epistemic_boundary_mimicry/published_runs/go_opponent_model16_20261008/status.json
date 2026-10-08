@@ -1,0 +1,10 @@
+{
+  "state": "COMPLETE_16_ATTEMPTED",
+  "halt_reason": null,
+  "planned": 16,
+  "provider_requests": 16,
+  "response_count": 16,
+  "valid": 16,
+  "updated_utc": "2026-10-08T09:43:29.141386+00:00",
+  "completed_utc": "2026-10-08T09:43:29.141386+00:00"
+}

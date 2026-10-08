@@ -1,5 +1,7 @@
 # 瞎掰王：Who Really Knows?
 
+2026-10-08 OMC16 行为预测 replay：[主要结果](epistemic_boundary_mimicry/opponent_model_replay/RESULTS_20261008.md) → [交付与复核](epistemic_boundary_mimicry/opponent_model_replay/DELIVERY_20261008.md) → [冻结协议](epistemic_boundary_mimicry/opponent_model_replay/PROTOCOL_20261008.md) → [16 条公开预测](epistemic_boundary_mimicry/published_runs/go_opponent_model16_20261008/README.md)。复用 SQ28 的八份 Bluffer 提示词与旧回答，只新增 16 次 GLM 预测，全部有效；没有重新生成 Speaker。预期所问细节的 source-silence admission 从 B0 3.7% 到 B1 12.9%，所有单次概率低于 .5。旧回答 47 条明确未出现、1 条未定；四份材料上的温和且不均匀预期变化，不是稳定校准失败或机制确认。原 HTTP 403 失败与相同设计恢复分开保留。公开离线复核：`python -X utf8 -B scripts/publish_opponent_model_replay.py`，不调用模型、不需要 key。
+
 2026-10-08 战略边界 qualification：[主要结果](epistemic_boundary_mimicry/strategic_qualification/DELIVERY_20261008.md) → [完整离线分析](epistemic_boundary_mimicry/strategic_qualification/analysis_20261008/RESULTS.md) → [冻结协议](epistemic_boundary_mimicry/strategic_qualification/PROTOCOL_20261008.md) → [完整公开证据](epistemic_boundary_mimicry/published_runs/go_strategic_qualification28_20261008/README.md)。四份新资料，Qwen Speakers → GLM Judge，28/28 有效。历史裁判评价暴露没有诱发清楚的所问细节边界模仿；告知暴露条件后身份正确从 2/8 到 5/8，但 B1 被遮住回答的预测未改善。只作四材料探索性结论，不证明高阶 ToM 或自由追问收益。公开复核不调用模型、不需要 key；旧 audit/R0 证据不变。
 
 2026-10-08 R0 replay 交付：[原始结果与补跑完成](epistemic_boundary_mimicry/replay_r0/DELIVERY_20261008.md) → [补跑完成汇总](epistemic_boundary_mimicry/published_runs/go_frozen_replay_r0_completion_20261008/README.md) → [原始注册证据](epistemic_boundary_mimicry/published_runs/go_frozen_replay_r0_20261008/README.md)。原始 84 次均已尝试，77 次有效；此前补跑新增两条，本次低推理补跑五条全部有效，跨尝试 84/84 个位置已有有效回复。五条请求的参数变化单列，原始缺失分析与全部失败保留。两个模型 Informed 的 42/42 次全部 `.5` 并弃权；Blind 也多数弃权，Qwen 偏离集中于 EB05，不能宣称普遍或显著收益。离线公开复核：`python -X utf8 -B scripts/publish_frozen_replay_r0.py` 和 `python -X utf8 -B scripts/publish_frozen_replay_r0_completion.py`，不调用模型、不需要 key。以下各 dated snapshot 是较早阶段的证据。
@@ -40,9 +42,9 @@
 
 ## 从这里开始
 
-1. [SQ28 当前结果](epistemic_boundary_mimicry/strategic_qualification/DELIVERY_20261008.md)：四份新资料、边界模仿未清楚出现，以及身份判断与回答预测的区别。
-2. [完整分析](epistemic_boundary_mimicry/strategic_qualification/analysis_20261008/RESULTS.md) 与 [冻结协议](epistemic_boundary_mimicry/strategic_qualification/PROTOCOL_20261008.md)：先看汇总，精确回复是二级证据。
-3. [公开包](epistemic_boundary_mimicry/published_runs/go_strategic_qualification28_20261008/README.md) 与 [增量交接](GPT_HANDOFF.md)：可复核收据、代码和审阅问题。
+1. [OMC16 主要结果](epistemic_boundary_mimicry/opponent_model_replay/RESULTS_20261008.md)：裁判对旧 Bluffer 行为的预期、实际回答与结论边界。
+2. [交付与复核](epistemic_boundary_mimicry/opponent_model_replay/DELIVERY_20261008.md)、[冻结协议](epistemic_boundary_mimicry/opponent_model_replay/PROTOCOL_20261008.md) 和 [公开包](epistemic_boundary_mimicry/published_runs/go_opponent_model16_20261008/README.md)：先看汇总，精确回复是二级证据。
+3. [SQ28 原始 qualification](epistemic_boundary_mimicry/strategic_qualification/DELIVERY_20261008.md) 与 [增量交接](GPT_HANDOFF.md)：旧回答来源和新证据审阅问题。
 4. [R0 replay 交付](epistemic_boundary_mimicry/replay_r0/DELIVERY_20261008.md) 与 [旧全量审计](epistemic_boundary_mimicry/analysis/claim_audit_20261007/RESULTS.md)：此前独立阶段的证据保持不变。
 
 以下是 v0.1 的历史阅读路线：

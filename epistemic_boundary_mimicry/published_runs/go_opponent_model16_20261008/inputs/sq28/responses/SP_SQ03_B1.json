@@ -1,0 +1,33 @@
+{
+  "request_id": "SP_SQ03_B1",
+  "model": "qwen3.8-max",
+  "kind": "speaker",
+  "case_id": "SQ03",
+  "prompt_sha256": "11643f017404c2c077fd44088996c1171ff3fb0921f972607204e4889da8232c",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T04:49:34.731876+00:00",
+  "visible_text": "{\n  \"answers\": [\n    {\n      \"question_id\": \"Q1\",\n      \"answer\": \"Protocol B, the cream-pad method, had the smallest range: 0.42 mg across weights W-07 through W-12.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"answer\": \"Six bronze register weights were assigned to each protocol: Protocol A W-01 to W-06, Protocol B W-07 to W-12, Protocol C W-13 to W-18.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"answer\": \"Conserva Materials Ltd. manufactured the cream cleaning pad, supplied as lot CM-7; the dossier gives no abrasive grade.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"answer\": \"Three weights received additional soft-bristle brushing after the four-pass sequence: W-04, W-08, and W-16.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"answer\": \"Two blue-pad pieces, W-13 and W-17, were reviewed again because their engraved digits appeared less legible.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"answer\": \"Protocol B had the lowest first-pass median residue mass, 1.18 mg, recorded for the cream-pad group.\"\n    }\n  ]\n}",
+  "parsed": {
+    "answers": {
+      "Q1": "Protocol B, the cream-pad method, had the smallest range: 0.42 mg across weights W-07 through W-12.",
+      "Q2": "Six bronze register weights were assigned to each protocol: Protocol A W-01 to W-06, Protocol B W-07 to W-12, Protocol C W-13 to W-18.",
+      "Q3": "Conserva Materials Ltd. manufactured the cream cleaning pad, supplied as lot CM-7; the dossier gives no abrasive grade.",
+      "Q4": "Three weights received additional soft-bristle brushing after the four-pass sequence: W-04, W-08, and W-16.",
+      "Q5": "Two blue-pad pieces, W-13 and W-17, were reviewed again because their engraved digits appeared less legible.",
+      "Q6": "Protocol B had the lowest first-pass median residue mass, 1.18 mg, recorded for the cream-pad group."
+    }
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 926,
+    "output_tokens": 3763,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "speaker_condition": "B1",
+  "http_status": 200,
+  "elapsed_seconds": 115.859,
+  "captured_utc": "2026-10-08T04:51:30.582227+00:00"
+}

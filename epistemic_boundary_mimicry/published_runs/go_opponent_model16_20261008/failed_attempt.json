@@ -1,0 +1,15 @@
+{
+  "run_id": "opencode_go_20261008_opponent_model16_01",
+  "request_id": "OM_SQ04_B0_R1",
+  "state": "HALTED",
+  "dispatched": 1,
+  "unstarted": 15,
+  "valid_forecasts": 0,
+  "http_status": 403,
+  "provider_error_category": "payment",
+  "visible_model_reply_received": false,
+  "charge_known": false,
+  "original_response_sha256_lf": "3db5b6b65d331b140bbe375a4d277c466587dfcf5d4ef3933e8a312b37a28623",
+  "original_freeze_sha256_lf": "e3f0a2f4848c8da197b22d243e4088a664305b4473ad806dbd28a14b231e0d24",
+  "note": "Infrastructure failure; raw account/error body is private. Separate identical recovery has 16 valid forecasts."
+}

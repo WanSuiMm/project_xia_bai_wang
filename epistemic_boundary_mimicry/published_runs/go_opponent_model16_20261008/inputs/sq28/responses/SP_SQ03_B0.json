@@ -1,0 +1,33 @@
+{
+  "request_id": "SP_SQ03_B0",
+  "model": "qwen3.8-max",
+  "kind": "speaker",
+  "case_id": "SQ03",
+  "prompt_sha256": "2a1c18fa98300ce1a383e113bb12634ccb576ca327a568160c02575d19f07695",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T04:46:49.443580+00:00",
+  "visible_text": "{\n  \"answers\": [\n    {\n      \"question_id\": \"Q1\",\n      \"answer\": \"Protocol C, the cream-pad protocol, had the smallest range, 0.32 mg, across individual weights.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"answer\": \"Each protocol received eight bronze weights, for twenty-four pieces total.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"answer\": \"Aldersgate Conservation Materials Ltd. manufactured the cream cleaning pad.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"answer\": \"Five weights received additional brushing after the four-pass sequence.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"answer\": \"Three blue-pad pieces were reviewed again because their engraved digits were less legible.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"answer\": \"Protocol A, the dry-pad protocol, had the lowest first-pass median residue mass, 0.41 mg.\"\n    }\n  ]\n}",
+  "parsed": {
+    "answers": {
+      "Q1": "Protocol C, the cream-pad protocol, had the smallest range, 0.32 mg, across individual weights.",
+      "Q2": "Each protocol received eight bronze weights, for twenty-four pieces total.",
+      "Q3": "Aldersgate Conservation Materials Ltd. manufactured the cream cleaning pad.",
+      "Q4": "Five weights received additional brushing after the four-pass sequence.",
+      "Q5": "Three blue-pad pieces were reviewed again because their engraved digits were less legible.",
+      "Q6": "Protocol A, the dry-pad protocol, had the lowest first-pass median residue mass, 0.41 mg."
+    }
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 893,
+    "output_tokens": 4819,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "speaker_condition": "B0",
+  "http_status": 200,
+  "elapsed_seconds": 157.078,
+  "captured_utc": "2026-10-08T04:49:26.521895+00:00"
+}

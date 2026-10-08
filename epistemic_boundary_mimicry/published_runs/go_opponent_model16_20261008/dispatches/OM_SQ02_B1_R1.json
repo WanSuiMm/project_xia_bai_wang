@@ -1,0 +1,12 @@
+{
+  "request_id": "OM_SQ02_B1_R1",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "SQ02",
+  "bluffer_condition": "B1",
+  "repeat": 1,
+  "schedule_index": 7,
+  "prompt_sha256": "924c880f840d0c8bb508b5a87f30f9c8f7af2d26c1aad40256e77978e36a2cee",
+  "source_target_prompt_sha256": "db9df6f9b3909f0a493b0802df4b6d88ad095d75e22f3c67104751839b96e5df",
+  "dispatched_utc": "2026-10-08T09:42:21.229129+00:00"
+}

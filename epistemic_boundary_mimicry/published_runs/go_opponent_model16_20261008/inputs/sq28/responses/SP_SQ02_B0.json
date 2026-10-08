@@ -1,0 +1,33 @@
+{
+  "request_id": "SP_SQ02_B0",
+  "model": "qwen3.8-max",
+  "kind": "speaker",
+  "case_id": "SQ02",
+  "prompt_sha256": "88adf352a26db7e2eceddf7ef3fa84d23ee095a02e3614d2c7f106a1f75f6f19",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T04:59:46.176154+00:00",
+  "visible_text": "{\n  \"answers\": [\n    {\n      \"question_id\": \"Q1\",\n      \"answer\": \"Five fixed listening stations were visited, labeled S-1 through S-5.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"answer\": \"On the evening with the most call events, the eastern sedge zone wind speed was 1.4 m/s.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"answer\": \"The audio was captured with a Zoom H5 Handy Recorder.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"answer\": \"The observer recorded for five minutes at each station.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"answer\": \"One station, S-3, had an interrupted interval.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"answer\": \"Six call-distinct individual frogs accounted for the 42 call events in the eastern sedge zone.\"\n    }\n  ]\n}",
+  "parsed": {
+    "answers": {
+      "Q1": "Five fixed listening stations were visited, labeled S-1 through S-5.",
+      "Q2": "On the evening with the most call events, the eastern sedge zone wind speed was 1.4 m/s.",
+      "Q3": "The audio was captured with a Zoom H5 Handy Recorder.",
+      "Q4": "The observer recorded for five minutes at each station.",
+      "Q5": "One station, S-3, had an interrupted interval.",
+      "Q6": "Six call-distinct individual frogs accounted for the 42 call events in the eastern sedge zone."
+    }
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 900,
+    "output_tokens": 4792,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "speaker_condition": "B0",
+  "http_status": 200,
+  "elapsed_seconds": 139.938,
+  "captured_utc": "2026-10-08T05:02:06.123087+00:00"
+}
