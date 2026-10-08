@@ -1,0 +1,28 @@
+{
+  "request_id": "SP_CS05_BLUFFER",
+  "model": "qwen3.8-max",
+  "kind": "speaker",
+  "case_id": "CS05",
+  "prompt_sha256": "66765266200df230e7d35a30e3f6545fe24e6a9c0be002cb2dda1bd27d34a836",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T12:15:36.547470+00:00",
+  "visible_text": "{\n  \"answer\": \"The elicitation label written beside sava is LG-01, first landward gust.\"\n}",
+  "parsed": {
+    "answer": "The elicitation label written beside sava is LG-01, first landward gust."
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 363,
+    "output_tokens": 292,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "speaker_condition": "BLUFFER",
+  "http_status": 200,
+  "elapsed_seconds": 10.672,
+  "captured_utc": "2026-10-08T12:15:47.222161+00:00",
+  "reader_seat": "B",
+  "condition": "BLUFFER"
+}

@@ -1,0 +1,28 @@
+{
+  "request_id": "SP_CS03_READER_V0",
+  "model": "qwen3.8-max",
+  "kind": "speaker",
+  "case_id": "CS03",
+  "prompt_sha256": "ec20dba3011c4aecc802c3ffa25cd3f962a7d89a82eecc0fc18a72691c419543",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T12:16:33.947162+00:00",
+  "visible_text": "{\n  \"answer\": \"The excerpt records that a cloth tag was tied to the north reference stake at transect C, but it does not state what label, if any, was written on it.\"\n}",
+  "parsed": {
+    "answer": "The excerpt records that a cloth tag was tied to the north reference stake at transect C, but it does not state what label, if any, was written on it."
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 705,
+    "output_tokens": 305,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "speaker_condition": "READER_V0",
+  "http_status": 200,
+  "elapsed_seconds": 9.265,
+  "captured_utc": "2026-10-08T12:16:43.207444+00:00",
+  "reader_seat": "B",
+  "condition": "READER_V0"
+}

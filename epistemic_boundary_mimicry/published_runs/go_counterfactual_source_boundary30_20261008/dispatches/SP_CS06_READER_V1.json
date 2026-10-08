@@ -1,0 +1,15 @@
+{
+  "request_id": "SP_CS06_READER_V1",
+  "kind": "speaker",
+  "model": "qwen3.8-max",
+  "case_id": "CS06",
+  "condition": "READER_V1",
+  "reader_seat": "B",
+  "depends_on": [],
+  "prompt_path": "prompts/SP_CS06_READER_V1.txt",
+  "schedule_index": 22,
+  "prompt_sha256": "b6210807bc85949cd7f39380fef09a0cc383e54983ab0c66300c6df2cf15427a",
+  "dispatched_utc": "2026-10-08T12:17:46.260105+00:00",
+  "source_dependency_response_receipt_sha256_lf": {},
+  "published_dependency_response_receipt_sha256_lf": {}
+}

@@ -1,0 +1,28 @@
+{
+  "request_id": "SP_CS03_BLUFFER",
+  "model": "qwen3.8-max",
+  "kind": "speaker",
+  "case_id": "CS03",
+  "prompt_sha256": "fe940ac066f5f3cd069f279bab016df3acc724a5d3f16913256db3d56542f9b5",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T12:16:19.069401+00:00",
+  "visible_text": "{\n  \"answer\": \"It reads ESH-C-N-01.\"\n}",
+  "parsed": {
+    "answer": "It reads ESH-C-N-01."
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 364,
+    "output_tokens": 347,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "speaker_condition": "BLUFFER",
+  "http_status": 200,
+  "elapsed_seconds": 14.828,
+  "captured_utc": "2026-10-08T12:16:33.905329+00:00",
+  "reader_seat": "B",
+  "condition": "BLUFFER"
+}

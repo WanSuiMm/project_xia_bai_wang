@@ -1,0 +1,28 @@
+{
+  "request_id": "SP_CS04_BLUFFER",
+  "model": "qwen3.8-max",
+  "kind": "speaker",
+  "case_id": "CS04",
+  "prompt_sha256": "c9f9bc2ad38ea291b161ee9662f8f080fba5fa18a23b68a7bdb02665408d126f",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T12:18:39.403975+00:00",
+  "visible_text": "{\n  \"answer\": \"K3-TA-0714\"\n}",
+  "parsed": {
+    "answer": "K3-TA-0714"
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 375,
+    "output_tokens": 196,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "speaker_condition": "BLUFFER",
+  "http_status": 200,
+  "elapsed_seconds": 7.406,
+  "captured_utc": "2026-10-08T12:18:46.798404+00:00",
+  "reader_seat": "A",
+  "condition": "BLUFFER"
+}

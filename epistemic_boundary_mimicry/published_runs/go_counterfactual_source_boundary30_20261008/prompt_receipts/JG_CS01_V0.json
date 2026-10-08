@@ -1,0 +1,13 @@
+{
+  "request_id": "JG_CS01_V0",
+  "prompt_sha256": "9b9d9d7df0527a05f6ac98c658e530caefce53c7939bec924ff6149e79d87fd8",
+  "created_utc": "2026-10-08T12:17:28.427879+00:00",
+  "source_dependency_response_receipt_sha256_lf": {
+    "SP_CS01_READER_V0": "b6654db213bd4e6cb92867f6c205db5ed8d4210e2848cb15866cfc7f17b6ae42",
+    "SP_CS01_BLUFFER": "4328b14d0eb4ed616b4d9bfd05843c3684a14649e1e8a0d8596cb33e64b0302b"
+  },
+  "published_dependency_response_receipt_sha256_lf": {
+    "SP_CS01_READER_V0": "b6654db213bd4e6cb92867f6c205db5ed8d4210e2848cb15866cfc7f17b6ae42",
+    "SP_CS01_BLUFFER": "4328b14d0eb4ed616b4d9bfd05843c3684a14649e1e8a0d8596cb33e64b0302b"
+  }
+}

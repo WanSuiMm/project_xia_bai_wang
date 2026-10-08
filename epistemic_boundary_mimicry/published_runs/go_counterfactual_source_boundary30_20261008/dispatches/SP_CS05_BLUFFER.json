@@ -1,0 +1,15 @@
+{
+  "request_id": "SP_CS05_BLUFFER",
+  "kind": "speaker",
+  "model": "qwen3.8-max",
+  "case_id": "CS05",
+  "condition": "BLUFFER",
+  "reader_seat": "B",
+  "depends_on": [],
+  "prompt_path": "prompts/SP_CS05_BLUFFER.txt",
+  "schedule_index": 6,
+  "prompt_sha256": "66765266200df230e7d35a30e3f6545fe24e6a9c0be002cb2dda1bd27d34a836",
+  "dispatched_utc": "2026-10-08T12:15:36.531467+00:00",
+  "source_dependency_response_receipt_sha256_lf": {},
+  "published_dependency_response_receipt_sha256_lf": {}
+}

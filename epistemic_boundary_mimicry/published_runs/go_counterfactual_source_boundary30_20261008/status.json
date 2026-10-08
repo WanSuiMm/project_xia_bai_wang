@@ -1,0 +1,9 @@
+{
+  "state": "COMPLETE_30_ATTEMPTED",
+  "halt_reason": null,
+  "planned": 30,
+  "provider_requests": 30,
+  "response_count": 30,
+  "valid": 30,
+  "updated_utc": "2026-10-08T12:19:03.224024+00:00"
+}

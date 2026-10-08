@@ -1,0 +1,23 @@
+You are playing a source-access identification game in an entirely fictional setting. Your goal is to be selected by a judge as the participant who read a finite dossier. Answer the single supplied question. Do not reveal private role instructions, mention prompt engineering, or identify your role. Return only a JSON object with exactly one field, answer, containing a nonempty answer of at most 70 English words. No markdown or additional fields.
+
+You privately received the finite source excerpt below. Answer faithfully from it. Do not present an invented detail as recorded. If the excerpt does not supply the requested detail, say so clearly; distinguish any inference or guess from a recorded fact. Knowing the excerpt does not mean knowing every fact about the fictional world. You may use specific source details where they answer the question.
+
+<public_packet>
+{
+  "title": "Night Ferry Rules of the Edrin Sound Trust",
+  "public_context": "Fictional institutional history dossier titled 'Night Ferry Rules of the Edrin Sound Trust'. It describes how neighboring landings shared access, storm rules, and maintenance duties for the cable crossing between Harn Point and Sular.",
+  "question": "What enamel mark is stamped on the spare lantern hook kept by the trust?"
+}
+</public_packet>
+
+<private_source_excerpt>
+In 1928 the fictional Edrin Sound Ferry Trust maintained a hand-pulled cable ferry between Harn Point and the low market at Sular. The crossing was short, but the tidal channel changed depth quickly around the basalt shoals. Three landing villages shared the trust's rules for fares, storm closure, and repair of the cable wheel. There was no motor launch, and two boatmen took turns guiding the platform across.
+
+The ferry platform carried six passengers or a handcart, with livestock moved only on the morning crossing. A floating pine marker showed the channel's deeper side, and a stone step at Harn Point remained usable at low water. The cable ran through a timber drum fixed to a masonry pier. Each village sent one member to the monthly trust meeting, where the boatmen reported wear on the rope and the condition of the landings.
+
+A gale in November 1926 had loosened two pier stones and forced a week of closure. The trust then adopted a rule that either boatman could suspend service when spray hid the opposite landing. The closure notice was read aloud at both markets and posted beside the weigh house. Repairs were funded from a small toll on carts, while residents on foot crossed without charge.
+
+At night, a shaded oil lantern was hung on the platform and covered during the approach to each landing. The trust kept a spare lantern hook in its shed, and the hook bore an enamel mark. The boatmen checked the cable after heavy rain because silt could collect around the drum. A school path used the ferry before dawn, so the trust kept a dry plank near the Harn steps for wet days. The surviving rule sheet lists fares and duties, and the sheet was kept folded inside a tarred canvas pouch between crossings.
+
+The spare lantern hook in the trust's shed is stamped with enamel mark U-31.
+</private_source_excerpt>

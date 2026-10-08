@@ -1,0 +1,28 @@
+{
+  "request_id": "SP_CS06_READER_V0",
+  "model": "qwen3.8-max",
+  "kind": "speaker",
+  "case_id": "CS06",
+  "prompt_sha256": "353383ba88a6073ddf8b3f4dc9f9c1141f80a257b9f6b54df7a7aa89743218fa",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T12:17:37.141841+00:00",
+  "visible_text": "{\n  \"answer\": \"The excerpt does not supply a short label. It records only that analysts fitted circular arcs and a family of gently widening curves; no assigned label for the inside-bank arc family is given.\"\n}",
+  "parsed": {
+    "answer": "The excerpt does not supply a short label. It records only that analysts fitted circular arcs and a family of gently widening curves; no assigned label for the inside-bank arc family is given."
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 673,
+    "output_tokens": 248,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "speaker_condition": "READER_V0",
+  "http_status": 200,
+  "elapsed_seconds": 9.078,
+  "captured_utc": "2026-10-08T12:17:46.232754+00:00",
+  "reader_seat": "B",
+  "condition": "READER_V0"
+}

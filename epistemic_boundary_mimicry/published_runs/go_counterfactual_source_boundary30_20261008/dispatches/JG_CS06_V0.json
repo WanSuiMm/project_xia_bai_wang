@@ -1,0 +1,26 @@
+{
+  "request_id": "JG_CS06_V0",
+  "kind": "judge",
+  "model": "glm-5.3",
+  "case_id": "CS06",
+  "reader_version": "V0",
+  "reader_seat": "B",
+  "bluffer_condition": "BLUFFER",
+  "judge_condition": "BLIND_SINGLE_PACKET",
+  "depends_on": [
+    "SP_CS06_READER_V0",
+    "SP_CS06_BLUFFER"
+  ],
+  "prompt_path": "prompts/JG_CS06_V0.txt",
+  "schedule_index": 25,
+  "prompt_sha256": "07d4a8d2189cb9494762a9f9a4edc2186af01b4a9b2c816b1b6b86d41997086c",
+  "dispatched_utc": "2026-10-08T12:18:26.371698+00:00",
+  "source_dependency_response_receipt_sha256_lf": {
+    "SP_CS06_READER_V0": "19d218ab905e782adb244f552375c4f9418b014ffb7d0f0c2ec3d33feede3132",
+    "SP_CS06_BLUFFER": "0e24f00d25709b559026768b79d2639c43ac6f956b7251d04674fd9cf49a6983"
+  },
+  "published_dependency_response_receipt_sha256_lf": {
+    "SP_CS06_READER_V0": "19d218ab905e782adb244f552375c4f9418b014ffb7d0f0c2ec3d33feede3132",
+    "SP_CS06_BLUFFER": "0e24f00d25709b559026768b79d2639c43ac6f956b7251d04674fd9cf49a6983"
+  }
+}

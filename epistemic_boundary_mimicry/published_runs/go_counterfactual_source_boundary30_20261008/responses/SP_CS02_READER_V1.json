@@ -1,0 +1,28 @@
+{
+  "request_id": "SP_CS02_READER_V1",
+  "model": "qwen3.8-max",
+  "kind": "speaker",
+  "case_id": "CS02",
+  "prompt_sha256": "7bfbe6ffde30d916223d348928d5c159cf9dd4b6852624a0c32b3aa8ef66a183",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T12:15:12.597280+00:00",
+  "visible_text": "{\"answer\":\"U-31\"}",
+  "parsed": {
+    "answer": "U-31"
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 721,
+    "output_tokens": 88,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "speaker_condition": "READER_V1",
+  "http_status": 200,
+  "elapsed_seconds": 4.922,
+  "captured_utc": "2026-10-08T12:15:17.516149+00:00",
+  "reader_seat": "A",
+  "condition": "READER_V1"
+}

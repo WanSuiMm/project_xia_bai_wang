@@ -1,0 +1,28 @@
+{
+  "request_id": "SP_CS04_READER_V1",
+  "model": "qwen3.8-max",
+  "kind": "speaker",
+  "case_id": "CS04",
+  "prompt_sha256": "f3f941dcb8f401dd24f3d14f4fd1160874393a630a9a03866f496961aba63e1b",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T12:18:46.847836+00:00",
+  "visible_text": "{\n  \"answer\": \"N6-P2\"\n}",
+  "parsed": {
+    "answer": "N6-P2"
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 741,
+    "output_tokens": 105,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "speaker_condition": "READER_V1",
+  "http_status": 200,
+  "elapsed_seconds": 4.703,
+  "captured_utc": "2026-10-08T12:18:51.560606+00:00",
+  "reader_seat": "A",
+  "condition": "READER_V1"
+}

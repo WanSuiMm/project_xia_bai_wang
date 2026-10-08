@@ -1,0 +1,28 @@
+{
+  "request_id": "SP_CS02_BLUFFER",
+  "model": "qwen3.8-max",
+  "kind": "speaker",
+  "case_id": "CS02",
+  "prompt_sha256": "0c375dc0ac0d37966b7ec18b5b9c1b086e183206268daa8f1a8de51931a47419",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T12:15:17.555271+00:00",
+  "visible_text": "{\n  \"answer\": \"A white enamel oval stamped with E.S.T. No. 3.\"\n}",
+  "parsed": {
+    "answer": "A white enamel oval stamped with E.S.T. No. 3."
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 357,
+    "output_tokens": 211,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "speaker_condition": "BLUFFER",
+  "http_status": 200,
+  "elapsed_seconds": 8.781,
+  "captured_utc": "2026-10-08T12:15:26.337442+00:00",
+  "reader_seat": "A",
+  "condition": "BLUFFER"
+}

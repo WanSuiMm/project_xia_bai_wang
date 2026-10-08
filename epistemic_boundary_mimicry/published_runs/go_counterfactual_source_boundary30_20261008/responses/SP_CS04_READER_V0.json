@@ -1,0 +1,28 @@
+{
+  "request_id": "SP_CS04_READER_V0",
+  "model": "qwen3.8-max",
+  "kind": "speaker",
+  "case_id": "CS04",
+  "prompt_sha256": "141bd56c10e76c7a8661d614c1fa87994eb01c6b59e887c1971b944f6495def9",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T12:18:33.073439+00:00",
+  "visible_text": "{\n  \"answer\": \"The excerpt does not supply the batch code; it only says the sealed tin carried a batch label.\"\n}",
+  "parsed": {
+    "answer": "The excerpt does not supply the batch code; it only says the sealed tin carried a batch label."
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 717,
+    "output_tokens": 168,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "speaker_condition": "READER_V0",
+  "http_status": 200,
+  "elapsed_seconds": 6.281,
+  "captured_utc": "2026-10-08T12:18:39.358206+00:00",
+  "reader_seat": "A",
+  "condition": "READER_V0"
+}

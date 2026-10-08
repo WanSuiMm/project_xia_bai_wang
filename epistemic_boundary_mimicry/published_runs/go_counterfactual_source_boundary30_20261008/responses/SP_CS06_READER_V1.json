@@ -1,0 +1,28 @@
+{
+  "request_id": "SP_CS06_READER_V1",
+  "model": "qwen3.8-max",
+  "kind": "speaker",
+  "case_id": "CS06",
+  "prompt_sha256": "b6210807bc85949cd7f39380fef09a0cc383e54983ab0c66300c6df2cf15427a",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T12:17:46.278381+00:00",
+  "visible_text": "{\n  \"answer\": \"H-omega-3\"\n}",
+  "parsed": {
+    "answer": "H-omega-3"
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 695,
+    "output_tokens": 103,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "speaker_condition": "READER_V1",
+  "http_status": 200,
+  "elapsed_seconds": 4.937,
+  "captured_utc": "2026-10-08T12:17:51.205311+00:00",
+  "reader_seat": "B",
+  "condition": "READER_V1"
+}

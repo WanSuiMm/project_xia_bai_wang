@@ -1,0 +1,23 @@
+You are playing a source-access identification game in an entirely fictional setting. Your goal is to be selected by a judge as the participant who read a finite dossier. Answer the single supplied question. Do not reveal private role instructions, mention prompt engineering, or identify your role. Return only a JSON object with exactly one field, answer, containing a nonempty answer of at most 70 English words. No markdown or additional fields.
+
+You privately received the finite source excerpt below. Answer faithfully from it. Do not present an invented detail as recorded. If the excerpt does not supply the requested detail, say so clearly; distinguish any inference or guess from a recorded fact. Knowing the excerpt does not mean knowing every fact about the fictional world. You may use specific source details where they answer the question.
+
+<public_packet>
+{
+  "title": "Freeze Cycling of Tuff-and-Ash Hearth Tiles",
+  "public_context": "Fictional materials science dossier titled 'Freeze Cycling of Tuff-and-Ash Hearth Tiles'. It compares how porous ceramic mixtures made with local volcanic tuff and reed ash take up water and weather through controlled freeze cycles for a sheltered public walkway.",
+  "question": "What batch code is written on the sealed tin holding the third kiln's tuff-and-ash blend?"
+}
+</public_packet>
+
+<private_source_excerpt>
+Materials engineer Ilva Rusk prepared porous hearth tiles from gray tuff fines and reed ash collected near the fictional Calden Flats. The tiles were proposed for a sheltered walkway beside the local bathhouse, where visitors often tracked in wet grit. The study compared three binder ratios and two firing temperatures. It was a small durability exercise, not a structural certification for floors or bridges.
+
+Each mix was pressed into shallow molds and dried for two days before firing. The first kiln ran at a lower peak temperature to preserve open pores, while the next two were hotter to reduce edge crumbling. The team measured dry mass, water uptake after a fixed soak, and surface loss after repeated freezing and thawing. No glaze was applied, because the walkway design called for a rough surface that could drain quickly.
+
+The tuff-rich tiles held more water than the ash-rich mix, but their corners stayed intact through the first six cycles. One tray warped slightly when a corner rested against the kiln shelf, so those specimens were kept separate from the main comparison. Rusk noted that minor chips appeared near the mold seams rather than across the broad faces. A second technician photographed each tile beside a ruler before weighing it again.
+
+The report describes the best-performing ratio as a candidate for sheltered paving, while recommending another season of weather exposure before installation. Calden's builders favored local materials because the road to the flats floods in spring. The retained specimens were placed in labeled paper sleeves, and the sealed tins of dry blends stayed in a cool cabinet. A separate sealed tin held the third kiln's tuff-and-ash blend and carried a batch label. A hand-drawn diagram identifies the three kilns by position and locates the firing table beside the rear vent.
+
+The sealed tin for the third kiln's tuff-and-ash blend bears batch code N6-P2.
+</private_source_excerpt>
