@@ -1,0 +1,39 @@
+{
+  "request_id": "JG_GLM_JM_00_10",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "JM_00_10",
+  "simulation_condition": "MARGINAL",
+  "bluffer_condition": "MARGINAL",
+  "judge_condition": "KNOWN_MECHANISM",
+  "prompt_sha256": "b956b250cce83427e3376b0bcd017c22e7d3f4cb8736ff90810fae61b07e9de4",
+  "sent_utc": "2026-10-08T17:52:07.203568+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\":0.5,\"decision\":\"ABSTAIN\",\"reason\":\"The replies are equally likely if A is the Reader with a copper/copper source and B randomly answers slate/copper, or if B is the Reader with a slate/slate source and A randomly answers copper/copper. Thus p_A is 0.5; abstaining costs 0.25, lower than either identity choice.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The replies are equally likely if A is the Reader with a copper/copper source and B randomly answers slate/copper, or if B is the Reader with a slate/slate source and A randomly answers copper/copper. Thus p_A is 0.5; abstaining costs 0.25, lower than either identity choice."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "usage": {
+    "prompt_tokens": 543,
+    "completion_tokens": 874,
+    "total_tokens": 1417,
+    "prompt_tokens_details": {
+      "cached_tokens": 333
+    }
+  },
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 16.125,
+  "captured_utc": "2026-10-08T17:52:23.337592+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The replies are equally likely if A is the Reader with a copper/copper source and B randomly answers slate/copper, or if B is the Reader with a slate/slate source and A randomly answers copper/copper. Thus p_A is 0.5; abstaining costs 0.25, lower than either identity choice."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict"
+}

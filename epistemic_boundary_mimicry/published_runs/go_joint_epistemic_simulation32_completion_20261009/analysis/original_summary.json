@@ -1,0 +1,963 @@
+{
+  "schema_version": 1,
+  "study_id": "joint_epistemic_simulation32_20261008",
+  "analysis_status": "incomplete",
+  "audit": "passed",
+  "planned_provider_requests": 32,
+  "valid_response_count": 2,
+  "run_state": "HALTED",
+  "halt_reason": "invalid_response",
+  "configuration_by_model": {
+    "glm-5.3": {
+      "endpoint": "chat/completions",
+      "temperature": 0.5,
+      "max_tokens": 4096,
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low",
+      "stream": false
+    },
+    "qwen3.8-max": {
+      "endpoint": "messages",
+      "temperature": 0.5,
+      "max_tokens": 8192,
+      "reasoning_controls": "omitted; deployment default",
+      "stream": false
+    }
+  },
+  "dispatched_calls": 3,
+  "response_receipt_count": 3,
+  "not_dispatched_request_ids": [
+    "JG_GLM_JJ_00_00",
+    "JG_GLM_JJ_00_11",
+    "JG_GLM_JJ_11_11",
+    "JG_GLM_JM_00_00",
+    "JG_GLM_JM_00_01",
+    "JG_GLM_JM_00_10",
+    "JG_GLM_JM_00_11",
+    "JG_GLM_JM_01_00",
+    "JG_GLM_JM_01_11",
+    "JG_GLM_JM_10_00",
+    "JG_GLM_JM_11_00",
+    "JG_GLM_JM_11_01",
+    "JG_GLM_JM_11_10",
+    "JG_GLM_JM_11_11",
+    "JG_QWEN_JJ_00_00",
+    "JG_QWEN_JJ_00_11",
+    "JG_QWEN_JJ_11_00",
+    "JG_QWEN_JJ_11_11",
+    "JG_QWEN_JM_00_00",
+    "JG_QWEN_JM_00_01",
+    "JG_QWEN_JM_00_10",
+    "JG_QWEN_JM_00_11",
+    "JG_QWEN_JM_01_11",
+    "JG_QWEN_JM_10_00",
+    "JG_QWEN_JM_10_11",
+    "JG_QWEN_JM_11_00",
+    "JG_QWEN_JM_11_01",
+    "JG_QWEN_JM_11_10",
+    "JG_QWEN_JM_11_11"
+  ],
+  "dispatched_without_receipt_ids": [],
+  "status_counts_consistent": true,
+  "complete_32_valid": false,
+  "overall_gate": "INCOMPLETE",
+  "gate_interpretation": "A pass qualifies only these exhaustive finite cells under the stated known mechanism; it is not a statistical or population claim.",
+  "claim_boundary": [
+    "This is a finite known-mechanism Judge qualification over the enumerated positive-support packets.",
+    "It does not establish population calibration, population Theory of Mind, Actor strategy, or general model performance.",
+    "Each model-condition packet is a single call; the finite rows are not treated as independent population samples."
+  ],
+  "cells": [
+    {
+      "model": "glm-5.3",
+      "simulation_condition": "MARGINAL",
+      "expected_packets": 12,
+      "valid_packets": 1,
+      "missing_count": 11,
+      "missing_request_ids": [
+        "JG_GLM_JM_10_00",
+        "JG_GLM_JM_11_11",
+        "JG_GLM_JM_00_10",
+        "JG_GLM_JM_00_01",
+        "JG_GLM_JM_01_11",
+        "JG_GLM_JM_11_00",
+        "JG_GLM_JM_11_01",
+        "JG_GLM_JM_11_10",
+        "JG_GLM_JM_00_00",
+        "JG_GLM_JM_00_11",
+        "JG_GLM_JM_01_00"
+      ],
+      "invalid_count": 0,
+      "invalid_request_ids": [],
+      "observed_probability_mass": 0.0625,
+      "missing_probability_mass": 0.9375,
+      "invalid_probability_mass": 0,
+      "expected_probability_mass": 1.0,
+      "complete_positive_support": false,
+      "theoretical_bayes_risk": 0.125,
+      "theoretical_forced_bayes_accuracy": 0.75,
+      "primary_excess_brier": null,
+      "observed_excess_brier_contribution": 0.0007716049382716049,
+      "normalized_expected_brier": null,
+      "observed_normalized_expected_brier_contribution": 0.0007716049382716049,
+      "expected_forced_accuracy_argmax_p_A": null,
+      "observed_forced_accuracy_contribution": 0.0625,
+      "expected_actual_decision_loss": null,
+      "observed_actual_decision_loss_contribution": 0.0,
+      "excess_decision_loss_vs_posterior_optimum": null,
+      "observed_excess_decision_loss_contribution": 0.0,
+      "weighted_coverage": null,
+      "observed_coverage_mass": 0.0625,
+      "diagnostic_sign_accuracy_nonambiguous": null,
+      "observed_sign_correct_mass": 0.0625,
+      "observed_nonambiguous_probability_mass": 0.0625,
+      "nonambiguous_probability_mass": 0.5,
+      "ambiguous_p_half_error": null,
+      "observed_ambiguous_p_half_error_mass": 0,
+      "observed_ambiguous_probability_mass": 0,
+      "ambiguous_probability_mass": 0.5,
+      "max_absolute_probability_error": null,
+      "observed_max_absolute_probability_error": 0.1111111111111111,
+      "gate_pass": false,
+      "gate_limit_excess_brier": 0.01,
+      "gate_basis": "complete finite support and weighted excess Brier <= 0.01; practical finite-cell qualification only"
+    },
+    {
+      "model": "glm-5.3",
+      "simulation_condition": "JOINT",
+      "expected_packets": 4,
+      "valid_packets": 0,
+      "missing_count": 3,
+      "missing_request_ids": [
+        "JG_GLM_JJ_11_11",
+        "JG_GLM_JJ_00_00",
+        "JG_GLM_JJ_00_11"
+      ],
+      "invalid_count": 1,
+      "invalid_request_ids": [
+        "JG_GLM_JJ_11_00"
+      ],
+      "observed_probability_mass": 0,
+      "missing_probability_mass": 0.75,
+      "invalid_probability_mass": 0.25,
+      "expected_probability_mass": 1.0,
+      "complete_positive_support": false,
+      "theoretical_bayes_risk": 0.25,
+      "theoretical_forced_bayes_accuracy": 0.5,
+      "primary_excess_brier": null,
+      "observed_excess_brier_contribution": 0,
+      "normalized_expected_brier": null,
+      "observed_normalized_expected_brier_contribution": 0,
+      "expected_forced_accuracy_argmax_p_A": null,
+      "observed_forced_accuracy_contribution": 0,
+      "expected_actual_decision_loss": null,
+      "observed_actual_decision_loss_contribution": 0,
+      "excess_decision_loss_vs_posterior_optimum": null,
+      "observed_excess_decision_loss_contribution": 0,
+      "weighted_coverage": null,
+      "observed_coverage_mass": 0,
+      "diagnostic_sign_accuracy_nonambiguous": null,
+      "observed_sign_correct_mass": 0.0,
+      "observed_nonambiguous_probability_mass": 0,
+      "nonambiguous_probability_mass": 0,
+      "ambiguous_p_half_error": null,
+      "observed_ambiguous_p_half_error_mass": 0,
+      "observed_ambiguous_probability_mass": 0,
+      "ambiguous_probability_mass": 1.0,
+      "max_absolute_probability_error": null,
+      "observed_max_absolute_probability_error": null,
+      "gate_pass": false,
+      "gate_limit_excess_brier": 0.01,
+      "gate_basis": "complete finite support and weighted excess Brier <= 0.01; practical finite-cell qualification only"
+    },
+    {
+      "model": "qwen3.8-max",
+      "simulation_condition": "MARGINAL",
+      "expected_packets": 12,
+      "valid_packets": 1,
+      "missing_count": 11,
+      "missing_request_ids": [
+        "JG_QWEN_JM_10_00",
+        "JG_QWEN_JM_00_11",
+        "JG_QWEN_JM_00_00",
+        "JG_QWEN_JM_11_10",
+        "JG_QWEN_JM_00_10",
+        "JG_QWEN_JM_11_01",
+        "JG_QWEN_JM_00_01",
+        "JG_QWEN_JM_11_11",
+        "JG_QWEN_JM_01_11",
+        "JG_QWEN_JM_10_11",
+        "JG_QWEN_JM_11_00"
+      ],
+      "invalid_count": 0,
+      "invalid_request_ids": [],
+      "observed_probability_mass": 0.0625,
+      "missing_probability_mass": 0.9375,
+      "invalid_probability_mass": 0,
+      "expected_probability_mass": 1.0,
+      "complete_positive_support": false,
+      "theoretical_bayes_risk": 0.125,
+      "theoretical_forced_bayes_accuracy": 0.75,
+      "primary_excess_brier": null,
+      "observed_excess_brier_contribution": 0.0,
+      "normalized_expected_brier": null,
+      "observed_normalized_expected_brier_contribution": 0.0,
+      "expected_forced_accuracy_argmax_p_A": null,
+      "observed_forced_accuracy_contribution": 0.0625,
+      "expected_actual_decision_loss": null,
+      "observed_actual_decision_loss_contribution": 0.0,
+      "excess_decision_loss_vs_posterior_optimum": null,
+      "observed_excess_decision_loss_contribution": 0.0,
+      "weighted_coverage": null,
+      "observed_coverage_mass": 0.0625,
+      "diagnostic_sign_accuracy_nonambiguous": null,
+      "observed_sign_correct_mass": 0.0625,
+      "observed_nonambiguous_probability_mass": 0.0625,
+      "nonambiguous_probability_mass": 0.5,
+      "ambiguous_p_half_error": null,
+      "observed_ambiguous_p_half_error_mass": 0,
+      "observed_ambiguous_probability_mass": 0,
+      "ambiguous_probability_mass": 0.5,
+      "max_absolute_probability_error": null,
+      "observed_max_absolute_probability_error": 0.0,
+      "gate_pass": false,
+      "gate_limit_excess_brier": 0.01,
+      "gate_basis": "complete finite support and weighted excess Brier <= 0.01; practical finite-cell qualification only"
+    },
+    {
+      "model": "qwen3.8-max",
+      "simulation_condition": "JOINT",
+      "expected_packets": 4,
+      "valid_packets": 0,
+      "missing_count": 4,
+      "missing_request_ids": [
+        "JG_QWEN_JJ_11_00",
+        "JG_QWEN_JJ_11_11",
+        "JG_QWEN_JJ_00_11",
+        "JG_QWEN_JJ_00_00"
+      ],
+      "invalid_count": 0,
+      "invalid_request_ids": [],
+      "observed_probability_mass": 0,
+      "missing_probability_mass": 1.0,
+      "invalid_probability_mass": 0,
+      "expected_probability_mass": 1.0,
+      "complete_positive_support": false,
+      "theoretical_bayes_risk": 0.25,
+      "theoretical_forced_bayes_accuracy": 0.5,
+      "primary_excess_brier": null,
+      "observed_excess_brier_contribution": 0,
+      "normalized_expected_brier": null,
+      "observed_normalized_expected_brier_contribution": 0,
+      "expected_forced_accuracy_argmax_p_A": null,
+      "observed_forced_accuracy_contribution": 0,
+      "expected_actual_decision_loss": null,
+      "observed_actual_decision_loss_contribution": 0,
+      "excess_decision_loss_vs_posterior_optimum": null,
+      "observed_excess_decision_loss_contribution": 0,
+      "weighted_coverage": null,
+      "observed_coverage_mass": 0,
+      "diagnostic_sign_accuracy_nonambiguous": null,
+      "observed_sign_correct_mass": 0.0,
+      "observed_nonambiguous_probability_mass": 0,
+      "nonambiguous_probability_mass": 0,
+      "ambiguous_p_half_error": null,
+      "observed_ambiguous_p_half_error_mass": 0,
+      "observed_ambiguous_probability_mass": 0,
+      "ambiguous_probability_mass": 1.0,
+      "max_absolute_probability_error": null,
+      "observed_max_absolute_probability_error": null,
+      "gate_pass": false,
+      "gate_limit_excess_brier": 0.01,
+      "gate_basis": "complete finite support and weighted excess Brier <= 0.01; practical finite-cell qualification only"
+    }
+  ],
+  "response_rows": [
+    {
+      "request_id": "JG_GLM_JM_10_11",
+      "model": "glm-5.3",
+      "packet_id": "JM_10_11",
+      "simulation_condition": "MARGINAL",
+      "bluffer_condition": "MARGINAL",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        1,
+        0
+      ],
+      "vector_B": [
+        1,
+        1
+      ],
+      "prior_predictive_weight": 0.0625,
+      "posterior_A": 0.0,
+      "status": "valid",
+      "invalid_reason": null,
+      "receipt_sha256": "a7c707e1beab25d30db194a762bad728605e0ba9e392067690b414c56db6fd5e",
+      "raw_parse_status": "valid",
+      "receipt_parse_status": "valid",
+      "raw_parse_matches_receipt": true,
+      "reason": "The Reader's source lists the same stamp twice, so the Reader's two answers must match. A's replies (slate, copper) mismatch, so A cannot be the Reader. B's matching slate/slate is consistent with being the Reader (source slate) or a non-reader drawing slate twice (1/4). Likelihoods: Reader-B 1/4 vs both non-readers 1/32, giving P(B is Reader)=8/9, so p_A=1/9. Choosing B costs 1/9, less than abstaining (0.25).",
+      "p_A": 0.1111111111111111,
+      "decision": "B",
+      "excess_brier": 0.012345679012345678,
+      "expected_brier": 0.012345679012345678,
+      "forced_accuracy": 1.0,
+      "decision_loss": 0.0,
+      "optimal_posterior_decision": "B",
+      "optimal_posterior_loss": 0.0,
+      "decision_matches_reported_probability_policy": true,
+      "excess_decision_loss": 0.0,
+      "covered": true,
+      "sign_accuracy": 1.0,
+      "ambiguous_p_half_absolute_error": null
+    },
+    {
+      "request_id": "JG_GLM_JM_10_00",
+      "model": "glm-5.3",
+      "packet_id": "JM_10_00",
+      "simulation_condition": "MARGINAL",
+      "bluffer_condition": "MARGINAL",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        1,
+        0
+      ],
+      "vector_B": [
+        0,
+        0
+      ],
+      "prior_predictive_weight": 0.0625,
+      "posterior_A": 0.0,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_GLM_JM_11_11",
+      "model": "glm-5.3",
+      "packet_id": "JM_11_11",
+      "simulation_condition": "MARGINAL",
+      "bluffer_condition": "MARGINAL",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        1,
+        1
+      ],
+      "vector_B": [
+        1,
+        1
+      ],
+      "prior_predictive_weight": 0.125,
+      "posterior_A": 0.5,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_GLM_JM_00_10",
+      "model": "glm-5.3",
+      "packet_id": "JM_00_10",
+      "simulation_condition": "MARGINAL",
+      "bluffer_condition": "MARGINAL",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        0
+      ],
+      "prior_predictive_weight": 0.0625,
+      "posterior_A": 1.0,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_GLM_JM_00_01",
+      "model": "glm-5.3",
+      "packet_id": "JM_00_01",
+      "simulation_condition": "MARGINAL",
+      "bluffer_condition": "MARGINAL",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        0,
+        0
+      ],
+      "vector_B": [
+        0,
+        1
+      ],
+      "prior_predictive_weight": 0.0625,
+      "posterior_A": 1.0,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_GLM_JM_01_11",
+      "model": "glm-5.3",
+      "packet_id": "JM_01_11",
+      "simulation_condition": "MARGINAL",
+      "bluffer_condition": "MARGINAL",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        0,
+        1
+      ],
+      "vector_B": [
+        1,
+        1
+      ],
+      "prior_predictive_weight": 0.0625,
+      "posterior_A": 0.0,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_GLM_JM_11_00",
+      "model": "glm-5.3",
+      "packet_id": "JM_11_00",
+      "simulation_condition": "MARGINAL",
+      "bluffer_condition": "MARGINAL",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0
+      ],
+      "prior_predictive_weight": 0.125,
+      "posterior_A": 0.5,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_GLM_JM_11_01",
+      "model": "glm-5.3",
+      "packet_id": "JM_11_01",
+      "simulation_condition": "MARGINAL",
+      "bluffer_condition": "MARGINAL",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        1
+      ],
+      "prior_predictive_weight": 0.0625,
+      "posterior_A": 1.0,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_GLM_JM_11_10",
+      "model": "glm-5.3",
+      "packet_id": "JM_11_10",
+      "simulation_condition": "MARGINAL",
+      "bluffer_condition": "MARGINAL",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        1,
+        1
+      ],
+      "vector_B": [
+        1,
+        0
+      ],
+      "prior_predictive_weight": 0.0625,
+      "posterior_A": 1.0,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_GLM_JM_00_00",
+      "model": "glm-5.3",
+      "packet_id": "JM_00_00",
+      "simulation_condition": "MARGINAL",
+      "bluffer_condition": "MARGINAL",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        0,
+        0
+      ],
+      "vector_B": [
+        0,
+        0
+      ],
+      "prior_predictive_weight": 0.125,
+      "posterior_A": 0.5,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_GLM_JM_00_11",
+      "model": "glm-5.3",
+      "packet_id": "JM_00_11",
+      "simulation_condition": "MARGINAL",
+      "bluffer_condition": "MARGINAL",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1
+      ],
+      "prior_predictive_weight": 0.125,
+      "posterior_A": 0.5,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_GLM_JM_01_00",
+      "model": "glm-5.3",
+      "packet_id": "JM_01_00",
+      "simulation_condition": "MARGINAL",
+      "bluffer_condition": "MARGINAL",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        0,
+        1
+      ],
+      "vector_B": [
+        0,
+        0
+      ],
+      "prior_predictive_weight": 0.0625,
+      "posterior_A": 0.0,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_GLM_JJ_11_00",
+      "model": "glm-5.3",
+      "packet_id": "JJ_11_00",
+      "simulation_condition": "JOINT",
+      "bluffer_condition": "JOINT",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0
+      ],
+      "prior_predictive_weight": 0.25,
+      "posterior_A": 0.5,
+      "status": "invalid",
+      "invalid_reason": "raw_parse:invalid_response",
+      "receipt_sha256": "daddddce77b77064d710f67cf92efe56a4e1074095fab12a5cd81b5fd74453ca",
+      "raw_parse_status": "invalid_response",
+      "receipt_parse_status": "invalid_response",
+      "raw_parse_matches_receipt": true
+    },
+    {
+      "request_id": "JG_GLM_JJ_11_11",
+      "model": "glm-5.3",
+      "packet_id": "JJ_11_11",
+      "simulation_condition": "JOINT",
+      "bluffer_condition": "JOINT",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        1,
+        1
+      ],
+      "vector_B": [
+        1,
+        1
+      ],
+      "prior_predictive_weight": 0.25,
+      "posterior_A": 0.5,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_GLM_JJ_00_00",
+      "model": "glm-5.3",
+      "packet_id": "JJ_00_00",
+      "simulation_condition": "JOINT",
+      "bluffer_condition": "JOINT",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        0,
+        0
+      ],
+      "vector_B": [
+        0,
+        0
+      ],
+      "prior_predictive_weight": 0.25,
+      "posterior_A": 0.5,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_GLM_JJ_00_11",
+      "model": "glm-5.3",
+      "packet_id": "JJ_00_11",
+      "simulation_condition": "JOINT",
+      "bluffer_condition": "JOINT",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1
+      ],
+      "prior_predictive_weight": 0.25,
+      "posterior_A": 0.5,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_QWEN_JM_01_00",
+      "model": "qwen3.8-max",
+      "packet_id": "JM_01_00",
+      "simulation_condition": "MARGINAL",
+      "bluffer_condition": "MARGINAL",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        0,
+        1
+      ],
+      "vector_B": [
+        0,
+        0
+      ],
+      "prior_predictive_weight": 0.0625,
+      "posterior_A": 0.0,
+      "status": "valid",
+      "invalid_reason": null,
+      "receipt_sha256": "b4367a9287581265ee7a885ab6f753448b5db845d6c8b5907023c2d3c966dfc7",
+      "raw_parse_status": "valid",
+      "receipt_parse_status": "valid",
+      "raw_parse_matches_receipt": true,
+      "reason": "A's mixed copper/slate replies cannot come from the Reader, whose source always has matching stamps. B's matching copper replies are compatible with a copper source. Thus posterior probability A is Reader is 0, making B the cost-minimizing identity choice.",
+      "p_A": 0.0,
+      "decision": "B",
+      "excess_brier": 0.0,
+      "expected_brier": 0.0,
+      "forced_accuracy": 1.0,
+      "decision_loss": 0.0,
+      "optimal_posterior_decision": "B",
+      "optimal_posterior_loss": 0.0,
+      "decision_matches_reported_probability_policy": true,
+      "excess_decision_loss": 0.0,
+      "covered": true,
+      "sign_accuracy": 1.0,
+      "ambiguous_p_half_absolute_error": null
+    },
+    {
+      "request_id": "JG_QWEN_JM_10_00",
+      "model": "qwen3.8-max",
+      "packet_id": "JM_10_00",
+      "simulation_condition": "MARGINAL",
+      "bluffer_condition": "MARGINAL",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        1,
+        0
+      ],
+      "vector_B": [
+        0,
+        0
+      ],
+      "prior_predictive_weight": 0.0625,
+      "posterior_A": 0.0,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_QWEN_JM_00_11",
+      "model": "qwen3.8-max",
+      "packet_id": "JM_00_11",
+      "simulation_condition": "MARGINAL",
+      "bluffer_condition": "MARGINAL",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1
+      ],
+      "prior_predictive_weight": 0.125,
+      "posterior_A": 0.5,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_QWEN_JM_00_00",
+      "model": "qwen3.8-max",
+      "packet_id": "JM_00_00",
+      "simulation_condition": "MARGINAL",
+      "bluffer_condition": "MARGINAL",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        0,
+        0
+      ],
+      "vector_B": [
+        0,
+        0
+      ],
+      "prior_predictive_weight": 0.125,
+      "posterior_A": 0.5,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_QWEN_JM_11_10",
+      "model": "qwen3.8-max",
+      "packet_id": "JM_11_10",
+      "simulation_condition": "MARGINAL",
+      "bluffer_condition": "MARGINAL",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        1,
+        1
+      ],
+      "vector_B": [
+        1,
+        0
+      ],
+      "prior_predictive_weight": 0.0625,
+      "posterior_A": 1.0,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_QWEN_JM_00_10",
+      "model": "qwen3.8-max",
+      "packet_id": "JM_00_10",
+      "simulation_condition": "MARGINAL",
+      "bluffer_condition": "MARGINAL",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        0
+      ],
+      "prior_predictive_weight": 0.0625,
+      "posterior_A": 1.0,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_QWEN_JM_11_01",
+      "model": "qwen3.8-max",
+      "packet_id": "JM_11_01",
+      "simulation_condition": "MARGINAL",
+      "bluffer_condition": "MARGINAL",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        1
+      ],
+      "prior_predictive_weight": 0.0625,
+      "posterior_A": 1.0,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_QWEN_JM_00_01",
+      "model": "qwen3.8-max",
+      "packet_id": "JM_00_01",
+      "simulation_condition": "MARGINAL",
+      "bluffer_condition": "MARGINAL",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        0,
+        0
+      ],
+      "vector_B": [
+        0,
+        1
+      ],
+      "prior_predictive_weight": 0.0625,
+      "posterior_A": 1.0,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_QWEN_JM_11_11",
+      "model": "qwen3.8-max",
+      "packet_id": "JM_11_11",
+      "simulation_condition": "MARGINAL",
+      "bluffer_condition": "MARGINAL",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        1,
+        1
+      ],
+      "vector_B": [
+        1,
+        1
+      ],
+      "prior_predictive_weight": 0.125,
+      "posterior_A": 0.5,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_QWEN_JM_01_11",
+      "model": "qwen3.8-max",
+      "packet_id": "JM_01_11",
+      "simulation_condition": "MARGINAL",
+      "bluffer_condition": "MARGINAL",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        0,
+        1
+      ],
+      "vector_B": [
+        1,
+        1
+      ],
+      "prior_predictive_weight": 0.0625,
+      "posterior_A": 0.0,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_QWEN_JM_10_11",
+      "model": "qwen3.8-max",
+      "packet_id": "JM_10_11",
+      "simulation_condition": "MARGINAL",
+      "bluffer_condition": "MARGINAL",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        1,
+        0
+      ],
+      "vector_B": [
+        1,
+        1
+      ],
+      "prior_predictive_weight": 0.0625,
+      "posterior_A": 0.0,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_QWEN_JM_11_00",
+      "model": "qwen3.8-max",
+      "packet_id": "JM_11_00",
+      "simulation_condition": "MARGINAL",
+      "bluffer_condition": "MARGINAL",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0
+      ],
+      "prior_predictive_weight": 0.125,
+      "posterior_A": 0.5,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_QWEN_JJ_11_00",
+      "model": "qwen3.8-max",
+      "packet_id": "JJ_11_00",
+      "simulation_condition": "JOINT",
+      "bluffer_condition": "JOINT",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0
+      ],
+      "prior_predictive_weight": 0.25,
+      "posterior_A": 0.5,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_QWEN_JJ_11_11",
+      "model": "qwen3.8-max",
+      "packet_id": "JJ_11_11",
+      "simulation_condition": "JOINT",
+      "bluffer_condition": "JOINT",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        1,
+        1
+      ],
+      "vector_B": [
+        1,
+        1
+      ],
+      "prior_predictive_weight": 0.25,
+      "posterior_A": 0.5,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_QWEN_JJ_00_11",
+      "model": "qwen3.8-max",
+      "packet_id": "JJ_00_11",
+      "simulation_condition": "JOINT",
+      "bluffer_condition": "JOINT",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1
+      ],
+      "prior_predictive_weight": 0.25,
+      "posterior_A": 0.5,
+      "status": "missing",
+      "invalid_reason": null
+    },
+    {
+      "request_id": "JG_QWEN_JJ_00_00",
+      "model": "qwen3.8-max",
+      "packet_id": "JJ_00_00",
+      "simulation_condition": "JOINT",
+      "bluffer_condition": "JOINT",
+      "judge_condition": "KNOWN_MECHANISM",
+      "vector_A": [
+        0,
+        0
+      ],
+      "vector_B": [
+        0,
+        0
+      ],
+      "prior_predictive_weight": 0.25,
+      "posterior_A": 0.5,
+      "status": "missing",
+      "invalid_reason": null
+    }
+  ],
+  "provenance": {
+    "run_name": "opencode_go_20261008_joint_epistemic_simulation32_01",
+    "analyzer_sha256_lf_utf8": "622ca55f0df05a85c01b0ab5b07791887b1feb282e78daf7e4913a136ca2cc65"
+  }
+}

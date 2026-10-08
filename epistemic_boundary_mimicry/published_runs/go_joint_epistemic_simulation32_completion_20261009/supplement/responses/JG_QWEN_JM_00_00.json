@@ -1,0 +1,37 @@
+{
+  "request_id": "JG_QWEN_JM_00_00",
+  "model": "qwen3.8-max",
+  "kind": "judge",
+  "case_id": "JM_00_00",
+  "simulation_condition": "MARGINAL",
+  "bluffer_condition": "MARGINAL",
+  "judge_condition": "KNOWN_MECHANISM",
+  "prompt_sha256": "c235b061491c784ce26ccbeb673f8fc56e7f84033fdf4d197a6bc7f10f63ad40",
+  "sent_utc": "2026-10-08T17:50:19.330599+00:00",
+  "status": "response_received",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"Both reply patterns are equally likely whether A or B is Reader: the Reader must have a copper-copper source and the non-reader must independently draw copper twice. Symmetric likelihoods leave the fair prior unchanged. Choosing either identity has expected cost 0.5, while abstaining costs 0.25, so abstain.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both reply patterns are equally likely whether A or B is Reader: the Reader must have a copper-copper source and the non-reader must independently draw copper twice. Symmetric likelihoods leave the fair prior unchanged. Choosing either identity has expected cost 0.5, while abstaining costs 0.25, so abstain."
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 632,
+    "output_tokens": 1668,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "http_status": 200,
+  "elapsed_seconds": 34.234,
+  "captured_utc": "2026-10-08T17:50:53.572057+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both reply patterns are equally likely whether A or B is Reader: the Reader must have a copper-copper source and the non-reader must independently draw copper twice. Symmetric likelihoods leave the fair prior unchanged. Choosing either identity has expected cost 0.5, while abstaining costs 0.25, so abstain."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict"
+}

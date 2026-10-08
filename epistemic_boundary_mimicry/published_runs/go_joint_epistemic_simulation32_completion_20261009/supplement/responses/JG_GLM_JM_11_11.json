@@ -1,0 +1,39 @@
+{
+  "request_id": "JG_GLM_JM_11_11",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "JM_11_11",
+  "simulation_condition": "MARGINAL",
+  "bluffer_condition": "MARGINAL",
+  "judge_condition": "KNOWN_MECHANISM",
+  "prompt_sha256": "49cba93a9c293df11f596e553b30b99fb845ba2bb46c302fe9d0956f72ce24ee",
+  "sent_utc": "2026-10-08T17:50:15.291397+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"Both replies are identical (slate, slate). If A is the Reader, B matching by chance has probability 1/4; if B is the Reader, A matching also has probability 1/4. The evidence is symmetric, so p_A = 0.5. Expected cost of choosing either is 0.5; abstaining costs 0.25, which is lower.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both replies are identical (slate, slate). If A is the Reader, B matching by chance has probability 1/4; if B is the Reader, A matching also has probability 1/4. The evidence is symmetric, so p_A = 0.5. Expected cost of choosing either is 0.5; abstaining costs 0.25, which is lower."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "usage": {
+    "prompt_tokens": 543,
+    "completion_tokens": 169,
+    "total_tokens": 712,
+    "prompt_tokens_details": {
+      "cached_tokens": 354
+    }
+  },
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 4.0,
+  "captured_utc": "2026-10-08T17:50:19.292868+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both replies are identical (slate, slate). If A is the Reader, B matching by chance has probability 1/4; if B is the Reader, A matching also has probability 1/4. The evidence is symmetric, so p_A = 0.5. Expected cost of choosing either is 0.5; abstaining costs 0.25, which is lower."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict"
+}

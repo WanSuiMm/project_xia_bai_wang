@@ -1,0 +1,39 @@
+{
+  "request_id": "JG_GLM_JM_11_00",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "JM_11_00",
+  "simulation_condition": "MARGINAL",
+  "bluffer_condition": "MARGINAL",
+  "judge_condition": "KNOWN_MECHANISM",
+  "prompt_sha256": "b6c9a65c1f1e5b63c42e6c3733ce37334b307b071b6678a90ab16c5e478f68d8",
+  "sent_utc": "2026-10-08T17:53:36.310877+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"Symmetric evidence: A's slate/slate is equally likely as the Reader with a slate source or as a non-reader whose two fair coins both landed slate (1/4). The mirror case for B is equally likely, so p_A = 0.5. Expected cost of choosing either identity is 0.5, exceeding abstain cost 0.25, so abstain.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Symmetric evidence: A's slate/slate is equally likely as the Reader with a slate source or as a non-reader whose two fair coins both landed slate (1/4). The mirror case for B is equally likely, so p_A = 0.5. Expected cost of choosing either identity is 0.5, exceeding abstain cost 0.25, so abstain."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "usage": {
+    "prompt_tokens": 543,
+    "completion_tokens": 248,
+    "total_tokens": 791,
+    "prompt_tokens_details": {
+      "cached_tokens": 8
+    }
+  },
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 6.172,
+  "captured_utc": "2026-10-08T17:53:42.493586+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Symmetric evidence: A's slate/slate is equally likely as the Reader with a slate source or as a non-reader whose two fair coins both landed slate (1/4). The mirror case for B is equally likely, so p_A = 0.5. Expected cost of choosing either identity is 0.5, exceeding abstain cost 0.25, so abstain."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict"
+}

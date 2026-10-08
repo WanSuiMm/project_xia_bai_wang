@@ -1,0 +1,30 @@
+{
+  "request_id": "JG_QWEN_JM_01_00",
+  "model": "qwen3.8-max",
+  "kind": "judge",
+  "case_id": "JM_01_00",
+  "simulation_condition": "MARGINAL",
+  "bluffer_condition": "MARGINAL",
+  "judge_condition": "KNOWN_MECHANISM",
+  "prompt_sha256": "45e2fdde8049ea11d57833e323975572da11627d5f37c22aa0285529f58c97f6",
+  "sent_utc": "2026-10-08T15:03:12.329663+00:00",
+  "status": "response_received",
+  "visible_text": "{\n  \"p_A\": 0,\n  \"decision\": \"B\",\n  \"reason\": \"A's mixed copper/slate replies cannot come from the Reader, whose source always has matching stamps. B's matching copper replies are compatible with a copper source. Thus posterior probability A is Reader is 0, making B the cost-minimizing identity choice.\"\n}",
+  "parsed": {
+    "p_A": 0.0,
+    "decision": "B",
+    "reason": "A's mixed copper/slate replies cannot come from the Reader, whose source always has matching stamps. B's matching copper replies are compatible with a copper source. Thus posterior probability A is Reader is 0, making B the cost-minimizing identity choice."
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 632,
+    "output_tokens": 1598,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "http_status": 200,
+  "elapsed_seconds": 44.782,
+  "captured_utc": "2026-10-08T15:03:57.110080+00:00"
+}

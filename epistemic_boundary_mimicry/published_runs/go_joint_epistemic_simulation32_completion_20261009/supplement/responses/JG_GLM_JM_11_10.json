@@ -1,0 +1,42 @@
+{
+  "request_id": "JG_GLM_JM_11_10",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "JM_11_10",
+  "simulation_condition": "MARGINAL",
+  "bluffer_condition": "MARGINAL",
+  "judge_condition": "KNOWN_MECHANISM",
+  "prompt_sha256": "93f94517df755144932cd4286e23841f4b3f493375085b4e153923e0209360ea",
+  "sent_utc": "2026-10-08T17:54:24.948691+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\":1,\"decision\":\"A\",\"reason\":\"The Reader must report the same stamp for both questions, either copper/copper or slate/slate. B's replies are slate and copper, which is impossible for the Reader. A's slate/slate replies are consistent with a slate source, so A is certainly the Reader.\"}",
+  "parsed": {
+    "p_A": 1.0,
+    "decision": "A",
+    "reason": "The Reader must report the same stamp for both questions, either copper/copper or slate/slate. B's replies are slate and copper, which is impossible for the Reader. A's slate/slate replies are consistent with a slate source, so A is certainly the Reader."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "usage": {
+    "prompt_tokens": 543,
+    "completion_tokens": 602,
+    "total_tokens": 1145,
+    "prompt_tokens_details": {
+      "cached_tokens": 9
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 532
+    }
+  },
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 10.0,
+  "captured_utc": "2026-10-08T17:54:34.936951+00:00",
+  "completion_parsed": {
+    "p_A": 1.0,
+    "decision": "A",
+    "reason": "The Reader must report the same stamp for both questions, either copper/copper or slate/slate. B's replies are slate and copper, which is impossible for the Reader. A's slate/slate replies are consistent with a slate source, so A is certainly the Reader."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict"
+}

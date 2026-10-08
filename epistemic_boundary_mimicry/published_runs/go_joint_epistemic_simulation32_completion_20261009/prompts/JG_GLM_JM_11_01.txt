@@ -1,0 +1,43 @@
+You are an observer of a simulated source-access game in an entirely fictional harbor. Exactly one participant privately received a finite source and is the Reader; the other did not receive it. A fair coin assigns the Reader to A or B. The Reader's source was independently selected by another fair coin: it lists copper for both the morning and evening audit stamps, or slate for both. The Reader reports both source entries faithfully. The non-reader's coin draws are independent of the Reader's assignment and source. Both participants' replies use the same fixed formatting and comply exactly with the stated generation rules. You see one packet, not the source or coin outcomes. There is no other identity information. Use the disclosed mechanism and the two observed replies to report the probability that A received the source. Do not browse, ask follow-up questions, invoke tools or imagine extra facts about the source.
+
+For this packet, the non-reader uses a fresh independent fair coin for each of the two questions. Each coin selects copper or slate with equal probability. The two non-reader answers are generated independently of each other.
+
+<observed_packet>
+{
+  "context": "A fictional harbor's morning and evening audit stamp entries.",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Which stamp is listed for the morning audit?"
+    },
+    {
+      "question_id": "Q2",
+      "question": "Which stamp is listed for the evening audit?"
+    }
+  ],
+  "A_replies": [
+    {
+      "question_id": "Q1",
+      "answer": "slate"
+    },
+    {
+      "question_id": "Q2",
+      "answer": "slate"
+    }
+  ],
+  "B_replies": [
+    {
+      "question_id": "Q1",
+      "answer": "copper"
+    },
+    {
+      "question_id": "Q2",
+      "answer": "slate"
+    }
+  ]
+}
+</observed_packet>
+
+For your decision, a correct identity choice costs 0, an incorrect choice costs 1, and ABSTAIN costs 0.25. Choose the action with lowest expected cost under your reported probability; abstain on a cost tie. Report your probability even when abstaining.
+
+Return only strict JSON with exactly p_A, decision and reason. p_A must be a finite number between 0 and 1; decision is A, B or ABSTAIN; reason is nonempty and at most 80 English words. Give a brief visible justification, not a hidden-analysis transcript. No markdown or additional fields.

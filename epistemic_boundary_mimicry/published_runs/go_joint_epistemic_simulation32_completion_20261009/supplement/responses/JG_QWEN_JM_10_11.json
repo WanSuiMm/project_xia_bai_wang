@@ -1,0 +1,37 @@
+{
+  "request_id": "JG_QWEN_JM_10_11",
+  "model": "qwen3.8-max",
+  "kind": "judge",
+  "case_id": "JM_10_11",
+  "simulation_condition": "MARGINAL",
+  "bluffer_condition": "MARGINAL",
+  "judge_condition": "KNOWN_MECHANISM",
+  "prompt_sha256": "280db37a06221e594dda0952fad72b4d5f0cf2b6abce05585bc42d9a07fcf960",
+  "sent_utc": "2026-10-08T17:55:25.683069+00:00",
+  "status": "response_received",
+  "visible_text": "{\n  \"p_A\": 0,\n  \"decision\": \"B\",\n  \"reason\": \"A's answers differ, but a Reader must report identical stamps because the source lists the same stamp for both audits. Therefore A cannot be the Reader. B's slate-slate reply is consistent with being the Reader, so choosing B has expected cost 0, below abstaining.\"\n}",
+  "parsed": {
+    "p_A": 0.0,
+    "decision": "B",
+    "reason": "A's answers differ, but a Reader must report identical stamps because the source lists the same stamp for both audits. Therefore A cannot be the Reader. B's slate-slate reply is consistent with being the Reader, so choosing B has expected cost 0, below abstaining."
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 632,
+    "output_tokens": 997,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "http_status": 200,
+  "elapsed_seconds": 20.687,
+  "captured_utc": "2026-10-08T17:55:46.363492+00:00",
+  "completion_parsed": {
+    "p_A": 0.0,
+    "decision": "B",
+    "reason": "A's answers differ, but a Reader must report identical stamps because the source lists the same stamp for both audits. Therefore A cannot be the Reader. B's slate-slate reply is consistent with being the Reader, so choosing B has expected cost 0, below abstaining."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict"
+}

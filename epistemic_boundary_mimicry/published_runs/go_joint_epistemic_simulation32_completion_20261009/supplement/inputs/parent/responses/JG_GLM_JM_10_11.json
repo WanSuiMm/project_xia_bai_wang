@@ -1,0 +1,32 @@
+{
+  "request_id": "JG_GLM_JM_10_11",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "JM_10_11",
+  "simulation_condition": "MARGINAL",
+  "bluffer_condition": "MARGINAL",
+  "judge_condition": "KNOWN_MECHANISM",
+  "prompt_sha256": "280db37a06221e594dda0952fad72b4d5f0cf2b6abce05585bc42d9a07fcf960",
+  "sent_utc": "2026-10-08T15:03:02.466040+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.1111111111111111, \"decision\": \"B\", \"reason\": \"The Reader's source lists the same stamp twice, so the Reader's two answers must match. A's replies (slate, copper) mismatch, so A cannot be the Reader. B's matching slate/slate is consistent with being the Reader (source slate) or a non-reader drawing slate twice (1/4). Likelihoods: Reader-B 1/4 vs both non-readers 1/32, giving P(B is Reader)=8/9, so p_A=1/9. Choosing B costs 1/9, less than abstaining (0.25).\"}",
+  "parsed": {
+    "p_A": 0.1111111111111111,
+    "decision": "B",
+    "reason": "The Reader's source lists the same stamp twice, so the Reader's two answers must match. A's replies (slate, copper) mismatch, so A cannot be the Reader. B's matching slate/slate is consistent with being the Reader (source slate) or a non-reader drawing slate twice (1/4). Likelihoods: Reader-B 1/4 vs both non-readers 1/32, giving P(B is Reader)=8/9, so p_A=1/9. Choosing B costs 1/9, less than abstaining (0.25)."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "usage": {
+    "prompt_tokens": 543,
+    "completion_tokens": 418,
+    "total_tokens": 961,
+    "prompt_tokens_details": {
+      "cached_tokens": 8
+    }
+  },
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 9.828,
+  "captured_utc": "2026-10-08T15:03:12.291154+00:00"
+}

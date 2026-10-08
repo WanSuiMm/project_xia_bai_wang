@@ -1,5 +1,7 @@
 # 瞎掰王：Who Really Knows?
 
+2026-10-09 JES32 已知机制 qualification：[主要结果](epistemic_boundary_mimicry/joint_epistemic_simulation/RESULTS_20261009.md) → [冻结协议](epistemic_boundary_mimicry/joint_epistemic_simulation/PROTOCOL_20261008.md) → [补跑修订](epistemic_boundary_mimicry/joint_epistemic_simulation/SUPPLEMENT_PROTOCOL_20261009.md) → [32 个位置与 33 次尝试的公开证据](epistemic_boundary_mimicry/published_runs/go_joint_epistemic_simulation32_completion_20261009/README.md)。两模型均判断程序化的两问响应，没有新 LLM Speakers 或自由追问。全部 32 个位置严格有效；原格式失败与 30 次补跑分开保留，尾巴合并实际未使用。Qwen 两组和 GLM JOINT 的后验误差为 0；GLM MARGINAL 三条概率偏离，加权误差 .0188966，高于原定 .01，整体 qualification 未通过。一次诊断刺激被误当对称而弃权。结果仅适用于这个已知有限机制，不作自然识骗或总体模型排名结论。公开离线复核：`python -X utf8 -B scripts/publish_joint_epistemic_simulation.py --verify`。
+
 2026-10-08 Counterfactual Source Boundary：[主要结果](epistemic_boundary_mimicry/counterfactual_source_boundary/RESULTS_20261008.md) → [逐回答语义复核](epistemic_boundary_mimicry/counterfactual_source_boundary/SEMANTIC_REVIEW_20261008.md) → [冻结协议](epistemic_boundary_mimicry/counterfactual_source_boundary/PROTOCOL_20261008.md) → [30 条公开回复与复现](epistemic_boundary_mimicry/published_runs/go_counterfactual_source_boundary30_20261008/README.md)。六份新资料各有省略目标值的 V0 和只增加一个事实句的 V1；Qwen Reader 均按来源边界回答，同组一份 Strong Bluffer 回复冻结复用。30/30 有效，六组操纵通过。GLM 12 次判断为 1 次选对、5 次选错、6 次弃权；平均 Reader 概率 .425→.433，配对变化 +.0083，没有一致的描述性改善。只看一个隐藏版本包的 Judge 不能直接观察来源条件依赖；任意代码题、表达长度差异及每格一次采样限制解释。离线公开复核：`python -X utf8 -B scripts/publish_counterfactual_source_boundary.py`，不调用模型、不需要 key。以前的证据与结论不变。
 
 2026-10-08 OMC16 行为预测 replay：[主要结果](epistemic_boundary_mimicry/opponent_model_replay/RESULTS_20261008.md) → [交付与复核](epistemic_boundary_mimicry/opponent_model_replay/DELIVERY_20261008.md) → [冻结协议](epistemic_boundary_mimicry/opponent_model_replay/PROTOCOL_20261008.md) → [16 条公开预测](epistemic_boundary_mimicry/published_runs/go_opponent_model16_20261008/README.md)。复用 SQ28 的八份 Bluffer 提示词与旧回答，只新增 16 次 GLM 预测，全部有效；没有重新生成 Speaker。预期所问细节的 source-silence admission 从 B0 3.7% 到 B1 12.9%，所有单次概率低于 .5。旧回答 47 条明确未出现、1 条未定；四份材料上的温和且不均匀预期变化，不是稳定校准失败或机制确认。原 HTTP 403 失败与相同设计恢复分开保留。公开离线复核：`python -X utf8 -B scripts/publish_opponent_model_replay.py`，不调用模型、不需要 key。
@@ -44,10 +46,10 @@
 
 ## 从这里开始
 
-1. [OMC16 主要结果](epistemic_boundary_mimicry/opponent_model_replay/RESULTS_20261008.md)：裁判对旧 Bluffer 行为的预期、实际回答与结论边界。
-2. [交付与复核](epistemic_boundary_mimicry/opponent_model_replay/DELIVERY_20261008.md)、[冻结协议](epistemic_boundary_mimicry/opponent_model_replay/PROTOCOL_20261008.md) 和 [公开包](epistemic_boundary_mimicry/published_runs/go_opponent_model16_20261008/README.md)：先看汇总，精确回复是二级证据。
-3. [SQ28 原始 qualification](epistemic_boundary_mimicry/strategic_qualification/DELIVERY_20261008.md) 与 [增量交接](GPT_HANDOFF.md)：旧回答来源和新证据审阅问题。
-4. [R0 replay 交付](epistemic_boundary_mimicry/replay_r0/DELIVERY_20261008.md) 与 [旧全量审计](epistemic_boundary_mimicry/analysis/claim_audit_20261007/RESULTS.md)：此前独立阶段的证据保持不变。
+1. [JES32 主要结果](epistemic_boundary_mimicry/joint_epistemic_simulation/RESULTS_20261009.md)：四组已知后验结果、三条 GLM 偏离及整体未通过的标准。
+2. [冻结协议](epistemic_boundary_mimicry/joint_epistemic_simulation/PROTOCOL_20261008.md)、[补跑修订](epistemic_boundary_mimicry/joint_epistemic_simulation/SUPPLEMENT_PROTOCOL_20261009.md) 与 [公开复现](epistemic_boundary_mimicry/published_runs/go_joint_epistemic_simulation32_completion_20261009/README.md)：先看汇总，逐条回复为二级证据。
+3. [增量交接](GPT_HANDOFF.md)：相对之前 CSB30 交付的新证据、未改变的结论与 reviewer 问题。
+4. [CSB30](epistemic_boundary_mimicry/counterfactual_source_boundary/RESULTS_20261008.md)、[OMC16](epistemic_boundary_mimicry/opponent_model_replay/RESULTS_20261008.md)、[R0](epistemic_boundary_mimicry/replay_r0/DELIVERY_20261008.md) 与 [旧全量审计](epistemic_boundary_mimicry/analysis/claim_audit_20261007/RESULTS.md)：此前独立阶段的证据保持不变。
 
 以下是 v0.1 的历史阅读路线：
 

@@ -1,0 +1,37 @@
+{
+  "request_id": "JG_QWEN_JM_00_11",
+  "model": "qwen3.8-max",
+  "kind": "judge",
+  "case_id": "JM_00_11",
+  "simulation_condition": "MARGINAL",
+  "bluffer_condition": "MARGINAL",
+  "judge_condition": "KNOWN_MECHANISM",
+  "prompt_sha256": "1b5478576b2649b20f4ded7a7b934d8c4d9e41f5540f0eccfc7d23088c6f25a1",
+  "sent_utc": "2026-10-08T17:49:21.279636+00:00",
+  "status": "response_received",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"Both hypotheses are symmetric: A reading copper/copper with B non-reader slate/slate has probability 1/8, same as B reading slate/slate with A non-reader copper/copper. Thus p_A=0.5. Choosing either identity has expected cost 0.5, while abstaining costs 0.25, so abstain.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both hypotheses are symmetric: A reading copper/copper with B non-reader slate/slate has probability 1/8, same as B reading slate/slate with A non-reader copper/copper. Thus p_A=0.5. Choosing either identity has expected cost 0.5, while abstaining costs 0.25, so abstain."
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 632,
+    "output_tokens": 1259,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "http_status": 200,
+  "elapsed_seconds": 23.875,
+  "captured_utc": "2026-10-08T17:49:45.153791+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both hypotheses are symmetric: A reading copper/copper with B non-reader slate/slate has probability 1/8, same as B reading slate/slate with A non-reader copper/copper. Thus p_A=0.5. Choosing either identity has expected cost 0.5, while abstaining costs 0.25, so abstain."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict"
+}

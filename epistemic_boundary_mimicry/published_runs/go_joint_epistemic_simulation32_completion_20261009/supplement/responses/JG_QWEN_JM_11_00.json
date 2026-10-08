@@ -1,0 +1,37 @@
+{
+  "request_id": "JG_QWEN_JM_11_00",
+  "model": "qwen3.8-max",
+  "kind": "judge",
+  "case_id": "JM_11_00",
+  "simulation_condition": "MARGINAL",
+  "bluffer_condition": "MARGINAL",
+  "judge_condition": "KNOWN_MECHANISM",
+  "prompt_sha256": "b6c9a65c1f1e5b63c42e6c3733ce37334b307b071b6678a90ab16c5e478f68d8",
+  "sent_utc": "2026-10-08T17:55:46.411960+00:00",
+  "status": "response_received",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"Both hypotheses are equally likely: if A read, source slate probability 1/2 and B double-copper 1/4; if B read, source copper 1/2 and A double-slate 1/4. Posterior p_A=1/2. Expected costs: choosing A or B costs 0.5, while abstaining costs 0.25, so abstain.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both hypotheses are equally likely: if A read, source slate probability 1/2 and B double-copper 1/4; if B read, source copper 1/2 and A double-slate 1/4. Posterior p_A=1/2. Expected costs: choosing A or B costs 0.5, while abstaining costs 0.25, so abstain."
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 632,
+    "output_tokens": 889,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "http_status": 200,
+  "elapsed_seconds": 17.266,
+  "captured_utc": "2026-10-08T17:56:03.673262+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both hypotheses are equally likely: if A read, source slate probability 1/2 and B double-copper 1/4; if B read, source copper 1/2 and A double-slate 1/4. Posterior p_A=1/2. Expected costs: choosing A or B costs 0.5, while abstaining costs 0.25, so abstain."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict"
+}

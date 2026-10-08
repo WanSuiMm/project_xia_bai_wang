@@ -1,0 +1,42 @@
+{
+  "request_id": "JG_GLM_JJ_11_11",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "JJ_11_11",
+  "simulation_condition": "JOINT",
+  "bluffer_condition": "JOINT",
+  "judge_condition": "KNOWN_MECHANISM",
+  "prompt_sha256": "c0de990284a8a22afff173798e367fe0dc82f01393037fe422a3dbb1b4ba3bb2",
+  "sent_utc": "2026-10-08T17:52:26.950603+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\":0.5,\"decision\":\"ABSTAIN\",\"reason\":\"Both hypotheses explain the replies equally: either A is the Reader with a slate source and B's non-reader coin chose slate, or B is the Reader with a slate source and A's non-reader coin chose slate. Each has likelihood 1/4, so the posterior remains 0.5. Abstaining costs 0.25, less than the 0.5 expected cost of choosing A or B.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both hypotheses explain the replies equally: either A is the Reader with a slate source and B's non-reader coin chose slate, or B is the Reader with a slate source and A's non-reader coin chose slate. Each has likelihood 1/4, so the posterior remains 0.5. Abstaining costs 0.25, less than the 0.5 expected cost of choosing A or B."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "usage": {
+    "prompt_tokens": 530,
+    "completion_tokens": 676,
+    "total_tokens": 1206,
+    "prompt_tokens_details": {
+      "cached_tokens": 8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 573
+    }
+  },
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 11.438,
+  "captured_utc": "2026-10-08T17:52:38.400567+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both hypotheses explain the replies equally: either A is the Reader with a slate source and B's non-reader coin chose slate, or B is the Reader with a slate source and A's non-reader coin chose slate. Each has likelihood 1/4, so the posterior remains 0.5. Abstaining costs 0.25, less than the 0.5 expected cost of choosing A or B."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict"
+}

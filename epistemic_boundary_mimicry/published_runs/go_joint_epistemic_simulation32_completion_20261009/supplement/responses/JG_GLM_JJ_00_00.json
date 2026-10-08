@@ -1,0 +1,39 @@
+{
+  "request_id": "JG_GLM_JJ_00_00",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "JJ_00_00",
+  "simulation_condition": "JOINT",
+  "bluffer_condition": "JOINT",
+  "judge_condition": "KNOWN_MECHANISM",
+  "prompt_sha256": "3291f71c57d817ecddbedc7ef6c79724ca9149ac78e136c163fddad80ec11428",
+  "sent_utc": "2026-10-08T17:53:05.214952+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"Both replies are copper-copper. The reader reports the true source (copper-copper or slate-slate); the non-reader independently reports one coin-chosen stamp twice. Observing matching copper-copper is consistent only with a copper source, and the reader is equally likely to be A or B, so p_A = 0.5. Choosing either identity costs 0.5 expected, while abstaining costs 0.25.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both replies are copper-copper. The reader reports the true source (copper-copper or slate-slate); the non-reader independently reports one coin-chosen stamp twice. Observing matching copper-copper is consistent only with a copper source, and the reader is equally likely to be A or B, so p_A = 0.5. Choosing either identity costs 0.5 expected, while abstaining costs 0.25."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "usage": {
+    "prompt_tokens": 530,
+    "completion_tokens": 260,
+    "total_tokens": 790,
+    "prompt_tokens_details": {
+      "cached_tokens": 8
+    }
+  },
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 6.047,
+  "captured_utc": "2026-10-08T17:53:11.253542+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both replies are copper-copper. The reader reports the true source (copper-copper or slate-slate); the non-reader independently reports one coin-chosen stamp twice. Observing matching copper-copper is consistent only with a copper source, and the reader is equally likely to be A or B, so p_A = 0.5. Choosing either identity costs 0.5 expected, while abstaining costs 0.25."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict"
+}

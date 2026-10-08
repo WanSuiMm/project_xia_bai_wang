@@ -1,0 +1,28 @@
+{
+  "request_id": "JG_GLM_JJ_11_00",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "JJ_11_00",
+  "simulation_condition": "JOINT",
+  "bluffer_condition": "JOINT",
+  "judge_condition": "KNOWN_MECHANISM",
+  "prompt_sha256": "5625fd93b3296ce2aca98261cd22c8701e96d618cf4b60a1f16a82cd472e7f54",
+  "sent_utc": "2026-10-08T15:03:57.152152+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\":0.5,\"decision\":\"ABSTAIN\",\"reason\":\"The observed replies are symmetric: A as reader with a slate source and B as copper non-reader is exactly as likely as B as reader with a copper source and A as slate non-reader. Thus p_A is 0.5, and abstaining costs 0.25 versus 0.5 for choosing either identity.\"}<|assistant|>_p_A:0.5\ndecision:ABSTAIN\nreason:The observed replies are symmetric: A as reader with a slate source and B as copper non-reader is exactly as likely as B as reader with a copper source and A as slate non-reader. Thus p_A is 0.5, and abstaining costs 0.25 versus 0.5 for choosing either identity._",
+  "parsed": null,
+  "parse_status": "invalid_response",
+  "returned_model": "glm-5.3",
+  "usage": {
+    "prompt_tokens": 530,
+    "completion_tokens": 1457,
+    "total_tokens": 1987,
+    "prompt_tokens_details": {
+      "cached_tokens": 193
+    }
+  },
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 26.609,
+  "captured_utc": "2026-10-08T15:04:23.752502+00:00"
+}

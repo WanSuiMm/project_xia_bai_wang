@@ -1,0 +1,722 @@
+[
+  {
+    "packet_id": "JJ_11_00",
+    "simulation_condition": "JOINT",
+    "vector_A": [
+      1,
+      1
+    ],
+    "vector_B": [
+      0,
+      0
+    ],
+    "likelihood_reader_A": 0.25,
+    "likelihood_reader_B": 0.25,
+    "prior_predictive_weight": 0.25,
+    "posterior_A": 0.5,
+    "request_id": "JG_GLM_JJ_11_00",
+    "kind": "judge",
+    "model": "glm-5.3",
+    "case_id": "JJ_11_00",
+    "bluffer_condition": "JOINT",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_GLM_JJ_11_00.txt",
+    "schedule_index": 3
+  },
+  {
+    "packet_id": "JM_10_00",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      1,
+      0
+    ],
+    "vector_B": [
+      0,
+      0
+    ],
+    "likelihood_reader_A": 0.0,
+    "likelihood_reader_B": 0.125,
+    "prior_predictive_weight": 0.0625,
+    "posterior_A": 0.0,
+    "request_id": "JG_QWEN_JM_10_00",
+    "kind": "judge",
+    "model": "qwen3.8-max",
+    "case_id": "JM_10_00",
+    "bluffer_condition": "MARGINAL",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_QWEN_JM_10_00.txt",
+    "schedule_index": 4
+  },
+  {
+    "packet_id": "JM_00_11",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      0,
+      0
+    ],
+    "vector_B": [
+      1,
+      1
+    ],
+    "likelihood_reader_A": 0.125,
+    "likelihood_reader_B": 0.125,
+    "prior_predictive_weight": 0.125,
+    "posterior_A": 0.5,
+    "request_id": "JG_QWEN_JM_00_11",
+    "kind": "judge",
+    "model": "qwen3.8-max",
+    "case_id": "JM_00_11",
+    "bluffer_condition": "MARGINAL",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_QWEN_JM_00_11.txt",
+    "schedule_index": 5
+  },
+  {
+    "packet_id": "JM_10_00",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      1,
+      0
+    ],
+    "vector_B": [
+      0,
+      0
+    ],
+    "likelihood_reader_A": 0.0,
+    "likelihood_reader_B": 0.125,
+    "prior_predictive_weight": 0.0625,
+    "posterior_A": 0.0,
+    "request_id": "JG_GLM_JM_10_00",
+    "kind": "judge",
+    "model": "glm-5.3",
+    "case_id": "JM_10_00",
+    "bluffer_condition": "MARGINAL",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_GLM_JM_10_00.txt",
+    "schedule_index": 6
+  },
+  {
+    "packet_id": "JJ_11_00",
+    "simulation_condition": "JOINT",
+    "vector_A": [
+      1,
+      1
+    ],
+    "vector_B": [
+      0,
+      0
+    ],
+    "likelihood_reader_A": 0.25,
+    "likelihood_reader_B": 0.25,
+    "prior_predictive_weight": 0.25,
+    "posterior_A": 0.5,
+    "request_id": "JG_QWEN_JJ_11_00",
+    "kind": "judge",
+    "model": "qwen3.8-max",
+    "case_id": "JJ_11_00",
+    "bluffer_condition": "JOINT",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_QWEN_JJ_11_00.txt",
+    "schedule_index": 7
+  },
+  {
+    "packet_id": "JM_11_11",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      1,
+      1
+    ],
+    "vector_B": [
+      1,
+      1
+    ],
+    "likelihood_reader_A": 0.125,
+    "likelihood_reader_B": 0.125,
+    "prior_predictive_weight": 0.125,
+    "posterior_A": 0.5,
+    "request_id": "JG_GLM_JM_11_11",
+    "kind": "judge",
+    "model": "glm-5.3",
+    "case_id": "JM_11_11",
+    "bluffer_condition": "MARGINAL",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_GLM_JM_11_11.txt",
+    "schedule_index": 8
+  },
+  {
+    "packet_id": "JM_00_00",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      0,
+      0
+    ],
+    "vector_B": [
+      0,
+      0
+    ],
+    "likelihood_reader_A": 0.125,
+    "likelihood_reader_B": 0.125,
+    "prior_predictive_weight": 0.125,
+    "posterior_A": 0.5,
+    "request_id": "JG_QWEN_JM_00_00",
+    "kind": "judge",
+    "model": "qwen3.8-max",
+    "case_id": "JM_00_00",
+    "bluffer_condition": "MARGINAL",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_QWEN_JM_00_00.txt",
+    "schedule_index": 9
+  },
+  {
+    "packet_id": "JM_11_10",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      1,
+      1
+    ],
+    "vector_B": [
+      1,
+      0
+    ],
+    "likelihood_reader_A": 0.125,
+    "likelihood_reader_B": 0.0,
+    "prior_predictive_weight": 0.0625,
+    "posterior_A": 1.0,
+    "request_id": "JG_QWEN_JM_11_10",
+    "kind": "judge",
+    "model": "qwen3.8-max",
+    "case_id": "JM_11_10",
+    "bluffer_condition": "MARGINAL",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_QWEN_JM_11_10.txt",
+    "schedule_index": 10
+  },
+  {
+    "packet_id": "JM_00_10",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      0,
+      0
+    ],
+    "vector_B": [
+      1,
+      0
+    ],
+    "likelihood_reader_A": 0.125,
+    "likelihood_reader_B": 0.0,
+    "prior_predictive_weight": 0.0625,
+    "posterior_A": 1.0,
+    "request_id": "JG_QWEN_JM_00_10",
+    "kind": "judge",
+    "model": "qwen3.8-max",
+    "case_id": "JM_00_10",
+    "bluffer_condition": "MARGINAL",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_QWEN_JM_00_10.txt",
+    "schedule_index": 11
+  },
+  {
+    "packet_id": "JM_11_01",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      1,
+      1
+    ],
+    "vector_B": [
+      0,
+      1
+    ],
+    "likelihood_reader_A": 0.125,
+    "likelihood_reader_B": 0.0,
+    "prior_predictive_weight": 0.0625,
+    "posterior_A": 1.0,
+    "request_id": "JG_QWEN_JM_11_01",
+    "kind": "judge",
+    "model": "qwen3.8-max",
+    "case_id": "JM_11_01",
+    "bluffer_condition": "MARGINAL",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_QWEN_JM_11_01.txt",
+    "schedule_index": 12
+  },
+  {
+    "packet_id": "JM_00_10",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      0,
+      0
+    ],
+    "vector_B": [
+      1,
+      0
+    ],
+    "likelihood_reader_A": 0.125,
+    "likelihood_reader_B": 0.0,
+    "prior_predictive_weight": 0.0625,
+    "posterior_A": 1.0,
+    "request_id": "JG_GLM_JM_00_10",
+    "kind": "judge",
+    "model": "glm-5.3",
+    "case_id": "JM_00_10",
+    "bluffer_condition": "MARGINAL",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_GLM_JM_00_10.txt",
+    "schedule_index": 13
+  },
+  {
+    "packet_id": "JM_00_01",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      0,
+      0
+    ],
+    "vector_B": [
+      0,
+      1
+    ],
+    "likelihood_reader_A": 0.125,
+    "likelihood_reader_B": 0.0,
+    "prior_predictive_weight": 0.0625,
+    "posterior_A": 1.0,
+    "request_id": "JG_GLM_JM_00_01",
+    "kind": "judge",
+    "model": "glm-5.3",
+    "case_id": "JM_00_01",
+    "bluffer_condition": "MARGINAL",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_GLM_JM_00_01.txt",
+    "schedule_index": 14
+  },
+  {
+    "packet_id": "JJ_11_11",
+    "simulation_condition": "JOINT",
+    "vector_A": [
+      1,
+      1
+    ],
+    "vector_B": [
+      1,
+      1
+    ],
+    "likelihood_reader_A": 0.25,
+    "likelihood_reader_B": 0.25,
+    "prior_predictive_weight": 0.25,
+    "posterior_A": 0.5,
+    "request_id": "JG_GLM_JJ_11_11",
+    "kind": "judge",
+    "model": "glm-5.3",
+    "case_id": "JJ_11_11",
+    "bluffer_condition": "JOINT",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_GLM_JJ_11_11.txt",
+    "schedule_index": 15
+  },
+  {
+    "packet_id": "JM_01_11",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      0,
+      1
+    ],
+    "vector_B": [
+      1,
+      1
+    ],
+    "likelihood_reader_A": 0.0,
+    "likelihood_reader_B": 0.125,
+    "prior_predictive_weight": 0.0625,
+    "posterior_A": 0.0,
+    "request_id": "JG_GLM_JM_01_11",
+    "kind": "judge",
+    "model": "glm-5.3",
+    "case_id": "JM_01_11",
+    "bluffer_condition": "MARGINAL",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_GLM_JM_01_11.txt",
+    "schedule_index": 16
+  },
+  {
+    "packet_id": "JM_00_01",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      0,
+      0
+    ],
+    "vector_B": [
+      0,
+      1
+    ],
+    "likelihood_reader_A": 0.125,
+    "likelihood_reader_B": 0.0,
+    "prior_predictive_weight": 0.0625,
+    "posterior_A": 1.0,
+    "request_id": "JG_QWEN_JM_00_01",
+    "kind": "judge",
+    "model": "qwen3.8-max",
+    "case_id": "JM_00_01",
+    "bluffer_condition": "MARGINAL",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_QWEN_JM_00_01.txt",
+    "schedule_index": 17
+  },
+  {
+    "packet_id": "JJ_00_00",
+    "simulation_condition": "JOINT",
+    "vector_A": [
+      0,
+      0
+    ],
+    "vector_B": [
+      0,
+      0
+    ],
+    "likelihood_reader_A": 0.25,
+    "likelihood_reader_B": 0.25,
+    "prior_predictive_weight": 0.25,
+    "posterior_A": 0.5,
+    "request_id": "JG_GLM_JJ_00_00",
+    "kind": "judge",
+    "model": "glm-5.3",
+    "case_id": "JJ_00_00",
+    "bluffer_condition": "JOINT",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_GLM_JJ_00_00.txt",
+    "schedule_index": 18
+  },
+  {
+    "packet_id": "JJ_11_11",
+    "simulation_condition": "JOINT",
+    "vector_A": [
+      1,
+      1
+    ],
+    "vector_B": [
+      1,
+      1
+    ],
+    "likelihood_reader_A": 0.25,
+    "likelihood_reader_B": 0.25,
+    "prior_predictive_weight": 0.25,
+    "posterior_A": 0.5,
+    "request_id": "JG_QWEN_JJ_11_11",
+    "kind": "judge",
+    "model": "qwen3.8-max",
+    "case_id": "JJ_11_11",
+    "bluffer_condition": "JOINT",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_QWEN_JJ_11_11.txt",
+    "schedule_index": 19
+  },
+  {
+    "packet_id": "JM_11_00",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      1,
+      1
+    ],
+    "vector_B": [
+      0,
+      0
+    ],
+    "likelihood_reader_A": 0.125,
+    "likelihood_reader_B": 0.125,
+    "prior_predictive_weight": 0.125,
+    "posterior_A": 0.5,
+    "request_id": "JG_GLM_JM_11_00",
+    "kind": "judge",
+    "model": "glm-5.3",
+    "case_id": "JM_11_00",
+    "bluffer_condition": "MARGINAL",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_GLM_JM_11_00.txt",
+    "schedule_index": 20
+  },
+  {
+    "packet_id": "JJ_00_11",
+    "simulation_condition": "JOINT",
+    "vector_A": [
+      0,
+      0
+    ],
+    "vector_B": [
+      1,
+      1
+    ],
+    "likelihood_reader_A": 0.25,
+    "likelihood_reader_B": 0.25,
+    "prior_predictive_weight": 0.25,
+    "posterior_A": 0.5,
+    "request_id": "JG_QWEN_JJ_00_11",
+    "kind": "judge",
+    "model": "qwen3.8-max",
+    "case_id": "JJ_00_11",
+    "bluffer_condition": "JOINT",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_QWEN_JJ_00_11.txt",
+    "schedule_index": 21
+  },
+  {
+    "packet_id": "JM_11_11",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      1,
+      1
+    ],
+    "vector_B": [
+      1,
+      1
+    ],
+    "likelihood_reader_A": 0.125,
+    "likelihood_reader_B": 0.125,
+    "prior_predictive_weight": 0.125,
+    "posterior_A": 0.5,
+    "request_id": "JG_QWEN_JM_11_11",
+    "kind": "judge",
+    "model": "qwen3.8-max",
+    "case_id": "JM_11_11",
+    "bluffer_condition": "MARGINAL",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_QWEN_JM_11_11.txt",
+    "schedule_index": 22
+  },
+  {
+    "packet_id": "JM_11_01",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      1,
+      1
+    ],
+    "vector_B": [
+      0,
+      1
+    ],
+    "likelihood_reader_A": 0.125,
+    "likelihood_reader_B": 0.0,
+    "prior_predictive_weight": 0.0625,
+    "posterior_A": 1.0,
+    "request_id": "JG_GLM_JM_11_01",
+    "kind": "judge",
+    "model": "glm-5.3",
+    "case_id": "JM_11_01",
+    "bluffer_condition": "MARGINAL",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_GLM_JM_11_01.txt",
+    "schedule_index": 23
+  },
+  {
+    "packet_id": "JM_11_10",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      1,
+      1
+    ],
+    "vector_B": [
+      1,
+      0
+    ],
+    "likelihood_reader_A": 0.125,
+    "likelihood_reader_B": 0.0,
+    "prior_predictive_weight": 0.0625,
+    "posterior_A": 1.0,
+    "request_id": "JG_GLM_JM_11_10",
+    "kind": "judge",
+    "model": "glm-5.3",
+    "case_id": "JM_11_10",
+    "bluffer_condition": "MARGINAL",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_GLM_JM_11_10.txt",
+    "schedule_index": 24
+  },
+  {
+    "packet_id": "JM_00_00",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      0,
+      0
+    ],
+    "vector_B": [
+      0,
+      0
+    ],
+    "likelihood_reader_A": 0.125,
+    "likelihood_reader_B": 0.125,
+    "prior_predictive_weight": 0.125,
+    "posterior_A": 0.5,
+    "request_id": "JG_GLM_JM_00_00",
+    "kind": "judge",
+    "model": "glm-5.3",
+    "case_id": "JM_00_00",
+    "bluffer_condition": "MARGINAL",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_GLM_JM_00_00.txt",
+    "schedule_index": 25
+  },
+  {
+    "packet_id": "JJ_00_00",
+    "simulation_condition": "JOINT",
+    "vector_A": [
+      0,
+      0
+    ],
+    "vector_B": [
+      0,
+      0
+    ],
+    "likelihood_reader_A": 0.25,
+    "likelihood_reader_B": 0.25,
+    "prior_predictive_weight": 0.25,
+    "posterior_A": 0.5,
+    "request_id": "JG_QWEN_JJ_00_00",
+    "kind": "judge",
+    "model": "qwen3.8-max",
+    "case_id": "JJ_00_00",
+    "bluffer_condition": "JOINT",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_QWEN_JJ_00_00.txt",
+    "schedule_index": 26
+  },
+  {
+    "packet_id": "JM_01_11",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      0,
+      1
+    ],
+    "vector_B": [
+      1,
+      1
+    ],
+    "likelihood_reader_A": 0.0,
+    "likelihood_reader_B": 0.125,
+    "prior_predictive_weight": 0.0625,
+    "posterior_A": 0.0,
+    "request_id": "JG_QWEN_JM_01_11",
+    "kind": "judge",
+    "model": "qwen3.8-max",
+    "case_id": "JM_01_11",
+    "bluffer_condition": "MARGINAL",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_QWEN_JM_01_11.txt",
+    "schedule_index": 27
+  },
+  {
+    "packet_id": "JJ_00_11",
+    "simulation_condition": "JOINT",
+    "vector_A": [
+      0,
+      0
+    ],
+    "vector_B": [
+      1,
+      1
+    ],
+    "likelihood_reader_A": 0.25,
+    "likelihood_reader_B": 0.25,
+    "prior_predictive_weight": 0.25,
+    "posterior_A": 0.5,
+    "request_id": "JG_GLM_JJ_00_11",
+    "kind": "judge",
+    "model": "glm-5.3",
+    "case_id": "JJ_00_11",
+    "bluffer_condition": "JOINT",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_GLM_JJ_00_11.txt",
+    "schedule_index": 28
+  },
+  {
+    "packet_id": "JM_10_11",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      1,
+      0
+    ],
+    "vector_B": [
+      1,
+      1
+    ],
+    "likelihood_reader_A": 0.0,
+    "likelihood_reader_B": 0.125,
+    "prior_predictive_weight": 0.0625,
+    "posterior_A": 0.0,
+    "request_id": "JG_QWEN_JM_10_11",
+    "kind": "judge",
+    "model": "qwen3.8-max",
+    "case_id": "JM_10_11",
+    "bluffer_condition": "MARGINAL",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_QWEN_JM_10_11.txt",
+    "schedule_index": 29
+  },
+  {
+    "packet_id": "JM_11_00",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      1,
+      1
+    ],
+    "vector_B": [
+      0,
+      0
+    ],
+    "likelihood_reader_A": 0.125,
+    "likelihood_reader_B": 0.125,
+    "prior_predictive_weight": 0.125,
+    "posterior_A": 0.5,
+    "request_id": "JG_QWEN_JM_11_00",
+    "kind": "judge",
+    "model": "qwen3.8-max",
+    "case_id": "JM_11_00",
+    "bluffer_condition": "MARGINAL",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_QWEN_JM_11_00.txt",
+    "schedule_index": 30
+  },
+  {
+    "packet_id": "JM_00_11",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      0,
+      0
+    ],
+    "vector_B": [
+      1,
+      1
+    ],
+    "likelihood_reader_A": 0.125,
+    "likelihood_reader_B": 0.125,
+    "prior_predictive_weight": 0.125,
+    "posterior_A": 0.5,
+    "request_id": "JG_GLM_JM_00_11",
+    "kind": "judge",
+    "model": "glm-5.3",
+    "case_id": "JM_00_11",
+    "bluffer_condition": "MARGINAL",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_GLM_JM_00_11.txt",
+    "schedule_index": 31
+  },
+  {
+    "packet_id": "JM_01_00",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      0,
+      1
+    ],
+    "vector_B": [
+      0,
+      0
+    ],
+    "likelihood_reader_A": 0.0,
+    "likelihood_reader_B": 0.125,
+    "prior_predictive_weight": 0.0625,
+    "posterior_A": 0.0,
+    "request_id": "JG_GLM_JM_01_00",
+    "kind": "judge",
+    "model": "glm-5.3",
+    "case_id": "JM_01_00",
+    "bluffer_condition": "MARGINAL",
+    "judge_condition": "KNOWN_MECHANISM",
+    "prompt_path": "prompts/JG_GLM_JM_01_00.txt",
+    "schedule_index": 32
+  }
+]

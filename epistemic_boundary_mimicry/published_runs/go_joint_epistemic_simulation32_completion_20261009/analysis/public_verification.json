@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "verification": "PASS",
+  "verification_scope": "Public package only; no local source run, network request, or credential access.",
+  "original": {
+    "planned_slots": 32,
+    "physical_attempts": 3,
+    "strict_valid": 2,
+    "strict_invalid_attempts": 1,
+    "unattempted_slots": 29,
+    "registered_status": "incomplete",
+    "registered_gate": "INCOMPLETE"
+  },
+  "completion_overlay": {
+    "fixed_slots": 32,
+    "physical_attempts": 33,
+    "strict_valid_selected_slots": 32,
+    "retained_original_valid": 2,
+    "original_invalid_excluded": 1,
+    "supplement_first_attempts": 30,
+    "normalized_supplement_responses": 0,
+    "overall_gate": "FAIL",
+    "per_cell_primary": [
+      {
+        "model": "glm-5.3",
+        "simulation_condition": "MARGINAL",
+        "positive_support_packets": 12,
+        "selected_valid_packets": 12,
+        "prior_predictive_weight_sum": 1.0,
+        "recomputed_primary_excess_brier": 0.018896604938271604,
+        "published_primary_excess_brier": 0.018896604938271604,
+        "gate_pass": false
+      },
+      {
+        "model": "glm-5.3",
+        "simulation_condition": "JOINT",
+        "positive_support_packets": 4,
+        "selected_valid_packets": 4,
+        "prior_predictive_weight_sum": 1.0,
+        "recomputed_primary_excess_brier": 0.0,
+        "published_primary_excess_brier": 0.0,
+        "gate_pass": true
+      },
+      {
+        "model": "qwen3.8-max",
+        "simulation_condition": "MARGINAL",
+        "positive_support_packets": 12,
+        "selected_valid_packets": 12,
+        "prior_predictive_weight_sum": 1.0,
+        "recomputed_primary_excess_brier": 0.0,
+        "published_primary_excess_brier": 0.0,
+        "gate_pass": true
+      },
+      {
+        "model": "qwen3.8-max",
+        "simulation_condition": "JOINT",
+        "positive_support_packets": 4,
+        "selected_valid_packets": 4,
+        "prior_predictive_weight_sum": 1.0,
+        "recomputed_primary_excess_brier": 0.0,
+        "published_primary_excess_brier": 0.0,
+        "gate_pass": true
+      }
+    ]
+  },
+  "checks": {
+    "source_freeze_hashes": "PASS",
+    "exact_prompt_hashes": "PASS",
+    "strict_raw_parse_fields": "PASS",
+    "supplement_completion_parse_fields": "PASS",
+    "attempt_selection_and_bindings": "PASS",
+    "all_32_weights_and_primary_aggregates": "PASS",
+    "zero_normalization_fields": "PASS",
+    "public_file_safety_and_allowlist": "PASS"
+  }
+}

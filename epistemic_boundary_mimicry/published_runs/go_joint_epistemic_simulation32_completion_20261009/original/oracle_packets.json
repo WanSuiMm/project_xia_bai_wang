@@ -1,0 +1,258 @@
+[
+  {
+    "packet_id": "JM_00_00",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      0,
+      0
+    ],
+    "vector_B": [
+      0,
+      0
+    ],
+    "likelihood_reader_A": 0.125,
+    "likelihood_reader_B": 0.125,
+    "prior_predictive_weight": 0.125,
+    "posterior_A": 0.5
+  },
+  {
+    "packet_id": "JM_00_01",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      0,
+      0
+    ],
+    "vector_B": [
+      0,
+      1
+    ],
+    "likelihood_reader_A": 0.125,
+    "likelihood_reader_B": 0.0,
+    "prior_predictive_weight": 0.0625,
+    "posterior_A": 1.0
+  },
+  {
+    "packet_id": "JM_00_10",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      0,
+      0
+    ],
+    "vector_B": [
+      1,
+      0
+    ],
+    "likelihood_reader_A": 0.125,
+    "likelihood_reader_B": 0.0,
+    "prior_predictive_weight": 0.0625,
+    "posterior_A": 1.0
+  },
+  {
+    "packet_id": "JM_00_11",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      0,
+      0
+    ],
+    "vector_B": [
+      1,
+      1
+    ],
+    "likelihood_reader_A": 0.125,
+    "likelihood_reader_B": 0.125,
+    "prior_predictive_weight": 0.125,
+    "posterior_A": 0.5
+  },
+  {
+    "packet_id": "JM_01_00",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      0,
+      1
+    ],
+    "vector_B": [
+      0,
+      0
+    ],
+    "likelihood_reader_A": 0.0,
+    "likelihood_reader_B": 0.125,
+    "prior_predictive_weight": 0.0625,
+    "posterior_A": 0.0
+  },
+  {
+    "packet_id": "JM_01_11",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      0,
+      1
+    ],
+    "vector_B": [
+      1,
+      1
+    ],
+    "likelihood_reader_A": 0.0,
+    "likelihood_reader_B": 0.125,
+    "prior_predictive_weight": 0.0625,
+    "posterior_A": 0.0
+  },
+  {
+    "packet_id": "JM_10_00",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      1,
+      0
+    ],
+    "vector_B": [
+      0,
+      0
+    ],
+    "likelihood_reader_A": 0.0,
+    "likelihood_reader_B": 0.125,
+    "prior_predictive_weight": 0.0625,
+    "posterior_A": 0.0
+  },
+  {
+    "packet_id": "JM_10_11",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      1,
+      0
+    ],
+    "vector_B": [
+      1,
+      1
+    ],
+    "likelihood_reader_A": 0.0,
+    "likelihood_reader_B": 0.125,
+    "prior_predictive_weight": 0.0625,
+    "posterior_A": 0.0
+  },
+  {
+    "packet_id": "JM_11_00",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      1,
+      1
+    ],
+    "vector_B": [
+      0,
+      0
+    ],
+    "likelihood_reader_A": 0.125,
+    "likelihood_reader_B": 0.125,
+    "prior_predictive_weight": 0.125,
+    "posterior_A": 0.5
+  },
+  {
+    "packet_id": "JM_11_01",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      1,
+      1
+    ],
+    "vector_B": [
+      0,
+      1
+    ],
+    "likelihood_reader_A": 0.125,
+    "likelihood_reader_B": 0.0,
+    "prior_predictive_weight": 0.0625,
+    "posterior_A": 1.0
+  },
+  {
+    "packet_id": "JM_11_10",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      1,
+      1
+    ],
+    "vector_B": [
+      1,
+      0
+    ],
+    "likelihood_reader_A": 0.125,
+    "likelihood_reader_B": 0.0,
+    "prior_predictive_weight": 0.0625,
+    "posterior_A": 1.0
+  },
+  {
+    "packet_id": "JM_11_11",
+    "simulation_condition": "MARGINAL",
+    "vector_A": [
+      1,
+      1
+    ],
+    "vector_B": [
+      1,
+      1
+    ],
+    "likelihood_reader_A": 0.125,
+    "likelihood_reader_B": 0.125,
+    "prior_predictive_weight": 0.125,
+    "posterior_A": 0.5
+  },
+  {
+    "packet_id": "JJ_00_00",
+    "simulation_condition": "JOINT",
+    "vector_A": [
+      0,
+      0
+    ],
+    "vector_B": [
+      0,
+      0
+    ],
+    "likelihood_reader_A": 0.25,
+    "likelihood_reader_B": 0.25,
+    "prior_predictive_weight": 0.25,
+    "posterior_A": 0.5
+  },
+  {
+    "packet_id": "JJ_00_11",
+    "simulation_condition": "JOINT",
+    "vector_A": [
+      0,
+      0
+    ],
+    "vector_B": [
+      1,
+      1
+    ],
+    "likelihood_reader_A": 0.25,
+    "likelihood_reader_B": 0.25,
+    "prior_predictive_weight": 0.25,
+    "posterior_A": 0.5
+  },
+  {
+    "packet_id": "JJ_11_00",
+    "simulation_condition": "JOINT",
+    "vector_A": [
+      1,
+      1
+    ],
+    "vector_B": [
+      0,
+      0
+    ],
+    "likelihood_reader_A": 0.25,
+    "likelihood_reader_B": 0.25,
+    "prior_predictive_weight": 0.25,
+    "posterior_A": 0.5
+  },
+  {
+    "packet_id": "JJ_11_11",
+    "simulation_condition": "JOINT",
+    "vector_A": [
+      1,
+      1
+    ],
+    "vector_B": [
+      1,
+      1
+    ],
+    "likelihood_reader_A": 0.25,
+    "likelihood_reader_B": 0.25,
+    "prior_predictive_weight": 0.25,
+    "posterior_A": 0.5
+  }
+]

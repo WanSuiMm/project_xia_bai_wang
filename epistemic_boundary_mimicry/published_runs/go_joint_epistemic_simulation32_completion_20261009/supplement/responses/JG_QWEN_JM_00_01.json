@@ -1,0 +1,37 @@
+{
+  "request_id": "JG_QWEN_JM_00_01",
+  "model": "qwen3.8-max",
+  "kind": "judge",
+  "case_id": "JM_00_01",
+  "simulation_condition": "MARGINAL",
+  "bluffer_condition": "MARGINAL",
+  "judge_condition": "KNOWN_MECHANISM",
+  "prompt_sha256": "dedf0745d85b12f84ed7b7b76c91b689f2360f33ccbcd83260c664bf96b0d4d4",
+  "sent_utc": "2026-10-08T17:52:44.167686+00:00",
+  "status": "response_received",
+  "visible_text": "{\n  \"p_A\": 1,\n  \"decision\": \"A\",\n  \"reason\": \"A reader must answer both stamps identically. B answered copper then slate, impossible for the Reader. A's copper-copper reply is compatible with a copper source, so A must have received the source.\"\n}",
+  "parsed": {
+    "p_A": 1.0,
+    "decision": "A",
+    "reason": "A reader must answer both stamps identically. B answered copper then slate, impossible for the Reader. A's copper-copper reply is compatible with a copper source, so A must have received the source."
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 632,
+    "output_tokens": 1022,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "http_status": 200,
+  "elapsed_seconds": 21.016,
+  "captured_utc": "2026-10-08T17:53:05.173667+00:00",
+  "completion_parsed": {
+    "p_A": 1.0,
+    "decision": "A",
+    "reason": "A reader must answer both stamps identically. B answered copper then slate, impossible for the Reader. A's copper-copper reply is compatible with a copper source, so A must have received the source."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict"
+}

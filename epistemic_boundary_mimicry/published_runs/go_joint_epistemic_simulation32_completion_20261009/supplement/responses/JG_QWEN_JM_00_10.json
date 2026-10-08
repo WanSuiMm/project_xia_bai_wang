@@ -1,0 +1,37 @@
+{
+  "request_id": "JG_QWEN_JM_00_10",
+  "model": "qwen3.8-max",
+  "kind": "judge",
+  "case_id": "JM_00_10",
+  "simulation_condition": "MARGINAL",
+  "bluffer_condition": "MARGINAL",
+  "judge_condition": "KNOWN_MECHANISM",
+  "prompt_sha256": "b956b250cce83427e3376b0bcd017c22e7d3f4cb8736ff90810fae61b07e9de4",
+  "sent_utc": "2026-10-08T17:51:15.696179+00:00",
+  "status": "response_received",
+  "visible_text": "{\n  \"p_A\": 1,\n  \"decision\": \"A\",\n  \"reason\": \"B gave mixed stamps, impossible for a faithful Reader whose source is uniformly copper-copper or slate-slate. Therefore B must be the non-reader and A the Reader. The posterior probability that A received the source is 1, so choosing A has expected cost 0, below abstaining.\"\n}",
+  "parsed": {
+    "p_A": 1.0,
+    "decision": "A",
+    "reason": "B gave mixed stamps, impossible for a faithful Reader whose source is uniformly copper-copper or slate-slate. Therefore B must be the non-reader and A the Reader. The posterior probability that A received the source is 1, so choosing A has expected cost 0, below abstaining."
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 632,
+    "output_tokens": 1361,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "http_status": 200,
+  "elapsed_seconds": 28.735,
+  "captured_utc": "2026-10-08T17:51:44.427735+00:00",
+  "completion_parsed": {
+    "p_A": 1.0,
+    "decision": "A",
+    "reason": "B gave mixed stamps, impossible for a faithful Reader whose source is uniformly copper-copper or slate-slate. Therefore B must be the non-reader and A the Reader. The posterior probability that A received the source is 1, so choosing A has expected cost 0, below abstaining."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict"
+}

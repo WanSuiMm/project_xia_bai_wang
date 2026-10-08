@@ -1,0 +1,39 @@
+{
+  "request_id": "JG_GLM_JJ_00_11",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "JJ_00_11",
+  "simulation_condition": "JOINT",
+  "bluffer_condition": "JOINT",
+  "judge_condition": "KNOWN_MECHANISM",
+  "prompt_sha256": "bb039aba8d0f3de1cd3be92ded28cd5575ab77b4e77c4acebd69d615fffde6c9",
+  "sent_utc": "2026-10-08T17:55:21.797756+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"Both replies are internally consistent pairs, matching either a Reader's source or the non-reader's single fair coin. The evidence is symmetric, so P(A is Reader) = 0.5. Choosing A or B has expected cost 0.5, while abstaining costs 0.25, so abstain.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both replies are internally consistent pairs, matching either a Reader's source or the non-reader's single fair coin. The evidence is symmetric, so P(A is Reader) = 0.5. Choosing A or B has expected cost 0.5, while abstaining costs 0.25, so abstain."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "usage": {
+    "prompt_tokens": 530,
+    "completion_tokens": 146,
+    "total_tokens": 676,
+    "prompt_tokens_details": {
+      "cached_tokens": 371
+    }
+  },
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 3.844,
+  "captured_utc": "2026-10-08T17:55:25.640481+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both replies are internally consistent pairs, matching either a Reader's source or the non-reader's single fair coin. The evidence is symmetric, so P(A is Reader) = 0.5. Choosing A or B has expected cost 0.5, while abstaining costs 0.25, so abstain."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict"
+}

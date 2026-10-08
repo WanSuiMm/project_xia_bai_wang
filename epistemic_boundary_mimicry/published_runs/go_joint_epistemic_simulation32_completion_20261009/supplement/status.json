@@ -1,0 +1,13 @@
+{
+  "state": "COMPLETE_30_ATTEMPTED",
+  "halt_reason": null,
+  "planned": 30,
+  "provider_requests": 30,
+  "response_count": 30,
+  "valid": 30,
+  "strict_valid": 30,
+  "identical_duplicate_trailer_count": 0,
+  "retained_original_valid": 2,
+  "completion_valid_slots": 32,
+  "updated_utc": "2026-10-08T17:56:11.823470+00:00"
+}

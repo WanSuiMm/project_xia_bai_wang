@@ -1,0 +1,39 @@
+{
+  "request_id": "JG_GLM_JM_00_00",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "JM_00_00",
+  "simulation_condition": "MARGINAL",
+  "bluffer_condition": "MARGINAL",
+  "judge_condition": "KNOWN_MECHANISM",
+  "prompt_sha256": "c235b061491c784ce26ccbeb673f8fc56e7f84033fdf4d197a6bc7f10f63ad40",
+  "sent_utc": "2026-10-08T17:54:34.980230+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"Both participants gave identical replies (copper, copper). The reader's faithful answers and the non-reader's fair coin answers are equally consistent with either assignment, so the posterior probability that A is the Reader remains 0.5. Expected cost of choosing A or B is 0.5, exceeding abstain's 0.25, so abstaining is optimal.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both participants gave identical replies (copper, copper). The reader's faithful answers and the non-reader's fair coin answers are equally consistent with either assignment, so the posterior probability that A is the Reader remains 0.5. Expected cost of choosing A or B is 0.5, exceeding abstain's 0.25, so abstaining is optimal."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "usage": {
+    "prompt_tokens": 543,
+    "completion_tokens": 146,
+    "total_tokens": 689,
+    "prompt_tokens_details": {
+      "cached_tokens": 333
+    }
+  },
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 3.968,
+  "captured_utc": "2026-10-08T17:54:38.934959+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both participants gave identical replies (copper, copper). The reader's faithful answers and the non-reader's fair coin answers are equally consistent with either assignment, so the posterior probability that A is the Reader remains 0.5. Expected cost of choosing A or B is 0.5, exceeding abstain's 0.25, so abstaining is optimal."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict"
+}

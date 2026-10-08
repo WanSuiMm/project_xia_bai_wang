@@ -1,0 +1,39 @@
+{
+  "request_id": "JG_GLM_JM_10_00",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "JM_10_00",
+  "simulation_condition": "MARGINAL",
+  "bluffer_condition": "MARGINAL",
+  "judge_condition": "KNOWN_MECHANISM",
+  "prompt_sha256": "4ef0c767163f5429f82f8177a838e305d334cbe5ec77a30277dd631cd5a41d44",
+  "sent_utc": "2026-10-08T17:49:45.188065+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0, \"decision\": \"B\", \"reason\": \"The Reader reports both source entries, which are identical (both copper or both slate). A's replies (slate, copper) are inconsistent, so A cannot be the Reader. B's replies (copper, copper) are consistent with being the Reader (or a lucky non-reader), but A is impossible. Thus p_A = 0 and choosing B has zero expected cost.\"}",
+  "parsed": {
+    "p_A": 0.0,
+    "decision": "B",
+    "reason": "The Reader reports both source entries, which are identical (both copper or both slate). A's replies (slate, copper) are inconsistent, so A cannot be the Reader. B's replies (copper, copper) are consistent with being the Reader (or a lucky non-reader), but A is impossible. Thus p_A = 0 and choosing B has zero expected cost."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "usage": {
+    "prompt_tokens": 543,
+    "completion_tokens": 194,
+    "total_tokens": 737,
+    "prompt_tokens_details": {
+      "cached_tokens": 8
+    }
+  },
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 4.954,
+  "captured_utc": "2026-10-08T17:49:50.140451+00:00",
+  "completion_parsed": {
+    "p_A": 0.0,
+    "decision": "B",
+    "reason": "The Reader reports both source entries, which are identical (both copper or both slate). A's replies (slate, copper) are inconsistent, so A cannot be the Reader. B's replies (copper, copper) are consistent with being the Reader (or a lucky non-reader), but A is impossible. Thus p_A = 0 and choosing B has zero expected cost."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict"
+}

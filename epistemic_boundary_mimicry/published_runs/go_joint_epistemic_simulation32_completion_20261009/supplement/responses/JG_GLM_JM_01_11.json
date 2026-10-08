@@ -1,0 +1,42 @@
+{
+  "request_id": "JG_GLM_JM_01_11",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "JM_01_11",
+  "simulation_condition": "MARGINAL",
+  "bluffer_condition": "MARGINAL",
+  "judge_condition": "KNOWN_MECHANISM",
+  "prompt_sha256": "b3728c780bd9f4535e0c81137610ff82decaac8891649e6120bc481d84e1a9a3",
+  "sent_utc": "2026-10-08T17:52:38.443430+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.2, \"decision\": \"B\", \"reason\": \"The Reader's source lists the same stamp twice, but A answered copper then slate, so A cannot be the Reader. B's slate/slate matches a slate source or a non-reader's 1/4 chance. Bayes gives P(B is Reader)=4/5, so p_A=0.2. Expected costs: A=0.8, B=0.2, abstain=0.25; choose B.\"}",
+  "parsed": {
+    "p_A": 0.2,
+    "decision": "B",
+    "reason": "The Reader's source lists the same stamp twice, but A answered copper then slate, so A cannot be the Reader. B's slate/slate matches a slate source or a non-reader's 1/4 chance. Bayes gives P(B is Reader)=4/5, so p_A=0.2. Expected costs: A=0.8, B=0.2, abstain=0.25; choose B."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "usage": {
+    "prompt_tokens": 543,
+    "completion_tokens": 249,
+    "total_tokens": 792,
+    "prompt_tokens_details": {
+      "cached_tokens": 9
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 138
+    }
+  },
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 5.688,
+  "captured_utc": "2026-10-08T17:52:44.127758+00:00",
+  "completion_parsed": {
+    "p_A": 0.2,
+    "decision": "B",
+    "reason": "The Reader's source lists the same stamp twice, but A answered copper then slate, so A cannot be the Reader. B's slate/slate matches a slate source or a non-reader's 1/4 chance. Bayes gives P(B is Reader)=4/5, so p_A=0.2. Expected costs: A=0.8, B=0.2, abstain=0.25; choose B."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict"
+}

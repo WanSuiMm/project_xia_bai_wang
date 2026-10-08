@@ -1,0 +1,9 @@
+{
+  "state": "HALTED",
+  "halt_reason": "invalid_response",
+  "planned": 32,
+  "provider_requests": 3,
+  "response_count": 3,
+  "valid": 2,
+  "updated_utc": "2026-10-08T15:04:23.758356+00:00"
+}

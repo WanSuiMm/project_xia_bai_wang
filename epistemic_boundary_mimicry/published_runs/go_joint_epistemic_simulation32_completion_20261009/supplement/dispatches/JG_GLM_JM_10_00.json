@@ -1,0 +1,26 @@
+{
+  "packet_id": "JM_10_00",
+  "simulation_condition": "MARGINAL",
+  "vector_A": [
+    1,
+    0
+  ],
+  "vector_B": [
+    0,
+    0
+  ],
+  "likelihood_reader_A": 0.0,
+  "likelihood_reader_B": 0.125,
+  "prior_predictive_weight": 0.0625,
+  "posterior_A": 0.0,
+  "request_id": "JG_GLM_JM_10_00",
+  "kind": "judge",
+  "model": "glm-5.3",
+  "case_id": "JM_10_00",
+  "bluffer_condition": "MARGINAL",
+  "judge_condition": "KNOWN_MECHANISM",
+  "prompt_path": "prompts/JG_GLM_JM_10_00.txt",
+  "schedule_index": 6,
+  "prompt_sha256": "4ef0c767163f5429f82f8177a838e305d334cbe5ec77a30277dd631cd5a41d44",
+  "dispatched_utc": "2026-10-08T17:49:45.177065+00:00"
+}

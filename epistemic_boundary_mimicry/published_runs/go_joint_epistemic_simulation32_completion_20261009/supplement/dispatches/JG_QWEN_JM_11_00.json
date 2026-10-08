@@ -1,0 +1,26 @@
+{
+  "packet_id": "JM_11_00",
+  "simulation_condition": "MARGINAL",
+  "vector_A": [
+    1,
+    1
+  ],
+  "vector_B": [
+    0,
+    0
+  ],
+  "likelihood_reader_A": 0.125,
+  "likelihood_reader_B": 0.125,
+  "prior_predictive_weight": 0.125,
+  "posterior_A": 0.5,
+  "request_id": "JG_QWEN_JM_11_00",
+  "kind": "judge",
+  "model": "qwen3.8-max",
+  "case_id": "JM_11_00",
+  "bluffer_condition": "MARGINAL",
+  "judge_condition": "KNOWN_MECHANISM",
+  "prompt_path": "prompts/JG_QWEN_JM_11_00.txt",
+  "schedule_index": 30,
+  "prompt_sha256": "b6c9a65c1f1e5b63c42e6c3733ce37334b307b071b6678a90ab16c5e478f68d8",
+  "dispatched_utc": "2026-10-08T17:55:46.393737+00:00"
+}
