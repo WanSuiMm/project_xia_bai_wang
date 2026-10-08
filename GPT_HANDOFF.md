@@ -1,4 +1,27 @@
-# Latest incremental review: OMC16 frozen-output behavior forecasting
+# Latest incremental review: Counterfactual Source Boundary qualification
+
+Review base: `1626b4d92c55871788895e6bc73fc0362f9b341c`.
+Evidence head: `4c4d5d7c762f0a00fca70805e791eb23a3e5f3ed`.
+This later handoff commit changes review metadata only; the evidence head remains fixed.
+
+Minimal reading order:
+
+1. [CSB30 aggregate results](epistemic_boundary_mimicry/counterfactual_source_boundary/RESULTS_20261008.md).
+2. [All 18 target-detail semantic codings](epistemic_boundary_mimicry/counterfactual_source_boundary/SEMANTIC_REVIEW_20261008.md), with [exact spans](epistemic_boundary_mimicry/counterfactual_source_boundary/SEMANTIC_CODING_20261008.json).
+3. [Frozen protocol](epistemic_boundary_mimicry/counterfactual_source_boundary/PROTOCOL_20261008.md).
+4. [Public evidence/reproduction](epistemic_boundary_mimicry/published_runs/go_counterfactual_source_boundary30_20261008/README.md); per-request files are secondary. Avoid rereading unchanged historical logs first.
+
+New evidence: six fresh authored source pairs with one omitted/supplied arbitrary identifying value, 18 Qwen Speaker and 12 GLM Judge calls, all 30 strict-valid with no retry. Identical Reader policy across versions; one frozen Strong Bluffer answer reused within each pair; Reader seats fixed within pairs and balanced 3A/3B. All six Reader manipulation gates pass. Bluffers assert six unsupported alternatives. Judges choose the Reader once, choose the Bluffer five times and abstain six times. The primary equal-family mean pReader(V1)-pReader(V0) is +.008333 (.425→.433333), Brier change −.012917, with mixed per-family directions. There is no consistent descriptive attribution improvement. Target-detail labels are auxiliary model review checked against all source texts by the primary research assistant, not human annotation-reliability evidence.
+
+Changed claim: source-boundary manipulation succeeds on these six narrow questions, while blind single-packet attribution is weak. This does not establish a general source-access detection failure or joint-distribution simulation. A Judge sees one hidden version and cannot observe the paired source-conditioned dependence; arbitrary codes, unmatched answer wording/length and one draw per cell constrain interpretation. No known normative posterior is supplied. Wrong choices and abstention remain distinct, and operational qualification is not a positive scientific mechanism result.
+
+Verification: the evidence update has 150 files / 555,317 staged bytes. Exact allowlist, whitespace, credential, machine-path, private-session URL and IP scans passed; 207 changed-Markdown local links resolved, including directory links. A fresh staged checkout without private runs or `OPENCODE_GO_API_KEY` passed `python -X utf8 -B scripts/publish_counterfactual_source_boundary.py`. The frozen runner/analyzer reconstructed the exact canonical summary from public snapshots, reconstructed all 30 prompts and parsed all replies. All prompt/visible-output hashes match the originals. All 18 later semantic-coding rows bind to public answer/source spans. Original receipt and public projection hashes are explicitly separate; dispatch/prompt dependency fields are rebound transparently, while all 30 safe response copies happen to remain byte-identical. Original numeric analysis retains its pending-coding field, with the later review provided separately.
+
+Unchanged: OMC16, SQ28, R0/supplements, all historical interaction/audit evidence, formalization, and unexecuted R1 preparation. The initial CSB30 launch snapshot remains historical. No additional provider request, repeat, full game or monitor occurred during this publication; unrelated local changes are excluded.
+
+Reviewer questions: Does the result separate source-manipulation fidelity from blind attribution? Do the single-packet and answer-expression limits prevent interpreting context-fit preferences as an identified mechanism? Does abstention remain distinct from wrong selection without assuming a known optimal posterior?
+
+# Previous incremental review: OMC16 frozen-output behavior forecasting
 
 Review base: `56d92bded176d1d348ebf25a0da9d97341e2522c`.
 Evidence head: `f4f5581a8928bddffea2be4fdbce7d37290bdf37`.
