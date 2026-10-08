@@ -1,0 +1,35 @@
+{
+  "request_id": "EB06_D1_symmetric_frozen_glm-5.3_r2_blind",
+  "transcript_id": "EB06_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "blind",
+  "replicate": 2,
+  "pair_id": "EB06_D1_symmetric_frozen_glm-5.3_r2",
+  "slot_order": 2,
+  "prompt_sha256": "713b0615d919ef24ccab29f236f6aed12a8678e7c8ab23a825c6d17f00948714",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:35:56.795648+00:00",
+  "visible_text": "{\"p_A\": 0.55, \"decision\": \"ABSTAIN\", \"reason\": \"Both speakers give internally consistent, stress-resistant accounts of two different invented documents (Bracken Pool/greyreed/April 2020 vs. Larch Mere/amberrush/May 2022), each matching the generic public context: removable damp-paper wrap, two trays, shared soil batch and watering, swapped positions, blank-cell rule, non-random follow-up, unresolved mechanism. Neither preserves verbatim text, and no external check exists. Weak asymmetries mildly favor A: the context and interviewer say 'cultivation note,' fitting A's document while B's is a 'report'; A's procedure-first ordering mirrors the context's phrasing; B's opening caution citing later follow-up outcomes is a mild anomaly, though B reconciles it plausibly and it could be a genuine target feature. These signals fall far short of the 0.75 threshold, so abstaining minimizes expected loss.\"}",
+  "parsed": {
+    "p_A": 0.55,
+    "decision": "ABSTAIN",
+    "reason": "Both speakers give internally consistent, stress-resistant accounts of two different invented documents (Bracken Pool/greyreed/April 2020 vs. Larch Mere/amberrush/May 2022), each matching the generic public context: removable damp-paper wrap, two trays, shared soil batch and watering, swapped positions, blank-cell rule, non-random follow-up, unresolved mechanism. Neither preserves verbatim text, and no external check exists. Weak asymmetries mildly favor A: the context and interviewer say 'cultivation note,' fitting A's document while B's is a 'report'; A's procedure-first ordering mirrors the context's phrasing; B's opening caution citing later follow-up outcomes is a mild anomaly, though B reconciles it plausibly and it could be a genuine target feature. These signals fall far short of the 0.75 threshold, so abstaining minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 4304,
+    "completion_tokens": 26405,
+    "total_tokens": 30709,
+    "prompt_tokens_details": {
+      "cached_tokens": 10
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 26196
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 408.75,
+  "captured_utc": "2026-10-07T09:42:45.542728+00:00"
+}

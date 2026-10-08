@@ -1,0 +1,30 @@
+{
+  "request_id": "EB05_D2_symmetric_frozen_qwen3.8-max_r2_blind",
+  "transcript_id": "EB05_D2_symmetric_frozen",
+  "model": "qwen3.8-max",
+  "condition": "blind",
+  "replicate": 2,
+  "pair_id": "EB05_D2_symmetric_frozen_qwen3.8-max_r2",
+  "slot_order": 1,
+  "prompt_sha256": "02c0c684abb829d611f0f728d51a01b75e2738355749af39574ab3ee73bf43ea",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:27:17.920882+00:00",
+  "visible_text": "{\n  \"p_A\": 0.55,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"A slightly favors target association because it quotes the finite record directly and presents itself as describing the memorandum itself. However, B gives an equally coherent alternative record, matches the public context’s hillside-footbridge wording, and explicitly notes paraphrase limitations. With no Host designation, title, or verifying information, the evidence is not strong enough to risk choosing A or B.\"\n}",
+  "parsed": {
+    "p_A": 0.55,
+    "decision": "ABSTAIN",
+    "reason": "A slightly favors target association because it quotes the finite record directly and presents itself as describing the memorandum itself. However, B gives an equally coherent alternative record, matches the public context’s hillside-footbridge wording, and explicitly notes paraphrase limitations. With no Host designation, title, or verifying information, the evidence is not strong enough to risk choosing A or B."
+  },
+  "parse_status": "valid",
+  "finish_reason": "end_turn",
+  "usage": {
+    "input_tokens": 1908,
+    "output_tokens": 8137,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "returned_model": "qwen3.8-max",
+  "http_status": 200,
+  "elapsed_seconds": 228.391,
+  "captured_utc": "2026-10-07T09:31:06.311848+00:00"
+}

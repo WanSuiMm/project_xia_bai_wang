@@ -1,0 +1,32 @@
+{
+  "request_id": "EB02_D1_symmetric_frozen_glm-5.3_r3_informed",
+  "transcript_id": "EB02_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "informed",
+  "replicate": 3,
+  "pair_id": "EB02_D1_symmetric_frozen_glm-5.3_r3",
+  "slot_order": 1,
+  "prompt_sha256": "6fd6a1bbe73e7bcc39aeffafbffda52713fa2a2f31163a3855af19efd9fa0787",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:56:23.304093+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The Host’s target designation was a fair random draw independent of the documents, assignments, and all visible events, and no target-linked clue exists. The conversation shows two internally consistent but differing accounts, with no external criterion to identify which document was designated. With p_A = 0.5, choosing either speaker risks expected loss 0.5, while abstaining costs 0.25.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The Host’s target designation was a fair random draw independent of the documents, assignments, and all visible events, and no target-linked clue exists. The conversation shows two internally consistent but differing accounts, with no external criterion to identify which document was designated. With p_A = 0.5, choosing either speaker risks expected loss 0.5, while abstaining costs 0.25."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 6987,
+    "completion_tokens": 1005,
+    "total_tokens": 7992,
+    "prompt_tokens_details": {
+      "cached_tokens": 6986
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 21.063,
+  "captured_utc": "2026-10-07T09:56:44.366260+00:00"
+}

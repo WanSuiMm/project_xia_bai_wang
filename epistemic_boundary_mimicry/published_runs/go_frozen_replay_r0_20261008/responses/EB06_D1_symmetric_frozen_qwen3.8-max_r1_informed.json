@@ -1,0 +1,30 @@
+{
+  "request_id": "EB06_D1_symmetric_frozen_qwen3.8-max_r1_informed",
+  "transcript_id": "EB06_D1_symmetric_frozen",
+  "model": "qwen3.8-max",
+  "condition": "informed",
+  "replicate": 1,
+  "pair_id": "EB06_D1_symmetric_frozen_qwen3.8-max_r1",
+  "slot_order": 2,
+  "prompt_sha256": "e72cdb543fff4fe44519768712e9bb7a1306a7ba4e6832f027fc834b9bdd359a",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:43:49.180649+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The Host’s target designation was a fair random draw independent of the documents, assignments, and conversation, and the verified setup states there is no target-linked clue. Both speakers describe plausible invented cultivation notes, but nothing distinguishes which document was designated. With p_A = 0.5, abstaining has lower expected loss than choosing either speaker.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The Host’s target designation was a fair random draw independent of the documents, assignments, and conversation, and the verified setup states there is no target-linked clue. Both speakers describe plausible invented cultivation notes, but nothing distinguishes which document was designated. With p_A = 0.5, abstaining has lower expected loss than choosing either speaker."
+  },
+  "parse_status": "valid",
+  "finish_reason": "end_turn",
+  "usage": {
+    "input_tokens": 449,
+    "output_tokens": 741,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4096
+  },
+  "returned_model": "qwen3.8-max",
+  "http_status": 200,
+  "elapsed_seconds": 22.313,
+  "captured_utc": "2026-10-07T09:44:11.480835+00:00"
+}

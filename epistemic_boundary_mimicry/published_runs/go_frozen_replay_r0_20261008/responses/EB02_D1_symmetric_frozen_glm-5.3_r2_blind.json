@@ -1,0 +1,32 @@
+{
+  "request_id": "EB02_D1_symmetric_frozen_glm-5.3_r2_blind",
+  "transcript_id": "EB02_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "blind",
+  "replicate": 2,
+  "pair_id": "EB02_D1_symmetric_frozen_glm-5.3_r2",
+  "slot_order": 2,
+  "prompt_sha256": "81d20e3be358b93d5461c2815428b4a15a316a28f61fc0a1f70a59f4f6d83122",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:19:35.837163+00:00",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"Both speakers are equally consistent across all nine exchanges, including full verbatim reproduction, and both avoid fabricating when probed about absent details (titles, categories, identifiers). Their accounts differ only in arbitrary specifics—signatory (Oren Hale vs Mira Fenn), year (2016 vs 2013), register and check counts, and final-paragraph content—with no internal errors, contradictions, or hedging asymmetry to indicate which reflects the Host's target. The interviewer's questions appear adaptive to stated discrepancies and, per the task conditions, cannot be assumed to derive from a target document. With no discriminating evidence, p_A is 0.5, so ABSTAIN (expected loss 0.25) minimizes expected loss versus choosing either speaker (0.5).\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both speakers are equally consistent across all nine exchanges, including full verbatim reproduction, and both avoid fabricating when probed about absent details (titles, categories, identifiers). Their accounts differ only in arbitrary specifics—signatory (Oren Hale vs Mira Fenn), year (2016 vs 2013), register and check counts, and final-paragraph content—with no internal errors, contradictions, or hedging asymmetry to indicate which reflects the Host's target. The interviewer's questions appear adaptive to stated discrepancies and, per the task conditions, cannot be assumed to derive from a target document. With no discriminating evidence, p_A is 0.5, so ABSTAIN (expected loss 0.25) minimizes expected loss versus choosing either speaker (0.5)."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 6897,
+    "completion_tokens": 18889,
+    "total_tokens": 25786,
+    "prompt_tokens_details": {
+      "cached_tokens": 190
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 327.657,
+  "captured_utc": "2026-10-07T09:25:03.483155+00:00"
+}

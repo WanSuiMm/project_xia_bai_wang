@@ -1,0 +1,30 @@
+{
+  "request_id": "EB04_D1_symmetric_frozen_qwen3.8-max_r3_informed",
+  "transcript_id": "EB04_D1_symmetric_frozen",
+  "model": "qwen3.8-max",
+  "condition": "informed",
+  "replicate": 3,
+  "pair_id": "EB04_D1_symmetric_frozen_qwen3.8-max_r3",
+  "slot_order": 2,
+  "prompt_sha256": "a3d61c08e3cc434889004a76d3428c035f50f3aca5095686b446a6bf5a4d1bd6",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:52:55.816686+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The verified generation information states that the Host's target designation was a fair random draw independent of the supplied documents, speaker assignments, instructions, and all visible conversation. The dialogue shows two variant treatment notes with different names, dates, and counts, but no target-linked clue ties either variant to the Host-designated target. Thus A and B remain equally likely. Under the given loss rule, choosing either has expected loss 0.5, while abstaining has expected loss 0.25, so abstention minimizes expected loss.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The verified generation information states that the Host's target designation was a fair random draw independent of the supplied documents, speaker assignments, instructions, and all visible conversation. The dialogue shows two variant treatment notes with different names, dates, and counts, but no target-linked clue ties either variant to the Host-designated target. Thus A and B remain equally likely. Under the given loss rule, choosing either has expected loss 0.5, while abstaining has expected loss 0.25, so abstention minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "end_turn",
+  "usage": {
+    "input_tokens": 200,
+    "output_tokens": 828,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3072
+  },
+  "returned_model": "qwen3.8-max",
+  "http_status": 200,
+  "elapsed_seconds": 25.39,
+  "captured_utc": "2026-10-07T09:53:21.211633+00:00"
+}

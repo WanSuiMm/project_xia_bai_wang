@@ -1,0 +1,32 @@
+{
+  "request_id": "EB06_D1_symmetric_frozen_glm-5.3_r3_blind",
+  "transcript_id": "EB06_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "blind",
+  "replicate": 3,
+  "pair_id": "EB06_D1_symmetric_frozen_glm-5.3_r3",
+  "slot_order": 2,
+  "prompt_sha256": "713b0615d919ef24ccab29f236f6aed12a8678e7c8ab23a825c6d17f00948714",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:25:31.223632+00:00",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"A and B describe two different yet internally consistent documents (Bracken Pool/Arlen Moss/greyreed/April 2020/18 seeds vs. Larch Mere/Jana Pell/amberrush/May 2022/20 seeds). Both survive the precision and stress rounds: numbers remain consistent, unknowns are plainly admitted, explicit statements are separated from inference, and the final enumerations match earlier answers. The public context (removable damp-paper wrapping, trays, emergence tallies, limited follow-up) fits both accounts equally. B's 'opening caution' structure is unusual but coherently reconciled; A shows no comparable anomaly. With no information about the Host's designation procedure and no credibility gap between speakers, the evidence is balanced, so p_A is 0.5 and abstaining minimizes expected loss.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "A and B describe two different yet internally consistent documents (Bracken Pool/Arlen Moss/greyreed/April 2020/18 seeds vs. Larch Mere/Jana Pell/amberrush/May 2022/20 seeds). Both survive the precision and stress rounds: numbers remain consistent, unknowns are plainly admitted, explicit statements are separated from inference, and the final enumerations match earlier answers. The public context (removable damp-paper wrapping, trays, emergence tallies, limited follow-up) fits both accounts equally. B's 'opening caution' structure is unusual but coherently reconciled; A shows no comparable anomaly. With no information about the Host's designation procedure and no credibility gap between speakers, the evidence is balanced, so p_A is 0.5 and abstaining minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 4304,
+    "completion_tokens": 25047,
+    "total_tokens": 29351,
+    "prompt_tokens_details": {
+      "cached_tokens": 241
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 482.859,
+  "captured_utc": "2026-10-07T09:33:34.073931+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "request_id": "EB04_D1_symmetric_frozen_glm-5.3_r2_blind",
+  "transcript_id": "EB04_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "blind",
+  "replicate": 2,
+  "pair_id": "EB04_D1_symmetric_frozen_glm-5.3_r2",
+  "slot_order": 2,
+  "prompt_sha256": "3ff9ddfc6318e22594717fe94f7b188d61f00bd57240ff51959c50d83532a817",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:46:57.057118+00:00",
+  "visible_text": "```json\n{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"Both speakers produce equally detailed, fully internally consistent accounts across all three turns, including flawless verbatim reproductions with stable numbers (A: Lena Corven, Tessel Yard, Oct 2020, 30 tags, 26/4, 3 checked; B: Maro Sel, Orven Hall, June 2016, 18 tags, 12/6, 4 checked). The two versions share identical wording, structure, 5 paragraphs, and 23 sentences, differing only in surface identifiers and counts. Neither shows drift, contradiction, hedging, or knowledge of extra material. The public context does not disambiguate. With no evidence favoring either speaker, p_A is 0.5; abstaining (expected loss 0.25) minimizes loss versus guessing (0.5).\"\n}\n```",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both speakers produce equally detailed, fully internally consistent accounts across all three turns, including flawless verbatim reproductions with stable numbers (A: Lena Corven, Tessel Yard, Oct 2020, 30 tags, 26/4, 3 checked; B: Maro Sel, Orven Hall, June 2016, 18 tags, 12/6, 4 checked). The two versions share identical wording, structure, 5 paragraphs, and 23 sentences, differing only in surface identifiers and counts. Neither shows drift, contradiction, hedging, or knowledge of extra material. The public context does not disambiguate. With no evidence favoring either speaker, p_A is 0.5; abstaining (expected loss 0.25) minimizes loss versus guessing (0.5)."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 3054,
+    "completion_tokens": 4117,
+    "total_tokens": 7171,
+    "prompt_tokens_details": {
+      "cached_tokens": 10
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 3916
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 63.453,
+  "captured_utc": "2026-10-07T09:48:00.505811+00:00"
+}

@@ -1,0 +1,30 @@
+{
+  "request_id": "EB04_D1_symmetric_frozen_qwen3.8-max_r2_blind",
+  "transcript_id": "EB04_D1_symmetric_frozen",
+  "model": "qwen3.8-max",
+  "condition": "blind",
+  "replicate": 2,
+  "pair_id": "EB04_D1_symmetric_frozen_qwen3.8-max_r2",
+  "slot_order": 2,
+  "prompt_sha256": "3ff9ddfc6318e22594717fe94f7b188d61f00bd57240ff51959c50d83532a817",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:25:43.116159+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"Both speakers give internally consistent, structurally identical reproductions, differing only in assigned names, dates, sites, and counts. The public context supplies no independent identifiers, and the conversation contains no verifiable inconsistency that favors A’s version over B’s. With no discriminating evidence, A’s probability remains at chance; abstaining minimizes expected loss.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both speakers give internally consistent, structurally identical reproductions, differing only in assigned names, dates, sites, and counts. The public context supplies no independent identifiers, and the conversation contains no verifiable inconsistency that favors A’s version over B’s. With no discriminating evidence, A’s probability remains at chance; abstaining minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "end_turn",
+  "usage": {
+    "input_tokens": 3178,
+    "output_tokens": 3376,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "returned_model": "qwen3.8-max",
+  "http_status": 200,
+  "elapsed_seconds": 94.781,
+  "captured_utc": "2026-10-07T09:27:17.900875+00:00"
+}

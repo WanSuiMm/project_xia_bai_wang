@@ -1,0 +1,35 @@
+{
+  "request_id": "EB05_D2_symmetric_frozen_glm-5.3_r1_informed",
+  "transcript_id": "EB05_D2_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "informed",
+  "replicate": 1,
+  "pair_id": "EB05_D2_symmetric_frozen_glm-5.3_r1",
+  "slot_order": 2,
+  "prompt_sha256": "5a1b577f2b0736734fb6cb181eebf1358db3129d40bf21a4a63999ca8bf51007",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T10:21:37.361804+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"Both speakers answer from equally detailed, structurally parallel records (East Hollow 2019 memorandum vs. West Orchard 2021 note), each matching the public context: a register-based token rule, a two-mark record check, a retrospective matching check with unmatched cases, stated limits, a closure-extension exception, and a late-arrival example. The verified generation information states the Host's designation was a fair random draw, independent of the documents, assignments, and all visible content, never revealed to anyone, with no target-linked clue and no selection on earlier matches. The differing names, dates, and counts simply reflect two distinct invented documents, not target status. With p_A = 0.5, choosing either speaker yields expected loss 0.5, while abstaining costs 0.25, so abstaining minimizes expected loss.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both speakers answer from equally detailed, structurally parallel records (East Hollow 2019 memorandum vs. West Orchard 2021 note), each matching the public context: a register-based token rule, a two-mark record check, a retrospective matching check with unmatched cases, stated limits, a closure-extension exception, and a late-arrival example. The verified generation information states the Host's designation was a fair random draw, independent of the documents, assignments, and all visible content, never revealed to anyone, with no target-linked clue and no selection on earlier matches. The differing names, dates, and counts simply reflect two distinct invented documents, not target status. With p_A = 0.5, choosing either speaker yields expected loss 0.5, while abstaining costs 0.25, so abstaining minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 1910,
+    "completion_tokens": 5143,
+    "total_tokens": 7053,
+    "prompt_tokens_details": {
+      "cached_tokens": 10
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 4947
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 73.828,
+  "captured_utc": "2026-10-07T10:22:51.196792+00:00"
+}

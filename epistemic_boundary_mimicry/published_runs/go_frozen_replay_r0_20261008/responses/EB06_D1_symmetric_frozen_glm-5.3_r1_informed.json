@@ -1,0 +1,32 @@
+{
+  "request_id": "EB06_D1_symmetric_frozen_glm-5.3_r1_informed",
+  "transcript_id": "EB06_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "informed",
+  "replicate": 1,
+  "pair_id": "EB06_D1_symmetric_frozen_glm-5.3_r1",
+  "slot_order": 2,
+  "prompt_sha256": "e72cdb543fff4fe44519768712e9bb7a1306a7ba4e6832f027fc834b9bdd359a",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T10:32:51.884921+00:00",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"Both speakers present distinct, internally consistent cultivation notes (Bracken Pool/greyreed, April 2020 vs. Larch Mere/amberrush, May 2022), each matching the public context equally well, with comparable detail and candor about gaps. The verified information states the Host's target designation was a fair random draw, independent of the documents, assignments, and all generation randomness; it was never revealed to speakers or interviewer, changed nothing visible, and no target-linked clue exists, with no selection on prior matches. The conversation therefore provides no evidence favoring A over B, so p_A = 0.5. Under the loss rule, choosing either speaker yields expected loss 0.5, while abstaining costs 0.25; ABSTAIN minimizes expected loss.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both speakers present distinct, internally consistent cultivation notes (Bracken Pool/greyreed, April 2020 vs. Larch Mere/amberrush, May 2022), each matching the public context equally well, with comparable detail and candor about gaps. The verified information states the Host's target designation was a fair random draw, independent of the documents, assignments, and all generation randomness; it was never revealed to speakers or interviewer, changed nothing visible, and no target-linked clue exists, with no selection on prior matches. The conversation therefore provides no evidence favoring A over B, so p_A = 0.5. Under the loss rule, choosing either speaker yields expected loss 0.5, while abstaining costs 0.25; ABSTAIN minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 4394,
+    "completion_tokens": 2150,
+    "total_tokens": 6544,
+    "prompt_tokens_details": {
+      "cached_tokens": 331
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 37.391,
+  "captured_utc": "2026-10-07T10:33:29.269263+00:00"
+}

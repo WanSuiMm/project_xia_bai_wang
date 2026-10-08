@@ -1,0 +1,34 @@
+{
+  "request_id": "supplement01_EB05_D1_symmetric_frozen_glm-5.3_r3_blind",
+  "transcript_id": "EB05_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "blind",
+  "replicate": 3,
+  "pair_id": "EB05_D1_symmetric_frozen_glm-5.3_r3",
+  "slot_order": 2,
+  "prompt_sha256": "63cb37bd590de20cc757b0d33252bd367e6679ecf1b4afd22198a22b2ba9bfd4",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T12:29:49.769522+00:00",
+  "visible_text": "```json\n{\n  \"p_A\": 0.15,\n  \"decision\": \"B\",\n  \"reason\": \"The public context's distinctive wording — 'storm damage,' 'hillside footbridge,' 'temporary access tokens' — matches Speaker B's account closely: B's record describes a 'damaged hillside footbridge' that was closed and uses 'temporary tokens.' Speaker A's record, by A's own explicit statements, never mentions storm, damage, or a hillside, referring only to 'repairs to the district footbridge.' Both speakers are detailed and internally consistent, so the public context is the main discriminator, and it favors B. Residual uncertainty remains because 'storm' appears in neither record and the context could be generic framing, but the verbatim 'hillside footbridge' plus 'damaged' strongly indicate B is associated with the Host-designated target.\"\n}\n```",
+  "parsed": {
+    "p_A": 0.15,
+    "decision": "B",
+    "reason": "The public context's distinctive wording — 'storm damage,' 'hillside footbridge,' 'temporary access tokens' — matches Speaker B's account closely: B's record describes a 'damaged hillside footbridge' that was closed and uses 'temporary tokens.' Speaker A's record, by A's own explicit statements, never mentions storm, damage, or a hillside, referring only to 'repairs to the district footbridge.' Both speakers are detailed and internally consistent, so the public context is the main discriminator, and it favors B. Residual uncertainty remains because 'storm' appears in neither record and the context could be generic framing, but the verbatim 'hillside footbridge' plus 'damaged' strongly indicate B is associated with the Host-designated target."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 6413,
+    "completion_tokens": 3987,
+    "total_tokens": 10400,
+    "prompt_tokens_details": {
+      "cached_tokens": 190
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 68.437,
+  "captured_utc": "2026-10-07T12:30:58.203430+00:00",
+  "source_request_id": "EB05_D1_symmetric_frozen_glm-5.3_r3_blind",
+  "failure_selected_supplement": true
+}

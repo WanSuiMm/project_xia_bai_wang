@@ -1,0 +1,32 @@
+{
+  "request_id": "EB05_D2_symmetric_frozen_glm-5.3_r2_informed",
+  "transcript_id": "EB05_D2_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "informed",
+  "replicate": 2,
+  "pair_id": "EB05_D2_symmetric_frozen_glm-5.3_r2",
+  "slot_order": 1,
+  "prompt_sha256": "5a1b577f2b0736734fb6cb181eebf1358db3129d40bf21a4a63999ca8bf51007",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:48:00.538407+00:00",
+  "visible_text": "{\"p_A\":0.5,\"decision\":\"ABSTAIN\",\"reason\":\"The verified generation information states that the target was chosen by a fair random draw independent of the documents, speaker assignments, instructions, and all visible conversation events. Both A and B present distinct, internally detailed records matching the generic public context, and neither contains a target-linked clue. A's verbatim quotations or B's paraphrase limitation do not change the designation probability. Thus P(A)=0.5; choosing either speaker has expected loss 0.5, while abstaining has expected loss 0.25.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The verified generation information states that the target was chosen by a fair random draw independent of the documents, speaker assignments, instructions, and all visible conversation events. Both A and B present distinct, internally detailed records matching the generic public context, and neither contains a target-linked clue. A's verbatim quotations or B's paraphrase limitation do not change the designation probability. Thus P(A)=0.5; choosing either speaker has expected loss 0.5, while abstaining has expected loss 0.25."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 1910,
+    "completion_tokens": 3483,
+    "total_tokens": 5393,
+    "prompt_tokens_details": {
+      "cached_tokens": 10
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 71.031,
+  "captured_utc": "2026-10-07T09:49:11.558840+00:00"
+}

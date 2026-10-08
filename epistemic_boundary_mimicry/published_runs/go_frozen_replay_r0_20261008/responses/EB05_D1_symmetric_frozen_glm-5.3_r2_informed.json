@@ -1,0 +1,32 @@
+{
+  "request_id": "EB05_D1_symmetric_frozen_glm-5.3_r2_informed",
+  "transcript_id": "EB05_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "informed",
+  "replicate": 2,
+  "pair_id": "EB05_D1_symmetric_frozen_glm-5.3_r2",
+  "slot_order": 2,
+  "prompt_sha256": "1bb176526b6f28ed2bd40170182618f0b0c9eb47b3a605f56e7e5b4b72e76cf1",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T11:16:37.350587+00:00",
+  "visible_text": "```json\n{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"Both speakers give equally detailed, internally consistent descriptions of two distinct documents (A: East Hollow committee memorandum, September 2019, Rina Vale, thirty households, twelve-token check; B: Mira Doren's November 2021 West Orchard note, twenty-four households, fifteen-token check). The verified generation information states the Host chose the target by a fair random draw independent of the documents, assignments, and all conversation content, and that the designation was never revealed and produced no target-linked clue. Nothing in the dialogue therefore distinguishes which speaker holds the target document, leaving p_A at the prior of 0.5. With p_A = 0.5, choosing either A or B yields expected loss 0.5, while ABSTAIN yields 0.25, so ABSTAIN minimizes expected loss.\"\n}\n```",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both speakers give equally detailed, internally consistent descriptions of two distinct documents (A: East Hollow committee memorandum, September 2019, Rina Vale, thirty households, twelve-token check; B: Mira Doren's November 2021 West Orchard note, twenty-four households, fifteen-token check). The verified generation information states the Host chose the target by a fair random draw independent of the documents, assignments, and all conversation content, and that the designation was never revealed and produced no target-linked clue. Nothing in the dialogue therefore distinguishes which speaker holds the target document, leaving p_A at the prior of 0.5. With p_A = 0.5, choosing either A or B yields expected loss 0.5, while ABSTAIN yields 0.25, so ABSTAIN minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 6503,
+    "completion_tokens": 784,
+    "total_tokens": 7287,
+    "prompt_tokens_details": {
+      "cached_tokens": 6502
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 14.859,
+  "captured_utc": "2026-10-07T11:16:52.209751+00:00"
+}

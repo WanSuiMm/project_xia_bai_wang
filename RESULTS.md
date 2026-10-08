@@ -1,3 +1,7 @@
+# Latest replay delivery：2026-10-08
+
+See [R0 result and supplementary completion](epistemic_boundary_mimicry/replay_r0/DELIVERY_20261008.md), [original registered numerical results](epistemic_boundary_mimicry/replay_r0/RESULTS_20261007.md), and [completion evidence](epistemic_boundary_mimicry/published_runs/go_frozen_replay_r0_completion_20261008/README.md). Original 84 attempts yielded 77 valid replies; two earlier supplementary replies and five new low-reasoning replies cover all 84 original positions across attempts. The five new calls are all .5/ABSTAIN. Preserve their configuration change, previous unknown dispatches, and final status-file error separately. All 42 original Informed replies are .5/ABSTAIN. Blind is mostly null-consistent; Qwen's small effect is confined to EB05, and GLM primary missingness remains bounded rather than imputed. The mixed-configuration descriptive overlay gives GLM Blind risk .011042; it is not a replacement registered analysis, model ranking or interrogation experiment.
+
 # Arena Direct pilot：2026-10-02
 
 状态：**部分完成，有平台阻塞**。计划 D01 练习加 P01–P04；D01/P01/P02/P04 均完成 14 步，P03 保存 10 步后因匿名候选进入裁判上下文而停止。正式完整且未标重大污染的独立单位是 3 个 case，不是 42 条独立样本。

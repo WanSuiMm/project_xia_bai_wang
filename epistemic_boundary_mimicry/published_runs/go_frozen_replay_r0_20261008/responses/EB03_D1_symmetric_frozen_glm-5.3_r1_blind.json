@@ -1,0 +1,32 @@
+{
+  "request_id": "EB03_D1_symmetric_frozen_glm-5.3_r1_blind",
+  "transcript_id": "EB03_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "blind",
+  "replicate": 1,
+  "pair_id": "EB03_D1_symmetric_frozen_glm-5.3_r1",
+  "slot_order": 2,
+  "prompt_sha256": "3d02f830ae689feac026e96fae8bc7309871f8cc4c5d267813b6ee9793ef8471",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:12:48.748546+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"Both accounts share the same skeleton (Nacre Ridge, April 2017, 30 adult silverfold moths, mesh enclosures, screen-move protocol, next-afternoon follow-up, and nearly identical limitation lists) and differ only in parameter values: keeper (Edda Roan vs Sol Arven), wait (18 vs 24 minutes), responders (25 vs 21), nonresponders (5 vs 9), and follow-up subset (6 vs 4). Both remain internally consistent across all probing questions and both appropriately decline to fabricate unverifiable details. With no information about the Host's designation procedure and no way to verify either account, the evidence is symmetric, so p_A ≈ 0.5 and abstaining minimizes expected loss.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both accounts share the same skeleton (Nacre Ridge, April 2017, 30 adult silverfold moths, mesh enclosures, screen-move protocol, next-afternoon follow-up, and nearly identical limitation lists) and differ only in parameter values: keeper (Edda Roan vs Sol Arven), wait (18 vs 24 minutes), responders (25 vs 21), nonresponders (5 vs 9), and follow-up subset (6 vs 4). Both remain internally consistent across all probing questions and both appropriately decline to fabricate unverifiable details. With no information about the Host's designation procedure and no way to verify either account, the evidence is symmetric, so p_A ≈ 0.5 and abstaining minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 3752,
+    "completion_tokens": 4695,
+    "total_tokens": 8447,
+    "prompt_tokens_details": {
+      "cached_tokens": 190
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 78.172,
+  "captured_utc": "2026-10-07T09:14:06.922843+00:00"
+}

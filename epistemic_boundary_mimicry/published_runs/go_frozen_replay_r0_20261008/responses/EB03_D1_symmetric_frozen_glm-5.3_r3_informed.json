@@ -1,0 +1,32 @@
+{
+  "request_id": "EB03_D1_symmetric_frozen_glm-5.3_r3_informed",
+  "transcript_id": "EB03_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "informed",
+  "replicate": 3,
+  "pair_id": "EB03_D1_symmetric_frozen_glm-5.3_r3",
+  "slot_order": 1,
+  "prompt_sha256": "10e3cb01bd7b3685c2d5911daa272dcb4b2e49f0d7c19c4f37af11c0adbe1f0d",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T10:33:29.308616+00:00",
+  "visible_text": "```json\n{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The verified generation information states the target was selected by a fair random draw independent of the documents, speaker assignments, and all visible content, and that no target-linked clue exists. Both speakers give equally detailed, internally consistent accounts (differing only in plausible parameter values like observer name, wait time, and counts), with no basis to favor either. With p_A = 0.5, choosing A or B yields expected loss 0.5, while ABSTAIN yields 0.25, so abstaining minimizes expected loss.\"\n}\n```",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The verified generation information states the target was selected by a fair random draw independent of the documents, speaker assignments, and all visible content, and that no target-linked clue exists. Both speakers give equally detailed, internally consistent accounts (differing only in plausible parameter values like observer name, wait time, and counts), with no basis to favor either. With p_A = 0.5, choosing A or B yields expected loss 0.5, while ABSTAIN yields 0.25, so abstaining minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 3842,
+    "completion_tokens": 1004,
+    "total_tokens": 4846,
+    "prompt_tokens_details": {
+      "cached_tokens": 331
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 18.125,
+  "captured_utc": "2026-10-07T10:33:47.435044+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "request_id": "EB02_D1_symmetric_frozen_glm-5.3_r1_informed",
+  "transcript_id": "EB02_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "informed",
+  "replicate": 1,
+  "pair_id": "EB02_D1_symmetric_frozen_glm-5.3_r1",
+  "slot_order": 1,
+  "prompt_sha256": "6fd6a1bbe73e7bcc39aeffafbffda52713fa2a2f31163a3855af19efd9fa0787",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T10:05:38.362929+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"Verified information states the Host's designation was a fair random draw, independent of the documents, their assignment to A and B, all instructions, and every visible event, and was never revealed. Both speakers held their own finite documents and described them faithfully and consistently; their differences (signatory, year, register/check counts, closing sentences) reflect distinct documents, not differential knowledge of a designated target. Since the designation could not influence any message, the conversation carries zero target-linked evidence: the likelihood ratio is 1 and p_A stays at the prior 0.5. With p_A = 0.5, choosing A or B gives expected loss 0.5, while ABSTAIN gives 0.25, so abstaining minimizes expected loss.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Verified information states the Host's designation was a fair random draw, independent of the documents, their assignment to A and B, all instructions, and every visible event, and was never revealed. Both speakers held their own finite documents and described them faithfully and consistently; their differences (signatory, year, register/check counts, closing sentences) reflect distinct documents, not differential knowledge of a designated target. Since the designation could not influence any message, the conversation carries zero target-linked evidence: the likelihood ratio is 1 and p_A stays at the prior 0.5. With p_A = 0.5, choosing A or B gives expected loss 0.5, while ABSTAIN gives 0.25, so abstaining minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 6987,
+    "completion_tokens": 7273,
+    "total_tokens": 14260,
+    "prompt_tokens_details": {
+      "cached_tokens": 10
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 7092
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 121.812,
+  "captured_utc": "2026-10-07T10:07:40.180899+00:00"
+}

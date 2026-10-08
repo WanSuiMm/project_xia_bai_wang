@@ -1,0 +1,35 @@
+{
+  "request_id": "EB01_D1_symmetric_frozen_glm-5.3_r2_informed",
+  "transcript_id": "EB01_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "informed",
+  "replicate": 2,
+  "pair_id": "EB01_D1_symmetric_frozen_glm-5.3_r2",
+  "slot_order": 2,
+  "prompt_sha256": "be67273241cf174a0e4307a9e0b79c0dba673874d878b8a4c93f4dc4085bc87a",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T10:57:51.536303+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The verified generation information states the target was selected by a fair random draw independent of the documents, their assignment to A and B, and all visible events; the designation was never revealed and changed nothing in the conversation. Both speakers describe distinct, internally consistent dossiers (Corda/Maro Pell/24 foldglass panels vs. Paven/Tessa Rin/32 reedleaf panels), so no conversational evidence distinguishes the target. The prior remains 0.5. Under the loss rule, choosing either speaker yields expected loss 0.5, while abstaining yields 0.25, so ABSTAIN minimizes expected loss.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The verified generation information states the target was selected by a fair random draw independent of the documents, their assignment to A and B, and all visible events; the designation was never revealed and changed nothing in the conversation. Both speakers describe distinct, internally consistent dossiers (Corda/Maro Pell/24 foldglass panels vs. Paven/Tessa Rin/32 reedleaf panels), so no conversational evidence distinguishes the target. The prior remains 0.5. Under the loss rule, choosing either speaker yields expected loss 0.5, while abstaining yields 0.25, so ABSTAIN minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 3827,
+    "completion_tokens": 916,
+    "total_tokens": 4743,
+    "prompt_tokens_details": {
+      "cached_tokens": 10
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 758
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 14.875,
+  "captured_utc": "2026-10-07T10:58:06.415988+00:00"
+}

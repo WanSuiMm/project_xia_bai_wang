@@ -1,0 +1,39 @@
+{
+  "request_id": "supplement03_EB03_D1_symmetric_frozen_glm-5.3_r3_blind",
+  "source_request_id": "EB03_D1_symmetric_frozen_glm-5.3_r3_blind",
+  "transcript_id": "EB03_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "blind",
+  "replicate": 3,
+  "pair_id": "EB03_D1_symmetric_frozen_glm-5.3_r3",
+  "slot_order": 2,
+  "prompt_sha256": "3d02f830ae689feac026e96fae8bc7309871f8cc4c5d267813b6ee9793ef8471",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T00:37:23.879613+00:00",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"A and B give highly parallel, internally consistent accounts differing only on unverifiable specifics: keeper name (Edda Roan vs Sol Arven), wait time (18 vs 24 minutes), responders (25/5 vs 21/9), and follow-up subset (6 vs 4). Both correctly handle unanswerable probes (title, columns, marking, blank entries, verbatim quotes) in equivalent ways, and both correctly decline to over-claim. No internal contradiction, stylistic tell, or external anchor distinguishes which matches the Host's target document. With no discriminating evidence, p_A is 0.5, and ABSTAIN (loss 0.25) minimizes expected loss versus a coin-flip choice (expected loss 0.5).\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "A and B give highly parallel, internally consistent accounts differing only on unverifiable specifics: keeper name (Edda Roan vs Sol Arven), wait time (18 vs 24 minutes), responders (25/5 vs 21/9), and follow-up subset (6 vs 4). Both correctly handle unanswerable probes (title, columns, marking, blank entries, verbatim quotes) in equivalent ways, and both correctly decline to over-claim. No internal contradiction, stylistic tell, or external anchor distinguishes which matches the Host's target document. With no discriminating evidence, p_A is 0.5, and ABSTAIN (loss 0.25) minimizes expected loss versus a coin-flip choice (expected loss 0.5)."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 3752,
+    "completion_tokens": 283,
+    "total_tokens": 4035,
+    "prompt_tokens_details": {
+      "cached_tokens": 9
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 102
+    }
+  },
+  "returned_model": "glm-5.3",
+  "reasoning_effort_requested": "low",
+  "changed_configuration_supplement": true,
+  "failure_selected_supplement": true,
+  "http_status": 200,
+  "elapsed_seconds": 6.032,
+  "captured_utc": "2026-10-08T00:37:29.905779+00:00"
+}

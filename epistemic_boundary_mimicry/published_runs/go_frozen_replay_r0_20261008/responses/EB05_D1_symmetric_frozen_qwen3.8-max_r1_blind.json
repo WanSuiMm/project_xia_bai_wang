@@ -1,0 +1,30 @@
+{
+  "request_id": "EB05_D1_symmetric_frozen_qwen3.8-max_r1_blind",
+  "transcript_id": "EB05_D1_symmetric_frozen",
+  "model": "qwen3.8-max",
+  "condition": "blind",
+  "replicate": 1,
+  "pair_id": "EB05_D1_symmetric_frozen_qwen3.8-max_r1",
+  "slot_order": 1,
+  "prompt_sha256": "63cb37bd590de20cc757b0d33252bd367e6679ecf1b4afd22198a22b2ba9bfd4",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:54:08.862319+00:00",
+  "visible_text": "{\n  \"p_A\": 0.2,\n  \"decision\": \"B\",\n  \"reason\": \"The public context emphasizes storm damage and a hillside footbridge. Speaker B’s record explicitly refers to a damaged hillside footbridge and temporary tokens, matching that context more closely. Speaker A describes repairs to a district footbridge and says the record mentions neither storm nor damage nor hillside, making A less likely. Both accounts are detailed, and neither mentions ‘storm’ explicitly, so some uncertainty remains.\"\n}",
+  "parsed": {
+    "p_A": 0.2,
+    "decision": "B",
+    "reason": "The public context emphasizes storm damage and a hillside footbridge. Speaker B’s record explicitly refers to a damaged hillside footbridge and temporary tokens, matching that context more closely. Speaker A describes repairs to a district footbridge and says the record mentions neither storm nor damage nor hillside, making A less likely. Both accounts are detailed, and neither mentions ‘storm’ explicitly, so some uncertainty remains."
+  },
+  "parse_status": "valid",
+  "finish_reason": "end_turn",
+  "usage": {
+    "input_tokens": 6531,
+    "output_tokens": 4421,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "returned_model": "qwen3.8-max",
+  "http_status": 200,
+  "elapsed_seconds": 109.187,
+  "captured_utc": "2026-10-07T09:55:58.043356+00:00"
+}

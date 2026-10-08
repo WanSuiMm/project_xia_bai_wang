@@ -1,0 +1,30 @@
+{
+  "request_id": "EB02_D1_symmetric_frozen_qwen3.8-max_r3_blind",
+  "transcript_id": "EB02_D1_symmetric_frozen",
+  "model": "qwen3.8-max",
+  "condition": "blind",
+  "replicate": 3,
+  "pair_id": "EB02_D1_symmetric_frozen_qwen3.8-max_r3",
+  "slot_order": 1,
+  "prompt_sha256": "81d20e3be358b93d5461c2815428b4a15a316a28f61fc0a1f70a59f4f6d83122",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:31:22.305465+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"Both speakers give internally consistent but mutually incompatible dossiers. They agree on structure and many exact sentences, yet diverge on signatory, date, household/check counts, and final limiting sentences. The conversation provides no independent verification or external ground truth to prefer A over B, so A remains at chance probability and abstaining minimizes expected loss.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both speakers give internally consistent but mutually incompatible dossiers. They agree on structure and many exact sentences, yet diverge on signatory, date, household/check counts, and final limiting sentences. The conversation provides no independent verification or external ground truth to prefer A over B, so A remains at chance probability and abstaining minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "end_turn",
+  "usage": {
+    "input_tokens": 929,
+    "output_tokens": 5607,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 6144
+  },
+  "returned_model": "qwen3.8-max",
+  "http_status": 200,
+  "elapsed_seconds": 157.828,
+  "captured_utc": "2026-10-07T09:34:00.122788+00:00"
+}

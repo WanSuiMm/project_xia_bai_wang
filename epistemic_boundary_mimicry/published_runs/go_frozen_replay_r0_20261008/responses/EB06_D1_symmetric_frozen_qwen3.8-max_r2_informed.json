@@ -1,0 +1,30 @@
+{
+  "request_id": "EB06_D1_symmetric_frozen_qwen3.8-max_r2_informed",
+  "transcript_id": "EB06_D1_symmetric_frozen",
+  "model": "qwen3.8-max",
+  "condition": "informed",
+  "replicate": 2,
+  "pair_id": "EB06_D1_symmetric_frozen_qwen3.8-max_r2",
+  "slot_order": 2,
+  "prompt_sha256": "e72cdb543fff4fe44519768712e9bb7a1306a7ba4e6832f027fc834b9bdd359a",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:23:57.449729+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The verified generation information states that the Host's target designation was a fair random draw independent of the documents, assignments, and all visible conversation, and that it never affected any message. The conversation reveals only that A and B have different fictional dossiers; nothing identifies which one is the Host-designated target. Therefore the posterior probability remains the prior 0.5. Under the loss rule, choosing A or B has expected loss 0.5, while abstaining has expected loss 0.25, so ABSTAIN minimizes expected loss.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The verified generation information states that the Host's target designation was a fair random draw independent of the documents, assignments, and all visible conversation, and that it never affected any message. The conversation reveals only that A and B have different fictional dossiers; nothing identifies which one is the Host-designated target. Therefore the posterior probability remains the prior 0.5. Under the loss rule, choosing A or B has expected loss 0.5, while abstaining has expected loss 0.25, so ABSTAIN minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "end_turn",
+  "usage": {
+    "input_tokens": 321,
+    "output_tokens": 413,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4224
+  },
+  "returned_model": "qwen3.8-max",
+  "http_status": 200,
+  "elapsed_seconds": 12.407,
+  "captured_utc": "2026-10-07T09:24:09.864349+00:00"
+}

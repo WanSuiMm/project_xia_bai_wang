@@ -1,0 +1,21 @@
+{
+  "request_id": "EB06_D1_symmetric_frozen_glm-5.3_r1_blind",
+  "transcript_id": "EB06_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "blind",
+  "replicate": 1,
+  "pair_id": "EB06_D1_symmetric_frozen_glm-5.3_r1",
+  "slot_order": 1,
+  "prompt_sha256": "713b0615d919ef24ccab29f236f6aed12a8678e7c8ab23a825c6d17f00948714",
+  "status": "transport_unknown",
+  "sent_utc": "2026-10-07T10:22:51.236385+00:00",
+  "visible_text": "",
+  "parsed": null,
+  "parse_status": "not_received",
+  "finish_reason": null,
+  "usage": {},
+  "returned_model": null,
+  "error_type": "TimeoutError",
+  "elapsed_seconds": 600.609,
+  "captured_utc": "2026-10-07T10:32:51.846893+00:00"
+}

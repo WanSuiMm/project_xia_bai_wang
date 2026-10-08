@@ -1,0 +1,30 @@
+{
+  "request_id": "EB06_D1_symmetric_frozen_qwen3.8-max_r1_blind",
+  "transcript_id": "EB06_D1_symmetric_frozen",
+  "model": "qwen3.8-max",
+  "condition": "blind",
+  "replicate": 1,
+  "pair_id": "EB06_D1_symmetric_frozen_qwen3.8-max_r1",
+  "slot_order": 1,
+  "prompt_sha256": "713b0615d919ef24ccab29f236f6aed12a8678e7c8ab23a825c6d17f00948714",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:40:47.740163+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The conversation reveals two incompatible cultivation notes: A describes Bracken Pool/greyreed/April 2020/18 seeds/7th morning, while B describes Larch Mere/amberrush/May 2022/20 seeds/8th morning and an opening caution. The public context is generic and contains no names, dates, counts, or document features identifying the Host target. Neither speaker can quote the note or provide format details that would verify association, and both answer limitations coherently. Although A is slightly more specific about the follow-up tray and consistently calls it a note, that cue is weak. Thus the evidence does not support choosing A or B under the loss rule.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The conversation reveals two incompatible cultivation notes: A describes Bracken Pool/greyreed/April 2020/18 seeds/7th morning, while B describes Larch Mere/amberrush/May 2022/20 seeds/8th morning and an opening caution. The public context is generic and contains no names, dates, counts, or document features identifying the Host target. Neither speaker can quote the note or provide format details that would verify association, and both answer limitations coherently. Although A is slightly more specific about the follow-up tray and consistently calls it a note, that cue is weak. Thus the evidence does not support choosing A or B under the loss rule."
+  },
+  "parse_status": "valid",
+  "finish_reason": "end_turn",
+  "usage": {
+    "input_tokens": 355,
+    "output_tokens": 7134,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4096
+  },
+  "returned_model": "qwen3.8-max",
+  "http_status": 200,
+  "elapsed_seconds": 181.422,
+  "captured_utc": "2026-10-07T09:43:49.153069+00:00"
+}

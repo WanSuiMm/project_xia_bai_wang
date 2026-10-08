@@ -1,0 +1,32 @@
+{
+  "request_id": "EB01_D1_symmetric_frozen_glm-5.3_r3_blind",
+  "transcript_id": "EB01_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "blind",
+  "replicate": 3,
+  "pair_id": "EB01_D1_symmetric_frozen_glm-5.3_r3",
+  "slot_order": 2,
+  "prompt_sha256": "4d99ff059f69843534c1c34f64781893e3abbe4e32434e3680f2208464b00e52",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T10:42:24.263874+00:00",
+  "visible_text": "```json\n{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"Both speakers give internally consistent, equally detailed accounts that differ only in surface details (workshop name, author, date, panel counts, nickname). Each arithmetic check passes (A: 4x6=24, 16+8=24, 24-7=17; B: 4x8=32, 24+8=32), and both share the same underlying template—identical caveats, working explanation, procedures, and noted absences—suggesting parallel documents or a matched decoy. Minor stylistic differences (A flagging next-day timing as a deduction; B asserting it) are symmetric possibilities with no external anchor to adjudicate. Since no information about the Host's designation procedure is provided and the visible evidence is balanced, p_A is 0.5, making ABSTAIN (expected loss 0.25) superior to choosing either speaker (expected loss 0.5).\"\n}\n```",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both speakers give internally consistent, equally detailed accounts that differ only in surface details (workshop name, author, date, panel counts, nickname). Each arithmetic check passes (A: 4x6=24, 16+8=24, 24-7=17; B: 4x8=32, 24+8=32), and both share the same underlying template—identical caveats, working explanation, procedures, and noted absences—suggesting parallel documents or a matched decoy. Minor stylistic differences (A flagging next-day timing as a deduction; B asserting it) are symmetric possibilities with no external anchor to adjudicate. Since no information about the Host's designation procedure is provided and the visible evidence is balanced, p_A is 0.5, making ABSTAIN (expected loss 0.25) superior to choosing either speaker (expected loss 0.5)."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 3737,
+    "completion_tokens": 5221,
+    "total_tokens": 8958,
+    "prompt_tokens_details": {
+      "cached_tokens": 241
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 100.828,
+  "captured_utc": "2026-10-07T10:44:05.089622+00:00"
+}

@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-08",
+  "registered_primary_analysis": {
+    "state": "ALL_84_ATTEMPTED",
+    "planned_requests": 84,
+    "attempted_requests": 84,
+    "valid_responses": 77,
+    "invalid_or_missing_requests": 7,
+    "by_model_condition": {
+      "glm-5.3": {
+        "blind": {
+          "planned_requests": 21,
+          "valid_requests": 14,
+          "missing_requests": 7,
+          "missing_reasons": {
+            "parse_status_invalid_json_or_schema": 1,
+            "parse_status_truncated": 5,
+            "receipt_status_transport_unknown": 1
+          },
+          "valid_family_equal_slot_weight": 0.722222222222,
+          "missing_family_equal_slot_weight": 0.277777777778,
+          "valid_count_recomputed": 14
+        },
+        "informed": {
+          "planned_requests": 21,
+          "valid_requests": 21,
+          "missing_requests": 0,
+          "missing_reasons": {},
+          "valid_family_equal_slot_weight": 1.0,
+          "missing_family_equal_slot_weight": -0.0,
+          "valid_count_recomputed": 21
+        }
+      },
+      "qwen3.8-max": {
+        "blind": {
+          "planned_requests": 21,
+          "valid_requests": 21,
+          "missing_requests": 0,
+          "missing_reasons": {},
+          "valid_family_equal_slot_weight": 1.0,
+          "missing_family_equal_slot_weight": -0.0,
+          "valid_count_recomputed": 21
+        },
+        "informed": {
+          "planned_requests": 21,
+          "valid_requests": 21,
+          "missing_requests": 0,
+          "missing_reasons": {},
+          "valid_family_equal_slot_weight": 1.0,
+          "missing_family_equal_slot_weight": -0.0,
+          "valid_count_recomputed": 21
+        }
+      }
+    },
+    "analysis": "analysis.json",
+    "report": "RESULTS.md",
+    "supplements_included": false
+  },
+  "supplemental_cutoff": {
+    "planned_slots": 13,
+    "dispatch_attempts": 5,
+    "response_receipts": 4,
+    "valid_supplement_receipts": 2,
+    "distinct_valid_primary_positions_after_first_valid_selection": 79,
+    "distinct_positions_without_a_valid_answer": 5,
+    "selection_rule": "Keep primary valid receipts. For every other original position, count the first valid supplement in supplement07-then-supplement06 order. This descriptive count does not alter analysis.json or RESULTS.md.",
+    "first_valid_overlay_by_model_condition": {
+      "glm-5.3": {
+        "blind": {
+          "planned_requests": 21,
+          "valid_requests": 16,
+          "missing_requests": 5,
+          "primary_valid_requests": 14,
+          "first_valid_supplement_requests": 2,
+          "valid_family_equal_slot_weight": 0.777777777778,
+          "missing_family_equal_slot_weight": 0.222222222222,
+          "observed_contribution": 0.011041666667,
+          "completion_bounds": [
+            0.011041666667,
+            0.066597222222
+          ]
+        },
+        "informed": {
+          "planned_requests": 21,
+          "valid_requests": 21,
+          "missing_requests": 0,
+          "primary_valid_requests": 21,
+          "first_valid_supplement_requests": 0,
+          "valid_family_equal_slot_weight": 1.0,
+          "missing_family_equal_slot_weight": 0.0,
+          "observed_contribution": 0.0,
+          "completion_bounds": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "qwen3.8-max": {
+        "blind": {
+          "planned_requests": 21,
+          "valid_requests": 21,
+          "missing_requests": 0,
+          "primary_valid_requests": 21,
+          "first_valid_supplement_requests": 0,
+          "valid_family_equal_slot_weight": 1.0,
+          "missing_family_equal_slot_weight": 0.0,
+          "observed_contribution": 0.008472222222,
+          "completion_bounds": [
+            0.008472222222,
+            0.008472222222
+          ]
+        },
+        "informed": {
+          "planned_requests": 21,
+          "valid_requests": 21,
+          "missing_requests": 0,
+          "primary_valid_requests": 21,
+          "first_valid_supplement_requests": 0,
+          "valid_family_equal_slot_weight": 1.0,
+          "missing_family_equal_slot_weight": 0.0,
+          "observed_contribution": 0.0,
+          "completion_bounds": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "runs": [
+      {
+        "label": "supplement07",
+        "source_status": "HALTED",
+        "snapshot_state": "halted_incomplete",
+        "planned": 7,
+        "dispatched": 2,
+        "responses": 2,
+        "valid": 1,
+        "dispatched_no_response": 0,
+        "not_dispatched": 5,
+        "receipt_status_counts": {
+          "http_error": 1,
+          "response_received": 1
+        }
+      },
+      {
+        "label": "supplement06",
+        "source_status": "RUNNING",
+        "snapshot_state": "interrupted_incomplete",
+        "planned": 6,
+        "dispatched": 3,
+        "responses": 2,
+        "valid": 1,
+        "dispatched_no_response": 1,
+        "not_dispatched": 3,
+        "receipt_status_counts": {
+          "response_received": 2
+        }
+      }
+    ]
+  },
+  "initial_run_01": {
+    "label": "initial run 01",
+    "state": "HALTED",
+    "planned_slots": 84,
+    "dispatch_attempts": 2,
+    "response_receipts": 2,
+    "http_status_counts": {
+      "403": 2
+    },
+    "valid_model_answers": 0,
+    "remaining_slots": "not dispatched after HTTP 403",
+    "source_manifest_sha256": "bf9fe32f7404a14164cba53840de51c8df928ba64b8591f1d0a29ecf8c2e92d3",
+    "source_freeze_sha256": "7ad9459659e465697322fb38113485eff965b8757977212c948e01c153e70acf"
+  },
+  "retained_primary_failure_detail": {
+    "source_request_id": "EB05_D1_symmetric_frozen_glm-5.3_r3_blind",
+    "receipt_status": "response_received",
+    "parse_status": "invalid_json_or_schema",
+    "finish_reason": "stop",
+    "visible_reason_word_count_after_stripping_json_fence": 121,
+    "analyzer_reason_word_cap": 120,
+    "interpretation": "The visible reply contains a fenced JSON object with a 121-word reason. The frozen parser status remains invalid_json_or_schema; the 120-word analyzer cap is exceeded as well."
+  },
+  "scope_notes": [
+    "Only visible provider text is stored; hidden reasoning is not part of these records.",
+    "Billing for transport failures or dispatched requests without a response is unknown.",
+    "The primary registered analysis remains the fixed 84-request analysis; no supplement is represented as completed."
+  ]
+}

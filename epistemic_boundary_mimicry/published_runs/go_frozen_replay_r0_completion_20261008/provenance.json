@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-08",
+  "source_label": "supplement05_low",
+  "source_manifest_sha256lf": "6c3e9efe91e04b48678cf29938dbbeada99bf6f20d96bd422e53deda12265240",
+  "source_status_sha256lf": "eb90b97615b6b1121dc75ff1f964551cecc227322377b3d840658a92942e1b96",
+  "source_freeze_sha256lf": "24614f8c7bc20548f507b71c3ca465caaddebd4cdf7489dfba35ad1fcbedbecc",
+  "frozen_content_hashes": {
+    "manifest.json": "6c3e9efe91e04b48678cf29938dbbeada99bf6f20d96bd422e53deda12265240",
+    "prompts/EB02_D1_symmetric_frozen_blind.txt": "81d20e3be358b93d5461c2815428b4a15a316a28f61fc0a1f70a59f4f6d83122",
+    "prompts/EB06_D1_symmetric_frozen_blind.txt": "713b0615d919ef24ccab29f236f6aed12a8678e7c8ab23a825c6d17f00948714",
+    "prompts/EB03_D1_symmetric_frozen_blind.txt": "3d02f830ae689feac026e96fae8bc7309871f8cc4c5d267813b6ee9793ef8471",
+    "prompts/EB05_D2_symmetric_frozen_blind.txt": "02c0c684abb829d611f0f728d51a01b75e2738355749af39574ab3ee73bf43ea",
+    "prompts/EB05_D1_symmetric_frozen_blind.txt": "63cb37bd590de20cc757b0d33252bd367e6679ecf1b4afd22198a22b2ba9bfd4"
+  },
+  "protocol_sha256": "419327786d6471d1ab57718554e21d1f172d4acb8627a717e9094fe2333a7a99",
+  "runner_sha256": "17052fcc7f1450590c3fa11f7dd1ab648ef1ba19d52c75d454d730dbdc080c52",
+  "prior_artifact_hash_manifest_sha256lf": "ae353f7f36b34520dd485b438cbd0b04f7aec188bc8973f0a1e09d7f1b7996b6",
+  "prior_artifact_group_count": 3,
+  "source_dispatch_hashes_sha256lf": {
+    "supplement03_EB02_D1_symmetric_frozen_glm-5.3_r3_blind": "1858f15a784619c7b131755109cb7a057b2dcd378e68689d7c62e5049c0e38e1",
+    "supplement03_EB03_D1_symmetric_frozen_glm-5.3_r3_blind": "8d908c329f42fde64551958928d7a57445f748e1f503e359387f50c359967967",
+    "supplement03_EB05_D1_symmetric_frozen_glm-5.3_r1_blind": "b2307fbb0a5c2b9f63a7e5a61e412a8d939b37eef99237c92beb55ef643d4397",
+    "supplement03_EB05_D2_symmetric_frozen_glm-5.3_r3_blind": "cc2d7040b7a4127c636e63e4afcddac83091a5ea58a7fa0682f67d6c1e415c31",
+    "supplement03_EB06_D1_symmetric_frozen_glm-5.3_r1_blind": "e7efa3c50e3d0b19fb9d6ea68c36ae3cee37bdd07ed7c4003cda62339dfd31a3"
+  },
+  "source_response_hashes_sha256lf": {
+    "supplement03_EB02_D1_symmetric_frozen_glm-5.3_r3_blind": "6df202558e7741bac8b2d10b97771d6ee9f5e3aec2c3023be07534e97a70ddb1",
+    "supplement03_EB03_D1_symmetric_frozen_glm-5.3_r3_blind": "c5caf610bd9a533a68294fb9ee2d87ebc4b736a0646ed6a454992866df75ca77",
+    "supplement03_EB05_D1_symmetric_frozen_glm-5.3_r1_blind": "a9948d969c70cd5805927662a0374077d9276720468f1aef1355796a081621bb",
+    "supplement03_EB05_D2_symmetric_frozen_glm-5.3_r3_blind": "3ff4b671de2eac431122957cf6988544cd94ced680ac711315ef70cd05f0d406",
+    "supplement03_EB06_D1_symmetric_frozen_glm-5.3_r1_blind": "21ce7d3e4c4c7de56596b1f0bfcf816e3601ed37a2d88ddab1016c28f1336b0b"
+  },
+  "root_completion_receipt_sha256lf": "c427811a31b5977c6b5c073de2b5551edc59245f201ebe067afc870709eac9fc",
+  "public_source_paths_included": false,
+  "credential_or_environment_reads": 0,
+  "network_or_model_calls": 0
+}

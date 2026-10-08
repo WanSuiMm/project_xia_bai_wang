@@ -1,0 +1,30 @@
+{
+  "request_id": "EB04_D1_symmetric_frozen_qwen3.8-max_r1_blind",
+  "transcript_id": "EB04_D1_symmetric_frozen",
+  "model": "qwen3.8-max",
+  "condition": "blind",
+  "replicate": 1,
+  "pair_id": "EB04_D1_symmetric_frozen_qwen3.8-max_r1",
+  "slot_order": 1,
+  "prompt_sha256": "3ff9ddfc6318e22594717fe94f7b188d61f00bd57240ff51959c50d83532a817",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:53:21.246142+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The conversation gives two internally consistent but mutually exclusive versions of the same treatment note. Speaker A supplies Lena Corven, Tessel Yard, October 2020, 30 tags, and a 3-tag follow-up; Speaker B supplies Maro Sel, Orven Hall, June 2016, 18 tags, and a 4-tag follow-up. No target document, header, or external verifying detail is provided, and both speakers are equally coherent and detailed. The evidence therefore does not favor A over B, making abstention optimal under the loss rule.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The conversation gives two internally consistent but mutually exclusive versions of the same treatment note. Speaker A supplies Lena Corven, Tessel Yard, October 2020, 30 tags, and a 3-tag follow-up; Speaker B supplies Maro Sel, Orven Hall, June 2016, 18 tags, and a 4-tag follow-up. No target document, header, or external verifying detail is provided, and both speakers are equally coherent and detailed. The evidence therefore does not favor A over B, making abstention optimal under the loss rule."
+  },
+  "parse_status": "valid",
+  "finish_reason": "end_turn",
+  "usage": {
+    "input_tokens": 106,
+    "output_tokens": 1316,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3072
+  },
+  "returned_model": "qwen3.8-max",
+  "http_status": 200,
+  "elapsed_seconds": 34.016,
+  "captured_utc": "2026-10-07T09:53:55.274147+00:00"
+}

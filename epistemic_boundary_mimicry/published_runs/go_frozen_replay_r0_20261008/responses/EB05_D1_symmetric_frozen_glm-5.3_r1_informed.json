@@ -1,0 +1,32 @@
+{
+  "request_id": "EB05_D1_symmetric_frozen_glm-5.3_r1_informed",
+  "transcript_id": "EB05_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "informed",
+  "replicate": 1,
+  "pair_id": "EB05_D1_symmetric_frozen_glm-5.3_r1",
+  "slot_order": 2,
+  "prompt_sha256": "1bb176526b6f28ed2bd40170182618f0b0c9eb47b3a605f56e7e5b4b72e76cf1",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T11:14:41.896240+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The verified generation information states the target was selected by a fair random draw independent of the documents, their assignment to A and B, and every visible event, with no target-linked clue and no retention selection on earlier matches. Both speakers gave detailed, internally consistent accounts of distinct fictional records (East Hollow's September 2019 memorandum; Mira Doren's November 2021 West Orchard note), each matching the public context, so nothing in the conversation quality or content correlates with the designation. Therefore P(A) = 0.5. Expected loss is 0.5 for choosing either A or B but only 0.25 for abstaining, so ABSTAIN minimizes expected loss.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The verified generation information states the target was selected by a fair random draw independent of the documents, their assignment to A and B, and every visible event, with no target-linked clue and no retention selection on earlier matches. Both speakers gave detailed, internally consistent accounts of distinct fictional records (East Hollow's September 2019 memorandum; Mira Doren's November 2021 West Orchard note), each matching the public context, so nothing in the conversation quality or content correlates with the designation. Therefore P(A) = 0.5. Expected loss is 0.5 for choosing either A or B but only 0.25 for abstaining, so ABSTAIN minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 6503,
+    "completion_tokens": 2399,
+    "total_tokens": 8902,
+    "prompt_tokens_details": {
+      "cached_tokens": 10
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 44.547,
+  "captured_utc": "2026-10-07T11:15:26.445081+00:00"
+}

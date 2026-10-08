@@ -1,0 +1,35 @@
+{
+  "request_id": "EB03_D1_symmetric_frozen_glm-5.3_r2_informed",
+  "transcript_id": "EB03_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "informed",
+  "replicate": 2,
+  "pair_id": "EB03_D1_symmetric_frozen_glm-5.3_r2",
+  "slot_order": 2,
+  "prompt_sha256": "10e3cb01bd7b3685c2d5911daa272dcb4b2e49f0d7c19c4f37af11c0adbe1f0d",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T10:14:21.200414+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"Both speakers gave internally consistent, equally detailed accounts clearly backed by their own documents, differing only in invented specifics (keeper name, wait time, response counts, follow-up subset size). Neither shows contradictions, hedging, or fabrication signals, and both correctly declined unverifiable details. Per the verified generation information, the target designation was a fair random draw independent of the documents, assignments, and all generation randomness; it was never revealed and affected no visible event, and there is no further target-linked clue. The conversation is therefore non-diagnostic: P(A is target) = 0.5. Choosing either speaker yields expected loss 0.5, while abstaining costs 0.25, so ABSTAIN minimizes expected loss.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both speakers gave internally consistent, equally detailed accounts clearly backed by their own documents, differing only in invented specifics (keeper name, wait time, response counts, follow-up subset size). Neither shows contradictions, hedging, or fabrication signals, and both correctly declined unverifiable details. Per the verified generation information, the target designation was a fair random draw independent of the documents, assignments, and all generation randomness; it was never revealed and affected no visible event, and there is no further target-linked clue. The conversation is therefore non-diagnostic: P(A is target) = 0.5. Choosing either speaker yields expected loss 0.5, while abstaining costs 0.25, so ABSTAIN minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 3842,
+    "completion_tokens": 7999,
+    "total_tokens": 11841,
+    "prompt_tokens_details": {
+      "cached_tokens": 10
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 7823
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 130.079,
+  "captured_utc": "2026-10-07T10:16:31.277788+00:00"
+}

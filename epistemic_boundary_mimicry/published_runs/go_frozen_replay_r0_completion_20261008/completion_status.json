@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "source_status": "INTERRUPTED",
+  "planned": 5,
+  "provider_requests": 5,
+  "response_count": 5,
+  "valid_count_in_source_status": 5,
+  "derived_completion": "all_5_response_receipts_valid",
+  "final_status_write_failed": true,
+  "status_write_failure_class": "PermissionError",
+  "root_verified_process_alive": false,
+  "process_state_basis": "root-verified operating-system snapshot; process identifier omitted",
+  "source_status_file_unchanged": true
+}

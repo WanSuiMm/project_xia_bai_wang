@@ -1,0 +1,30 @@
+{
+  "request_id": "EB06_D1_symmetric_frozen_qwen3.8-max_r3_informed",
+  "transcript_id": "EB06_D1_symmetric_frozen",
+  "model": "qwen3.8-max",
+  "condition": "informed",
+  "replicate": 3,
+  "pair_id": "EB06_D1_symmetric_frozen_qwen3.8-max_r3",
+  "slot_order": 1,
+  "prompt_sha256": "e72cdb543fff4fe44519768712e9bb7a1306a7ba4e6832f027fc834b9bdd359a",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:20:56.044260+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The verified generation details state that the Host’s target designation was a fair random draw independent of the documents, assignments, instructions, and conversation, and that it produced no visible clue. The conversation reveals only the speakers’ differing fictional documents, not which document was target-designated. Therefore the evidence leaves A and B equally likely, giving p_A = 0.5. Under the supplied loss rule, choosing either A or B has expected loss 0.5, while ABSTAIN has expected loss 0.25, so ABSTAIN minimizes expected loss.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The verified generation details state that the Host’s target designation was a fair random draw independent of the documents, assignments, instructions, and conversation, and that it produced no visible clue. The conversation reveals only the speakers’ differing fictional documents, not which document was target-designated. Therefore the evidence leaves A and B equally likely, giving p_A = 0.5. Under the supplied loss rule, choosing either A or B has expected loss 0.5, while ABSTAIN has expected loss 0.25, so ABSTAIN minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "end_turn",
+  "usage": {
+    "input_tokens": 4545,
+    "output_tokens": 416,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "returned_model": "qwen3.8-max",
+  "http_status": 200,
+  "elapsed_seconds": 12.11,
+  "captured_utc": "2026-10-07T09:21:08.157379+00:00"
+}

@@ -1,0 +1,32 @@
+{
+  "request_id": "EB04_D1_symmetric_frozen_glm-5.3_r2_informed",
+  "transcript_id": "EB04_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "informed",
+  "replicate": 2,
+  "pair_id": "EB04_D1_symmetric_frozen_glm-5.3_r2",
+  "slot_order": 1,
+  "prompt_sha256": "a3d61c08e3cc434889004a76d3428c035f50f3aca5095686b446a6bf5a4d1bd6",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:46:28.740494+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The verified generation information states the Host selected the target by a fair random draw independent of the documents, their assignment to A and B, and all generation randomness; the designation never influenced any message, stopping rule, or visible event, and there is no further target-linked clue. Therefore no feature of the conversation can update the 0.5 prior. Both speakers gave detailed, internally consistent accounts and verbatim reproductions of distinct fictional notes (A: Lena Corven, Tessel Yard, October 2020, 30 tags; B: Maro Sel, Orven Hall, June 2016, 18 tags), but these differences are document-internal, not target-linked. With p_A = 0.5, choosing either speaker yields expected loss 0.5, while ABSTAIN yields 0.25, so ABSTAIN minimizes expected loss.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The verified generation information states the Host selected the target by a fair random draw independent of the documents, their assignment to A and B, and all generation randomness; the designation never influenced any message, stopping rule, or visible event, and there is no further target-linked clue. Therefore no feature of the conversation can update the 0.5 prior. Both speakers gave detailed, internally consistent accounts and verbatim reproductions of distinct fictional notes (A: Lena Corven, Tessel Yard, October 2020, 30 tags; B: Maro Sel, Orven Hall, June 2016, 18 tags), but these differences are document-internal, not target-linked. With p_A = 0.5, choosing either speaker yields expected loss 0.5, while ABSTAIN yields 0.25, so ABSTAIN minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 3144,
+    "completion_tokens": 1715,
+    "total_tokens": 4859,
+    "prompt_tokens_details": {
+      "cached_tokens": 331
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 28.297,
+  "captured_utc": "2026-10-07T09:46:57.032012+00:00"
+}

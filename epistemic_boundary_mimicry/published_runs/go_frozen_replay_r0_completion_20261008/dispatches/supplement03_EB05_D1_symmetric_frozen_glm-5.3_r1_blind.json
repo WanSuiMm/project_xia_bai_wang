@@ -1,0 +1,7 @@
+{
+  "request_id": "supplement03_EB05_D1_symmetric_frozen_glm-5.3_r1_blind",
+  "source_request_id": "EB05_D1_symmetric_frozen_glm-5.3_r1_blind",
+  "prompt_sha256": "63cb37bd590de20cc757b0d33252bd367e6679ecf1b4afd22198a22b2ba9bfd4",
+  "dispatched_utc": "2026-10-08T00:37:34.716952+00:00",
+  "reasoning_effort_requested": "low"
+}

@@ -1,0 +1,30 @@
+{
+  "request_id": "EB05_D2_symmetric_frozen_qwen3.8-max_r1_informed",
+  "transcript_id": "EB05_D2_symmetric_frozen",
+  "model": "qwen3.8-max",
+  "condition": "informed",
+  "replicate": 1,
+  "pair_id": "EB05_D2_symmetric_frozen_qwen3.8-max_r1",
+  "slot_order": 1,
+  "prompt_sha256": "5a1b577f2b0736734fb6cb181eebf1358db3129d40bf21a4a63999ca8bf51007",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:38:19.770283+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The verified generation details state that the target was selected by a fair random draw independent of the documents, assignments, instructions, and all visible events, and that the designation changed nothing in the conversation. The dialogue provides no target-linked clue favoring A or B. Thus A and B remain equally likely. Under the loss rule, choosing either has expected loss 0.5, while abstaining has loss 0.25, so ABSTAIN minimizes expected loss.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The verified generation details state that the target was selected by a fair random draw independent of the documents, assignments, instructions, and all visible events, and that the designation changed nothing in the conversation. The dialogue provides no target-linked clue favoring A or B. Thus A and B remain equally likely. Under the loss rule, choosing either has expected loss 0.5, while abstaining has loss 0.25, so ABSTAIN minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "end_turn",
+  "usage": {
+    "input_tokens": 978,
+    "output_tokens": 583,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1024
+  },
+  "returned_model": "qwen3.8-max",
+  "http_status": 200,
+  "elapsed_seconds": 15.844,
+  "captured_utc": "2026-10-07T09:38:35.609303+00:00"
+}

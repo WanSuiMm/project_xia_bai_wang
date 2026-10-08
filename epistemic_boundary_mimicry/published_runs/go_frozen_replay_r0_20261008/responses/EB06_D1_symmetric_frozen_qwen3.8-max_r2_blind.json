@@ -1,0 +1,30 @@
+{
+  "request_id": "EB06_D1_symmetric_frozen_qwen3.8-max_r2_blind",
+  "transcript_id": "EB06_D1_symmetric_frozen",
+  "model": "qwen3.8-max",
+  "condition": "blind",
+  "replicate": 2,
+  "pair_id": "EB06_D1_symmetric_frozen_qwen3.8-max_r2",
+  "slot_order": 1,
+  "prompt_sha256": "713b0615d919ef24ccab29f236f6aed12a8678e7c8ab23a825c6d17f00948714",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:23:02.373283+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The conversation contains two internally coherent but mutually incompatible accounts of the invented cultivation note. Speaker A and Speaker B differ in nursery, plant, author, date, seed counts, timing, emergence tallies, and follow-up details, yet both separate explicit dossier content from inference and acknowledge missing verbatim material. No public context or interviewer cue identifies which set of details matches the Host-designated target, and no external verification is available. With the evidence effectively balanced, the probability that A is the target-associated speaker is near chance, making abstention the loss-minimizing choice.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The conversation contains two internally coherent but mutually incompatible accounts of the invented cultivation note. Speaker A and Speaker B differ in nursery, plant, author, date, seed counts, timing, emergence tallies, and follow-up details, yet both separate explicit dossier content from inference and acknowledge missing verbatim material. No public context or interviewer cue identifies which set of details matches the Host-designated target, and no external verification is available. With the evidence effectively balanced, the probability that A is the target-associated speaker is near chance, making abstention the loss-minimizing choice."
+  },
+  "parse_status": "valid",
+  "finish_reason": "end_turn",
+  "usage": {
+    "input_tokens": 227,
+    "output_tokens": 1888,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 4224
+  },
+  "returned_model": "qwen3.8-max",
+  "http_status": 200,
+  "elapsed_seconds": 55.063,
+  "captured_utc": "2026-10-07T09:23:57.435219+00:00"
+}

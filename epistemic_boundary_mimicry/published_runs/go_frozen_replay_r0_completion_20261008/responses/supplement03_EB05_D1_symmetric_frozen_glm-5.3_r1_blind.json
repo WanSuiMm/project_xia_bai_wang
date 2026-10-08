@@ -1,0 +1,39 @@
+{
+  "request_id": "supplement03_EB05_D1_symmetric_frozen_glm-5.3_r1_blind",
+  "source_request_id": "EB05_D1_symmetric_frozen_glm-5.3_r1_blind",
+  "transcript_id": "EB05_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "blind",
+  "replicate": 1,
+  "pair_id": "EB05_D1_symmetric_frozen_glm-5.3_r1",
+  "slot_order": 1,
+  "prompt_sha256": "63cb37bd590de20cc757b0d33252bd367e6679ecf1b4afd22198a22b2ba9bfd4",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T00:37:34.721754+00:00",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"Both speakers give detailed, internally consistent accounts of invented records (A: East Hollow committee memorandum, 30 households, 12-token check; B: Mira Doren note, 24 households, 15-token check). No external document or Host designation information is available to discriminate between them. Neither account contradicts itself under probing, and both handle silences plausibly. With no evidence favoring either speaker, the probability is 0.5, and ABSTAIN (expected loss 0.25) minimizes expected loss versus a coin-flip choice (expected loss 0.5).\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both speakers give detailed, internally consistent accounts of invented records (A: East Hollow committee memorandum, 30 households, 12-token check; B: Mira Doren note, 24 households, 15-token check). No external document or Host designation information is available to discriminate between them. Neither account contradicts itself under probing, and both handle silences plausibly. With no evidence favoring either speaker, the probability is 0.5, and ABSTAIN (expected loss 0.25) minimizes expected loss versus a coin-flip choice (expected loss 0.5)."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 6413,
+    "completion_tokens": 196,
+    "total_tokens": 6609,
+    "prompt_tokens_details": {
+      "cached_tokens": 10
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 51
+    }
+  },
+  "returned_model": "glm-5.3",
+  "reasoning_effort_requested": "low",
+  "changed_configuration_supplement": true,
+  "failure_selected_supplement": true,
+  "http_status": 200,
+  "elapsed_seconds": 5.328,
+  "captured_utc": "2026-10-08T00:37:40.048221+00:00"
+}

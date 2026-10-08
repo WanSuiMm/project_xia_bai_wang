@@ -1,0 +1,30 @@
+{
+  "request_id": "EB05_D2_symmetric_frozen_qwen3.8-max_r3_informed",
+  "transcript_id": "EB05_D2_symmetric_frozen",
+  "model": "qwen3.8-max",
+  "condition": "informed",
+  "replicate": 3,
+  "pair_id": "EB05_D2_symmetric_frozen_qwen3.8-max_r3",
+  "slot_order": 1,
+  "prompt_sha256": "5a1b577f2b0736734fb6cb181eebf1358db3129d40bf21a4a63999ca8bf51007",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:48:41.132167+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The verified generation process states that the Host’s target designation was a fair random choice, independent of the documents, speaker assignments, and conversation, and was never revealed. The conversation shows that both speakers have distinct fictional records, but no target-linked clue identifies which record was designated. Therefore A and B remain equally likely, and abstaining minimizes expected loss.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The verified generation process states that the Host’s target designation was a fair random choice, independent of the documents, speaker assignments, and conversation, and was never revealed. The conversation shows that both speakers have distinct fictional records, but no target-linked clue identifies which record was designated. Therefore A and B remain equally likely, and abstaining minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "end_turn",
+  "usage": {
+    "input_tokens": 978,
+    "output_tokens": 381,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1024
+  },
+  "returned_model": "qwen3.8-max",
+  "http_status": 200,
+  "elapsed_seconds": 11.344,
+  "captured_utc": "2026-10-07T09:48:52.472693+00:00"
+}

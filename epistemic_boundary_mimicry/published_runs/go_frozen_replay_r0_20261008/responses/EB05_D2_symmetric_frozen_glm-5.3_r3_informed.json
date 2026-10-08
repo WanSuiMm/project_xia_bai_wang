@@ -1,0 +1,32 @@
+{
+  "request_id": "EB05_D2_symmetric_frozen_glm-5.3_r3_informed",
+  "transcript_id": "EB05_D2_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "informed",
+  "replicate": 3,
+  "pair_id": "EB05_D2_symmetric_frozen_glm-5.3_r3",
+  "slot_order": 2,
+  "prompt_sha256": "5a1b577f2b0736734fb6cb181eebf1358db3129d40bf21a4a63999ca8bf51007",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T10:53:56.616954+00:00",
+  "visible_text": "```json\n{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"Both speakers answer fluently from distinct, internally consistent records (East Hollow/Rina Vale with morning windows and lanes; West Orchard/Mira Doren with afternoon periods and groups), and each matches the public context equally well. The verified generation information states the target was selected by a fair random draw independent of the documents, their assignment, all instructions, and every visible event, was never revealed to anyone, and that no further target-linked clue exists. Nothing in the conversation therefore distinguishes which speaker's document was designated, so p_A = 0.5. Under the loss rule, choosing either A or B yields expected loss 0.5, while abstaining costs 0.25, so ABSTAIN minimizes expected loss.\"\n}\n```",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both speakers answer fluently from distinct, internally consistent records (East Hollow/Rina Vale with morning windows and lanes; West Orchard/Mira Doren with afternoon periods and groups), and each matches the public context equally well. The verified generation information states the target was selected by a fair random draw independent of the documents, their assignment, all instructions, and every visible event, was never revealed to anyone, and that no further target-linked clue exists. Nothing in the conversation therefore distinguishes which speaker's document was designated, so p_A = 0.5. Under the loss rule, choosing either A or B yields expected loss 0.5, while abstaining costs 0.25, so ABSTAIN minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 1910,
+    "completion_tokens": 2526,
+    "total_tokens": 4436,
+    "prompt_tokens_details": {
+      "cached_tokens": 331
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 43.687,
+  "captured_utc": "2026-10-07T10:54:40.304674+00:00"
+}

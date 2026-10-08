@@ -1,0 +1,35 @@
+{
+  "request_id": "EB02_D1_symmetric_frozen_glm-5.3_r1_blind",
+  "transcript_id": "EB02_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "blind",
+  "replicate": 1,
+  "pair_id": "EB02_D1_symmetric_frozen_glm-5.3_r1",
+  "slot_order": 2,
+  "prompt_sha256": "81d20e3be358b93d5461c2815428b4a15a316a28f61fc0a1f70a59f4f6d83122",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T10:07:40.218904+00:00",
+  "visible_text": "```json\n{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"Both speakers answered every probe fluently and remained perfectly internally consistent, including under demands for verbatim quotes and full reproduction. Their accounts differ only in systematic, self-coherent details (signatory Oren Hale/Mira Fenn, 2016/2013, register 24=3x8 vs 18=3=6, check 15=12+3 vs 12=10+2, and different final paragraphs), each sustaining a plausible alternative dossier with arithmetic that adds up. No contradiction, evasion, or external anchor in the conversation indicates which version is the Host-designated target, and the interviewer's repeated probes (lost/replacement/review, final paragraph) resolved nothing. Probability is at chance, so abstaining minimizes expected loss.\"\n}\n```",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both speakers answered every probe fluently and remained perfectly internally consistent, including under demands for verbatim quotes and full reproduction. Their accounts differ only in systematic, self-coherent details (signatory Oren Hale/Mira Fenn, 2016/2013, register 24=3x8 vs 18=3=6, check 15=12+3 vs 12=10+2, and different final paragraphs), each sustaining a plausible alternative dossier with arithmetic that adds up. No contradiction, evasion, or external anchor in the conversation indicates which version is the Host-designated target, and the interviewer's repeated probes (lost/replacement/review, final paragraph) resolved nothing. Probability is at chance, so abstaining minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 6897,
+    "completion_tokens": 9560,
+    "total_tokens": 16457,
+    "prompt_tokens_details": {
+      "cached_tokens": 10
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 9375
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 150.906,
+  "captured_utc": "2026-10-07T10:10:11.134588+00:00"
+}

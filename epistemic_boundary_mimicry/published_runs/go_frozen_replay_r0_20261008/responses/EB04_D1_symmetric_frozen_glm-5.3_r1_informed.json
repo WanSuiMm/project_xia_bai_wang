@@ -1,0 +1,32 @@
+{
+  "request_id": "EB04_D1_symmetric_frozen_glm-5.3_r1_informed",
+  "transcript_id": "EB04_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "informed",
+  "replicate": 1,
+  "pair_id": "EB04_D1_symmetric_frozen_glm-5.3_r1",
+  "slot_order": 2,
+  "prompt_sha256": "a3d61c08e3cc434889004a76d3428c035f50f3aca5095686b446a6bf5a4d1bd6",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T11:04:05.424111+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"Both speakers describe distinct, structurally parallel notes (A: Lena Corven, Tessel Yard, October 2020, 30 tags; B: Maro Sel, Orven Hall, June 2016, 18 tags), each internally consistent across all turns, with verbatim quotes matching their full reproductions and no contradictions or drift. The verified information states both speakers were supplied their own finite document and that the Host's target designation was a fair random draw independent of the documents, assignments, and all visible events, with no further target-linked clue. The conversation therefore contains no evidence favoring either speaker, so the posterior equals the 0.5 prior. With p_A = 0.5, choosing A or B risks expected loss 0.5, while ABSTAIN costs 0.25, so ABSTAIN minimizes expected loss.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both speakers describe distinct, structurally parallel notes (A: Lena Corven, Tessel Yard, October 2020, 30 tags; B: Maro Sel, Orven Hall, June 2016, 18 tags), each internally consistent across all turns, with verbatim quotes matching their full reproductions and no contradictions or drift. The verified information states both speakers were supplied their own finite document and that the Host's target designation was a fair random draw independent of the documents, assignments, and all visible events, with no further target-linked clue. The conversation therefore contains no evidence favoring either speaker, so the posterior equals the 0.5 prior. With p_A = 0.5, choosing A or B risks expected loss 0.5, while ABSTAIN costs 0.25, so ABSTAIN minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 3144,
+    "completion_tokens": 3124,
+    "total_tokens": 6268,
+    "prompt_tokens_details": {
+      "cached_tokens": 3143
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 53.156,
+  "captured_utc": "2026-10-07T11:04:58.577370+00:00"
+}

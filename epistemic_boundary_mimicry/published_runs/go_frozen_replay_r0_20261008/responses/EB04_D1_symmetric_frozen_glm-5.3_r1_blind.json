@@ -1,0 +1,32 @@
+{
+  "request_id": "EB04_D1_symmetric_frozen_glm-5.3_r1_blind",
+  "transcript_id": "EB04_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "blind",
+  "replicate": 1,
+  "pair_id": "EB04_D1_symmetric_frozen_glm-5.3_r1",
+  "slot_order": 1,
+  "prompt_sha256": "3ff9ddfc6318e22594717fe94f7b188d61f00bd57240ff51959c50d83532a817",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T11:00:47.882452+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"Both accounts are equally detailed and internally consistent. Each survives the verbatim-quoting and full-reproduction checks, and each reproduction matches its claimed layout (5 paragraphs, 23 sentences) with no self-contradictions across rounds. The two reproduced texts are word-for-word parallel, differing only in identifiers: writer (Lena Corven vs Maro Sel), archive (Tessel Yard vs Orven Hall), date (October 2020 vs June 2016), and counts (30/26/4/3 vs 18/12/6/4). The public context supplies no names, dates, or counts that could arbitrate which identifier set belongs to the Host-designated target. With evidence perfectly balanced (p_A ≈ 0.5), choosing either speaker risks expected loss 0.5, while abstaining costs 0.25, so abstaining minimizes expected loss.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both accounts are equally detailed and internally consistent. Each survives the verbatim-quoting and full-reproduction checks, and each reproduction matches its claimed layout (5 paragraphs, 23 sentences) with no self-contradictions across rounds. The two reproduced texts are word-for-word parallel, differing only in identifiers: writer (Lena Corven vs Maro Sel), archive (Tessel Yard vs Orven Hall), date (October 2020 vs June 2016), and counts (30/26/4/3 vs 18/12/6/4). The public context supplies no names, dates, or counts that could arbitrate which identifier set belongs to the Host-designated target. With evidence perfectly balanced (p_A ≈ 0.5), choosing either speaker risks expected loss 0.5, while abstaining costs 0.25, so abstaining minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 3054,
+    "completion_tokens": 11897,
+    "total_tokens": 14951,
+    "prompt_tokens_details": {
+      "cached_tokens": 3053
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 197.5,
+  "captured_utc": "2026-10-07T11:04:05.379591+00:00"
+}

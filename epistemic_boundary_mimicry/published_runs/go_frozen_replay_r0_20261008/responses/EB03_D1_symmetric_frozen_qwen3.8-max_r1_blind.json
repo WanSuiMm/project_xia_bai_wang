@@ -1,0 +1,30 @@
+{
+  "request_id": "EB03_D1_symmetric_frozen_qwen3.8-max_r1_blind",
+  "transcript_id": "EB03_D1_symmetric_frozen",
+  "model": "qwen3.8-max",
+  "condition": "blind",
+  "replicate": 1,
+  "pair_id": "EB03_D1_symmetric_frozen_qwen3.8-max_r1",
+  "slot_order": 2,
+  "prompt_sha256": "3d02f830ae689feac026e96fae8bc7309871f8cc4c5d267813b6ee9793ef8471",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:12:35.122951+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"Both accounts share the same structure and limitations but conflict on key target-specific details: author, wait time, response counts, and follow-up subset size. Neither provides verbatim text, extra documentary details, or independently verifiable cues, and there is no interviewer feedback. Both are coherent and internally consistent, so the visible evidence does not favor A over B.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both accounts share the same structure and limitations but conflict on key target-specific details: author, wait time, response counts, and follow-up subset size. Neither provides verbatim text, extra documentary details, or independently verifiable cues, and there is no interviewer feedback. Both are coherent and internally consistent, so the visible evidence does not favor A over B."
+  },
+  "parse_status": "valid",
+  "finish_reason": "end_turn",
+  "usage": {
+    "input_tokens": 3881,
+    "output_tokens": 2783,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "returned_model": "qwen3.8-max",
+  "http_status": 200,
+  "elapsed_seconds": 75.063,
+  "captured_utc": "2026-10-07T09:13:50.195724+00:00"
+}

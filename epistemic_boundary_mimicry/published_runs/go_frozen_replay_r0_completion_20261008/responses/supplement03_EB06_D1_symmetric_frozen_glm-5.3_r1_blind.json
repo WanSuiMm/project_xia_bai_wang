@@ -1,0 +1,39 @@
+{
+  "request_id": "supplement03_EB06_D1_symmetric_frozen_glm-5.3_r1_blind",
+  "source_request_id": "EB06_D1_symmetric_frozen_glm-5.3_r1_blind",
+  "transcript_id": "EB06_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "blind",
+  "replicate": 1,
+  "pair_id": "EB06_D1_symmetric_frozen_glm-5.3_r1",
+  "slot_order": 1,
+  "prompt_sha256": "713b0615d919ef24ccab29f236f6aed12a8678e7c8ab23a825c6d17f00948714",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T00:37:18.195720+00:00",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"Both speakers give internally consistent, detailed accounts of different invented notes (A: Bracken Pool/greyreed/April 2020; B: Larch Mere/amberrush/May 2022). Both correctly acknowledge dossier limits on verbatim quotes, layout, dates, and roles, and both survive precision and stress probes without contradiction. The public context does not favor either nursery, plant, or date. With no external anchor and no internal inconsistency on either side, the evidence is symmetric, so abstaining minimizes expected loss.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both speakers give internally consistent, detailed accounts of different invented notes (A: Bracken Pool/greyreed/April 2020; B: Larch Mere/amberrush/May 2022). Both correctly acknowledge dossier limits on verbatim quotes, layout, dates, and roles, and both survive precision and stress probes without contradiction. The public context does not favor either nursery, plant, or date. With no external anchor and no internal inconsistency on either side, the evidence is symmetric, so abstaining minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 4304,
+    "completion_tokens": 263,
+    "total_tokens": 4567,
+    "prompt_tokens_details": {
+      "cached_tokens": 8
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 129
+    }
+  },
+  "returned_model": "glm-5.3",
+  "reasoning_effort_requested": "low",
+  "changed_configuration_supplement": true,
+  "failure_selected_supplement": true,
+  "http_status": 200,
+  "elapsed_seconds": 5.672,
+  "captured_utc": "2026-10-08T00:37:23.865089+00:00"
+}

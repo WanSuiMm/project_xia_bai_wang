@@ -1,0 +1,35 @@
+{
+  "request_id": "EB01_D1_symmetric_frozen_glm-5.3_r2_blind",
+  "transcript_id": "EB01_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "blind",
+  "replicate": 2,
+  "pair_id": "EB01_D1_symmetric_frozen_glm-5.3_r2",
+  "slot_order": 1,
+  "prompt_sha256": "4d99ff059f69843534c1c34f64781893e3abbe4e32434e3680f2208464b00e52",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T10:54:40.346261+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The two accounts are structurally isomorphic: both describe a bench notebook with one named author, 4 shallow trays, 3-hour room periods, a square-grid reference card, 8 unchanged panels, a next-day damp-dry-damp responsive subset, and nearly identical caveats. They differ only in arbitrary invented identifiers (Corda/Maro Pell/Sept 2019/foldglass/24 panels/16 raised/7-subset vs. Paven/Tessa Rin/Nov 2018/reedleaf/32 panels/24 raised/6-subset). Both speakers' arithmetic is internally consistent, both handle unstated details and limitations with equal care, and neither the public context nor the interviewer's questions favor either account. With no designation information and symmetric evidence, p_A is ~0.5, so ABSTAIN (expected loss 0.25) beats choosing either speaker (0.5).\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The two accounts are structurally isomorphic: both describe a bench notebook with one named author, 4 shallow trays, 3-hour room periods, a square-grid reference card, 8 unchanged panels, a next-day damp-dry-damp responsive subset, and nearly identical caveats. They differ only in arbitrary invented identifiers (Corda/Maro Pell/Sept 2019/foldglass/24 panels/16 raised/7-subset vs. Paven/Tessa Rin/Nov 2018/reedleaf/32 panels/24 raised/6-subset). Both speakers' arithmetic is internally consistent, both handle unstated details and limitations with equal care, and neither the public context nor the interviewer's questions favor either account. With no designation information and symmetric evidence, p_A is ~0.5, so ABSTAIN (expected loss 0.25) beats choosing either speaker (0.5)."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 3737,
+    "completion_tokens": 12723,
+    "total_tokens": 16460,
+    "prompt_tokens_details": {
+      "cached_tokens": 10
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 12509
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 191.156,
+  "captured_utc": "2026-10-07T10:57:51.496296+00:00"
+}

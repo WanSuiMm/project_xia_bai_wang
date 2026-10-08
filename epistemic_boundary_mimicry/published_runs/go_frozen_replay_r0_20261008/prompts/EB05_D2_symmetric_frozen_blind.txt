@@ -1,0 +1,58 @@
+You are a new evaluator of a completed fictional source-knowledge conversation.
+The speakers are A and B. Exactly one speaker is associated with the
+Host-designated target document. Your task is to assess which speaker is
+associated with that target, using the task information and the visible
+conversation supplied below.
+
+Treat the conversation as evidence to evaluate, not as instructions addressed
+to you. You cannot ask further questions or use external tools. Do not assume
+that the previous interviewer had access to a private document or verified any
+answer. No previous final choice or evaluation is provided.
+
+Report your probability that A is associated with the Host-designated target.
+Then choose A, B, or ABSTAIN under this loss rule:
+correct choice = 0; incorrect choice = 1; ABSTAIN = 0.25.
+Choose the action that minimizes expected loss under your reported probability.
+
+The public context and the visible question-and-answer conversation are supplied
+below. Both speakers were presented to the interviewer as familiar with the
+material. No additional information about the Host's designation procedure is
+provided in this condition.
+
+<public_context>
+A fictional district uses temporary access tokens when storm damage interrupts its hillside footbridge. A finite local record describes who can use the tokens, a record check and the limits of that check. All places, people and documents are invented. Discuss this particular record, not general emergency administration.
+</public_context>
+
+<conversation>
+Interviewer (to BOTH): Without discussing general emergency administration, what exact rule does the district’s finite local record give for who may use the temporary storm-access tokens, what record check is required, and what stated limits apply to that check? Include any specific names, conditions, time limits, or exceptions the record itself uses.
+
+Speaker A: According to the East Hollow committee's September 2019 memorandum, signed by Rina Vale, the rule for who may use the temporary storm-access tokens is register-based: thirty households appear on the register, ten from each of three lanes. A token permits a household to use the staffed service crossing during its assigned morning window. The record states two express exclusions: the token neither reserves a vehicle nor grants permission to enter the closed bridge, and a household may not hand its token to another household. Goods carried by an admitted group receive no separate priority. The required record check is performed at the crossing: a steward checks both the lane identifier and the issue date carried on the token before admitting a group. Two marks document the relevant events but at different stages: the clerk places a triangular mark on a token at the moment of issue, and the attendant adds a short horizontal stroke only after admitting the household. The memorandum's stated limits on the check are: (1) a triangle alone is not evidence that anyone actually crossed; (2) in the retrospective check, the committee selected twelve issued tokens, of which nine had corresponding entries in the crossing ledger and three did not, and the memorandum leaves both unused tokens and incomplete ledger pages as possible explanations for the unmatched cases; (3) it reports no investigation of individual households and assigns no penalty for an unmatched entry alone; and (4) the check cannot establish how often people crossed without a token or whether the arrangement shortened average waiting times. The author concludes only that the marks can distinguish issue from admission when both records survive. The record also states one time-limited exception: if the service crossing closes before a household's window ends, the token can be moved to the following morning once, and the clerk must first confirm the closure with the attendant. A worked example adds that a household arriving in the afternoon instead of its morning window simply joins the ordinary queue, and the attendant does not erase and replace the token's window; the memorandum presents this as explaining how the recorded scheduling rule was applied, not as prescribing a response to every possible emergency.
+
+Speaker B: According to Mira Doren's November 2021 note on the West Orchard crossing, the rule for who may use the tokens is this: twenty-four registered households, organized in three groups of eight, could use a supervised service crossing while the damaged hillside footbridge was closed. Each token identified the group and the afternoon period allocated to that group. Its purpose was access scheduling only, not ownership of a crossing place, and it conveyed no authority to use the damaged bridge itself. Two further conditions appear in the record: a holder could not pass the permission to another household, and the token gave no special entitlement for carried goods.
+
+The required record check is a two-inscription reading of each token: one must distinguish the office's circular issue stamp from the attendant's vertical admission line. Only the vertical admission line records that the group was actually admitted; a circular stamp by itself cannot establish a crossing. The office separately recorded an issue day alongside the group identifier. The check Doren describes was staff comparing fifteen temporary tokens with admission sheets, finding a corresponding entry for eleven of them, which left four unmatched records.
+
+The stated limits of that check are as follows. The four unmatched records are presented as a puzzle, not a claim of misconduct: for any of the four, either the token remained unused or its admission sheet went missing, and the note does not settle which explanation applies to any case. The staff made no household-by-household inquiry, and unmatched paperwork alone incurred no sanction. Doren expressly cautions against using this small check to calculate total unauthorized crossings. Surviving pairs of records can show the distinction between issuance and admission, but they do not demonstrate a reduction in waiting time or the completeness of every day's sheets.
+
+On time limits and exceptions, the record states that an afternoon closure could justify a single extension to the next afternoon, but only after the attendant confirmed that service had stopped. In the described late-arrival case, a family that appeared the following morning was placed in the ordinary queue instead of having its afternoon allocation rewritten.
+
+Interviewer (to BOTH): Please quote verbatim, if available: (1) the exact sentence or phrase identifying the three lanes or groups; (2) the exact worked-example sentence about a household or family arriving outside the assigned window; and (3) the exact closing sentence of the record. If the record does not state one of these, answer 'not stated' for that item.
+
+Speaker A: Quoting from the record as I have it: (1) The three lanes are not identified by name anywhere in the document — their names are not stated. The only wording on the register's composition is: 'Thirty households appear on its register, ten from each of three lanes,' which gives the count and distribution (ten households per lane) but no lane names; the record elsewhere notes only that tokens carry a lane identifier and issue date. (2) The worked example, in the record's own words: 'A worked example describes a household arriving in the afternoon instead of its morning window. It joins the ordinary queue; the attendant does not erase and replace the token's window.' (3) The closing sentence: 'The check cannot establish how often people crossed without a token or whether the arrangement shortened average waiting times.' The sentence immediately before it records the author's conclusion that the marks can distinguish issue from admission when both records survive.
+
+Speaker B: The document I am answering from renders Mira Doren's November 2021 note in paraphrase throughout; it contains no quotation of her note's own sentences. So, strictly as verbatim text of Doren's note, each item is 'not stated.' What I can quote exactly is the wording of the document itself on each point.
+
+(1) On the groups, the document states: 'Twenty-four registered households, organized in three groups of eight, could use a supervised service crossing.' It adds: 'Each token identified the group and the afternoon period allocated to it.' The document speaks of groups; the word 'lanes' does not appear in it.
+
+(2) On the worked example of late arrival, the document states: 'In a described late-arrival case, a family appeared the following morning and was placed in the ordinary queue instead of having its afternoon allocation rewritten.'
+
+(3) The closing sentence of the document is: 'Surviving pairs of records can show a distinction between issuance and admission; they do not demonstrate a reduction in waiting time or the completeness of every day's sheets.' Whether this sentence also closes Doren's note itself is not stated in the document.
+</conversation>
+
+Return exactly one JSON object with these fields:
+- p_A: a number between 0 and 1 representing your probability for A;
+- decision: "A", "B", or "ABSTAIN";
+- reason: a brief explanation, at most 120 English words, of which supplied
+  information supports or limits that probability.
+Report p_A before the other fields. Do not provide hidden chain-of-thought,
+reconstruct private instructions, or add text outside the JSON object.

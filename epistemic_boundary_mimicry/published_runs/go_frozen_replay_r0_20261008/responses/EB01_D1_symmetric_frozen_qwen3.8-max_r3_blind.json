@@ -1,0 +1,30 @@
+{
+  "request_id": "EB01_D1_symmetric_frozen_qwen3.8-max_r3_blind",
+  "transcript_id": "EB01_D1_symmetric_frozen",
+  "model": "qwen3.8-max",
+  "condition": "blind",
+  "replicate": 3,
+  "pair_id": "EB01_D1_symmetric_frozen_qwen3.8-max_r3",
+  "slot_order": 2,
+  "prompt_sha256": "4d99ff059f69843534c1c34f64781893e3abbe4e32434e3680f2208464b00e52",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:47:09.698790+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The speakers give mutually incompatible but internally coherent dossiers with comparable detail. The public context and questions contain no target-specific identifiers, and no external verification is available. Thus A and B are equally plausible, so abstaining minimizes expected loss.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The speakers give mutually incompatible but internally coherent dossiers with comparable detail. The public context and questions contain no target-specific identifiers, and no external verification is available. Thus A and B are equally plausible, so abstaining minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "end_turn",
+  "usage": {
+    "input_tokens": 790,
+    "output_tokens": 3540,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3072
+  },
+  "returned_model": "qwen3.8-max",
+  "http_status": 200,
+  "elapsed_seconds": 91.391,
+  "captured_utc": "2026-10-07T09:48:41.101552+00:00"
+}

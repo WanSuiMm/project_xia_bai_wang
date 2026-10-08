@@ -1,0 +1,32 @@
+{
+  "request_id": "EB01_D1_symmetric_frozen_glm-5.3_r1_blind",
+  "transcript_id": "EB01_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "blind",
+  "replicate": 1,
+  "pair_id": "EB01_D1_symmetric_frozen_glm-5.3_r1",
+  "slot_order": 1,
+  "prompt_sha256": "4d99ff059f69843534c1c34f64781893e3abbe4e32434e3680f2208464b00e52",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:42:45.574788+00:00",
+  "visible_text": "```json\n{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"Both speakers give detailed, internally consistent accounts sharing the same skeleton and near-verbatim caveats (4 trays, 3-hour transfers, grid-card photographs, inked identifiers, moisture-uptake working explanation, camera-position warning, no weeks-long cycling). They differ only on invented, unverifiable specifics: A says Corda/Maro Pell/foldglass/September 2019/24 panels (4x6)/16 raised/7 next-day; B says Paven/Tessa Rin/reedleaf/November 2018/32 panels (4x8)/24 raised/6 next-day. Each set is arithmetically coherent (16+8=24; 24+8=32), and both resist the interviewer's presuppositions equally, with no internal contradictions. No external anchor or designation hint favors either account, so p_A stays near 0.5; abstaining (expected loss 0.25) beats guessing (0.5).\"\n}\n```",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both speakers give detailed, internally consistent accounts sharing the same skeleton and near-verbatim caveats (4 trays, 3-hour transfers, grid-card photographs, inked identifiers, moisture-uptake working explanation, camera-position warning, no weeks-long cycling). They differ only on invented, unverifiable specifics: A says Corda/Maro Pell/foldglass/September 2019/24 panels (4x6)/16 raised/7 next-day; B says Paven/Tessa Rin/reedleaf/November 2018/32 panels (4x8)/24 raised/6 next-day. Each set is arithmetically coherent (16+8=24; 24+8=32), and both resist the interviewer's presuppositions equally, with no internal contradictions. No external anchor or designation hint favors either account, so p_A stays near 0.5; abstaining (expected loss 0.25) beats guessing (0.5)."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 3737,
+    "completion_tokens": 11670,
+    "total_tokens": 15407,
+    "prompt_tokens_details": {
+      "cached_tokens": 10
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 204.204,
+  "captured_utc": "2026-10-07T09:46:09.784940+00:00"
+}

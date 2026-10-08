@@ -1,0 +1,32 @@
+{
+  "request_id": "EB06_D1_symmetric_frozen_glm-5.3_r3_informed",
+  "transcript_id": "EB06_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "informed",
+  "replicate": 3,
+  "pair_id": "EB06_D1_symmetric_frozen_glm-5.3_r3",
+  "slot_order": 1,
+  "prompt_sha256": "e72cdb543fff4fe44519768712e9bb7a1306a7ba4e6832f027fc834b9bdd359a",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:25:03.498162+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The verified generation information states the target was selected by a fair random draw independent of the documents, their assignment to A and B, and all generation randomness; the designation was never revealed to the speakers or interviewer and changed no message, response policy, stopping rule, or other visible event, and retention was not selection-based. Both speakers give detailed, internally consistent accounts matching the public context (nursery, invented marsh plant, damp-paper wrapping, two trays, emergence tallies, limited follow-up), so the conversation contains no target-linked evidence. With p_A = 0.5, choosing either A or B yields expected loss 0.5, while abstaining yields 0.25, so ABSTAIN minimizes expected loss.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The verified generation information states the target was selected by a fair random draw independent of the documents, their assignment to A and B, and all generation randomness; the designation was never revealed to the speakers or interviewer and changed no message, response policy, stopping rule, or other visible event, and retention was not selection-based. Both speakers give detailed, internally consistent accounts matching the public context (nursery, invented marsh plant, damp-paper wrapping, two trays, emergence tallies, limited follow-up), so the conversation contains no target-linked evidence. With p_A = 0.5, choosing either A or B yields expected loss 0.5, while abstaining yields 0.25, so ABSTAIN minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 4394,
+    "completion_tokens": 1624,
+    "total_tokens": 6018,
+    "prompt_tokens_details": {
+      "cached_tokens": 331
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 27.703,
+  "captured_utc": "2026-10-07T09:25:31.205770+00:00"
+}

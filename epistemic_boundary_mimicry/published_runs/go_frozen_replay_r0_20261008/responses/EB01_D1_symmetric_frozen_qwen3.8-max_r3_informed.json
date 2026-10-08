@@ -1,0 +1,30 @@
+{
+  "request_id": "EB01_D1_symmetric_frozen_qwen3.8-max_r3_informed",
+  "transcript_id": "EB01_D1_symmetric_frozen",
+  "model": "qwen3.8-max",
+  "condition": "informed",
+  "replicate": 3,
+  "pair_id": "EB01_D1_symmetric_frozen_qwen3.8-max_r3",
+  "slot_order": 1,
+  "prompt_sha256": "be67273241cf174a0e4307a9e0b79c0dba673874d878b8a4c93f4dc4085bc87a",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:46:46.029268+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The verified generation information states that the Host selected A or B as target by a fair random draw independent of the documents, assignments, instructions, and conversation. The designation was never revealed and created no visible difference. The speakers' conflicting dossier details only show they had different documents, not which one was targeted. Thus the posterior probability is 0.5, and abstaining minimizes expected loss.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The verified generation information states that the Host selected A or B as target by a fair random draw independent of the documents, assignments, instructions, and conversation. The designation was never revealed and created no visible difference. The speakers' conflicting dossier details only show they had different documents, not which one was targeted. Thus the posterior probability is 0.5, and abstaining minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "end_turn",
+  "usage": {
+    "input_tokens": 884,
+    "output_tokens": 978,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3072
+  },
+  "returned_model": "qwen3.8-max",
+  "http_status": 200,
+  "elapsed_seconds": 23.625,
+  "captured_utc": "2026-10-07T09:47:09.664683+00:00"
+}

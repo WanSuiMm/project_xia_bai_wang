@@ -1,0 +1,1510 @@
+{
+  "analysis_schema_version": 1,
+  "manifest_schema_version": 1,
+  "design": {
+    "planned_requests": 84,
+    "repetitions": 3,
+    "models": [
+      "glm-5.3",
+      "qwen3.8-max"
+    ],
+    "conditions": [
+      "blind",
+      "informed"
+    ],
+    "transcript_count": 7,
+    "family_weights": {
+      "EB01_D1_symmetric_frozen": 0.16666666666666666,
+      "EB02_D1_symmetric_frozen": 0.16666666666666666,
+      "EB03_D1_symmetric_frozen": 0.16666666666666666,
+      "EB04_D1_symmetric_frozen": 0.16666666666666666,
+      "EB05_D1_symmetric_frozen": 0.08333333333333333,
+      "EB05_D2_symmetric_frozen": 0.08333333333333333,
+      "EB06_D1_symmetric_frozen": 0.16666666666666666
+    },
+    "oracle_p_A": 0.5,
+    "primary_metric": "family-equal-weight fixed-null excess Brier: sum_j w_j/3 * (p_A - 0.5)^2",
+    "effect_definition": "Blind minus Informed",
+    "missing_score_range": [
+      0.0,
+      0.25
+    ]
+  },
+  "validity": {
+    "required_status": "response_received",
+    "required_parse_status": "valid",
+    "required_parsed_keys": [
+      "p_A",
+      "decision",
+      "reason"
+    ],
+    "required_reason_words_max": 120,
+    "invalid_or_missing_requests": [
+      {
+        "request_id": "EB05_D1_symmetric_frozen_glm-5.3_r3_blind",
+        "transcript_id": "EB05_D1_symmetric_frozen",
+        "model": "glm-5.3",
+        "condition": "blind",
+        "replicate": 3,
+        "reason": "parse_status_invalid_json_or_schema"
+      },
+      {
+        "request_id": "EB05_D2_symmetric_frozen_glm-5.3_r2_blind",
+        "transcript_id": "EB05_D2_symmetric_frozen",
+        "model": "glm-5.3",
+        "condition": "blind",
+        "replicate": 2,
+        "reason": "parse_status_truncated"
+      },
+      {
+        "request_id": "EB02_D1_symmetric_frozen_glm-5.3_r3_blind",
+        "transcript_id": "EB02_D1_symmetric_frozen",
+        "model": "glm-5.3",
+        "condition": "blind",
+        "replicate": 3,
+        "reason": "parse_status_truncated"
+      },
+      {
+        "request_id": "EB06_D1_symmetric_frozen_glm-5.3_r1_blind",
+        "transcript_id": "EB06_D1_symmetric_frozen",
+        "model": "glm-5.3",
+        "condition": "blind",
+        "replicate": 1,
+        "reason": "receipt_status_transport_unknown"
+      },
+      {
+        "request_id": "EB03_D1_symmetric_frozen_glm-5.3_r3_blind",
+        "transcript_id": "EB03_D1_symmetric_frozen",
+        "model": "glm-5.3",
+        "condition": "blind",
+        "replicate": 3,
+        "reason": "parse_status_truncated"
+      },
+      {
+        "request_id": "EB05_D2_symmetric_frozen_glm-5.3_r3_blind",
+        "transcript_id": "EB05_D2_symmetric_frozen",
+        "model": "glm-5.3",
+        "condition": "blind",
+        "replicate": 3,
+        "reason": "parse_status_truncated"
+      },
+      {
+        "request_id": "EB05_D1_symmetric_frozen_glm-5.3_r1_blind",
+        "transcript_id": "EB05_D1_symmetric_frozen",
+        "model": "glm-5.3",
+        "condition": "blind",
+        "replicate": 1,
+        "reason": "parse_status_truncated"
+      }
+    ],
+    "unexpected_receipt_file_count": 0,
+    "unexpected_receipt_files": []
+  },
+  "models": {
+    "glm-5.3": {
+      "conditions": {
+        "blind": {
+          "planned_requests": 21,
+          "valid_requests": 14,
+          "missing_requests": 7,
+          "missing_reasons": {
+            "parse_status_invalid_json_or_schema": 1,
+            "parse_status_truncated": 5,
+            "receipt_status_transport_unknown": 1
+          },
+          "risk": {
+            "complete": false,
+            "complete_risk": null,
+            "observed_contribution": 0.005138888888888889,
+            "missing_count": 7,
+            "missing_totalweight": 0.2777777777777778,
+            "completion_bounds": [
+              0.005138888888888889,
+              0.07458333333333333
+            ]
+          },
+          "actions": {
+            "action_counts": {
+              "A": 1,
+              "B": 1,
+              "ABSTAIN": 12
+            },
+            "report_action_incoherent_count": 0,
+            "report_action_incoherent_rate": 0.0,
+            "mean_expected_null_loss": 0.2857142857142857,
+            "mean_null_regret": 0.03571428571428571,
+            "null_regret_sum": 0.5,
+            "null_regret_definition": "E[0/1 choice loss or 0.25 abstain loss | p*=0.5] minus the optimal null loss 0.25"
+          }
+        },
+        "informed": {
+          "planned_requests": 21,
+          "valid_requests": 21,
+          "missing_requests": 0,
+          "missing_reasons": {},
+          "risk": {
+            "complete": true,
+            "complete_risk": 0.0,
+            "observed_contribution": 0.0,
+            "missing_count": 0,
+            "missing_totalweight": 0,
+            "completion_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "actions": {
+            "action_counts": {
+              "A": 0,
+              "B": 0,
+              "ABSTAIN": 21
+            },
+            "report_action_incoherent_count": 0,
+            "report_action_incoherent_rate": 0.0,
+            "mean_expected_null_loss": 0.25,
+            "mean_null_regret": 0.0,
+            "null_regret_sum": 0.0,
+            "null_regret_definition": "E[0/1 choice loss or 0.25 abstain loss | p*=0.5] minus the optimal null loss 0.25"
+          }
+        }
+      },
+      "blind_minus_informed": {
+        "definition": "Blind minus Informed",
+        "complete": false,
+        "complete_effect": null,
+        "observed_contribution_difference": 0.005138888888888889,
+        "completion_bounds": [
+          0.005138888888888889,
+          0.07458333333333333
+        ]
+      },
+      "hoeffding_95": null,
+      "family_effects": [
+        {
+          "family": "EB01",
+          "family_weight": 0.16666666666666666,
+          "transcript_count": 1,
+          "conditions": {
+            "blind": {
+              "complete": true,
+              "complete_risk": 0.0,
+              "observed_contribution": 0.0,
+              "missing_count": 0,
+              "missing_totalweight": 0,
+              "completion_bounds": [
+                0.0,
+                0.0
+              ]
+            },
+            "informed": {
+              "complete": true,
+              "complete_risk": 0.0,
+              "observed_contribution": 0.0,
+              "missing_count": 0,
+              "missing_totalweight": 0,
+              "completion_bounds": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "blind_minus_informed": {
+            "definition": "Blind minus Informed",
+            "complete": true,
+            "complete_effect": 0.0,
+            "observed_contribution_difference": 0.0,
+            "completion_bounds": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "family": "EB02",
+          "family_weight": 0.16666666666666666,
+          "transcript_count": 1,
+          "conditions": {
+            "blind": {
+              "complete": false,
+              "complete_risk": null,
+              "observed_contribution": 0.0,
+              "missing_count": 1,
+              "missing_totalweight": 0.3333333333333333,
+              "completion_bounds": [
+                0.0,
+                0.08333333333333333
+              ]
+            },
+            "informed": {
+              "complete": true,
+              "complete_risk": 0.0,
+              "observed_contribution": 0.0,
+              "missing_count": 0,
+              "missing_totalweight": 0,
+              "completion_bounds": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "blind_minus_informed": {
+            "definition": "Blind minus Informed",
+            "complete": false,
+            "complete_effect": null,
+            "observed_contribution_difference": 0.0,
+            "completion_bounds": [
+              0.0,
+              0.08333333333333333
+            ]
+          }
+        },
+        {
+          "family": "EB03",
+          "family_weight": 0.16666666666666666,
+          "transcript_count": 1,
+          "conditions": {
+            "blind": {
+              "complete": false,
+              "complete_risk": null,
+              "observed_contribution": 0.0,
+              "missing_count": 1,
+              "missing_totalweight": 0.3333333333333333,
+              "completion_bounds": [
+                0.0,
+                0.08333333333333333
+              ]
+            },
+            "informed": {
+              "complete": true,
+              "complete_risk": 0.0,
+              "observed_contribution": 0.0,
+              "missing_count": 0,
+              "missing_totalweight": 0,
+              "completion_bounds": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "blind_minus_informed": {
+            "definition": "Blind minus Informed",
+            "complete": false,
+            "complete_effect": null,
+            "observed_contribution_difference": 0.0,
+            "completion_bounds": [
+              0.0,
+              0.08333333333333333
+            ]
+          }
+        },
+        {
+          "family": "EB04",
+          "family_weight": 0.16666666666666666,
+          "transcript_count": 1,
+          "conditions": {
+            "blind": {
+              "complete": true,
+              "complete_risk": 0.0,
+              "observed_contribution": 0.0,
+              "missing_count": 0,
+              "missing_totalweight": 0,
+              "completion_bounds": [
+                0.0,
+                0.0
+              ]
+            },
+            "informed": {
+              "complete": true,
+              "complete_risk": 0.0,
+              "observed_contribution": 0.0,
+              "missing_count": 0,
+              "missing_totalweight": 0,
+              "completion_bounds": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "blind_minus_informed": {
+            "definition": "Blind minus Informed",
+            "complete": true,
+            "complete_effect": 0.0,
+            "observed_contribution_difference": 0.0,
+            "completion_bounds": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "family": "EB05",
+          "family_weight": 0.16666666666666666,
+          "transcript_count": 2,
+          "conditions": {
+            "blind": {
+              "complete": false,
+              "complete_risk": null,
+              "observed_contribution": 0.030000000000000002,
+              "missing_count": 4,
+              "missing_totalweight": 0.6666666666666666,
+              "completion_bounds": [
+                0.030000000000000002,
+                0.19666666666666666
+              ]
+            },
+            "informed": {
+              "complete": true,
+              "complete_risk": 0.0,
+              "observed_contribution": 0.0,
+              "missing_count": 0,
+              "missing_totalweight": 0,
+              "completion_bounds": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "blind_minus_informed": {
+            "definition": "Blind minus Informed",
+            "complete": false,
+            "complete_effect": null,
+            "observed_contribution_difference": 0.030000000000000002,
+            "completion_bounds": [
+              0.030000000000000002,
+              0.19666666666666666
+            ]
+          }
+        },
+        {
+          "family": "EB06",
+          "family_weight": 0.16666666666666666,
+          "transcript_count": 1,
+          "conditions": {
+            "blind": {
+              "complete": false,
+              "complete_risk": null,
+              "observed_contribution": 0.0008333333333333348,
+              "missing_count": 1,
+              "missing_totalweight": 0.3333333333333333,
+              "completion_bounds": [
+                0.0008333333333333348,
+                0.08416666666666667
+              ]
+            },
+            "informed": {
+              "complete": true,
+              "complete_risk": 0.0,
+              "observed_contribution": 0.0,
+              "missing_count": 0,
+              "missing_totalweight": 0,
+              "completion_bounds": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "blind_minus_informed": {
+            "definition": "Blind minus Informed",
+            "complete": false,
+            "complete_effect": null,
+            "observed_contribution_difference": 0.0008333333333333348,
+            "completion_bounds": [
+              0.0008333333333333348,
+              0.08416666666666667
+            ]
+          }
+        }
+      ],
+      "action_summary_by_condition": {
+        "blind": {
+          "action_counts": {
+            "A": 1,
+            "B": 1,
+            "ABSTAIN": 12
+          },
+          "report_action_incoherent_count": 0,
+          "report_action_incoherent_rate": 0.0,
+          "mean_expected_null_loss": 0.2857142857142857,
+          "mean_null_regret": 0.03571428571428571,
+          "null_regret_sum": 0.5,
+          "null_regret_definition": "E[0/1 choice loss or 0.25 abstain loss | p*=0.5] minus the optimal null loss 0.25"
+        },
+        "informed": {
+          "action_counts": {
+            "A": 0,
+            "B": 0,
+            "ABSTAIN": 21
+          },
+          "report_action_incoherent_count": 0,
+          "report_action_incoherent_rate": 0.0,
+          "mean_expected_null_loss": 0.25,
+          "mean_null_regret": 0.0,
+          "null_regret_sum": 0.0,
+          "null_regret_definition": "E[0/1 choice loss or 0.25 abstain loss | p*=0.5] minus the optimal null loss 0.25"
+        }
+      }
+    },
+    "qwen3.8-max": {
+      "conditions": {
+        "blind": {
+          "planned_requests": 21,
+          "valid_requests": 21,
+          "missing_requests": 0,
+          "missing_reasons": {},
+          "risk": {
+            "complete": true,
+            "complete_risk": 0.008472222222222221,
+            "observed_contribution": 0.008472222222222221,
+            "missing_count": 0,
+            "missing_totalweight": 0,
+            "completion_bounds": [
+              0.008472222222222221,
+              0.008472222222222221
+            ]
+          },
+          "actions": {
+            "action_counts": {
+              "A": 0,
+              "B": 3,
+              "ABSTAIN": 18
+            },
+            "report_action_incoherent_count": 0,
+            "report_action_incoherent_rate": 0.0,
+            "mean_expected_null_loss": 0.2857142857142857,
+            "mean_null_regret": 0.03571428571428571,
+            "null_regret_sum": 0.75,
+            "null_regret_definition": "E[0/1 choice loss or 0.25 abstain loss | p*=0.5] minus the optimal null loss 0.25"
+          }
+        },
+        "informed": {
+          "planned_requests": 21,
+          "valid_requests": 21,
+          "missing_requests": 0,
+          "missing_reasons": {},
+          "risk": {
+            "complete": true,
+            "complete_risk": 0.0,
+            "observed_contribution": 0.0,
+            "missing_count": 0,
+            "missing_totalweight": 0,
+            "completion_bounds": [
+              0.0,
+              0.0
+            ]
+          },
+          "actions": {
+            "action_counts": {
+              "A": 0,
+              "B": 0,
+              "ABSTAIN": 21
+            },
+            "report_action_incoherent_count": 0,
+            "report_action_incoherent_rate": 0.0,
+            "mean_expected_null_loss": 0.25,
+            "mean_null_regret": 0.0,
+            "null_regret_sum": 0.0,
+            "null_regret_definition": "E[0/1 choice loss or 0.25 abstain loss | p*=0.5] minus the optimal null loss 0.25"
+          }
+        }
+      },
+      "blind_minus_informed": {
+        "definition": "Blind minus Informed",
+        "complete": true,
+        "complete_effect": 0.008472222222222221,
+        "observed_contribution_difference": 0.008472222222222221,
+        "completion_bounds": [
+          0.008472222222222221,
+          0.008472222222222221
+        ]
+      },
+      "hoeffding_95": {
+        "level": 0.95,
+        "estimate": 0.008472222222222221,
+        "half_width": 0.15323984543432087,
+        "interval": [
+          -0.14476762321209866,
+          0.16171206765654308
+        ],
+        "sum_squared_weights": 0.05092592592592592,
+        "assumptions": [
+          "independent new-session outputs for all Blind and Informed request slots",
+          "stable deployment over the fixed queue and three replicates"
+        ],
+        "scope": "this fixed transcript queue and deployment only; no population extrapolation or cross-model ranking"
+      },
+      "family_effects": [
+        {
+          "family": "EB01",
+          "family_weight": 0.16666666666666666,
+          "transcript_count": 1,
+          "conditions": {
+            "blind": {
+              "complete": true,
+              "complete_risk": 0.0,
+              "observed_contribution": 0.0,
+              "missing_count": 0,
+              "missing_totalweight": 0,
+              "completion_bounds": [
+                0.0,
+                0.0
+              ]
+            },
+            "informed": {
+              "complete": true,
+              "complete_risk": 0.0,
+              "observed_contribution": 0.0,
+              "missing_count": 0,
+              "missing_totalweight": 0,
+              "completion_bounds": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "blind_minus_informed": {
+            "definition": "Blind minus Informed",
+            "complete": true,
+            "complete_effect": 0.0,
+            "observed_contribution_difference": 0.0,
+            "completion_bounds": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "family": "EB02",
+          "family_weight": 0.16666666666666666,
+          "transcript_count": 1,
+          "conditions": {
+            "blind": {
+              "complete": true,
+              "complete_risk": 0.0,
+              "observed_contribution": 0.0,
+              "missing_count": 0,
+              "missing_totalweight": 0,
+              "completion_bounds": [
+                0.0,
+                0.0
+              ]
+            },
+            "informed": {
+              "complete": true,
+              "complete_risk": 0.0,
+              "observed_contribution": 0.0,
+              "missing_count": 0,
+              "missing_totalweight": 0,
+              "completion_bounds": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "blind_minus_informed": {
+            "definition": "Blind minus Informed",
+            "complete": true,
+            "complete_effect": 0.0,
+            "observed_contribution_difference": 0.0,
+            "completion_bounds": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "family": "EB03",
+          "family_weight": 0.16666666666666666,
+          "transcript_count": 1,
+          "conditions": {
+            "blind": {
+              "complete": true,
+              "complete_risk": 0.0,
+              "observed_contribution": 0.0,
+              "missing_count": 0,
+              "missing_totalweight": 0,
+              "completion_bounds": [
+                0.0,
+                0.0
+              ]
+            },
+            "informed": {
+              "complete": true,
+              "complete_risk": 0.0,
+              "observed_contribution": 0.0,
+              "missing_count": 0,
+              "missing_totalweight": 0,
+              "completion_bounds": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "blind_minus_informed": {
+            "definition": "Blind minus Informed",
+            "complete": true,
+            "complete_effect": 0.0,
+            "observed_contribution_difference": 0.0,
+            "completion_bounds": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "family": "EB04",
+          "family_weight": 0.16666666666666666,
+          "transcript_count": 1,
+          "conditions": {
+            "blind": {
+              "complete": true,
+              "complete_risk": 0.0,
+              "observed_contribution": 0.0,
+              "missing_count": 0,
+              "missing_totalweight": 0,
+              "completion_bounds": [
+                0.0,
+                0.0
+              ]
+            },
+            "informed": {
+              "complete": true,
+              "complete_risk": 0.0,
+              "observed_contribution": 0.0,
+              "missing_count": 0,
+              "missing_totalweight": 0,
+              "completion_bounds": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "blind_minus_informed": {
+            "definition": "Blind minus Informed",
+            "complete": true,
+            "complete_effect": 0.0,
+            "observed_contribution_difference": 0.0,
+            "completion_bounds": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "family": "EB05",
+          "family_weight": 0.16666666666666666,
+          "transcript_count": 2,
+          "conditions": {
+            "blind": {
+              "complete": true,
+              "complete_risk": 0.05083333333333333,
+              "observed_contribution": 0.05083333333333333,
+              "missing_count": 0,
+              "missing_totalweight": 0,
+              "completion_bounds": [
+                0.05083333333333333,
+                0.05083333333333333
+              ]
+            },
+            "informed": {
+              "complete": true,
+              "complete_risk": 0.0,
+              "observed_contribution": 0.0,
+              "missing_count": 0,
+              "missing_totalweight": 0,
+              "completion_bounds": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "blind_minus_informed": {
+            "definition": "Blind minus Informed",
+            "complete": true,
+            "complete_effect": 0.05083333333333333,
+            "observed_contribution_difference": 0.05083333333333333,
+            "completion_bounds": [
+              0.05083333333333333,
+              0.05083333333333333
+            ]
+          }
+        },
+        {
+          "family": "EB06",
+          "family_weight": 0.16666666666666666,
+          "transcript_count": 1,
+          "conditions": {
+            "blind": {
+              "complete": true,
+              "complete_risk": 0.0,
+              "observed_contribution": 0.0,
+              "missing_count": 0,
+              "missing_totalweight": 0,
+              "completion_bounds": [
+                0.0,
+                0.0
+              ]
+            },
+            "informed": {
+              "complete": true,
+              "complete_risk": 0.0,
+              "observed_contribution": 0.0,
+              "missing_count": 0,
+              "missing_totalweight": 0,
+              "completion_bounds": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "blind_minus_informed": {
+            "definition": "Blind minus Informed",
+            "complete": true,
+            "complete_effect": 0.0,
+            "observed_contribution_difference": 0.0,
+            "completion_bounds": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ],
+      "action_summary_by_condition": {
+        "blind": {
+          "action_counts": {
+            "A": 0,
+            "B": 3,
+            "ABSTAIN": 18
+          },
+          "report_action_incoherent_count": 0,
+          "report_action_incoherent_rate": 0.0,
+          "mean_expected_null_loss": 0.2857142857142857,
+          "mean_null_regret": 0.03571428571428571,
+          "null_regret_sum": 0.75,
+          "null_regret_definition": "E[0/1 choice loss or 0.25 abstain loss | p*=0.5] minus the optimal null loss 0.25"
+        },
+        "informed": {
+          "action_counts": {
+            "A": 0,
+            "B": 0,
+            "ABSTAIN": 21
+          },
+          "report_action_incoherent_count": 0,
+          "report_action_incoherent_rate": 0.0,
+          "mean_expected_null_loss": 0.25,
+          "mean_null_regret": 0.0,
+          "null_regret_sum": 0.0,
+          "null_regret_definition": "E[0/1 choice loss or 0.25 abstain loss | p*=0.5] minus the optimal null loss 0.25"
+        }
+      }
+    }
+  },
+  "transcript_cells": [
+    {
+      "transcript_id": "EB01_D1_symmetric_frozen",
+      "family": "EB01",
+      "model": "glm-5.3",
+      "condition": "blind",
+      "family_weight": 0.16666666666666666,
+      "planned_replicates": 3,
+      "valid_replicates": 3,
+      "missing_replicates": 0,
+      "cell_risk": {
+        "complete": true,
+        "complete_risk": 0.0,
+        "observed_contribution": 0.0,
+        "missing_count": 0,
+        "missing_totalweight": 0,
+        "completion_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      "mean_p_A": 0.5,
+      "sample_variance_p_A": 0.0,
+      "unbiased_bias_estimate_B": 0.0,
+      "B_replicate_count": 3
+    },
+    {
+      "transcript_id": "EB01_D1_symmetric_frozen",
+      "family": "EB01",
+      "model": "glm-5.3",
+      "condition": "informed",
+      "family_weight": 0.16666666666666666,
+      "planned_replicates": 3,
+      "valid_replicates": 3,
+      "missing_replicates": 0,
+      "cell_risk": {
+        "complete": true,
+        "complete_risk": 0.0,
+        "observed_contribution": 0.0,
+        "missing_count": 0,
+        "missing_totalweight": 0,
+        "completion_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      "mean_p_A": 0.5,
+      "sample_variance_p_A": 0.0,
+      "unbiased_bias_estimate_B": 0.0,
+      "B_replicate_count": 3
+    },
+    {
+      "transcript_id": "EB02_D1_symmetric_frozen",
+      "family": "EB02",
+      "model": "glm-5.3",
+      "condition": "blind",
+      "family_weight": 0.16666666666666666,
+      "planned_replicates": 3,
+      "valid_replicates": 2,
+      "missing_replicates": 1,
+      "cell_risk": {
+        "complete": false,
+        "complete_risk": null,
+        "observed_contribution": 0.0,
+        "missing_count": 1,
+        "missing_totalweight": 0.3333333333333333,
+        "completion_bounds": [
+          0.0,
+          0.08333333333333333
+        ]
+      },
+      "mean_p_A": null,
+      "sample_variance_p_A": null,
+      "unbiased_bias_estimate_B": null,
+      "B_replicate_count": null
+    },
+    {
+      "transcript_id": "EB02_D1_symmetric_frozen",
+      "family": "EB02",
+      "model": "glm-5.3",
+      "condition": "informed",
+      "family_weight": 0.16666666666666666,
+      "planned_replicates": 3,
+      "valid_replicates": 3,
+      "missing_replicates": 0,
+      "cell_risk": {
+        "complete": true,
+        "complete_risk": 0.0,
+        "observed_contribution": 0.0,
+        "missing_count": 0,
+        "missing_totalweight": 0,
+        "completion_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      "mean_p_A": 0.5,
+      "sample_variance_p_A": 0.0,
+      "unbiased_bias_estimate_B": 0.0,
+      "B_replicate_count": 3
+    },
+    {
+      "transcript_id": "EB03_D1_symmetric_frozen",
+      "family": "EB03",
+      "model": "glm-5.3",
+      "condition": "blind",
+      "family_weight": 0.16666666666666666,
+      "planned_replicates": 3,
+      "valid_replicates": 2,
+      "missing_replicates": 1,
+      "cell_risk": {
+        "complete": false,
+        "complete_risk": null,
+        "observed_contribution": 0.0,
+        "missing_count": 1,
+        "missing_totalweight": 0.3333333333333333,
+        "completion_bounds": [
+          0.0,
+          0.08333333333333333
+        ]
+      },
+      "mean_p_A": null,
+      "sample_variance_p_A": null,
+      "unbiased_bias_estimate_B": null,
+      "B_replicate_count": null
+    },
+    {
+      "transcript_id": "EB03_D1_symmetric_frozen",
+      "family": "EB03",
+      "model": "glm-5.3",
+      "condition": "informed",
+      "family_weight": 0.16666666666666666,
+      "planned_replicates": 3,
+      "valid_replicates": 3,
+      "missing_replicates": 0,
+      "cell_risk": {
+        "complete": true,
+        "complete_risk": 0.0,
+        "observed_contribution": 0.0,
+        "missing_count": 0,
+        "missing_totalweight": 0,
+        "completion_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      "mean_p_A": 0.5,
+      "sample_variance_p_A": 0.0,
+      "unbiased_bias_estimate_B": 0.0,
+      "B_replicate_count": 3
+    },
+    {
+      "transcript_id": "EB04_D1_symmetric_frozen",
+      "family": "EB04",
+      "model": "glm-5.3",
+      "condition": "blind",
+      "family_weight": 0.16666666666666666,
+      "planned_replicates": 3,
+      "valid_replicates": 3,
+      "missing_replicates": 0,
+      "cell_risk": {
+        "complete": true,
+        "complete_risk": 0.0,
+        "observed_contribution": 0.0,
+        "missing_count": 0,
+        "missing_totalweight": 0,
+        "completion_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      "mean_p_A": 0.5,
+      "sample_variance_p_A": 0.0,
+      "unbiased_bias_estimate_B": 0.0,
+      "B_replicate_count": 3
+    },
+    {
+      "transcript_id": "EB04_D1_symmetric_frozen",
+      "family": "EB04",
+      "model": "glm-5.3",
+      "condition": "informed",
+      "family_weight": 0.16666666666666666,
+      "planned_replicates": 3,
+      "valid_replicates": 3,
+      "missing_replicates": 0,
+      "cell_risk": {
+        "complete": true,
+        "complete_risk": 0.0,
+        "observed_contribution": 0.0,
+        "missing_count": 0,
+        "missing_totalweight": 0,
+        "completion_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      "mean_p_A": 0.5,
+      "sample_variance_p_A": 0.0,
+      "unbiased_bias_estimate_B": 0.0,
+      "B_replicate_count": 3
+    },
+    {
+      "transcript_id": "EB05_D1_symmetric_frozen",
+      "family": "EB05",
+      "model": "glm-5.3",
+      "condition": "blind",
+      "family_weight": 0.08333333333333333,
+      "planned_replicates": 3,
+      "valid_replicates": 1,
+      "missing_replicates": 2,
+      "cell_risk": {
+        "complete": false,
+        "complete_risk": null,
+        "observed_contribution": 0.03,
+        "missing_count": 2,
+        "missing_totalweight": 0.6666666666666666,
+        "completion_bounds": [
+          0.03,
+          0.19666666666666666
+        ]
+      },
+      "mean_p_A": null,
+      "sample_variance_p_A": null,
+      "unbiased_bias_estimate_B": null,
+      "B_replicate_count": null
+    },
+    {
+      "transcript_id": "EB05_D1_symmetric_frozen",
+      "family": "EB05",
+      "model": "glm-5.3",
+      "condition": "informed",
+      "family_weight": 0.08333333333333333,
+      "planned_replicates": 3,
+      "valid_replicates": 3,
+      "missing_replicates": 0,
+      "cell_risk": {
+        "complete": true,
+        "complete_risk": 0.0,
+        "observed_contribution": 0.0,
+        "missing_count": 0,
+        "missing_totalweight": 0,
+        "completion_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      "mean_p_A": 0.5,
+      "sample_variance_p_A": 0.0,
+      "unbiased_bias_estimate_B": 0.0,
+      "B_replicate_count": 3
+    },
+    {
+      "transcript_id": "EB05_D2_symmetric_frozen",
+      "family": "EB05",
+      "model": "glm-5.3",
+      "condition": "blind",
+      "family_weight": 0.08333333333333333,
+      "planned_replicates": 3,
+      "valid_replicates": 1,
+      "missing_replicates": 2,
+      "cell_risk": {
+        "complete": false,
+        "complete_risk": null,
+        "observed_contribution": 0.030000000000000006,
+        "missing_count": 2,
+        "missing_totalweight": 0.6666666666666666,
+        "completion_bounds": [
+          0.030000000000000006,
+          0.19666666666666666
+        ]
+      },
+      "mean_p_A": null,
+      "sample_variance_p_A": null,
+      "unbiased_bias_estimate_B": null,
+      "B_replicate_count": null
+    },
+    {
+      "transcript_id": "EB05_D2_symmetric_frozen",
+      "family": "EB05",
+      "model": "glm-5.3",
+      "condition": "informed",
+      "family_weight": 0.08333333333333333,
+      "planned_replicates": 3,
+      "valid_replicates": 3,
+      "missing_replicates": 0,
+      "cell_risk": {
+        "complete": true,
+        "complete_risk": 0.0,
+        "observed_contribution": 0.0,
+        "missing_count": 0,
+        "missing_totalweight": 0,
+        "completion_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      "mean_p_A": 0.5,
+      "sample_variance_p_A": 0.0,
+      "unbiased_bias_estimate_B": 0.0,
+      "B_replicate_count": 3
+    },
+    {
+      "transcript_id": "EB06_D1_symmetric_frozen",
+      "family": "EB06",
+      "model": "glm-5.3",
+      "condition": "blind",
+      "family_weight": 0.16666666666666666,
+      "planned_replicates": 3,
+      "valid_replicates": 2,
+      "missing_replicates": 1,
+      "cell_risk": {
+        "complete": false,
+        "complete_risk": null,
+        "observed_contribution": 0.0008333333333333348,
+        "missing_count": 1,
+        "missing_totalweight": 0.3333333333333333,
+        "completion_bounds": [
+          0.0008333333333333348,
+          0.08416666666666667
+        ]
+      },
+      "mean_p_A": null,
+      "sample_variance_p_A": null,
+      "unbiased_bias_estimate_B": null,
+      "B_replicate_count": null
+    },
+    {
+      "transcript_id": "EB06_D1_symmetric_frozen",
+      "family": "EB06",
+      "model": "glm-5.3",
+      "condition": "informed",
+      "family_weight": 0.16666666666666666,
+      "planned_replicates": 3,
+      "valid_replicates": 3,
+      "missing_replicates": 0,
+      "cell_risk": {
+        "complete": true,
+        "complete_risk": 0.0,
+        "observed_contribution": 0.0,
+        "missing_count": 0,
+        "missing_totalweight": 0,
+        "completion_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      "mean_p_A": 0.5,
+      "sample_variance_p_A": 0.0,
+      "unbiased_bias_estimate_B": 0.0,
+      "B_replicate_count": 3
+    },
+    {
+      "transcript_id": "EB01_D1_symmetric_frozen",
+      "family": "EB01",
+      "model": "qwen3.8-max",
+      "condition": "blind",
+      "family_weight": 0.16666666666666666,
+      "planned_replicates": 3,
+      "valid_replicates": 3,
+      "missing_replicates": 0,
+      "cell_risk": {
+        "complete": true,
+        "complete_risk": 0.0,
+        "observed_contribution": 0.0,
+        "missing_count": 0,
+        "missing_totalweight": 0,
+        "completion_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      "mean_p_A": 0.5,
+      "sample_variance_p_A": 0.0,
+      "unbiased_bias_estimate_B": 0.0,
+      "B_replicate_count": 3
+    },
+    {
+      "transcript_id": "EB01_D1_symmetric_frozen",
+      "family": "EB01",
+      "model": "qwen3.8-max",
+      "condition": "informed",
+      "family_weight": 0.16666666666666666,
+      "planned_replicates": 3,
+      "valid_replicates": 3,
+      "missing_replicates": 0,
+      "cell_risk": {
+        "complete": true,
+        "complete_risk": 0.0,
+        "observed_contribution": 0.0,
+        "missing_count": 0,
+        "missing_totalweight": 0,
+        "completion_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      "mean_p_A": 0.5,
+      "sample_variance_p_A": 0.0,
+      "unbiased_bias_estimate_B": 0.0,
+      "B_replicate_count": 3
+    },
+    {
+      "transcript_id": "EB02_D1_symmetric_frozen",
+      "family": "EB02",
+      "model": "qwen3.8-max",
+      "condition": "blind",
+      "family_weight": 0.16666666666666666,
+      "planned_replicates": 3,
+      "valid_replicates": 3,
+      "missing_replicates": 0,
+      "cell_risk": {
+        "complete": true,
+        "complete_risk": 0.0,
+        "observed_contribution": 0.0,
+        "missing_count": 0,
+        "missing_totalweight": 0,
+        "completion_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      "mean_p_A": 0.5,
+      "sample_variance_p_A": 0.0,
+      "unbiased_bias_estimate_B": 0.0,
+      "B_replicate_count": 3
+    },
+    {
+      "transcript_id": "EB02_D1_symmetric_frozen",
+      "family": "EB02",
+      "model": "qwen3.8-max",
+      "condition": "informed",
+      "family_weight": 0.16666666666666666,
+      "planned_replicates": 3,
+      "valid_replicates": 3,
+      "missing_replicates": 0,
+      "cell_risk": {
+        "complete": true,
+        "complete_risk": 0.0,
+        "observed_contribution": 0.0,
+        "missing_count": 0,
+        "missing_totalweight": 0,
+        "completion_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      "mean_p_A": 0.5,
+      "sample_variance_p_A": 0.0,
+      "unbiased_bias_estimate_B": 0.0,
+      "B_replicate_count": 3
+    },
+    {
+      "transcript_id": "EB03_D1_symmetric_frozen",
+      "family": "EB03",
+      "model": "qwen3.8-max",
+      "condition": "blind",
+      "family_weight": 0.16666666666666666,
+      "planned_replicates": 3,
+      "valid_replicates": 3,
+      "missing_replicates": 0,
+      "cell_risk": {
+        "complete": true,
+        "complete_risk": 0.0,
+        "observed_contribution": 0.0,
+        "missing_count": 0,
+        "missing_totalweight": 0,
+        "completion_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      "mean_p_A": 0.5,
+      "sample_variance_p_A": 0.0,
+      "unbiased_bias_estimate_B": 0.0,
+      "B_replicate_count": 3
+    },
+    {
+      "transcript_id": "EB03_D1_symmetric_frozen",
+      "family": "EB03",
+      "model": "qwen3.8-max",
+      "condition": "informed",
+      "family_weight": 0.16666666666666666,
+      "planned_replicates": 3,
+      "valid_replicates": 3,
+      "missing_replicates": 0,
+      "cell_risk": {
+        "complete": true,
+        "complete_risk": 0.0,
+        "observed_contribution": 0.0,
+        "missing_count": 0,
+        "missing_totalweight": 0,
+        "completion_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      "mean_p_A": 0.5,
+      "sample_variance_p_A": 0.0,
+      "unbiased_bias_estimate_B": 0.0,
+      "B_replicate_count": 3
+    },
+    {
+      "transcript_id": "EB04_D1_symmetric_frozen",
+      "family": "EB04",
+      "model": "qwen3.8-max",
+      "condition": "blind",
+      "family_weight": 0.16666666666666666,
+      "planned_replicates": 3,
+      "valid_replicates": 3,
+      "missing_replicates": 0,
+      "cell_risk": {
+        "complete": true,
+        "complete_risk": 0.0,
+        "observed_contribution": 0.0,
+        "missing_count": 0,
+        "missing_totalweight": 0,
+        "completion_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      "mean_p_A": 0.5,
+      "sample_variance_p_A": 0.0,
+      "unbiased_bias_estimate_B": 0.0,
+      "B_replicate_count": 3
+    },
+    {
+      "transcript_id": "EB04_D1_symmetric_frozen",
+      "family": "EB04",
+      "model": "qwen3.8-max",
+      "condition": "informed",
+      "family_weight": 0.16666666666666666,
+      "planned_replicates": 3,
+      "valid_replicates": 3,
+      "missing_replicates": 0,
+      "cell_risk": {
+        "complete": true,
+        "complete_risk": 0.0,
+        "observed_contribution": 0.0,
+        "missing_count": 0,
+        "missing_totalweight": 0,
+        "completion_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      "mean_p_A": 0.5,
+      "sample_variance_p_A": 0.0,
+      "unbiased_bias_estimate_B": 0.0,
+      "B_replicate_count": 3
+    },
+    {
+      "transcript_id": "EB05_D1_symmetric_frozen",
+      "family": "EB05",
+      "model": "qwen3.8-max",
+      "condition": "blind",
+      "family_weight": 0.08333333333333333,
+      "planned_replicates": 3,
+      "valid_replicates": 3,
+      "missing_replicates": 0,
+      "cell_risk": {
+        "complete": true,
+        "complete_risk": 0.10083333333333333,
+        "observed_contribution": 0.10083333333333333,
+        "missing_count": 0,
+        "missing_totalweight": 0,
+        "completion_bounds": [
+          0.10083333333333333,
+          0.10083333333333333
+        ]
+      },
+      "mean_p_A": 0.18333333333333335,
+      "sample_variance_p_A": 0.0008333333333333339,
+      "unbiased_bias_estimate_B": 0.09999999999999999,
+      "B_replicate_count": 3
+    },
+    {
+      "transcript_id": "EB05_D1_symmetric_frozen",
+      "family": "EB05",
+      "model": "qwen3.8-max",
+      "condition": "informed",
+      "family_weight": 0.08333333333333333,
+      "planned_replicates": 3,
+      "valid_replicates": 3,
+      "missing_replicates": 0,
+      "cell_risk": {
+        "complete": true,
+        "complete_risk": 0.0,
+        "observed_contribution": 0.0,
+        "missing_count": 0,
+        "missing_totalweight": 0,
+        "completion_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      "mean_p_A": 0.5,
+      "sample_variance_p_A": 0.0,
+      "unbiased_bias_estimate_B": 0.0,
+      "B_replicate_count": 3
+    },
+    {
+      "transcript_id": "EB05_D2_symmetric_frozen",
+      "family": "EB05",
+      "model": "qwen3.8-max",
+      "condition": "blind",
+      "family_weight": 0.08333333333333333,
+      "planned_replicates": 3,
+      "valid_replicates": 3,
+      "missing_replicates": 0,
+      "cell_risk": {
+        "complete": true,
+        "complete_risk": 0.0008333333333333348,
+        "observed_contribution": 0.0008333333333333348,
+        "missing_count": 0,
+        "missing_totalweight": 0,
+        "completion_bounds": [
+          0.0008333333333333348,
+          0.0008333333333333348
+        ]
+      },
+      "mean_p_A": 0.5166666666666667,
+      "sample_variance_p_A": 0.0008333333333333348,
+      "unbiased_bias_estimate_B": 1.2468324983583301e-18,
+      "B_replicate_count": 3
+    },
+    {
+      "transcript_id": "EB05_D2_symmetric_frozen",
+      "family": "EB05",
+      "model": "qwen3.8-max",
+      "condition": "informed",
+      "family_weight": 0.08333333333333333,
+      "planned_replicates": 3,
+      "valid_replicates": 3,
+      "missing_replicates": 0,
+      "cell_risk": {
+        "complete": true,
+        "complete_risk": 0.0,
+        "observed_contribution": 0.0,
+        "missing_count": 0,
+        "missing_totalweight": 0,
+        "completion_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      "mean_p_A": 0.5,
+      "sample_variance_p_A": 0.0,
+      "unbiased_bias_estimate_B": 0.0,
+      "B_replicate_count": 3
+    },
+    {
+      "transcript_id": "EB06_D1_symmetric_frozen",
+      "family": "EB06",
+      "model": "qwen3.8-max",
+      "condition": "blind",
+      "family_weight": 0.16666666666666666,
+      "planned_replicates": 3,
+      "valid_replicates": 3,
+      "missing_replicates": 0,
+      "cell_risk": {
+        "complete": true,
+        "complete_risk": 0.0,
+        "observed_contribution": 0.0,
+        "missing_count": 0,
+        "missing_totalweight": 0,
+        "completion_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      "mean_p_A": 0.5,
+      "sample_variance_p_A": 0.0,
+      "unbiased_bias_estimate_B": 0.0,
+      "B_replicate_count": 3
+    },
+    {
+      "transcript_id": "EB06_D1_symmetric_frozen",
+      "family": "EB06",
+      "model": "qwen3.8-max",
+      "condition": "informed",
+      "family_weight": 0.16666666666666666,
+      "planned_replicates": 3,
+      "valid_replicates": 3,
+      "missing_replicates": 0,
+      "cell_risk": {
+        "complete": true,
+        "complete_risk": 0.0,
+        "observed_contribution": 0.0,
+        "missing_count": 0,
+        "missing_totalweight": 0,
+        "completion_bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      "mean_p_A": 0.5,
+      "sample_variance_p_A": 0.0,
+      "unbiased_bias_estimate_B": 0.0,
+      "B_replicate_count": 3
+    }
+  ],
+  "interpretation_limits": [
+    "fixed-queue description only; no p-values or population-level inference",
+    "models are reported separately; no cross-model ranking is computed",
+    "R0 contains no noisy-cue observations",
+    "B estimates are defined only for complete three-replicate transcript/model/condition cells and are not truncated at zero",
+    "raw response files and visible text are not copied into this analysis output"
+  ]
+}

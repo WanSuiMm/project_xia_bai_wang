@@ -1,0 +1,30 @@
+{
+  "request_id": "EB05_D1_symmetric_frozen_qwen3.8-max_r2_blind",
+  "transcript_id": "EB05_D1_symmetric_frozen",
+  "model": "qwen3.8-max",
+  "condition": "blind",
+  "replicate": 2,
+  "pair_id": "EB05_D1_symmetric_frozen_qwen3.8-max_r2",
+  "slot_order": 2,
+  "prompt_sha256": "63cb37bd590de20cc757b0d33252bd367e6679ecf1b4afd22198a22b2ba9bfd4",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:56:21.277022+00:00",
+  "visible_text": "{\n  \"p_A\": 0.15,\n  \"decision\": \"B\",\n  \"reason\": \"The public context specifies storm damage interrupting a hillside footbridge. Speaker B's record explicitly mentions a damaged hillside footbridge and damage, while Speaker A's record refers only to repairs to a district footbridge and says it contains no storm or damage language. Both records are otherwise parallel, so certainty is limited, but B aligns more closely with the stated target context.\"\n}",
+  "parsed": {
+    "p_A": 0.15,
+    "decision": "B",
+    "reason": "The public context specifies storm damage interrupting a hillside footbridge. Speaker B's record explicitly mentions a damaged hillside footbridge and damage, while Speaker A's record refers only to repairs to a district footbridge and says it contains no storm or damage language. Both records are otherwise parallel, so certainty is limited, but B aligns more closely with the stated target context."
+  },
+  "parse_status": "valid",
+  "finish_reason": "end_turn",
+  "usage": {
+    "input_tokens": 259,
+    "output_tokens": 3610,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 6272
+  },
+  "returned_model": "qwen3.8-max",
+  "http_status": 200,
+  "elapsed_seconds": 100.39,
+  "captured_utc": "2026-10-07T09:58:01.670246+00:00"
+}

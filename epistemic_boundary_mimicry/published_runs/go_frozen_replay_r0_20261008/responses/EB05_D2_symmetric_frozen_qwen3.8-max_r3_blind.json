@@ -1,0 +1,30 @@
+{
+  "request_id": "EB05_D2_symmetric_frozen_qwen3.8-max_r3_blind",
+  "transcript_id": "EB05_D2_symmetric_frozen",
+  "model": "qwen3.8-max",
+  "condition": "blind",
+  "replicate": 3,
+  "pair_id": "EB05_D2_symmetric_frozen_qwen3.8-max_r3",
+  "slot_order": 2,
+  "prompt_sha256": "02c0c684abb829d611f0f728d51a01b75e2738355749af39574ab3ee73bf43ea",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:48:52.502233+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The conversation contains two detailed but incompatible invented records. A describes East Hollow/Rina Vale with thirty households and direct quotations; B describes West Orchard/Mira Doren with twenty-four households and says the source paraphrases the note. The public context gives no names, dates, counts, or designation procedure that selects one record over the other, and the interviewer's prompts do not verify either source. Although A’s verbatim answers are slightly more direct, that cue is not strong enough to overcome the lack of grounding. Thus the posterior is essentially balanced, and abstaining minimizes expected loss under the 0.25 abstention cost.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The conversation contains two detailed but incompatible invented records. A describes East Hollow/Rina Vale with thirty households and direct quotations; B describes West Orchard/Mira Doren with twenty-four households and says the source paraphrases the note. The public context gives no names, dates, counts, or designation procedure that selects one record over the other, and the interviewer's prompts do not verify either source. Although A’s verbatim answers are slightly more direct, that cue is not strong enough to overcome the lack of grounding. Thus the posterior is essentially balanced, and abstaining minimizes expected loss under the 0.25 abstention cost."
+  },
+  "parse_status": "valid",
+  "finish_reason": "end_turn",
+  "usage": {
+    "input_tokens": 884,
+    "output_tokens": 3693,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 1024
+  },
+  "returned_model": "qwen3.8-max",
+  "http_status": 200,
+  "elapsed_seconds": 93.813,
+  "captured_utc": "2026-10-07T09:50:26.314970+00:00"
+}

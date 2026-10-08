@@ -1,0 +1,28 @@
+{
+  "request_id": "EB05_D1_symmetric_frozen_glm-5.3_r3_blind",
+  "transcript_id": "EB05_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "blind",
+  "replicate": 3,
+  "pair_id": "EB05_D1_symmetric_frozen_glm-5.3_r3",
+  "slot_order": 2,
+  "prompt_sha256": "63cb37bd590de20cc757b0d33252bd367e6679ecf1b4afd22198a22b2ba9bfd4",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:14:19.308490+00:00",
+  "visible_text": "```json\n{\n  \"p_A\": 0.2,\n  \"decision\": \"B\",\n  \"reason\": \"The public context frames the scenario as 'storm damage interrupts its hillside footbridge.' Speaker B's record explicitly describes a 'damaged hillside footbridge' that was closed, matching both the damage and hillside elements; Speaker A's record refers only to 'repairs to the district footbridge,' and A concedes the record never uses the words storm or damage. The interviewer's direct probe about storm/damage likewise surfaces mention only in B's source. Both speakers are detailed and internally consistent, so the decisive evidence is this scenario alignment favoring B, reinforced by B's more confident description of the document's form (five short paragraphs, a few hundred words) versus A's hedging. B is the likelier Host-designated target; choosing B yields lower expected loss (0.2) than abstaining (0.25).\"\n}\n```",
+  "parsed": null,
+  "parse_status": "invalid_json_or_schema",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 6413,
+    "completion_tokens": 16796,
+    "total_tokens": 23209,
+    "prompt_tokens_details": {
+      "cached_tokens": 241
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 288.14,
+  "captured_utc": "2026-10-07T09:19:07.455332+00:00"
+}

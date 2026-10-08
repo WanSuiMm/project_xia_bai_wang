@@ -1,0 +1,32 @@
+{
+  "request_id": "EB01_D1_symmetric_frozen_glm-5.3_r3_informed",
+  "transcript_id": "EB01_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "informed",
+  "replicate": 3,
+  "pair_id": "EB01_D1_symmetric_frozen_glm-5.3_r3",
+  "slot_order": 1,
+  "prompt_sha256": "be67273241cf174a0e4307a9e0b79c0dba673874d878b8a4c93f4dc4085bc87a",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T10:41:58.278187+00:00",
+  "visible_text": "```json\n{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The verified generation information states the Host selected the target by a fair random draw independent of the documents, assignments, and all generation randomness, and that this designation was never revealed and changed no message, response policy, or other visible event. The conversation shows two internally consistent accounts of distinct dossiers (Corda/Maro Pell/foldglass/24 panels vs. Paven/Tessa Rin/reedleaf/32 panels), both matching the public context, so no visible evidence discriminates which document is the target. With no target-linked clue, p_A remains 0.5; expected loss is 0.5 for choosing either speaker versus 0.25 for abstaining, so ABSTAIN minimizes expected loss.\"\n}\n```",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The verified generation information states the Host selected the target by a fair random draw independent of the documents, assignments, and all generation randomness, and that this designation was never revealed and changed no message, response policy, or other visible event. The conversation shows two internally consistent accounts of distinct dossiers (Corda/Maro Pell/foldglass/24 panels vs. Paven/Tessa Rin/reedleaf/32 panels), both matching the public context, so no visible evidence discriminates which document is the target. With no target-linked clue, p_A remains 0.5; expected loss is 0.5 for choosing either speaker versus 0.25 for abstaining, so ABSTAIN minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 3827,
+    "completion_tokens": 1622,
+    "total_tokens": 5449,
+    "prompt_tokens_details": {
+      "cached_tokens": 190
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 25.937,
+  "captured_utc": "2026-10-07T10:42:24.227235+00:00"
+}

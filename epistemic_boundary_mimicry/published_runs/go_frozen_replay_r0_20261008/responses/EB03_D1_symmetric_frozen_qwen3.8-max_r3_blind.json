@@ -1,0 +1,30 @@
+{
+  "request_id": "EB03_D1_symmetric_frozen_qwen3.8-max_r3_blind",
+  "transcript_id": "EB03_D1_symmetric_frozen",
+  "model": "qwen3.8-max",
+  "condition": "blind",
+  "replicate": 3,
+  "pair_id": "EB03_D1_symmetric_frozen_qwen3.8-max_r3",
+  "slot_order": 1,
+  "prompt_sha256": "3d02f830ae689feac026e96fae8bc7309871f8cc4c5d267813b6ee9793ef8471",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:44:11.507950+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"Both speakers give coherent, nearly parallel accounts but conflict on key details: keeper name, wait time, response counts, and follow-up size. The public context and questions do not identify the Host-designated variant, and no verbatim documentary evidence distinguishes them. A is slightly more verbose, B slightly more note-focused, but these cues are too weak to overcome the abstention threshold. Thus probability is near chance and abstaining minimizes expected loss.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both speakers give coherent, nearly parallel accounts but conflict on key details: keeper name, wait time, response counts, and follow-up size. The public context and questions do not identify the Host-designated variant, and no verbatim documentary evidence distinguishes them. A is slightly more verbose, B slightly more note-focused, but these cues are too weak to overcome the abstention threshold. Thus probability is near chance and abstaining minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "end_turn",
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 5209,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3072
+  },
+  "returned_model": "qwen3.8-max",
+  "http_status": 200,
+  "elapsed_seconds": 144.938,
+  "captured_utc": "2026-10-07T09:46:36.438050+00:00"
+}

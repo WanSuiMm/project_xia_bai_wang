@@ -1,0 +1,32 @@
+{
+  "request_id": "EB01_D1_symmetric_frozen_glm-5.3_r1_informed",
+  "transcript_id": "EB01_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "informed",
+  "replicate": 1,
+  "pair_id": "EB01_D1_symmetric_frozen_glm-5.3_r1",
+  "slot_order": 2,
+  "prompt_sha256": "be67273241cf174a0e4307a9e0b79c0dba673874d878b8a4c93f4dc4085bc87a",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:46:09.822546+00:00",
+  "visible_text": "```json\n{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"Both speakers demonstrate detailed, internally consistent knowledge of their own distinct documents (A: Corda workshop, foldglass, Maro Pell, September 2019, 24 panels; B: Paven, reedleaf, Tessa Rin, November 2018, 32 panels), with no signs of fabrication or missing access. The verified generation information states the target was selected by a fair random draw independent of the documents, assignments, and all visible events, and that no target-linked clue exists. Therefore the conversation provides no evidence favoring A over B, and p_A = 0.5. Under the loss rule, choosing either speaker yields expected loss 0.5, while abstaining yields 0.25, so ABSTAIN minimizes expected loss.\"\n}\n```",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both speakers demonstrate detailed, internally consistent knowledge of their own distinct documents (A: Corda workshop, foldglass, Maro Pell, September 2019, 24 panels; B: Paven, reedleaf, Tessa Rin, November 2018, 32 panels), with no signs of fabrication or missing access. The verified generation information states the target was selected by a fair random draw independent of the documents, assignments, and all visible events, and that no target-linked clue exists. Therefore the conversation provides no evidence favoring A over B, and p_A = 0.5. Under the loss rule, choosing either speaker yields expected loss 0.5, while abstaining yields 0.25, so ABSTAIN minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 3827,
+    "completion_tokens": 1085,
+    "total_tokens": 4912,
+    "prompt_tokens_details": {
+      "cached_tokens": 331
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 18.906,
+  "captured_utc": "2026-10-07T09:46:28.713429+00:00"
+}

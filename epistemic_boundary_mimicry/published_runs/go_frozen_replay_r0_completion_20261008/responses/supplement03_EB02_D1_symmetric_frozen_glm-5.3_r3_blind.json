@@ -1,0 +1,39 @@
+{
+  "request_id": "supplement03_EB02_D1_symmetric_frozen_glm-5.3_r3_blind",
+  "source_request_id": "EB02_D1_symmetric_frozen_glm-5.3_r3_blind",
+  "transcript_id": "EB02_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "blind",
+  "replicate": 3,
+  "pair_id": "EB02_D1_symmetric_frozen_glm-5.3_r3",
+  "slot_order": 2,
+  "prompt_sha256": "81d20e3be358b93d5461c2815428b4a15a316a28f61fc0a1f70a59f4f6d83122",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T00:37:11.224888+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"A and B give fully coherent but mutually incompatible accounts (Hale 2016, 24 households, 15/12/3 slips, transfer/fare closing rules vs. Fenn 2013, 18 households, 12/10/2 slips, absent-mark and lost-slip-review closing sentences). Each reproduces a consistent verbatim text, and neither shows internal contradictions or hedging that would expose fabrication. With no independent access to the dossier and no designation information, the evidence is symmetric, so the probability is 0.5 and ABSTAIN minimizes expected loss.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "A and B give fully coherent but mutually incompatible accounts (Hale 2016, 24 households, 15/12/3 slips, transfer/fare closing rules vs. Fenn 2013, 18 households, 12/10/2 slips, absent-mark and lost-slip-review closing sentences). Each reproduces a consistent verbatim text, and neither shows internal contradictions or hedging that would expose fabrication. With no independent access to the dossier and no designation information, the evidence is symmetric, so the probability is 0.5 and ABSTAIN minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 6897,
+    "completion_tokens": 277,
+    "total_tokens": 7174,
+    "prompt_tokens_details": {
+      "cached_tokens": 9
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 129
+    }
+  },
+  "returned_model": "glm-5.3",
+  "reasoning_effort_requested": "low",
+  "changed_configuration_supplement": true,
+  "failure_selected_supplement": true,
+  "http_status": 200,
+  "elapsed_seconds": 6.969,
+  "captured_utc": "2026-10-08T00:37:18.187211+00:00"
+}

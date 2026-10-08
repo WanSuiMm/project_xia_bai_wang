@@ -1,0 +1,28 @@
+{
+  "request_id": "EB05_D2_symmetric_frozen_glm-5.3_r2_blind",
+  "transcript_id": "EB05_D2_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "blind",
+  "replicate": 2,
+  "pair_id": "EB05_D2_symmetric_frozen_glm-5.3_r2",
+  "slot_order": 2,
+  "prompt_sha256": "02c0c684abb829d611f0f728d51a01b75e2738355749af39574ab3ee73bf43ea",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:49:11.592016+00:00",
+  "visible_text": "",
+  "parsed": null,
+  "parse_status": "truncated",
+  "finish_reason": "length",
+  "usage": {
+    "prompt_tokens": 1820,
+    "completion_tokens": 32768,
+    "total_tokens": 34588,
+    "prompt_tokens_details": {
+      "cached_tokens": 241
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 431.672,
+  "captured_utc": "2026-10-07T09:56:23.269087+00:00"
+}

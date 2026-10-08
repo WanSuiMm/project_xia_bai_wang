@@ -1,0 +1,32 @@
+{
+  "request_id": "EB02_D1_symmetric_frozen_glm-5.3_r2_informed",
+  "transcript_id": "EB02_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "informed",
+  "replicate": 2,
+  "pair_id": "EB02_D1_symmetric_frozen_glm-5.3_r2",
+  "slot_order": 1,
+  "prompt_sha256": "6fd6a1bbe73e7bcc39aeffafbffda52713fa2a2f31163a3855af19efd9fa0787",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:19:07.468337+00:00",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"The verified task information states the Host selected the target by a fair random draw independent of the documents, their assignment to A and B, and all generation randomness, and that the designation was never revealed and changed no visible event. Both speakers present internally consistent dossiers matching the public context (Mallow Ford, West Quay Office, storm-boarding slips, priority queues, later checks), differing only in invented details (signatory, date, register and check counts, closing lines). Nothing in the conversation distinguishes which speaker holds the designated target document. With p_A = 0.5, choosing either speaker yields expected loss 0.5, while abstaining yields 0.25, so ABSTAIN minimizes expected loss.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The verified task information states the Host selected the target by a fair random draw independent of the documents, their assignment to A and B, and all generation randomness, and that the designation was never revealed and changed no visible event. Both speakers present internally consistent dossiers matching the public context (Mallow Ford, West Quay Office, storm-boarding slips, priority queues, later checks), differing only in invented details (signatory, date, register and check counts, closing lines). Nothing in the conversation distinguishes which speaker holds the designated target document. With p_A = 0.5, choosing either speaker yields expected loss 0.5, while abstaining yields 0.25, so ABSTAIN minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 6987,
+    "completion_tokens": 1686,
+    "total_tokens": 8673,
+    "prompt_tokens_details": {
+      "cached_tokens": 10
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 28.344,
+  "captured_utc": "2026-10-07T09:19:35.821741+00:00"
+}

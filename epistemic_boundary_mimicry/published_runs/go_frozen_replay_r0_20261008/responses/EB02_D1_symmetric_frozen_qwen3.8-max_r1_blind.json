@@ -1,0 +1,30 @@
+{
+  "request_id": "EB02_D1_symmetric_frozen_qwen3.8-max_r1_blind",
+  "transcript_id": "EB02_D1_symmetric_frozen",
+  "model": "qwen3.8-max",
+  "condition": "blind",
+  "replicate": 1,
+  "pair_id": "EB02_D1_symmetric_frozen_qwen3.8-max_r1",
+  "slot_order": 2,
+  "prompt_sha256": "81d20e3be358b93d5461c2815428b4a15a316a28f61fc0a1f70a59f4f6d83122",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:34:31.524714+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The conversation gives two internally consistent but mutually incompatible dossier versions. Both speakers answer cautiously and quote parallel passages, differing mainly in signatory, date, counts, and final limiting sentences. The public context and interviewer's questions do not identify which variant was Host-designated, and no prior verification is available. Thus A is no more likely than B.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The conversation gives two internally consistent but mutually incompatible dossier versions. Both speakers answer cautiously and quote parallel passages, differing mainly in signatory, date, counts, and final limiting sentences. The public context and interviewer's questions do not identify which variant was Host-designated, and no prior verification is available. Thus A is no more likely than B."
+  },
+  "parse_status": "valid",
+  "finish_reason": "end_turn",
+  "usage": {
+    "input_tokens": 801,
+    "output_tokens": 6326,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 6272
+  },
+  "returned_model": "qwen3.8-max",
+  "http_status": 200,
+  "elapsed_seconds": 160.703,
+  "captured_utc": "2026-10-07T09:37:12.221037+00:00"
+}

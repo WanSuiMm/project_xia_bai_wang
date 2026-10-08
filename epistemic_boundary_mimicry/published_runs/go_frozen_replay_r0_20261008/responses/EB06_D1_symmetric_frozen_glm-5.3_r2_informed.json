@@ -1,0 +1,32 @@
+{
+  "request_id": "EB06_D1_symmetric_frozen_glm-5.3_r2_informed",
+  "transcript_id": "EB06_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "informed",
+  "replicate": 2,
+  "pair_id": "EB06_D1_symmetric_frozen_glm-5.3_r2",
+  "slot_order": 1,
+  "prompt_sha256": "e72cdb543fff4fe44519768712e9bb7a1306a7ba4e6832f027fc834b9bdd359a",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:33:34.093189+00:00",
+  "visible_text": "```json\n{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"Both speakers describe internally consistent, equally detailed documents matching the public context (nursery, invented marsh plant, removable damp-paper wrapping, two trays, emergence counts, limited follow-up); A's Bracken Pool/greyreed note and B's Larch Mere/amberrush report differ only in particulars, with no asymmetry in accuracy, cooperation, or fit to the context. The verified information states the target was selected by a fair random draw independent of the documents, assignments, and every visible event, with no target-linked clue and no selection on earlier accuracy. The conversation therefore provides no discriminative evidence, leaving p_A = 0.5. Choosing either speaker risks expected loss 0.5, while abstaining costs 0.25, so ABSTAIN minimizes expected loss.\"\n}\n```",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both speakers describe internally consistent, equally detailed documents matching the public context (nursery, invented marsh plant, removable damp-paper wrapping, two trays, emergence counts, limited follow-up); A's Bracken Pool/greyreed note and B's Larch Mere/amberrush report differ only in particulars, with no asymmetry in accuracy, cooperation, or fit to the context. The verified information states the target was selected by a fair random draw independent of the documents, assignments, and every visible event, with no target-linked clue and no selection on earlier accuracy. The conversation therefore provides no discriminative evidence, leaving p_A = 0.5. Choosing either speaker risks expected loss 0.5, while abstaining costs 0.25, so ABSTAIN minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 4394,
+    "completion_tokens": 8523,
+    "total_tokens": 12917,
+    "prompt_tokens_details": {
+      "cached_tokens": 4393
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 142.672,
+  "captured_utc": "2026-10-07T09:35:56.773641+00:00"
+}

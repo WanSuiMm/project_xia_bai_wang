@@ -1,0 +1,30 @@
+{
+  "request_id": "EB06_D1_symmetric_frozen_qwen3.8-max_r3_blind",
+  "transcript_id": "EB06_D1_symmetric_frozen",
+  "model": "qwen3.8-max",
+  "condition": "blind",
+  "replicate": 3,
+  "pair_id": "EB06_D1_symmetric_frozen_qwen3.8-max_r3",
+  "slot_order": 2,
+  "prompt_sha256": "713b0615d919ef24ccab29f236f6aed12a8678e7c8ab23a825c6d17f00948714",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:21:08.173295+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The speakers give mutually exclusive but internally coherent accounts, with different nurseries, plants, authors, dates, counts, and follow-up details. The public context and interview questions do not decisively favor either set, and neither speaker can provide verbatim text, format details, or externally verifiable evidence. Minor cues are insufficient, so the probability is near chance and abstaining minimizes expected loss.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The speakers give mutually exclusive but internally coherent accounts, with different nurseries, plants, authors, dates, counts, and follow-up details. The public context and interview questions do not decisively favor either set, and neither speaker can provide verbatim text, format details, or externally verifiable evidence. Minor cues are insufficient, so the probability is near chance and abstaining minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "end_turn",
+  "usage": {
+    "input_tokens": 4451,
+    "output_tokens": 4092,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "returned_model": "qwen3.8-max",
+  "http_status": 200,
+  "elapsed_seconds": 114.188,
+  "captured_utc": "2026-10-07T09:23:02.354542+00:00"
+}

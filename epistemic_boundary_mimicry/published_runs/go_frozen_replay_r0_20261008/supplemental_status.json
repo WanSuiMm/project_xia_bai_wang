@@ -1,0 +1,451 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-08",
+  "order_rule": "supplement07 precedes supplement06 for first-valid-per-original-position summaries",
+  "runs": [
+    {
+      "label": "supplement07",
+      "selection_order": 1,
+      "source_status": "HALTED",
+      "snapshot_state": "halted_incomplete",
+      "status_halt_reason": "HTTP 429; remaining not dispatched",
+      "planned_requests": 7,
+      "dispatch_count": 2,
+      "response_receipt_count": 2,
+      "valid_response_count": 1,
+      "receipt_status_counts": {
+        "http_error": 1,
+        "response_received": 1
+      },
+      "dispatched_no_response_count": 0,
+      "not_dispatched_count": 5,
+      "lockfile_present_at_snapshot": null,
+      "derived_process_absent": null,
+      "source_status_file_not_rewritten": true,
+      "requests": [
+        {
+          "request_id": "supplement01_EB05_D1_symmetric_frozen_glm-5.3_r3_blind",
+          "source_request_id": "EB05_D1_symmetric_frozen_glm-5.3_r3_blind",
+          "model": "glm-5.3",
+          "transcript_id": "EB05_D1_symmetric_frozen",
+          "condition": "blind",
+          "replicate": 3,
+          "pair_id": "EB05_D1_symmetric_frozen_glm-5.3_r3",
+          "slot_order": 2,
+          "prompt_sha256": "63cb37bd590de20cc757b0d33252bd367e6679ecf1b4afd22198a22b2ba9bfd4",
+          "wave": 2,
+          "original_failure": {
+            "status": "response_received",
+            "parse_status": "invalid_json_or_schema",
+            "finish_reason": "stop",
+            "error_type": null
+          },
+          "receipt": {
+            "request_id": "supplement01_EB05_D1_symmetric_frozen_glm-5.3_r3_blind",
+            "transcript_id": "EB05_D1_symmetric_frozen",
+            "model": "glm-5.3",
+            "condition": "blind",
+            "replicate": 3,
+            "pair_id": "EB05_D1_symmetric_frozen_glm-5.3_r3",
+            "slot_order": 2,
+            "prompt_sha256": "63cb37bd590de20cc757b0d33252bd367e6679ecf1b4afd22198a22b2ba9bfd4",
+            "status": "response_received",
+            "sent_utc": "2026-10-07T12:29:49.769522+00:00",
+            "visible_text": "```json\n{\n  \"p_A\": 0.15,\n  \"decision\": \"B\",\n  \"reason\": \"The public context's distinctive wording — 'storm damage,' 'hillside footbridge,' 'temporary access tokens' — matches Speaker B's account closely: B's record describes a 'damaged hillside footbridge' that was closed and uses 'temporary tokens.' Speaker A's record, by A's own explicit statements, never mentions storm, damage, or a hillside, referring only to 'repairs to the district footbridge.' Both speakers are detailed and internally consistent, so the public context is the main discriminator, and it favors B. Residual uncertainty remains because 'storm' appears in neither record and the context could be generic framing, but the verbatim 'hillside footbridge' plus 'damaged' strongly indicate B is associated with the Host-designated target.\"\n}\n```",
+            "parsed": {
+              "p_A": 0.15,
+              "decision": "B",
+              "reason": "The public context's distinctive wording — 'storm damage,' 'hillside footbridge,' 'temporary access tokens' — matches Speaker B's account closely: B's record describes a 'damaged hillside footbridge' that was closed and uses 'temporary tokens.' Speaker A's record, by A's own explicit statements, never mentions storm, damage, or a hillside, referring only to 'repairs to the district footbridge.' Both speakers are detailed and internally consistent, so the public context is the main discriminator, and it favors B. Residual uncertainty remains because 'storm' appears in neither record and the context could be generic framing, but the verbatim 'hillside footbridge' plus 'damaged' strongly indicate B is associated with the Host-designated target."
+            },
+            "parse_status": "valid",
+            "finish_reason": "stop",
+            "usage": {
+              "prompt_tokens": 6413,
+              "completion_tokens": 3987,
+              "total_tokens": 10400,
+              "prompt_tokens_details": {
+                "cached_tokens": 190
+              }
+            },
+            "returned_model": "glm-5.3",
+            "http_status": 200,
+            "elapsed_seconds": 68.437,
+            "captured_utc": "2026-10-07T12:30:58.203430+00:00",
+            "source_request_id": "EB05_D1_symmetric_frozen_glm-5.3_r3_blind",
+            "failure_selected_supplement": true
+          },
+          "slot_state": "response_received",
+          "analysis_valid": true,
+          "dispatch": {
+            "request_id": "supplement01_EB05_D1_symmetric_frozen_glm-5.3_r3_blind",
+            "source_request_id": "EB05_D1_symmetric_frozen_glm-5.3_r3_blind",
+            "prompt_sha256": "63cb37bd590de20cc757b0d33252bd367e6679ecf1b4afd22198a22b2ba9bfd4",
+            "dispatched_utc": "2026-10-07T12:29:49.763519+00:00"
+          }
+        },
+        {
+          "request_id": "supplement01_EB05_D2_symmetric_frozen_glm-5.3_r2_blind",
+          "source_request_id": "EB05_D2_symmetric_frozen_glm-5.3_r2_blind",
+          "model": "glm-5.3",
+          "transcript_id": "EB05_D2_symmetric_frozen",
+          "condition": "blind",
+          "replicate": 2,
+          "pair_id": "EB05_D2_symmetric_frozen_glm-5.3_r2",
+          "slot_order": 2,
+          "prompt_sha256": "02c0c684abb829d611f0f728d51a01b75e2738355749af39574ab3ee73bf43ea",
+          "wave": 8,
+          "original_failure": {
+            "status": "response_received",
+            "parse_status": "truncated",
+            "finish_reason": "length",
+            "error_type": null
+          },
+          "receipt": {
+            "request_id": "supplement01_EB05_D2_symmetric_frozen_glm-5.3_r2_blind",
+            "transcript_id": "EB05_D2_symmetric_frozen",
+            "model": "glm-5.3",
+            "condition": "blind",
+            "replicate": 2,
+            "pair_id": "EB05_D2_symmetric_frozen_glm-5.3_r2",
+            "slot_order": 2,
+            "prompt_sha256": "02c0c684abb829d611f0f728d51a01b75e2738355749af39574ab3ee73bf43ea",
+            "status": "http_error",
+            "sent_utc": "2026-10-07T12:30:58.214614+00:00",
+            "visible_text": "",
+            "parsed": null,
+            "parse_status": "not_received",
+            "finish_reason": null,
+            "usage": {},
+            "returned_model": null,
+            "http_status": 429,
+            "elapsed_seconds": 1.031,
+            "captured_utc": "2026-10-07T12:30:59.249016+00:00",
+            "source_request_id": "EB05_D2_symmetric_frozen_glm-5.3_r2_blind",
+            "failure_selected_supplement": true
+          },
+          "slot_state": "http_error",
+          "analysis_valid": false,
+          "dispatch": {
+            "request_id": "supplement01_EB05_D2_symmetric_frozen_glm-5.3_r2_blind",
+            "source_request_id": "EB05_D2_symmetric_frozen_glm-5.3_r2_blind",
+            "prompt_sha256": "02c0c684abb829d611f0f728d51a01b75e2738355749af39574ab3ee73bf43ea",
+            "dispatched_utc": "2026-10-07T12:30:58.209076+00:00"
+          }
+        },
+        {
+          "request_id": "supplement01_EB02_D1_symmetric_frozen_glm-5.3_r3_blind",
+          "source_request_id": "EB02_D1_symmetric_frozen_glm-5.3_r3_blind",
+          "model": "glm-5.3",
+          "transcript_id": "EB02_D1_symmetric_frozen",
+          "condition": "blind",
+          "replicate": 3,
+          "pair_id": "EB02_D1_symmetric_frozen_glm-5.3_r3",
+          "slot_order": 2,
+          "prompt_sha256": "81d20e3be358b93d5461c2815428b4a15a316a28f61fc0a1f70a59f4f6d83122",
+          "wave": 9,
+          "original_failure": {
+            "status": "response_received",
+            "parse_status": "truncated",
+            "finish_reason": "length",
+            "error_type": null
+          },
+          "slot_state": "not_dispatched",
+          "analysis_valid": false
+        },
+        {
+          "request_id": "supplement01_EB06_D1_symmetric_frozen_glm-5.3_r1_blind",
+          "source_request_id": "EB06_D1_symmetric_frozen_glm-5.3_r1_blind",
+          "model": "glm-5.3",
+          "transcript_id": "EB06_D1_symmetric_frozen",
+          "condition": "blind",
+          "replicate": 1,
+          "pair_id": "EB06_D1_symmetric_frozen_glm-5.3_r1",
+          "slot_order": 1,
+          "prompt_sha256": "713b0615d919ef24ccab29f236f6aed12a8678e7c8ab23a825c6d17f00948714",
+          "wave": 13,
+          "original_failure": {
+            "status": "transport_unknown",
+            "parse_status": "not_received",
+            "finish_reason": null,
+            "error_type": "TimeoutError"
+          },
+          "slot_state": "not_dispatched",
+          "analysis_valid": false
+        },
+        {
+          "request_id": "supplement01_EB03_D1_symmetric_frozen_glm-5.3_r3_blind",
+          "source_request_id": "EB03_D1_symmetric_frozen_glm-5.3_r3_blind",
+          "model": "glm-5.3",
+          "transcript_id": "EB03_D1_symmetric_frozen",
+          "condition": "blind",
+          "replicate": 3,
+          "pair_id": "EB03_D1_symmetric_frozen_glm-5.3_r3",
+          "slot_order": 2,
+          "prompt_sha256": "3d02f830ae689feac026e96fae8bc7309871f8cc4c5d267813b6ee9793ef8471",
+          "wave": 14,
+          "original_failure": {
+            "status": "response_received",
+            "parse_status": "truncated",
+            "finish_reason": "length",
+            "error_type": null
+          },
+          "slot_state": "not_dispatched",
+          "analysis_valid": false
+        },
+        {
+          "request_id": "supplement01_EB05_D2_symmetric_frozen_glm-5.3_r3_blind",
+          "source_request_id": "EB05_D2_symmetric_frozen_glm-5.3_r3_blind",
+          "model": "glm-5.3",
+          "transcript_id": "EB05_D2_symmetric_frozen",
+          "condition": "blind",
+          "replicate": 3,
+          "pair_id": "EB05_D2_symmetric_frozen_glm-5.3_r3",
+          "slot_order": 1,
+          "prompt_sha256": "02c0c684abb829d611f0f728d51a01b75e2738355749af39574ab3ee73bf43ea",
+          "wave": 16,
+          "original_failure": {
+            "status": "response_received",
+            "parse_status": "truncated",
+            "finish_reason": "length",
+            "error_type": null
+          },
+          "slot_state": "not_dispatched",
+          "analysis_valid": false
+        },
+        {
+          "request_id": "supplement01_EB05_D1_symmetric_frozen_glm-5.3_r1_blind",
+          "source_request_id": "EB05_D1_symmetric_frozen_glm-5.3_r1_blind",
+          "model": "glm-5.3",
+          "transcript_id": "EB05_D1_symmetric_frozen",
+          "condition": "blind",
+          "replicate": 1,
+          "pair_id": "EB05_D1_symmetric_frozen_glm-5.3_r1",
+          "slot_order": 1,
+          "prompt_sha256": "63cb37bd590de20cc757b0d33252bd367e6679ecf1b4afd22198a22b2ba9bfd4",
+          "wave": 20,
+          "original_failure": {
+            "status": "response_received",
+            "parse_status": "truncated",
+            "finish_reason": "length",
+            "error_type": null
+          },
+          "slot_state": "not_dispatched",
+          "analysis_valid": false
+        }
+      ]
+    },
+    {
+      "label": "supplement06",
+      "selection_order": 2,
+      "source_status": "RUNNING",
+      "snapshot_state": "interrupted_incomplete",
+      "status_halt_reason": null,
+      "planned_requests": 6,
+      "dispatch_count": 3,
+      "response_receipt_count": 2,
+      "valid_response_count": 1,
+      "receipt_status_counts": {
+        "response_received": 2
+      },
+      "dispatched_no_response_count": 1,
+      "not_dispatched_count": 3,
+      "lockfile_present_at_snapshot": true,
+      "derived_process_absent": {
+        "value": true,
+        "basis": "root-verified publication snapshot on 2026-10-08; process identifier omitted"
+      },
+      "source_status_file_not_rewritten": true,
+      "requests": [
+        {
+          "request_id": "supplement02_EB05_D2_symmetric_frozen_glm-5.3_r2_blind",
+          "source_request_id": "EB05_D2_symmetric_frozen_glm-5.3_r2_blind",
+          "model": "glm-5.3",
+          "transcript_id": "EB05_D2_symmetric_frozen",
+          "condition": "blind",
+          "replicate": 2,
+          "pair_id": "EB05_D2_symmetric_frozen_glm-5.3_r2",
+          "slot_order": 2,
+          "prompt_sha256": "02c0c684abb829d611f0f728d51a01b75e2738355749af39574ab3ee73bf43ea",
+          "wave": 8,
+          "receipt": {
+            "request_id": "supplement02_EB05_D2_symmetric_frozen_glm-5.3_r2_blind",
+            "transcript_id": "EB05_D2_symmetric_frozen",
+            "model": "glm-5.3",
+            "condition": "blind",
+            "replicate": 2,
+            "pair_id": "EB05_D2_symmetric_frozen_glm-5.3_r2",
+            "slot_order": 2,
+            "prompt_sha256": "02c0c684abb829d611f0f728d51a01b75e2738355749af39574ab3ee73bf43ea",
+            "status": "response_received",
+            "sent_utc": "2026-10-07T15:46:34.036417+00:00",
+            "visible_text": "{\"p_A\": 0.2, \"decision\": \"B\", \"reason\": \"The verbatim probe is the key discriminator. A's round-two 'quotes' largely recycle A's own round-one paraphrases almost word-for-word, and the worked-example 'quote' is voice-inconsistent meta-text ('A worked example describes... It joins...'), signaling reconstruction rather than document access. B transparently discloses that its document renders Doren's note in paraphrase, answers 'not stated' where warranted, and supplies quotes that differ subtly from its earlier paraphrase — the signature of someone reading actual text. B also grounds details in the public context (damaged hillside footbridge) and maintains precise epistemic boundaries. Both accounts are internally consistent structural mirrors, but the fabrication artifacts point away from A. With p_A ≈ 0.2, choosing B gives expected loss 0.2, below ABSTAIN's 0.25.\"}",
+            "parsed": {
+              "p_A": 0.2,
+              "decision": "B",
+              "reason": "The verbatim probe is the key discriminator. A's round-two 'quotes' largely recycle A's own round-one paraphrases almost word-for-word, and the worked-example 'quote' is voice-inconsistent meta-text ('A worked example describes... It joins...'), signaling reconstruction rather than document access. B transparently discloses that its document renders Doren's note in paraphrase, answers 'not stated' where warranted, and supplies quotes that differ subtly from its earlier paraphrase — the signature of someone reading actual text. B also grounds details in the public context (damaged hillside footbridge) and maintains precise epistemic boundaries. Both accounts are internally consistent structural mirrors, but the fabrication artifacts point away from A. With p_A ≈ 0.2, choosing B gives expected loss 0.2, below ABSTAIN's 0.25."
+            },
+            "parse_status": "valid",
+            "finish_reason": "stop",
+            "usage": {
+              "prompt_tokens": 1820,
+              "completion_tokens": 21596,
+              "total_tokens": 23416,
+              "prompt_tokens_details": {
+                "cached_tokens": 10
+              }
+            },
+            "returned_model": "glm-5.3",
+            "http_status": 200,
+            "elapsed_seconds": 401.953,
+            "captured_utc": "2026-10-07T15:53:15.989753+00:00",
+            "source_request_id": "EB05_D2_symmetric_frozen_glm-5.3_r2_blind",
+            "failure_selected_supplement": true,
+            "continuation_after_preserved_429": true
+          },
+          "slot_state": "response_received",
+          "analysis_valid": true,
+          "dispatch": {
+            "request_id": "supplement02_EB05_D2_symmetric_frozen_glm-5.3_r2_blind",
+            "source_request_id": "EB05_D2_symmetric_frozen_glm-5.3_r2_blind",
+            "prompt_sha256": "02c0c684abb829d611f0f728d51a01b75e2738355749af39574ab3ee73bf43ea",
+            "dispatched_utc": "2026-10-07T15:46:34.031565+00:00"
+          }
+        },
+        {
+          "request_id": "supplement02_EB02_D1_symmetric_frozen_glm-5.3_r3_blind",
+          "source_request_id": "EB02_D1_symmetric_frozen_glm-5.3_r3_blind",
+          "model": "glm-5.3",
+          "transcript_id": "EB02_D1_symmetric_frozen",
+          "condition": "blind",
+          "replicate": 3,
+          "pair_id": "EB02_D1_symmetric_frozen_glm-5.3_r3",
+          "slot_order": 2,
+          "prompt_sha256": "81d20e3be358b93d5461c2815428b4a15a316a28f61fc0a1f70a59f4f6d83122",
+          "wave": 9,
+          "receipt": {
+            "request_id": "supplement02_EB02_D1_symmetric_frozen_glm-5.3_r3_blind",
+            "transcript_id": "EB02_D1_symmetric_frozen",
+            "model": "glm-5.3",
+            "condition": "blind",
+            "replicate": 3,
+            "pair_id": "EB02_D1_symmetric_frozen_glm-5.3_r3",
+            "slot_order": 2,
+            "prompt_sha256": "81d20e3be358b93d5461c2815428b4a15a316a28f61fc0a1f70a59f4f6d83122",
+            "status": "response_received",
+            "sent_utc": "2026-10-07T15:53:16.001531+00:00",
+            "visible_text": "",
+            "parsed": null,
+            "parse_status": "truncated",
+            "finish_reason": "length",
+            "usage": {
+              "prompt_tokens": 6897,
+              "completion_tokens": 32768,
+              "total_tokens": 39665,
+              "prompt_tokens_details": {
+                "cached_tokens": 241
+              }
+            },
+            "returned_model": "glm-5.3",
+            "http_status": 200,
+            "elapsed_seconds": 441.172,
+            "captured_utc": "2026-10-07T16:00:37.174163+00:00",
+            "source_request_id": "EB02_D1_symmetric_frozen_glm-5.3_r3_blind",
+            "failure_selected_supplement": true,
+            "continuation_after_preserved_429": true
+          },
+          "slot_state": "response_received",
+          "analysis_valid": false,
+          "dispatch": {
+            "request_id": "supplement02_EB02_D1_symmetric_frozen_glm-5.3_r3_blind",
+            "source_request_id": "EB02_D1_symmetric_frozen_glm-5.3_r3_blind",
+            "prompt_sha256": "81d20e3be358b93d5461c2815428b4a15a316a28f61fc0a1f70a59f4f6d83122",
+            "dispatched_utc": "2026-10-07T15:53:15.995735+00:00"
+          }
+        },
+        {
+          "request_id": "supplement02_EB06_D1_symmetric_frozen_glm-5.3_r1_blind",
+          "source_request_id": "EB06_D1_symmetric_frozen_glm-5.3_r1_blind",
+          "model": "glm-5.3",
+          "transcript_id": "EB06_D1_symmetric_frozen",
+          "condition": "blind",
+          "replicate": 1,
+          "pair_id": "EB06_D1_symmetric_frozen_glm-5.3_r1",
+          "slot_order": 1,
+          "prompt_sha256": "713b0615d919ef24ccab29f236f6aed12a8678e7c8ab23a825c6d17f00948714",
+          "wave": 13,
+          "slot_state": "dispatched_no_response",
+          "analysis_valid": false,
+          "outcome": "unknown; do not resubmit or infer a terminal status",
+          "dispatch": {
+            "request_id": "supplement02_EB06_D1_symmetric_frozen_glm-5.3_r1_blind",
+            "source_request_id": "EB06_D1_symmetric_frozen_glm-5.3_r1_blind",
+            "prompt_sha256": "713b0615d919ef24ccab29f236f6aed12a8678e7c8ab23a825c6d17f00948714",
+            "dispatched_utc": "2026-10-07T16:00:37.181442+00:00"
+          }
+        },
+        {
+          "request_id": "supplement02_EB03_D1_symmetric_frozen_glm-5.3_r3_blind",
+          "source_request_id": "EB03_D1_symmetric_frozen_glm-5.3_r3_blind",
+          "model": "glm-5.3",
+          "transcript_id": "EB03_D1_symmetric_frozen",
+          "condition": "blind",
+          "replicate": 3,
+          "pair_id": "EB03_D1_symmetric_frozen_glm-5.3_r3",
+          "slot_order": 2,
+          "prompt_sha256": "3d02f830ae689feac026e96fae8bc7309871f8cc4c5d267813b6ee9793ef8471",
+          "wave": 14,
+          "slot_state": "not_dispatched",
+          "analysis_valid": false
+        },
+        {
+          "request_id": "supplement02_EB05_D2_symmetric_frozen_glm-5.3_r3_blind",
+          "source_request_id": "EB05_D2_symmetric_frozen_glm-5.3_r3_blind",
+          "model": "glm-5.3",
+          "transcript_id": "EB05_D2_symmetric_frozen",
+          "condition": "blind",
+          "replicate": 3,
+          "pair_id": "EB05_D2_symmetric_frozen_glm-5.3_r3",
+          "slot_order": 1,
+          "prompt_sha256": "02c0c684abb829d611f0f728d51a01b75e2738355749af39574ab3ee73bf43ea",
+          "wave": 16,
+          "slot_state": "not_dispatched",
+          "analysis_valid": false
+        },
+        {
+          "request_id": "supplement02_EB05_D1_symmetric_frozen_glm-5.3_r1_blind",
+          "source_request_id": "EB05_D1_symmetric_frozen_glm-5.3_r1_blind",
+          "model": "glm-5.3",
+          "transcript_id": "EB05_D1_symmetric_frozen",
+          "condition": "blind",
+          "replicate": 1,
+          "pair_id": "EB05_D1_symmetric_frozen_glm-5.3_r1",
+          "slot_order": 1,
+          "prompt_sha256": "63cb37bd590de20cc757b0d33252bd367e6679ecf1b4afd22198a22b2ba9bfd4",
+          "wave": 20,
+          "slot_state": "not_dispatched",
+          "analysis_valid": false
+        }
+      ]
+    }
+  ],
+  "first_valid_per_original_position": [
+    {
+      "source_request_id": "EB05_D1_symmetric_frozen_glm-5.3_r3_blind",
+      "selected_supplement": "supplement07",
+      "selected_request_id": "supplement01_EB05_D1_symmetric_frozen_glm-5.3_r3_blind",
+      "additional_valid_candidates": 0
+    },
+    {
+      "source_request_id": "EB05_D2_symmetric_frozen_glm-5.3_r2_blind",
+      "selected_supplement": "supplement06",
+      "selected_request_id": "supplement02_EB05_D2_symmetric_frozen_glm-5.3_r2_blind",
+      "additional_valid_candidates": 0
+    }
+  ],
+  "selection_counts": {
+    "valid_supplement_receipts": 2,
+    "distinct_original_positions_with_valid_supplement": 2,
+    "first_valid_selected": 2,
+    "later_duplicate_valid_receipts_not_selected": 0
+  }
+}

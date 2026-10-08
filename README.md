@@ -1,5 +1,7 @@
 # 瞎掰王：Who Really Knows?
 
+2026-10-08 R0 replay 交付：[原始结果与补跑完成](epistemic_boundary_mimicry/replay_r0/DELIVERY_20261008.md) → [补跑完成汇总](epistemic_boundary_mimicry/published_runs/go_frozen_replay_r0_completion_20261008/README.md) → [原始注册证据](epistemic_boundary_mimicry/published_runs/go_frozen_replay_r0_20261008/README.md)。原始 84 次均已尝试，77 次有效；此前补跑新增两条，本次低推理补跑五条全部有效，跨尝试 84/84 个位置已有有效回复。五条请求的参数变化单列，原始缺失分析与全部失败保留。两个模型 Informed 的 42/42 次全部 `.5` 并弃权；Blind 也多数弃权，Qwen 偏离集中于 EB05，不能宣称普遍或显著收益。离线公开复核：`python -X utf8 -B scripts/publish_frozen_replay_r0.py` 和 `python -X utf8 -B scripts/publish_frozen_replay_r0_completion.py`，不调用模型、不需要 key。以下各 dated snapshot 是较早阶段的证据。
+
 2026-10-07 全量旧记录审计：[主要发现](epistemic_boundary_mimicry/analysis/claim_audit_20261007/RESULTS.md) → [审计协议](epistemic_boundary_mimicry/analysis/claim_audit_20261007/PROTOCOL.md) → [理论／证据边界](epistemic_boundary_mimicry/analysis/claim_audit_20261007/THEORY_EVIDENCE_MAP.md)。全部 13 条 API 轨迹的 107 次回答按 1,952 个句／分句单元覆盖，另审查全部 57 个问题、12 个终局理由的 72 个单元；保留旧标注，并纠正部分跨轮引用。这里不是独立原子断言样本、人工可靠性检验或机制确认。仅做离线审计，实验 API 调用为零。复核：`python -X utf8 -B scripts/audit_claim_corpus.py`。
 
 2026-10-05 离线语料复用：[分析报告](epistemic_boundary_mimicry/analysis/offline_coding_20261005/RESULTS.md) → [冻结编码规则](epistemic_boundary_mimicry/analysis/CODEBOOK_20261005.md) → [固定复核集合](epistemic_boundary_mimicry/analysis/offline_coding_20261005/REPLAY_COHORT.md)。覆盖 API 阶段 13 条轨迹、107 次回答、57 次追问；7 条完整 Frozen 对话准备为终局盲复核输入，未按输赢筛选。模型辅助首轮标注，不是独立人工双编码或确认性实验；来源一致性与目标可识别性分别评价。未新增实验 API 调用，未补跑第四场。复核：`python -X utf8 -B scripts/audit_offline_coding.py`。
@@ -36,10 +38,10 @@
 
 ## 从这里开始
 
-1. [最新全量审计](epistemic_boundary_mimicry/analysis/claim_audit_20261007/RESULTS.md)：五个审计维度、可支持的观察与下一步建议。
-2. [编码规则](epistemic_boundary_mimicry/analysis/CODEBOOK_20261005.md) 与 [七条复核集合](epistemic_boundary_mimicry/analysis/offline_coding_20261005/REPLAY_COHORT.md)。
-3. [小型分析汇总](epistemic_boundary_mimicry/analysis/offline_coding_20261005/coding_summary.json)：再按需要查阅逐条标注和原始对话；不要先读大型 JSON。
-4. [增量审阅交接](GPT_HANDOFF.md)：本次变化及旧实验不变的结论。
+1. [R0 当前交付](epistemic_boundary_mimicry/replay_r0/DELIVERY_20261008.md)：先看主要观察、缺失和原始/补跑边界。
+2. [补跑完成汇总](epistemic_boundary_mimicry/published_runs/go_frozen_replay_r0_completion_20261008/README.md) 与 [原始注册分析](epistemic_boundary_mimicry/replay_r0/RESULTS_20261007.md)：精确回复是二级证据，不要先读全部日志。
+3. [固定协议](epistemic_boundary_mimicry/replay_r0/PROTOCOL_20261007.md) 与 [增量交接](GPT_HANDOFF.md)：参数、假设和审阅问题。
+4. [旧全量审计](epistemic_boundary_mimicry/analysis/claim_audit_20261007/RESULTS.md) 与 [七条固定输入](epistemic_boundary_mimicry/analysis/offline_coding_20261005/REPLAY_COHORT.md)：旧语料选择与分析保持不变。
 
 以下是 v0.1 的历史阅读路线：
 

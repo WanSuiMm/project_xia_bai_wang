@@ -1,0 +1,30 @@
+{
+  "request_id": "EB02_D1_symmetric_frozen_qwen3.8-max_r2_blind",
+  "transcript_id": "EB02_D1_symmetric_frozen",
+  "model": "qwen3.8-max",
+  "condition": "blind",
+  "replicate": 2,
+  "pair_id": "EB02_D1_symmetric_frozen_qwen3.8-max_r2",
+  "slot_order": 2,
+  "prompt_sha256": "81d20e3be358b93d5461c2815428b4a15a316a28f61fc0a1f70a59f4f6d83122",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:17:25.214186+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"A and B give mutually exclusive, internally consistent accounts: A cites Oren Hale, October 2016, 24 households, a 15-slip check, and transfer/fare rules; B cites Mira Fenn, October 2013, 18 households, a 12-slip check, and absent-offence/lost-review sentences. The transcript provides no independent target text or corroboration, and the interviewer's probes cover details claimed by both variants. Thus A's probability remains near chance, making abstention loss-minimizing.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "A and B give mutually exclusive, internally consistent accounts: A cites Oren Hale, October 2016, 24 households, a 15-slip check, and transfer/fare rules; B cites Mira Fenn, October 2013, 18 households, a 12-slip check, and absent-offence/lost-review sentences. The transcript provides no independent target text or corroboration, and the interviewer's probes cover details claimed by both variants. Thus A's probability remains near chance, making abstention loss-minimizing."
+  },
+  "parse_status": "valid",
+  "finish_reason": "end_turn",
+  "usage": {
+    "input_tokens": 7073,
+    "output_tokens": 7270,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "returned_model": "qwen3.8-max",
+  "http_status": 200,
+  "elapsed_seconds": 210.813,
+  "captured_utc": "2026-10-07T09:20:56.032254+00:00"
+}

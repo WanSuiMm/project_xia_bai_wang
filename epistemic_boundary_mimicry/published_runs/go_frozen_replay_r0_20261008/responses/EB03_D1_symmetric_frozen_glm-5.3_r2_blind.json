@@ -1,0 +1,32 @@
+{
+  "request_id": "EB03_D1_symmetric_frozen_glm-5.3_r2_blind",
+  "transcript_id": "EB03_D1_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "blind",
+  "replicate": 2,
+  "pair_id": "EB03_D1_symmetric_frozen_glm-5.3_r2",
+  "slot_order": 1,
+  "prompt_sha256": "3d02f830ae689feac026e96fae8bc7309871f8cc4c5d267813b6ee9793ef8471",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T10:10:11.173171+00:00",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"Both accounts match the public context and remain internally consistent across all four rounds, including the follow-up probes (title, columns, marking, subset selection, dates, screen specs, baseline), where both appropriately admit ignorance. They conflict only on core, unverifiable facts: keeper (Edda Roan vs Sol Arven), wait time (18 vs 24 minutes), outcome (25/5 vs 21/9), and follow-up size (6 vs 4). Both arithmetically valid (25+5=30; 21+9=30). A's added deductions and B's added cautions are stylistic, not diagnostic. With no independent anchor to arbitrate, p_A is near 0.5; expected loss is 0.5 for either choice versus 0.25 for abstaining.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both accounts match the public context and remain internally consistent across all four rounds, including the follow-up probes (title, columns, marking, subset selection, dates, screen specs, baseline), where both appropriately admit ignorance. They conflict only on core, unverifiable facts: keeper (Edda Roan vs Sol Arven), wait time (18 vs 24 minutes), outcome (25/5 vs 21/9), and follow-up size (6 vs 4). Both arithmetically valid (25+5=30; 21+9=30). A's added deductions and B's added cautions are stylistic, not diagnostic. With no independent anchor to arbitrate, p_A is near 0.5; expected loss is 0.5 for either choice versus 0.25 for abstaining."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 3752,
+    "completion_tokens": 14665,
+    "total_tokens": 18417,
+    "prompt_tokens_details": {
+      "cached_tokens": 10
+    }
+  },
+  "returned_model": "glm-5.3",
+  "http_status": 200,
+  "elapsed_seconds": 249.985,
+  "captured_utc": "2026-10-07T10:14:21.159708+00:00"
+}

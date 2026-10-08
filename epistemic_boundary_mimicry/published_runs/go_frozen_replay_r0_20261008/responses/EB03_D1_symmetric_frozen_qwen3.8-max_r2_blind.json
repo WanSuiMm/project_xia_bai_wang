@@ -1,0 +1,30 @@
+{
+  "request_id": "EB03_D1_symmetric_frozen_qwen3.8-max_r2_blind",
+  "transcript_id": "EB03_D1_symmetric_frozen",
+  "model": "qwen3.8-max",
+  "condition": "blind",
+  "replicate": 2,
+  "pair_id": "EB03_D1_symmetric_frozen_qwen3.8-max_r2",
+  "slot_order": 1,
+  "prompt_sha256": "3d02f830ae689feac026e96fae8bc7309871f8cc4c5d267813b6ee9793ef8471",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:37:12.243595+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"Both accounts are detailed and internally coherent, but they conflict on key specifics: observer name, wait time, response counts, and follow-up subset size. The conversation provides no independent cue or verification identifying which version matches the Host-designated target. Therefore A and B remain equally likely, and abstaining minimizes expected loss.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both accounts are detailed and internally coherent, but they conflict on key specifics: observer name, wait time, response counts, and follow-up subset size. The conversation provides no independent cue or verification identifying which version matches the Host-designated target. Therefore A and B remain equally likely, and abstaining minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "end_turn",
+  "usage": {
+    "input_tokens": 809,
+    "output_tokens": 2028,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3072
+  },
+  "returned_model": "qwen3.8-max",
+  "http_status": 200,
+  "elapsed_seconds": 54.343,
+  "captured_utc": "2026-10-07T09:38:06.585854+00:00"
+}

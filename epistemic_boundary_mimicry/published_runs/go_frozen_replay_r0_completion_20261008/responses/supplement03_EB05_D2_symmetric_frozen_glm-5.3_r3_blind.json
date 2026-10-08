@@ -1,0 +1,39 @@
+{
+  "request_id": "supplement03_EB05_D2_symmetric_frozen_glm-5.3_r3_blind",
+  "source_request_id": "EB05_D2_symmetric_frozen_glm-5.3_r3_blind",
+  "transcript_id": "EB05_D2_symmetric_frozen",
+  "model": "glm-5.3",
+  "condition": "blind",
+  "replicate": 3,
+  "pair_id": "EB05_D2_symmetric_frozen_glm-5.3_r3",
+  "slot_order": 1,
+  "prompt_sha256": "02c0c684abb829d611f0f728d51a01b75e2738355749af39574ab3ee73bf43ea",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T00:37:29.921447+00:00",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"Both speakers provide internally consistent, detailed accounts of distinct invented records (A: East Hollow 2019 memo by Rina Vale, morning windows, lanes, 12-token check; B: West Orchard 2021 note by Mira Doren, afternoon periods, groups, 15-token check). Neither account contradicts itself, and both handle the verbatim-quote request plausibly: A offers quotes that may be paraphrase, while B candidly reports its document is a paraphrase. With no external verification, no Host designation information, and no internal inconsistency to exploit, the evidence is symmetric between A and B, so abstaining minimizes expected loss.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both speakers provide internally consistent, detailed accounts of distinct invented records (A: East Hollow 2019 memo by Rina Vale, morning windows, lanes, 12-token check; B: West Orchard 2021 note by Mira Doren, afternoon periods, groups, 15-token check). Neither account contradicts itself, and both handle the verbatim-quote request plausibly: A offers quotes that may be paraphrase, while B candidly reports its document is a paraphrase. With no external verification, no Host designation information, and no internal inconsistency to exploit, the evidence is symmetric between A and B, so abstaining minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 1820,
+    "completion_tokens": 227,
+    "total_tokens": 2047,
+    "prompt_tokens_details": {
+      "cached_tokens": 9
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 71
+    }
+  },
+  "returned_model": "glm-5.3",
+  "reasoning_effort_requested": "low",
+  "changed_configuration_supplement": true,
+  "failure_selected_supplement": true,
+  "http_status": 200,
+  "elapsed_seconds": 4.781,
+  "captured_utc": "2026-10-08T00:37:34.704562+00:00"
+}

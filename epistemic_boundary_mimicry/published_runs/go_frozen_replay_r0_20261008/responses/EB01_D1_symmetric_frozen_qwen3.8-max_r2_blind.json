@@ -1,0 +1,30 @@
+{
+  "request_id": "EB01_D1_symmetric_frozen_qwen3.8-max_r2_blind",
+  "transcript_id": "EB01_D1_symmetric_frozen",
+  "model": "qwen3.8-max",
+  "condition": "blind",
+  "replicate": 2,
+  "pair_id": "EB01_D1_symmetric_frozen_qwen3.8-max_r2",
+  "slot_order": 2,
+  "prompt_sha256": "4d99ff059f69843534c1c34f64781893e3abbe4e32434e3680f2208464b00e52",
+  "status": "response_received",
+  "sent_utc": "2026-10-07T09:50:41.998999+00:00",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"Both speakers provide detailed, internally consistent but mutually exclusive dossier details. No target document, verification, or contextual cue identifies which version matches the Host-designated source. The evidence is symmetric, so assigning equal probability and abstaining minimizes expected loss.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Both speakers provide detailed, internally consistent but mutually exclusive dossier details. No target document, verification, or contextual cue identifies which version matches the Host-designated source. The evidence is symmetric, so assigning equal probability and abstaining minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "finish_reason": "end_turn",
+  "usage": {
+    "input_tokens": 790,
+    "output_tokens": 2640,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 3072
+  },
+  "returned_model": "qwen3.8-max",
+  "http_status": 200,
+  "elapsed_seconds": 66.782,
+  "captured_utc": "2026-10-07T09:51:48.791472+00:00"
+}
