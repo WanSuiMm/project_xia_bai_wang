@@ -1,4 +1,26 @@
-# Latest incremental review: four-family strategic boundary qualification
+# Latest incremental review: OMC16 frozen-output behavior forecasting
+
+Review base: `56d92bded176d1d348ebf25a0da9d97341e2522c`.
+Evidence head: `f4f5581a8928bddffea2be4fdbce7d37290bdf37`.
+This subsequent handoff commit is metadata-only; the evidence head stays fixed.
+
+Read [OMC16 results](epistemic_boundary_mimicry/opponent_model_replay/RESULTS_20261008.md), [delivery and public reproduction](epistemic_boundary_mimicry/opponent_model_replay/DELIVERY_20261008.md), then [frozen protocol](epistemic_boundary_mimicry/opponent_model_replay/PROTOCOL_20261008.md) and [small public summary](epistemic_boundary_mimicry/published_runs/go_opponent_model16_20261008/analysis/summary.json). Exact prompts and per-request replies are secondary evidence. The unchanged SQ28 package supplies the original Actor answers; do not reread all older games first.
+
+New evidence: 16 strict-valid GLM-5.3 forecasts, four authored SQ28 families × B0/B1 exact original Qwen prompts × two independent Judge calls. No new Actor or Reader draw. Forecasters know the target lacks the source; they see its exact assigned archive and sampling metadata, but not answers/source/gold/current SQ28 Judge decisions. Historical E1 decisions remain in the original target prompt. This direct no-answer behavior task differs from SQ28's identity task and common two-archive Judge background.
+
+The equal-family event forecast increases .0373→.1292, four-family change +.0919. Repeat-averaged direction is positive across all four families, but SQ04 contributes most and SQ01's direction reverses across repeats. None of the 96 individual probabilities reaches .5. The old answers contain 47 clear requested-detail non-admissions and unresolved SQ02/B1/Q6; these are inherited exploratory primary-review labels, not independent annotation. Six-question complete-case B1 and paired scoring use three families, with mean per-repeat Brier increase +.0259. Hypothetical null resolutions remain separate and give +.0260/+.0364 across four families. Mean per-repeat Brier and Brier of averaged probabilities are reported separately.
+
+Claim: a modest, uneven prompt-conditioned expectation shift with little matching behavior in the selected fixed outputs. This does not establish pervasive boundary-mimicry over-attribution, a stable strategic prior, true-probability/population miscalibration, an internal opponent model or a causal explanation of SQ03. Assigning a realized absent event nonzero probability is not itself irrational. The study is retrospective and hypothesis-guided after viewing SQ28; two forecast repeats are not new Actor outcomes. Qualitative rationale interpretation is labeled exploratory and is not a counted coding endpoint.
+
+Preserved execution: the original first request returned HTTP 403/payment, no visible model reply, 15 unstarted. A separate identical-design recovery has all 16 valid forecasts. The sanitized failure record is separate from scientific outcomes; total physical requests across runs are 17 and the failed request's charge is unknown. An offline Markdown-rendering repair left the initial partial export locally and generated the canonical analysis separately; it changed no request, response or outcome label. Private account/session/launch/error-body records and hidden reasoning are excluded.
+
+Unchanged: SQ28's eight target draws and labels, old source files, 13 canonical trajectories, all audits, R0 and supplementary records, formalization and prior negative/cutoff evidence. R1 remains unexecuted and is not part of this delivery. No new full game, Actor sample, extra repeat, provider call or monitor occurred during publication.
+
+Verification: the 93-file evidence update totals 774,201 staged bytes and passed exact allowlist, whitespace, credential, machine-path, private-URL and IP scans. All 176 local Markdown links in changed Markdown resolved. A fresh staged checkout with no private runs and no `OPENCODE_GO_API_KEY` passed `python -X utf8 -B scripts/publish_opponent_model_replay.py`: exact prompts reconstructed, strict raw JSON re-parsed, dependency/source/public-copy hashes checked, 48 events and the single null preserved, and the full canonical analysis reproduced with only its run-directory name normalized internally. Safe response and dispatch copies retain all original bytes. Failure status/counts and first-request bindings were separately validated against the originals. Earlier public SQ28 audit also passed. No key is needed for reproduction.
+
+Reviewer questions: Does the small, uneven forecast shift support anything beyond prompt sensitivity? Are the four-family forecast contrast, three-family paired scores, ambiguity sensitivity and repeat dispersion kept distinct? What held-out Actor evidence would be required before turning this retrospective discrepancy into a stable opponent-model claim?
+
+# Previous incremental review: four-family strategic boundary qualification
 
 Review base: `ba0ed6393565cd55ce8c143fb72acb0912ea0fd8`.
 Evidence head: `2193acc04efe1cb61b5a25fb89a91daae60f9ea0`.
