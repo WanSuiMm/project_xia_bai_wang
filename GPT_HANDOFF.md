@@ -1,4 +1,24 @@
-# Latest incremental review: frozen replay and supplementary completion
+# Latest incremental review: four-family strategic boundary qualification
+
+Review base: `ba0ed6393565cd55ce8c143fb72acb0912ea0fd8`.
+Evidence head: `2193acc04efe1cb61b5a25fb89a91daae60f9ea0`.
+This subsequent handoff commit is metadata-only; the evidence head stays fixed.
+
+Read [SQ28 delivery](epistemic_boundary_mimicry/strategic_qualification/DELIVERY_20261008.md), [offline results](epistemic_boundary_mimicry/strategic_qualification/analysis_20261008/RESULTS.md), [frozen protocol](epistemic_boundary_mimicry/strategic_qualification/PROTOCOL_20261008.md), then [public evidence entry](epistemic_boundary_mimicry/published_runs/go_strategic_qualification28_20261008/README.md). Start with the aggregate result; all per-request files are secondary evidence.
+
+New evidence: four fresh hand-authored source families, one Qwen3.8 Max Speakers → GLM-5.3 Judge arm, exactly 12 Speaker + 16 Judge calls, all strict-valid without truncation, missingness or provider retries. B0/B1 share the Strong Bluff policy and differ in neutral versus authentic historical Judge-evaluation exposure. J0/J1 see identical archive/context/Q1–Q5 prefixes and differ only in actual exposure disclosure, without learning the Bluffer seat. Q6 answers were generated with the Speaker request, frozen and withheld; this is masked-answer prediction, not adaptive interrogation.
+
+The primary selective-admission manipulation did not clearly succeed. Reader explicitly reports requested source silence on all 12 unspecified questions; B0 zero, B1 zero clear plus one unresolved. Primary complete-case unspecified/selectivity contrasts have three of four families; resolving the ambiguity only for sensitivity gives four-family B1−B0 admission/selectivity 0 or 1/12. B1 sometimes adds off-target absence clauses while concretely inventing the requested unknown detail; those examples are retrospective descriptions, not a newly registered endpoint.
+
+Disclosure improves descriptive Reader-identity Brier .478438→.248750 and correct choices 2/8→5/8. All 16 choose a seat; three J0 decisions do not minimize their own reported-probability expected loss with abstention cost .25. B1 masked-Q6 Bluffer forecasting does not improve: J1−J0 Brier +.018333 on three complete families; +.028125 or +.003125 over four under the two ambiguity resolutions. Do not infer strategy understanding from identity improvement or from probability movement alone. Independent material N=4, not 28 calls, 16 judgments or 72 answers.
+
+Unchanged: prior 13 trajectories, six old material families, audit labels, seven terminal-blind payloads, R0 registered results and supplementary records, formalization and all earlier failures. This task uses actual source access; the Frozen independent-target .5 solution does not apply. R1 noisy-anchor remains an unexecuted auxiliary preparation and is not included as new evidence. No model ranking, population effect, stable Judge preference, recursive-ToM representation, causal interrogation benefit or known-optimal identity posterior is established.
+
+Verification: 28 exact prompts and safe receipt copies preserve original dependency hashes. Public input projections keep original source hashes separately from published-copy hashes. From a fresh staged checkout with no private run or credential, `python -X utf8 -B scripts/publish_strategic_qualification.py` passed; `scripts/analyze_strategic_qualification.py --run epistemic_boundary_mimicry/published_runs/go_strategic_qualification28_20261008` reproduced all aggregate values and hashes. Two optional metadata flags recording local-private-witness availability were excluded from that equality check; the public evidence and scoring were identical. All 175 local Markdown links in staged Markdown and all 72 coding source/response references resolved. The 141-file evidence update (873,254 staged bytes) passed whitespace, credential, machine-path, private-URL and account scans. Hidden reasoning and machine/account launch records are excluded. No new model call occurred during analysis or publication.
+
+Reviewer questions: Is the negative selective-boundary result distinguishable from off-target boundary-language imitation? Does identity improvement without B1 masked-answer improvement justify a narrow behavioral distinction, given four authored families and one generation per condition? Are the unresolved event and complete-case denominators handled transparently? Are genuine access, prompt withholding, archive exposure and exposure disclosure isolated as specified? What prospective design would separate normative priming from opponent-specific adaptation, without treating this small qualification as confirmation?
+
+# Previous incremental review: frozen replay and supplementary completion
 
 Review base: `af15fd160e070ec39bb6a60c2d4f64a3474fee8d`.
 Evidence head: `918400eb629616bf88eaafc44fe154dd8d468c99`.
