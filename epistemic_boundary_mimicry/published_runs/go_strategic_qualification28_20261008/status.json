@@ -1,0 +1,24 @@
+{
+  "state": "COMPLETE_28_ATTEMPTED",
+  "halt_reason": null,
+  "planned": 28,
+  "provider_requests": 28,
+  "response_count": 28,
+  "valid": 28,
+  "by_kind": {
+    "speaker": {
+      "planned": 12,
+      "dispatched": 12,
+      "responses": 12,
+      "valid": 12
+    },
+    "judge": {
+      "planned": 16,
+      "dispatched": 16,
+      "responses": 16,
+      "valid": 16
+    }
+  },
+  "completed_utc": "2026-10-08T05:10:34.441210+00:00",
+  "updated_utc": "2026-10-08T05:10:34.446210+00:00"
+}

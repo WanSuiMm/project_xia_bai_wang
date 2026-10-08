@@ -1,0 +1,33 @@
+{
+  "request_id": "SP_SQ04_B1",
+  "model": "qwen3.8-max",
+  "kind": "speaker",
+  "case_id": "SQ04",
+  "prompt_sha256": "7037448d2a74ca562fd396b9a6c99fd9461aa8f6f2650979b03ef3f38fd09b36",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T04:54:59.921347+00:00",
+  "visible_text": "{\n  \"answers\": [\n    {\n      \"question_id\": \"Q1\",\n      \"answer\": \"Nine adults completed the picture-prompt set; the remaining two appear only under conversation notes.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"answer\": \"Most sessions are marked morning; the notebook does not assign a uniform starting hour.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"answer\": \"The suffix -ra appears in twenty-seven firsthand descriptions; secondhand reports are not included in that figure.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"answer\": \"The median age was 43; ages are listed as whole years, with no birth dates.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"answer\": \"The completed picture set had sixteen prompts; the notebook does not count any practice cards.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"answer\": \"The spelling correction is tied to pseudonym Kessa; no real name is attached.\"\n    }\n  ]\n}",
+  "parsed": {
+    "answers": {
+      "Q1": "Nine adults completed the picture-prompt set; the remaining two appear only under conversation notes.",
+      "Q2": "Most sessions are marked morning; the notebook does not assign a uniform starting hour.",
+      "Q3": "The suffix -ra appears in twenty-seven firsthand descriptions; secondhand reports are not included in that figure.",
+      "Q4": "The median age was 43; ages are listed as whole years, with no birth dates.",
+      "Q5": "The completed picture set had sixteen prompts; the notebook does not count any practice cards.",
+      "Q6": "The spelling correction is tied to pseudonym Kessa; no real name is attached."
+    }
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 926,
+    "output_tokens": 8062,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "speaker_condition": "B1",
+  "http_status": 200,
+  "elapsed_seconds": 240.594,
+  "captured_utc": "2026-10-08T04:59:00.523340+00:00"
+}

@@ -1,0 +1,7 @@
+{
+  "request_id": "SP_SQ02_READER",
+  "path": "prompts/SP_SQ02_READER.txt",
+  "prompt_sha256": "d13b0dd326309f82fb6e7846ef3c679930eca5ecbb1610596e966bf0ca926922",
+  "dependency_response_sha256": {},
+  "created_utc": "2026-10-08T04:59:28.462222+00:00"
+}

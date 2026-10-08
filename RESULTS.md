@@ -1,4 +1,15 @@
-# Latest replay delivery：2026-10-08
+# Latest strategic qualification：2026-10-08
+
+See [SQ28 delivery and interpretation](epistemic_boundary_mimicry/strategic_qualification/DELIVERY_20261008.md), [complete offline results](epistemic_boundary_mimicry/strategic_qualification/analysis_20261008/RESULTS.md), and [public evidence](epistemic_boundary_mimicry/published_runs/go_strategic_qualification28_20261008/README.md). Four fresh source families; Qwen Speakers → GLM Judge. All 28 requests are valid (12 Speaker, 16 Judge), with no missing or truncated reply. Reader requested-detail source-silence admissions: 12/12 unspecified, 0/12 explicit. B0: 0/12 unspecified; B1: 0 clear, one unresolved. Both Bluffers: 0/12 explicit. Selective boundary mimicry was not clearly induced by the historical-evaluation exposure.
+
+| Bluffer | J0 correct / 4 | J1 correct / 4 | J0 identity Brier | J1 identity Brier |
+|---|---:|---:|---:|---:|
+| B0 neutral archive | 2 | 3 | .310625 | .161875 |
+| B1 historical evaluations | 0 | 2 | .646250 | .335625 |
+
+Across the reused pairs, J0/J1 correct 2/8→5/8 and Brier .478438→.248750. All 16 choose a seat. These are descriptive outputs over four independent materials. B1 masked-Q6 forecasting does not improve under either assignment of its one unresolved admission event (J1−J0 Brier +.028125 or +.003125). Identity improvement alone is not demonstrated strategy understanding. No adaptive-interrogation, population-effect, stable-preference, ranking or recursive-ToM claim. R1 remains unexecuted; previous results are unchanged.
+
+# Earlier replay delivery：2026-10-08
 
 See [R0 result and supplementary completion](epistemic_boundary_mimicry/replay_r0/DELIVERY_20261008.md), [original registered numerical results](epistemic_boundary_mimicry/replay_r0/RESULTS_20261007.md), and [completion evidence](epistemic_boundary_mimicry/published_runs/go_frozen_replay_r0_completion_20261008/README.md). Original 84 attempts yielded 77 valid replies; two earlier supplementary replies and five new low-reasoning replies cover all 84 original positions across attempts. The five new calls are all .5/ABSTAIN. Preserve their configuration change, previous unknown dispatches, and final status-file error separately. All 42 original Informed replies are .5/ABSTAIN. Blind is mostly null-consistent; Qwen's small effect is confined to EB05, and GLM primary missingness remains bounded rather than imputed. The mixed-configuration descriptive overlay gives GLM Blind risk .011042; it is not a replacement registered analysis, model ranking or interrogation experiment.
 

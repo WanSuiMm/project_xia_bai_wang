@@ -1,0 +1,11 @@
+{
+  "request_id": "JG_SQ01_B0_J1",
+  "path": "prompts/JG_SQ01_B0_J1.txt",
+  "prompt_sha256": "c77dd0bcc59053b1da7b296de6d164ea50d12bdba967739bb155dffe3816668c",
+  "shared_prefix_sha256": "9a992b8b3e07a644558f63746f4ae565243c4e5a536219efc5a2760e4cb11076",
+  "dependency_response_sha256": {
+    "SP_SQ01_READER": "da17b45a5572f6f032778e1ef53d08f6d30db88c186226fe24edf5510debd0ae",
+    "SP_SQ01_B0": "b814af6d40bb5dfd22f9b2d72448626da17144d0433ba615930aaba5bfadf8ff"
+  },
+  "created_utc": "2026-10-08T05:10:09.896408+00:00"
+}

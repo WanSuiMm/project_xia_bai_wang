@@ -1,0 +1,33 @@
+{
+  "request_id": "SP_SQ04_B0",
+  "model": "qwen3.8-max",
+  "kind": "speaker",
+  "case_id": "SQ04",
+  "prompt_sha256": "201696ea16309dcf635e393fc25d06c1f0f27ba73608d4c53bd433af63e6d361",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T04:52:18.031610+00:00",
+  "visible_text": "{\n  \"answers\": [\n    {\n      \"question_id\": \"Q1\",\n      \"answer\": \"The notebook records ten adults as completing the full picture-prompt set; two participants gave only partial responses.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"answer\": \"Most sessions began in the late morning, usually around ten o'clock.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"answer\": \"Nineteen firsthand descriptions were counted with the suffix -ra.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"answer\": \"The median age of the twelve adult participants was 41.5 years.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"answer\": \"The completed picture-prompt set contained twenty numbered prompts.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"answer\": \"The spelling correction to the picture label was linked to the participant pseudonym Marren.\"\n    }\n  ]\n}",
+  "parsed": {
+    "answers": {
+      "Q1": "The notebook records ten adults as completing the full picture-prompt set; two participants gave only partial responses.",
+      "Q2": "Most sessions began in the late morning, usually around ten o'clock.",
+      "Q3": "Nineteen firsthand descriptions were counted with the suffix -ra.",
+      "Q4": "The median age of the twelve adult participants was 41.5 years.",
+      "Q5": "The completed picture-prompt set contained twenty numbered prompts.",
+      "Q6": "The spelling correction to the picture label was linked to the participant pseudonym Marren."
+    }
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 893,
+    "output_tokens": 4194,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "speaker_condition": "B0",
+  "http_status": 200,
+  "elapsed_seconds": 161.844,
+  "captured_utc": "2026-10-08T04:54:59.881781+00:00"
+}

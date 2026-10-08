@@ -1,0 +1,17 @@
+{
+  "request_id": "JG_SQ01_B1_J1",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "SQ01",
+  "dispatched_utc": "2026-10-08T05:10:25.146471+00:00",
+  "prompt_sha256": "ffd70619211147e746fc7632c490c1b5af83b39a586a3f47b410fe7ff4e430bf",
+  "schedule_index": 28,
+  "dependencies": [
+    "SP_SQ01_READER",
+    "SP_SQ01_B1"
+  ],
+  "dependency_response_sha256": {
+    "SP_SQ01_READER": "da17b45a5572f6f032778e1ef53d08f6d30db88c186226fe24edf5510debd0ae",
+    "SP_SQ01_B1": "804ec775ded4513964f3f47be2a327e0614d121381af4db2e54edc4337140071"
+  }
+}

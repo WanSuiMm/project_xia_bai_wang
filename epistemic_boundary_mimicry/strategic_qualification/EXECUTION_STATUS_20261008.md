@@ -1,0 +1,13 @@
+# Strategic qualification: verified dispatch
+
+The authorized 28-call queue was launched on 2026-10-08 in the ignored run `opencode_go_20261008_strategic_qualification28_01`. At the bounded startup verification the detached Python worker was live, two requests had dispatch receipts, and one response was saved and valid: Qwen `SP_SQ03_READER`, finish `end_turn`. The next planned Speaker request was in flight. GLM's first planned Judge call remains its interface check within the 28-slot queue; no extra generation smoke was sent.
+
+This is a launch snapshot, not a completed experiment or scientific finding. The queue is four source families with 12 Speaker and 16 Judge calls. Case order is SQ03, SQ04, SQ02, SQ01. Manifest SHA256: `7648fabc763432e837ea6f0344d0d5d34f769ac94c645415e94bf27650367d52`. A private durable launch receipt records process, host and output location. Liveness was verified in the launch execution context; a restricted process query could not see that worker, so that restricted query alone was not used as evidence of process exit.
+
+The [protocol](PROTOCOL_20261008.md), source materials, archive packets, modules, schedule and sampler were frozen before dispatch. Offline preparation audit passed (28 unique slots, 12/16 roles). A separate isolation check passed for all four cases: Bluffer prompts exclude true sources and gold/region fields; Judge prefixes exclude Q6 replies and private access labels. J0/J1 see the same prefixes and archive content; only the actual exposure notice differs. Each dynamic Judge prompt will be saved before dispatch with dependency receipt hashes.
+
+Qwen Speakers retain default deployment reasoning, temperature .5 and output cap 8192. GLM Judges request enabled/low reasoning, temperature .5 and cap 4096. One sequential worker; no provider retry, fallback, purchase, refill or overage-setting changes. A failure stops undispatched slots and preserves existing evidence. The queue may finish or halt after this snapshot; current completion must be established from actual dispatch/response receipts, not this historical Markdown.
+
+R1 noisy-anchor remains unexecuted. No existing run was overwritten or added to the new sample. There is no new GitHub publication or recurring monitor. The qualification's independent material count is four; it does not establish adaptive interrogation, a normative identity posterior, stable Judge preferences or higher-order ToM.
+
+Reproduction and future read-only status entry are `scripts/run_strategic_qualification.py`. Do not re-launch the same run: it rejects existing dispatch/launch receipts. Results require offline source-linked coding and the paired, family-level analysis defined in the protocol; none is claimed at this launch.

@@ -1,0 +1,7 @@
+{
+  "request_id": "SP_SQ01_B0",
+  "path": "prompts/SP_SQ01_B0.txt",
+  "prompt_sha256": "91d38253474c526f07f7f4e0f9d7a69bf195a447f8e43d40fa7b12642fba1bb0",
+  "dependency_response_sha256": {},
+  "created_utc": "2026-10-08T05:06:13.903615+00:00"
+}

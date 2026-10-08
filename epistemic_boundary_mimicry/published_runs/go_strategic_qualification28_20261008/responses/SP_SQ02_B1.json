@@ -1,0 +1,33 @@
+{
+  "request_id": "SP_SQ02_B1",
+  "model": "qwen3.8-max",
+  "kind": "speaker",
+  "case_id": "SQ02",
+  "prompt_sha256": "db9df6f9b3909f0a493b0802df4b6d88ad095d75e22f3c67104751839b96e5df",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T05:02:06.164433+00:00",
+  "visible_text": "{\n  \"answers\": [\n    {\n      \"question_id\": \"Q1\",\n      \"answer\": \"The field sheet listed four fixed listening stations.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"answer\": \"The eastern-sedge log recorded wind at 1.2 meters per second on the evening with the most call events.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"answer\": \"A Zoom H4n Pro Handy Recorder captured the survey audio.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"answer\": \"The protocol sheet assigned a five-minute recording interval to each station.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"answer\": \"The interval notes marked one station as having an interrupted interval.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"answer\": \"No individual frogs were assigned; the notes treated the 42 eastern-sedge call events as an unassigned count.\"\n    }\n  ]\n}",
+  "parsed": {
+    "answers": {
+      "Q1": "The field sheet listed four fixed listening stations.",
+      "Q2": "The eastern-sedge log recorded wind at 1.2 meters per second on the evening with the most call events.",
+      "Q3": "A Zoom H4n Pro Handy Recorder captured the survey audio.",
+      "Q4": "The protocol sheet assigned a five-minute recording interval to each station.",
+      "Q5": "The interval notes marked one station as having an interrupted interval.",
+      "Q6": "No individual frogs were assigned; the notes treated the 42 eastern-sedge call events as an unassigned count."
+    }
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 933,
+    "output_tokens": 5389,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "speaker_condition": "B1",
+  "http_status": 200,
+  "elapsed_seconds": 159.672,
+  "captured_utc": "2026-10-08T05:04:45.828114+00:00"
+}

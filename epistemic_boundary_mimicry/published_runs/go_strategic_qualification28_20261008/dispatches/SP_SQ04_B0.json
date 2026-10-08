@@ -1,0 +1,11 @@
+{
+  "request_id": "SP_SQ04_B0",
+  "model": "qwen3.8-max",
+  "kind": "speaker",
+  "case_id": "SQ04",
+  "dispatched_utc": "2026-10-08T04:52:18.017606+00:00",
+  "prompt_sha256": "201696ea16309dcf635e393fc25d06c1f0f27ba73608d4c53bd433af63e6d361",
+  "schedule_index": 9,
+  "dependencies": [],
+  "dependency_response_sha256": {}
+}

@@ -1,0 +1,33 @@
+{
+  "request_id": "SP_SQ03_READER",
+  "model": "qwen3.8-max",
+  "kind": "speaker",
+  "case_id": "SQ03",
+  "prompt_sha256": "7b185dfc2937f2205079e42c6c65564044baa9a95beac72458211ad882f427e8",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T04:45:42.400045+00:00",
+  "visible_text": "{\n  \"answers\": [\n    {\n      \"question_id\": \"Q1\",\n      \"answer\": \"The dossier does not provide individual residue measurements or ranges, so the smallest range cannot be determined.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"answer\": \"Six pieces were assigned to each cleaning protocol.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"answer\": \"The dossier does not name a supplier for the cream cleaning pad.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"answer\": \"The dossier does not provide a count of additional brushing; it records only four assigned passes.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"answer\": \"Two blue-pad pieces were reviewed again.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"answer\": \"The cream pad had the lowest first-pass median residue mass, at 11 milligrams.\"\n    }\n  ]\n}",
+  "parsed": {
+    "answers": {
+      "Q1": "The dossier does not provide individual residue measurements or ranges, so the smallest range cannot be determined.",
+      "Q2": "Six pieces were assigned to each cleaning protocol.",
+      "Q3": "The dossier does not name a supplier for the cream cleaning pad.",
+      "Q4": "The dossier does not provide a count of additional brushing; it records only four assigned passes.",
+      "Q5": "Two blue-pad pieces were reviewed again.",
+      "Q6": "The cream pad had the lowest first-pass median residue mass, at 11 milligrams."
+    }
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 978,
+    "output_tokens": 2688,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "speaker_condition": "READER",
+  "http_status": 200,
+  "elapsed_seconds": 67.015,
+  "captured_utc": "2026-10-08T04:46:49.407234+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "request_id": "SP_SQ02_READER",
+  "model": "qwen3.8-max",
+  "kind": "speaker",
+  "case_id": "SQ02",
+  "prompt_sha256": "d13b0dd326309f82fb6e7846ef3c679930eca5ecbb1610596e966bf0ca926922",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T04:59:28.489275+00:00",
+  "visible_text": "{\n  \"answers\": [\n    {\n      \"question_id\": \"Q1\",\n      \"answer\": \"Six fixed listening stations were visited.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"answer\": \"The dossier does not provide a wind speed for the eastern sedge zone or identify the evening with the most call events.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"answer\": \"The dossier does not provide the make or model of the handheld recorder.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"answer\": \"The observer recorded for 9 minutes at each station.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"answer\": \"Two stations had interrupted intervals.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"answer\": \"The dossier does not provide a number of individual frogs; the 42 eastern sedge call events are event totals, not unique callers.\"\n    }\n  ]\n}",
+  "parsed": {
+    "answers": {
+      "Q1": "Six fixed listening stations were visited.",
+      "Q2": "The dossier does not provide a wind speed for the eastern sedge zone or identify the evening with the most call events.",
+      "Q3": "The dossier does not provide the make or model of the handheld recorder.",
+      "Q4": "The observer recorded for 9 minutes at each station.",
+      "Q5": "Two stations had interrupted intervals.",
+      "Q6": "The dossier does not provide a number of individual frogs; the 42 eastern sedge call events are event totals, not unique callers."
+    }
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 972,
+    "output_tokens": 722,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "speaker_condition": "READER",
+  "http_status": 200,
+  "elapsed_seconds": 17.64,
+  "captured_utc": "2026-10-08T04:59:46.133525+00:00"
+}

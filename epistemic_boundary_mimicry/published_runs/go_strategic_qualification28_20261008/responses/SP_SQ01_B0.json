@@ -1,0 +1,33 @@
+{
+  "request_id": "SP_SQ01_B0",
+  "model": "qwen3.8-max",
+  "kind": "speaker",
+  "case_id": "SQ01",
+  "prompt_sha256": "91d38253474c526f07f7f4e0f9d7a69bf195a447f8e43d40fa7b12642fba1bb0",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T05:06:13.929921+00:00",
+  "visible_text": "{\n  \"answers\": [\n    {\n      \"question_id\": \"Q1\",\n      \"answer\": \"Sixteen volumes were listed in the intake register.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"answer\": \"Cart 2 delivered the largest number, with six volumes.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"answer\": \"The clerk attached a pale cross-reference slip recording the competing shelf reference.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"answer\": \"Porter Ede Halstrom physically unloaded cart 3 at the archive entrance.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"answer\": \"Bindery assistant Rona Fisk supplied the narrow green bands.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"answer\": \"One volume remained in the review cabinet when the exercise ended.\"\n    }\n  ]\n}",
+  "parsed": {
+    "answers": {
+      "Q1": "Sixteen volumes were listed in the intake register.",
+      "Q2": "Cart 2 delivered the largest number, with six volumes.",
+      "Q3": "The clerk attached a pale cross-reference slip recording the competing shelf reference.",
+      "Q4": "Porter Ede Halstrom physically unloaded cart 3 at the archive entrance.",
+      "Q5": "Bindery assistant Rona Fisk supplied the narrow green bands.",
+      "Q6": "One volume remained in the review cabinet when the exercise ended."
+    }
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 896,
+    "output_tokens": 3276,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "speaker_condition": "B0",
+  "http_status": 200,
+  "elapsed_seconds": 89.844,
+  "captured_utc": "2026-10-08T05:07:43.771303+00:00"
+}

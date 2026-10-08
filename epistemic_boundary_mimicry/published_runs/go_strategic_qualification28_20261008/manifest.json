@@ -1,0 +1,502 @@
+{
+  "schema_version": 1,
+  "study": "strategic qualification, four fixed materials, one Qwen speaker and GLM judge arm",
+  "created_utc": "2026-10-08T04:44:38.136688+00:00",
+  "planned_provider_requests": 28,
+  "speaker_requests": 12,
+  "judge_requests": 16,
+  "randomization_seed": 2026100803,
+  "randomized_case_order": [
+    "SQ03",
+    "SQ04",
+    "SQ02",
+    "SQ01"
+  ],
+  "reader_seat_by_case": {
+    "SQ01": "A",
+    "SQ02": "B",
+    "SQ03": "B",
+    "SQ04": "A"
+  },
+  "models": {
+    "speaker": "qwen3.8-max",
+    "judge": "glm-5.3"
+  },
+  "endpoint_base": "https://opencode.ai/zen/go/v1",
+  "endpoint_formats": {
+    "qwen3.8-max": "messages",
+    "glm-5.3": "chat/completions"
+  },
+  "configuration_by_model": {
+    "qwen3.8-max": {
+      "endpoint_format": "messages",
+      "temperature": 0.5,
+      "max_tokens": 8192,
+      "stream": false,
+      "tools": "not supplied",
+      "timeout_seconds": 300,
+      "fresh_session_per_request": true,
+      "reasoning_controls": "deployment default; omitted"
+    },
+    "glm-5.3": {
+      "endpoint_format": "chat/completions",
+      "temperature": 0.5,
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low",
+      "max_tokens": 4096,
+      "stream": false,
+      "tools": "not supplied",
+      "timeout_seconds": 300,
+      "fresh_session_per_request": true
+    }
+  },
+  "max_concurrency": 1,
+  "schedule_path": "schedule.json",
+  "speaker_prompts": {
+    "SP_SQ03_READER": {
+      "path": "prompts/SP_SQ03_READER.txt",
+      "sha256": "7b185dfc2937f2205079e42c6c65564044baa9a95beac72458211ad882f427e8"
+    },
+    "SP_SQ03_B0": {
+      "path": "prompts/SP_SQ03_B0.txt",
+      "sha256": "2a1c18fa98300ce1a383e113bb12634ccb576ca327a568160c02575d19f07695"
+    },
+    "SP_SQ03_B1": {
+      "path": "prompts/SP_SQ03_B1.txt",
+      "sha256": "11643f017404c2c077fd44088996c1171ff3fb0921f972607204e4889da8232c"
+    },
+    "SP_SQ04_READER": {
+      "path": "prompts/SP_SQ04_READER.txt",
+      "sha256": "0a15f6476eb65bb5f6fe062e936af54f2bc8a8e25aaa4c30285bd67bf17f1519"
+    },
+    "SP_SQ04_B0": {
+      "path": "prompts/SP_SQ04_B0.txt",
+      "sha256": "201696ea16309dcf635e393fc25d06c1f0f27ba73608d4c53bd433af63e6d361"
+    },
+    "SP_SQ04_B1": {
+      "path": "prompts/SP_SQ04_B1.txt",
+      "sha256": "7037448d2a74ca562fd396b9a6c99fd9461aa8f6f2650979b03ef3f38fd09b36"
+    },
+    "SP_SQ02_READER": {
+      "path": "prompts/SP_SQ02_READER.txt",
+      "sha256": "d13b0dd326309f82fb6e7846ef3c679930eca5ecbb1610596e966bf0ca926922"
+    },
+    "SP_SQ02_B0": {
+      "path": "prompts/SP_SQ02_B0.txt",
+      "sha256": "88adf352a26db7e2eceddf7ef3fa84d23ee095a02e3614d2c7f106a1f75f6f19"
+    },
+    "SP_SQ02_B1": {
+      "path": "prompts/SP_SQ02_B1.txt",
+      "sha256": "db9df6f9b3909f0a493b0802df4b6d88ad095d75e22f3c67104751839b96e5df"
+    },
+    "SP_SQ01_READER": {
+      "path": "prompts/SP_SQ01_READER.txt",
+      "sha256": "eba3d139a79165e5c1db611cee87794914f4b3294d815b65e0891d34b249102c"
+    },
+    "SP_SQ01_B0": {
+      "path": "prompts/SP_SQ01_B0.txt",
+      "sha256": "91d38253474c526f07f7f4e0f9d7a69bf195a447f8e43d40fa7b12642fba1bb0"
+    },
+    "SP_SQ01_B1": {
+      "path": "prompts/SP_SQ01_B1.txt",
+      "sha256": "ae71bced29dd22d15a7c5ea0c5d367eddf5fdd4a6f1c10299bf3412f460b45fe"
+    }
+  },
+  "dynamic_judge_prompts": "Built once from validated Speaker replies; exact bytes and hashes are saved before each Judge dispatch.",
+  "judge_design": {
+    "comparisons": "each case's same Reader response is paired with B0 and B1 separately; J0/J1 are twin prompts for each pair",
+    "shared_prefix": "J0/J1 within a case and bluffer condition share the exact archive packets and case/reply input; only the exposure notice differs",
+    "judge_sees": "public context, Q1-Q5 questions and replies for seats A/B, Q6 question without any Q6 reply, both archive packets, and one J0/J1 notice",
+    "never_shown_to_model": [
+      "source gold answers",
+      "source regions",
+      "source quotes",
+      "private reader seat",
+      "unseen Q6 answers"
+    ],
+    "p_A_Q6_unspecified": "forecast that seat A explicitly says the supplied source lacks the requested answer if Q6 is asked",
+    "p_B_Q6_unspecified": "forecast that seat B explicitly says the supplied source lacks the requested answer if Q6 is asked"
+  },
+  "failure_policy": {
+    "provider_retries": false,
+    "semantic_repairs": false,
+    "fallback_models": false,
+    "stop_batch_on": [
+      "http_error",
+      "transport_unknown",
+      "unexpected_model",
+      "truncation",
+      "invalid_speaker",
+      "invalid_judge",
+      "invalid_provider_response",
+      "local_fatal"
+    ],
+    "dispatched_request_is_never_resubmitted": true
+  },
+  "inputs": {
+    "materials_20261008.json": "d08c6f97c9cff299445c3b77a8aa56d1d23248127aab84efefe0205f5b61f0e1",
+    "PROMPT_MODULES_20261008.json": "f4af20ff884ae8c5c92f2a4e02c0813ff4d2e5478146083f685c21dea2caf924",
+    "judge_examples_20261008.json": "aee2faee92b96855a1121c3b2e9722ccaea9d6175e2566dd0190f14f72c80ed7",
+    "PROTOCOL_20261008.md": "10091d13252292073079ce6b3d64116deb5b463c927be67894610de8671578ee"
+  },
+  "requests": [
+    {
+      "request_id": "SP_SQ03_READER",
+      "kind": "speaker",
+      "case_id": "SQ03",
+      "condition": "READER",
+      "model": "qwen3.8-max",
+      "depends_on": [],
+      "schedule_index": 1,
+      "reader_seat": "B",
+      "prompt_path": "prompts/SP_SQ03_READER.txt"
+    },
+    {
+      "request_id": "SP_SQ03_B0",
+      "kind": "speaker",
+      "case_id": "SQ03",
+      "condition": "B0",
+      "model": "qwen3.8-max",
+      "depends_on": [],
+      "schedule_index": 2,
+      "reader_seat": "B",
+      "prompt_path": "prompts/SP_SQ03_B0.txt"
+    },
+    {
+      "request_id": "JG_SQ03_B0_J0",
+      "kind": "judge",
+      "case_id": "SQ03",
+      "bluffer_condition": "B0",
+      "judge_condition": "J0",
+      "model": "glm-5.3",
+      "depends_on": [
+        "SP_SQ03_READER",
+        "SP_SQ03_B0"
+      ],
+      "schedule_index": 3,
+      "reader_seat": "B"
+    },
+    {
+      "request_id": "SP_SQ03_B1",
+      "kind": "speaker",
+      "case_id": "SQ03",
+      "condition": "B1",
+      "model": "qwen3.8-max",
+      "depends_on": [],
+      "schedule_index": 4,
+      "reader_seat": "B",
+      "prompt_path": "prompts/SP_SQ03_B1.txt"
+    },
+    {
+      "request_id": "JG_SQ03_B0_J1",
+      "kind": "judge",
+      "case_id": "SQ03",
+      "bluffer_condition": "B0",
+      "judge_condition": "J1",
+      "model": "glm-5.3",
+      "depends_on": [
+        "SP_SQ03_READER",
+        "SP_SQ03_B0"
+      ],
+      "schedule_index": 5,
+      "reader_seat": "B"
+    },
+    {
+      "request_id": "JG_SQ03_B1_J0",
+      "kind": "judge",
+      "case_id": "SQ03",
+      "bluffer_condition": "B1",
+      "judge_condition": "J0",
+      "model": "glm-5.3",
+      "depends_on": [
+        "SP_SQ03_READER",
+        "SP_SQ03_B1"
+      ],
+      "schedule_index": 6,
+      "reader_seat": "B"
+    },
+    {
+      "request_id": "JG_SQ03_B1_J1",
+      "kind": "judge",
+      "case_id": "SQ03",
+      "bluffer_condition": "B1",
+      "judge_condition": "J1",
+      "model": "glm-5.3",
+      "depends_on": [
+        "SP_SQ03_READER",
+        "SP_SQ03_B1"
+      ],
+      "schedule_index": 7,
+      "reader_seat": "B"
+    },
+    {
+      "request_id": "SP_SQ04_READER",
+      "kind": "speaker",
+      "case_id": "SQ04",
+      "condition": "READER",
+      "model": "qwen3.8-max",
+      "depends_on": [],
+      "schedule_index": 8,
+      "reader_seat": "A",
+      "prompt_path": "prompts/SP_SQ04_READER.txt"
+    },
+    {
+      "request_id": "SP_SQ04_B0",
+      "kind": "speaker",
+      "case_id": "SQ04",
+      "condition": "B0",
+      "model": "qwen3.8-max",
+      "depends_on": [],
+      "schedule_index": 9,
+      "reader_seat": "A",
+      "prompt_path": "prompts/SP_SQ04_B0.txt"
+    },
+    {
+      "request_id": "SP_SQ04_B1",
+      "kind": "speaker",
+      "case_id": "SQ04",
+      "condition": "B1",
+      "model": "qwen3.8-max",
+      "depends_on": [],
+      "schedule_index": 10,
+      "reader_seat": "A",
+      "prompt_path": "prompts/SP_SQ04_B1.txt"
+    },
+    {
+      "request_id": "JG_SQ04_B0_J0",
+      "kind": "judge",
+      "case_id": "SQ04",
+      "bluffer_condition": "B0",
+      "judge_condition": "J0",
+      "model": "glm-5.3",
+      "depends_on": [
+        "SP_SQ04_READER",
+        "SP_SQ04_B0"
+      ],
+      "schedule_index": 11,
+      "reader_seat": "A"
+    },
+    {
+      "request_id": "JG_SQ04_B0_J1",
+      "kind": "judge",
+      "case_id": "SQ04",
+      "bluffer_condition": "B0",
+      "judge_condition": "J1",
+      "model": "glm-5.3",
+      "depends_on": [
+        "SP_SQ04_READER",
+        "SP_SQ04_B0"
+      ],
+      "schedule_index": 12,
+      "reader_seat": "A"
+    },
+    {
+      "request_id": "JG_SQ04_B1_J0",
+      "kind": "judge",
+      "case_id": "SQ04",
+      "bluffer_condition": "B1",
+      "judge_condition": "J0",
+      "model": "glm-5.3",
+      "depends_on": [
+        "SP_SQ04_READER",
+        "SP_SQ04_B1"
+      ],
+      "schedule_index": 13,
+      "reader_seat": "A"
+    },
+    {
+      "request_id": "JG_SQ04_B1_J1",
+      "kind": "judge",
+      "case_id": "SQ04",
+      "bluffer_condition": "B1",
+      "judge_condition": "J1",
+      "model": "glm-5.3",
+      "depends_on": [
+        "SP_SQ04_READER",
+        "SP_SQ04_B1"
+      ],
+      "schedule_index": 14,
+      "reader_seat": "A"
+    },
+    {
+      "request_id": "SP_SQ02_READER",
+      "kind": "speaker",
+      "case_id": "SQ02",
+      "condition": "READER",
+      "model": "qwen3.8-max",
+      "depends_on": [],
+      "schedule_index": 15,
+      "reader_seat": "B",
+      "prompt_path": "prompts/SP_SQ02_READER.txt"
+    },
+    {
+      "request_id": "SP_SQ02_B0",
+      "kind": "speaker",
+      "case_id": "SQ02",
+      "condition": "B0",
+      "model": "qwen3.8-max",
+      "depends_on": [],
+      "schedule_index": 16,
+      "reader_seat": "B",
+      "prompt_path": "prompts/SP_SQ02_B0.txt"
+    },
+    {
+      "request_id": "SP_SQ02_B1",
+      "kind": "speaker",
+      "case_id": "SQ02",
+      "condition": "B1",
+      "model": "qwen3.8-max",
+      "depends_on": [],
+      "schedule_index": 17,
+      "reader_seat": "B",
+      "prompt_path": "prompts/SP_SQ02_B1.txt"
+    },
+    {
+      "request_id": "JG_SQ02_B0_J0",
+      "kind": "judge",
+      "case_id": "SQ02",
+      "bluffer_condition": "B0",
+      "judge_condition": "J0",
+      "model": "glm-5.3",
+      "depends_on": [
+        "SP_SQ02_READER",
+        "SP_SQ02_B0"
+      ],
+      "schedule_index": 18,
+      "reader_seat": "B"
+    },
+    {
+      "request_id": "JG_SQ02_B0_J1",
+      "kind": "judge",
+      "case_id": "SQ02",
+      "bluffer_condition": "B0",
+      "judge_condition": "J1",
+      "model": "glm-5.3",
+      "depends_on": [
+        "SP_SQ02_READER",
+        "SP_SQ02_B0"
+      ],
+      "schedule_index": 19,
+      "reader_seat": "B"
+    },
+    {
+      "request_id": "JG_SQ02_B1_J0",
+      "kind": "judge",
+      "case_id": "SQ02",
+      "bluffer_condition": "B1",
+      "judge_condition": "J0",
+      "model": "glm-5.3",
+      "depends_on": [
+        "SP_SQ02_READER",
+        "SP_SQ02_B1"
+      ],
+      "schedule_index": 20,
+      "reader_seat": "B"
+    },
+    {
+      "request_id": "JG_SQ02_B1_J1",
+      "kind": "judge",
+      "case_id": "SQ02",
+      "bluffer_condition": "B1",
+      "judge_condition": "J1",
+      "model": "glm-5.3",
+      "depends_on": [
+        "SP_SQ02_READER",
+        "SP_SQ02_B1"
+      ],
+      "schedule_index": 21,
+      "reader_seat": "B"
+    },
+    {
+      "request_id": "SP_SQ01_READER",
+      "kind": "speaker",
+      "case_id": "SQ01",
+      "condition": "READER",
+      "model": "qwen3.8-max",
+      "depends_on": [],
+      "schedule_index": 22,
+      "reader_seat": "A",
+      "prompt_path": "prompts/SP_SQ01_READER.txt"
+    },
+    {
+      "request_id": "SP_SQ01_B0",
+      "kind": "speaker",
+      "case_id": "SQ01",
+      "condition": "B0",
+      "model": "qwen3.8-max",
+      "depends_on": [],
+      "schedule_index": 23,
+      "reader_seat": "A",
+      "prompt_path": "prompts/SP_SQ01_B0.txt"
+    },
+    {
+      "request_id": "SP_SQ01_B1",
+      "kind": "speaker",
+      "case_id": "SQ01",
+      "condition": "B1",
+      "model": "qwen3.8-max",
+      "depends_on": [],
+      "schedule_index": 24,
+      "reader_seat": "A",
+      "prompt_path": "prompts/SP_SQ01_B1.txt"
+    },
+    {
+      "request_id": "JG_SQ01_B0_J0",
+      "kind": "judge",
+      "case_id": "SQ01",
+      "bluffer_condition": "B0",
+      "judge_condition": "J0",
+      "model": "glm-5.3",
+      "depends_on": [
+        "SP_SQ01_READER",
+        "SP_SQ01_B0"
+      ],
+      "schedule_index": 25,
+      "reader_seat": "A"
+    },
+    {
+      "request_id": "JG_SQ01_B0_J1",
+      "kind": "judge",
+      "case_id": "SQ01",
+      "bluffer_condition": "B0",
+      "judge_condition": "J1",
+      "model": "glm-5.3",
+      "depends_on": [
+        "SP_SQ01_READER",
+        "SP_SQ01_B0"
+      ],
+      "schedule_index": 26,
+      "reader_seat": "A"
+    },
+    {
+      "request_id": "JG_SQ01_B1_J0",
+      "kind": "judge",
+      "case_id": "SQ01",
+      "bluffer_condition": "B1",
+      "judge_condition": "J0",
+      "model": "glm-5.3",
+      "depends_on": [
+        "SP_SQ01_READER",
+        "SP_SQ01_B1"
+      ],
+      "schedule_index": 27,
+      "reader_seat": "A"
+    },
+    {
+      "request_id": "JG_SQ01_B1_J1",
+      "kind": "judge",
+      "case_id": "SQ01",
+      "bluffer_condition": "B1",
+      "judge_condition": "J1",
+      "model": "glm-5.3",
+      "depends_on": [
+        "SP_SQ01_READER",
+        "SP_SQ01_B1"
+      ],
+      "schedule_index": 28,
+      "reader_seat": "A"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "request_id": "SP_SQ04_READER",
+  "model": "qwen3.8-max",
+  "kind": "speaker",
+  "case_id": "SQ04",
+  "prompt_sha256": "0a15f6476eb65bb5f6fe062e936af54f2bc8a8e25aaa4c30285bd67bf17f1519",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T04:51:53.661219+00:00",
+  "visible_text": "{\n  \"answers\": [\n    {\n      \"question_id\": \"Q1\",\n      \"answer\": \"Twelve adults completed the picture-prompt set.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"answer\": \"The dossier does not state what time of day most elicitation sessions began.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"answer\": \"Forty-one firsthand descriptions contained the suffix -ra.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"answer\": \"The dossier does not provide the ages needed to calculate a median age.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"answer\": \"The set contained eighteen picture prompts.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"answer\": \"The dossier does not give the participant's pseudonym; it only records that a speaker from Neral village corrected the label.\"\n    }\n  ]\n}",
+  "parsed": {
+    "answers": {
+      "Q1": "Twelve adults completed the picture-prompt set.",
+      "Q2": "The dossier does not state what time of day most elicitation sessions began.",
+      "Q3": "Forty-one firsthand descriptions contained the suffix -ra.",
+      "Q4": "The dossier does not provide the ages needed to calculate a median age.",
+      "Q5": "The set contained eighteen picture prompts.",
+      "Q6": "The dossier does not give the participant's pseudonym; it only records that a speaker from Neral village corrected the label."
+    }
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 961,
+    "output_tokens": 838,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "speaker_condition": "READER",
+  "http_status": 200,
+  "elapsed_seconds": 24.329,
+  "captured_utc": "2026-10-08T04:52:17.990295+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-08T04:44:38.146687+00:00",
+  "experimental_requests_at_freeze": 0,
+  "hashes": {
+    "manifest.json": "7648fabc763432e837ea6f0344d0d5d34f769ac94c645415e94bf27650367d52",
+    "schedule.json": "994e40d490b54c9b091053d160b7f2662e5768bc72f33c44f9972a082ad34fa8",
+    "inputs/materials_20261008.json": "d08c6f97c9cff299445c3b77a8aa56d1d23248127aab84efefe0205f5b61f0e1",
+    "inputs/PROMPT_MODULES_20261008.json": "f4af20ff884ae8c5c92f2a4e02c0813ff4d2e5478146083f685c21dea2caf924",
+    "inputs/judge_examples_20261008.json": "aee2faee92b96855a1121c3b2e9722ccaea9d6175e2566dd0190f14f72c80ed7",
+    "inputs/PROTOCOL_20261008.md": "10091d13252292073079ce6b3d64116deb5b463c927be67894610de8671578ee",
+    "inputs/run_strategic_qualification.py": "4ed6381f1399ccbe9e68cff61737f19bc8d5a27eeec017273c60aea56ae17123",
+    "prompts/SP_SQ03_READER.txt": "7b185dfc2937f2205079e42c6c65564044baa9a95beac72458211ad882f427e8",
+    "prompts/SP_SQ03_B0.txt": "2a1c18fa98300ce1a383e113bb12634ccb576ca327a568160c02575d19f07695",
+    "prompts/SP_SQ03_B1.txt": "11643f017404c2c077fd44088996c1171ff3fb0921f972607204e4889da8232c",
+    "prompts/SP_SQ04_READER.txt": "0a15f6476eb65bb5f6fe062e936af54f2bc8a8e25aaa4c30285bd67bf17f1519",
+    "prompts/SP_SQ04_B0.txt": "201696ea16309dcf635e393fc25d06c1f0f27ba73608d4c53bd433af63e6d361",
+    "prompts/SP_SQ04_B1.txt": "7037448d2a74ca562fd396b9a6c99fd9461aa8f6f2650979b03ef3f38fd09b36",
+    "prompts/SP_SQ02_READER.txt": "d13b0dd326309f82fb6e7846ef3c679930eca5ecbb1610596e966bf0ca926922",
+    "prompts/SP_SQ02_B0.txt": "88adf352a26db7e2eceddf7ef3fa84d23ee095a02e3614d2c7f106a1f75f6f19",
+    "prompts/SP_SQ02_B1.txt": "db9df6f9b3909f0a493b0802df4b6d88ad095d75e22f3c67104751839b96e5df",
+    "prompts/SP_SQ01_READER.txt": "eba3d139a79165e5c1db611cee87794914f4b3294d815b65e0891d34b249102c",
+    "prompts/SP_SQ01_B0.txt": "91d38253474c526f07f7f4e0f9d7a69bf195a447f8e43d40fa7b12642fba1bb0",
+    "prompts/SP_SQ01_B1.txt": "ae71bced29dd22d15a7c5ea0c5d367eddf5fdd4a6f1c10299bf3412f460b45fe"
+  },
+  "source_hashes": {
+    "runner": "4ed6381f1399ccbe9e68cff61737f19bc8d5a27eeec017273c60aea56ae17123",
+    "materials_20261008.json": "d08c6f97c9cff299445c3b77a8aa56d1d23248127aab84efefe0205f5b61f0e1",
+    "PROMPT_MODULES_20261008.json": "f4af20ff884ae8c5c92f2a4e02c0813ff4d2e5478146083f685c21dea2caf924",
+    "judge_examples_20261008.json": "aee2faee92b96855a1121c3b2e9722ccaea9d6175e2566dd0190f14f72c80ed7",
+    "PROTOCOL_20261008.md": "10091d13252292073079ce6b3d64116deb5b463c927be67894610de8671578ee"
+  }
+}

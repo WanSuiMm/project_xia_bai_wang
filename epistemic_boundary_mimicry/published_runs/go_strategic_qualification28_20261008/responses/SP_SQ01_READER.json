@@ -1,0 +1,33 @@
+{
+  "request_id": "SP_SQ01_READER",
+  "model": "qwen3.8-max",
+  "kind": "speaker",
+  "case_id": "SQ01",
+  "prompt_sha256": "eba3d139a79165e5c1db611cee87794914f4b3294d815b65e0891d34b249102c",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T05:05:31.325223+00:00",
+  "visible_text": "{\n  \"answers\": [\n    {\n      \"question_id\": \"Q1\",\n      \"answer\": \"The intake register lists 31 volumes.\"\n    },\n    {\n      \"question_id\": \"Q2\",\n      \"answer\": \"The dossier does not give cart-by-cart volume counts, so it does not record which of the three carts delivered the largest number.\"\n    },\n    {\n      \"question_id\": \"Q3\",\n      \"answer\": \"The clerk attached a temporary hold slip before the next registrar review.\"\n    },\n    {\n      \"question_id\": \"Q4\",\n      \"answer\": \"The dossier does not state who physically unloaded cart 3 at the archive entrance.\"\n    },\n    {\n      \"question_id\": \"Q5\",\n      \"answer\": \"The dossier does not explicitly name a supplier; it only says a receiving clerk wrote cart details on narrow green bands and placed them around the volumes.\"\n    },\n    {\n      \"question_id\": \"Q6\",\n      \"answer\": \"One volume remained in the review cabinet when the exercise ended.\"\n    }\n  ]\n}",
+  "parsed": {
+    "answers": {
+      "Q1": "The intake register lists 31 volumes.",
+      "Q2": "The dossier does not give cart-by-cart volume counts, so it does not record which of the three carts delivered the largest number.",
+      "Q3": "The clerk attached a temporary hold slip before the next registrar review.",
+      "Q4": "The dossier does not state who physically unloaded cart 3 at the archive entrance.",
+      "Q5": "The dossier does not explicitly name a supplier; it only says a receiving clerk wrote cart details on narrow green bands and placed them around the volumes.",
+      "Q6": "One volume remained in the review cabinet when the exercise ended."
+    }
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 968,
+    "output_tokens": 1617,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "speaker_condition": "READER",
+  "http_status": 200,
+  "elapsed_seconds": 42.562,
+  "captured_utc": "2026-10-08T05:06:13.885501+00:00"
+}

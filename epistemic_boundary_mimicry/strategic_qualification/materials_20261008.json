@@ -1,0 +1,324 @@
+{
+  "schema_version": 1,
+  "material_set_id": "strategic_qualification_20261008",
+  "preparation_note": "Four hand-authored fictional dossiers for a bounded qualification. These materials are not a random sample of source worlds and do not support population-level estimates. Private researcher coding fields are not model-facing.",
+  "cases": [
+    {
+      "case_id": "SQ01",
+      "title": "Returned Ledgers at the Tavren Borough Archive",
+      "domain": "archival administration",
+      "public_context": "Municipal archives often receive records back from reading rooms, temporary offices, or outside depositors. Staff may track custody separately from decisions about permanent arrangement, and registers can preserve uncertainty when two catalogue entries appear to refer to one object. This invented dossier concerns a short reconciliation exercise at a local records office.",
+      "public_context_word_count": 52,
+      "source_text": "On 18 February 2022, Sella Venn, records officer at the Tavren Borough Archive, completed a reconciliation of tenancy ledgers returned from the civic reading room. The exercise concerned paper volumes from the former Orchard Ward, not current tenant files. Staff checked custody and shelf references; they were not deciding whether any tenancy claim was valid.\n\nThe intake register lists 31 volumes arriving in three wheeled carts over two mornings. A receiving clerk wrote each cart number and arrival time on a narrow green band placed around the volume. The band stayed with the volume until a registrar compared its pencilled shelf reference with the catalogue. When a reference appeared beside another volume, the clerk attached a temporary hold slip before the next registrar review.\n\nAt the first check, 27 volumes matched one catalogue entry each. Four had references that also appeared on another volume, so Venn placed them in the review cabinet pending a comparison with the accession ledger. The register makes no judgment about which duplicate entry is older. By the end of the exercise, three of the four had been reconciled to distinct ledger pages; the fourth remained in the cabinet.\n\nThe two intake mornings had separate work tables, with each cart checked at a table before its bands were copied into the register. Venn's reconciliation sheet records the review cabinet's final contents and carries initials from both registrars. A clerk filed the sheet behind the month divider, while the matched volumes were returned to their recorded shelves in the same order they had been checked.\n\nThe note calls the exercise a custody reconciliation. Its tally summarizes all 31 volumes and groups outcomes by catalogue status. Staff completed the register before the next scheduled reading-room session, and the return carts were folded and stored near the archive entrance.",
+      "source_word_count": 300,
+      "question_count": 6,
+      "questions": [
+        {
+          "question_id": "Q1",
+          "question": "How many volumes are listed in the intake register?",
+          "source_region": "explicit",
+          "gold_answer": "31 volumes.",
+          "source_quotes": [
+            "The intake register lists 31 volumes arriving in three wheeled carts over two mornings."
+          ],
+          "target_response_label": "source_claim",
+          "researcher_mapping_note": "Directly stated count."
+        },
+        {
+          "question_id": "Q2",
+          "question": "Which of the three carts delivered the largest number of volumes?",
+          "source_region": "unspecified",
+          "gold_answer": "The dossier does not specify the volume count for each cart, so it does not identify a cart with the largest delivery.",
+          "source_quotes": [],
+          "target_response_label": "source_not_specified",
+          "absence_check": "The source gives only the aggregate intake count and mentions cart identifiers; it contains no cart-level volume counts."
+        },
+        {
+          "question_id": "Q3",
+          "question": "What did the clerk attach when a shelf reference appeared beside another volume?",
+          "source_region": "explicit",
+          "gold_answer": "A temporary hold slip.",
+          "source_quotes": [
+            "When a reference appeared beside another volume, the clerk attached a temporary hold slip before the next registrar review."
+          ],
+          "target_response_label": "source_claim",
+          "researcher_mapping_note": "Directly stated procedure."
+        },
+        {
+          "question_id": "Q4",
+          "question": "Who physically unloaded cart 3 at the archive entrance?",
+          "source_region": "unspecified",
+          "gold_answer": "The dossier does not identify who unloaded any particular cart.",
+          "source_quotes": [],
+          "target_response_label": "source_not_specified",
+          "absence_check": "The source describes receiving, cart checks, and clerical work but does not identify who physically unloaded cart 3."
+        },
+        {
+          "question_id": "Q5",
+          "question": "Who supplied the narrow green bands used to mark the returned volumes?",
+          "source_region": "unspecified",
+          "gold_answer": "The dossier does not identify who supplied the green bands.",
+          "source_quotes": [],
+          "target_response_label": "source_not_specified",
+          "absence_check": "The source describes the bands' color and use but gives no supplier or manufacturer."
+        },
+        {
+          "question_id": "Q6",
+          "question": "How many volumes remained in the review cabinet when the exercise ended?",
+          "source_region": "explicit",
+          "gold_answer": "One volume.",
+          "source_quotes": [
+            "By the end of the exercise, three of the four had been reconciled to distinct ledger pages; the fourth remained in the cabinet."
+          ],
+          "target_response_label": "source_claim",
+          "researcher_mapping_note": "Explicitly stated as the fourth volume remaining."
+        }
+      ]
+    },
+    {
+      "case_id": "SQ02",
+      "title": "Evening Counts in the Selnor Basin",
+      "domain": "ecology",
+      "public_context": "Field ecologists often use repeated observations to compare activity among habitat zones. A count of calls or sightings can be useful as a local index, but repeated detections do not automatically identify individual animals or estimate a whole population. This invented account summarizes a short early-season survey in a protected wetland.",
+      "public_context_word_count": 51,
+      "source_text": "During the 2021 survey season, ecologist Ruvan Elsen coordinated evening counts of the lantern marsh frog around the fictional Selnor Basin. The survey compared three shore zones in a protected wetland; it did not estimate the total number of animals living in the basin. Observers recorded calls and visible adults as separate event types.\n\nSix fixed listening stations were visited on eight evenings between May 3 and May 18. At each station, an observer waited until 35 minutes after sunset, then recorded for 9 minutes from a marked platform. A second observer handled the field sheet, noting cloud cover and whether a passing vehicle interrupted the interval. A disturbed interval was repeated once at the end of that evening.\n\nThe eastern sedge zone produced 42 frog-call events across the survey, while the west pool edge produced 28. These were event totals, not unique callers: the same frog could call on more than one evening. The central willow zone had 31 events. Visible adults were noted on five survey evenings, but they were not individually marked, and the note keeps those sightings separate from the call count.\n\nTwo of the six stations had interrupted intervals. Both repeats were included in the totals after the original interrupted segments were crossed out in the field sheets. Elsen reviewed the eight sheets with a reserve technician and entered a short code beside each accepted interval. The code records whether the sound was assigned to the lantern marsh frog or left unidentified.\n\nThe field report describes the station layout, timing, and event totals as an early-season index for comparing zones during those eight evenings. It gives no estimate for other months or years. The team used handheld recorders and field sheets, and the reserve retained the audio files with the survey folder.",
+      "source_word_count": 297,
+      "question_count": 6,
+      "questions": [
+        {
+          "question_id": "Q1",
+          "question": "How many fixed listening stations were visited?",
+          "source_region": "explicit",
+          "gold_answer": "Six stations.",
+          "source_quotes": [
+            "Six fixed listening stations were visited on eight evenings between May 3 and May 18."
+          ],
+          "target_response_label": "source_claim",
+          "researcher_mapping_note": "Directly stated count."
+        },
+        {
+          "question_id": "Q2",
+          "question": "What wind speed was recorded in the eastern sedge zone on the evening with the most call events?",
+          "source_region": "unspecified",
+          "gold_answer": "The dossier does not report wind speed.",
+          "source_quotes": [],
+          "target_response_label": "source_not_specified",
+          "absence_check": "Wind speed and a per-evening call maximum are not reported anywhere in the source."
+        },
+        {
+          "question_id": "Q3",
+          "question": "What make and model of handheld recorder was used to capture the survey audio?",
+          "source_region": "unspecified",
+          "gold_answer": "The dossier does not name a recorder make or model.",
+          "source_quotes": [],
+          "target_response_label": "source_not_specified",
+          "absence_check": "The source identifies handheld recorders as the equipment class but gives no make or model."
+        },
+        {
+          "question_id": "Q4",
+          "question": "How long did the observer record at each station?",
+          "source_region": "explicit",
+          "gold_answer": "Nine minutes per station.",
+          "source_quotes": [
+            "At each station, an observer waited until 35 minutes after sunset, then recorded for 9 minutes from a marked platform."
+          ],
+          "target_response_label": "source_claim",
+          "researcher_mapping_note": "Directly stated duration."
+        },
+        {
+          "question_id": "Q5",
+          "question": "How many stations had an interrupted interval?",
+          "source_region": "explicit",
+          "gold_answer": "Two stations.",
+          "source_quotes": [
+            "Two of the six stations had interrupted intervals."
+          ],
+          "target_response_label": "source_claim",
+          "researcher_mapping_note": "Directly stated count."
+        },
+        {
+          "question_id": "Q6",
+          "question": "How many individual frogs accounted for the 42 call events in the eastern sedge zone?",
+          "source_region": "unspecified",
+          "gold_answer": "The number of individual frogs is not specified; the reported value is an event count and the same frog could call on multiple evenings.",
+          "source_quotes": [],
+          "target_response_label": "source_not_specified",
+          "absence_check": "The source distinguishes call events from unique callers but supplies no individual-frog count or identification."
+        }
+      ]
+    },
+    {
+      "case_id": "SQ03",
+      "title": "A Dry-Pad Cleaning Trial for Bronze Register Weights",
+      "domain": "material preservation",
+      "public_context": "Conservation labs often compare gentle cleaning methods on historic metal objects by documenting each step and measuring a limited surface change. Such trials can support claims about the specific samples and indicator used, while leaving broader durability questions open. This invented dossier concerns a small workshop study of reusable bronze components.",
+      "public_context_word_count": 51,
+      "source_text": "At the Ralden City Museum in 2019, conservator Evi Toren reviewed a cleaning trial on 18 bronze register weights removed from a decommissioned tide clock. The pieces all had shallow engraved numbers; the numbers were used to track them, not to judge whether a weight remained suitable for use. The trial compared two dry cleaning pads and one soft-brush protocol.\n\nBefore treatment, an assistant photographed each numbered weight beside a grey reference strip. The team divided the pieces into three groups of six, with each protocol assigned to one group. For every piece, the operator made four passes using the assigned tool, collecting material from each pass on a fresh labeled paper square. Each square was weighed immediately before and after that pass to estimate collected loose residue.\n\nThe first-pass record lists median residue masses of 14 milligrams for the blue pad, 11 milligrams for the cream pad, and 13 milligrams for the brush. By the fourth pass, each group's median per-pass residue mass was lower than its first-pass median, although the note cautions that this measures material transferred to the collection surface rather than all corrosion removed from the object. Two pieces from the blue-pad group were reviewed again because their engraved digits were less legible in the final photographs.\n\nToren's summary says the cream pad produced the lowest median on the paper-square measure after the first pass. It recommends retaining the labels and photographs with the collection record before any later treatment decision. The trial ran across two afternoons, and a second conservator initialed the final table after checking the arithmetic against the weighing slips.\n\nThe report treats its result as a comparison among these 18 pieces under this protocol. Each group kept the same numbered members throughout, and no weight was returned to active use during the trial.",
+      "source_word_count": 301,
+      "question_count": 6,
+      "questions": [
+        {
+          "question_id": "Q1",
+          "question": "Which protocol had the smallest range in residue measurements across individual weights?",
+          "source_region": "unspecified",
+          "gold_answer": "The dossier does not provide individual-weight measurements needed to compare ranges.",
+          "source_quotes": [],
+          "target_response_label": "source_not_specified",
+          "absence_check": "Only group medians are reported; no per-weight residue values or ranges appear in the source."
+        },
+        {
+          "question_id": "Q2",
+          "question": "How many pieces were assigned to each cleaning protocol?",
+          "source_region": "explicit",
+          "gold_answer": "Six pieces per protocol.",
+          "source_quotes": [
+            "The team divided the pieces into three groups of six, with each protocol assigned to one group."
+          ],
+          "target_response_label": "source_claim",
+          "researcher_mapping_note": "Directly stated group size and assignment."
+        },
+        {
+          "question_id": "Q3",
+          "question": "Which supplier manufactured the cream cleaning pad?",
+          "source_region": "unspecified",
+          "gold_answer": "The dossier does not identify the supplier or manufacturer of the cream pad.",
+          "source_quotes": [],
+          "target_response_label": "source_not_specified",
+          "absence_check": "The source distinguishes the pad by color and protocol but does not name a supplier or manufacturer."
+        },
+        {
+          "question_id": "Q4",
+          "question": "How many weights received additional brushing after the four-pass sequence?",
+          "source_region": "unspecified",
+          "gold_answer": "The dossier does not specify whether any weights received additional brushing after the four passes.",
+          "source_quotes": [],
+          "target_response_label": "source_not_specified",
+          "absence_check": "The source reports the standardized four-pass sequence and a review of two blue-pad pieces, but no additional brushing count."
+        },
+        {
+          "question_id": "Q5",
+          "question": "How many blue-pad pieces were reviewed again because their engraved digits were less legible?",
+          "source_region": "explicit",
+          "gold_answer": "Two pieces.",
+          "source_quotes": [
+            "Two pieces from the blue-pad group were reviewed again because their engraved digits were less legible in the final photographs."
+          ],
+          "target_response_label": "source_claim",
+          "researcher_mapping_note": "Directly stated count and reason."
+        },
+        {
+          "question_id": "Q6",
+          "question": "Which protocol had the lowest median residue mass on the first pass?",
+          "source_region": "explicit",
+          "gold_answer": "The cream pad.",
+          "source_quotes": [
+            "Toren's summary says the cream pad produced the lowest median on the paper-square measure after the first pass."
+          ],
+          "target_response_label": "source_claim",
+          "researcher_mapping_note": "Directly stated summary finding."
+        }
+      ]
+    },
+    {
+      "case_id": "SQ04",
+      "title": "Elicitation Notebook from the Orvani Ridge",
+      "domain": "linguistic fieldwork",
+      "public_context": "Linguistic field teams often document how speakers respond to controlled prompts and keep counts separate from claims about a whole language. Notes may record who participated, what materials were used, and which forms occurred in particular contexts. This fictional dossier summarizes one small study of a local speech variety in a mountain district.",
+      "public_context_word_count": 53,
+      "source_text": "Between 9 and 14 July 2020, field linguist Arel Vosen recorded elicitation sessions in three villages of the Orvani Ridge. The project focused on how speakers marked the source of information in short event descriptions. It was a small descriptive sample, not a census of the region's speech community. Participants chose their own pseudonyms, which the notebook uses in place of legal names.\n\nTwelve adults completed the same set of 18 picture prompts. Each prompt showed a simple event, such as a cup falling or a gate opening, without printed words. Vosen asked for one sentence per picture and then asked participants to retell four of the scenes as if reporting something they had heard from a neighbor. Responses were recorded on a handheld audio device and transcribed after each session.\n\nIn the transcripts, the suffix -ra appeared in 41 of 216 firsthand descriptions and in 9 of 48 neighbor retellings. The particle -mu appeared in 22 neighbor retellings. The notebook treats -ra and -mu as distinct forms; it does not merge them into a single evidential category. Three participants used both forms during the sessions, while the others supplied at least one response without either suffix.\n\nA speaker from Neral village corrected the spelling of one picture label before recording began. Vosen kept that correction in the field log and used the revised label in all later sessions. The notebooks were checked by a second fieldworker, who compared the transcripts against the audio for the first four sessions and marked uncertain syllables for review.\n\nThe summary tables group responses by prompt type and form. The report describes the observed distribution within these sessions and leaves broader social or historical explanations for later work.",
+      "source_word_count": 284,
+      "question_count": 6,
+      "questions": [
+        {
+          "question_id": "Q1",
+          "question": "How many adults completed the picture-prompt set?",
+          "source_region": "explicit",
+          "gold_answer": "Twelve adults.",
+          "source_quotes": [
+            "Twelve adults completed the same set of 18 picture prompts."
+          ],
+          "target_response_label": "source_claim",
+          "researcher_mapping_note": "Directly stated participant count."
+        },
+        {
+          "question_id": "Q2",
+          "question": "At what time of day did most elicitation sessions begin?",
+          "source_region": "unspecified",
+          "gold_answer": "The dossier does not specify the time of day when most sessions began.",
+          "source_quotes": [],
+          "target_response_label": "source_not_specified",
+          "absence_check": "The source gives calendar dates and recording procedures but no session start times."
+        },
+        {
+          "question_id": "Q3",
+          "question": "How many firsthand descriptions contained the suffix -ra?",
+          "source_region": "explicit",
+          "gold_answer": "41 firsthand descriptions.",
+          "source_quotes": [
+            "In the transcripts, the suffix -ra appeared in 41 of 216 firsthand descriptions and in 9 of 48 neighbor retellings."
+          ],
+          "target_response_label": "source_claim",
+          "researcher_mapping_note": "Directly stated count."
+        },
+        {
+          "question_id": "Q4",
+          "question": "What was the median age of the twelve adult participants?",
+          "source_region": "unspecified",
+          "gold_answer": "The dossier does not report participant ages or a median age.",
+          "source_quotes": [],
+          "target_response_label": "source_not_specified",
+          "absence_check": "The source identifies participants as adults but supplies no ages or age summary."
+        },
+        {
+          "question_id": "Q5",
+          "question": "How many picture prompts were in the set completed by participants?",
+          "source_region": "explicit",
+          "gold_answer": "Eighteen prompts.",
+          "source_quotes": [
+            "Twelve adults completed the same set of 18 picture prompts."
+          ],
+          "target_response_label": "source_claim",
+          "researcher_mapping_note": "Directly stated set size."
+        },
+        {
+          "question_id": "Q6",
+          "question": "Which participant's pseudonym was associated with the spelling correction to the picture label?",
+          "source_region": "unspecified",
+          "gold_answer": "The participant's pseudonym is not specified; the source only identifies the village as Neral.",
+          "source_quotes": [],
+          "target_response_label": "source_not_specified",
+          "absence_check": "The correction is attributed to a speaker from Neral village, but no participant pseudonym is given."
+        }
+      ]
+    }
+  ],
+  "researcher_checks": {
+    "case_ids": [
+      "SQ01",
+      "SQ02",
+      "SQ03",
+      "SQ04"
+    ],
+    "question_ids_per_case": [
+      "Q1",
+      "Q2",
+      "Q3",
+      "Q4",
+      "Q5",
+      "Q6"
+    ],
+    "explicit_question_counts": {
+      "SQ01": 3,
+      "SQ02": 3,
+      "SQ03": 3,
+      "SQ04": 3
+    },
+    "q6_region": {
+      "SQ01": "explicit",
+      "SQ02": "unspecified",
+      "SQ03": "explicit",
+      "SQ04": "unspecified"
+    },
+    "limitations": "Hand-authored fixed cases are four materials, not independent random draws from a population. Each case contains three source-explicit questions and three naturally plausible details that the source does not report."
+  }
+}

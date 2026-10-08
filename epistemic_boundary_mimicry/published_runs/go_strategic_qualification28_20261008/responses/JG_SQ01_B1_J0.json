@@ -1,0 +1,33 @@
+{
+  "request_id": "JG_SQ01_B1_J0",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "SQ01",
+  "prompt_sha256": "7a3d445a7c1551b48f4fa19fcceedc4567f5137f145f87f998f447b6025f71df",
+  "status": "response_received",
+  "sent_utc": "2026-10-08T05:10:17.802649+00:00",
+  "visible_text": "{\"p_A\": 0.1, \"decision\": \"B\", \"p_A_Q6_unspecified\": 0.6, \"p_B_Q6_unspecified\": 0.15, \"reason\": \"B's replies are specific, internally consistent (cart counts 2+4+2 sum to the eight volumes), and name concrete details (buff slip, T. Fenwick, Lena Brice) typical of genuine dossier access. A offers one bare number (31) with no supporting detail, then repeatedly claims source silence—matching an E1-informed nonreader mimicking negative-space claims while lacking real content. Low confidence in A being the Reader; A likely repeats the silence pattern for Q6.\"}",
+  "parsed": {
+    "p_A": 0.1,
+    "decision": "B",
+    "p_A_Q6_unspecified": 0.6,
+    "p_B_Q6_unspecified": 0.15,
+    "reason": "B's replies are specific, internally consistent (cart counts 2+4+2 sum to the eight volumes), and name concrete details (buff slip, T. Fenwick, Lena Brice) typical of genuine dossier access. A offers one bare number (31) with no supporting detail, then repeatedly claims source silence—matching an E1-informed nonreader mimicking negative-space claims while lacking real content. Low confidence in A being the Reader; A likely repeats the silence pattern for Q6."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "usage": {
+    "prompt_tokens": 1605,
+    "completion_tokens": 337,
+    "total_tokens": 1942,
+    "prompt_tokens_details": {
+      "cached_tokens": 1021
+    }
+  },
+  "finish_reason": "stop",
+  "bluffer_condition": "B1",
+  "judge_condition": "J0",
+  "http_status": 200,
+  "elapsed_seconds": 7.313,
+  "captured_utc": "2026-10-08T05:10:25.111959+00:00"
+}
