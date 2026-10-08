@@ -1,4 +1,22 @@
-# Latest incremental review: all-unit source and interrogation audit
+# Latest incremental review: frozen replay and supplementary completion
+
+Review base: `af15fd160e070ec39bb6a60c2d4f64a3474fee8d`.
+Evidence head: `918400eb629616bf88eaafc44fe154dd8d468c99`.
+This subsequent handoff commit is metadata-only; the evidence head stays fixed.
+
+Read [delivery and interpretation](epistemic_boundary_mimicry/replay_r0/DELIVERY_20261008.md), [original registered results](epistemic_boundary_mimicry/replay_r0/RESULTS_20261007.md), [small completion summary](epistemic_boundary_mimicry/published_runs/go_frozen_replay_r0_completion_20261008/summary.json), then [frozen protocol](epistemic_boundary_mimicry/replay_r0/PROTOCOL_20261007.md) and [five-position engineering amendment](epistemic_boundary_mimicry/replay_r0/SUPPLEMENT05_LOW_PROTOCOL_20261008.md). Exact prompts and allowlisted responses are secondary evidence; do not reread all unchanged trajectories first. The supplied [v1.0 formalization](XiaBaiWang_Statistical_ToM_Formalization_20261007.md) predates collection and does not supersede actual execution records.
+
+New evidence: seven fixed complete dialogues × two models × Blind/Informed × three repeats, 84 original attempts and 77 valid responses. Both models' 42/42 Informed replies are p_A=.5/ABSTAIN. Blind is also mostly null-consistent. Qwen's complete original effect is .008472, concentrated entirely in EB05, with the prespecified conservative interval including zero. GLM original Blind is 14/21; preserve its seven missing positions and fixed-weight completion bounds [.005139, .074583], rather than imputing supplementary replies into the registered primary result.
+
+Recovery evidence is separate: two valid replies in earlier supplements, then five user-authorized low-reasoning requests, all valid p_A=.5/ABSTAIN. The first-valid overlay now covers 84/84 original positions; GLM Blind is 21/21 with descriptive risk .011042. The last five retain exact prompts, model, temperature and parser but request reasoning_effort=low. This is mixed-configuration, failure-selected completion, not 84 clean registered successes or a controlled reasoning intervention. Earlier dispatched-without-response attempts remain unknown. All five new receipts were saved before a final status-file PermissionError; source INTERRUPTED metadata is preserved and hash-bound derived evidence confirms response completion. No outstanding new request.
+
+Unchanged: all old 13 trajectories, six material families, 107 answer events, source-relative audit labels, original terminals, the seven terminal-blind replay payloads and all earlier failed prefixes. Arena and API studies are not pooled. Random target designation is not exclusive original source access. No population calibration, model ranking, general ToM, interrogation benefit or internal Bayesian mechanism is established. The data do not support a stable violation of the explicitly disclosed independent-target mechanism.
+
+Verification from a fresh staged checkout, without private runs or credentials: `python -X utf8 -B scripts/publish_frozen_replay_r0.py` and `python -X utf8 -B scripts/publish_frozen_replay_r0_completion.py` passed. Existing `audit_claim_corpus.py` and `audit_offline_coding.py` also passed. Public hashes, strict parsing, exact-prompt mapping, original-position deduplication, aggregate reproduction and local Markdown links were checked. Staged content passed whitespace, credential, private-URL and machine-path scans. The included standard-library mathematics checks passed in an isolated copy; numerical checks do not replace proofs.
+
+Reviewer questions: Does explicit mechanism disclosure yield appropriately limited null-consistent reporting, without implying general evidence-use ability? How much of the original Blind contrast survives its concentration in EB05 and GLM's informative missingness? Are registered results, same-setting recovery and changed-setting completion kept distinct? Which minimal fixed-transcript control would distinguish correct null reporting from indiscriminate .5 reporting? No additional experiment is launched by this handoff.
+
+# Previous incremental review: all-unit source and interrogation audit
 
 Review base: `5b274e21eeb178b197ae976adc38db889517d51c`.
 Evidence head: `6732aec51fafb00ca2073203e618b3b8d575aab5`.
