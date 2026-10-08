@@ -1,4 +1,31 @@
-# Latest incremental review: Counterfactual Source Boundary qualification
+# Latest incremental review: JES32 known-mechanism completion
+
+Review base: `a87fe8c236129a0938b1d59fd0fa75cce0bb7276`.
+Evidence head: `d6fd205ad51ac6a7bd24fb12618b807b0cd77e04`.
+This later handoff commit changes review metadata only; the evidence head remains fixed.
+
+Minimal reading order:
+
+1. [JES32 aggregate results and all three deviations](epistemic_boundary_mimicry/joint_epistemic_simulation/RESULTS_20261009.md).
+2. [Frozen known-mechanism protocol](epistemic_boundary_mimicry/joint_epistemic_simulation/PROTOCOL_20261008.md).
+3. [Failure-selected completion amendment](epistemic_boundary_mimicry/joint_epistemic_simulation/SUPPLEMENT_PROTOCOL_20261009.md).
+4. [Public evidence and offline reproduction](epistemic_boundary_mimicry/published_runs/go_joint_epistemic_simulation32_completion_20261009/README.md), then its small results/verification files. Per-request records and unchanged old interaction logs are secondary.
+
+New evidence: one fictional harbor mechanism with programmatic participants and identical answer rendering. Reader vectors are 00 or 11 with equal probability; MARGINAL non-readers use two independent fair coins, JOINT non-readers repeat one fair coin. The Judge knows the generation rules and equal seat prior. Each of two models receives the exhaustive 12 MARGINAL and 4 JOINT positive-support packets once. Exact posterior and prior-predictive weights are given by the frozen host mechanism, not estimated Actor behavior.
+
+Completion: 32 selected strict-valid slots across 33 physical attempts. Original run retains two strict-valid responses, a strict-invalid third duplicate-trailer response, and 29 unsent slots; its registered summary remains INCOMPLETE. The separately frozen supplement tries exactly those 30 non-valid slots once, preserving all prompts and model settings. All 30 replies pass the original strict parser, so the new narrow duplicate-trailer exception is used zero times. No substantive error is regenerated, no best-of selection is used, and strict-only completion agrees with the amended-parser overlay.
+
+Result: predictive-weighted posterior squared error is GLM/MARGINAL .018896604938, GLM/JOINT 0, Qwen/MARGINAL 0 and Qwen/JOINT 0. The original gate requires every cell <= .01, so the overall finite qualification is FAIL. All ambiguous stimuli produce .5/ABSTAIN. Qwen recovers every diagnostic posterior; GLM has three MARGINAL probability errors. Two still choose correctly; one reports .5/ABSTAIN at oracle p_A=1 by proposing a Reader state outside the stated support. GLM actual weighted decision loss .140625 versus optimum .125. Fifteen identity choices are correct, zero wrong; 17 abstentions contain 16 normative ambiguous decisions and one avoidable diagnostic abstention. Conditional choice accuracy does not replace the failed primary gate.
+
+Changed claim: under this disclosed finite mechanism, Qwen uses the joint-response restriction and both models recognize full-law equivalence; GLM sometimes misuses zero-likelihood support. This is neither naturalistic source-access detection nor evidence that an LLM Actor can learn or simulate the joint response law. One draw per stimulus cannot establish call variance, population calibration, model ranking, broad ToM or adaptive-query policy. No next-stage experiment was launched automatically.
+
+Verification: evidence update contains 189 files / 1,067,446 staged bytes, including a 174-file public evidence bundle. Exact staging allowlist, whitespace, credentials, private JSON metadata, machine paths, session URLs, IPs and machine-name checks passed; all 220 changed-Markdown local links resolved. A fresh staged checkout without private runs or `OPENCODE_GO_API_KEY` passed `python -X utf8 -B scripts/publish_joint_epistemic_simulation.py --verify`. It reparses all visible replies with frozen parser snapshots, checks exact model/HTTP delivery and receipt bindings, recomputes all positive-support weights/posteriors and four primary scores, and confirms zero normalization and the original registered incomplete status. Original receipt/public-copy hashes and exact prompt/visible-text hashes bind the package to the source. Publication makes zero provider requests and excludes private launch/account/session records and hidden reasoning.
+
+Unchanged: CSB30, OMC16, SQ28, R0/supplements, old interaction/audit evidence, formalization and unexecuted R1 preparation. Historical launch snapshots stay historical; unrelated local edits are excluded.
+
+Reviewer questions: Does the analysis distinguish correct action from correct posterior and normative abstention from missed diagnostic information? Does the known-mechanism, programmatic-Actor setup prevent overclaiming naturalistic or strategic ToM? Is the failure-selected completion transparently separate from the original registered incomplete run?
+
+# Previous incremental review: Counterfactual Source Boundary qualification
 
 Review base: `1626b4d92c55871788895e6bc73fc0362f9b341c`.
 Evidence head: `4c4d5d7c762f0a00fca70805e791eb23a3e5f3ed`.
