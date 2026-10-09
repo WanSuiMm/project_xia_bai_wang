@@ -1,0 +1,37 @@
+{
+  "request_id": "OSI_QWEN_REFRESHED_H4_ONESB_R1",
+  "model": "qwen3.8-max",
+  "kind": "judge",
+  "case_id": "REFRESHED_H4_ONESB",
+  "simulation_condition": "REFRESHED",
+  "bluffer_condition": "REFRESHED",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "f462d5311030caf3b3271fe67c09a24f27298658bbbdb5bf7b568d884d84ec13",
+  "sent_utc": "2026-10-09T12:36:25.744445+00:00",
+  "status": "response_received",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The archive is independent of current identity and current parameter, so it is uninformative. The current likelihoods are symmetric: if A reads, source 0000 has probability 1/16 and B's non-reader 1111 has probability 1/5; if B reads, the corresponding probabilities are also 1/16 and 1/5. Thus p_A remains 0.5. Abstaining costs 0.25, less than the 0.5 expected loss of choosing either A or B.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive is independent of current identity and current parameter, so it is uninformative. The current likelihoods are symmetric: if A reads, source 0000 has probability 1/16 and B's non-reader 1111 has probability 1/5; if B reads, the corresponding probabilities are also 1/16 and 1/5. Thus p_A remains 0.5. Abstaining costs 0.25, less than the 0.5 expected loss of choosing either A or B."
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "finish_reason": "end_turn",
+  "http_status": 200,
+  "elapsed_seconds": 48.312,
+  "captured_utc": "2026-10-09T12:37:14.059260+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive is independent of current identity and current parameter, so it is uninformative. The current likelihoods are symmetric: if A reads, source 0000 has probability 1/16 and B's non-reader 1111 has probability 1/5; if B reads, the corresponding probabilities are also 1/16 and 1/5. Thus p_A remains 0.5. Abstaining costs 0.25, less than the 0.5 expected loss of choosing either A or B."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "input_tokens": 714,
+    "output_tokens": 2539,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

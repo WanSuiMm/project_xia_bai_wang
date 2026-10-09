@@ -1,0 +1,36 @@
+{
+  "request_id": "OSI_GLM_REFRESHED_H7_ONESA_R2",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "REFRESHED_H7_ONESA",
+  "simulation_condition": "REFRESHED",
+  "bluffer_condition": "REFRESHED",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "67d760d2358dcaa7571558802eb12d6e248296a9e86722e46a2c611719285e2a",
+  "sent_utc": "2026-10-09T12:44:16.658666+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"The archive likelihood is identical under both hypotheses since b_current is independent of b_archive, so it cancels. If A is the Reader, A's all-ones source has probability 1/16 and B's all-zeros non-reader answers have integrated probability 1/5; the reverse case gives the same product. Thus p_A = 0.5, and ABSTAIN's expected loss 0.25 beats 0.5 for either choice.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive likelihood is identical under both hypotheses since b_current is independent of b_archive, so it cancels. If A is the Reader, A's all-ones source has probability 1/16 and B's all-zeros non-reader answers have integrated probability 1/5; the reverse case gives the same product. Thus p_A = 0.5, and ABSTAIN's expected loss 0.25 beats 0.5 for either choice."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 7.766,
+  "captured_utc": "2026-10-09T12:44:24.415944+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive likelihood is identical under both hypotheses since b_current is independent of b_archive, so it cancels. If A is the Reader, A's all-ones source has probability 1/16 and B's all-zeros non-reader answers have integrated probability 1/5; the reverse case gives the same product. Thus p_A = 0.5, and ABSTAIN's expected loss 0.25 beats 0.5 for either choice."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "prompt_tokens": 626,
+    "completion_tokens": 381,
+    "total_tokens": 1007
+  }
+}

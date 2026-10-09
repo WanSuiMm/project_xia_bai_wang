@@ -1,0 +1,11 @@
+{
+  "state": "COMPLETE_2_VALID",
+  "halt_reason": null,
+  "planned": 2,
+  "provider_requests": 2,
+  "response_count": 2,
+  "valid": 2,
+  "retained_valid": 46,
+  "completion_valid_slots": 48,
+  "updated_utc": "2026-10-09T16:31:03.515029+00:00"
+}

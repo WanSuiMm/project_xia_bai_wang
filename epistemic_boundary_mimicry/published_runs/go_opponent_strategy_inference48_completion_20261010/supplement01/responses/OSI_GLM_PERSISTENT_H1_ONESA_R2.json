@@ -1,0 +1,36 @@
+{
+  "request_id": "OSI_GLM_PERSISTENT_H1_ONESA_R2",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "PERSISTENT_H1_ONESA",
+  "simulation_condition": "PERSISTENT",
+  "bluffer_condition": "PERSISTENT",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "2f65cd0e42b4d1843f29449667a265017018fd13fc70dbf269c9df9a9455c8fc",
+  "sent_utc": "2026-10-09T12:42:33.240067+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.985, \"decision\": \"A\", \"reason\": \"With a uniform prior, the archive (one 1 in eight) gives b a Beta(2,8) posterior with mean 0.2. If A is the Reader, B's all-zero answers have likelihood E[(1-b)^4]≈0.462; if B is the Reader, A's all-one answers have likelihood E[b^4]≈0.007. The likelihood ratio strongly favors A being the Reader, so p_A≈0.985 and choosing A minimizes expected loss.\"}",
+  "parsed": {
+    "p_A": 0.985,
+    "decision": "A",
+    "reason": "With a uniform prior, the archive (one 1 in eight) gives b a Beta(2,8) posterior with mean 0.2. If A is the Reader, B's all-zero answers have likelihood E[(1-b)^4]≈0.462; if B is the Reader, A's all-one answers have likelihood E[b^4]≈0.007. The likelihood ratio strongly favors A being the Reader, so p_A≈0.985 and choosing A minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 10.844,
+  "captured_utc": "2026-10-09T12:42:44.097448+00:00",
+  "completion_parsed": {
+    "p_A": 0.985,
+    "decision": "A",
+    "reason": "With a uniform prior, the archive (one 1 in eight) gives b a Beta(2,8) posterior with mean 0.2. If A is the Reader, B's all-zero answers have likelihood E[(1-b)^4]≈0.462; if B is the Reader, A's all-one answers have likelihood E[b^4]≈0.007. The likelihood ratio strongly favors A being the Reader, so p_A≈0.985 and choosing A minimizes expected loss."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "prompt_tokens": 622,
+    "completion_tokens": 510,
+    "total_tokens": 1132
+  }
+}

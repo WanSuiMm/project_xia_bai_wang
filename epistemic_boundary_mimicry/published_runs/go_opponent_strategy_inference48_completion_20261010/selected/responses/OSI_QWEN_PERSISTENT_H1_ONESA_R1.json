@@ -1,0 +1,37 @@
+{
+  "request_id": "OSI_QWEN_PERSISTENT_H1_ONESA_R1",
+  "model": "qwen3.8-max",
+  "kind": "judge",
+  "case_id": "PERSISTENT_H1_ONESA",
+  "simulation_condition": "PERSISTENT",
+  "bluffer_condition": "PERSISTENT",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "2f65cd0e42b4d1843f29449667a265017018fd13fc70dbf269c9df9a9455c8fc",
+  "sent_utc": "2026-10-09T13:00:38.887477+00:00",
+  "status": "response_received",
+  "visible_text": "{\n  \"p_A\": 0.9850746268656716,\n  \"decision\": \"A\",\n  \"reason\": \"Archive shows mostly zeros, implying the shared non-reader parameter is low. Under A as reader, B's all-zero answers are likely; under B as reader, A's all-one answers are unlikely. Posterior p_A=66/67, so choosing A has expected loss 1/67 < 0.25.\"\n}",
+  "parsed": {
+    "p_A": 0.9850746268656716,
+    "decision": "A",
+    "reason": "Archive shows mostly zeros, implying the shared non-reader parameter is low. Under A as reader, B's all-zero answers are likely; under B as reader, A's all-one answers are unlikely. Posterior p_A=66/67, so choosing A has expected loss 1/67 < 0.25."
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "finish_reason": "end_turn",
+  "http_status": 200,
+  "elapsed_seconds": 61.218,
+  "captured_utc": "2026-10-09T13:01:40.107369+00:00",
+  "completion_parsed": {
+    "p_A": 0.9850746268656716,
+    "decision": "A",
+    "reason": "Archive shows mostly zeros, implying the shared non-reader parameter is low. Under A as reader, B's all-zero answers are likely; under B as reader, A's all-one answers are unlikely. Posterior p_A=66/67, so choosing A has expected loss 1/67 < 0.25."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "input_tokens": 710,
+    "output_tokens": 2892,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

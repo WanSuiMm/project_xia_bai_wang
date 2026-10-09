@@ -1,0 +1,36 @@
+{
+  "request_id": "OSI_GLM_PERSISTENT_H7_ONESB_R2",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "PERSISTENT_H7_ONESB",
+  "simulation_condition": "PERSISTENT",
+  "bluffer_condition": "PERSISTENT",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "399b4d40ff15545740da55c4280fabf3014c33dac372542f124d06bb6e03aafb",
+  "sent_utc": "2026-10-09T12:42:24.568983+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.9851, \"decision\": \"B\", \"reason\": \"The archive (7 of 8 ones) gives b a Beta(8,2) posterior with mean 0.8. If A were the Reader, B's all-ones answers have likelihood E[b^4]≈0.462; if B were the Reader, A's all-zeros answers have likelihood E[(1-b)^4]≈0.007. With equal seat priors, p_A≈0.985, so choosing B minimizes expected loss (≈0.015) versus ABSTAIN (0.25).\"}",
+  "parsed": {
+    "p_A": 0.9851,
+    "decision": "B",
+    "reason": "The archive (7 of 8 ones) gives b a Beta(8,2) posterior with mean 0.8. If A were the Reader, B's all-ones answers have likelihood E[b^4]≈0.462; if B were the Reader, A's all-zeros answers have likelihood E[(1-b)^4]≈0.007. With equal seat priors, p_A≈0.985, so choosing B minimizes expected loss (≈0.015) versus ABSTAIN (0.25)."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 8.625,
+  "captured_utc": "2026-10-09T12:42:33.196103+00:00",
+  "completion_parsed": {
+    "p_A": 0.9851,
+    "decision": "B",
+    "reason": "The archive (7 of 8 ones) gives b a Beta(8,2) posterior with mean 0.8. If A were the Reader, B's all-ones answers have likelihood E[b^4]≈0.462; if B were the Reader, A's all-zeros answers have likelihood E[(1-b)^4]≈0.007. With equal seat priors, p_A≈0.985, so choosing B minimizes expected loss (≈0.015) versus ABSTAIN (0.25)."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "prompt_tokens": 622,
+    "completion_tokens": 414,
+    "total_tokens": 1036
+  }
+}

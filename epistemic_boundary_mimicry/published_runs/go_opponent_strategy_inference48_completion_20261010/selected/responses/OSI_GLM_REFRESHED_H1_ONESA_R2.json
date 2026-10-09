@@ -1,0 +1,36 @@
+{
+  "request_id": "OSI_GLM_REFRESHED_H1_ONESA_R2",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "REFRESHED_H1_ONESA",
+  "simulation_condition": "REFRESHED",
+  "bluffer_condition": "REFRESHED",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "645089978a17458208261f8a7ead0f964dfc1391cce7cea3fb3eb33179d1a71b",
+  "sent_utc": "2026-10-09T12:46:42.845980+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"The archive is irrelevant because b_current is drawn independently of b_archive and archived answers. If A is the Reader, the likelihood is (1/16)·∫(1-b)^4 db = 1/80; if B is the Reader, it is (1/16)·∫b^4 db = 1/80. The hypotheses are symmetric, so p_A = 0.5, and abstaining costs 0.25 versus 0.5 expected loss for choosing either participant.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive is irrelevant because b_current is drawn independently of b_archive and archived answers. If A is the Reader, the likelihood is (1/16)·∫(1-b)^4 db = 1/80; if B is the Reader, it is (1/16)·∫b^4 db = 1/80. The hypotheses are symmetric, so p_A = 0.5, and abstaining costs 0.25 versus 0.5 expected loss for choosing either participant."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 6.5,
+  "captured_utc": "2026-10-09T12:46:49.338554+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive is irrelevant because b_current is drawn independently of b_archive and archived answers. If A is the Reader, the likelihood is (1/16)·∫(1-b)^4 db = 1/80; if B is the Reader, it is (1/16)·∫b^4 db = 1/80. The hypotheses are symmetric, so p_A = 0.5, and abstaining costs 0.25 versus 0.5 expected loss for choosing either participant."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "prompt_tokens": 626,
+    "completion_tokens": 293,
+    "total_tokens": 919
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "request_id": "OSI_QWEN_REFRESHED_H7_ONESA_R1",
+  "kind": "judge",
+  "model": "qwen3.8-max",
+  "case_id": "REFRESHED_H7_ONESA",
+  "simulation_condition": "REFRESHED",
+  "bluffer_condition": "REFRESHED",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "history_ones": 7,
+  "history": [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "ones_seat": "A",
+  "repeat": 1,
+  "vector_A": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "vector_B": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "prompt_path": "prompts/OSI_QWEN_REFRESHED_H7_ONESA_R1.txt",
+  "posterior_A": 0.5,
+  "posterior_A_exact": "1/2",
+  "posterior_1111": 0.5,
+  "plugin_posterior_A": 0.5,
+  "schedule_index": 42,
+  "prompt_sha256": "67d760d2358dcaa7571558802eb12d6e248296a9e86722e46a2c611719285e2a",
+  "dispatched_utc": "2026-10-09T12:57:35.645115+00:00"
+}

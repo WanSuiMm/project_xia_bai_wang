@@ -1,0 +1,36 @@
+{
+  "request_id": "OSI_GLM_REFRESHED_H4_ONESA_R1",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "REFRESHED_H4_ONESA",
+  "simulation_condition": "REFRESHED",
+  "bluffer_condition": "REFRESHED",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "010505f98c80b26da85617fbf30e05a858d91a97c257a1f5dbc977685245eba9",
+  "sent_utc": "2026-10-09T12:38:32.509676+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"The archive is irrelevant since b_current is drawn independently of b_archive. If A is the Reader, the likelihood is (1/16)·∫(1-b)^4 db = 1/80; if B is the Reader, it is (1/16)·∫b^4 db = 1/80. The hypotheses are symmetric, so p_A = 0.5, and any identity choice has expected loss 0.5, exceeding ABSTAIN's 0.25.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive is irrelevant since b_current is drawn independently of b_archive. If A is the Reader, the likelihood is (1/16)·∫(1-b)^4 db = 1/80; if B is the Reader, it is (1/16)·∫b^4 db = 1/80. The hypotheses are symmetric, so p_A = 0.5, and any identity choice has expected loss 0.5, exceeding ABSTAIN's 0.25."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 6.671,
+  "captured_utc": "2026-10-09T12:38:39.181153+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive is irrelevant since b_current is drawn independently of b_archive. If A is the Reader, the likelihood is (1/16)·∫(1-b)^4 db = 1/80; if B is the Reader, it is (1/16)·∫b^4 db = 1/80. The hypotheses are symmetric, so p_A = 0.5, and any identity choice has expected loss 0.5, exceeding ABSTAIN's 0.25."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "prompt_tokens": 626,
+    "completion_tokens": 309,
+    "total_tokens": 935
+  }
+}

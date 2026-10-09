@@ -1,0 +1,36 @@
+{
+  "request_id": "OSI_GLM_PERSISTENT_H1_ONESA_R1",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "PERSISTENT_H1_ONESA",
+  "simulation_condition": "PERSISTENT",
+  "bluffer_condition": "PERSISTENT",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "2f65cd0e42b4d1843f29449667a265017018fd13fc70dbf269c9df9a9455c8fc",
+  "sent_utc": "2026-10-09T12:38:24.197797+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.0667, \"decision\": \"B\", \"reason\": \"The archive gives a posterior b ~ Beta(2,8), strongly favoring low b. If A were the Reader, B's all-zero answers have probability E[(1-b)^4] = 1680/17160; if B were the Reader, A's all-one answers have probability E[b^4] = 120/17160. The likelihood ratio is 1/14, so p_A = 1/15 ≈ 0.067. Choosing B has expected loss 0.067, well below abstaining's 0.25.\"}",
+  "parsed": {
+    "p_A": 0.0667,
+    "decision": "B",
+    "reason": "The archive gives a posterior b ~ Beta(2,8), strongly favoring low b. If A were the Reader, B's all-zero answers have probability E[(1-b)^4] = 1680/17160; if B were the Reader, A's all-one answers have probability E[b^4] = 120/17160. The likelihood ratio is 1/14, so p_A = 1/15 ≈ 0.067. Choosing B has expected loss 0.067, well below abstaining's 0.25."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 8.266,
+  "captured_utc": "2026-10-09T12:38:32.472129+00:00",
+  "completion_parsed": {
+    "p_A": 0.0667,
+    "decision": "B",
+    "reason": "The archive gives a posterior b ~ Beta(2,8), strongly favoring low b. If A were the Reader, B's all-zero answers have probability E[(1-b)^4] = 1680/17160; if B were the Reader, A's all-one answers have probability E[b^4] = 120/17160. The likelihood ratio is 1/14, so p_A = 1/15 ≈ 0.067. Choosing B has expected loss 0.067, well below abstaining's 0.25."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "prompt_tokens": 622,
+    "completion_tokens": 402,
+    "total_tokens": 1024
+  }
+}

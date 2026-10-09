@@ -1,0 +1,42 @@
+{
+  "request_id": "OSI_QWEN_PERSISTENT_H7_ONESB_R1",
+  "kind": "judge",
+  "model": "qwen3.8-max",
+  "case_id": "PERSISTENT_H7_ONESB",
+  "simulation_condition": "PERSISTENT",
+  "bluffer_condition": "PERSISTENT",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "history_ones": 7,
+  "history": [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "ones_seat": "B",
+  "repeat": 1,
+  "vector_A": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "vector_B": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "prompt_path": "prompts/OSI_QWEN_PERSISTENT_H7_ONESB_R1.txt",
+  "posterior_A": 0.9850746268656716,
+  "posterior_A_exact": "66/67",
+  "posterior_1111": 0.014925373134328358,
+  "plugin_posterior_A": 0.9961089494163424,
+  "schedule_index": 41,
+  "prompt_sha256": "399b4d40ff15545740da55c4280fabf3014c33dac372542f124d06bb6e03aafb",
+  "dispatched_utc": "2026-10-09T12:56:06.740569+00:00"
+}

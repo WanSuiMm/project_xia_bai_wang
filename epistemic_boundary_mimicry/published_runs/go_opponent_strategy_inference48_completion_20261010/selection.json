@@ -1,0 +1,1082 @@
+{
+  "schema_version": 1,
+  "selection_rule": "Last strict-valid response by the fixed batch order; no score-based selection.",
+  "planned_slots": 48,
+  "selected_strict_valid": 48,
+  "slots": [
+    {
+      "request_id": "OSI_QWEN_PERSISTENT_H7_ONESB_R2",
+      "model": "qwen3.8-max",
+      "simulation_condition": "PERSISTENT",
+      "history_ones": 7,
+      "ones_seat": "B",
+      "repeat": 2,
+      "posterior_A": 0.9850746268656716,
+      "plugin_posterior_A": 0.9961089494163424,
+      "prompt_sha256": "399b4d40ff15545740da55c4280fabf3014c33dac372542f124d06bb6e03aafb",
+      "selected_batch": "recovery02",
+      "selected_response_path": "selected/responses/OSI_QWEN_PERSISTENT_H7_ONESB_R2.json",
+      "selected_response_source_sha256_lf": "4dd95f695f9ae72aa98804f326b932daa3f144c7b9da08a3f5582c12795a9b0d",
+      "attempts": [
+        {
+          "batch": "original01",
+          "status": "http_error",
+          "strict_parse_status": "not_received",
+          "completion_parse_status": "not_received"
+        },
+        {
+          "batch": "recovery02",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_QWEN_REFRESHED_H4_ONESA_R2",
+      "model": "qwen3.8-max",
+      "simulation_condition": "REFRESHED",
+      "history_ones": 4,
+      "ones_seat": "A",
+      "repeat": 2,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "010505f98c80b26da85617fbf30e05a858d91a97c257a1f5dbc977685245eba9",
+      "selected_batch": "recovery02",
+      "selected_response_path": "selected/responses/OSI_QWEN_REFRESHED_H4_ONESA_R2.json",
+      "selected_response_source_sha256_lf": "b1e55cd55e149e4d086db067b01e00ba48d25ac6e82398fd91c71e5236cf96ce",
+      "attempts": [
+        {
+          "batch": "recovery02",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_GLM_REFRESHED_H4_ONESA_R2",
+      "model": "glm-5.3",
+      "simulation_condition": "REFRESHED",
+      "history_ones": 4,
+      "ones_seat": "A",
+      "repeat": 2,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "010505f98c80b26da85617fbf30e05a858d91a97c257a1f5dbc977685245eba9",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_GLM_REFRESHED_H4_ONESA_R2.json",
+      "selected_response_source_sha256_lf": "e05ffd568d5f52782edcc7bb4896a0877f4d52dcf11f2925fb1b79a71c4668d5",
+      "attempts": [
+        {
+          "batch": "recovery02",
+          "status": "invalid_provider_response",
+          "strict_parse_status": "not_received",
+          "completion_parse_status": "not_received"
+        },
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_QWEN_REFRESHED_H1_ONESA_R2",
+      "model": "qwen3.8-max",
+      "simulation_condition": "REFRESHED",
+      "history_ones": 1,
+      "ones_seat": "A",
+      "repeat": 2,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "645089978a17458208261f8a7ead0f964dfc1391cce7cea3fb3eb33179d1a71b",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_QWEN_REFRESHED_H1_ONESA_R2.json",
+      "selected_response_source_sha256_lf": "7e80a46b9dd1f0bf4dcacfd9cfb1cd4acebf59d1054ca4e6d0e906899a950cbe",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_QWEN_REFRESHED_H4_ONESB_R1",
+      "model": "qwen3.8-max",
+      "simulation_condition": "REFRESHED",
+      "history_ones": 4,
+      "ones_seat": "B",
+      "repeat": 1,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "f462d5311030caf3b3271fe67c09a24f27298658bbbdb5bf7b568d884d84ec13",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_QWEN_REFRESHED_H4_ONESB_R1.json",
+      "selected_response_source_sha256_lf": "1f95392ffc020395f3f05dfa37665305e3771c5290476cf57aad058904fcef7b",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_QWEN_PERSISTENT_H4_ONESA_R1",
+      "model": "qwen3.8-max",
+      "simulation_condition": "PERSISTENT",
+      "history_ones": 4,
+      "ones_seat": "A",
+      "repeat": 1,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "82549a68793f5851da5d8b25c1183fffb02d8d7553f784123f5a9aac33247262",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_QWEN_PERSISTENT_H4_ONESA_R1.json",
+      "selected_response_source_sha256_lf": "84db0b72cbbbfab76f94b82405fec87e7b3430b76dac90f7989aa2c0cdf858c8",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_GLM_PERSISTENT_H1_ONESA_R1",
+      "model": "glm-5.3",
+      "simulation_condition": "PERSISTENT",
+      "history_ones": 1,
+      "ones_seat": "A",
+      "repeat": 1,
+      "posterior_A": 0.9850746268656716,
+      "plugin_posterior_A": 0.9961089494163424,
+      "prompt_sha256": "2f65cd0e42b4d1843f29449667a265017018fd13fc70dbf269c9df9a9455c8fc",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_GLM_PERSISTENT_H1_ONESA_R1.json",
+      "selected_response_source_sha256_lf": "2620d61626e967e8db56f8164bb59a0d3c55014e36a12c5cfc46f7a0c2b327f6",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_GLM_REFRESHED_H4_ONESA_R1",
+      "model": "glm-5.3",
+      "simulation_condition": "REFRESHED",
+      "history_ones": 4,
+      "ones_seat": "A",
+      "repeat": 1,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "010505f98c80b26da85617fbf30e05a858d91a97c257a1f5dbc977685245eba9",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_GLM_REFRESHED_H4_ONESA_R1.json",
+      "selected_response_source_sha256_lf": "cf0a5e94203c4fda3667d25c63e7220596c2075c29ce455821d356da76a725cd",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_QWEN_PERSISTENT_H1_ONESA_R2",
+      "model": "qwen3.8-max",
+      "simulation_condition": "PERSISTENT",
+      "history_ones": 1,
+      "ones_seat": "A",
+      "repeat": 2,
+      "posterior_A": 0.9850746268656716,
+      "plugin_posterior_A": 0.9961089494163424,
+      "prompt_sha256": "2f65cd0e42b4d1843f29449667a265017018fd13fc70dbf269c9df9a9455c8fc",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_QWEN_PERSISTENT_H1_ONESA_R2.json",
+      "selected_response_source_sha256_lf": "23fc295acfedd6136cd9bb4f93a58cdfa9ef2fd1972d60d2edc65f10f8313f70",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_GLM_REFRESHED_H4_ONESB_R1",
+      "model": "glm-5.3",
+      "simulation_condition": "REFRESHED",
+      "history_ones": 4,
+      "ones_seat": "B",
+      "repeat": 1,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "f462d5311030caf3b3271fe67c09a24f27298658bbbdb5bf7b568d884d84ec13",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_GLM_REFRESHED_H4_ONESB_R1.json",
+      "selected_response_source_sha256_lf": "d7b90694b438a6a001e25925e65806c483de41679288641afbf508b291c9b362",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_GLM_REFRESHED_H1_ONESA_R1",
+      "model": "glm-5.3",
+      "simulation_condition": "REFRESHED",
+      "history_ones": 1,
+      "ones_seat": "A",
+      "repeat": 1,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "645089978a17458208261f8a7ead0f964dfc1391cce7cea3fb3eb33179d1a71b",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_GLM_REFRESHED_H1_ONESA_R1.json",
+      "selected_response_source_sha256_lf": "3d2fae51087c720bb5502ff6998b865c0b4e8afdb8b6fcaf5c3b600f48478b12",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_GLM_PERSISTENT_H4_ONESA_R1",
+      "model": "glm-5.3",
+      "simulation_condition": "PERSISTENT",
+      "history_ones": 4,
+      "ones_seat": "A",
+      "repeat": 1,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "82549a68793f5851da5d8b25c1183fffb02d8d7553f784123f5a9aac33247262",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_GLM_PERSISTENT_H4_ONESA_R1.json",
+      "selected_response_source_sha256_lf": "86549e1e3ed97c9014cb02ecc47cc6d1f91e26416d4040b81629c4aee7eae7fb",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_QWEN_REFRESHED_H1_ONESB_R1",
+      "model": "qwen3.8-max",
+      "simulation_condition": "REFRESHED",
+      "history_ones": 1,
+      "ones_seat": "B",
+      "repeat": 1,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "dc95a3aeedbfb228b4ccfcf1dc4064ccb4d5a3bc99a70728717e4cc09cc6fa51",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_QWEN_REFRESHED_H1_ONESB_R1.json",
+      "selected_response_source_sha256_lf": "5eba43897e04d4792f87fd358f9ce018df6ce621598e1e78e6aef2b2578d41ad",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_QWEN_REFRESHED_H1_ONESA_R1",
+      "model": "qwen3.8-max",
+      "simulation_condition": "REFRESHED",
+      "history_ones": 1,
+      "ones_seat": "A",
+      "repeat": 1,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "645089978a17458208261f8a7ead0f964dfc1391cce7cea3fb3eb33179d1a71b",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_QWEN_REFRESHED_H1_ONESA_R1.json",
+      "selected_response_source_sha256_lf": "b6877ccd3e3288c2aecb62a91625c677b65d3af9a446620bbfe5010f9d87e957",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_GLM_PERSISTENT_H7_ONESB_R2",
+      "model": "glm-5.3",
+      "simulation_condition": "PERSISTENT",
+      "history_ones": 7,
+      "ones_seat": "B",
+      "repeat": 2,
+      "posterior_A": 0.9850746268656716,
+      "plugin_posterior_A": 0.9961089494163424,
+      "prompt_sha256": "399b4d40ff15545740da55c4280fabf3014c33dac372542f124d06bb6e03aafb",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_GLM_PERSISTENT_H7_ONESB_R2.json",
+      "selected_response_source_sha256_lf": "093e4e124e7a02430cc2bfa83b53a4da834205bc4281363dbe693ce15ff759c5",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_GLM_PERSISTENT_H1_ONESA_R2",
+      "model": "glm-5.3",
+      "simulation_condition": "PERSISTENT",
+      "history_ones": 1,
+      "ones_seat": "A",
+      "repeat": 2,
+      "posterior_A": 0.9850746268656716,
+      "plugin_posterior_A": 0.9961089494163424,
+      "prompt_sha256": "2f65cd0e42b4d1843f29449667a265017018fd13fc70dbf269c9df9a9455c8fc",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_GLM_PERSISTENT_H1_ONESA_R2.json",
+      "selected_response_source_sha256_lf": "f923eae22fdb4053ab13dfac9114c2535b64fa175fdee08b8cc71509ac48d32f",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_GLM_REFRESHED_H1_ONESB_R2",
+      "model": "glm-5.3",
+      "simulation_condition": "REFRESHED",
+      "history_ones": 1,
+      "ones_seat": "B",
+      "repeat": 2,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "dc95a3aeedbfb228b4ccfcf1dc4064ccb4d5a3bc99a70728717e4cc09cc6fa51",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_GLM_REFRESHED_H1_ONESB_R2.json",
+      "selected_response_source_sha256_lf": "8ea79aa13119d99766912348cb88499ff91d13c89ba818d5a8a65589f57c23a5",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_GLM_PERSISTENT_H7_ONESA_R1",
+      "model": "glm-5.3",
+      "simulation_condition": "PERSISTENT",
+      "history_ones": 7,
+      "ones_seat": "A",
+      "repeat": 1,
+      "posterior_A": 0.014925373134328358,
+      "plugin_posterior_A": 0.0038910505836575876,
+      "prompt_sha256": "17105a3096067a2df319b6688cfe217673a42cabc8422f6f42fb13fbbb2d213e",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_GLM_PERSISTENT_H7_ONESA_R1.json",
+      "selected_response_source_sha256_lf": "992298e3562e2e3635f0e7992e9ab9e5ca849da684b76bafefbac5fa0b1f34e8",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_GLM_PERSISTENT_H4_ONESB_R1",
+      "model": "glm-5.3",
+      "simulation_condition": "PERSISTENT",
+      "history_ones": 4,
+      "ones_seat": "B",
+      "repeat": 1,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "dce87c2f3f78eb42e032ca1c17c30fedf665383d3033875aac89b9abf25eb3e0",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_GLM_PERSISTENT_H4_ONESB_R1.json",
+      "selected_response_source_sha256_lf": "fc1ad1449f1027df5c1aed56d33bc708830aadb9074ccd1784b0bc5f7895a2a6",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_QWEN_PERSISTENT_H1_ONESB_R1",
+      "model": "qwen3.8-max",
+      "simulation_condition": "PERSISTENT",
+      "history_ones": 1,
+      "ones_seat": "B",
+      "repeat": 1,
+      "posterior_A": 0.014925373134328358,
+      "plugin_posterior_A": 0.0038910505836575876,
+      "prompt_sha256": "bb322933657b414bd550626e3d5db32d94379a22dd55657a29927bd59a858d7f",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_QWEN_PERSISTENT_H1_ONESB_R1.json",
+      "selected_response_source_sha256_lf": "fc8b1b3ef09c06f03e2c961d0d9c9dcf80c04f325ba9e6eec541db65d3a72b2f",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_GLM_REFRESHED_H7_ONESA_R2",
+      "model": "glm-5.3",
+      "simulation_condition": "REFRESHED",
+      "history_ones": 7,
+      "ones_seat": "A",
+      "repeat": 2,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "67d760d2358dcaa7571558802eb12d6e248296a9e86722e46a2c611719285e2a",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_GLM_REFRESHED_H7_ONESA_R2.json",
+      "selected_response_source_sha256_lf": "3ba02f3bb81737a10f153a9b7f1e596adb993a98ae928d5838c2c898537671d3",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_QWEN_REFRESHED_H4_ONESA_R1",
+      "model": "qwen3.8-max",
+      "simulation_condition": "REFRESHED",
+      "history_ones": 4,
+      "ones_seat": "A",
+      "repeat": 1,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "010505f98c80b26da85617fbf30e05a858d91a97c257a1f5dbc977685245eba9",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_QWEN_REFRESHED_H4_ONESA_R1.json",
+      "selected_response_source_sha256_lf": "10c66185f05a32c16abfa597ded4f5e76613eae40c278fb1b059a62311220493",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_GLM_REFRESHED_H7_ONESB_R1",
+      "model": "glm-5.3",
+      "simulation_condition": "REFRESHED",
+      "history_ones": 7,
+      "ones_seat": "B",
+      "repeat": 1,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "ccb50611f9a0b5dd1e9a4f6504035af78b1369f8263c3ad8ea14ed74c90998e8",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_GLM_REFRESHED_H7_ONESB_R1.json",
+      "selected_response_source_sha256_lf": "8e965be3a2ee48a78de4157a78f039aed3cc64b7662978df795b47698c856db2",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_QWEN_REFRESHED_H7_ONESB_R1",
+      "model": "qwen3.8-max",
+      "simulation_condition": "REFRESHED",
+      "history_ones": 7,
+      "ones_seat": "B",
+      "repeat": 1,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "ccb50611f9a0b5dd1e9a4f6504035af78b1369f8263c3ad8ea14ed74c90998e8",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_QWEN_REFRESHED_H7_ONESB_R1.json",
+      "selected_response_source_sha256_lf": "76efa9ea4e5aa31ce99d2b212f01ea7fef1017848b0d62854837b7d4c25376f8",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_QWEN_PERSISTENT_H4_ONESB_R1",
+      "model": "qwen3.8-max",
+      "simulation_condition": "PERSISTENT",
+      "history_ones": 4,
+      "ones_seat": "B",
+      "repeat": 1,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "dce87c2f3f78eb42e032ca1c17c30fedf665383d3033875aac89b9abf25eb3e0",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_QWEN_PERSISTENT_H4_ONESB_R1.json",
+      "selected_response_source_sha256_lf": "6acad5169f514871b3194b9912a5f7838ad8698e25bc02580961600addd2e983",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_GLM_REFRESHED_H1_ONESA_R2",
+      "model": "glm-5.3",
+      "simulation_condition": "REFRESHED",
+      "history_ones": 1,
+      "ones_seat": "A",
+      "repeat": 2,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "645089978a17458208261f8a7ead0f964dfc1391cce7cea3fb3eb33179d1a71b",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_GLM_REFRESHED_H1_ONESA_R2.json",
+      "selected_response_source_sha256_lf": "f5b75f914d389b9822b04932ddf74b6c28f55bf21f1290a3853ecd1902dcfde7",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_QWEN_REFRESHED_H7_ONESA_R2",
+      "model": "qwen3.8-max",
+      "simulation_condition": "REFRESHED",
+      "history_ones": 7,
+      "ones_seat": "A",
+      "repeat": 2,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "67d760d2358dcaa7571558802eb12d6e248296a9e86722e46a2c611719285e2a",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_QWEN_REFRESHED_H7_ONESA_R2.json",
+      "selected_response_source_sha256_lf": "36b582e39d96eb93bb25c4bedb62aff36498fd6b0170e5a99703d1e4ceb400cf",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_GLM_REFRESHED_H7_ONESB_R2",
+      "model": "glm-5.3",
+      "simulation_condition": "REFRESHED",
+      "history_ones": 7,
+      "ones_seat": "B",
+      "repeat": 2,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "ccb50611f9a0b5dd1e9a4f6504035af78b1369f8263c3ad8ea14ed74c90998e8",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_GLM_REFRESHED_H7_ONESB_R2.json",
+      "selected_response_source_sha256_lf": "17adeb36afbaf5df29549f21944d124dffb8eb4ccb6ce00b72da7e60b96edce1",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_QWEN_PERSISTENT_H1_ONESB_R2",
+      "model": "qwen3.8-max",
+      "simulation_condition": "PERSISTENT",
+      "history_ones": 1,
+      "ones_seat": "B",
+      "repeat": 2,
+      "posterior_A": 0.014925373134328358,
+      "plugin_posterior_A": 0.0038910505836575876,
+      "prompt_sha256": "bb322933657b414bd550626e3d5db32d94379a22dd55657a29927bd59a858d7f",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_QWEN_PERSISTENT_H1_ONESB_R2.json",
+      "selected_response_source_sha256_lf": "76f009d905775a8231d62b87721b8bc525df5bca75fd72c942b9a26a67439bd8",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_QWEN_REFRESHED_H4_ONESB_R2",
+      "model": "qwen3.8-max",
+      "simulation_condition": "REFRESHED",
+      "history_ones": 4,
+      "ones_seat": "B",
+      "repeat": 2,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "f462d5311030caf3b3271fe67c09a24f27298658bbbdb5bf7b568d884d84ec13",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_QWEN_REFRESHED_H4_ONESB_R2.json",
+      "selected_response_source_sha256_lf": "eb8e8a3b2a43460df733ec6bf9dde433a9464fa44940cf3b7984a7728aa38e13",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_GLM_PERSISTENT_H7_ONESB_R1",
+      "model": "glm-5.3",
+      "simulation_condition": "PERSISTENT",
+      "history_ones": 7,
+      "ones_seat": "B",
+      "repeat": 1,
+      "posterior_A": 0.9850746268656716,
+      "plugin_posterior_A": 0.9961089494163424,
+      "prompt_sha256": "399b4d40ff15545740da55c4280fabf3014c33dac372542f124d06bb6e03aafb",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_GLM_PERSISTENT_H7_ONESB_R1.json",
+      "selected_response_source_sha256_lf": "49c75871cd81b85ccded050c739f8930f652df502556f852fb3459d6a8ad3cf4",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_QWEN_REFRESHED_H7_ONESB_R2",
+      "model": "qwen3.8-max",
+      "simulation_condition": "REFRESHED",
+      "history_ones": 7,
+      "ones_seat": "B",
+      "repeat": 2,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "ccb50611f9a0b5dd1e9a4f6504035af78b1369f8263c3ad8ea14ed74c90998e8",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_QWEN_REFRESHED_H7_ONESB_R2.json",
+      "selected_response_source_sha256_lf": "4ef5c67333a30bf54371f41a9175a2e72d10b58104da99aaecf091131bce4fcf",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_QWEN_PERSISTENT_H4_ONESB_R2",
+      "model": "qwen3.8-max",
+      "simulation_condition": "PERSISTENT",
+      "history_ones": 4,
+      "ones_seat": "B",
+      "repeat": 2,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "dce87c2f3f78eb42e032ca1c17c30fedf665383d3033875aac89b9abf25eb3e0",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_QWEN_PERSISTENT_H4_ONESB_R2.json",
+      "selected_response_source_sha256_lf": "11e55193173b925aaf3c03f286f50dcd951980953de654ebf670d484d19f175f",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_GLM_REFRESHED_H4_ONESB_R2",
+      "model": "glm-5.3",
+      "simulation_condition": "REFRESHED",
+      "history_ones": 4,
+      "ones_seat": "B",
+      "repeat": 2,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "f462d5311030caf3b3271fe67c09a24f27298658bbbdb5bf7b568d884d84ec13",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_GLM_REFRESHED_H4_ONESB_R2.json",
+      "selected_response_source_sha256_lf": "ebd32a3391bd1c2675c2336526f2af955b1a55419ef7daf5972e0f57e9f49da7",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_QWEN_REFRESHED_H1_ONESB_R2",
+      "model": "qwen3.8-max",
+      "simulation_condition": "REFRESHED",
+      "history_ones": 1,
+      "ones_seat": "B",
+      "repeat": 2,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "dc95a3aeedbfb228b4ccfcf1dc4064ccb4d5a3bc99a70728717e4cc09cc6fa51",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_QWEN_REFRESHED_H1_ONESB_R2.json",
+      "selected_response_source_sha256_lf": "a7fd1685cb2bb03308c024908fc91ddae3f45cbe2ed65e726f27f9bd17908661",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_QWEN_PERSISTENT_H7_ONESA_R2",
+      "model": "qwen3.8-max",
+      "simulation_condition": "PERSISTENT",
+      "history_ones": 7,
+      "ones_seat": "A",
+      "repeat": 2,
+      "posterior_A": 0.014925373134328358,
+      "plugin_posterior_A": 0.0038910505836575876,
+      "prompt_sha256": "17105a3096067a2df319b6688cfe217673a42cabc8422f6f42fb13fbbb2d213e",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_QWEN_PERSISTENT_H7_ONESA_R2.json",
+      "selected_response_source_sha256_lf": "4aad4546f7184989545c4daa113fb08060c1429a4cb07d5cbc069455efc858fa",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_QWEN_PERSISTENT_H4_ONESA_R2",
+      "model": "qwen3.8-max",
+      "simulation_condition": "PERSISTENT",
+      "history_ones": 4,
+      "ones_seat": "A",
+      "repeat": 2,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "82549a68793f5851da5d8b25c1183fffb02d8d7553f784123f5a9aac33247262",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_QWEN_PERSISTENT_H4_ONESA_R2.json",
+      "selected_response_source_sha256_lf": "a7ae87abb30cd8757cb65192c34e8954574987ad32cc591fc98b91bc4342eecd",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_GLM_PERSISTENT_H1_ONESB_R1",
+      "model": "glm-5.3",
+      "simulation_condition": "PERSISTENT",
+      "history_ones": 1,
+      "ones_seat": "B",
+      "repeat": 1,
+      "posterior_A": 0.014925373134328358,
+      "plugin_posterior_A": 0.0038910505836575876,
+      "prompt_sha256": "bb322933657b414bd550626e3d5db32d94379a22dd55657a29927bd59a858d7f",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_GLM_PERSISTENT_H1_ONESB_R1.json",
+      "selected_response_source_sha256_lf": "47380f622bd35d5f820fa4824f7a933695f5877dfecc40a44abf142f83b40e3c",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_GLM_REFRESHED_H7_ONESA_R1",
+      "model": "glm-5.3",
+      "simulation_condition": "REFRESHED",
+      "history_ones": 7,
+      "ones_seat": "A",
+      "repeat": 1,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "67d760d2358dcaa7571558802eb12d6e248296a9e86722e46a2c611719285e2a",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_GLM_REFRESHED_H7_ONESA_R1.json",
+      "selected_response_source_sha256_lf": "29e745f409e3941afa38407f4449502e66a4a19f69d2f5ec9fe6f6224d9b82cb",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_GLM_REFRESHED_H1_ONESB_R1",
+      "model": "glm-5.3",
+      "simulation_condition": "REFRESHED",
+      "history_ones": 1,
+      "ones_seat": "B",
+      "repeat": 1,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "dc95a3aeedbfb228b4ccfcf1dc4064ccb4d5a3bc99a70728717e4cc09cc6fa51",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_GLM_REFRESHED_H1_ONESB_R1.json",
+      "selected_response_source_sha256_lf": "683633b6bc294f0f01c378a894c2e1e5d85104c1fa1903a00894a3fd48238507",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_QWEN_PERSISTENT_H7_ONESB_R1",
+      "model": "qwen3.8-max",
+      "simulation_condition": "PERSISTENT",
+      "history_ones": 7,
+      "ones_seat": "B",
+      "repeat": 1,
+      "posterior_A": 0.9850746268656716,
+      "plugin_posterior_A": 0.9961089494163424,
+      "prompt_sha256": "399b4d40ff15545740da55c4280fabf3014c33dac372542f124d06bb6e03aafb",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_QWEN_PERSISTENT_H7_ONESB_R1.json",
+      "selected_response_source_sha256_lf": "fb8fa982c865f5f00c092dfdd33c2a84a7e7facdc628cd4c751c5fc3b5171528",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_QWEN_REFRESHED_H7_ONESA_R1",
+      "model": "qwen3.8-max",
+      "simulation_condition": "REFRESHED",
+      "history_ones": 7,
+      "ones_seat": "A",
+      "repeat": 1,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "67d760d2358dcaa7571558802eb12d6e248296a9e86722e46a2c611719285e2a",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_QWEN_REFRESHED_H7_ONESA_R1.json",
+      "selected_response_source_sha256_lf": "442dc147ecca10919cd2059944be1e36505d00b0043159b75ef4189d788809cd",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_GLM_PERSISTENT_H1_ONESB_R2",
+      "model": "glm-5.3",
+      "simulation_condition": "PERSISTENT",
+      "history_ones": 1,
+      "ones_seat": "B",
+      "repeat": 2,
+      "posterior_A": 0.014925373134328358,
+      "plugin_posterior_A": 0.0038910505836575876,
+      "prompt_sha256": "bb322933657b414bd550626e3d5db32d94379a22dd55657a29927bd59a858d7f",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_GLM_PERSISTENT_H1_ONESB_R2.json",
+      "selected_response_source_sha256_lf": "a81739613c4b4c1384b63db76b15947927686e728cd5feb9b320061973a34852",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_QWEN_PERSISTENT_H7_ONESA_R1",
+      "model": "qwen3.8-max",
+      "simulation_condition": "PERSISTENT",
+      "history_ones": 7,
+      "ones_seat": "A",
+      "repeat": 1,
+      "posterior_A": 0.014925373134328358,
+      "plugin_posterior_A": 0.0038910505836575876,
+      "prompt_sha256": "17105a3096067a2df319b6688cfe217673a42cabc8422f6f42fb13fbbb2d213e",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_QWEN_PERSISTENT_H7_ONESA_R1.json",
+      "selected_response_source_sha256_lf": "814eac158bb3cb4ed09ada64d377afe931a358dcef5bf8e9f93bc30ac370eae4",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_QWEN_PERSISTENT_H1_ONESA_R1",
+      "model": "qwen3.8-max",
+      "simulation_condition": "PERSISTENT",
+      "history_ones": 1,
+      "ones_seat": "A",
+      "repeat": 1,
+      "posterior_A": 0.9850746268656716,
+      "plugin_posterior_A": 0.9961089494163424,
+      "prompt_sha256": "2f65cd0e42b4d1843f29449667a265017018fd13fc70dbf269c9df9a9455c8fc",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_QWEN_PERSISTENT_H1_ONESA_R1.json",
+      "selected_response_source_sha256_lf": "3657922e0d6d0459012b7ae88b4c9ab361818ad8fd71e08fd0d5e5816c59bd61",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_GLM_PERSISTENT_H4_ONESB_R2",
+      "model": "glm-5.3",
+      "simulation_condition": "PERSISTENT",
+      "history_ones": 4,
+      "ones_seat": "B",
+      "repeat": 2,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "dce87c2f3f78eb42e032ca1c17c30fedf665383d3033875aac89b9abf25eb3e0",
+      "selected_batch": "supplement01",
+      "selected_response_path": "selected/responses/OSI_GLM_PERSISTENT_H4_ONESB_R2.json",
+      "selected_response_source_sha256_lf": "2d701faef4b23b06af00356e4ed1afaca26dd34b866f28cb4f9129a96a4b8710",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_GLM_PERSISTENT_H4_ONESA_R2",
+      "model": "glm-5.3",
+      "simulation_condition": "PERSISTENT",
+      "history_ones": 4,
+      "ones_seat": "A",
+      "repeat": 2,
+      "posterior_A": 0.5,
+      "plugin_posterior_A": 0.5,
+      "prompt_sha256": "82549a68793f5851da5d8b25c1183fffb02d8d7553f784123f5a9aac33247262",
+      "selected_batch": "tail02",
+      "selected_response_path": "selected/responses/OSI_GLM_PERSISTENT_H4_ONESA_R2.json",
+      "selected_response_source_sha256_lf": "1319139ce3975b0d4f5dee72f93708c5f0feb4d8c9ba7219ed540c7c4f75b577",
+      "attempts": [
+        {
+          "batch": "supplement01",
+          "status": "response_received",
+          "strict_parse_status": "truncated",
+          "completion_parse_status": "truncated"
+        },
+        {
+          "batch": "tail02",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    },
+    {
+      "request_id": "OSI_GLM_PERSISTENT_H7_ONESA_R2",
+      "model": "glm-5.3",
+      "simulation_condition": "PERSISTENT",
+      "history_ones": 7,
+      "ones_seat": "A",
+      "repeat": 2,
+      "posterior_A": 0.014925373134328358,
+      "plugin_posterior_A": 0.0038910505836575876,
+      "prompt_sha256": "17105a3096067a2df319b6688cfe217673a42cabc8422f6f42fb13fbbb2d213e",
+      "selected_batch": "tail02",
+      "selected_response_path": "selected/responses/OSI_GLM_PERSISTENT_H7_ONESA_R2.json",
+      "selected_response_source_sha256_lf": "29ff399e8022304488086377ce26cf9225b5c23d4c21a571d16341df013f89fc",
+      "attempts": [
+        {
+          "batch": "tail02",
+          "status": "response_received",
+          "strict_parse_status": "valid",
+          "completion_parse_status": "valid"
+        }
+      ]
+    }
+  ]
+}

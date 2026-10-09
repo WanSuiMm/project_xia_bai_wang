@@ -1,0 +1,37 @@
+{
+  "request_id": "OSI_QWEN_REFRESHED_H7_ONESA_R2",
+  "model": "qwen3.8-max",
+  "kind": "judge",
+  "case_id": "REFRESHED_H7_ONESA",
+  "simulation_condition": "REFRESHED",
+  "bluffer_condition": "REFRESHED",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "67d760d2358dcaa7571558802eb12d6e248296a9e86722e46a2c611719285e2a",
+  "sent_utc": "2026-10-09T12:46:49.385072+00:00",
+  "status": "response_received",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The archive is independent of the current identities and answers. Current data are symmetric: A's all ones as reader and B's all zeros as non-reader have the same marginal likelihood as the reversed assignment. Thus p_A=1/2, and abstaining costs 0.25 versus 0.5 expected loss for guessing.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive is independent of the current identities and answers. Current data are symmetric: A's all ones as reader and B's all zeros as non-reader have the same marginal likelihood as the reversed assignment. Thus p_A=1/2, and abstaining costs 0.25 versus 0.5 expected loss for guessing."
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "finish_reason": "end_turn",
+  "http_status": 200,
+  "elapsed_seconds": 38.984,
+  "captured_utc": "2026-10-09T12:47:28.369018+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive is independent of the current identities and answers. Current data are symmetric: A's all ones as reader and B's all zeros as non-reader have the same marginal likelihood as the reversed assignment. Thus p_A=1/2, and abstaining costs 0.25 versus 0.5 expected loss for guessing."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "input_tokens": 714,
+    "output_tokens": 2000,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

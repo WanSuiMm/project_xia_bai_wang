@@ -1,0 +1,42 @@
+{
+  "request_id": "OSI_QWEN_REFRESHED_H1_ONESB_R2",
+  "kind": "judge",
+  "model": "qwen3.8-max",
+  "case_id": "REFRESHED_H1_ONESB",
+  "simulation_condition": "REFRESHED",
+  "bluffer_condition": "REFRESHED",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "history_ones": 1,
+  "history": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "ones_seat": "B",
+  "repeat": 2,
+  "vector_A": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "vector_B": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "prompt_path": "prompts/OSI_QWEN_REFRESHED_H1_ONESB_R2.txt",
+  "posterior_A": 0.5,
+  "posterior_A_exact": "1/2",
+  "posterior_1111": 0.5,
+  "plugin_posterior_A": 0.5,
+  "schedule_index": 35,
+  "prompt_sha256": "dc95a3aeedbfb228b4ccfcf1dc4064ccb4d5a3bc99a70728717e4cc09cc6fa51",
+  "dispatched_utc": "2026-10-09T12:53:20.483091+00:00"
+}

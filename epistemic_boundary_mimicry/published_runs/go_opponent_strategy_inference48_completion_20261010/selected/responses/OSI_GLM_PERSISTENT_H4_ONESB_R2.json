@@ -1,0 +1,36 @@
+{
+  "request_id": "OSI_GLM_PERSISTENT_H4_ONESB_R2",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "PERSISTENT_H4_ONESB",
+  "simulation_condition": "PERSISTENT",
+  "bluffer_condition": "PERSISTENT",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "dce87c2f3f78eb42e032ca1c17c30fedf665383d3033875aac89b9abf25eb3e0",
+  "sent_utc": "2026-10-09T13:01:40.157833+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"The archive (4 ones, 4 zeros) yields a symmetric Beta(5,5) posterior for b, so E[b^4] = E[(1-b)^4]. Under either hypothesis, the Reader's specific pattern has probability 1/16 and the non-reader's pattern has the same likelihood, making A and B equally likely the Reader. With p_A = 0.5, choosing either identity has expected loss 0.5, while ABSTAIN costs 0.25.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive (4 ones, 4 zeros) yields a symmetric Beta(5,5) posterior for b, so E[b^4] = E[(1-b)^4]. Under either hypothesis, the Reader's specific pattern has probability 1/16 and the non-reader's pattern has the same likelihood, making A and B equally likely the Reader. With p_A = 0.5, choosing either identity has expected loss 0.5, while ABSTAIN costs 0.25."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 8.906,
+  "captured_utc": "2026-10-09T13:01:49.063103+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive (4 ones, 4 zeros) yields a symmetric Beta(5,5) posterior for b, so E[b^4] = E[(1-b)^4]. Under either hypothesis, the Reader's specific pattern has probability 1/16 and the non-reader's pattern has the same likelihood, making A and B equally likely the Reader. With p_A = 0.5, choosing either identity has expected loss 0.5, while ABSTAIN costs 0.25."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "prompt_tokens": 622,
+    "completion_tokens": 385,
+    "total_tokens": 1007
+  }
+}

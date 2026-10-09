@@ -1,0 +1,36 @@
+{
+  "request_id": "OSI_GLM_REFRESHED_H7_ONESB_R2",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "REFRESHED_H7_ONESB",
+  "simulation_condition": "REFRESHED",
+  "bluffer_condition": "REFRESHED",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "ccb50611f9a0b5dd1e9a4f6504035af78b1369f8263c3ad8ea14ed74c90998e8",
+  "sent_utc": "2026-10-09T12:47:28.416143+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"The archive is irrelevant: b_current is independent of b_archive and the archive has no seat mapping. If A is the Reader, B's non-reader answers (1111) have likelihood ∫b^4 db = 1/5; if B is the Reader, A's answers (0000) have likelihood ∫(1-b)^4 db = 1/5. Equal likelihoods give p_A = 0.5, so any identity choice has expected loss 0.5, exceeding ABSTAIN's 0.25.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive is irrelevant: b_current is independent of b_archive and the archive has no seat mapping. If A is the Reader, B's non-reader answers (1111) have likelihood ∫b^4 db = 1/5; if B is the Reader, A's answers (0000) have likelihood ∫(1-b)^4 db = 1/5. Equal likelihoods give p_A = 0.5, so any identity choice has expected loss 0.5, exceeding ABSTAIN's 0.25."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 6.672,
+  "captured_utc": "2026-10-09T12:47:35.087413+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive is irrelevant: b_current is independent of b_archive and the archive has no seat mapping. If A is the Reader, B's non-reader answers (1111) have likelihood ∫b^4 db = 1/5; if B is the Reader, A's answers (0000) have likelihood ∫(1-b)^4 db = 1/5. Equal likelihoods give p_A = 0.5, so any identity choice has expected loss 0.5, exceeding ABSTAIN's 0.25."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "prompt_tokens": 626,
+    "completion_tokens": 306,
+    "total_tokens": 932
+  }
+}

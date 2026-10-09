@@ -1,0 +1,37 @@
+{
+  "request_id": "OSI_QWEN_PERSISTENT_H4_ONESA_R2",
+  "model": "qwen3.8-max",
+  "kind": "judge",
+  "case_id": "PERSISTENT_H4_ONESA",
+  "simulation_condition": "PERSISTENT",
+  "bluffer_condition": "PERSISTENT",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "82549a68793f5851da5d8b25c1183fffb02d8d7553f784123f5a9aac33247262",
+  "sent_utc": "2026-10-09T12:55:16.475484+00:00",
+  "status": "response_received",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The archive has four ones and four zeros, leaving the shared bias symmetric. The reader is equally likely to have produced all ones or all zeros, so A and B remain equally likely. Since both identity choices have expected loss 0.5, abstaining at 0.25 is optimal.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive has four ones and four zeros, leaving the shared bias symmetric. The reader is equally likely to have produced all ones or all zeros, so A and B remain equally likely. Since both identity choices have expected loss 0.5, abstaining at 0.25 is optimal."
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "finish_reason": "end_turn",
+  "http_status": 200,
+  "elapsed_seconds": 30.563,
+  "captured_utc": "2026-10-09T12:55:47.051081+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive has four ones and four zeros, leaving the shared bias symmetric. The reader is equally likely to have produced all ones or all zeros, so A and B remain equally likely. Since both identity choices have expected loss 0.5, abstaining at 0.25 is optimal."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "input_tokens": 710,
+    "output_tokens": 1585,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

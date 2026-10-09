@@ -1,0 +1,28 @@
+{
+  "request_id": "OSI_GLM_PERSISTENT_H4_ONESA_R2",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "PERSISTENT_H4_ONESA",
+  "simulation_condition": "PERSISTENT",
+  "bluffer_condition": "PERSISTENT",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "82549a68793f5851da5d8b25c1183fffb02d8d7553f784123f5a9aac33247262",
+  "sent_utc": "2026-10-09T13:01:49.119885+00:00",
+  "status": "response_received",
+  "visible_text": "",
+  "parsed": null,
+  "parse_status": "truncated",
+  "returned_model": "glm-5.3",
+  "finish_reason": "length",
+  "http_status": 200,
+  "elapsed_seconds": 72.422,
+  "captured_utc": "2026-10-09T13:03:01.538764+00:00",
+  "completion_parsed": null,
+  "completion_parse_status": "truncated",
+  "format_acceptance": null,
+  "usage": {
+    "prompt_tokens": 622,
+    "completion_tokens": 4096,
+    "total_tokens": 4718
+  }
+}

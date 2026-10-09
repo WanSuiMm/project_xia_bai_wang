@@ -1,0 +1,36 @@
+{
+  "request_id": "OSI_GLM_REFRESHED_H7_ONESA_R1",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "REFRESHED_H7_ONESA",
+  "simulation_condition": "REFRESHED",
+  "bluffer_condition": "REFRESHED",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "67d760d2358dcaa7571558802eb12d6e248296a9e86722e46a2c611719285e2a",
+  "sent_utc": "2026-10-09T12:55:55.463971+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"b_current is independent of the archive, so the archive provides no information about current answers. If A is the Reader, B's 0000 has probability E[(1-b)^4]=1/5; if B is the Reader, A's 1111 has probability E[b^4]=1/5. Equal likelihoods with a fair prior give p_A=0.5, so abstaining (cost 0.25) beats a coin-flip guess (expected cost 0.5).\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "b_current is independent of the archive, so the archive provides no information about current answers. If A is the Reader, B's 0000 has probability E[(1-b)^4]=1/5; if B is the Reader, A's 1111 has probability E[b^4]=1/5. Equal likelihoods with a fair prior give p_A=0.5, so abstaining (cost 0.25) beats a coin-flip guess (expected cost 0.5)."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 5.703,
+  "captured_utc": "2026-10-09T12:56:01.167861+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "b_current is independent of the archive, so the archive provides no information about current answers. If A is the Reader, B's 0000 has probability E[(1-b)^4]=1/5; if B is the Reader, A's 1111 has probability E[b^4]=1/5. Equal likelihoods with a fair prior give p_A=0.5, so abstaining (cost 0.25) beats a coin-flip guess (expected cost 0.5)."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "prompt_tokens": 626,
+    "completion_tokens": 261,
+    "total_tokens": 887
+  }
+}

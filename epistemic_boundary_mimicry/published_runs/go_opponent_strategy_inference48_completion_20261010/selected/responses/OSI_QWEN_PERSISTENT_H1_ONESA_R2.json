@@ -1,0 +1,37 @@
+{
+  "request_id": "OSI_QWEN_PERSISTENT_H1_ONESA_R2",
+  "model": "qwen3.8-max",
+  "kind": "judge",
+  "case_id": "PERSISTENT_H1_ONESA",
+  "simulation_condition": "PERSISTENT",
+  "bluffer_condition": "PERSISTENT",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "2f65cd0e42b4d1843f29449667a265017018fd13fc70dbf269c9df9a9455c8fc",
+  "sent_utc": "2026-10-09T12:38:39.218703+00:00",
+  "status": "response_received",
+  "visible_text": "{\n  \"p_A\": 0.9767441860465116,\n  \"decision\": \"A\",\n  \"reason\": \"The archive makes the shared non-reader parameter strongly favor zeros, so B's 0000 is far more likely as non-reader output than A's 1111. Reader output has equal probability for either pattern. This gives posterior odds 42:1 for A being the Reader, making A the lowest-loss choice.\"\n}",
+  "parsed": {
+    "p_A": 0.9767441860465116,
+    "decision": "A",
+    "reason": "The archive makes the shared non-reader parameter strongly favor zeros, so B's 0000 is far more likely as non-reader output than A's 1111. Reader output has equal probability for either pattern. This gives posterior odds 42:1 for A being the Reader, making A the lowest-loss choice."
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "finish_reason": "end_turn",
+  "http_status": 200,
+  "elapsed_seconds": 75.797,
+  "captured_utc": "2026-10-09T12:39:55.014778+00:00",
+  "completion_parsed": {
+    "p_A": 0.9767441860465116,
+    "decision": "A",
+    "reason": "The archive makes the shared non-reader parameter strongly favor zeros, so B's 0000 is far more likely as non-reader output than A's 1111. Reader output has equal probability for either pattern. This gives posterior odds 42:1 for A being the Reader, making A the lowest-loss choice."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "input_tokens": 710,
+    "output_tokens": 3874,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "request_id": "OSI_GLM_PERSISTENT_H4_ONESB_R1",
+  "kind": "judge",
+  "model": "glm-5.3",
+  "case_id": "PERSISTENT_H4_ONESB",
+  "simulation_condition": "PERSISTENT",
+  "bluffer_condition": "PERSISTENT",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "history_ones": 4,
+  "history": [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+  ],
+  "ones_seat": "B",
+  "repeat": 1,
+  "vector_A": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "vector_B": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "prompt_path": "prompts/OSI_GLM_PERSISTENT_H4_ONESB_R1.txt",
+  "posterior_A": 0.5,
+  "posterior_A_exact": "1/2",
+  "posterior_1111": 0.5,
+  "plugin_posterior_A": 0.5,
+  "schedule_index": 19,
+  "prompt_sha256": "dce87c2f3f78eb42e032ca1c17c30fedf665383d3033875aac89b9abf25eb3e0",
+  "dispatched_utc": "2026-10-09T12:42:57.657931+00:00"
+}

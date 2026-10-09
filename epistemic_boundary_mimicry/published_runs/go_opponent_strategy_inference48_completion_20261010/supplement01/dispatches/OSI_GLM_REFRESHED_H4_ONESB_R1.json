@@ -1,0 +1,42 @@
+{
+  "request_id": "OSI_GLM_REFRESHED_H4_ONESB_R1",
+  "kind": "judge",
+  "model": "glm-5.3",
+  "case_id": "REFRESHED_H4_ONESB",
+  "simulation_condition": "REFRESHED",
+  "bluffer_condition": "REFRESHED",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "history_ones": 4,
+  "history": [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+  ],
+  "ones_seat": "B",
+  "repeat": 1,
+  "vector_A": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "vector_B": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "prompt_path": "prompts/OSI_GLM_REFRESHED_H4_ONESB_R1.txt",
+  "posterior_A": 0.5,
+  "posterior_A_exact": "1/2",
+  "posterior_1111": 0.5,
+  "plugin_posterior_A": 0.5,
+  "schedule_index": 10,
+  "prompt_sha256": "f462d5311030caf3b3271fe67c09a24f27298658bbbdb5bf7b568d884d84ec13",
+  "dispatched_utc": "2026-10-09T12:39:55.048721+00:00"
+}

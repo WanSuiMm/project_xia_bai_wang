@@ -1,0 +1,36 @@
+{
+  "request_id": "OSI_GLM_PERSISTENT_H4_ONESB_R1",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "PERSISTENT_H4_ONESB",
+  "simulation_condition": "PERSISTENT",
+  "bluffer_condition": "PERSISTENT",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "dce87c2f3f78eb42e032ca1c17c30fedf665383d3033875aac89b9abf25eb3e0",
+  "sent_utc": "2026-10-09T12:42:57.673835+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"The archive has four 1s and four 0s, giving a symmetric Beta(5,5) posterior on b with mean 0.5. Thus E[b^4] = E[(1-b)^4], so the likelihoods of 'A is Reader (B non-reader gives all 1s)' and 'B is Reader (A non-reader gives all 0s)' are equal. With p_A = 0.5, any identity choice has expected loss 0.5, exceeding ABSTAIN's 0.25.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive has four 1s and four 0s, giving a symmetric Beta(5,5) posterior on b with mean 0.5. Thus E[b^4] = E[(1-b)^4], so the likelihoods of 'A is Reader (B non-reader gives all 1s)' and 'B is Reader (A non-reader gives all 0s)' are equal. With p_A = 0.5, any identity choice has expected loss 0.5, exceeding ABSTAIN's 0.25."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 6.64,
+  "captured_utc": "2026-10-09T12:43:04.308399+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive has four 1s and four 0s, giving a symmetric Beta(5,5) posterior on b with mean 0.5. Thus E[b^4] = E[(1-b)^4], so the likelihoods of 'A is Reader (B non-reader gives all 1s)' and 'B is Reader (A non-reader gives all 0s)' are equal. With p_A = 0.5, any identity choice has expected loss 0.5, exceeding ABSTAIN's 0.25."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "prompt_tokens": 622,
+    "completion_tokens": 318,
+    "total_tokens": 940
+  }
+}

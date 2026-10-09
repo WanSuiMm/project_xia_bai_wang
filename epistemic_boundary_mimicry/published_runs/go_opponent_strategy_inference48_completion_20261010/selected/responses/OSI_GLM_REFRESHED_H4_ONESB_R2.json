@@ -1,0 +1,36 @@
+{
+  "request_id": "OSI_GLM_REFRESHED_H4_ONESB_R2",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "REFRESHED_H4_ONESB",
+  "simulation_condition": "REFRESHED",
+  "bluffer_condition": "REFRESHED",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "f462d5311030caf3b3271fe67c09a24f27298658bbbdb5bf7b568d884d84ec13",
+  "sent_utc": "2026-10-09T12:53:15.398966+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"The archive is independent of b_current and the Reader assignment, so it provides no information. If A is the Reader, B's four 1s have likelihood ∫b^4 db = 1/5; if B is the Reader, A's four 0s have likelihood ∫(1-b)^4 db = 1/5. Equal likelihoods give p_A = 0.5, so any identity choice has expected loss 0.5, exceeding ABSTAIN's 0.25.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive is independent of b_current and the Reader assignment, so it provides no information. If A is the Reader, B's four 1s have likelihood ∫b^4 db = 1/5; if B is the Reader, A's four 0s have likelihood ∫(1-b)^4 db = 1/5. Equal likelihoods give p_A = 0.5, so any identity choice has expected loss 0.5, exceeding ABSTAIN's 0.25."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 5.047,
+  "captured_utc": "2026-10-09T12:53:20.453824+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive is independent of b_current and the Reader assignment, so it provides no information. If A is the Reader, B's four 1s have likelihood ∫b^4 db = 1/5; if B is the Reader, A's four 0s have likelihood ∫(1-b)^4 db = 1/5. Equal likelihoods give p_A = 0.5, so any identity choice has expected loss 0.5, exceeding ABSTAIN's 0.25."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "prompt_tokens": 626,
+    "completion_tokens": 214,
+    "total_tokens": 840
+  }
+}

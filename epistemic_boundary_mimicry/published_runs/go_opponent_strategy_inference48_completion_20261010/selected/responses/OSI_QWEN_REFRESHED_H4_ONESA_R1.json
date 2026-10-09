@@ -1,0 +1,37 @@
+{
+  "request_id": "OSI_QWEN_REFRESHED_H4_ONESA_R1",
+  "model": "qwen3.8-max",
+  "kind": "judge",
+  "case_id": "REFRESHED_H4_ONESA",
+  "simulation_condition": "REFRESHED",
+  "bluffer_condition": "REFRESHED",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "010505f98c80b26da85617fbf30e05a858d91a97c257a1f5dbc977685245eba9",
+  "sent_utc": "2026-10-09T12:44:24.457723+00:00",
+  "status": "response_received",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The archive is independent of the current trial because b_current is newly drawn independently. Current evidence is symmetric: under either identity, the reader's four fair bits match the observed pattern with probability 1/16, and the non-reader's uniform-b four answers have probability 1/5. Thus p_A remains 1/2, so abstaining costs 0.25 versus 0.5 for guessing.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive is independent of the current trial because b_current is newly drawn independently. Current evidence is symmetric: under either identity, the reader's four fair bits match the observed pattern with probability 1/16, and the non-reader's uniform-b four answers have probability 1/5. Thus p_A remains 1/2, so abstaining costs 0.25 versus 0.5 for guessing."
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "finish_reason": "end_turn",
+  "http_status": 200,
+  "elapsed_seconds": 37.969,
+  "captured_utc": "2026-10-09T12:45:02.420324+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive is independent of the current trial because b_current is newly drawn independently. Current evidence is symmetric: under either identity, the reader's four fair bits match the observed pattern with probability 1/16, and the non-reader's uniform-b four answers have probability 1/5. Thus p_A remains 1/2, so abstaining costs 0.25 versus 0.5 for guessing."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "input_tokens": 714,
+    "output_tokens": 1810,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

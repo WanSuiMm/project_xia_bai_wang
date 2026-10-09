@@ -1,0 +1,1907 @@
+{
+  "study_id": "opponent_strategy_inference48_completion_20261009",
+  "created_utc": "2026-10-09T12:34:35.118410+00:00",
+  "parent_run_name": "opencode_go_20261009_opponent_strategy_inference48_02",
+  "parent_artifact_hashes": {
+    "manifest.json": "f1721c405fd7716a81bbbc9d282719e6805b1ef19f7fd72dc8fe9bde62494c52",
+    "freeze.json": "479b0d93d4e8bdf188d98376cb2d5a37c4a06892e87ed556f0d43690b3c3754a",
+    "schedule.json": "aa4f7339eb24348e9f52f1aa70ec752fe1beeeb1f16ffcfa9200af983b45c72d",
+    "status.json": "e1612c1874bc552a997ad1431c5dac48dc74b2e77ecefe1bde78baa05668eae7",
+    "responses/OSI_GLM_REFRESHED_H4_ONESA_R2.json": "e5893575cc62982becd8b890c7a1982aa74dda814cfa6d88756ecdb7c1182474",
+    "responses/OSI_QWEN_PERSISTENT_H7_ONESB_R2.json": "4dd95f695f9ae72aa98804f326b932daa3f144c7b9da08a3f5582c12795a9b0d",
+    "responses/OSI_QWEN_REFRESHED_H4_ONESA_R2.json": "b1e55cd55e149e4d086db067b01e00ba48d25ac6e82398fd91c71e5236cf96ce",
+    "dispatches/OSI_GLM_REFRESHED_H4_ONESA_R2.json": "aeb0878c882abb7fde46b844d270041f784ac6127731765e399b4326aa597eb5",
+    "dispatches/OSI_QWEN_PERSISTENT_H7_ONESB_R2.json": "0a999fdd9ee1e022d452f98a41a176ee88854f48de16975596dd830c854d8f3d",
+    "dispatches/OSI_QWEN_REFRESHED_H4_ONESA_R2.json": "b3c06423ad5aa62f72218a6c468d29736464606f13818d2dea4ef32ecbd07f93",
+    "prompt_receipts/OSI_GLM_REFRESHED_H4_ONESA_R2.json": "b223577cee1588b104b5b7a99f4f469692393fffb7eb6262c3b113756253ab67",
+    "prompt_receipts/OSI_QWEN_PERSISTENT_H7_ONESB_R2.json": "1565332b80577e1ed488661555f31abed69be6f6653f444a44b69d451c4613a1",
+    "prompt_receipts/OSI_QWEN_REFRESHED_H4_ONESA_R2.json": "c39bbc663e5e63ea436483243156428a08d6a837c9abdb5c9ca9320e2fb34210"
+  },
+  "retained_valid_ids": [
+    "OSI_QWEN_PERSISTENT_H7_ONESB_R2",
+    "OSI_QWEN_REFRESHED_H4_ONESA_R2"
+  ],
+  "planned_provider_requests": 46,
+  "requests": [
+    {
+      "request_id": "OSI_GLM_REFRESHED_H4_ONESA_R2",
+      "kind": "judge",
+      "model": "glm-5.3",
+      "case_id": "REFRESHED_H4_ONESA",
+      "simulation_condition": "REFRESHED",
+      "bluffer_condition": "REFRESHED",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 4,
+      "history": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "ones_seat": "A",
+      "repeat": 2,
+      "vector_A": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_path": "prompts/OSI_GLM_REFRESHED_H4_ONESA_R2.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 3
+    },
+    {
+      "request_id": "OSI_QWEN_REFRESHED_H1_ONESA_R2",
+      "kind": "judge",
+      "model": "qwen3.8-max",
+      "case_id": "REFRESHED_H1_ONESA",
+      "simulation_condition": "REFRESHED",
+      "bluffer_condition": "REFRESHED",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 1,
+      "history": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones_seat": "A",
+      "repeat": 2,
+      "vector_A": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_path": "prompts/OSI_QWEN_REFRESHED_H1_ONESA_R2.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 4
+    },
+    {
+      "request_id": "OSI_QWEN_REFRESHED_H4_ONESB_R1",
+      "kind": "judge",
+      "model": "qwen3.8-max",
+      "case_id": "REFRESHED_H4_ONESB",
+      "simulation_condition": "REFRESHED",
+      "bluffer_condition": "REFRESHED",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 4,
+      "history": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "ones_seat": "B",
+      "repeat": 1,
+      "vector_A": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "prompt_path": "prompts/OSI_QWEN_REFRESHED_H4_ONESB_R1.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 5
+    },
+    {
+      "request_id": "OSI_QWEN_PERSISTENT_H4_ONESA_R1",
+      "kind": "judge",
+      "model": "qwen3.8-max",
+      "case_id": "PERSISTENT_H4_ONESA",
+      "simulation_condition": "PERSISTENT",
+      "bluffer_condition": "PERSISTENT",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 4,
+      "history": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "ones_seat": "A",
+      "repeat": 1,
+      "vector_A": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_path": "prompts/OSI_QWEN_PERSISTENT_H4_ONESA_R1.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 6
+    },
+    {
+      "request_id": "OSI_GLM_PERSISTENT_H1_ONESA_R1",
+      "kind": "judge",
+      "model": "glm-5.3",
+      "case_id": "PERSISTENT_H1_ONESA",
+      "simulation_condition": "PERSISTENT",
+      "bluffer_condition": "PERSISTENT",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 1,
+      "history": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones_seat": "A",
+      "repeat": 1,
+      "vector_A": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_path": "prompts/OSI_GLM_PERSISTENT_H1_ONESA_R1.txt",
+      "posterior_A": 0.9850746268656716,
+      "posterior_A_exact": "66/67",
+      "posterior_1111": 0.9850746268656716,
+      "plugin_posterior_A": 0.9961089494163424,
+      "schedule_index": 7
+    },
+    {
+      "request_id": "OSI_GLM_REFRESHED_H4_ONESA_R1",
+      "kind": "judge",
+      "model": "glm-5.3",
+      "case_id": "REFRESHED_H4_ONESA",
+      "simulation_condition": "REFRESHED",
+      "bluffer_condition": "REFRESHED",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 4,
+      "history": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "ones_seat": "A",
+      "repeat": 1,
+      "vector_A": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_path": "prompts/OSI_GLM_REFRESHED_H4_ONESA_R1.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 8
+    },
+    {
+      "request_id": "OSI_QWEN_PERSISTENT_H1_ONESA_R2",
+      "kind": "judge",
+      "model": "qwen3.8-max",
+      "case_id": "PERSISTENT_H1_ONESA",
+      "simulation_condition": "PERSISTENT",
+      "bluffer_condition": "PERSISTENT",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 1,
+      "history": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones_seat": "A",
+      "repeat": 2,
+      "vector_A": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_path": "prompts/OSI_QWEN_PERSISTENT_H1_ONESA_R2.txt",
+      "posterior_A": 0.9850746268656716,
+      "posterior_A_exact": "66/67",
+      "posterior_1111": 0.9850746268656716,
+      "plugin_posterior_A": 0.9961089494163424,
+      "schedule_index": 9
+    },
+    {
+      "request_id": "OSI_GLM_REFRESHED_H4_ONESB_R1",
+      "kind": "judge",
+      "model": "glm-5.3",
+      "case_id": "REFRESHED_H4_ONESB",
+      "simulation_condition": "REFRESHED",
+      "bluffer_condition": "REFRESHED",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 4,
+      "history": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "ones_seat": "B",
+      "repeat": 1,
+      "vector_A": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "prompt_path": "prompts/OSI_GLM_REFRESHED_H4_ONESB_R1.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 10
+    },
+    {
+      "request_id": "OSI_GLM_REFRESHED_H1_ONESA_R1",
+      "kind": "judge",
+      "model": "glm-5.3",
+      "case_id": "REFRESHED_H1_ONESA",
+      "simulation_condition": "REFRESHED",
+      "bluffer_condition": "REFRESHED",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 1,
+      "history": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones_seat": "A",
+      "repeat": 1,
+      "vector_A": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_path": "prompts/OSI_GLM_REFRESHED_H1_ONESA_R1.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 11
+    },
+    {
+      "request_id": "OSI_GLM_PERSISTENT_H4_ONESA_R1",
+      "kind": "judge",
+      "model": "glm-5.3",
+      "case_id": "PERSISTENT_H4_ONESA",
+      "simulation_condition": "PERSISTENT",
+      "bluffer_condition": "PERSISTENT",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 4,
+      "history": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "ones_seat": "A",
+      "repeat": 1,
+      "vector_A": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_path": "prompts/OSI_GLM_PERSISTENT_H4_ONESA_R1.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 12
+    },
+    {
+      "request_id": "OSI_QWEN_REFRESHED_H1_ONESB_R1",
+      "kind": "judge",
+      "model": "qwen3.8-max",
+      "case_id": "REFRESHED_H1_ONESB",
+      "simulation_condition": "REFRESHED",
+      "bluffer_condition": "REFRESHED",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 1,
+      "history": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones_seat": "B",
+      "repeat": 1,
+      "vector_A": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "prompt_path": "prompts/OSI_QWEN_REFRESHED_H1_ONESB_R1.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 13
+    },
+    {
+      "request_id": "OSI_QWEN_REFRESHED_H1_ONESA_R1",
+      "kind": "judge",
+      "model": "qwen3.8-max",
+      "case_id": "REFRESHED_H1_ONESA",
+      "simulation_condition": "REFRESHED",
+      "bluffer_condition": "REFRESHED",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 1,
+      "history": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones_seat": "A",
+      "repeat": 1,
+      "vector_A": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_path": "prompts/OSI_QWEN_REFRESHED_H1_ONESA_R1.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 14
+    },
+    {
+      "request_id": "OSI_GLM_PERSISTENT_H7_ONESB_R2",
+      "kind": "judge",
+      "model": "glm-5.3",
+      "case_id": "PERSISTENT_H7_ONESB",
+      "simulation_condition": "PERSISTENT",
+      "bluffer_condition": "PERSISTENT",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 7,
+      "history": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "ones_seat": "B",
+      "repeat": 2,
+      "vector_A": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "prompt_path": "prompts/OSI_GLM_PERSISTENT_H7_ONESB_R2.txt",
+      "posterior_A": 0.9850746268656716,
+      "posterior_A_exact": "66/67",
+      "posterior_1111": 0.014925373134328358,
+      "plugin_posterior_A": 0.9961089494163424,
+      "schedule_index": 15
+    },
+    {
+      "request_id": "OSI_GLM_PERSISTENT_H1_ONESA_R2",
+      "kind": "judge",
+      "model": "glm-5.3",
+      "case_id": "PERSISTENT_H1_ONESA",
+      "simulation_condition": "PERSISTENT",
+      "bluffer_condition": "PERSISTENT",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 1,
+      "history": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones_seat": "A",
+      "repeat": 2,
+      "vector_A": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_path": "prompts/OSI_GLM_PERSISTENT_H1_ONESA_R2.txt",
+      "posterior_A": 0.9850746268656716,
+      "posterior_A_exact": "66/67",
+      "posterior_1111": 0.9850746268656716,
+      "plugin_posterior_A": 0.9961089494163424,
+      "schedule_index": 16
+    },
+    {
+      "request_id": "OSI_GLM_REFRESHED_H1_ONESB_R2",
+      "kind": "judge",
+      "model": "glm-5.3",
+      "case_id": "REFRESHED_H1_ONESB",
+      "simulation_condition": "REFRESHED",
+      "bluffer_condition": "REFRESHED",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 1,
+      "history": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones_seat": "B",
+      "repeat": 2,
+      "vector_A": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "prompt_path": "prompts/OSI_GLM_REFRESHED_H1_ONESB_R2.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 17
+    },
+    {
+      "request_id": "OSI_GLM_PERSISTENT_H7_ONESA_R1",
+      "kind": "judge",
+      "model": "glm-5.3",
+      "case_id": "PERSISTENT_H7_ONESA",
+      "simulation_condition": "PERSISTENT",
+      "bluffer_condition": "PERSISTENT",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 7,
+      "history": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "ones_seat": "A",
+      "repeat": 1,
+      "vector_A": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_path": "prompts/OSI_GLM_PERSISTENT_H7_ONESA_R1.txt",
+      "posterior_A": 0.014925373134328358,
+      "posterior_A_exact": "1/67",
+      "posterior_1111": 0.014925373134328358,
+      "plugin_posterior_A": 0.0038910505836575876,
+      "schedule_index": 18
+    },
+    {
+      "request_id": "OSI_GLM_PERSISTENT_H4_ONESB_R1",
+      "kind": "judge",
+      "model": "glm-5.3",
+      "case_id": "PERSISTENT_H4_ONESB",
+      "simulation_condition": "PERSISTENT",
+      "bluffer_condition": "PERSISTENT",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 4,
+      "history": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "ones_seat": "B",
+      "repeat": 1,
+      "vector_A": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "prompt_path": "prompts/OSI_GLM_PERSISTENT_H4_ONESB_R1.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 19
+    },
+    {
+      "request_id": "OSI_QWEN_PERSISTENT_H1_ONESB_R1",
+      "kind": "judge",
+      "model": "qwen3.8-max",
+      "case_id": "PERSISTENT_H1_ONESB",
+      "simulation_condition": "PERSISTENT",
+      "bluffer_condition": "PERSISTENT",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 1,
+      "history": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones_seat": "B",
+      "repeat": 1,
+      "vector_A": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "prompt_path": "prompts/OSI_QWEN_PERSISTENT_H1_ONESB_R1.txt",
+      "posterior_A": 0.014925373134328358,
+      "posterior_A_exact": "1/67",
+      "posterior_1111": 0.9850746268656716,
+      "plugin_posterior_A": 0.0038910505836575876,
+      "schedule_index": 20
+    },
+    {
+      "request_id": "OSI_GLM_REFRESHED_H7_ONESA_R2",
+      "kind": "judge",
+      "model": "glm-5.3",
+      "case_id": "REFRESHED_H7_ONESA",
+      "simulation_condition": "REFRESHED",
+      "bluffer_condition": "REFRESHED",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 7,
+      "history": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "ones_seat": "A",
+      "repeat": 2,
+      "vector_A": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_path": "prompts/OSI_GLM_REFRESHED_H7_ONESA_R2.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 21
+    },
+    {
+      "request_id": "OSI_QWEN_REFRESHED_H4_ONESA_R1",
+      "kind": "judge",
+      "model": "qwen3.8-max",
+      "case_id": "REFRESHED_H4_ONESA",
+      "simulation_condition": "REFRESHED",
+      "bluffer_condition": "REFRESHED",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 4,
+      "history": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "ones_seat": "A",
+      "repeat": 1,
+      "vector_A": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_path": "prompts/OSI_QWEN_REFRESHED_H4_ONESA_R1.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 22
+    },
+    {
+      "request_id": "OSI_GLM_REFRESHED_H7_ONESB_R1",
+      "kind": "judge",
+      "model": "glm-5.3",
+      "case_id": "REFRESHED_H7_ONESB",
+      "simulation_condition": "REFRESHED",
+      "bluffer_condition": "REFRESHED",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 7,
+      "history": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "ones_seat": "B",
+      "repeat": 1,
+      "vector_A": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "prompt_path": "prompts/OSI_GLM_REFRESHED_H7_ONESB_R1.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 23
+    },
+    {
+      "request_id": "OSI_QWEN_REFRESHED_H7_ONESB_R1",
+      "kind": "judge",
+      "model": "qwen3.8-max",
+      "case_id": "REFRESHED_H7_ONESB",
+      "simulation_condition": "REFRESHED",
+      "bluffer_condition": "REFRESHED",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 7,
+      "history": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "ones_seat": "B",
+      "repeat": 1,
+      "vector_A": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "prompt_path": "prompts/OSI_QWEN_REFRESHED_H7_ONESB_R1.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 24
+    },
+    {
+      "request_id": "OSI_QWEN_PERSISTENT_H4_ONESB_R1",
+      "kind": "judge",
+      "model": "qwen3.8-max",
+      "case_id": "PERSISTENT_H4_ONESB",
+      "simulation_condition": "PERSISTENT",
+      "bluffer_condition": "PERSISTENT",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 4,
+      "history": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "ones_seat": "B",
+      "repeat": 1,
+      "vector_A": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "prompt_path": "prompts/OSI_QWEN_PERSISTENT_H4_ONESB_R1.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 25
+    },
+    {
+      "request_id": "OSI_GLM_REFRESHED_H1_ONESA_R2",
+      "kind": "judge",
+      "model": "glm-5.3",
+      "case_id": "REFRESHED_H1_ONESA",
+      "simulation_condition": "REFRESHED",
+      "bluffer_condition": "REFRESHED",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 1,
+      "history": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones_seat": "A",
+      "repeat": 2,
+      "vector_A": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_path": "prompts/OSI_GLM_REFRESHED_H1_ONESA_R2.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 26
+    },
+    {
+      "request_id": "OSI_QWEN_REFRESHED_H7_ONESA_R2",
+      "kind": "judge",
+      "model": "qwen3.8-max",
+      "case_id": "REFRESHED_H7_ONESA",
+      "simulation_condition": "REFRESHED",
+      "bluffer_condition": "REFRESHED",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 7,
+      "history": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "ones_seat": "A",
+      "repeat": 2,
+      "vector_A": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_path": "prompts/OSI_QWEN_REFRESHED_H7_ONESA_R2.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 27
+    },
+    {
+      "request_id": "OSI_GLM_REFRESHED_H7_ONESB_R2",
+      "kind": "judge",
+      "model": "glm-5.3",
+      "case_id": "REFRESHED_H7_ONESB",
+      "simulation_condition": "REFRESHED",
+      "bluffer_condition": "REFRESHED",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 7,
+      "history": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "ones_seat": "B",
+      "repeat": 2,
+      "vector_A": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "prompt_path": "prompts/OSI_GLM_REFRESHED_H7_ONESB_R2.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 28
+    },
+    {
+      "request_id": "OSI_QWEN_PERSISTENT_H1_ONESB_R2",
+      "kind": "judge",
+      "model": "qwen3.8-max",
+      "case_id": "PERSISTENT_H1_ONESB",
+      "simulation_condition": "PERSISTENT",
+      "bluffer_condition": "PERSISTENT",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 1,
+      "history": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones_seat": "B",
+      "repeat": 2,
+      "vector_A": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "prompt_path": "prompts/OSI_QWEN_PERSISTENT_H1_ONESB_R2.txt",
+      "posterior_A": 0.014925373134328358,
+      "posterior_A_exact": "1/67",
+      "posterior_1111": 0.9850746268656716,
+      "plugin_posterior_A": 0.0038910505836575876,
+      "schedule_index": 29
+    },
+    {
+      "request_id": "OSI_QWEN_REFRESHED_H4_ONESB_R2",
+      "kind": "judge",
+      "model": "qwen3.8-max",
+      "case_id": "REFRESHED_H4_ONESB",
+      "simulation_condition": "REFRESHED",
+      "bluffer_condition": "REFRESHED",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 4,
+      "history": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "ones_seat": "B",
+      "repeat": 2,
+      "vector_A": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "prompt_path": "prompts/OSI_QWEN_REFRESHED_H4_ONESB_R2.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 30
+    },
+    {
+      "request_id": "OSI_GLM_PERSISTENT_H7_ONESB_R1",
+      "kind": "judge",
+      "model": "glm-5.3",
+      "case_id": "PERSISTENT_H7_ONESB",
+      "simulation_condition": "PERSISTENT",
+      "bluffer_condition": "PERSISTENT",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 7,
+      "history": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "ones_seat": "B",
+      "repeat": 1,
+      "vector_A": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "prompt_path": "prompts/OSI_GLM_PERSISTENT_H7_ONESB_R1.txt",
+      "posterior_A": 0.9850746268656716,
+      "posterior_A_exact": "66/67",
+      "posterior_1111": 0.014925373134328358,
+      "plugin_posterior_A": 0.9961089494163424,
+      "schedule_index": 31
+    },
+    {
+      "request_id": "OSI_QWEN_REFRESHED_H7_ONESB_R2",
+      "kind": "judge",
+      "model": "qwen3.8-max",
+      "case_id": "REFRESHED_H7_ONESB",
+      "simulation_condition": "REFRESHED",
+      "bluffer_condition": "REFRESHED",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 7,
+      "history": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "ones_seat": "B",
+      "repeat": 2,
+      "vector_A": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "prompt_path": "prompts/OSI_QWEN_REFRESHED_H7_ONESB_R2.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 32
+    },
+    {
+      "request_id": "OSI_QWEN_PERSISTENT_H4_ONESB_R2",
+      "kind": "judge",
+      "model": "qwen3.8-max",
+      "case_id": "PERSISTENT_H4_ONESB",
+      "simulation_condition": "PERSISTENT",
+      "bluffer_condition": "PERSISTENT",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 4,
+      "history": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "ones_seat": "B",
+      "repeat": 2,
+      "vector_A": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "prompt_path": "prompts/OSI_QWEN_PERSISTENT_H4_ONESB_R2.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 33
+    },
+    {
+      "request_id": "OSI_GLM_REFRESHED_H4_ONESB_R2",
+      "kind": "judge",
+      "model": "glm-5.3",
+      "case_id": "REFRESHED_H4_ONESB",
+      "simulation_condition": "REFRESHED",
+      "bluffer_condition": "REFRESHED",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 4,
+      "history": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "ones_seat": "B",
+      "repeat": 2,
+      "vector_A": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "prompt_path": "prompts/OSI_GLM_REFRESHED_H4_ONESB_R2.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 34
+    },
+    {
+      "request_id": "OSI_QWEN_REFRESHED_H1_ONESB_R2",
+      "kind": "judge",
+      "model": "qwen3.8-max",
+      "case_id": "REFRESHED_H1_ONESB",
+      "simulation_condition": "REFRESHED",
+      "bluffer_condition": "REFRESHED",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 1,
+      "history": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones_seat": "B",
+      "repeat": 2,
+      "vector_A": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "prompt_path": "prompts/OSI_QWEN_REFRESHED_H1_ONESB_R2.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 35
+    },
+    {
+      "request_id": "OSI_QWEN_PERSISTENT_H7_ONESA_R2",
+      "kind": "judge",
+      "model": "qwen3.8-max",
+      "case_id": "PERSISTENT_H7_ONESA",
+      "simulation_condition": "PERSISTENT",
+      "bluffer_condition": "PERSISTENT",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 7,
+      "history": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "ones_seat": "A",
+      "repeat": 2,
+      "vector_A": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_path": "prompts/OSI_QWEN_PERSISTENT_H7_ONESA_R2.txt",
+      "posterior_A": 0.014925373134328358,
+      "posterior_A_exact": "1/67",
+      "posterior_1111": 0.014925373134328358,
+      "plugin_posterior_A": 0.0038910505836575876,
+      "schedule_index": 36
+    },
+    {
+      "request_id": "OSI_QWEN_PERSISTENT_H4_ONESA_R2",
+      "kind": "judge",
+      "model": "qwen3.8-max",
+      "case_id": "PERSISTENT_H4_ONESA",
+      "simulation_condition": "PERSISTENT",
+      "bluffer_condition": "PERSISTENT",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 4,
+      "history": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "ones_seat": "A",
+      "repeat": 2,
+      "vector_A": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_path": "prompts/OSI_QWEN_PERSISTENT_H4_ONESA_R2.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 37
+    },
+    {
+      "request_id": "OSI_GLM_PERSISTENT_H1_ONESB_R1",
+      "kind": "judge",
+      "model": "glm-5.3",
+      "case_id": "PERSISTENT_H1_ONESB",
+      "simulation_condition": "PERSISTENT",
+      "bluffer_condition": "PERSISTENT",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 1,
+      "history": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones_seat": "B",
+      "repeat": 1,
+      "vector_A": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "prompt_path": "prompts/OSI_GLM_PERSISTENT_H1_ONESB_R1.txt",
+      "posterior_A": 0.014925373134328358,
+      "posterior_A_exact": "1/67",
+      "posterior_1111": 0.9850746268656716,
+      "plugin_posterior_A": 0.0038910505836575876,
+      "schedule_index": 38
+    },
+    {
+      "request_id": "OSI_GLM_REFRESHED_H7_ONESA_R1",
+      "kind": "judge",
+      "model": "glm-5.3",
+      "case_id": "REFRESHED_H7_ONESA",
+      "simulation_condition": "REFRESHED",
+      "bluffer_condition": "REFRESHED",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 7,
+      "history": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "ones_seat": "A",
+      "repeat": 1,
+      "vector_A": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_path": "prompts/OSI_GLM_REFRESHED_H7_ONESA_R1.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 39
+    },
+    {
+      "request_id": "OSI_GLM_REFRESHED_H1_ONESB_R1",
+      "kind": "judge",
+      "model": "glm-5.3",
+      "case_id": "REFRESHED_H1_ONESB",
+      "simulation_condition": "REFRESHED",
+      "bluffer_condition": "REFRESHED",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 1,
+      "history": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones_seat": "B",
+      "repeat": 1,
+      "vector_A": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "prompt_path": "prompts/OSI_GLM_REFRESHED_H1_ONESB_R1.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 40
+    },
+    {
+      "request_id": "OSI_QWEN_PERSISTENT_H7_ONESB_R1",
+      "kind": "judge",
+      "model": "qwen3.8-max",
+      "case_id": "PERSISTENT_H7_ONESB",
+      "simulation_condition": "PERSISTENT",
+      "bluffer_condition": "PERSISTENT",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 7,
+      "history": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "ones_seat": "B",
+      "repeat": 1,
+      "vector_A": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "prompt_path": "prompts/OSI_QWEN_PERSISTENT_H7_ONESB_R1.txt",
+      "posterior_A": 0.9850746268656716,
+      "posterior_A_exact": "66/67",
+      "posterior_1111": 0.014925373134328358,
+      "plugin_posterior_A": 0.9961089494163424,
+      "schedule_index": 41
+    },
+    {
+      "request_id": "OSI_QWEN_REFRESHED_H7_ONESA_R1",
+      "kind": "judge",
+      "model": "qwen3.8-max",
+      "case_id": "REFRESHED_H7_ONESA",
+      "simulation_condition": "REFRESHED",
+      "bluffer_condition": "REFRESHED",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 7,
+      "history": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "ones_seat": "A",
+      "repeat": 1,
+      "vector_A": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_path": "prompts/OSI_QWEN_REFRESHED_H7_ONESA_R1.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 42
+    },
+    {
+      "request_id": "OSI_GLM_PERSISTENT_H1_ONESB_R2",
+      "kind": "judge",
+      "model": "glm-5.3",
+      "case_id": "PERSISTENT_H1_ONESB",
+      "simulation_condition": "PERSISTENT",
+      "bluffer_condition": "PERSISTENT",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 1,
+      "history": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones_seat": "B",
+      "repeat": 2,
+      "vector_A": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "prompt_path": "prompts/OSI_GLM_PERSISTENT_H1_ONESB_R2.txt",
+      "posterior_A": 0.014925373134328358,
+      "posterior_A_exact": "1/67",
+      "posterior_1111": 0.9850746268656716,
+      "plugin_posterior_A": 0.0038910505836575876,
+      "schedule_index": 43
+    },
+    {
+      "request_id": "OSI_QWEN_PERSISTENT_H7_ONESA_R1",
+      "kind": "judge",
+      "model": "qwen3.8-max",
+      "case_id": "PERSISTENT_H7_ONESA",
+      "simulation_condition": "PERSISTENT",
+      "bluffer_condition": "PERSISTENT",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 7,
+      "history": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "ones_seat": "A",
+      "repeat": 1,
+      "vector_A": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_path": "prompts/OSI_QWEN_PERSISTENT_H7_ONESA_R1.txt",
+      "posterior_A": 0.014925373134328358,
+      "posterior_A_exact": "1/67",
+      "posterior_1111": 0.014925373134328358,
+      "plugin_posterior_A": 0.0038910505836575876,
+      "schedule_index": 44
+    },
+    {
+      "request_id": "OSI_QWEN_PERSISTENT_H1_ONESA_R1",
+      "kind": "judge",
+      "model": "qwen3.8-max",
+      "case_id": "PERSISTENT_H1_ONESA",
+      "simulation_condition": "PERSISTENT",
+      "bluffer_condition": "PERSISTENT",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 1,
+      "history": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ones_seat": "A",
+      "repeat": 1,
+      "vector_A": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_path": "prompts/OSI_QWEN_PERSISTENT_H1_ONESA_R1.txt",
+      "posterior_A": 0.9850746268656716,
+      "posterior_A_exact": "66/67",
+      "posterior_1111": 0.9850746268656716,
+      "plugin_posterior_A": 0.9961089494163424,
+      "schedule_index": 45
+    },
+    {
+      "request_id": "OSI_GLM_PERSISTENT_H4_ONESB_R2",
+      "kind": "judge",
+      "model": "glm-5.3",
+      "case_id": "PERSISTENT_H4_ONESB",
+      "simulation_condition": "PERSISTENT",
+      "bluffer_condition": "PERSISTENT",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 4,
+      "history": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "ones_seat": "B",
+      "repeat": 2,
+      "vector_A": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vector_B": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "prompt_path": "prompts/OSI_GLM_PERSISTENT_H4_ONESB_R2.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 46
+    },
+    {
+      "request_id": "OSI_GLM_PERSISTENT_H4_ONESA_R2",
+      "kind": "judge",
+      "model": "glm-5.3",
+      "case_id": "PERSISTENT_H4_ONESA",
+      "simulation_condition": "PERSISTENT",
+      "bluffer_condition": "PERSISTENT",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 4,
+      "history": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "ones_seat": "A",
+      "repeat": 2,
+      "vector_A": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_path": "prompts/OSI_GLM_PERSISTENT_H4_ONESA_R2.txt",
+      "posterior_A": 0.5,
+      "posterior_A_exact": "1/2",
+      "posterior_1111": 0.5,
+      "plugin_posterior_A": 0.5,
+      "schedule_index": 47
+    },
+    {
+      "request_id": "OSI_GLM_PERSISTENT_H7_ONESA_R2",
+      "kind": "judge",
+      "model": "glm-5.3",
+      "case_id": "PERSISTENT_H7_ONESA",
+      "simulation_condition": "PERSISTENT",
+      "bluffer_condition": "PERSISTENT",
+      "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+      "history_ones": 7,
+      "history": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "ones_seat": "A",
+      "repeat": 2,
+      "vector_A": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vector_B": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prompt_path": "prompts/OSI_GLM_PERSISTENT_H7_ONESA_R2.txt",
+      "posterior_A": 0.014925373134328358,
+      "posterior_A_exact": "1/67",
+      "posterior_1111": 0.014925373134328358,
+      "plugin_posterior_A": 0.0038910505836575876,
+      "schedule_index": 48
+    }
+  ],
+  "configuration_by_model": {
+    "glm-5.3": {
+      "endpoint": "chat/completions",
+      "temperature": 0.5,
+      "max_tokens": 4096,
+      "thinking": {
+        "type": "enabled"
+      },
+      "reasoning_effort": "low",
+      "stream": false
+    },
+    "qwen3.8-max": {
+      "endpoint": "messages",
+      "temperature": 0.5,
+      "max_tokens": 8192,
+      "reasoning_controls": "omitted; deployment default",
+      "stream": false
+    }
+  },
+  "source_artifacts": {
+    "epistemic_boundary_mimicry/opponent_strategy_inference/PROTOCOL_20261009.md": "155aa171186c2f16f63d04bb4c7c65ce705c635490849d9aeb1109e3bfc59f80",
+    "epistemic_boundary_mimicry/opponent_strategy_inference/PROMPT_MODULES_20261009.json": "f668f23629272c76e739ec22ddbd866b6c47563d18cc8c011309e96640fa384f",
+    "epistemic_boundary_mimicry/opponent_strategy_inference/THEORY_V2_20261009.md": "a779f44830a86078f77e729ad27545704bb5fd132cb9739b8c9b25f77863a979",
+    "scripts/run_opponent_strategy_inference.py": "08b1141b003f481f15ce0448ec747208cc067c562d5ec52ed5d8e2610d5ca12d",
+    "scripts/analyze_opponent_strategy_inference.py": "0f84d8a6fbb7e23eb03ddcbbc25d0f648155edb0a69d77f4cd92e529cb9880f9",
+    "scripts/test_opponent_strategy_inference.py": "d80e152027b47ff3dc82dd829df1cfde045429f5a79b96a54c0192c947b4425d",
+    "scripts/check_opponent_strategy_theory.py": "d882d2ce141010f985b5f2cca1fab617c194e8ae4a228fa62c05e98dc37b0d98",
+    "scripts/run_joint_epistemic_simulation.py": "f7c626f285858804cf9f24127579087f5437452f7d2976e3c10b9047e0d40550",
+    "scripts/run_joint_epistemic_supplement.py": "ff5e2064c591c38ab71980773c4f533f74209f179e1bbdfaf9da121e06b676b0",
+    "scripts/run_counterfactual_source_boundary.py": "a425f83b91e7bcfce53009aecec27f823dd426b46b15c2d5e02679d1a2a32657",
+    "scripts/run_strategic_qualification.py": "4ed6381f1399ccbe9e68cff61737f19bc8d5a27eeec017273c60aea56ae17123",
+    "epistemic_boundary_mimicry/opponent_strategy_inference/SUPPLEMENT_PROTOCOL_20261009.md": "20a7e4090734873342e85a44f9f04e89d3f16707fd1c0fea36246fd27ff3aabd",
+    "scripts/run_opponent_strategy_completion.py": "82920d674e6cf429589bb24db527e9f99ab0bf7f96b7f7bf0ee937a0d55e3f32",
+    "scripts/analyze_opponent_strategy_completion.py": "c79d7fda231700ff008635798a0da99ad40c83f84ddda4eb66bf7168d9bdf317",
+    "scripts/test_opponent_strategy_completion.py": "e62aff00cbde5bc335e4b7e7ef81f236e3604c23802aea231162357941e16bf6"
+  },
+  "selection_rule": "All 46 non-strict-valid recovery slots, original order; no correctness selection",
+  "retry_policy": "One new attempt per selected slot; no automatic retry or fallback",
+  "timeout_seconds": 300,
+  "max_concurrency": 1
+}

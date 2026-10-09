@@ -1,0 +1,36 @@
+{
+  "request_id": "OSI_GLM_REFRESHED_H4_ONESA_R2",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "REFRESHED_H4_ONESA",
+  "simulation_condition": "REFRESHED",
+  "bluffer_condition": "REFRESHED",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "010505f98c80b26da85617fbf30e05a858d91a97c257a1f5dbc977685245eba9",
+  "sent_utc": "2026-10-09T12:35:11.959590+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"The archive informs only b_archive, which is independent of b_current and the Reader's source, so it provides no evidence about current identities. Under either hypothesis, the non-reader's pattern (all 1s or all 0s) has integrated likelihood ∫b^4 db = 1/5, and the Reader's answers have likelihood 1. With equal prior odds, p_A = 0.5, so any identity choice has expected loss 0.5 versus 0.25 for abstaining.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive informs only b_archive, which is independent of b_current and the Reader's source, so it provides no evidence about current identities. Under either hypothesis, the non-reader's pattern (all 1s or all 0s) has integrated likelihood ∫b^4 db = 1/5, and the Reader's answers have likelihood 1. With equal prior odds, p_A = 0.5, so any identity choice has expected loss 0.5 versus 0.25 for abstaining."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 6.625,
+  "captured_utc": "2026-10-09T12:35:18.587364+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive informs only b_archive, which is independent of b_current and the Reader's source, so it provides no evidence about current identities. Under either hypothesis, the non-reader's pattern (all 1s or all 0s) has integrated likelihood ∫b^4 db = 1/5, and the Reader's answers have likelihood 1. With equal prior odds, p_A = 0.5, so any identity choice has expected loss 0.5 versus 0.25 for abstaining."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "prompt_tokens": 626,
+    "completion_tokens": 261,
+    "total_tokens": 887
+  }
+}

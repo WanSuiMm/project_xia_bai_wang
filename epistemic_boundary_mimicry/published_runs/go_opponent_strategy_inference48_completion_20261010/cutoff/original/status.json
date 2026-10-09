@@ -1,0 +1,11 @@
+{
+  "state": "HALTED",
+  "halt_reason": "http_error",
+  "planned": 48,
+  "provider_requests": 1,
+  "response_count": 1,
+  "valid": 0,
+  "strict_valid": 0,
+  "format_exception_count": 0,
+  "updated_utc": "2026-10-09T10:13:59.466829+00:00"
+}

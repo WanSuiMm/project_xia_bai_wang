@@ -1,0 +1,37 @@
+{
+  "request_id": "OSI_QWEN_PERSISTENT_H7_ONESB_R2",
+  "model": "qwen3.8-max",
+  "kind": "judge",
+  "case_id": "PERSISTENT_H7_ONESB",
+  "simulation_condition": "PERSISTENT",
+  "bluffer_condition": "PERSISTENT",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "399b4d40ff15545740da55c4280fabf3014c33dac372542f124d06bb6e03aafb",
+  "sent_utc": "2026-10-09T10:26:35.205073+00:00",
+  "status": "response_received",
+  "visible_text": "{\n  \"p_A\": 0.9850746268656716,\n  \"decision\": \"A\",\n  \"reason\": \"The archive's seven ones among eight make the shared non-reader bias high. Thus current all-zero answers are unlikely from the non-reader, while all-one answers are likely, so A is much more likely to be the Reader. Choosing A has expected loss 1/67, below abstain's 0.25.\"\n}",
+  "parsed": {
+    "p_A": 0.9850746268656716,
+    "decision": "A",
+    "reason": "The archive's seven ones among eight make the shared non-reader bias high. Thus current all-zero answers are unlikely from the non-reader, while all-one answers are likely, so A is much more likely to be the Reader. Choosing A has expected loss 1/67, below abstain's 0.25."
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "usage": {
+    "input_tokens": 710,
+    "output_tokens": 3496,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "finish_reason": "end_turn",
+  "http_status": 200,
+  "elapsed_seconds": 87.078,
+  "captured_utc": "2026-10-09T10:28:02.276770+00:00",
+  "completion_parsed": {
+    "p_A": 0.9850746268656716,
+    "decision": "A",
+    "reason": "The archive's seven ones among eight make the shared non-reader bias high. Thus current all-zero answers are unlikely from the non-reader, while all-one answers are likely, so A is much more likely to be the Reader. Choosing A has expected loss 1/67, below abstain's 0.25."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict"
+}

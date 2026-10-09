@@ -1,0 +1,46 @@
+{
+  "request_id": "OSI_GLM_PERSISTENT_H4_ONESA_R2",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "PERSISTENT_H4_ONESA",
+  "simulation_condition": "PERSISTENT",
+  "bluffer_condition": "PERSISTENT",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "82549a68793f5851da5d8b25c1183fffb02d8d7553f784123f5a9aac33247262",
+  "sent_utc": "2026-10-09T16:30:45.080966+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"The archive (4 ones, 4 zeros) gives a symmetric Beta(5,5) posterior for b. If A is the Reader, the non-reader's 0000 has likelihood E[(1-b)^4]; if B is the Reader, 1111 has likelihood E[b^4]. By symmetry these are equal, so p_A = 0.5. With equal probabilities, any identity choice has expected loss 0.5, while ABSTAIN costs 0.25, so ABSTAIN minimizes expected loss.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive (4 ones, 4 zeros) gives a symmetric Beta(5,5) posterior for b. If A is the Reader, the non-reader's 0000 has likelihood E[(1-b)^4]; if B is the Reader, 1111 has likelihood E[b^4]. By symmetry these are equal, so p_A = 0.5. With equal probabilities, any identity choice has expected loss 0.5, while ABSTAIN costs 0.25, so ABSTAIN minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 7.391,
+  "captured_utc": "2026-10-09T16:30:52.471308+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive (4 ones, 4 zeros) gives a symmetric Beta(5,5) posterior for b. If A is the Reader, the non-reader's 0000 has likelihood E[(1-b)^4]; if B is the Reader, 1111 has likelihood E[b^4]. By symmetry these are equal, so p_A = 0.5. With equal probabilities, any identity choice has expected loss 0.5, while ABSTAIN costs 0.25, so ABSTAIN minimizes expected loss."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "prompt_tokens": 622,
+    "completion_tokens": 358,
+    "total_tokens": 980
+  },
+  "requested_config": {
+    "endpoint": "chat/completions",
+    "temperature": 0.5,
+    "max_tokens": 16384,
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "low",
+    "stream": false
+  }
+}

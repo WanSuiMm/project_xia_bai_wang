@@ -1,2 +1,5 @@
 * text=auto eol=lf
 v0_4_active/bundle.json -text whitespace=cr-at-eol
+# Preserve the single trailing space in the hash-bound OSI48 analyzer snapshots.
+scripts/analyze_opponent_strategy_inference.py whitespace=-blank-at-eol
+epistemic_boundary_mimicry/published_runs/go_opponent_strategy_inference48_*/**/inputs/scripts/analyze_opponent_strategy_inference.py whitespace=-blank-at-eol

@@ -1,0 +1,37 @@
+{
+  "request_id": "OSI_QWEN_REFRESHED_H7_ONESB_R1",
+  "model": "qwen3.8-max",
+  "kind": "judge",
+  "case_id": "REFRESHED_H7_ONESB",
+  "simulation_condition": "REFRESHED",
+  "bluffer_condition": "REFRESHED",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "ccb50611f9a0b5dd1e9a4f6504035af78b1369f8263c3ad8ea14ed74c90998e8",
+  "sent_utc": "2026-10-09T12:45:08.517850+00:00",
+  "status": "response_received",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The archive is independent of the current trial because b_current is newly drawn independently. The current answers are symmetric: A as reader with B all ones has the same likelihood as B as reader with A all zeros. Thus p_A is 1/2, and abstaining costs 0.25 versus 0.5 expected loss from guessing.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive is independent of the current trial because b_current is newly drawn independently. The current answers are symmetric: A as reader with B all ones has the same likelihood as B as reader with A all zeros. Thus p_A is 1/2, and abstaining costs 0.25 versus 0.5 expected loss from guessing."
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "finish_reason": "end_turn",
+  "http_status": 200,
+  "elapsed_seconds": 39.671,
+  "captured_utc": "2026-10-09T12:45:48.187401+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive is independent of the current trial because b_current is newly drawn independently. The current answers are symmetric: A as reader with B all ones has the same likelihood as B as reader with A all zeros. Thus p_A is 1/2, and abstaining costs 0.25 versus 0.5 expected loss from guessing."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "input_tokens": 714,
+    "output_tokens": 1814,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

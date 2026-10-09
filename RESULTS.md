@@ -1,4 +1,17 @@
-# Latest JES32 known-mechanism qualification：2026-10-09
+# Latest OSI48 history-conditioned attribution: 2026-10-10
+
+[OSI48 completed results](epistemic_boundary_mimicry/opponent_strategy_inference/COMPLETION_RESULTS_20261010.md) → [protocol](epistemic_boundary_mimicry/opponent_strategy_inference/PROTOCOL_20261009.md) → [budget amendment](epistemic_boundary_mimicry/opponent_strategy_inference/TAIL_COMPLETION_PROTOCOL_20261010.md) → [public evidence](epistemic_boundary_mimicry/published_runs/go_opponent_strategy_inference48_completion_20261010/README.md).
+
+48/48 selected slots are strict-valid across 51 physical attempts. Two final GLM slots use a 16384-token output ceiling; 22 earlier GLM slots use 4096, all Qwen slots 8192. This is a mixed-budget amended completion; the unchanged-budget cutoff remains 46/48, with GLM Persistent 10/12 and its complete endpoint undefined. Failed receipts are preserved; wrong valid replies were not rerun.
+
+| Model | Persistent posterior MSE | Refreshed posterior MSE | Persistent Δ | Refreshed Δ | Oracle-optimal actions |
+|---|---:|---:|---:|---:|---:|
+| GLM-5.3 | .07029953 | 0 | .73864366 | 0 | 22/24 |
+| Qwen3.8 Max | .000005783 | 0 | .96806664 | 0 | 24/24 |
+
+Reversal target is 65/67 (.97014925). Both models report .5/ABSTAIN on all 24 Refreshed calls. GLM's Persistent error includes one large posterior reversal and one probability/action conflict. This is a supplied-family, twelve-prompt finite study; it does not establish naturalistic deception detection, an internal Bayesian mechanism or population reliability. There is no new all-or-nothing gate. Offline public verification: `python -X utf8 -B scripts/publish_opponent_strategy_completion.py --verify`.
+
+# Previous JES32 known-mechanism qualification：2026-10-09
 
 See [complete results](epistemic_boundary_mimicry/joint_epistemic_simulation/RESULTS_20261009.md), [frozen protocol](epistemic_boundary_mimicry/joint_epistemic_simulation/PROTOCOL_20261008.md), [completion amendment](epistemic_boundary_mimicry/joint_epistemic_simulation/SUPPLEMENT_PROTOCOL_20261009.md) and [public evidence/reproduction](epistemic_boundary_mimicry/published_runs/go_joint_epistemic_simulation32_completion_20261009/README.md). One known finite harbor mechanism, programmatic participants and identical reply rendering; two Judge models each see 12 MARGINAL and 4 JOINT positive-support packets. All 32 selected slots are strict-valid across 33 attempts: two retained original replies plus 30 supplement replies. The original third format failure and original INCOMPLETE analysis stay separate; the new parser exception was never used. Predictive-weighted posterior errors: GLM MARGINAL .018896605 (FAIL), GLM JOINT 0, Qwen MARGINAL 0, Qwen JOINT 0. Overall gate FAIL under the original .01 threshold. GLM has three probability errors, one losing diagnostic information by reporting .5/ABSTAIN; the other two choose correctly despite wrong posterior. Both models recover .5/ABSTAIN on every ambiguous stimulus; Qwen exactly recovers all diagnostic posteriors. Actual choices: 15 correct, zero wrong; 17 abstentions include one avoidable diagnostic abstention. This is a single-call exhaustive finite qualification, not 32 iid games, LLM Actor simulation, adaptive interrogation or general model ranking. Offline: `python -X utf8 -B scripts/publish_joint_epistemic_simulation.py --verify`. No new model calls were made for publication.
 

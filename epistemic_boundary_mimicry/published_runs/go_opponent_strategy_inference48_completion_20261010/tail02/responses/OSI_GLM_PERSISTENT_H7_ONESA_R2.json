@@ -1,0 +1,46 @@
+{
+  "request_id": "OSI_GLM_PERSISTENT_H7_ONESA_R2",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "PERSISTENT_H7_ONESA",
+  "simulation_condition": "PERSISTENT",
+  "bluffer_condition": "PERSISTENT",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "17105a3096067a2df319b6688cfe217673a42cabc8422f6f42fb13fbbb2d213e",
+  "sent_utc": "2026-10-09T16:30:52.506725+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.0275, \"decision\": \"B\", \"reason\": \"The archive (7/8 ones) yields a Beta(9,2) posterior on b. If A were the Reader, B's four zeros have probability E[(1-b)^4]≈0.014; if B were the Reader, A's four ones have probability E[b^4]≈0.495. With equal seat priors, posterior for A is about 0.027, so choosing B minimizes expected loss.\"}",
+  "parsed": {
+    "p_A": 0.0275,
+    "decision": "B",
+    "reason": "The archive (7/8 ones) yields a Beta(9,2) posterior on b. If A were the Reader, B's four zeros have probability E[(1-b)^4]≈0.014; if B were the Reader, A's four ones have probability E[b^4]≈0.495. With equal seat priors, posterior for A is about 0.027, so choosing B minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 10.984,
+  "captured_utc": "2026-10-09T16:31:03.499650+00:00",
+  "completion_parsed": {
+    "p_A": 0.0275,
+    "decision": "B",
+    "reason": "The archive (7/8 ones) yields a Beta(9,2) posterior on b. If A were the Reader, B's four zeros have probability E[(1-b)^4]≈0.014; if B were the Reader, A's four ones have probability E[b^4]≈0.495. With equal seat priors, posterior for A is about 0.027, so choosing B minimizes expected loss."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "prompt_tokens": 622,
+    "completion_tokens": 575,
+    "total_tokens": 1197
+  },
+  "requested_config": {
+    "endpoint": "chat/completions",
+    "temperature": 0.5,
+    "max_tokens": 16384,
+    "thinking": {
+      "type": "enabled"
+    },
+    "reasoning_effort": "low",
+    "stream": false
+  }
+}

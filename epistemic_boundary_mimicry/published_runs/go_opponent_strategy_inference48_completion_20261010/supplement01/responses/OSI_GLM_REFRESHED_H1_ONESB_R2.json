@@ -1,0 +1,36 @@
+{
+  "request_id": "OSI_GLM_REFRESHED_H1_ONESB_R2",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "REFRESHED_H1_ONESB",
+  "simulation_condition": "REFRESHED",
+  "bluffer_condition": "REFRESHED",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "dc95a3aeedbfb228b4ccfcf1dc4064ccb4d5a3bc99a70728717e4cc09cc6fa51",
+  "sent_utc": "2026-10-09T12:42:44.138471+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"The archive is irrelevant because b_current is drawn independently of b_archive and archived answers. Both hypotheses are symmetric: if A is the Reader, B's non-reader answers 1111 have probability ∫b⁴db=1/5; if B is the Reader, A's 0000 answers have probability ∫(1-b)⁴db=1/5. With equal priors, p_A=0.5, so abstaining costs 0.25 versus 0.5 expected loss for either choice.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive is irrelevant because b_current is drawn independently of b_archive and archived answers. Both hypotheses are symmetric: if A is the Reader, B's non-reader answers 1111 have probability ∫b⁴db=1/5; if B is the Reader, A's 0000 answers have probability ∫(1-b)⁴db=1/5. With equal priors, p_A=0.5, so abstaining costs 0.25 versus 0.5 expected loss for either choice."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 5.375,
+  "captured_utc": "2026-10-09T12:42:49.510579+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive is irrelevant because b_current is drawn independently of b_archive and archived answers. Both hypotheses are symmetric: if A is the Reader, B's non-reader answers 1111 have probability ∫b⁴db=1/5; if B is the Reader, A's 0000 answers have probability ∫(1-b)⁴db=1/5. With equal priors, p_A=0.5, so abstaining costs 0.25 versus 0.5 expected loss for either choice."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "prompt_tokens": 626,
+    "completion_tokens": 260,
+    "total_tokens": 886
+  }
+}

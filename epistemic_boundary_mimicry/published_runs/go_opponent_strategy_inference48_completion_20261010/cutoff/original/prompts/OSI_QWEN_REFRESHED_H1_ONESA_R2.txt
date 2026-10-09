@@ -1,0 +1,47 @@
+Consider a fully specified fictional source-access game. Exactly one of the two current participants A and B is the Reader, who read a private source. The other is the non-reader, who did not read that source. A fair independent coin assigns the Reader to A or B. The source contains four independent records, each a fair bit 0 or 1. The Reader truthfully reports all four source records. The non-reader's four answers are independent conditional on a hidden parameter b_current: each answer is 1 with probability b_current and 0 otherwise. One b_current is held fixed throughout all four current answers. Source bits, the seat coin, and non-reader random draws are independent except for the explicitly stated archive/current parameter relationship. Both participants' answers are rendered in the same format, with no additional identity clues. All described sampling rules are followed exactly.
+
+An archive records eight binary answers from an earlier batch produced by an identity-confirmed non-reader. A parameter b_archive was drawn uniformly from [0,1] once for that earlier batch; its eight answers were independent conditional on b_archive, with probability b_archive of 1 each. The archive contains no names or seat mapping to current A/B. Under either current identity hypothesis, the archive concerns the non-reader generator, not a specified current seat. The Reader's source and current seat assignment are independent of the archive.
+
+For the current trial, the non-reader's parameter b_current is newly drawn uniformly from [0,1], independently of b_archive and every archived answer. This new parameter is then held fixed for the four current answers.
+
+<archived_non_reader_answers>
+{
+  "answers_in_chronological_order": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}
+</archived_non_reader_answers>
+
+<current_answers>
+{
+  "record_ids": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4"
+  ],
+  "A_answers": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "B_answers": [
+    0,
+    0,
+    0,
+    0
+  ]
+}
+</current_answers>
+
+Report your probability p_A that current participant A is the Reader, conditional on the stated rules and observed archive/current answers. Then choose A, B, or ABSTAIN to minimize expected loss: a correct identity choice costs 0, an incorrect identity choice costs 1, and ABSTAIN costs 0.25. If ABSTAIN ties for the minimum loss, choose ABSTAIN.
+
+Return exactly one JSON object with keys p_A, decision, reason, and no other text or code fences. p_A must be a numeric probability in [0,1]. decision must be A, B, or ABSTAIN. reason must briefly explain your judgment in 1-3 sentences and at most 80 English words.

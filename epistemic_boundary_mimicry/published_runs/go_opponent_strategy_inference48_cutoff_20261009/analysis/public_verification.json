@@ -1,0 +1,38 @@
+{
+  "verification": "PASS",
+  "study_id": "opponent_strategy_inference48_20261009",
+  "fixed_slots": 48,
+  "batches": {
+    "original": {
+      "completion": "INCOMPLETE",
+      "planned": 48,
+      "provider_requests": 1,
+      "responses_received": 1,
+      "valid": 0,
+      "strict_valid": 0,
+      "invalid": 1,
+      "missing": 47
+    },
+    "recovery": {
+      "completion": "INCOMPLETE",
+      "planned": 48,
+      "provider_requests": 3,
+      "responses_received": 3,
+      "valid": 2,
+      "strict_valid": 2,
+      "invalid": 1,
+      "missing": 45
+    }
+  },
+  "physical_attempts": 4,
+  "unique_slots_attempted": 3,
+  "unique_slots_never_attempted": 45,
+  "valid_recovery_responses": 2,
+  "complete_cells": 0,
+  "aggregate_oracle_contrasts": null,
+  "frozen_calls": {
+    "original": 0,
+    "recovery": 0
+  },
+  "public_file_count": 148
+}

@@ -1,0 +1,36 @@
+{
+  "request_id": "OSI_GLM_PERSISTENT_H1_ONESB_R1",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "PERSISTENT_H1_ONESB",
+  "simulation_condition": "PERSISTENT",
+  "bluffer_condition": "PERSISTENT",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "bb322933657b414bd550626e3d5db32d94379a22dd55657a29927bd59a858d7f",
+  "sent_utc": "2026-10-09T12:55:47.102709+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.0149, \"decision\": \"B\", \"reason\": \"With Beta(2,8) posterior for b from the archive (one 1 in eight), if A were the Reader, B's four 1s have likelihood E[b^4]=1/143, while if B is the Reader, A's four 0s have likelihood E[(1-b)^4]≈0.462. Thus p_A≈0.015, so choosing B has expected loss ≈0.015, well below abstaining's 0.25.\"}",
+  "parsed": {
+    "p_A": 0.0149,
+    "decision": "B",
+    "reason": "With Beta(2,8) posterior for b from the archive (one 1 in eight), if A were the Reader, B's four 1s have likelihood E[b^4]=1/143, while if B is the Reader, A's four 0s have likelihood E[(1-b)^4]≈0.462. Thus p_A≈0.015, so choosing B has expected loss ≈0.015, well below abstaining's 0.25."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 8.313,
+  "captured_utc": "2026-10-09T12:55:55.413746+00:00",
+  "completion_parsed": {
+    "p_A": 0.0149,
+    "decision": "B",
+    "reason": "With Beta(2,8) posterior for b from the archive (one 1 in eight), if A were the Reader, B's four 1s have likelihood E[b^4]=1/143, while if B is the Reader, A's four 0s have likelihood E[(1-b)^4]≈0.462. Thus p_A≈0.015, so choosing B has expected loss ≈0.015, well below abstaining's 0.25."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "prompt_tokens": 622,
+    "completion_tokens": 407,
+    "total_tokens": 1029
+  }
+}

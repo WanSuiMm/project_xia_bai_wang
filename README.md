@@ -1,5 +1,14 @@
 # 瞎掰王：Who Really Knows?
 
+2026-10-10 OSI48 已补齐 **48/48 严格有效位置，51 次实际请求**。两模型在明确策略重置时的 24 条报告全部为 `.5 / ABSTAIN`；策略延续时 Qwen 接近精确后验，GLM 有一次严重概率错误和一次概率—动作冲突。两条 GLM 末尾补跑提高了输出上限，完整汇总明确标为混合预算修订，原预算 46/48 截止保留。研究对象是已知策略族中的历史条件归因，不是完整自然识骗游戏或总体模型排名。
+
+本次更新从这里读：
+
+1. [OSI48 完成结果与错误](epistemic_boundary_mimicry/opponent_strategy_inference/COMPLETION_RESULTS_20261010.md)。
+2. [原协议](epistemic_boundary_mimicry/opponent_strategy_inference/PROTOCOL_20261009.md)、[理论 v2](epistemic_boundary_mimicry/opponent_strategy_inference/THEORY_V2_20261009.md)和[末尾预算修订](epistemic_boundary_mimicry/opponent_strategy_inference/TAIL_COMPLETION_PROTOCOL_20261010.md)。
+3. [公开证据与离线复现](epistemic_boundary_mimicry/published_runs/go_opponent_strategy_inference48_completion_20261010/README.md)。命令：`python -X utf8 -B scripts/publish_opponent_strategy_completion.py --verify`，不需要 key。
+4. [论文初稿](paper/draft_20261009/PAPER_V1.md)。以下历史结果和负面结论保持原样。
+
 2026-10-09 JES32 已知机制 qualification：[主要结果](epistemic_boundary_mimicry/joint_epistemic_simulation/RESULTS_20261009.md) → [冻结协议](epistemic_boundary_mimicry/joint_epistemic_simulation/PROTOCOL_20261008.md) → [补跑修订](epistemic_boundary_mimicry/joint_epistemic_simulation/SUPPLEMENT_PROTOCOL_20261009.md) → [32 个位置与 33 次尝试的公开证据](epistemic_boundary_mimicry/published_runs/go_joint_epistemic_simulation32_completion_20261009/README.md)。两模型均判断程序化的两问响应，没有新 LLM Speakers 或自由追问。全部 32 个位置严格有效；原格式失败与 30 次补跑分开保留，尾巴合并实际未使用。Qwen 两组和 GLM JOINT 的后验误差为 0；GLM MARGINAL 三条概率偏离，加权误差 .0188966，高于原定 .01，整体 qualification 未通过。一次诊断刺激被误当对称而弃权。结果仅适用于这个已知有限机制，不作自然识骗或总体模型排名结论。公开离线复核：`python -X utf8 -B scripts/publish_joint_epistemic_simulation.py --verify`。
 
 2026-10-08 Counterfactual Source Boundary：[主要结果](epistemic_boundary_mimicry/counterfactual_source_boundary/RESULTS_20261008.md) → [逐回答语义复核](epistemic_boundary_mimicry/counterfactual_source_boundary/SEMANTIC_REVIEW_20261008.md) → [冻结协议](epistemic_boundary_mimicry/counterfactual_source_boundary/PROTOCOL_20261008.md) → [30 条公开回复与复现](epistemic_boundary_mimicry/published_runs/go_counterfactual_source_boundary30_20261008/README.md)。六份新资料各有省略目标值的 V0 和只增加一个事实句的 V1；Qwen Reader 均按来源边界回答，同组一份 Strong Bluffer 回复冻结复用。30/30 有效，六组操纵通过。GLM 12 次判断为 1 次选对、5 次选错、6 次弃权；平均 Reader 概率 .425→.433，配对变化 +.0083，没有一致的描述性改善。只看一个隐藏版本包的 Judge 不能直接观察来源条件依赖；任意代码题、表达长度差异及每格一次采样限制解释。离线公开复核：`python -X utf8 -B scripts/publish_counterfactual_source_boundary.py`，不调用模型、不需要 key。以前的证据与结论不变。

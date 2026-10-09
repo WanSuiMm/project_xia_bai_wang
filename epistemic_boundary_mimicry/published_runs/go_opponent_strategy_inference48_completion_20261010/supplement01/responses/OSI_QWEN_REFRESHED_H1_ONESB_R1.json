@@ -1,0 +1,37 @@
+{
+  "request_id": "OSI_QWEN_REFRESHED_H1_ONESB_R1",
+  "model": "qwen3.8-max",
+  "kind": "judge",
+  "case_id": "REFRESHED_H1_ONESB",
+  "simulation_condition": "REFRESHED",
+  "bluffer_condition": "REFRESHED",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "dc95a3aeedbfb228b4ccfcf1dc4064ccb4d5a3bc99a70728717e4cc09cc6fa51",
+  "sent_utc": "2026-10-09T12:40:19.722101+00:00",
+  "status": "response_received",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"The archive is independent of the current seat and current non-reader parameter, so it cancels. Under A-as-Reader, A's 0000 reader probability is 1/16 and B's 1111 non-reader marginal is 1/5; under B-as-Reader the symmetric likelihood is identical. Thus p_A=1/2, and abstaining at cost 0.25 beats either guess with expected cost 0.5.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive is independent of the current seat and current non-reader parameter, so it cancels. Under A-as-Reader, A's 0000 reader probability is 1/16 and B's 1111 non-reader marginal is 1/5; under B-as-Reader the symmetric likelihood is identical. Thus p_A=1/2, and abstaining at cost 0.25 beats either guess with expected cost 0.5."
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "finish_reason": "end_turn",
+  "http_status": 200,
+  "elapsed_seconds": 59.609,
+  "captured_utc": "2026-10-09T12:41:19.324642+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive is independent of the current seat and current non-reader parameter, so it cancels. Under A-as-Reader, A's 0000 reader probability is 1/16 and B's 1111 non-reader marginal is 1/5; under B-as-Reader the symmetric likelihood is identical. Thus p_A=1/2, and abstaining at cost 0.25 beats either guess with expected cost 0.5."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "input_tokens": 714,
+    "output_tokens": 2871,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

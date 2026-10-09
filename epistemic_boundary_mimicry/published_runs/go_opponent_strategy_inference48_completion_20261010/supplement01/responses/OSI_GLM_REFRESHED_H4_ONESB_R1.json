@@ -1,0 +1,36 @@
+{
+  "request_id": "OSI_GLM_REFRESHED_H4_ONESB_R1",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "REFRESHED_H4_ONESB",
+  "simulation_condition": "REFRESHED",
+  "bluffer_condition": "REFRESHED",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "f462d5311030caf3b3271fe67c09a24f27298658bbbdb5bf7b568d884d84ec13",
+  "sent_utc": "2026-10-09T12:39:55.068776+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"The archive is irrelevant because b_current is independent of b_archive. Under either hypothesis, the Reader's four source bits and the non-reader's four answers each have probability (1/2)^4, so likelihoods are equal and p_A = 0.5. Choosing either identity gives expected loss 0.5, while ABSTAIN costs 0.25, so abstaining minimizes expected loss.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive is irrelevant because b_current is independent of b_archive. Under either hypothesis, the Reader's four source bits and the non-reader's four answers each have probability (1/2)^4, so likelihoods are equal and p_A = 0.5. Choosing either identity gives expected loss 0.5, while ABSTAIN costs 0.25, so abstaining minimizes expected loss."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 6.078,
+  "captured_utc": "2026-10-09T12:40:01.152445+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive is irrelevant because b_current is independent of b_archive. Under either hypothesis, the Reader's four source bits and the non-reader's four answers each have probability (1/2)^4, so likelihoods are equal and p_A = 0.5. Choosing either identity gives expected loss 0.5, while ABSTAIN costs 0.25, so abstaining minimizes expected loss."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "prompt_tokens": 626,
+    "completion_tokens": 259,
+    "total_tokens": 885
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "request_id": "OSI_GLM_PERSISTENT_H7_ONESB_R1",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "PERSISTENT_H7_ONESB",
+  "simulation_condition": "PERSISTENT",
+  "bluffer_condition": "PERSISTENT",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "399b4d40ff15545740da55c4280fabf3014c33dac372542f124d06bb6e03aafb",
+  "sent_utc": "2026-10-09T12:50:41.199155+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.9850746268656716, \"decision\": \"A\", \"reason\": \"The archive makes b high. With A as Reader, B’s four 1s have marginal ∫b^4 b^7(1-b)db=1/156; with B as Reader, A’s four 0s have ∫(1-b)^4 b^7(1-b)db=1/10296. Equal priors and reader-source likelihoods cancel, giving p_A=66/67≈0.985, so choosing A has expected loss 1/67, below ABSTAIN.\"}",
+  "parsed": {
+    "p_A": 0.9850746268656716,
+    "decision": "A",
+    "reason": "The archive makes b high. With A as Reader, B’s four 1s have marginal ∫b^4 b^7(1-b)db=1/156; with B as Reader, A’s four 0s have ∫(1-b)^4 b^7(1-b)db=1/10296. Equal priors and reader-source likelihoods cancel, giving p_A=66/67≈0.985, so choosing A has expected loss 1/67, below ABSTAIN."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 61.875,
+  "captured_utc": "2026-10-09T12:51:43.069916+00:00",
+  "completion_parsed": {
+    "p_A": 0.9850746268656716,
+    "decision": "A",
+    "reason": "The archive makes b high. With A as Reader, B’s four 1s have marginal ∫b^4 b^7(1-b)db=1/156; with B as Reader, A’s four 0s have ∫(1-b)^4 b^7(1-b)db=1/10296. Equal priors and reader-source likelihoods cancel, giving p_A=66/67≈0.985, so choosing A has expected loss 1/67, below ABSTAIN."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "prompt_tokens": 622,
+    "completion_tokens": 3646,
+    "total_tokens": 4268
+  }
+}

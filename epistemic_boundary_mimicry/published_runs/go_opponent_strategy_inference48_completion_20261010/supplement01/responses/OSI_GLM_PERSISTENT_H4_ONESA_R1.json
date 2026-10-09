@@ -1,0 +1,36 @@
+{
+  "request_id": "OSI_GLM_PERSISTENT_H4_ONESA_R1",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "PERSISTENT_H4_ONESA",
+  "simulation_condition": "PERSISTENT",
+  "bluffer_condition": "PERSISTENT",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "82549a68793f5851da5d8b25c1183fffb02d8d7553f784123f5a9aac33247262",
+  "sent_utc": "2026-10-09T12:40:06.945084+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"The archive gives 4 ones in 8, so the posterior for b is symmetric Beta(5,5). Under either hypothesis, the non-reader's all-0 or all-1 pattern has identical probability E[b^4(1-b)^0]=E[(1-b)^4]≈0.0014, and the source pattern has probability 1/16 either way. Thus p_A=0.5, so any identity choice has expected loss 0.5, while ABSTAIN costs only 0.25.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive gives 4 ones in 8, so the posterior for b is symmetric Beta(5,5). Under either hypothesis, the non-reader's all-0 or all-1 pattern has identical probability E[b^4(1-b)^0]=E[(1-b)^4]≈0.0014, and the source pattern has probability 1/16 either way. Thus p_A=0.5, so any identity choice has expected loss 0.5, while ABSTAIN costs only 0.25."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 12.734,
+  "captured_utc": "2026-10-09T12:40:19.681931+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive gives 4 ones in 8, so the posterior for b is symmetric Beta(5,5). Under either hypothesis, the non-reader's all-0 or all-1 pattern has identical probability E[b^4(1-b)^0]=E[(1-b)^4]≈0.0014, and the source pattern has probability 1/16 either way. Thus p_A=0.5, so any identity choice has expected loss 0.5, while ABSTAIN costs only 0.25."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "prompt_tokens": 622,
+    "completion_tokens": 653,
+    "total_tokens": 1275
+  }
+}

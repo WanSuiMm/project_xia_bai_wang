@@ -1,0 +1,36 @@
+{
+  "request_id": "OSI_GLM_PERSISTENT_H1_ONESB_R2",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "PERSISTENT_H1_ONESB",
+  "simulation_condition": "PERSISTENT",
+  "bluffer_condition": "PERSISTENT",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "bb322933657b414bd550626e3d5db32d94379a22dd55657a29927bd59a858d7f",
+  "sent_utc": "2026-10-09T12:58:41.409828+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.0149, \"decision\": \"B\", \"reason\": \"The archive (one 1 in eight) gives a Beta(2,8) posterior on b, so E[b^4]=1/143 while E[(1-b)^4]=6/13. If A is the Reader, B's all-ones answers are very unlikely; if B is the Reader, A's all-zeros answers are quite likely. Bayes gives p_A = 1/67 ≈ 0.015, so choosing B costs ~0.015, beating ABSTAIN's 0.25.\"}",
+  "parsed": {
+    "p_A": 0.0149,
+    "decision": "B",
+    "reason": "The archive (one 1 in eight) gives a Beta(2,8) posterior on b, so E[b^4]=1/143 while E[(1-b)^4]=6/13. If A is the Reader, B's all-ones answers are very unlikely; if B is the Reader, A's all-zeros answers are quite likely. Bayes gives p_A = 1/67 ≈ 0.015, so choosing B costs ~0.015, beating ABSTAIN's 0.25."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 11.563,
+  "captured_utc": "2026-10-09T12:58:52.961242+00:00",
+  "completion_parsed": {
+    "p_A": 0.0149,
+    "decision": "B",
+    "reason": "The archive (one 1 in eight) gives a Beta(2,8) posterior on b, so E[b^4]=1/143 while E[(1-b)^4]=6/13. If A is the Reader, B's all-ones answers are very unlikely; if B is the Reader, A's all-zeros answers are quite likely. Bayes gives p_A = 1/67 ≈ 0.015, so choosing B costs ~0.015, beating ABSTAIN's 0.25."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "prompt_tokens": 622,
+    "completion_tokens": 565,
+    "total_tokens": 1187
+  }
+}

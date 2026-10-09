@@ -1,0 +1,37 @@
+{
+  "request_id": "OSI_QWEN_PERSISTENT_H4_ONESB_R1",
+  "model": "qwen3.8-max",
+  "kind": "judge",
+  "case_id": "PERSISTENT_H4_ONESB",
+  "simulation_condition": "PERSISTENT",
+  "bluffer_condition": "PERSISTENT",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "dce87c2f3f78eb42e032ca1c17c30fedf665383d3033875aac89b9abf25eb3e0",
+  "sent_utc": "2026-10-09T12:45:48.229991+00:00",
+  "status": "response_received",
+  "visible_text": "{\n  \"p_A\": 0.5,\n  \"decision\": \"ABSTAIN\",\n  \"reason\": \"Archive has four ones and four zeros, yielding symmetric Beta(5,5) posterior for the non-reader bias. Thus the all-zero and all-one current answer strings have equal marginal likelihood, and the reader’s fair source makes either seating equally likely; p_A=0.5. Naming A or B has expected loss 0.5, while abstaining costs 0.25, so abstain.\"\n}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Archive has four ones and four zeros, yielding symmetric Beta(5,5) posterior for the non-reader bias. Thus the all-zero and all-one current answer strings have equal marginal likelihood, and the reader’s fair source makes either seating equally likely; p_A=0.5. Naming A or B has expected loss 0.5, while abstaining costs 0.25, so abstain."
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "finish_reason": "end_turn",
+  "http_status": 200,
+  "elapsed_seconds": 54.578,
+  "captured_utc": "2026-10-09T12:46:42.803047+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "Archive has four ones and four zeros, yielding symmetric Beta(5,5) posterior for the non-reader bias. Thus the all-zero and all-one current answer strings have equal marginal likelihood, and the reader’s fair source makes either seating equally likely; p_A=0.5. Naming A or B has expected loss 0.5, while abstaining costs 0.25, so abstain."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "input_tokens": 710,
+    "output_tokens": 2857,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

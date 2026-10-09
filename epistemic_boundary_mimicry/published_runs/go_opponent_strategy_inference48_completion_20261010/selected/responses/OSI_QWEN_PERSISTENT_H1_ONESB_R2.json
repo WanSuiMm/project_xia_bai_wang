@@ -1,0 +1,37 @@
+{
+  "request_id": "OSI_QWEN_PERSISTENT_H1_ONESB_R2",
+  "model": "qwen3.8-max",
+  "kind": "judge",
+  "case_id": "PERSISTENT_H1_ONESB",
+  "simulation_condition": "PERSISTENT",
+  "bluffer_condition": "PERSISTENT",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "bb322933657b414bd550626e3d5db32d94379a22dd55657a29927bd59a858d7f",
+  "sent_utc": "2026-10-09T12:47:35.132910+00:00",
+  "status": "response_received",
+  "visible_text": "{\n  \"p_A\": 0.014925373134328358,\n  \"decision\": \"B\",\n  \"reason\": \"The archive has one one and seven zeros, making a low b likely. If A were reader, B's four ones under that same b are far less likely than A's four zeros if B is reader. Thus p_A is 1/67, and choosing B has expected loss 1/67, below abstain's 0.25.\"\n}",
+  "parsed": {
+    "p_A": 0.014925373134328358,
+    "decision": "B",
+    "reason": "The archive has one one and seven zeros, making a low b likely. If A were reader, B's four ones under that same b are far less likely than A's four zeros if B is reader. Thus p_A is 1/67, and choosing B has expected loss 1/67, below abstain's 0.25."
+  },
+  "parse_status": "valid",
+  "returned_model": "qwen3.8-max",
+  "finish_reason": "end_turn",
+  "http_status": 200,
+  "elapsed_seconds": 111.531,
+  "captured_utc": "2026-10-09T12:49:26.662376+00:00",
+  "completion_parsed": {
+    "p_A": 0.014925373134328358,
+    "decision": "B",
+    "reason": "The archive has one one and seven zeros, making a low b likely. If A were reader, B's four ones under that same b are far less likely than A's four zeros if B is reader. Thus p_A is 1/67, and choosing B has expected loss 1/67, below abstain's 0.25."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "input_tokens": 710,
+    "output_tokens": 6124,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  }
+}

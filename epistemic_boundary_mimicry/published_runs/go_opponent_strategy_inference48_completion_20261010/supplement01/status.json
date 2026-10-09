@@ -1,0 +1,12 @@
+{
+  "state": "HALTED",
+  "halt_reason": "token_budget_truncation",
+  "planned": 46,
+  "provider_requests": 45,
+  "response_count": 45,
+  "valid": 44,
+  "strict_valid": 44,
+  "retained_valid": 2,
+  "completion_valid_slots": 46,
+  "updated_utc": "2026-10-09T13:03:01.552982+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "request_id": "OSI_GLM_REFRESHED_H1_ONESB_R1",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "REFRESHED_H1_ONESB",
+  "simulation_condition": "REFRESHED",
+  "bluffer_condition": "REFRESHED",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "dc95a3aeedbfb228b4ccfcf1dc4064ccb4d5a3bc99a70728717e4cc09cc6fa51",
+  "sent_utc": "2026-10-09T12:56:01.216202+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"The archive is independent of current identities and b_current, so it provides no information. Under either hypothesis, the Reader's specific 4-bit pattern has probability 1/16 and the non-reader's matching all-constant pattern has integrated probability 1/5, giving equal likelihoods. Thus p_A = 0.5, and choosing either identity has expected loss 0.5 versus 0.25 for abstaining.\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive is independent of current identities and b_current, so it provides no information. Under either hypothesis, the Reader's specific 4-bit pattern has probability 1/16 and the non-reader's matching all-constant pattern has integrated probability 1/5, giving equal likelihoods. Thus p_A = 0.5, and choosing either identity has expected loss 0.5 versus 0.25 for abstaining."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 5.5,
+  "captured_utc": "2026-10-09T12:56:06.711047+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive is independent of current identities and b_current, so it provides no information. Under either hypothesis, the Reader's specific 4-bit pattern has probability 1/16 and the non-reader's matching all-constant pattern has integrated probability 1/5, giving equal likelihoods. Thus p_A = 0.5, and choosing either identity has expected loss 0.5 versus 0.25 for abstaining."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "prompt_tokens": 626,
+    "completion_tokens": 294,
+    "total_tokens": 920,
+    "completion_tokens_details": {
+      "reasoning_tokens": 183
+    }
+  }
+}

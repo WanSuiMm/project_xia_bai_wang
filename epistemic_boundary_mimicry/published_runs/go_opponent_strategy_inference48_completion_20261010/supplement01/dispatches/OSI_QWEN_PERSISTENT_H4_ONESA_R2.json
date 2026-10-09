@@ -1,0 +1,42 @@
+{
+  "request_id": "OSI_QWEN_PERSISTENT_H4_ONESA_R2",
+  "kind": "judge",
+  "model": "qwen3.8-max",
+  "case_id": "PERSISTENT_H4_ONESA",
+  "simulation_condition": "PERSISTENT",
+  "bluffer_condition": "PERSISTENT",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "history_ones": 4,
+  "history": [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+  ],
+  "ones_seat": "A",
+  "repeat": 2,
+  "vector_A": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "vector_B": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "prompt_path": "prompts/OSI_QWEN_PERSISTENT_H4_ONESA_R2.txt",
+  "posterior_A": 0.5,
+  "posterior_A_exact": "1/2",
+  "posterior_1111": 0.5,
+  "plugin_posterior_A": 0.5,
+  "schedule_index": 37,
+  "prompt_sha256": "82549a68793f5851da5d8b25c1183fffb02d8d7553f784123f5a9aac33247262",
+  "dispatched_utc": "2026-10-09T12:55:16.457012+00:00"
+}

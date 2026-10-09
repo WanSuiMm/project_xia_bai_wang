@@ -1,0 +1,36 @@
+{
+  "request_id": "OSI_GLM_REFRESHED_H7_ONESB_R1",
+  "model": "glm-5.3",
+  "kind": "judge",
+  "case_id": "REFRESHED_H7_ONESB",
+  "simulation_condition": "REFRESHED",
+  "bluffer_condition": "REFRESHED",
+  "judge_condition": "UNKNOWN_PARAMETER_KNOWN_FAMILY",
+  "prompt_sha256": "ccb50611f9a0b5dd1e9a4f6504035af78b1369f8263c3ad8ea14ed74c90998e8",
+  "sent_utc": "2026-10-09T12:45:02.463987+00:00",
+  "status": "response_received",
+  "visible_text": "{\"p_A\": 0.5, \"decision\": \"ABSTAIN\", \"reason\": \"The archive informs only b_archive, which is independent of b_current and the seat assignment, so it is irrelevant. Under A=Reader, B's four 1s have likelihood ∫b^4=1/5; under B=Reader, A's four 0s have likelihood ∫(1-b)^4=1/5. Equal priors and equal likelihoods give p_A=0.5, so abstaining (loss 0.25) beats guessing (expected loss 0.5).\"}",
+  "parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive informs only b_archive, which is independent of b_current and the seat assignment, so it is irrelevant. Under A=Reader, B's four 1s have likelihood ∫b^4=1/5; under B=Reader, A's four 0s have likelihood ∫(1-b)^4=1/5. Equal priors and equal likelihoods give p_A=0.5, so abstaining (loss 0.25) beats guessing (expected loss 0.5)."
+  },
+  "parse_status": "valid",
+  "returned_model": "glm-5.3",
+  "finish_reason": "stop",
+  "http_status": 200,
+  "elapsed_seconds": 6.015,
+  "captured_utc": "2026-10-09T12:45:08.473736+00:00",
+  "completion_parsed": {
+    "p_A": 0.5,
+    "decision": "ABSTAIN",
+    "reason": "The archive informs only b_archive, which is independent of b_current and the seat assignment, so it is irrelevant. Under A=Reader, B's four 1s have likelihood ∫b^4=1/5; under B=Reader, A's four 0s have likelihood ∫(1-b)^4=1/5. Equal priors and equal likelihoods give p_A=0.5, so abstaining (loss 0.25) beats guessing (expected loss 0.5)."
+  },
+  "completion_parse_status": "valid",
+  "format_acceptance": "strict",
+  "usage": {
+    "prompt_tokens": 626,
+    "completion_tokens": 270,
+    "total_tokens": 896
+  }
+}
