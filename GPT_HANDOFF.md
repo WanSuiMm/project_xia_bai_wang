@@ -1,4 +1,29 @@
-# Latest incremental review: JES32 known-mechanism completion
+# Latest incremental review: OSI48 amended completion
+
+Review base: `e6515ed306abd56bb662e6ead6c1c1a461db9a3c`.
+Evidence head: `76c5f5efde9af449ecc2350479f1aa3ce03f3c78`.
+This later commit adds review/reproduction metadata only; the evidence head stays fixed.
+
+Minimal reading order:
+
+1. [OSI48 completed results and retained errors](epistemic_boundary_mimicry/opponent_strategy_inference/COMPLETION_RESULTS_20261010.md).
+2. [Frozen protocol](epistemic_boundary_mimicry/opponent_strategy_inference/PROTOCOL_20261009.md), [theory v2](epistemic_boundary_mimicry/opponent_strategy_inference/THEORY_V2_20261009.md), and [two-slot budget amendment](epistemic_boundary_mimicry/opponent_strategy_inference/TAIL_COMPLETION_PROTOCOL_20261010.md).
+3. [Public evidence/reproduction](epistemic_boundary_mimicry/published_runs/go_opponent_strategy_inference48_completion_20261010/README.md). Start with aggregates; prompts, receipts, frozen source snapshots and individual replies are secondary.
+4. [Paper draft](paper/draft_20261009/PAPER_V1.md), particularly OSI48 Sections 3.3 and 5.5. Prior experiment evidence need not be reread in full.
+
+New evidence: 48 selected strict-valid observations across 51 physical attempts. Original01 had one HTTP 403/payment receipt; recovery02 had two valid Qwen replies and one invalid GLM envelope receipt; supplement01 had 44 valid replies plus one 4096-token GLM truncation and one unstarted slot; tail02 filled the two missing slots. Every wrong valid reply is retained. No parser exception was needed. Actual selected ceilings are GLM 22 at4096 plus two at16384, and Qwen24 at8192. The complete overlay is mixed-budget; the unchanged-budget endpoint remains46/48, GLM Persistent10/12. The two fresh tail calls do not establish a causal effect of raising the ceiling.
+
+The unknown variable is a scalar Bernoulli bias in a disclosed model family. Twelve visible prompts vary archive count, history/current coupling and seat order, with two models and two repeats; these are not 48 independent task families. Both models report exactly .5/ABSTAIN on all24 Refreshed calls. Persistent posterior MSE: GLM .07029953, Qwen .000005783. History reversal: .73864366/.96806664 versus target65/67. GLM has two oracle-suboptimal actions, including one conflicting with its own .9851 probability; Qwen actions all match the oracle. Four probability reports exceed1e-4 error. No identity label was sampled for realized-accuracy scoring and no new scientific gate is introduced.
+
+Changed claim: the selected supplied-family stimuli show history-conditioned attribution and reset-sensitive reports, with preserved numerical and action failures. This is not a real LLM opponent strategy-learning result, naturalistic interrogation benefit, general ToM claim, population calibration claim, internal Bayesian-algorithm identification or model ranking. JES32's failed qualification and all earlier negative/incomplete evidence remain unchanged. Paper v1 is a synthesis draft, not a submission-ready general-capability claim.
+
+Verification: the evidence update has720 files and3,898,506 staged bytes. Exact path allowlist, staged credential/machine-path/private-session/IP scans and whitespace checks passed;300 local Markdown links resolve, with copied frozen-source links interpreted in their original repository context. A narrow whitespace attribute preserves the single hash-bound analyzer trailing space rather than changing frozen source. Mathematical checks and11 software tests passed. A fresh staged checkout with no private runs and no `OPENCODE_GO_API_KEY` passed both public verifiers, reproducing the four cells, contrasts, parser fields, prompt/receipt hashes, selected-slot allocation and physical-attempt provenance. Windows checkout used the command-local `core.longpaths=true` setting because nested frozen-source paths exceed the default path limit. Public projections exclude credentials, raw provider envelopes, hidden reasoning, accounts, session mappings, host/PID and machine paths.
+
+Offline entry: `python -X utf8 -B scripts/publish_opponent_strategy_completion.py --verify`. Core symbols: `run_opponent_strategy_inference.oracle/schedule/make_prompt`, `analyze_opponent_strategy_inference._item/_cell`, `run_opponent_strategy_completion.decode_envelope`, and `complete_opponent_strategy_tail.allocation/analyze`.
+
+Reviewer questions: Does the result distinguish an observed reset-sensitive report from identifying an internal inference mechanism? Are the wrong probabilities, wrong actions and probability/action conflict kept separate? Is the mixed-budget amended overlay clearly distinguished from the incomplete unchanged-budget endpoint? Does the draft avoid treating twelve selected prompts or two repeats as population-level evidence?
+
+# Previous incremental review: JES32 known-mechanism completion
 
 Review base: `a87fe8c236129a0938b1d59fd0fa75cce0bb7276`.
 Evidence head: `d6fd205ad51ac6a7bd24fb12618b807b0cd77e04`.
