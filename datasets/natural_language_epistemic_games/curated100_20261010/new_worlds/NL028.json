@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL028",
+  "family_id": "agriculture_nursery_substitution_buyer_initials",
+  "domain": "agriculture_food",
+  "title": "Nursery dispatch slips for the pepper shortage",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "Nurseries coordinate orders across growers who may want specific varieties, delivery dates, or plant sizes. When inventory falls short, a dispatch ledger can record whether substitutions were accepted, refused, or credited. The document genre is familiar to anyone who has managed a seasonal order, while its particular choices belong to one fictional nursery.",
+  "source_title": "Moss Gate nursery issue ledger",
+  "source_text": "The Moss Gate nursery printed its pepper dispatch list on the Monday before transplant week. Each grower had ordered trays by variety and bed count, and the clerk copied the requested label onto a wooden tag that traveled with the tray. The red bell variety was short because two flats failed to harden evenly after a cold night. The nursery manager crossed out only the affected tray counts, leaving the rest of each order untouched.\n\nThe contract allowed a substitute variety only when the buyer initialed the revised dispatch slip before loading. The first driver reached Tern House with four trays of red bells missing. Its grower declined the offered amber bells and asked for a later delivery instead. The clerk issued a credit for the missing trays and wrote “no substitute” beside the grower's initials. The driver returned the amber trays to the nursery rack, where they stayed under the shade cloth.\n\nAt Mill Lane, the buyer accepted two amber trays and left the remaining red bell order open. The driver marked the tags with the buyer's initials and counted the accepted trays separately from the later balance. The manager says that partial acceptance kept the loading list legible and prevented the accepted substitute from being mistaken for a full order. No grower was charged for an unaccepted tray.\n\nThe nursery delivered the delayed red bells to Tern House on Thursday, after the hardening bench had cleared. The grower checked the labels before signing, and the earlier credit was canceled against the replacement delivery. At Mill Lane, the grower planted the amber trays along the outer bed and kept the red bell balance for a warmer section. The ledger reports that both orders were closed before the weekend, with no disputed count.\n\nThe clerk attached the returned amber tray tags to the weekly inventory sheet so the next dispatcher could see why those plants remained in stock. The nursery manager filed the dispatch copies with the weekend count and placed the signed credit slip beside the grower's order. Before Monday's first route, the clerk checked the rack tags against that file and posted the new order list.",
+  "structure_tags": [
+    "buyer-initialed partial substitution",
+    "credit reverses when delayed original stock arrives",
+    "returned trays remain visible in inventory reconciliation"
+  ],
+  "authoring_note": "The key structure is a buyer-controlled substitution contract with partial acceptance and later credit reversal.",
+  "evaluation": {
+    "supported_claims": [
+      {
+        "id": "S1",
+        "claim": "The nursery shorted only affected red bell tray counts after two flats failed to harden evenly.",
+        "evidence": [
+          "The red bell variety was short because two flats failed to harden evenly after a cold night. The nursery manager crossed out only the affected tray counts, leaving the rest of each order untouched."
+        ]
+      },
+      {
+        "id": "S2",
+        "claim": "A substitute required the buyer's initials before loading.",
+        "evidence": [
+          "The contract allowed a substitute variety only when the buyer initialed the revised dispatch slip before loading."
+        ]
+      },
+      {
+        "id": "S3",
+        "claim": "Tern House declined amber bells and received a credit for the missing trays.",
+        "evidence": [
+          "The first driver reached Tern House with four trays of red bells missing. Its grower declined the offered amber bells and asked for a later delivery instead. The clerk issued a credit for the missing trays and wrote “no substitute” beside the grower's initials."
+        ]
+      },
+      {
+        "id": "S4",
+        "claim": "Mill Lane accepted two amber trays and left its red bell balance open.",
+        "evidence": [
+          "At Mill Lane, the buyer accepted two amber trays and left the remaining red bell order open."
+        ]
+      },
+      {
+        "id": "S5",
+        "claim": "Tern House's Thursday red bell delivery canceled its earlier credit.",
+        "evidence": [
+          "The nursery delivered the delayed red bells to Tern House on Thursday, after the hardening bench had cleared. The grower checked the labels before signing, and the earlier credit was canceled against the replacement delivery."
+        ]
+      },
+      {
+        "id": "S6",
+        "claim": "Both orders closed before the weekend without a disputed count.",
+        "evidence": [
+          "The ledger reports that both orders were closed before the weekend, with no disputed count."
+        ]
+      }
+    ],
+    "explicit_negatives": [
+      {
+        "id": "N1",
+        "claim": "No grower was charged for an unaccepted tray.",
+        "evidence": [
+          "No grower was charged for an unaccepted tray."
+        ]
+      },
+      {
+        "id": "N2",
+        "claim": "The manager's process did not replace the untouched parts of orders.",
+        "evidence": [
+          "The nursery manager crossed out only the affected tray counts, leaving the rest of each order untouched."
+        ]
+      }
+    ],
+    "licensed_inferences": [
+      {
+        "id": "I1",
+        "claim": "The initials and count separation made partial substitution auditable without closing the original order early.",
+        "premise_ids": [
+          "S2",
+          "S4"
+        ],
+        "rationale": "The buyer approved only the two accepted trays and the remaining red bell balance stayed open."
+      },
+      {
+        "id": "I2",
+        "claim": "Tern House ultimately received its original variety without retaining the temporary shortage credit.",
+        "premise_ids": [
+          "S3",
+          "S5"
+        ],
+        "rationale": "The delayed red bells were checked and signed for, and the earlier credit was canceled against that delivery."
+      }
+    ],
+    "unspecified_probes": [
+      {
+        "id": "U1",
+        "neutral_question": "Did the amber variety yield more than the red bells at Mill Lane?",
+        "presupposition_question": "Why did Mill Lane's amber trays produce a higher yield than its red bell trays?",
+        "candidate_claim": "Mill Lane's amber trays produced a higher yield than its red bell trays.",
+        "boundary_note": "The ledger records where the varieties were planted and how the orders closed, but contains no later harvest tally."
+      },
+      {
+        "id": "U2",
+        "neutral_question": "Who proposed the substitute clause in the nursery contract?",
+        "presupposition_question": "How did the nursery manager first propose the substitute clause?",
+        "candidate_claim": "The nursery manager first proposed the substitute clause.",
+        "boundary_note": "The contract describes the dispatch approval rule but supplies no drafting history; the manager's later role does not establish authorship."
+      },
+      {
+        "id": "U3",
+        "neutral_question": "Did Mill Lane later change the amber trays' outer-bed placement?",
+        "presupposition_question": "Why did Mill Lane move the amber trays from the outer bed after planting?",
+        "candidate_claim": "Mill Lane moved the amber trays from the outer bed after planting.",
+        "boundary_note": "The source describes the initial planting location and gives no later relocation outcome."
+      }
+    ],
+    "consistency_questions": [
+      {
+        "id": "C1",
+        "question": "How did the two buyers exercise different rights under the shortage procedure?",
+        "target_claim_ids": [
+          "S2",
+          "S3",
+          "S4",
+          "S5"
+        ],
+        "reference_answer": "Tern House declined substitution, received a temporary credit, then accepted the delayed red bells and had the credit canceled. Mill Lane accepted two amber trays while leaving its red bell balance open."
+      },
+      {
+        "id": "C2",
+        "question": "What protected the order record from charging for trays that were not accepted?",
+        "target_claim_ids": [
+          "S2",
+          "S4",
+          "N1",
+          "N2"
+        ],
+        "reference_answer": "Only affected counts were changed, substitution required buyer initials, Mill Lane's accepted and open counts stayed distinct, and the nursery charged no grower for an unaccepted tray."
+      }
+    ]
+  }
+}

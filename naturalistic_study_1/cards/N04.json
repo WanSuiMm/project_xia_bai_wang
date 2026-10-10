@@ -1,0 +1,28 @@
+{
+  "case_id": "N04",
+  "domain": "anthropology_social",
+  "title": "The Lantern Passage at Mallow Quay",
+  "public_context": "This openly synthetic micro-dossier concerns an invented coastal neighborhood with an everyday passenger ferry, a public timetable office, and seasonal changes to the service. It is presented as a short local archive account. The place, people, event, and institutions are fictional; the details are designed to read like an ordinary community record rather than a puzzle or a report about a real culture.",
+  "source_title": "Harbor Notes: The Lantern Passage at Mallow Quay",
+  "source_text": "Compiled from ferry-room notebooks and two interviews, 2019–2024.\n\nIn Mallow Quay, the Lantern Passage marks the first week the passenger ferry resumes its after-dark crossing after the winter timetable. Residents meet at the old ticket window shortly before sunset. It is a neighborhood custom, not a civic ceremony, and people who live elsewhere can walk along if invited.\n\nA retired deck lamp, cleaned but left visibly dented from a 2016 storm, is carried from the ferry room to the beacon stair. The outgoing winter dispatcher gives it to the incoming timetable keeper, whose name has already been entered in the station's ordinary duty book. The handover is not an appointment: the ferry cooperative assigned the keeper in February after its members reviewed availability and training. This distinction matters because visitors sometimes describe the lamp as choosing its bearer.\n\nThe walk pauses where the lane meets the beach. A bell is struck once when the harbor clock reaches the posted departure time, whether or not a boat is visible. At the stair landing, the keeper turns the lamp down and reads the first crossing time; neighbors then continue to the waiting shed, where tea is served from a flask kept by the ticket clerk. In recent years, families have brought folding chairs, and the walk has become less formal.\n\nLongtime residents describe the custom as a way of recognizing the people who maintain an evening service. No prayer or pledge is part of the recorded sequence. Nor does participation give anyone a fare discount, a berth, or a say in ferry scheduling. Notebooks list occasional absences when weather prevented the walk; the timetable still began on the date set by the cooperative.",
+  "analyst_notes": {
+    "core_facts": [
+      "The Lantern Passage marks the first week of resumed after-dark ferry service following the winter timetable.",
+      "The outgoing winter dispatcher hands the retired deck lamp to the incoming timetable keeper.",
+      "The cooperative assigns the keeper in February after reviewing availability and training; the lamp handover is not the assignment.",
+      "The walk includes a single bell at the posted departure time and a reading of the first crossing time at the stair landing."
+    ],
+    "explicit_negations": [
+      "No prayer or pledge is part of the recorded sequence.",
+      "Participation does not grant a fare discount, berth, or say in ferry scheduling."
+    ],
+    "source_boundaries": [
+      "The notebooks and interviews establish a present-day recognition meaning, while the custom's origin remains unsettled.",
+      "The February assignment is explicit, but the source does not establish which considerations beyond availability and training shaped the cooperative's decision."
+    ],
+    "consistency_checks": [
+      "Explicit fact: the keeper is assigned by the cooperative before the walk. Plausible inference: the lamp handover publicly recognizes a service role; it does not select the keeper.",
+      "Explicit fact: the timetable began on its set date even when weather prevented the walk. Plausible inference: the custom accompanies the service transition rather than authorizing it."
+    ]
+  }
+}

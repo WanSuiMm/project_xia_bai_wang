@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL044",
+  "family_id": "nl044_choir_breath_ladder",
+  "domain": "education_learning",
+  "title": "A rehearsal guide for singers who do not read scores",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "A rehearsal guide from a fictional community choir is written for singers joining a seasonal program. It belongs to the practical paperwork of a music group, alongside scores, attendance notes and room schedules, and concerns how a conductor organizes ordinary practice.",
+  "source_title": "Inside-cover guide from the Marrow Bridge Lantern Choir binder",
+  "source_text": "New singers in the Lantern Choir usually arrive on the same Tuesday that the winter set begins. Nadi Pell's guide says to place them beside a returning singer before assigning a part. The first tune, called Tin Lantern in the binder, has a repeated four-note answer that can be learned by ear. Pell asks the older singer to hum the answer once, then sing it on an open vowel while the new person listens for the breath before the last note. The binder says the breath is the cue for entry; the written score is added only after the group can answer without waiting for the keyboard.\n\nPell divides the room into three circles, not by expected pitch but by which line each circle can hear clearly from the far wall. During the first pass, one circle sings the answer and the others keep time by brushing a fingertip across a paper strip. On the second pass, the circles trade jobs. A singer who loses the entrance does not restart the tune alone; Pell gives the room one silent count, and the group enters again together. The margin adds that a returning singer should not correct a beginner while the tune is moving. They can compare the line during the pause, using the breath mark rather than a note name.\n\nThe guide also explains how Pell handles disagreement over a part. If two singers hear the same phrase differently, she asks each to sing it softly while the rest of the circle keeps the pulse. She then plays the phrase on a small reed organ and asks the circle which version fits the next entrance. The chosen part is written on a card clipped to the music stand, and the other suggestion remains on the back for the next rehearsal. Pell writes that the card records a temporary decision, not a permanent voice label.\n\nThe first rehearsal is not an audition, and Pell does not make individual recordings. At the end, each singer marks one place on a floor-length paper score where the group should breathe together next week. The choir has used the guide for four winter sets, according to a note on the last page. A penciled question asks whether the group will sing at the ferry hall's spring gathering, but the page has no answer. The binder does not say whether any singer changed circles after the first month. Pell's closing instruction is to let the sound settle before naming who led it.",
+  "structure_tags": ["ear-first learning before score reading", "rotating listening roles with a shared pulse cue", "temporary part decisions remain revisable"],
+  "authoring_note": "A rehearsal-room instruction sheet built around shared listening, reversible grouping and ensemble timing; it does not use an outcome study or a graded assessment structure.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "New singers are paired with returning singers before being assigned a part.", "evidence": ["Nadi Pell's guide says to place them beside a returning singer before assigning a part."]},
+      {"id": "S2", "claim": "The guide teaches the first tune by ear before adding the written score.", "evidence": ["The first tune, called Tin Lantern in the binder, has a repeated four-note answer that can be learned by ear.", "The binder says the breath is the cue for entry; the written score is added only after the group can answer without waiting for the keyboard."]},
+      {"id": "S3", "claim": "Circles rotate singing and timekeeping roles, and a missed entrance is restarted by the whole room.", "evidence": ["On the second pass, the circles trade jobs. A singer who loses the entrance does not restart the tune alone; Pell gives the room one silent count, and the group enters again together."]},
+      {"id": "S4", "claim": "A disagreement about a part is tested against the next entrance and recorded as a temporary decision.", "evidence": ["She then plays the phrase on a small reed organ and asks the circle which version fits the next entrance. The chosen part is written on a card clipped to the music stand, and the other suggestion remains on the back for the next rehearsal. Pell writes that the card records a temporary decision, not a permanent voice label."]},
+      {"id": "S5", "claim": "At the end of rehearsal, singers mark a place for a future shared breath.", "evidence": ["At the end, each singer marks one place on a floor-length paper score where the group should breathe together next week."]},
+      {"id": "S6", "claim": "The guide has been used for four winter sets.", "evidence": ["The choir has used the guide for four winter sets, according to a note on the last page."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "The first rehearsal is not an audition.", "evidence": ["The first rehearsal is not an audition, and Pell does not make individual recordings."]},
+      {"id": "N2", "claim": "Pell does not make individual recordings.", "evidence": ["The first rehearsal is not an audition, and Pell does not make individual recordings."]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "A singer's assigned part can remain open to revision after the initial choice.", "premise_ids": ["S4", "N1"], "rationale": "The card is called temporary, the alternate remains recorded, and no audition or individual recording is used as a fixed placement record. This supports revisability but does not show whether a particular singer changed parts."},
+      {"id": "I2", "claim": "The ensemble routine makes recovery from a missed entrance a collective action.", "premise_ids": ["S3", "S5"], "rationale": "The group re-enters together after a missed entrance and later marks a shared breathing point. The account describes a teaching procedure, not a claim that all mistakes are resolved."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "Did the choir sing at the ferry hall's spring gathering?", "presupposition_question": "What songs did the choir perform at the ferry hall's spring gathering?", "candidate_claim": "The choir performed at the ferry hall's spring gathering.", "boundary_note": "The page contains an unanswered question about the gathering, so performance is not established."},
+      {"id": "U2", "neutral_question": "Did any singer change circles after the first month?", "presupposition_question": "Why did singers change circles after the first month?", "candidate_claim": "One or more singers changed circles after the first month.", "boundary_note": "The guide describes the initial circle arrangement but reports no later changes."},
+      {"id": "U3", "neutral_question": "Did the guide later change the choir's part-assignment procedure?", "presupposition_question": "When did Pell revise the part-assignment procedure?", "candidate_claim": "Pell revised the part-assignment procedure.", "boundary_note": "Use for four winter sets is reported, but the document does not say whether its procedure changed."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "How do new singers learn the tune, and what happens when they miss an entrance?", "target_claim_ids": ["S1", "S2", "S3"], "reference_answer": "They sit beside a returning singer, learn the answer by ear with breath as a cue, and re-enter with the room after a silent count if they miss the entrance."},
+      {"id": "C2", "question": "How does Pell handle a disputed part, and what record of that choice is kept?", "target_claim_ids": ["S4", "S6"], "reference_answer": "The circle compares both versions against the next entrance, records one on a clipped card, retains the alternative on its back, and the guide itself has been used for four winter sets."}
+    ]
+  }
+}

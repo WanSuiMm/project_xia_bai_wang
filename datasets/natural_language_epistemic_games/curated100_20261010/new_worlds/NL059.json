@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL059",
+  "family_id": "nl059_switchboard_diagram_conservation",
+  "domain": "technology_archives",
+  "title": "Conservation note for the Bell Street exchange board",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "A conservator's treatment note accompanies a decommissioned telephone exchange panel and an old circuit diagram. The setting includes a wooden cabinet, metal tags and paper records, within a museum or archive collection of communications equipment. The record sits with other municipal apparatus files.",
+  "source_title": "Treatment record 4 for the Bell Street exchange panel",
+  "source_text": "The Bell Street panel arrived with its wooden cabinet intact and the rear cover detached. A folded circuit diagram had been tucked behind the lower rail. The drawing labels two spring contacts as North and Market, but the metal tags on the panel read Market and Quarry. Conservator Leth Arin photographed the tags before moving the diagram and placed the paper in a polyester sleeve beside the cabinet rather than flattening its old fold.\n\nThe panel had no power cable and was not connected to a working exchange. Arin did not energize the contacts. Instead, she used a blunt wooden probe to see which springs moved when a key was pressed. The key marked North moved the contact tagged Market, while the key marked Market moved the contact tagged Quarry. The key marked Quarry moved a contact with no metal tag at all. The report calls these observed movements, not proof of the original line assignments, because the diagram may describe an earlier arrangement.\n\nA pale rectangle on the cabinet's inside wall shows where another instruction card once sat. The card itself was not found. Arin compared the screw holes with the detached rear cover and found that the cover had been attached with a different pair of screws at some point. She did not infer that the missing card was removed during that alteration. A paper strip inside the cabinet lists three dates in different inks, but none has a matching technician signature. The strip was photographed in place and not detached.\n\nThe treatment plan is limited to stabilizing the loose rear cover and housing the diagram with the panel. Arin will not repaint the keys or replace the metal tags, even where their names disagree with the diagram. The archive approved a transparent support under the detached cover so visitors can see the old screw holes. Arin marked the position of the missing card on the treatment drawing and left a blank space beside the three dates for a later curator's note. Her final observation is that the mismatch belongs to the object's history, not a defect that can be corrected from the surviving pieces alone.",
+  "structure_tags": ["diagram labels and metal tags disagree with observed contact movement", "object examined without energizing a decommissioned mechanism", "missing instruction card and undated change history retained as gaps"],
+  "authoring_note": "A conservation treatment record about a decommissioned switchboard whose diagram, tags and observed contact movements do not fully align; the source preserves discrepancies rather than repairing them into a single account.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "The folded diagram labels two contacts North and Market while the panel tags read Market and Quarry.", "evidence": ["The drawing labels two spring contacts as North and Market, but the metal tags on the panel read Market and Quarry."]},
+      {"id": "S2", "claim": "Arin photographed the tags and sleeved the folded diagram beside the cabinet rather than flattening it.", "evidence": ["Conservator Leth Arin photographed the tags before moving the diagram and placed the paper in a polyester sleeve beside the cabinet rather than flattening its old fold."]},
+      {"id": "S3", "claim": "The panel was disconnected from power, and Arin did not energize the contacts.", "evidence": ["The panel had no power cable and was not connected to a working exchange. Arin did not energize the contacts."]},
+      {"id": "S4", "claim": "Pressing North moved the contact tagged Market, pressing Market moved the contact tagged Quarry, and pressing Quarry moved an untagged contact.", "evidence": ["The key marked North moved the contact tagged Market, while the key marked Market moved the contact tagged Quarry. The key marked Quarry moved a contact with no metal tag at all."]},
+      {"id": "S5", "claim": "The treatment plan was to stabilize the loose rear cover and house the diagram with the panel, while leaving keys and tags unchanged.", "evidence": ["The treatment plan is limited to stabilizing the loose rear cover and housing the diagram with the panel. Arin will not repaint the keys or replace the metal tags"]},
+      {"id": "S6", "claim": "The archive approved a transparent support under the detached cover so visitors could see the old screw holes.", "evidence": ["The archive approved a transparent support under the detached cover so visitors can see the old screw holes."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "Arin did not energize the contacts.", "evidence": ["Arin did not energize the contacts."]},
+      {"id": "N2", "claim": "Arin did not infer that the missing card was removed during the rear-cover alteration.", "evidence": ["She did not infer that the missing card was removed during that alteration."]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "The surviving diagram and labels do not provide a single confirmed account of the panel's original line assignments.", "premise_ids": ["S1", "S4", "N2"], "rationale": "The names disagree, observed key movements do not map neatly to the tags, and the diagram may describe an earlier arrangement. Arin explicitly avoids inferring the missing card's timing."},
+      {"id": "I2", "claim": "The treatment prioritizes preserving evidence of prior changes over making the panel appear internally consistent.", "premise_ids": ["S2", "S5", "S6"], "rationale": "The folded diagram and old screw holes are kept visible, while keys and tags are not repainted or replaced despite their mismatch."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "Was the panel rewired at some point?", "presupposition_question": "When was the panel rewired to change the contact assignments?", "candidate_claim": "The panel was rewired to change its contact assignments.", "boundary_note": "The note says it does not establish whether the panel was rewired."},
+      {"id": "U2", "neutral_question": "What did the missing instruction card say?", "presupposition_question": "How did the missing instruction card explain the contact labels?", "candidate_claim": "The card explained the contact labels.", "boundary_note": "The card is missing and its content is not described."},
+      {"id": "U3", "neutral_question": "Do the three dates correspond to changes in the contacts?", "presupposition_question": "Which contact change does each of the three dates record?", "candidate_claim": "The three dates record changes in the contacts.", "boundary_note": "The dates have no matching technician signatures and are not linked to contact changes in the note."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "How did the diagram and panel tags differ, and what did the key-press observations show?", "target_claim_ids": ["S1", "S4"], "reference_answer": "The diagram named North and Market while the tags read Market and Quarry; the keys moved contacts bearing different or absent tags, so the observations did not establish a definitive original mapping."},
+      {"id": "C2", "question": "What did the conservator preserve and what treatment did the archive approve?", "target_claim_ids": ["S2", "S5", "S6"], "reference_answer": "Arin kept the folded diagram sleeved beside the cabinet and did not replace the tags or repaint keys; the archive approved a transparent support that leaves the old screw holes visible."}
+    ]
+  }
+}

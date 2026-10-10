@@ -1,0 +1,29 @@
+{
+  "case_id": "N11",
+  "domain": "math_language",
+  "title": "Final Stops in Rovelin",
+  "public_context": "Rovelin is a fictional language recorded in a small historical grammar. The dossier compares older reconstructed forms with current pronunciations and includes a few inflected words and later borrowings. The pattern concerns a familiar class of consonants and a word boundary, with some lexical history affecting the modern forms. The public description names the topic but does not state the sound change.",
+  "source_title": "Field grammar: Rovelin stop voicing",
+  "source_text": "Rovelin is a fictional language. In inherited vocabulary, the voiced stops /b/, /d/, and /g/ are pronounced voiceless as [p], [t], and [k] when they stand at the end of a phonological word. The change is limited to that final position: a voiced stop between vowels remains voiced, as in /daba/ [daba], ‘to weave’. The standard spelling preserves the inherited stop letter, while the pronunciation key records the devoiced sound.\n\nThe contrast is visible in related forms. The inherited noun /gub/ ‘jar’ is [gup] when cited alone. With the vowel-initial plural ending /-i/, it is /gub-i/ [gubi]; the /b/ is no longer word-final and remains voiced. Likewise, /bad/ ‘reed’ is [bat] alone but /bad-en/ [baden] ‘reeds’ with the plural ending. The ending does not itself change the stem's underlying consonant; it changes the position in which that consonant is heard.\n\nTwo historical groups do not follow the inherited pattern. Recent loans adopted after the change retain their original final voicing in careful Rovelin, as in trade term /zeb/ [zeb]. A small set of ceremonial names also preserves final [d] in the fixed recitation register, although the same names take [t] in ordinary conversation. These are limited lexical and register exceptions, not evidence that every final stop may vary freely. The grammar treats them as two distinct exception types rather than a productive alternation.\n\nThe pronunciation rule applies to phonological-word edges, not merely spaces in a printed sentence. A suffix that joins the stem forms one word; a pause or a separate following word does not restore voicing. The description covers the standard northern pronunciation and inherited forms listed in the appendix, rather than every regional accent or the full history of Rovelin.",
+  "analyst_notes": {
+    "core_facts": [
+      "In inherited Tavren vocabulary, /b d g/ are pronounced [p t k] at the end of a phonological word.",
+      "Voiced stops remain voiced away from word-final position, including before vowel-initial inflection.",
+      "The spelling preserves inherited stop letters while the pronunciation key shows the surface form.",
+      "Recent loans and a small fixed ceremonial set are stated exceptions with distinct historical or register conditions."
+    ],
+    "explicit_negations": [
+      "The process is not triggered by every written space; the relevant boundary is the phonological word edge.",
+      "The cited exceptions do not license free alternation for all final stops."
+    ],
+    "source_boundaries": [
+      "The account covers standard northern pronunciation and the listed inherited vocabulary.",
+      "It makes no claim about every regional accent or the complete history of Rovelin."
+    ],
+    "consistency_checks": [
+      "The citation form /gub/ surfaces as [gup], while /gub-i/ surfaces as [gubi].",
+      "The plural /bad-en/ has [d] before the vowel-initial ending, not final [t].",
+      "The recent loan /zeb/ retains [b] in careful Tavren and is explicitly outside the inherited pattern."
+    ]
+  }
+}

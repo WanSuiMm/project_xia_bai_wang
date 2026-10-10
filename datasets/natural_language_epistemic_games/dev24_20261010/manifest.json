@@ -1,0 +1,237 @@
+{
+  "schema_version": "1.0",
+  "dataset_id": "natural_language_epistemic_games_dev24_20261010",
+  "status": "DEVELOPMENT_MATERIAL_SNAPSHOT_NOT_PREREGISTERED_TEST",
+  "date": "2026-10-10",
+  "world_count": 24,
+  "input_hashes": {
+    "AUTHORING.md": "c172a1eef6d371c7dc18a58eb6a786896b48c865915925b071ab5abbb7e5520e",
+    "README.md": "9b6c6b24cc454a1a81a633fb1353e3c6ccf6ab96eb43916a643c3b3faf24685c",
+    "DESIGN.md": "08f3041ad8d7b48ff711b453ac08769e5ed92454c406a8495ea5c214aa8c75d7",
+    "SEMANTIC_REVIEW.md": "18c989f7d769d34d0abfc62df99363d88e3da1472843a6b871761454cc60a8ff",
+    "EXPERIMENT_CONFIG.json": "dbb8449db6f64263fb0594da641d62388864e4d918915bc1cd51f165bd85d5a9",
+    "PROMPT_MODULES.json": "f08c69fe4a381c5f5f3b7f90655499646628f16ab17741996a1f65bc5ee970ad"
+  },
+  "worlds": [
+    {
+      "world_id": "NL001",
+      "family_id": "ecology_temporal_seed_bank_deposition",
+      "domain": "ecology_fieldwork",
+      "path": "worlds/NL001.json",
+      "sha256": "890447b10d5e11e0003cf044fa89ea78f920a161e96208bf9660157bdcaba0c4",
+      "source_sha256": "dd687b1b3777103a40dc72982c95b680f90f861aae6ccd5fb5f6531cd423e4bf",
+      "public_context_sha256": "f38be14cf06e04c856666bc2d1078ad995224232fd30efec0c3a6b8f8ba8edd3"
+    },
+    {
+      "world_id": "NL002",
+      "family_id": "ecology_acoustic_window_detection",
+      "domain": "ecology_fieldwork",
+      "path": "worlds/NL002.json",
+      "sha256": "b385cfd2a535ccdfb36f24716c63f17b7776c71490681834ddf11e95f35e4bee",
+      "source_sha256": "3745d7e75a0bc73455c56906f627cf2a7e7f5127be1f360b97bd4d52b024fe71",
+      "public_context_sha256": "012222984bf72a88f3fa262bf16813c9b4ee7be7543d481b917a2bab432242b7"
+    },
+    {
+      "world_id": "NL003",
+      "family_id": "ecology_nutrient_cross_site_controls",
+      "domain": "ecology_fieldwork",
+      "path": "worlds/NL003.json",
+      "sha256": "dbf08000865f7d2cc093f155134a93bb9b9c35431d17f24785ccceb0b8f698fe",
+      "source_sha256": "c54be4ef5607c298dbf5781fb97d260582b22fefa8b663dfabe02cce417c56fc",
+      "public_context_sha256": "0287a0d09ae6cb5f90927da3b6205fe4856c384bf7b8131b1ea07d5c71aea682"
+    },
+    {
+      "world_id": "NL004",
+      "family_id": "materials_reversible_laminate_peel_cycle",
+      "domain": "materials_engineering",
+      "path": "worlds/NL004.json",
+      "sha256": "0b04278b6b0b0860ac38fad63ee1a72d5437fa170d183b566dbcf721f8b3a85c",
+      "source_sha256": "63bb23f8e611957ff6cd7a60bb10b8e97bc7091622509583bec62a786de43b7d",
+      "public_context_sha256": "05367b4936088b9c0bef048fd2f8c0364431dea6e5eaf0fa92cb0cdfd25f4af9"
+    },
+    {
+      "world_id": "NL005",
+      "family_id": "materials_optical_coating_reference_artifact",
+      "domain": "materials_engineering",
+      "path": "worlds/NL005.json",
+      "sha256": "9c93d5c2d01ebe7094b24ffa344348ee711df2547bb72be6947aa4a0a756e7d2",
+      "source_sha256": "e41641e55087d2fccf764d2e1a1366dd3206bfd7d5096d12247bd01280246867",
+      "public_context_sha256": "483e8b7035c1b2b2630d7a4b39cccd9a099a07d741168da032bca7b2fbcc6adf"
+    },
+    {
+      "world_id": "NL006",
+      "family_id": "materials_modular_joint_fatigue_maintenance",
+      "domain": "materials_engineering",
+      "path": "worlds/NL006.json",
+      "sha256": "2407b1537c9d8b09f6c06642be55e932e31c04635d65b969c3e02b7c229eb3e4",
+      "source_sha256": "38ce21386b5e2fb5300278f238022c719a1ce57331eba0cea1d22ea4a1c40c7c",
+      "public_context_sha256": "cf4aae71a8d66d0ce30beac8b1ee04e304838ca9a86de126e5b2dc9007ad3af9"
+    },
+    {
+      "world_id": "NL007",
+      "family_id": "archaeology_stratigraphic_intercut_lens",
+      "domain": "archaeology_conservation",
+      "path": "worlds/NL007.json",
+      "sha256": "901d75968233bee9b371b513298fbae4d1560828ae0cacbc45d648f31a9c8693",
+      "source_sha256": "8c2495c5f7cd868c4b238f62da28f4c7e103510ac1b8ee48330bfa50098a0224",
+      "public_context_sha256": "322bbf86b5ec839aaab6e9ccc909bcecf100fa7198341f898f632d75e58fba09"
+    },
+    {
+      "world_id": "NL008",
+      "family_id": "archaeology_catalogue_transfer_provenance",
+      "domain": "archaeology_conservation",
+      "path": "worlds/NL008.json",
+      "sha256": "40d72469c23b9ad634bed5a6edbdb2366ca719317dd22f0a4a1eddb713ca2d4a",
+      "source_sha256": "9588de92b70e154e5eaf37e8963b650e1749543a7e6655fb68cb8620cdd18ee6",
+      "public_context_sha256": "94e520742679cd46690202d49f856b0a2a8c524a48390f189357febe264eeac9"
+    },
+    {
+      "world_id": "NL009",
+      "family_id": "nl009_reversible_surface_treatment_access_log",
+      "domain": "archaeology_conservation",
+      "path": "worlds/NL009.json",
+      "sha256": "3ce7a83ff4852008fda6b0588a218dc14a287c134532788763c4dbddce319cb9",
+      "source_sha256": "0137dc86338ccce36d3f2470bae831622b75d3ad987f9037c79cab668c4e1489",
+      "public_context_sha256": "a3d3a88b6d4237024057e87184387cc8ceff659681d869d2877f98c5f0aac40c"
+    },
+    {
+      "world_id": "NL010",
+      "family_id": "nl010_heat_exposure_queue_for_public_shade",
+      "domain": "civic_institutions",
+      "path": "worlds/NL010.json",
+      "sha256": "03cf16db62ab5c9a7cba93e73939f59d5c9709de10442a241f4735d40694fe4c",
+      "source_sha256": "7964555c4493ab51894f2872ceb00f20861403da83a3fa6ce5398fb63ea7bbf8",
+      "public_context_sha256": "8f1f23282b7c636c985ad1856d4afb854aea011c6b0309bf3755a2c156d2fad0"
+    },
+    {
+      "world_id": "NL011",
+      "family_id": "nl011_reversible_street_closure_objection_window",
+      "domain": "civic_institutions",
+      "path": "worlds/NL011.json",
+      "sha256": "e8ab07b2ee444576edd8b07104dd33f24113fe1e135e17b82e3ec3abdc2dd966",
+      "source_sha256": "81cd6b34706eb124cdff32fc63d0b9689daca2b83411d66a4bfc974e23484532",
+      "public_context_sha256": "7f66e0df42e761e6a47d5bf7ece73afbdfe992fc1f41a3b261b92011aca20a07"
+    },
+    {
+      "world_id": "NL012",
+      "family_id": "nl012_blinded_transit_fare_appeal_ladder",
+      "domain": "civic_institutions",
+      "path": "worlds/NL012.json",
+      "sha256": "09ebd847b467c51cef99b209451655c373ad73ebd5d2b375bb48c591cebc1c6f",
+      "source_sha256": "a1b73f44b76d995e871b0df0399bd418fb0b93605ef480e841c6f4384a4d2f06",
+      "public_context_sha256": "4ed90622b108192565444ccb518d6496dbf79f8a5fd61839a856bae9677cc4e5"
+    },
+    {
+      "world_id": "NL013",
+      "family_id": "nl013_apartment_toolroom_named_custody",
+      "domain": "ethnography_social",
+      "path": "worlds/NL013.json",
+      "sha256": "6b56cb642a321c4fd4611ffdae181aa3c56e8c6f66488518299e5cbb7d42d21b",
+      "source_sha256": "5fdfcba6c93ba1bb9d36e11b535f7de1bc86a5c6951028ee201abbd7286064fb",
+      "public_context_sha256": "13732ebe1c951a5bb03e5d6b0c86c0aaccdd553c35608084957f0bfe88f5ec05"
+    },
+    {
+      "world_id": "NL014",
+      "family_id": "nl014_shared_meal_optional_offer_bowl",
+      "domain": "ethnography_social",
+      "path": "worlds/NL014.json",
+      "sha256": "2c551ad0e46d06cab0df065ead898cb91e3e7286586bde241b33ada5f694d989",
+      "source_sha256": "d3479b16a0d4c4712866aab64edb152787d92257aefabfc128924e98617b3141",
+      "public_context_sha256": "647b0282dad60f30910fe74629c383687198ef78c3668c187a56c3d8a46b726b"
+    },
+    {
+      "world_id": "NL015",
+      "family_id": "nl015_repair_clinic_consent_before_hands_on_help",
+      "domain": "ethnography_social",
+      "path": "worlds/NL015.json",
+      "sha256": "3df636b6c5583673098bcf61d45f560ccab851c0808a87780c89d6bc80eb5f25",
+      "source_sha256": "7f6acca171dd8a4b7cd5ac23d49640c654fb511d21c7f5650b5732eac8267e72",
+      "public_context_sha256": "c0bd2963be0eb3cad5b72779929c1a28821b6018d7de7b86c5b93ace86613dc6"
+    },
+    {
+      "world_id": "NL016",
+      "family_id": "nl016_nemer_particle_current_attention_in_field_dialogue",
+      "domain": "linguistics_fieldwork",
+      "path": "worlds/NL016.json",
+      "sha256": "979c7f4e34204984db266786c5355381afc1b52ffb60c460b851a595f9f15973",
+      "source_sha256": "6b7323d5af90095399dbd7132f884c4796d50ff0eb910e62608cb6618bdcca4e",
+      "public_context_sha256": "24e0fa7c42093107071e4196df06f573f7ecd709cfb748f778dc75de816a0db3"
+    },
+    {
+      "world_id": "NL017",
+      "family_id": "nl017_open-and-targeted-repair-formats",
+      "domain": "linguistics_fieldwork",
+      "path": "worlds/NL017.json",
+      "sha256": "25c51db0d66c57048b3881030b00252a584e548077b953a0f036dbd582921b47",
+      "source_sha256": "a11cd0ada7fcbec6e502131597cab76fe854d49aff5a05715689f456c7e21a13",
+      "public_context_sha256": "267697882a41f2d2f454c7b17f9f6edb94fd7a5e899e4b737fbcccc1ad4818c9"
+    },
+    {
+      "world_id": "NL018",
+      "family_id": "nl018-quotation-scope-by-genre",
+      "domain": "linguistics_fieldwork",
+      "path": "worlds/NL018.json",
+      "sha256": "fc0cba6e02ce180172ba89e27fbaae6c791b4865f6992d1aee7bc16b014d9500",
+      "source_sha256": "78c1d80fa1b692e722e87bab0314930d6a23f16429c77d1451df2f9f0c345efb",
+      "public_context_sha256": "3603db2b284baada699abc2385c1037e3824957169b61215a3b0b85eab4f244d"
+    },
+    {
+      "world_id": "NL019",
+      "family_id": "nl019-lane-once-inspection-walks",
+      "domain": "mathematics_practice",
+      "path": "worlds/NL019.json",
+      "sha256": "bfc90d98d1af58bd6e4f2cf1497ea72481bc5901792fb2bb66ff98b1efa87627",
+      "source_sha256": "a54ff99adc56a241f6d326c4b7d860002dcb51050aade690e3e82792b9a0b970",
+      "public_context_sha256": "e9ee29f9e3edd337fc8e390d7cc153837664cd0d19a8b2b7db2a34661463056d"
+    },
+    {
+      "world_id": "NL020",
+      "family_id": "nl020-precedence-order-refinement-dockets",
+      "domain": "mathematics_practice",
+      "path": "worlds/NL020.json",
+      "sha256": "2e427b7dd6193b5c4f383137c146005c7bb0579438db4900ee232cfef6ad2ab4",
+      "source_sha256": "1a9866639d1fef3f0e36ea26bd6dadca5c2b511f860b163784c147cc68137e11",
+      "public_context_sha256": "6ab73e4fd84fc20fb728d13be1b934c68221a5122c877aabccb756d85465042f"
+    },
+    {
+      "world_id": "NL021",
+      "family_id": "nl021-seven-peg-pair-covering-braid",
+      "domain": "mathematics_practice",
+      "path": "worlds/NL021.json",
+      "sha256": "a257016c2e13324f10ecc5f0fedd8bb3285bd4559d28adfe7801b1953e3fa750",
+      "source_sha256": "375e2f0bbc07bc298aecf7185aed4eba0c08bf6eb984a71889dd3274b62dcad4",
+      "public_context_sha256": "59ae3e21f6a98d20961b8c42421ddf1eadef07d02bb2a5171e3307209dbf1f95"
+    },
+    {
+      "world_id": "NL022",
+      "family_id": "nl022-disputed-warning-time-records",
+      "domain": "investigations_history",
+      "path": "worlds/NL022.json",
+      "sha256": "1e2295e5bba143ab8db03f8d08d26c9013529c83baac4fbaf0d14ab863b9a863",
+      "source_sha256": "91db02bcd1afab36a4d1362f931f830776b162a3236e358c48e11cd6d6be8d46",
+      "public_context_sha256": "5d59c8c123e62fc0416a62767c411fbe234c3120aa8254360eab1a32afbcc412"
+    },
+    {
+      "world_id": "NL023",
+      "family_id": "nl023-rebate-incentives-and-testimony",
+      "domain": "investigations_history",
+      "path": "worlds/NL023.json",
+      "sha256": "723e877e15c2736febbacfda9c68ac66d1263c6922a38dcd088959c54240f5b9",
+      "source_sha256": "2c5c7e42ea881fe122478310f6c629d3a2dcb9fc71d748dfd7a4c2b49d6b35fc",
+      "public_context_sha256": "7ed13e231c31308b29b248ba0f55fb15dd422d6ac488887d5e91d47e64e9ca62"
+    },
+    {
+      "world_id": "NL024",
+      "family_id": "nl024-sealed-bundle-custody-procedure",
+      "domain": "investigations_history",
+      "path": "worlds/NL024.json",
+      "sha256": "3d4bee5fd3b709d04163261d8961d9110d600d0bf25c9141138123a8927da37a",
+      "source_sha256": "206d5f36a3a91e7ab6f72c43fb2d5ac71bd119539ebba83922711d58db7729c7",
+      "public_context_sha256": "3c501cd57d1fb03286f1013116f376ef0c6cbb6fbdd006b4bd653e79ad858446"
+    }
+  ],
+  "builder_path": "scripts/build_natural_language_dataset.py",
+  "builder_sha256": "a921e617837259d0bb0afde7514b1a0812a1857ceeffec1bdb897faea0ce52ed",
+  "provider_requests": 0,
+  "dialogues": 0
+}

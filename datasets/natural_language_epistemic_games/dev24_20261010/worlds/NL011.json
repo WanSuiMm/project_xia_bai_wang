@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL011",
+  "family_id": "nl011_reversible_street_closure_objection_window",
+  "domain": "civic_institutions",
+  "title": "Temporary Street Use Review",
+  "split": "development",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "A clerk in the fictional Morrow Ward maintains files on temporary uses of public streets. The ward receives proposals from local businesses and residents about how blocks might function at particular hours. This memorandum documents one application and the clerical records assembled for municipal review.",
+  "source_title": "Morrow Ward temporary street-use memorandum",
+  "source_text": "The Morrow Ward clerk opened a review after the Lantern Lane merchants asked to close one block to through traffic on Thursday evenings. The request proposed six trial dates and left delivery access open until five o’clock. The clerk sent a map to nearby buildings and posted paper copies at the laundromat and the branch library. Notices invited residents, delivery drivers, and emergency staff to describe a route problem; they did not ask people to vote yes or no.\n\nThe borough approved three trial evenings first, each ending at nine. A street steward placed movable barriers at the lane’s two ends and recorded when they were opened for a marked delivery or emergency vehicle. During the second evening, a van arrived after the posted delivery period and waited at the north barrier. The steward let it through after the driver called the market organizer, then recorded the late entry as a problem for the next review.\n\nResidents could leave a signed note at either public counter or speak during a thirty-minute review after the final trial evening. The clerk grouped comments by practical issue, such as noise, access, and cleanup, and attached them to the map. A comment did not automatically cancel a trial date. When two residents disagreed about the location of a noise complaint, the clerk asked the ward engineer to check the street-facing windows before making a finding. The memorandum does not report a sound-level reading.\n\nThe ward engineer can recommend a different barrier location, but only the Borough Streets Committee can authorize a recurring closure. The committee may approve, reject, or return the request for a revised map. It has not yet met on the Lantern Lane application. The trial therefore gave the clerk a record of routes and concerns, not a permanent street-use permit. The market organizer may withdraw the request before the committee meeting.\n\nFor the next trial, the clerk plans to keep the same hours and place a second steward at the north barrier. The memorandum does not state whether the organizer accepted that plan. The public file contains the map, the grouped comments, and the steward’s time sheet; handwritten notes from the stewards were not retained after the clerk prepared the summary. The clerk says the short trial made it easier to identify access questions before a recurring decision, but cannot show whether the late van would have arrived under ordinary traffic conditions. A revised application would receive a new notice period rather than inherit the original dates.",
+  "structure_tags": ["time-limited street-use trial", "issue-grouped public comments", "separated advisory and authorizing roles"],
+  "authoring_note": "The process uses a reversible trial and issue-based comment record before a separate committee decision; it differs from exposure queues and anonymized benefit appeals.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "The merchant request proposed six trial dates and kept delivery access open until five o'clock.", "evidence": ["The request proposed six trial dates and left delivery access open until five o’clock."]},
+      {"id": "S2", "claim": "The first approved trial covered three evenings and ended at nine.", "evidence": ["The borough approved three trial evenings first, each ending at nine."]},
+      {"id": "S3", "claim": "The clerk organized comments by practical issue, and a comment did not automatically cancel a trial date.", "evidence": ["The clerk grouped comments by practical issue, such as noise, access, and cleanup, and attached them to the map.", "A comment did not automatically cancel a trial date."]},
+      {"id": "S4", "claim": "Only the Borough Streets Committee can authorize a recurring closure.", "evidence": ["The ward engineer can recommend a different barrier location, but only the Borough Streets Committee can authorize a recurring closure."]},
+      {"id": "S5", "claim": "The committee had not met on the application when the memorandum was written.", "evidence": ["It has not yet met on the Lantern Lane application."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "The notice did not ask residents to vote yes or no.", "evidence": ["Notices invited residents, delivery drivers, and emergency staff to describe a route problem; they did not ask people to vote yes or no."]},
+      {"id": "N2", "claim": "The trial did not provide a permanent street-use permit.", "evidence": ["The trial therefore gave the clerk a record of routes and concerns, not a permanent street-use permit."]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "The trial is being used to surface operational problems before the committee makes a recurring-use decision.", "premise_ids": ["S2", "S3", "S4"], "rationale": "The borough authorized a limited series, the clerk records issue-based concerns, and the committee retains the authorization power. The memorandum presents the trial as input to a later decision, not as the decision itself."},
+      {"id": "I2", "claim": "The late van gives the clerk one documented access case but does not establish how traffic would behave without the market closure.", "premise_ids": ["S1", "S2"], "rationale": "The van entered after the proposed delivery window during a trial evening. The clerk explicitly cannot show whether it would have arrived under ordinary traffic, so the case is informative but limited."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "How many residents left comments during the review?", "presupposition_question": "Did exactly twelve residents leave comments during the review?", "candidate_claim": "Exactly twelve residents left comments.", "boundary_note": "The memorandum describes how comments were handled but reports no count."},
+      {"id": "U2", "neutral_question": "What did the market sell on the trial evenings?", "presupposition_question": "Did the market sell handmade candles on the trial evenings?", "candidate_claim": "The market sold handmade candles.", "boundary_note": "The source identifies merchants and an evening market but gives no inventory."},
+      {"id": "U3", "neutral_question": "Was the planned second steward placed at the north barrier, and what effect, if any, did that have?", "presupposition_question": "Did a second steward at the north barrier prevent late delivery entries?", "candidate_claim": "A second steward at the north barrier prevented late delivery entries.", "boundary_note": "The memorandum says the clerk planned a second steward but does not confirm the plan was accepted or describe a later outcome."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "What does the memorandum establish about the status of the closure request at the time it was written?", "target_claim_ids": ["S2", "S4", "S5", "N2"], "reference_answer": "Three trial evenings had occurred, but only the Borough Streets Committee could authorize recurring use and it had not yet met. The trial created a record; it did not grant a permanent permit."},
+      {"id": "C2", "question": "How should the late van episode be used when considering the merchants' proposed delivery window?", "target_claim_ids": ["S1", "S2", "S3"], "reference_answer": "It is a recorded problem during a limited trial and was attached to the review record. It may prompt discussion of access hours, but the source cautions that it cannot establish whether the van would have arrived under ordinary traffic."}
+    ]
+  }
+}

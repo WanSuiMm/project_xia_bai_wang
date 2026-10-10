@@ -1,0 +1,716 @@
+{
+  "corpus_id": "natural_language_epistemic_games_curated100_20261010",
+  "date": "2026-10-10",
+  "world_count": 100,
+  "status": "MATERIAL_SNAPSHOT_NOT_PREREGISTERED_COLLECTION",
+  "inputs": {
+    "datasets/natural_language_epistemic_games/curated100_20261010/AUTHORING.md": "d814746f439ae61ebd02e50f32691e5bbbe28dfb99514e75bfbcdf7f7f3c5e60",
+    "datasets/natural_language_epistemic_games/curated100_20261010/CORPUS_PLAN.json": "bf4cd55de2df09cc50a8c94d8d5201ccc40baccce6bc9b2d69fb2ece7bf204e9",
+    "datasets/natural_language_epistemic_games/curated100_20261010/LEGACY_INVENTORY.json": "469e89e44edbacc20ccff2110732c58f10bbc939097fecbd34b902dc40dd35d6",
+    "datasets/natural_language_epistemic_games/curated100_20261010/LEGACY_INVENTORY.md": "b893baa3184d39459d58613587bc9b3372dde7b3875d7c7bf81c0771ab9580f2",
+    "datasets/natural_language_epistemic_games/curated100_20261010/MATERIAL_REVIEW.md": "02a0808de0159cc2c9588a862babb283ec42ab7c7ae709e5f2a280538fb0c073",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL025.json": "386437899168005d5b7b3cf19889f2387570c328b88468bd25519ab317a12fdf",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL026.json": "f7d4c1951d4046ce823a94cd665441f31917f81b2ca81511709f4a5d2739e9ff",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL027.json": "d7e75e0ee7cb3d8d21eed75c6a0f65ca42554a0af1a6744673ca41af91130891",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL028.json": "fefd1fe2c8fb2e013b6f8cebcc853f5e24f6a34aaee7e2c66b20ce9591f68e39",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL029.json": "edd888dce14511ed45f7778c8bf18c74baebb133968db42376ea16226d2c7d3f",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL030.json": "4c33670c25fdf3481e71886879fabcb01b24fcfdfd355e8014a8e902b98b56d6",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL031.json": "1c517a6b4399b454b1f4164b2cf06be5c1b52cdc4c1f5338cba2bcbf2d339886",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL032.json": "2c8a048ef0d6e6c945c06515e5c90036a722126c02a74ab6c33fa8675cb32ce3",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL033.json": "8607a93651c346fcce448da715d98f034f73132b2072f49c03eb52b7a8791420",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL034.json": "38500298d11d520a4e4bb5602df16143a6927ba33e4e0fc02328536707e81d4c",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL035.json": "c845881d96940ee22e45df135c783f165d9d9e52dd7f55e6ff9a1bc94e2a4595",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL036.json": "1613189cdcfa2c464f0e23b2c5494a4ff78efb7ccf299748e57b92a085cd4c2b",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL037.json": "1cc6bf30d6910d4956d5946d770327bdcf12cffcf4bb11d320455c7b92e3cb29",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL038.json": "36b0f13edc336cb57dcbea66c343683710aafa39a4ac15f0d65b112dac0b7d75",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL039.json": "6c5abb6ffd49653b3ce3924d96d8727d45c6f4ef56a0c25d16d20e35234e214f",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL040.json": "6b434b16d3386572ca5d9ba530d0ef89faa98533b47bd2497ad6060a688a5575",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL041.json": "aaa6664d50943aa7775352caccd5f2d89eca5462c074c88a8e5bcda9a9bfffe9",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL042.json": "308f3bb649b36dda9698c0465cbcfed93fee8ad5704a172bc8fae201944b8b0e",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL043.json": "f67a497b340e6d3145893ac6b1a13ae9a94b7c897e709c4f31eef8ea4e0ee961",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL044.json": "614f98390269d20453a7ee4d8832d68a5894e39099a5c11986be587bad586fd4",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL045.json": "84ec455b2ef1eac330ed9107f8eafdcc1177d2f612e99a4cea529b9178e34f52",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL046.json": "411a65d14c28b84b431b1a7637e24ffe4a8732585849100addb3e02f3a7fc828",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL047.json": "92a2b5d0adcdd46117b7b4c29fc91293d3b1a6853249e1270772f45df897e37d",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL048.json": "654f39ce3f9d42a09ba7cc9fc0dfee8ebe618530c033bb13432afdc72098b66b",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL049.json": "dbb71a2080e414e342646f2bd718caebca0f2274273d385150355f48eb055773",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL050.json": "2d950009496da1c88f8ae972d4be228df10dce1590e15820663bb880e31039c6",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL051.json": "cabce7d62758b14919c371bea055380e6147ee0ee32001fd06a100e526be812b",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL052.json": "da94d1c254d9d9205ab772caf74c56860f0e9a47eb3f5d80e308112342f9a53b",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL053.json": "b49e6d7a7ce7749137b633c0a57cd48003dafdbd918b8b8d11fb39ea53fe7602",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL054.json": "e934c3fc137b73d84b3697bd274f7183a6c0d1ee70cb3c3760673394f890e383",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL055.json": "019e98d2fca3feb841e50a2ad18554b1e2e7b0fe9025cb392d59207694cd365f",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL056.json": "fcf465065b0b2bde8205eb664f475c90c5ecd62aa2d95d86d68cd25fd351c096",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL057.json": "d93ec51f43cd8fbe9acd88fbc6b091725f3824b1263d0403e57ba0497c379da8",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL058.json": "f5a6cdea2cd446156b46363a7cfec478a98acff61f20f7c0a54fea63f371e82b",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL059.json": "185683864d9a44403c021cd5d40c3270d2213b9c3b2b32d7e537019f23472984",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL060.json": "801035bb8a243200ddb42edd6de330d730bf83536e46766ac7c68a808ab78cdf",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL061.json": "561767bc2fcbc78f01caa6bdaf7b3d60b465f970838afcf0bdb37e6e8a7f11de",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL062.json": "2e7eba3a533d968fa97758249e4045063c11bbc2c782ae07994ddecc85a2f31e",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL063.json": "3f089b27b2be5731648e3380a7b2d31291ba14f4c463280d714d9edf469dee47",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL064.json": "ca2c962d3577c274bb0b6c9e8410bd3925eea2fdf052491376fe42a633231c56",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL065.json": "00184ebe639554659e1204669e3fdc40aca7b5e319b3202d5a528297856dd84a",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL066.json": "b15133676ae66c9d93ba381c58481788f930169de83b7619da9e774fce73d425",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL067.json": "6755ea5d15b50ad729cffa2eef0febeeaa47740d33c48f0b3d20fbb882708847",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL068.json": "7e08fef19db7a14f89b484eb2292ae3a92840093ecadb0fce4652b9e0536a81e",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL069.json": "3877bad40198b711992661447d4314bdeeb15f8ba4c98d3da2c261e2105724a9",
+    "datasets/natural_language_epistemic_games/curated100_20261010/new_worlds/NL070.json": "4789f464becc36d5cef8b1e1b75be30446fc925ff91868dae29391a94b06e9d4",
+    "datasets/natural_language_epistemic_games/curated100_20261010/README.md": "16de665036b1ab79a31ee3b78041098d22458c926cf53c0b096a5bee2f76a7f9",
+    "datasets/natural_language_epistemic_games/dev24_20261010/EXPERIMENT_CONFIG.json": "dbb8449db6f64263fb0594da641d62388864e4d918915bc1cd51f165bd85d5a9",
+    "datasets/natural_language_epistemic_games/dev24_20261010/PROMPT_MODULES.json": "f08c69fe4a381c5f5f3b7f90655499646628f16ab17741996a1f65bc5ee970ad",
+    "datasets/natural_language_epistemic_games/dev24_20261010/worlds/NL001.json": "890447b10d5e11e0003cf044fa89ea78f920a161e96208bf9660157bdcaba0c4",
+    "datasets/natural_language_epistemic_games/dev24_20261010/worlds/NL002.json": "b385cfd2a535ccdfb36f24716c63f17b7776c71490681834ddf11e95f35e4bee",
+    "datasets/natural_language_epistemic_games/dev24_20261010/worlds/NL003.json": "dbf08000865f7d2cc093f155134a93bb9b9c35431d17f24785ccceb0b8f698fe",
+    "datasets/natural_language_epistemic_games/dev24_20261010/worlds/NL004.json": "0b04278b6b0b0860ac38fad63ee1a72d5437fa170d183b566dbcf721f8b3a85c",
+    "datasets/natural_language_epistemic_games/dev24_20261010/worlds/NL005.json": "9c93d5c2d01ebe7094b24ffa344348ee711df2547bb72be6947aa4a0a756e7d2",
+    "datasets/natural_language_epistemic_games/dev24_20261010/worlds/NL006.json": "2407b1537c9d8b09f6c06642be55e932e31c04635d65b969c3e02b7c229eb3e4",
+    "datasets/natural_language_epistemic_games/dev24_20261010/worlds/NL007.json": "901d75968233bee9b371b513298fbae4d1560828ae0cacbc45d648f31a9c8693",
+    "datasets/natural_language_epistemic_games/dev24_20261010/worlds/NL008.json": "40d72469c23b9ad634bed5a6edbdb2366ca719317dd22f0a4a1eddb713ca2d4a",
+    "datasets/natural_language_epistemic_games/dev24_20261010/worlds/NL009.json": "3ce7a83ff4852008fda6b0588a218dc14a287c134532788763c4dbddce319cb9",
+    "datasets/natural_language_epistemic_games/dev24_20261010/worlds/NL010.json": "03cf16db62ab5c9a7cba93e73939f59d5c9709de10442a241f4735d40694fe4c",
+    "datasets/natural_language_epistemic_games/dev24_20261010/worlds/NL011.json": "e8ab07b2ee444576edd8b07104dd33f24113fe1e135e17b82e3ec3abdc2dd966",
+    "datasets/natural_language_epistemic_games/dev24_20261010/worlds/NL012.json": "09ebd847b467c51cef99b209451655c373ad73ebd5d2b375bb48c591cebc1c6f",
+    "datasets/natural_language_epistemic_games/dev24_20261010/worlds/NL013.json": "6b56cb642a321c4fd4611ffdae181aa3c56e8c6f66488518299e5cbb7d42d21b",
+    "datasets/natural_language_epistemic_games/dev24_20261010/worlds/NL014.json": "2c551ad0e46d06cab0df065ead898cb91e3e7286586bde241b33ada5f694d989",
+    "datasets/natural_language_epistemic_games/dev24_20261010/worlds/NL015.json": "3df636b6c5583673098bcf61d45f560ccab851c0808a87780c89d6bc80eb5f25",
+    "datasets/natural_language_epistemic_games/dev24_20261010/worlds/NL016.json": "979c7f4e34204984db266786c5355381afc1b52ffb60c460b851a595f9f15973",
+    "datasets/natural_language_epistemic_games/dev24_20261010/worlds/NL017.json": "25c51db0d66c57048b3881030b00252a584e548077b953a0f036dbd582921b47",
+    "datasets/natural_language_epistemic_games/dev24_20261010/worlds/NL018.json": "fc0cba6e02ce180172ba89e27fbaae6c791b4865f6992d1aee7bc16b014d9500",
+    "datasets/natural_language_epistemic_games/dev24_20261010/worlds/NL019.json": "bfc90d98d1af58bd6e4f2cf1497ea72481bc5901792fb2bb66ff98b1efa87627",
+    "datasets/natural_language_epistemic_games/dev24_20261010/worlds/NL020.json": "2e427b7dd6193b5c4f383137c146005c7bb0579438db4900ee232cfef6ad2ab4",
+    "datasets/natural_language_epistemic_games/dev24_20261010/worlds/NL021.json": "a257016c2e13324f10ecc5f0fedd8bb3285bd4559d28adfe7801b1953e3fa750",
+    "datasets/natural_language_epistemic_games/dev24_20261010/worlds/NL022.json": "1e2295e5bba143ab8db03f8d08d26c9013529c83baac4fbaf0d14ab863b9a863",
+    "datasets/natural_language_epistemic_games/dev24_20261010/worlds/NL023.json": "723e877e15c2736febbacfda9c68ac66d1263c6922a38dcd088959c54240f5b9",
+    "datasets/natural_language_epistemic_games/dev24_20261010/worlds/NL024.json": "3d4bee5fd3b709d04163261d8961d9110d600d0bf25c9141138123a8927da37a",
+    "epistemic_boundary_mimicry/counterfactual_source_boundary/materials_20261008.json": "454071dce22575970820713a18a31609ee75339f57855925c5701c1d2bc3117f",
+    "epistemic_boundary_mimicry/materials/frozen_pack_20261004/cards.json": "f3f0bc895341a0382532c7e864063dc27a87e984d3a5cda69b254dc989288b8f",
+    "epistemic_boundary_mimicry/published_runs/go_frozen_pair_completed_20261004/bundle.json": "7cc47193c4ec6640d23b6d4708db46752920ccda8ae03433b530f4ffdec28b02",
+    "epistemic_boundary_mimicry/published_runs/go_surface_diverse_cutoff_20261005/bundle.json": "4398b8ca8aa7534d720145ffcebb90607449d76fc505112ec98ff62f9d13f701",
+    "epistemic_boundary_mimicry/strategic_qualification/materials_20261008.json": "d08c6f97c9cff299445c3b77a8aa56d1d23248127aab84efefe0205f5b61f0e1",
+    "naturalistic_study_1/cards/N01.json": "aff985db34b87cbab57c1288c94537533926e8b523fe92972b6a5320da7f111d",
+    "naturalistic_study_1/cards/N02.json": "2adcec433f16696a5052b4d2123981dc828f12306e83cd2b8fab0fc6a7606e68",
+    "naturalistic_study_1/cards/N03.json": "1aca7331e092342a853f69ef1e87782dae4fcd8940113cb0470e305c9d22f973",
+    "naturalistic_study_1/cards/N04.json": "d1b83aff6084aaa275a41cca20517dbda3cbe6f8521fb9d3ec1946e5c0620853",
+    "naturalistic_study_1/cards/N05.json": "007d35a4179257ee26b2917d9e3efef48bb86ad32a5ff9648575f96dd3f27249",
+    "naturalistic_study_1/cards/N06.json": "bc2883bb28925cffb174b1769801d46d3a737de08bcdb7339ce2d7f912c2125c",
+    "naturalistic_study_1/cards/N07.json": "c2c877571cd17bbfd1f7a08addfd74036f5c1f4f3c0b47b79c9c32931784a220",
+    "naturalistic_study_1/cards/N08.json": "5fa9bde0a788a45b28e85fa601ae748c40f7c25f7122388c2252d245493c3986",
+    "naturalistic_study_1/cards/N09.json": "b5c339e38fc659491c20fb760dbb11bfd72eedf5cd408e9008d390e6aa9899d5",
+    "naturalistic_study_1/cards/N10.json": "488b0d7995d73b2824553a766b206b80059b61913c358a05f9ecdc7b47fd3439",
+    "naturalistic_study_1/cards/N11.json": "99d15d96ffbf2898db8378efec0e6430f2dd3e14fd1bc8fe5839c4d27dbe4c1b",
+    "naturalistic_study_1/cards/N12.json": "34444291eb7bbe8106d3043218d3e6d6f5509af14b481a14fab292b40dcef159",
+    "scripts/build_natural_language_corpus100.py": "4994c8cf5c8a454edac51348db3918bfcb2321b57d21d7761f9f31650eb3d1fe",
+    "scripts/build_natural_language_dataset.py": "a921e617837259d0bb0afde7514b1a0812a1857ceeffec1bdb897faea0ce52ed",
+    "strategic_bluff_pilot/cards/S01.json": "ade90a0c44f4285345de1d6d3a7f3dde4f6ba62a51960b6ba527adadc31d67af",
+    "strategic_bluff_pilot/cards/S02.json": "260bde9fbe61cb2a40c279bda9355bbdc2076718637866a5e900ba04f74d195a"
+  },
+  "outputs": {
+    "CATALOG.md": "5b1f14745e20b59e7213d824bafd60554244862019b2ffdb9f0cd985f8945e2b",
+    "worlds.jsonl": "1ffd6b632e79ce10336d403e1cfc883f6b39cc9223a897b4946b2097359e165c",
+    "audit.json": "57518d75a4857936d0fdd2c36de65d4b00d3691b4a9ae63204c107d9088b75ad"
+  },
+  "worlds": [
+    {
+      "corpus_id": "CW001",
+      "source_world_lineage": "ecology_temporal_seed_bank_deposition",
+      "source_sha256": "dd687b1b3777103a40dc72982c95b680f90f861aae6ccd5fb5f6531cd423e4bf",
+      "origin": "existing_development"
+    },
+    {
+      "corpus_id": "CW002",
+      "source_world_lineage": "ecology_acoustic_window_detection",
+      "source_sha256": "3745d7e75a0bc73455c56906f627cf2a7e7f5127be1f360b97bd4d52b024fe71",
+      "origin": "existing_development"
+    },
+    {
+      "corpus_id": "CW003",
+      "source_world_lineage": "ecology_nutrient_cross_site_controls",
+      "source_sha256": "c54be4ef5607c298dbf5781fb97d260582b22fefa8b663dfabe02cce417c56fc",
+      "origin": "existing_development"
+    },
+    {
+      "corpus_id": "CW004",
+      "source_world_lineage": "materials_reversible_laminate_peel_cycle",
+      "source_sha256": "63bb23f8e611957ff6cd7a60bb10b8e97bc7091622509583bec62a786de43b7d",
+      "origin": "existing_development"
+    },
+    {
+      "corpus_id": "CW005",
+      "source_world_lineage": "materials_optical_coating_reference_artifact",
+      "source_sha256": "e41641e55087d2fccf764d2e1a1366dd3206bfd7d5096d12247bd01280246867",
+      "origin": "existing_development"
+    },
+    {
+      "corpus_id": "CW006",
+      "source_world_lineage": "materials_modular_joint_fatigue_maintenance",
+      "source_sha256": "38ce21386b5e2fb5300278f238022c719a1ce57331eba0cea1d22ea4a1c40c7c",
+      "origin": "existing_development"
+    },
+    {
+      "corpus_id": "CW007",
+      "source_world_lineage": "archaeology_stratigraphic_intercut_lens",
+      "source_sha256": "8c2495c5f7cd868c4b238f62da28f4c7e103510ac1b8ee48330bfa50098a0224",
+      "origin": "existing_development"
+    },
+    {
+      "corpus_id": "CW008",
+      "source_world_lineage": "archaeology_catalogue_transfer_provenance",
+      "source_sha256": "9588de92b70e154e5eaf37e8963b650e1749543a7e6655fb68cb8620cdd18ee6",
+      "origin": "existing_development"
+    },
+    {
+      "corpus_id": "CW009",
+      "source_world_lineage": "nl009_reversible_surface_treatment_access_log",
+      "source_sha256": "0137dc86338ccce36d3f2470bae831622b75d3ad987f9037c79cab668c4e1489",
+      "origin": "existing_development"
+    },
+    {
+      "corpus_id": "CW010",
+      "source_world_lineage": "nl010_heat_exposure_queue_for_public_shade",
+      "source_sha256": "7964555c4493ab51894f2872ceb00f20861403da83a3fa6ce5398fb63ea7bbf8",
+      "origin": "existing_development"
+    },
+    {
+      "corpus_id": "CW011",
+      "source_world_lineage": "nl011_reversible_street_closure_objection_window",
+      "source_sha256": "81cd6b34706eb124cdff32fc63d0b9689daca2b83411d66a4bfc974e23484532",
+      "origin": "existing_development"
+    },
+    {
+      "corpus_id": "CW012",
+      "source_world_lineage": "nl012_blinded_transit_fare_appeal_ladder",
+      "source_sha256": "a1b73f44b76d995e871b0df0399bd418fb0b93605ef480e841c6f4384a4d2f06",
+      "origin": "existing_development"
+    },
+    {
+      "corpus_id": "CW013",
+      "source_world_lineage": "nl013_apartment_toolroom_named_custody",
+      "source_sha256": "5fdfcba6c93ba1bb9d36e11b535f7de1bc86a5c6951028ee201abbd7286064fb",
+      "origin": "existing_development"
+    },
+    {
+      "corpus_id": "CW014",
+      "source_world_lineage": "nl014_shared_meal_optional_offer_bowl",
+      "source_sha256": "d3479b16a0d4c4712866aab64edb152787d92257aefabfc128924e98617b3141",
+      "origin": "existing_development"
+    },
+    {
+      "corpus_id": "CW015",
+      "source_world_lineage": "nl015_repair_clinic_consent_before_hands_on_help",
+      "source_sha256": "7f6acca171dd8a4b7cd5ac23d49640c654fb511d21c7f5650b5732eac8267e72",
+      "origin": "existing_development"
+    },
+    {
+      "corpus_id": "CW016",
+      "source_world_lineage": "nl016_nemer_particle_current_attention_in_field_dialogue",
+      "source_sha256": "6b7323d5af90095399dbd7132f884c4796d50ff0eb910e62608cb6618bdcca4e",
+      "origin": "existing_development"
+    },
+    {
+      "corpus_id": "CW017",
+      "source_world_lineage": "nl017_open-and-targeted-repair-formats",
+      "source_sha256": "a11cd0ada7fcbec6e502131597cab76fe854d49aff5a05715689f456c7e21a13",
+      "origin": "existing_development"
+    },
+    {
+      "corpus_id": "CW018",
+      "source_world_lineage": "nl018-quotation-scope-by-genre",
+      "source_sha256": "78c1d80fa1b692e722e87bab0314930d6a23f16429c77d1451df2f9f0c345efb",
+      "origin": "existing_development"
+    },
+    {
+      "corpus_id": "CW019",
+      "source_world_lineage": "nl019-lane-once-inspection-walks",
+      "source_sha256": "a54ff99adc56a241f6d326c4b7d860002dcb51050aade690e3e82792b9a0b970",
+      "origin": "existing_development"
+    },
+    {
+      "corpus_id": "CW020",
+      "source_world_lineage": "nl020-precedence-order-refinement-dockets",
+      "source_sha256": "1a9866639d1fef3f0e36ea26bd6dadca5c2b511f860b163784c147cc68137e11",
+      "origin": "existing_development"
+    },
+    {
+      "corpus_id": "CW021",
+      "source_world_lineage": "nl021-seven-peg-pair-covering-braid",
+      "source_sha256": "375e2f0bbc07bc298aecf7185aed4eba0c08bf6eb984a71889dd3274b62dcad4",
+      "origin": "existing_development"
+    },
+    {
+      "corpus_id": "CW022",
+      "source_world_lineage": "nl022-disputed-warning-time-records",
+      "source_sha256": "91db02bcd1afab36a4d1362f931f830776b162a3236e358c48e11cd6d6be8d46",
+      "origin": "existing_development"
+    },
+    {
+      "corpus_id": "CW023",
+      "source_world_lineage": "nl023-rebate-incentives-and-testimony",
+      "source_sha256": "2c5c7e42ea881fe122478310f6c629d3a2dcb9fc71d748dfd7a4c2b49d6b35fc",
+      "origin": "existing_development"
+    },
+    {
+      "corpus_id": "CW024",
+      "source_world_lineage": "nl024-sealed-bundle-custody-procedure",
+      "source_sha256": "206d5f36a3a91e7ab6f72c43fb2d5ac71bd119539ebba83922711d58db7729c7",
+      "origin": "existing_development"
+    },
+    {
+      "corpus_id": "CW025",
+      "source_world_lineage": "agriculture_weather_shift_labor_credit",
+      "source_sha256": "95ef97f08e41958c2645692d005eed0628acadf4b09c614ae43dd06b077f5f83",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW026",
+      "source_world_lineage": "agriculture_brine_transfer_fermentation_lineage",
+      "source_sha256": "1756ee5b246f5c3242b1e8c085ffb96a2d8420f510265e41246f9f927f971582",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW027",
+      "source_world_lineage": "agriculture_canal_emergency_bypass_witness_rule",
+      "source_sha256": "960951f5eebc0123711b0e931821f96418101bb8ebcb43019d52ea91f1d4b7b6",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW028",
+      "source_world_lineage": "agriculture_nursery_substitution_buyer_initials",
+      "source_sha256": "f28418a9a8aa6116987773af82396007bc06177aacd9020dad2d6b5678316a92",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW029",
+      "source_world_lineage": "agriculture_granary_arrival_age_rotation",
+      "source_sha256": "e885d1c3ead3a44c63e59fceebf86654dc6f0cbe27daba6287a7be1b8d4e44ea",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW030",
+      "source_world_lineage": "agriculture_picker_contract_collective_grade_bonus",
+      "source_sha256": "2eb68ae9b6a956ee09389a8704d5fc6b193524f984e89e74f6f5cf7d706143fa",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW031",
+      "source_world_lineage": "business_title_level_revenue_waterfall",
+      "source_sha256": "fc0825d339530577b8b8ea32ef027581db0d3afbecfd3c26940528ac3a0e0a61",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW032",
+      "source_world_lineage": "business_serial_return_authority_safety_disposition",
+      "source_sha256": "5f32790aa0de011965c92433fe3907108fbcecd12908461f0ef6a5d5bc0c1cd5",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW033",
+      "source_world_lineage": "business_competing_orders_expiring_stock_reservations",
+      "source_sha256": "dcfa7367d9bfe2698dfd92d48420e889ae4847bf756ac568d81b1d7403db1e5c",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW034",
+      "source_world_lineage": "business_milestone_escrow_exception_signoff",
+      "source_sha256": "be16e19edbbe40a5bcc15959472f4712bbc3c85405ef1b0033adae85f964ba37",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW035",
+      "source_world_lineage": "business_franchise_warranty_reimbursement_flat_rate_audit",
+      "source_sha256": "32b0ffc2acbc870fa17cc83ffb7acf693087d782a7669046c466188f7d4288d7",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW036",
+      "source_world_lineage": "business_quote_version_price_lock_delivery_slot",
+      "source_sha256": "f84bd1c33badd68ee3f645c78ad97f28c6e07ec450ecbff5e94a6b805b720e78",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW037",
+      "source_world_lineage": "nl037_chamber_cue_recovery",
+      "source_sha256": "74b4e240e22243c9ab9eef32799d551937a2baeb3e805c0256d50871d191136c",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW038",
+      "source_world_lineage": "nl038_oral_history_response_memory",
+      "source_sha256": "0ddf1612edc7afe73f15df8bd3b697a59acc7e5cfe680f9a9c18d8b8532411b3",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW039",
+      "source_world_lineage": "nl039_premiere_score_permission",
+      "source_sha256": "8ec0fd6776b19236dd5d28c6a11a11adf35edad32124cd1c1437175ae6360cb4",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW040",
+      "source_world_lineage": "nl040_moving_stand_stage_incident",
+      "source_sha256": "f433d7598514f7ce8512dc04c889f6af8139e3890b0df7a19f7b7030f6000d2f",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW041",
+      "source_world_lineage": "nl041_review_printed_program_encore",
+      "source_sha256": "e3662fb696d7544bc3b23ec9b4b6be6531174037ffa2f96a65618bb18514b718",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW042",
+      "source_world_lineage": "nl042_fair_dance_set_adaptation",
+      "source_sha256": "95195d6f888e676d43fff0ad7be4d31e5925f905b1d9e3b7116316031a8f8e7d",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW043",
+      "source_world_lineage": "nl043_chalk_relay_revision",
+      "source_sha256": "4cc5d4b78c0655e7798d1dd9f0f9acc8b483342b76a400f99c8281e7be99dd0d",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW044",
+      "source_world_lineage": "nl044_choir_breath_ladder",
+      "source_sha256": "81e3b19a92c718a8463c99d41506dcf45decbb17bdb24e68154dd678c06b026f",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW045",
+      "source_world_lineage": "nl045_storywheel_revision",
+      "source_sha256": "ff7d2f48142dd6791e84c36e01e3096f5a8e1a1691a94b704232a2c8e81b9f76",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW046",
+      "source_world_lineage": "nl046_puppet_shadow_apprenticeship",
+      "source_sha256": "f8ed01e6d19153154aa91e67a0ed41f6b1e010608b8c65f3169e04198efdfed3",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW047",
+      "source_world_lineage": "nl047_studio_demonstration_review",
+      "source_sha256": "d991aec5e731cdf9e5a842949ca2461f8283ec9923d7ffd278ab6cae701be0d7",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW048",
+      "source_world_lineage": "nl048_museum_replica_route",
+      "source_sha256": "ecff1b0057ce14894a7ebae828d6ea283f3f2625816a4a954d4f7d17117dd687",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW049",
+      "source_world_lineage": "nl049_fog_ferry_belllog",
+      "source_sha256": "bd7cd2bcc5b2e6e10fe1fa45b66184d89925a077b4a0fb1ade0f3b80c39074d7",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW050",
+      "source_world_lineage": "nl050_snowpass_mail_letters",
+      "source_sha256": "3c08c78bc5655ed91b677fdeefb4c9c40cae5523d50a85424579b5e722ea656a",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW051",
+      "source_world_lineage": "nl051_flooded_footbridge_incident",
+      "source_sha256": "2fecf2b041d9b10b48810ae7cc126fdf20ee4a696ad57fd81579d9845579468b",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW052",
+      "source_world_lineage": "nl052_saltplain_windstakes",
+      "source_sha256": "0206b2adb580d1e4fc4af2f0e11657666cede0dcd71d9fb75fcf1c3a6566ae57",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW053",
+      "source_world_lineage": "nl053_harbor_pilot_current_window",
+      "source_sha256": "7d590cb38b8498cae5722b777e1a128c5c351852451557361040b346f81708b9",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW054",
+      "source_world_lineage": "nl054_atoll_gazetteer_names",
+      "source_sha256": "c1a2c3b200a42bc32ac690bd612be5d90bb0534898975c0937aa1bd74eb7f3b8",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW055",
+      "source_world_lineage": "nl055_microfilm_edge_registration",
+      "source_sha256": "b17acdb560069f9a9a4c0b17939e6c6f1d274206d6f92458a18b4faac470cc76",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW056",
+      "source_world_lineage": "nl056_tidal_chart_clock_drift",
+      "source_sha256": "4269dd0c3f6bfa8d9d990d0f11839f616093d4e114f77f0009bed0140cc3dc0c",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW057",
+      "source_world_lineage": "nl057_film_reel_splice_order",
+      "source_sha256": "cb6237f6517df9c2bb9e677d01fcc424efe43ecfc3ad364d535f3f891762da84",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW058",
+      "source_world_lineage": "nl058_mirrored_archive_power_loss",
+      "source_sha256": "50e2f590bcc84c82aa7e0d91fd21f56169145bf16e7cc19a950831db984e4ef8",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW059",
+      "source_world_lineage": "nl059_switchboard_diagram_conservation",
+      "source_sha256": "1e3ac25138bdd0db2fa1240813d5da929e07470d10c72d546d19455bf2ec31a2",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW060",
+      "source_world_lineage": "nl060_audio_filter_consonant_loss",
+      "source_sha256": "1c7d405ddc5ec92ce9c7371d815ac562cd4519c8b7bb970e940f4f107d3d963b",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW061",
+      "source_world_lineage": "postal_forwarding_by_named_recipient",
+      "source_sha256": "48d422882536ea2a353a5214a93c9ca78f71510d11996e88884a5ba125724b32",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW062",
+      "source_world_lineage": "conservatory_opening_by_room_and_route",
+      "source_sha256": "b2fbddf1e923602e84dc3567e3f16de9312963467767c04b750527e34aba6d4f",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW063",
+      "source_world_lineage": "cold_chain_split_with_logger_gap",
+      "source_sha256": "0e81ab54f978c8141f907ae7680dd56b2fb9390e21ebcc8e48f8e7eb6c0b83af",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW064",
+      "source_world_lineage": "rail_connection_hold_authority",
+      "source_sha256": "5f323a51619fddcc08b96a2c69352ed5b3ce77d413eba4744bea927f91fe426f",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW065",
+      "source_world_lineage": "nl065_radio_drama_memory_cue",
+      "source_sha256": "062857231bdd5b77d3e0b8c9b5039ce2967162bb4d24c42eae8db492856a5b41",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW066",
+      "source_world_lineage": "nl066_print_edition_recurring_state",
+      "source_sha256": "3bcd492874e1c14cd9a3aae96abd4f92622933abe97e4fd46ccaa8c6c3fe85d5",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW067",
+      "source_world_lineage": "nl067_club_fixture_watermain_replay",
+      "source_sha256": "4af1f3b9c17c6c3bfeb2270f27e2d419988184cc28a6fe4b29365044e6aaba39",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW068",
+      "source_world_lineage": "nl068_regatta_drifting_turn_mark",
+      "source_sha256": "326c9ab9be728d24af0998f2fa8411e2e94bd98528b8263f8247ec32823c9801",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW069",
+      "source_world_lineage": "nl069_coop_shared_room_trial",
+      "source_sha256": "32bd98dee14e961385852fcfc3a77ecf7df95a05e5ceb0888f96a51f4077cb68",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW070",
+      "source_world_lineage": "nl070_landing_lighting_mockup_spill",
+      "source_sha256": "39b6d309c148682f71debb92fa48e64eb6e6248e0091ebec37c872e545b1cf8f",
+      "origin": "new_candidate_test"
+    },
+    {
+      "corpus_id": "CW071",
+      "source_world_lineage": "LEGACY_N01",
+      "source_sha256": "f22f4ab0b14317807af7663d87126a3e646dbbb480e2a95e1d4ce43d54ba23cf",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW072",
+      "source_world_lineage": "LEGACY_N02",
+      "source_sha256": "98d8355ac8e47dee10145e5e5cbb83106541b1aeb4187ea917c935d3e66d251e",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW073",
+      "source_world_lineage": "LEGACY_N03",
+      "source_sha256": "10fd512b8cb5253d8191ac3dba45bb0df015db756696c70c4ac6b30550547e30",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW074",
+      "source_world_lineage": "LEGACY_N04",
+      "source_sha256": "15afb95e1d99918d6c8604a368a174d2eaaff302861f4df1bc69bf3fa829f8a8",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW075",
+      "source_world_lineage": "LEGACY_N05",
+      "source_sha256": "2433486c5233bd87a6724b9efabe8b10342ae961231c3b840040d42360aff419",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW076",
+      "source_world_lineage": "LEGACY_N06",
+      "source_sha256": "e39ca4a1044870386b7bf02477ca0a0b9f8adf0d79c45be2dff0e902fa91b57c",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW077",
+      "source_world_lineage": "LEGACY_N07",
+      "source_sha256": "075d31043884a3fcfed2f3767d8b5f9bd78870fe0ba61e3120bc77c1d0bce1b1",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW078",
+      "source_world_lineage": "LEGACY_N08",
+      "source_sha256": "80a3fca1859e08bcbacad0f22af8f6aace9ecba450266e910b0caa7b37c3bb59",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW079",
+      "source_world_lineage": "LEGACY_N09",
+      "source_sha256": "231afa807b3226f06a91b35f3f1b25ee2c050542a2e30ff1f242c05e5a394ec4",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW080",
+      "source_world_lineage": "LEGACY_N10",
+      "source_sha256": "f27658f8c245733c769b0351ee8f2a40a1069ff5b495b11614e7c390721d5f36",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW081",
+      "source_world_lineage": "LEGACY_N11",
+      "source_sha256": "a268c07c0bb1d53cd779e14ad7f7621ee59c735f596b99c8b6692e632505c56c",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW082",
+      "source_world_lineage": "LEGACY_N12",
+      "source_sha256": "079f4e6cfa2ae97d16dbe7659ae1c2aca674c83077059b9a17a70ad7f6668e87",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW083",
+      "source_world_lineage": "LEGACY_S01",
+      "source_sha256": "e1e25c9821e4d19f02eb2fae34f4a4f7cb1f1c58f64212ff9de6b1bce1487809",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW084",
+      "source_world_lineage": "LEGACY_S02",
+      "source_sha256": "2e3485d14e25c69cd5c43da85798856cfdab0cc5661a812bcedafdc731cf8bd2",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW085",
+      "source_world_lineage": "LEGACY_EB01",
+      "source_sha256": "e2e6f122cee2ebe1154e78226f4122c4c22ff8760a38efca35df2c76dcd6bb28",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW086",
+      "source_world_lineage": "LEGACY_EB02",
+      "source_sha256": "760dca4a62aac45ef546827c7b7e2fa4541fb25bcc49c8eb364e217d78abeade",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW087",
+      "source_world_lineage": "LEGACY_EB03",
+      "source_sha256": "e9c164e642a79e2c7daa5af8c357f5abdbf72d9effcd8b80a879d354b9360389",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW088",
+      "source_world_lineage": "LEGACY_EB04",
+      "source_sha256": "e28fe79a9e484da58492d92223241ef92ec7437766b9788fd300e8761deaec6c",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW089",
+      "source_world_lineage": "LEGACY_EB05",
+      "source_sha256": "f032eea32bce4fd7b02a7b21ea3f801233c23e431c9a05f2d49a96c015a85b5b",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW090",
+      "source_world_lineage": "LEGACY_EB06",
+      "source_sha256": "83991ed941b1c2f5223bb4142f4819279166ebc82c99ea4b93e0c968410c701c",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW091",
+      "source_world_lineage": "LEGACY_SQ01",
+      "source_sha256": "193f28fe743d759966d789e465f5665a7d19d72adc409290050052ad68f4b9d9",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW092",
+      "source_world_lineage": "LEGACY_SQ02",
+      "source_sha256": "b0aeaead12d70539bb9492ebee717f5a60b84ca123f7f2d06c1aa625b6d15f63",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW093",
+      "source_world_lineage": "LEGACY_SQ03",
+      "source_sha256": "dc8d31d1b150641602d2dab7892bbd8592e81b2c65bf54beaaf5ab19c27717ec",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW094",
+      "source_world_lineage": "LEGACY_SQ04",
+      "source_sha256": "ba8e5f001dcb5cee75d28256f0bbd2d17f8a995d4ab1215c74bd946ee5b3c593",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW095",
+      "source_world_lineage": "LEGACY_CS01",
+      "source_sha256": "962dbdb8e8f5a32b41947f0019ce834646bc84a3efdc600af7fdc3b84f15333f",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW096",
+      "source_world_lineage": "LEGACY_CS02",
+      "source_sha256": "18e6f18272e0bb7c0cc6cf2b1372624cadcc30ec3fd2156ca7560e0736e73d9e",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW097",
+      "source_world_lineage": "LEGACY_CS03",
+      "source_sha256": "f10cdc30bf17d25cd049c69112738b9d287ea06ebc5bb09e3d9e645abbe20579",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW098",
+      "source_world_lineage": "LEGACY_CS04",
+      "source_sha256": "70a8a465a8283809d14dad50548c8359ecd1398918bf079615c5a4e6454a9145",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW099",
+      "source_world_lineage": "LEGACY_CS05",
+      "source_sha256": "11470ce1fca2f7dc90b6e598db436705d60d67498b979265841b0c2d9147d1dc",
+      "origin": "legacy_exploratory"
+    },
+    {
+      "corpus_id": "CW100",
+      "source_world_lineage": "LEGACY_CS06",
+      "source_sha256": "c597d4f65d1fba11c570ae4e28202590a35b25bd591409f298f9d82739a73618",
+      "origin": "legacy_exploratory"
+    }
+  ],
+  "provider_requests": 0,
+  "new_trajectories": 0
+}

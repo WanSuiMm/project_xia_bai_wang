@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL021",
+  "family_id": "nl021-seven-peg-pair-covering-braid",
+  "domain": "mathematics_practice",
+  "title": "The seven-peg braid in the Sallow weaving archive",
+  "split": "development",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "A fictional weaving archive keeps a conservation memo about planning cords across a set of pegs. The note concerns group-of-three layouts used in craft work. It is written for practitioners who plan an arrangement before selecting cord and tension for a completed piece.",
+  "source_title": "Sallow Archive conservation memo on the seven-peg braid",
+  "source_text": "The Sallow Archive uses the name seven-peg braid for a planning pattern in which each working pair of pegs is joined once by a three-peg cord group. The memo treats the pegs as seven distinct points and each cord group as a set of three distinct points; the order in which a group is spoken does not create a second group. The pattern is useful on paper when a maker wants every pair to meet in one planned group before choosing cord thickness or tension.\n\nThe archive's named example uses Sedge, Kite, Lumen, Moss, Reed, Saffron, and Thistle. One cord joins Sedge, Kite, and Moss; another joins Kite, Lumen, and Reed; a third joins Lumen, Moss, and Saffron. The remaining groups are Moss with Reed and Thistle, Reed with Saffron and Sedge, Saffron with Thistle and Kite, and Thistle with Sedge and Lumen. Those seven triples are the complete pattern in the memo, not a sample from a longer hidden list.\n\nEach triple contains three unordered pairs, so seven triples provide twenty-one pair incidences. Seven distinct pegs have twenty-one unordered pairs in total. A check of the listed groups finds no repeated pair: for example, Sedge meets Kite in the first group, Reed in the fifth, and Thistle in the seventh, while those three pairings do not recur elsewhere. The same check across the list shows that every pair occurs once. Each peg therefore appears in three groups, since its six pairings are covered two at a time.\n\nThe construction is compact, but the memo cautions that pair coverage is only a layout property. It does not say that every pair bears equal strain, or that a finished braid will survive repeated pulling. No load test is included, and no maker is named as the inventor of the arrangement. A conservator can use the pattern to compare where contacts are planned, then separately test the material and knotting method.\n\nThe note records that a trial layout was pinned on a board before a cord was cut, but it does not describe the board's dimensions or the cord's fiber. Nor does the archive say whether every workshop used the same named version. The seven triples and their pair counts are enough to check the combinatorial design. They do not establish when the pattern was first woven, how well it performs under load, or whether its name was used outside the archive's fictional workshop record.",
+  "structure_tags": [
+    "3-uniform set system over seven distinct pegs",
+    "each unordered pair occurs exactly once across seven triples",
+    "incidence regularity is separated from physical strength claims"
+  ],
+  "authoring_note": "This world describes a Steiner triple system on seven points in workshop prose. Its pair-covering incidence construction differs from both graph traversal and partial-order scheduling in NL019 and NL020.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "The pattern uses seven distinct pegs and three-peg groups treated as sets of distinct points.", "evidence": ["The memo treats the pegs as seven distinct points and each cord group as a set of three distinct points"]},
+      {"id": "S2", "claim": "The memo provides seven specific triples as the complete pattern.", "evidence": ["Those seven triples are the complete pattern in the memo, not a sample from a longer hidden list."]},
+      {"id": "S3", "claim": "Seven triples of three points yield twenty-one pair incidences, matching the twenty-one unordered pairs among seven pegs.", "evidence": ["Each triple contains three unordered pairs, so seven triples provide twenty-one pair incidences. Seven distinct pegs have twenty-one unordered pairs in total."]},
+      {"id": "S4", "claim": "The listed design contains no repeated pair, so every pair occurs exactly once.", "evidence": ["A check of the listed groups finds no repeated pair: for example, Sedge meets Kite in the first group, Reed in the fifth, and Thistle in the seventh, while those three pairings do not recur elsewhere. The same check across the list shows that every pair occurs once."]},
+      {"id": "S5", "claim": "Each peg appears in three groups.", "evidence": ["Each peg therefore appears in three groups, since its six pairings are covered two at a time."]},
+      {"id": "S6", "claim": "The memo reports a pinned-board trial layout before cutting cord.", "evidence": ["The note records that a trial layout was pinned on a board before a cord was cut"]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "The pair-coverage property does not assert equal strain for every pair.", "evidence": ["It does not say that every pair bears equal strain"]},
+      {"id": "N2", "claim": "The memo includes no load test.", "evidence": ["No load test is included"]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "Any two distinct pegs in this pattern share exactly one cord group.", "premise_ids": ["S1", "S3", "S4"], "rationale": "There are twenty-one possible pairs, the seven triples account for twenty-one pair incidences, and no pair repeats. Therefore each possible pair is covered once."},
+      {"id": "I2", "claim": "The repeated degree of three at every peg follows from the design's one-time coverage of each peg's six pairings.", "premise_ids": ["S4", "S5"], "rationale": "Each three-peg group contributes two partner pairings to each peg it contains. Covering six distinct partners exactly once therefore places each peg in three groups."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "Who invented the seven-peg braid?", "presupposition_question": "Why did conservator Ivara invent the seven-peg braid?", "candidate_claim": "Conservator Ivara invented the seven-peg braid.", "boundary_note": "The memo names no inventor and does not claim that an archive conservator created the pattern."},
+      {"id": "U2", "neutral_question": "What fiber was used for the trial cord?", "presupposition_question": "Why was hemp used for the trial cord?", "candidate_claim": "The trial cord was made from hemp.", "boundary_note": "The note reports a trial layout and explicitly leaves the cord's fiber undescribed."},
+      {"id": "U3", "neutral_question": "Was a finished braid produced from the pinned layout?", "presupposition_question": "Why did the archive finish a braid from the pinned layout on the same day?", "candidate_claim": "The archive produced a finished braid from the pinned layout on the same day.", "boundary_note": "The memo records a pinned trial layout before cutting cord but gives no account of a completed braid."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "How do the listed triples and pair counts justify the claim that every peg pair shares one group?", "target_claim_ids": ["S2", "S3", "S4"], "reference_answer": "The seven triples contribute twenty-one pair incidences, the seven pegs have twenty-one possible pairs, and inspection finds no repeated pair. Since the listed pattern is complete, all possible pairs occur exactly once."},
+      {"id": "C2", "question": "What follows about each peg's group count from pair coverage, and what physical property remains unestablished?", "target_claim_ids": ["S4", "S5", "N1", "N2"], "reference_answer": "A peg has six partners, and each triple containing it accounts for two of those partners; one-time pair coverage therefore places it in three groups. Equal strain and load durability remain unestablished because there is no load test."}
+    ]
+  }
+}

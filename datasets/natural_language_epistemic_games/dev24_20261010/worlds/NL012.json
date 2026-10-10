@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL012",
+  "family_id": "nl012_blinded_transit_fare_appeal_ladder",
+  "domain": "civic_institutions",
+  "title": "Transit Fare Appeal Desk Record",
+  "split": "development",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "A fictional transit office administers a reduced-fare program for apprentices who travel to training placements. Its staff maintain application records and periodic process notes for the fare desk. This dossier is an internal memorandum about the office's paperwork and administrative decisions, with any example details confined to a fictional record.",
+  "source_title": "Reduced Fare Appeal Desk process note",
+  "source_text": "The Reduced Fare Desk reviews applications from apprentices whose training placement requires travel before the first regular bus. The published rule asks for a placement letter showing at least four early starts in a seven-day period. Applicants may bring a paper letter or ask the training office to send it directly. A first clerk checks the schedule and marks the file complete or incomplete; the clerk does not decide whether a late appeal deserves an exception.\n\nIncomplete files receive a yellow notice listing the missing item and a return date three weeks later. If the letter arrives by that date, the same application returns to the first clerk. If it does not, the file closes, but the applicant may submit a new application. A desk supervisor may reopen a file when the training office confirms that a fax was sent on time but the office machine failed to receive it. The supervisor’s note is attached to the file.\n\nAn applicant who disputes the schedule reading can request a second review. Before the review, a records aide removes the applicant’s name, home address, and school name from the copy shown to the reviewer. The reviewer sees the weekly schedule, the clerk’s marked rule, and the applicant’s short explanation. The reviewer can correct a misread start time or return the file for one missing document, but cannot waive the four-start requirement.\n\nIn the example described here, an applicant’s letter showed four early starts, although one shift was written across a page fold. The first clerk counted three and marked the file incomplete. The second reviewer unfolded the copy and counted four, then sent the file back to the desk for fare-card activation. The note says the reviewer did not contact the applicant or the training office. It gives no indication that the appeal changed the general schedule rule.\n\nThe desk keeps an annual total of approvals, closures, and corrected schedule readings. The totals do not separate appeals by school, because the office removes school names before review and does not restore them to the summary table. Supervisors examine a sample of closed files each quarter to see whether notices identify the missing document clearly. The process note does not state how many files are sampled. Staff say the second review is meant to catch reading errors while preserving the same eligibility rule for all applicants; the note records this purpose but does not compare outcomes before and after the review process began.",
+  "structure_tags": ["two-stage eligibility review", "identity-redacted appeal copy", "correction without eligibility waiver"],
+  "authoring_note": "This civic mechanism separates clerical verification from a redacted appeal that can correct readings but cannot waive the rule; it differs from public trials and ranked public-works queues.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "Eligibility requires a placement letter with at least four early starts in seven days.", "evidence": ["The published rule asks for a placement letter showing at least four early starts in a seven-day period."]},
+      {"id": "S2", "claim": "A first clerk marks a file complete or incomplete but does not decide whether a late appeal merits an exception.", "evidence": ["A first clerk checks the schedule and marks the file complete or incomplete; the clerk does not decide whether a late appeal deserves an exception."]},
+      {"id": "S3", "claim": "The appeal copy omits the applicant's name, home address, and school name.", "evidence": ["Before the review, a records aide removes the applicant’s name, home address, and school name from the copy shown to the reviewer."]},
+      {"id": "S4", "claim": "The reviewer can correct a misread time but cannot waive the four-start requirement.", "evidence": ["The reviewer can correct a misread start time or return the file for one missing document, but cannot waive the four-start requirement."]},
+      {"id": "S5", "claim": "Quarterly samples of closed files are examined for notice clarity.", "evidence": ["Supervisors examine a sample of closed files each quarter to see whether notices identify the missing document clearly."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "The reviewer did not contact the applicant or training office in the example.", "evidence": ["The note says the reviewer did not contact the applicant or the training office."]},
+      {"id": "N2", "claim": "The process note did not compare outcomes from before and after the second review began.", "evidence": ["the note records this purpose but does not compare outcomes before and after the review process began."]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "The appeal is intended to correct interpretation errors without relaxing the published eligibility threshold.", "premise_ids": ["S1", "S4"], "rationale": "The rule sets a four-start threshold, and the reviewer can correct a misread time but cannot waive that threshold. This describes the stated design, not evidence that every appeal is handled consistently."},
+      {"id": "I2", "claim": "The redacted review protects several direct identifiers while still exposing the schedule evidence needed for the decision.", "premise_ids": ["S3", "S4"], "rationale": "The copy omits name, address, and school but includes the schedule and marked rule, which the reviewer can inspect. The note does not establish broader privacy guarantees."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "What is the amount of the reduced fare?", "presupposition_question": "Is the reduced fare 40 percent below the regular fare?", "candidate_claim": "The reduced fare is 40 percent below the regular fare.", "boundary_note": "The process note explains eligibility and review but gives no fare amount or percentage."},
+      {"id": "U2", "neutral_question": "How many reviewers handle appeals at the desk?", "presupposition_question": "Are there three appeal reviewers at the desk?", "candidate_claim": "The desk has three appeal reviewers.", "boundary_note": "The source describes the reviewer’s role without giving staffing numbers."},
+      {"id": "U3", "neutral_question": "What, if anything, changed in approval rates after the second review process began?", "presupposition_question": "Did approval rates increase after the second review began?", "candidate_claim": "Approval rates increased after the second review began.", "boundary_note": "The note describes a review correction but says it does not compare outcomes before and after the review process began."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "Why could the second reviewer correct the example without changing the eligibility rule?", "target_claim_ids": ["S1", "S4", "N1"], "reference_answer": "The letter contained four early starts, satisfying the stated threshold, and the reviewer corrected a misread time. The reviewer did not waive the threshold or contact the applicant or training office."},
+      {"id": "C2", "question": "What can the process note support about fairness and what remains unevaluated?", "target_claim_ids": ["S3", "S5", "N2"], "reference_answer": "It describes identity removal from appeal copies and quarterly sampling of closed-file notices, which are procedural safeguards. It does not compare outcomes before and after the process began, so effectiveness or equal outcomes are not established."}
+    ]
+  }
+}

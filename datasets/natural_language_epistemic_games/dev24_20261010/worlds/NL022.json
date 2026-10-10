@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL022",
+  "family_id": "nl022-disputed-warning-time-records",
+  "domain": "investigations_history",
+  "title": "The disputed warning time at the Talven sluice",
+  "split": "development",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "An archival inquiry reviews documents concerning a warning during a high-water shift at the fictional Talven Sluice. The packet includes a station register, personal accounts, and a clock-maintenance note. Its author compares records created for different purposes in a historical investigation.",
+  "source_title": "Talven Sluice inquiry packet: the evening warning",
+  "source_text": "The Talven Sluice inquiry packet concerns a warning said to have sounded during a high-water shift in the fictional year 1846. The surviving file contains a watch clerk's copied register, a ferryman's deposition, a resident's letter, and a short note about the station clock. The inquiry writer describes these as records made for different purposes, not as synchronized measurements of one event. No original sound recording survives.\n\nThe copied register assigns the warning to 18:14 on the station clock and places it after a line noting that water had reached the lower brass nail. Ferryman Odel's deposition gives 18:09 by his own watch and says he heard the warning before the water reached the landing step. Resident Pera's letter says she heard the warning while carrying a basket from the upper store, but gives no clock time. The file does not say that any of these witnesses could see the others' positions.\n\nA calibration note entered two days earlier says the station clock was seven minutes fast when compared with the tide office clock. It does not report whether the clock was reset before the high-water shift, and the inquiry writer could find no later comparison slip. The ferryman's watch has no surviving calibration record. The clock note therefore qualifies the register's dial reading, but it cannot by itself convert that reading into an exact time.\n\nThe inquiry preserves the disagreement rather than averaging the times. The clerk's copy places the warning after the water reached the nail; Odel's account places it before the water reached the step. Those landmarks are not described as the same height, and Pera supplies no sequence between warning and water. The file gives no verified account of what triggered the warning. A margin note says the bell rope was found wet after the shift, but it does not say when it became wet or who examined it.\n\nThe packet supports that several people reported a warning and that the surviving records disagree about its timing relative to water observations. It does not establish the warning's exact clock time, the cause of the sound, or the level at which the landing became unsafe. The inquiry also does not identify who copied the register into the surviving file. A later historian can compare these traces and describe the limits of the record, but should keep the attributed statements separate from a verified event chronology.",
+  "structure_tags": [
+    "copied time register compared with witness reports",
+    "clock calibration is incomplete and does not resolve chronology",
+    "event assertions remain attributed to their source records"
+  ],
+  "authoring_note": "This investigation turns on incompatible clocks and non-equivalent physical landmarks across records. The uncertainty comes from how an event was recorded and compared, rather than from a witness's financial incentive or an incomplete custody procedure.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "The inquiry packet contains four named types of source records and no original sound recording.", "evidence": ["The surviving file contains a watch clerk's copied register, a ferryman's deposition, a resident's letter, and a short note about the station clock. The inquiry writer describes these as records made for different purposes, not as synchronized measurements of one event. No original sound recording survives."]},
+      {"id": "S2", "claim": "The copied register assigns the warning to 18:14 on the station clock after a note that water had reached the lower brass nail.", "evidence": ["The copied register assigns the warning to 18:14 on the station clock and places it after a line noting that water had reached the lower brass nail."]},
+      {"id": "S3", "claim": "Odel's deposition gives 18:09 by his own watch and places the warning before water reached the landing step.", "evidence": ["Ferryman Odel's deposition gives 18:09 by his own watch and says he heard the warning before the water reached the landing step."]},
+      {"id": "S4", "claim": "Pera's letter reports hearing the warning while carrying a basket but gives no clock time.", "evidence": ["Resident Pera's letter says she heard the warning while carrying a basket from the upper store, but gives no clock time."]},
+      {"id": "S5", "claim": "A calibration note two days earlier found the station clock seven minutes fast, without recording whether it was reset before the shift.", "evidence": ["A calibration note entered two days earlier says the station clock was seven minutes fast when compared with the tide office clock. It does not report whether the clock was reset before the high-water shift"]},
+      {"id": "S6", "claim": "The inquiry preserves the disagreement instead of averaging the recorded times.", "evidence": ["The inquiry preserves the disagreement rather than averaging the times."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "The file gives no verified account of what triggered the warning.", "evidence": ["The file gives no verified account of what triggered the warning."]},
+      {"id": "N2", "claim": "The packet does not establish the warning's exact clock time.", "evidence": ["It does not establish the warning's exact clock time, the cause of the sound, or the level at which the landing became unsafe."]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "The packet cannot resolve the warning's exact chronology from the station clock reading alone.", "premise_ids": ["S2", "S5", "N2"], "rationale": "The register reports a dial time, while the nearby calibration note is not followed by a reset record and the inquiry declines to establish exact time. This is a limit on reconstruction, not proof that the register is wrong."},
+      {"id": "I2", "claim": "The physical sequence in the clerk's copy and Odel's deposition cannot be treated as a direct contradiction without knowing whether the nail and step mark the same water level.", "premise_ids": ["S2", "S3"], "rationale": "The sources order the warning against different landmarks, and the inquiry says those landmarks are not described as the same height. They conflict in reported time but do not strictly identify one shared threshold."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "What was the exact water depth at the landing when the warning sounded?", "presupposition_question": "Why was the water already one meter deep at the landing when the warning sounded?", "candidate_claim": "The water was one meter deep at the landing when the warning sounded.", "boundary_note": "The records mention a nail and a step but provide no measured depth."},
+      {"id": "U2", "neutral_question": "Who copied the watch register into the surviving file?", "presupposition_question": "Why did clerk Vessa copy the watch register into the surviving file?", "candidate_claim": "Clerk Vessa copied the watch register into the surviving file.", "boundary_note": "The inquiry explicitly leaves the copyist unidentified."},
+      {"id": "U3", "neutral_question": "What did the watch crew do after the warning sounded?", "presupposition_question": "Why did the watch crew open the sluice gate immediately after the warning sounded?", "candidate_claim": "The watch crew opened the sluice gate immediately after the warning sounded.", "boundary_note": "The packet records accounts of the warning and water level but says nothing about the crew's subsequent action."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "How do the register, Odel's deposition, and the clock note relate, and why do they fail to establish one exact warning time?", "target_claim_ids": ["S2", "S3", "S5", "N2"], "reference_answer": "The copied register gives 18:14 after the nail observation, while Odel gives 18:09 before water reached the step. The station clock had been seven minutes fast two days earlier, but no reset is documented and Odel's watch is uncalibrated. The file therefore preserves conflicting attributed reports rather than one verified time."},
+      {"id": "C2", "question": "What can be said about the warning's relation to water level while respecting the different landmarks and Pera's account?", "target_claim_ids": ["S2", "S3", "S4", "N1"], "reference_answer": "The register places the warning after water reached the lower nail; Odel places it before water reached the landing step; Pera gives no sequence. Because the landmarks may mark different heights and no trigger is verified, the packet does not settle a single water threshold or cause."}
+    ]
+  }
+}

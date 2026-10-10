@@ -1,4 +1,19 @@
 * text=auto eol=lf
+# Keep the original bytes bound by the offline natural-language material manifests.
+datasets/natural_language_epistemic_games/** -text whitespace=cr-at-eol
+# Preserve the hash-bound inventory's original Markdown break and final blank lines.
+datasets/natural_language_epistemic_games/curated100_20261010/LEGACY_INVENTORY.json whitespace=cr-at-eol,-blank-at-eof
+datasets/natural_language_epistemic_games/curated100_20261010/LEGACY_INVENTORY.md whitespace=cr-at-eol,-blank-at-eof,-blank-at-eol
+scripts/build_natural_language_dataset.py -text whitespace=cr-at-eol
+scripts/build_natural_language_corpus100.py -text whitespace=cr-at-eol
+scripts/test_natural_language_dataset.py -text whitespace=cr-at-eol
+scripts/test_natural_language_corpus100.py -text whitespace=cr-at-eol
+naturalistic_study_1/cards/N*.json -text whitespace=cr-at-eol
+epistemic_boundary_mimicry/materials/frozen_pack_20261004/cards.json -text whitespace=cr-at-eol
+epistemic_boundary_mimicry/counterfactual_source_boundary/materials_20261008.json -text whitespace=cr-at-eol
+# Reconstruct the CRLF input bytes hashed by the corpus without changing old blobs.
+epistemic_boundary_mimicry/published_runs/go_frozen_pair_completed_20261004/bundle.json text eol=crlf whitespace=cr-at-eol
+epistemic_boundary_mimicry/published_runs/go_surface_diverse_cutoff_20261005/bundle.json text eol=crlf whitespace=cr-at-eol
 v0_4_active/bundle.json -text whitespace=cr-at-eol
 # Preserve the single trailing space in the hash-bound OSI48 analyzer snapshots.
 scripts/analyze_opponent_strategy_inference.py whitespace=-blank-at-eol

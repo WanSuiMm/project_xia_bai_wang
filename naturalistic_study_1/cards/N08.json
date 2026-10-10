@@ -1,0 +1,29 @@
+{
+  "case_id": "N08",
+  "domain": "science_nature",
+  "title": "Current-following cases of the shale ribbon larva",
+  "public_context": "At the fictional Bracken Cut, a shallow stream crossing a wooded park, researchers have tracked a small case-building larva that attaches fragments of leaf litter to its shelter. Case shape and orientation appear to vary across reaches with different current speeds, even where the streambed looks similar. The dossier combines field observations with a controlled channel study and distinguishes repeatable behavior from a proposed sensory explanation.",
+  "source_title": "Bracken Cut field and channel notes on shale ribbon larvae",
+  "source_text": "All organisms, sites, and measurements in this dossier are fictional. The shale ribbon larva is a small stream insect that carries a portable case assembled from overlapping leaf fragments. Each case has a clear open mouth and tapered rear, so researchers can score its facing direction. Researchers compared four slow-water reaches and four faster reaches along Bracken Cut, a wooded stream. They photographed 30 occupied cases per reach against a marked scale. In the faster reaches, most cases lay with their long axis parallel to the current; in still pools, orientations were scattered. Field photographs recorded only the long axis, an undirected measure. Larval body length, water temperature, and the broad mix of leaf fragments were similar across the two reach types. The field pattern suggested an association with flow but could not isolate its cause.\n\nA recirculating channel trial followed 36 larvae collected from a slow reach. The channel provided a gravel bed and a steady light field. At low current, open-mouth direction showed no consistent change over 20 minutes. After the current rose, 29 of 36 larvae turned the mouth end upstream within 20 minutes. When flow reversed at constant speed, 23 of 36 turned the mouth end toward the new upstream within 12 minutes. Changing the light direction without changing the current produced no comparable turn. Larvae remained attached to their cases and resumed crawling or feeding after the observation period.\n\nThe team confirms that open-mouth direction tracked current direction in this channel setup. They propose that movement of water across the larva or case prompts repositioning, perhaps through sensory input near the body. The team treats this as a working interpretation; current-linked turning remains the confirmed result. The study's confirmed outcome is turning behavior.",
+  "analyst_notes": {
+    "core_facts": [
+      "In faster field reaches, most occupied cases had their long axes parallel to current; this field measure did not encode which end faced upstream.",
+      "In the channel, 29 of 36 larvae turned the identifiable open-mouth end upstream after current increased.",
+      "After flow direction reversed at constant speed, 23 of 36 larvae turned the open-mouth end toward the new upstream within 12 minutes.",
+      "The channel results establish a current-linked orientation response under this setup, while the sensory mechanism remains proposed."
+    ],
+    "explicit_negations": [
+      "At low current, cases showed no consistent reorientation over the 20-minute observation period.",
+      "Changing light direction without changing current produced no comparable turn."
+    ],
+    "source_boundaries": [
+      "The field comparison uses an undirected long-axis measure; direction-specific facing was assessed in the channel trial, which may not capture every stream condition.",
+      "Touch-sensitive structures are a proposed route, not a measured or confirmed flow sensor.",
+      "Drag reduction and predator avoidance were not measured outcomes."
+    ],
+    "consistency_checks": [
+      "Keep the confirmed claim at current-linked, open-mouth-facing reorientation in the channel; the field axis result does not reveal upstream versus downstream facing.",
+      "Do not infer a survival, drag, or predation benefit from orientation alone."
+    ]
+  }
+}

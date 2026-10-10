@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL048",
+  "family_id": "nl048_museum_replica_route",
+  "domain": "education_learning",
+  "title": "Notes from the museum's quiet morning",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "A museum educator's diary covers a school visit to a fictional gallery of historical objects. The setting includes exhibit cases, handling materials, teachers and pupils, and the document belongs to the museum's informal education program records. School visits are one part of the museum's wider public program.",
+  "source_title": "Diary of Iven Sol, school-program educator at the Rivet House Museum",
+  "source_text": "The Alder School group arrived before the front lamps were fully warm. I had planned to lead them from the wall labels toward the glass case, but their teacher asked if we could begin with the handling table because two pupils were using the cane route. I moved the first stop beside the low bench and gave each group a replica of a brass hinge. The original hinge stayed behind glass. I asked them to describe what could move before reading the label, and most began by turning the hinge rather than naming its parts.\n\nAt the second stop, the class compared a painted door panel with a replica corner that could be lifted. One pupil noticed a pale rectangle beneath the painted border. The panel label calls it a repair patch, while the replica has no patch because the mold was made from the opposite corner. I had not planned to discuss the mismatch. The pupils sketched the rectangle and asked whether it had been added before or after the paint. I told them the label gives no date for the repair, and we looked for wear marks instead. The marks show that the panel was handled after painting, but they do not date the patch.\n\nThe class then built a short route between the hinge, the panel and a wooden latch. I had supplied three picture cards that showed a door being hung, painted and closed. The pupils placed the hinge before the latch, but argued about whether the paint came before hanging. We did not settle the order. A child pointed out that the latch fits the door only if the panel is already in its frame; that observation changed our route from a list of objects to a sequence of work. I wrote the suggestion on the floor map and left a question mark beside the painting card.\n\nWe did not open the case, and the pupils did not handle any original object. After the group left, I moved the handling table to the gallery entrance for the next school visit. The teacher gathered the pupils' sketches into a folder while I set the route card beside the hinge box. I will bring a second replica next time; the first one stayed in a pupil's hands through the final discussion. Before locking the gallery, I found the chalk marks still visible on its wooden base and left them for the morning crew to see.",
+  "structure_tags": ["route altered for access needs before the session begins", "replica differs from original in a visible repair detail", "learners build a sequence of work from object relations"],
+  "authoring_note": "An educator's visit diary about object-based learning and an access-driven change in route; the key reasoning concerns a replica discrepancy and a contested sequence of work.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "The educator moved the first stop beside a low bench after the teacher requested beginning at the handling table for pupils using the cane route.", "evidence": ["I had planned to lead them from the wall labels toward the glass case, but their teacher asked if we could begin with the handling table because two pupils were using the cane route. I moved the first stop beside the low bench"]},
+      {"id": "S2", "claim": "The original hinge remained behind glass while pupils handled a brass-hinge replica.", "evidence": ["I moved the first stop beside the low bench and gave each group a replica of a brass hinge. The original hinge stayed behind glass."]},
+      {"id": "S3", "claim": "The replica had no repair patch because it was molded from the opposite corner, while the panel label gives no date for the original patch.", "evidence": ["The panel label calls it a repair patch, while the replica has no patch because the mold was made from the opposite corner.", "I told them the label gives no date for the repair"]},
+      {"id": "S4", "claim": "The group used wear marks but could not date the patch from them.", "evidence": ["The marks show that the panel was handled after painting, but they do not date the patch."]},
+      {"id": "S5", "claim": "The pupils placed the hinge before the latch but did not settle whether painting preceded hanging.", "evidence": ["The pupils placed the hinge before the latch, but argued about whether the paint came before hanging. We did not settle the order."]},
+      {"id": "S6", "claim": "After the visit, the educator moved the handling table to the gallery entrance for the next school visit.", "evidence": ["After the group left, I moved the handling table to the gallery entrance for the next school visit."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "The class did not open the case.", "evidence": ["We did not open the case, and the pupils did not handle any original object."]},
+      {"id": "N2", "claim": "The pupils did not handle any original object.", "evidence": ["We did not open the case, and the pupils did not handle any original object."]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "The route change was intended to make the handling activity accessible to pupils using the cane route.", "premise_ids": ["S1", "S2"], "rationale": "The teacher connected the request to pupils using the cane route, and the educator moved the stop and used replicas. This supports an accessibility purpose for the adjustment, not a claim about every pupil's experience."},
+      {"id": "I2", "claim": "The visit treated evidence about both the repair patch and the work sequence as bounded.", "premise_ids": ["S4", "S5"], "rationale": "Wear showed that the panel was handled after painting but did not date the patch; the pupils placed hinge before latch but left painting versus hanging unresolved. The diary preserves those limits rather than filling them in."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "Was the repair patch added before or after the panel was painted?", "presupposition_question": "Why was the repair patch added after the panel was painted?", "candidate_claim": "The patch was added after painting.", "boundary_note": "The educator says the label gives no date and that wear marks do not date the patch."},
+      {"id": "U2", "neutral_question": "Did a conservator later answer the pupils' question about the patch?", "presupposition_question": "What did a conservator tell the pupils about the patch?", "candidate_claim": "A conservator later answered the question.", "boundary_note": "The diary records the pupils' question and the educator's next-visit preparations, without a later conservator response."},
+      {"id": "U3", "neutral_question": "Did the museum keep the new route for later visits?", "presupposition_question": "How did the museum keep using the new route for later visits?", "candidate_claim": "The museum retained the new route for later visits.", "boundary_note": "The educator moved the table to the entrance for a next visit; the diary gives no longer-term route history."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "How did the replica differ from the original panel, and what could the class infer from the wear marks?", "target_claim_ids": ["S3", "S4"], "reference_answer": "The replica lacked the patch because it was molded from the opposite corner; wear showed handling after painting but did not date the patch."},
+      {"id": "C2", "question": "How did the class order parts of the door work, and what access-related change did the educator make afterward?", "target_claim_ids": ["S1", "S5", "S6"], "reference_answer": "Pupils put hinge before latch but left painting versus hanging unsettled; the educator had moved the first stop for pupils on the cane route and later placed the handling table at the gallery entrance for the next visit."}
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL019",
+  "family_id": "nl019-lane-once-inspection-walks",
+  "domain": "mathematics_practice",
+  "title": "The seam-walk rule in the Keldin canal survey",
+  "split": "development",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "A fictional canal survey office keeps a map of landings joined by named service lanes. Its field handbook explains how staff represent the network and plan inspections of the lanes. The document concerns route construction for crews in an office setting.",
+  "source_title": "Keldin Survey Office field handbook, seam-walks",
+  "source_text": "The Keldin survey office uses a seam-walk when a crew must inspect every marked service lane once before the map is signed off. Its maps are finite connected undirected multigraphs: landings are vertices and lanes are edges. Two separately maintained lanes between the same pair of landings keep separate ledger names, so a crew can inspect one without pretending it has inspected the other. A walk may revisit a landing, but a seam-walk uses each listed lane exactly once.\n\nThe handbook stresses that this is an inspection convention, not an instruction to find the shortest journey. It gives a small example with four landings, A, B, C, and D, and five lanes named AB, BC, CD, DA, and AC. The printed route A-B-C-D-A-C crosses AB, BC, CD, DA, and AC in that order. Each listed lane appears once, although A is visited more than once; the route starts at A and ends at C.\n\nFor this map, the degree counts are three at A, two at B, three at C, and two at D. The office explains the endpoint pattern by noting that every arrival at an intermediate landing is paired with a later departure, while an open route has one unpaired departure and one unpaired arrival. In a connected map with at least one lane, an all-lanes walk can close when every degree is even; it can be open when exactly two landings have odd degree, which then serve as endpoints. This criterion concerns whether the lanes can be threaded once, not how long the crew will take.\n\nA second lane between A and C changes both endpoint counts from odd to even. The handbook labels the added lane AC-prime to keep it distinct from AC, and records the closed route A-B-C-D-A-C-A, using AC on the fifth move and AC-prime on the last. All six lanes are covered exactly once and the route returns to A. This example also shows why a map's parallel lanes cannot be collapsed into one connection when the task is to inspect each physical lane.\n\nThe seam-walk certificate does not report lane lengths, water depth, walking time, or the crew's preferred starting point. A planner may add those data for another purpose, but they are not recoverable from degree counts alone. Nor does the route rule guarantee that a closed route is safer or cheaper than an open one. The office's examples establish a way to check lane coverage on a map; they do not turn the inspection record into a travel survey or a claim about actual canal conditions.",
+  "structure_tags": [
+    "edge-traversal walk with each labeled lane used once",
+    "odd-degree endpoints determine open versus closed route",
+    "parallel edges matter for physical-lane coverage"
+  ],
+  "authoring_note": "This world uses an Euler-trail structure for a practical map-inspection convention. The construction depends on degrees and distinct parallel lanes, unlike the order/refinement schedules and pair-covering triples in the neighboring mathematics worlds.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "The office models its finite maps as connected undirected multigraphs, with landings as vertices and lanes as edges.", "evidence": ["Its maps are finite connected undirected multigraphs: landings are vertices and lanes are edges."]},
+      {"id": "S2", "claim": "A seam-walk uses every listed lane exactly once and may revisit a landing.", "evidence": ["A walk may revisit a landing, but a seam-walk uses each listed lane exactly once."]},
+      {"id": "S3", "claim": "The five-lane example has the route A-B-C-D-A-C, which uses its five named lanes once and ends at C.", "evidence": ["The printed route A-B-C-D-A-C crosses AB, BC, CD, DA, and AC in that order. Each listed lane appears once, although A is visited more than once; the route starts at A and ends at C."]},
+      {"id": "S4", "claim": "The five-lane example has odd degree at A and C and even degree at B and D.", "evidence": ["For this map, the degree counts are three at A, two at B, three at C, and two at D."]},
+      {"id": "S5", "claim": "Adding a distinct A-C lane makes all degrees even and permits a closed six-lane route.", "evidence": ["A second lane between A and C changes both endpoint counts from odd to even. The handbook labels the added lane AC-prime to keep it distinct from AC, and records the closed route A-B-C-D-A-C-A, using AC on the fifth move and AC-prime on the last."]},
+      {"id": "S6", "claim": "The handbook gives the even-degree criterion for a closed all-lanes walk and the two-odd-degree criterion for an open one in a connected map with at least one lane.", "evidence": ["In a connected map with at least one lane, an all-lanes walk can close when every degree is even; it can be open when exactly two landings have odd degree, which then serve as endpoints."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "The seam-walk convention does not require finding the shortest journey.", "evidence": ["The handbook stresses that this is an inspection convention, not an instruction to find the shortest journey."]},
+      {"id": "N2", "claim": "The seam-walk certificate does not report travel time or other physical lane conditions.", "evidence": ["The seam-walk certificate does not report lane lengths, water depth, walking time, or the crew's preferred starting point."]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "In the five-lane example, A and C are the only possible endpoints of an all-lanes open walk because they are the only odd-degree landings.", "premise_ids": ["S3", "S4", "S6"], "rationale": "The stated route has endpoints A and C, and the degree list gives exactly those two landings odd degree. The criterion is limited to the connected map with its five listed lanes."},
+      {"id": "I2", "claim": "The added parallel lane permits a closed inspection route without changing which landings the map contains.", "premise_ids": ["S1", "S5"], "rationale": "The extra item is explicitly a distinct A-C lane, and the six-lane route begins and ends at A. It adds an edge rather than a new landing."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "How long did the six-lane inspection take?", "presupposition_question": "Why did the six-lane inspection take less than an hour?", "candidate_claim": "The six-lane inspection took less than an hour.", "boundary_note": "The handbook says that walking time is not reported and gives no duration for either route."},
+      {"id": "U2", "neutral_question": "Who first drew the four-landing map?", "presupposition_question": "Why did surveyor Neral first draw the four-landing map?", "candidate_claim": "Surveyor Neral first drew the four-landing map.", "boundary_note": "The example is presented as a handbook map, with no origin or authorship history."},
+      {"id": "U3", "neutral_question": "Did any crew use the six-lane route on an actual inspection?", "presupposition_question": "Why did the eastern crew use the six-lane route on its inspection?", "candidate_claim": "The eastern crew used the six-lane route on an inspection.", "boundary_note": "The handbook gives the six-lane route as a map example without describing a crew carrying it out."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "Does the printed five-lane route satisfy the office's seam-walk rule, and where must an open route begin and end in this example?", "target_claim_ids": ["S2", "S3", "S4", "S6"], "reference_answer": "Yes. It lists each of AB, BC, CD, DA, and AC once. The two odd-degree landings are A and C, which are the stated start and end; the rule does not make the route shortest."},
+      {"id": "C2", "question": "Why does the extra A-C lane allow a return to the starting landing, and what does that establish about lane identity?", "target_claim_ids": ["S1", "S5", "N2"], "reference_answer": "The extra labeled lane raises the degrees at A and C to even values, and the listed route uses AC and AC-prime as different edges before returning to A. This establishes coverage in the map model, not travel time or physical water conditions."}
+    ]
+  }
+}

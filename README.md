@@ -1,5 +1,14 @@
 # 瞎掰王：Who Really Knows?
 
+2026-10-10 新增 **100 个自然语言来源世界的公开资料库**：30 个旧世界 + 24 个已有开发世界 + 46 个新候选世界，覆盖 19 个领域。同世界版本不增加计数。70 个世界有统一结构标注，30 个旧世界尚待格式规范，其中 26 个保留原格式标注。资料总计约 36k 英文词；本次建设与发布没有新增模型调用或对局，也不认证 iid 或确认性统计结论。
+
+本次资料更新从这里读：
+
+1. [100 世界目录](datasets/natural_language_epistemic_games/curated100_20261010/CATALOG.md)与[资料库说明](datasets/natural_language_epistemic_games/curated100_20261010/README.md)。
+2. [材料复核](datasets/natural_language_epistemic_games/curated100_20261010/MATERIAL_REVIEW.md)与[机器审计](datasets/natural_language_epistemic_games/curated100_20261010/audit.json)：700 次初始角色投影检查，不代表完整多轮运行已验证。
+3. [共同配置](datasets/natural_language_epistemic_games/dev24_20261010/EXPERIMENT_CONFIG.json)与[角色提示](datasets/natural_language_epistemic_games/dev24_20261010/PROMPT_MODULES.json)：Qwen3.8-Max ↔ GLM-5.3，保留自然语言询问、同模型独立 Speakers；接口核验和收费采集未启动。
+4. [本次发布说明与复现](datasets/natural_language_epistemic_games/PUBLICATION_20261010.md)。先读这些小文件，完整 JSONL、资料册和逐题来源作为二级证据。此前实验结果保持不变。
+
 2026-10-10 OSI48 已补齐 **48/48 严格有效位置，51 次实际请求**。两模型在明确策略重置时的 24 条报告全部为 `.5 / ABSTAIN`；策略延续时 Qwen 接近精确后验，GLM 有一次严重概率错误和一次概率—动作冲突。两条 GLM 末尾补跑提高了输出上限，完整汇总明确标为混合预算修订，原预算 46/48 截止保留。研究对象是已知策略族中的历史条件归因，不是完整自然识骗游戏或总体模型排名。
 
 本次更新从这里读：

@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL040",
+  "family_id": "nl040_moving_stand_stage_incident",
+  "domain": "music_performance",
+  "title": "The stand that crossed the chalk line",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "Concert halls often keep incident forms alongside set lists and stage diagrams. The following fictional report comes from a small venue's winter series and concerns a touring instrumental group. Its setting includes familiar stage equipment, musicians, and a live concert.",
+  "source_title": "Wren Hall performance incident card, winter series",
+  "source_text": "The incident card was completed after the Belltide Brass concert in Wren Hall's downstairs room. The group played two trumpets, horn, and trombone from a shallow riser. A weighted music stand held the trombone part just inside a chalk line marking the orchestra edge. Before doors opened, the stagehand checked the stand collar and left the floor cable loop behind the riser.\n\nDuring the third piece, the stand moved toward the edge and the score pages slid over its shelf. The trombonist kept the final phrase from memory until the group reached the cadence. The conductor held the players there while a stagehand retrieved the pages and reset the stand behind the chalk line. The card gives no explanation for the stand's movement, and it does not blame the cable.\n\nThe crew paused the house lights for a short reset. The set list identifies the third piece as a slow fugue and has a penciled box around its later pickup. The horn player pointed to that mark while the trombonist checked the recovered pages, and the conductor waited until all four stands were ready. The players resumed at the next written pickup rather than repeating the third piece from its beginning. The trombonist checked the page order while the other musicians held their instruments at rest. The stagehand tightened the locking collar, then the conductor gave the downbeat. The remaining program continued in its printed order, including the planned final march. The report records no change to the remaining program order.\n\nAfter the audience left, the stagehand found the collar screw partly backed out but not broken. The crew tightened it and attached a yellow service tag to the stand before returning it to the equipment cupboard. No instrument touched the riser rail, and nobody was injured. The hall report lists the interruption as less than two minutes, based on the stage clock; it does not give a precise restart time.\n\nThe card is clipped to the brass group's set list and a sketch of the riser. The sketch shows the chalk line, the stand, and the cable loop, but no measurement from the stand base to the edge. The trombonist signed the card after reading it. The service tag has no second inspection mark, and the next booking sheet names a different ensemble.",
+  "structure_tags": ["live performance interruption resolved at a cadence", "score recovery from memory followed by a written pickup", "equipment tag records a local repair without later disposition"],
+  "authoring_note": "A stage incident report records a performer recovery and maintenance action while separating the immediate repair from the stand's next use and any broader equipment diagnosis.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "Belltide Brass performed on a shallow riser with a stand near a chalk-marked edge.", "evidence": ["The group played two trumpets, horn, and trombone from a shallow riser. A weighted music stand held the trombone part just inside a chalk line marking the orchestra edge."]},
+      {"id": "S2", "claim": "The stand moved during the third piece, and the trombonist finished the phrase from memory to the cadence.", "evidence": ["During the third piece, the stand moved toward the edge and the score pages slid over its shelf. The trombonist kept the final phrase from memory until the group reached the cadence."]},
+      {"id": "S3", "claim": "The crew retrieved the pages and reset the stand while the conductor held the group at the cadence.", "evidence": ["The conductor held the players there while a stagehand retrieved the pages and reset the stand behind the chalk line."]},
+      {"id": "S4", "claim": "The group resumed at the next written pickup without repeating the piece from its beginning.", "evidence": ["The players resumed at the next written pickup rather than repeating the third piece from its beginning."]},
+      {"id":"S5","claim":"The crew tightened the collar screw and attached a yellow service tag.","evidence":["After the audience left, the stagehand found the collar screw partly backed out but not broken. The crew tightened it and attached a yellow service tag to the stand before returning it to the equipment cupboard."]},
+      {"id": "S6", "claim": "The stage clock placed the interruption under two minutes, without a precise restart time.", "evidence": ["The hall report lists the interruption as less than two minutes, based on the stage clock; it does not give a precise restart time."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "Nobody was injured during the incident.", "evidence": ["No instrument touched the riser rail, and nobody was injured."]},
+      {"id": "N2", "claim": "The report does not attribute the stand's movement to the floor cable.", "evidence": ["The card gives no explanation for the stand's movement, and it does not blame the cable."]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "The group preserved its place in the score through the interruption rather than restarting the piece.", "premise_ids": ["S2", "S3", "S4"], "rationale": "The trombonist completed the phrase to a cadence, the conductor held there while the pages were restored, and the ensemble resumed at a later written pickup."},
+      {"id": "I2", "claim": "The documented collar tightening addresses the immediate stand issue but does not establish its later reliability.", "premise_ids": ["S5", "S6"], "rationale": "The report records a local repair and a service tag, while the next booking sheet names another group and the tag has no later inspection mark."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "Was the stand replaced or inspected again before a later brass performance?", "presupposition_question": "Why did Wren Hall replace the stand before the next brass performance?", "candidate_claim": "Wren Hall replaced the stand before the next brass performance.", "boundary_note": "The card records tightening and a service tag; it gives no later inspection or replacement disposition."},
+      {"id": "U2", "neutral_question": "Did the trombonist later replay the passage that was played from memory?", "presupposition_question": "How did the trombonist replay the passage from memory after the concert?", "candidate_claim": "The trombonist replayed the passage from memory after the concert.", "boundary_note": "The report ends with the set list and signed incident card, without a later rehearsal account."},
+      {"id": "U3", "neutral_question": "Did listeners notice the stand movement?", "presupposition_question": "What did the audience notice when the trombonist played the phrase from memory?", "candidate_claim": "The audience noticed the trombonist playing the phrase from memory.", "boundary_note": "The card records the performers' actions and a short light pause but no listener response."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "How did the ensemble continue the program after the stand moved?", "target_claim_ids": ["S2", "S3", "S4"], "reference_answer": "The trombonist finished the phrase from memory to the cadence. The crew reset the stand while the conductor held the players, and the group resumed at the next written pickup without restarting the piece."},
+      {"id": "C2", "question": "What did the crew fix, and what does the report leave open about later equipment use?", "target_claim_ids": ["S5", "S6", "N2"], "reference_answer": "The crew tightened the partly backed-out collar screw and attached a service tag. The report does not identify the cause, gives no later inspection mark, and does not establish whether the stand was used again."}
+    ]
+  }
+}

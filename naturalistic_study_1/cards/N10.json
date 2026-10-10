@@ -1,0 +1,29 @@
+{
+  "case_id": "N10",
+  "domain": "math_language",
+  "title": "Vale Strip Balance",
+  "public_context": "The Vale Institute and its bead-strip registry are fictional. Clerks compare finite, nonempty rows of integer labels and sometimes discuss a row after every label is increased by the same amount or after the row is read backward. The registry uses a numerical balance for filing related strips. Its scoring convention is withheld from this public description; the dossier gives the complete construction and examples.",
+  "source_title": "Registrar's note on strip balance",
+  "source_text": "At the fictional Vale Institute, a strip is a finite, nonempty ordered row of integer labels. Its balance is computed by numbering positions from the left, beginning with one. Add the labels in odd-numbered positions to obtain O, and add those in even-numbered positions to obtain E. The registered balance is |O − E|, the absolute difference; it is never the signed difference. Position parity depends on a label's place in the row, not on whether the label itself is odd or even.\n\nIn daily work, the balance is a quick shelf index: strips with similar balances are filed nearby so clerks can find candidates before checking a full row. It is not a unique identifier; different strips can share one balance, and the labels remain the definitive record.\n\nFor the strip [4, 1, 6], O = 4 + 6 = 10 and E = 1, so the balance is 9. For [4, 1, 6, 3], O = 4 + 6 = 10 and E = 1 + 3 = 4, giving 6. Reading that four-label strip backward gives [3, 6, 1, 4]: O = 3 + 1 = 4 and E = 6 + 4 = 10, so its balance is also 6. Reversal preserves the result because it either keeps the two position groups in place or exchanges them, and the absolute difference is unchanged.\n\nUniform changes have a length-dependent consequence. Adding 2 to every entry of the three-label strip gives [6, 3, 8], with O = 14 and E = 3; the balance rises from 9 to 11. For an even-length strip, adding the same amount contributes equally to O and E, so the balance is unchanged: [4, 1, 6, 3] becomes [6, 3, 8, 5], with O = 14 and E = 8, still giving 6. These identities follow from the construction and apply to any integer labels. The institute records no balance for an empty strip.",
+  "analyst_notes": {
+    "core_facts": [
+      "Positions are numbered from the left starting at one; odd and even positions define the two sums.",
+      "The balance is the absolute difference between the odd-position and even-position sums.",
+      "Reversing a strip leaves its balance unchanged.",
+      "Adding a constant to every entry leaves an even-length balance unchanged; for odd length, the signed alternating sum changes by that constant before taking absolute value."
+    ],
+    "explicit_negations": [
+      "The score is not the signed difference; it is the absolute difference.",
+      "Position parity is not determined by whether a label is odd or even."
+    ],
+    "source_boundaries": [
+      "The construction is defined here for finite, nonempty rows of integer labels.",
+      "No weighted, circular, or empty-row extension is defined."
+    ],
+    "consistency_checks": [
+      "[4,1,6] gives odd-position sum 10, even-position sum 1, and balance 9.",
+      "[4,1,6,3] and its reversal [3,6,1,4] both give balance 6.",
+      "Adding 2 to all entries changes the three-item example's balance to 11 and keeps the four-item example's balance at 6."
+    ]
+  }
+}

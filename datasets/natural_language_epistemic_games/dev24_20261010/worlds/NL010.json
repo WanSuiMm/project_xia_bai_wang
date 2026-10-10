@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL010",
+  "family_id": "nl010_heat_exposure_queue_for_public_shade",
+  "domain": "civic_institutions",
+  "title": "Shade Queue Field Circular",
+  "split": "development",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "Residents in a fictional city can submit requests for improvements to outdoor waiting places. A small public works unit records conditions at these locations and periodically publishes a circular about projects it can undertake. This dossier is a weekly administrative notice concerning two waiting places and the office's routine handling of site requests.",
+  "source_title": "Public Shade Office weekly circular",
+  "source_text": "The Public Shade Office assigns its two-person crew to waiting places where people must stand or sit outdoors for a scheduled service. Each request names a stop, a time window, and the nearest building that offers indoor shelter. Residents may submit a request without collecting signatures. Staff do not count signatures when they place sites in the work queue; the queue is meant to describe exposure, not popularity.\n\nFor three clear weekdays, an inspector records the temperature at the seat and at the nearest shaded point at noon and again at three o’clock. The office subtracts the shaded reading from the seat reading and pairs the difference with the number of scheduled service minutes when no indoor waiting is available. It publishes both measurements beside the request rather than combining them into a single score. Sites with a larger difference and longer uncovered service window are ordinarily scheduled first, subject to the crew’s access limits.\n\nThe latest sheet lists Lark Clinic stop with a larger temperature difference than Fen Hall stop, but Fen Hall has the longer uncovered window because its indoor lobby closes at midday. The crew completed Fen Hall first after the clinic manager reported that the Lark stop’s portable canopy still covered two seats. That report changed the work sequence for one week; it did not remove Lark from the queue. The circular says the clinic canopy was not installed by the city.\n\nA separate access rule allows the duty engineer to move a site forward when a wheelchair turning area is blocked by a broken post or loose footing. The engineer must attach a photograph and a repair note, and the site returns to the ordinary queue after the obstruction is cleared. No such exception was used in the week described. The office has no authority to close a waiting place simply because its measurements are high.\n\nThe crew works only on city-owned pavement and cannot anchor fabric to a private facade. A site that needs a wall attachment must wait for a free-standing frame design or a written owner agreement. The circular reports that three requests were paused for this reason, but does not name the owners. Staff plan to repeat the noon measurements in late summer because a single clear week may not represent the hottest conditions. The public sheet is updated each Friday, and the office invites residents to correct a location or service schedule before the next list is issued.",
+  "structure_tags": ["paired exposure measures", "non-signature work queue", "accessibility exception with return to queue"],
+  "authoring_note": "This mechanism ranks physical shade work using two published exposure measures with a narrow engineering exception; it is distinct from permit lotteries, appeals, and neighborhood voting.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "Residents may request shade without signatures, and signatures do not affect queue placement.", "evidence": ["Residents may submit a request without collecting signatures. Staff do not count signatures when they place sites in the work queue; the queue is meant to describe exposure, not popularity."]},
+      {"id": "S2", "claim": "The office records temperature differences and uncovered service minutes separately.", "evidence": ["It publishes both measurements beside the request rather than combining them into a single score."]},
+      {"id": "S3", "claim": "A report about a portable canopy changed the weekly order but did not remove Lark stop from the queue.", "evidence": ["That report changed the work sequence for one week; it did not remove Lark from the queue."]},
+      {"id": "S4", "claim": "A blocked wheelchair turning area can trigger a documented engineering exception.", "evidence": ["A separate access rule allows the duty engineer to move a site forward when a wheelchair turning area is blocked by a broken post or loose footing."]},
+      {"id": "S5", "claim": "The crew cannot anchor shade fabric to a private facade without a written owner agreement.", "evidence": ["A site that needs a wall attachment must wait for a free-standing frame design or a written owner agreement."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "No accessibility exception was used during the reported week.", "evidence": ["No such exception was used in the week described."]},
+      {"id": "N2", "claim": "The city did not install the portable canopy at the clinic stop.", "evidence": ["The circular says the clinic canopy was not installed by the city."]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "The queue is designed to make exposure dimensions inspectable rather than hide them in one composite rank.", "premise_ids": ["S1", "S2"], "rationale": "Signatures are excluded as popularity measures, and both exposure measures are published separately. That supports an interpretation of transparent comparison, though the circular does not state a general theory of fairness."},
+      {"id": "I2", "claim": "A temporary condition at a site can alter near-term scheduling without erasing its underlying request.", "premise_ids": ["S3", "S4"], "rationale": "The canopy report changed one week's order without removing Lark, and a documented safety obstruction can move a site forward before it returns to the ordinary queue. The source does not say how often either adjustment occurs."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "How many shade installations can the crew complete in a week?", "presupposition_question": "Can the crew complete exactly four shade installations in a week?", "candidate_claim": "The crew can complete exactly four installations per week.", "boundary_note": "The circular says there is a two-person crew but gives no weekly installation capacity."},
+      {"id": "U2", "neutral_question": "What salary does the duty engineer receive?", "presupposition_question": "Does the duty engineer earn 3,200 crowns per month?", "candidate_claim": "The duty engineer earns 3,200 crowns per month.", "boundary_note": "The circular describes the engineer’s authority and documentation, not compensation."},
+      {"id": "U3", "neutral_question": "What, if anything, happened to the shade queue after the planned late-summer measurements?", "presupposition_question": "Did late-summer measurements move Lark stop ahead of Fen Hall?", "candidate_claim": "Late-summer measurements moved Lark stop ahead of Fen Hall.", "boundary_note": "The office planned another measurement round but reports no later readings or queue changes."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "Why could Fen Hall be worked on before Lark even though Lark had the larger temperature difference?", "target_claim_ids": ["S2", "S3", "N2"], "reference_answer": "The office publishes temperature difference and uncovered service window separately. Fen Hall had the longer uncovered window, and a report that Lark still had a portable canopy changed the sequence for one week. The report did not erase Lark's request, and the canopy was not city-installed."},
+      {"id": "C2", "question": "How does the office balance ordinary exposure ranking with the accessibility rule?", "target_claim_ids": ["S2", "S4", "N1"], "reference_answer": "Ordinary scheduling considers the two exposure measures, while a documented blocked turning area permits an engineer to move a site forward. No exception occurred in this particular week, so the circular describes a standing rule rather than an adjustment to the reported queue."}
+    ]
+  }
+}

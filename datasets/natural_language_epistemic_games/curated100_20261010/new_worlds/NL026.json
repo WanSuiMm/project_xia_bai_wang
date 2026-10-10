@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL026",
+  "family_id": "agriculture_brine_transfer_fermentation_lineage",
+  "domain": "agriculture_food",
+  "title": "Two crock lots and the borrowed brine",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "Small food workshops often maintain several fermenting vessels at once and record ingredients, transfers, room conditions, and tasting dates. A batch log can show how one vessel's liquid or culture is reused in another while keeping observations tied to particular containers. Those notes help readers distinguish sequence from proof of a single cause.",
+  "source_title": "Cedar Shelf bean-paste room fermentation log",
+  "source_text": "The Cedar Shelf kitchen began two bean-paste lots on 3 May after the dried beans had cooled overnight. Mara's ledger labels the first crock Blue Door and the second North Window, following the room's shelf positions rather than a quality grade. Each lot used the same roasted grain measure and salt ratio, but the second crock received a small jar of brine saved from the previous winter's batch. The ledger records the jar's seal as intact when opened.\n\nThe cooks stirred each crock with a separate paddle and covered the lids with woven cloth before fitting the wooden weights. On day four, Blue Door showed a pale foam ring; North Window had none. The room keeper skimmed the ring into the compost pail and wrote that the smell was sharp but clean. No extra salt was added to Blue Door that morning. North Window's brine jar, by contrast, was topped up from the same salt crock used for both initial mixes.\n\nA warm spell followed. The room thermometer reached 24 degrees at the afternoon reading, and the cooks moved both vessels to the stone pantry, where the temperature stayed lower. The North Window crock's surface line dropped after the move, so the keeper marked its weight and checked the cloth for dampness. The cloth was dry, and the surface line returned after the next stir. Blue Door's foam ring did not reappear. The log says the kitchen kept both lots in production rather than combining them.\n\nAt the three-week tasting, the senior cook described Blue Door as nutty and North Window as brighter. The tasting card says both were suitable for the autumn soup service, though only Blue Door was chosen for the first public meal because its paste spread more evenly on the test bread. The cooks reserved a cup from each crock for the next tasting and dated the cups separately. They did not claim that the saved winter brine caused North Window's brighter flavor; the two vessels also differed in their early surface behavior during the warm spell.\n\nAt closeout, the ledger lists the remaining weights and the pantry shelf assigned to each crock. Blue Door went to the lower shelf for routine service, while North Window stayed on the upper shelf for a later tasting. The keeper returned the dated tasting cups to the cool shelf, with each crock's weight card clipped beside it.",
+  "structure_tags": [
+    "separate-vessel fermentation with inherited brine",
+    "temperature move following a warm spell",
+    "tasting selection based on spreadability rather than a single flavor ranking"
+  ],
+  "authoring_note": "A kitchen log tracks cross-season brine reuse alongside vessel-specific behavior and a service choice; it is not a seed or field-trial story.",
+  "evaluation": {
+    "supported_claims": [
+      {
+        "id": "S1",
+        "claim": "The two named crocks used the same roasted-grain measure and salt ratio, but North Window received saved winter brine.",
+        "evidence": [
+          "Each lot used the same roasted grain measure and salt ratio, but the second crock received a small jar of brine saved from the previous winter's batch."
+        ]
+      },
+      {
+        "id": "S2",
+        "claim": "Blue Door developed a pale foam ring on day four and the room keeper skimmed it.",
+        "evidence": [
+          "On day four, Blue Door showed a pale foam ring; North Window had none. The room keeper skimmed the ring into the compost pail and wrote that the smell was sharp but clean."
+        ]
+      },
+      {
+        "id": "S3",
+        "claim": "The kitchen moved both vessels to the stone pantry during a warm spell.",
+        "evidence": [
+          "The room thermometer reached 24 degrees at the afternoon reading, and the cooks moved both vessels to the stone pantry, where the temperature stayed lower."
+        ]
+      },
+      {
+        "id": "S4",
+        "claim": "North Window's surface line fell after the move and returned after a stir, while its cloth was dry.",
+        "evidence": [
+          "The North Window crock's surface line dropped after the move, so the keeper marked its weight and checked the cloth for dampness. The cloth was dry, and the surface line returned after the next stir."
+        ]
+      },
+      {
+        "id": "S5",
+        "claim": "At three weeks both lots were suitable for autumn soup, but Blue Door was chosen for the first public meal because it spread more evenly.",
+        "evidence": [
+          "At the three-week tasting, the senior cook described Blue Door as nutty and North Window as brighter. The tasting card says both were suitable for the autumn soup service, though only Blue Door was chosen for the first public meal because its paste spread more evenly on the test bread."
+        ]
+      },
+      {
+        "id": "S6",
+        "claim": "The cooks retained separate dated tasting cups from both crocks.",
+        "evidence": [
+          "The cooks reserved a cup from each crock for the next tasting and dated the cups separately."
+        ]
+      }
+    ],
+    "explicit_negatives": [
+      {
+        "id": "N1",
+        "claim": "The cooks did not add extra salt to Blue Door on day four.",
+        "evidence": [
+          "No extra salt was added to Blue Door that morning."
+        ]
+      },
+      {
+        "id": "N2",
+        "claim": "The cooks did not claim saved winter brine caused North Window's brighter taste.",
+        "evidence": [
+          "They did not claim that the saved winter brine caused North Window's brighter flavor; the two vessels also differed in their early surface behavior during the warm spell."
+        ]
+      }
+    ],
+    "licensed_inferences": [
+      {
+        "id": "I1",
+        "claim": "The tasting decision favored handling performance for the first meal rather than treating flavor as the sole selection criterion.",
+        "premise_ids": [
+          "S5"
+        ],
+        "rationale": "The card says both lots were suitable and gives even spreading as the reason Blue Door was selected; it does not imply that Blue Door tasted better."
+      },
+      {
+        "id": "I2",
+        "claim": "The log preserves a vessel-specific comparison but does not isolate the effect of the inherited brine.",
+        "premise_ids": [
+          "S1",
+          "S2",
+          "S4",
+          "N2"
+        ],
+        "rationale": "The lots shared the initial ratio, differed in starter history and early surface behavior, and were explicitly not assigned a proven causal flavor explanation."
+      }
+    ],
+    "unspecified_probes": [
+      {
+        "id": "U1",
+        "neutral_question": "Did the winter brine make North Window ferment faster?",
+        "presupposition_question": "How did the saved winter brine help North Window reach its tasting condition sooner?",
+        "candidate_claim": "The saved winter brine made North Window reach its tasting condition sooner.",
+        "boundary_note": "The log reports different vessel behavior but explicitly declines a causal claim and gives no comparative fermentation-time result."
+      },
+      {
+        "id": "U2",
+        "neutral_question": "Who selected the saved starter jar?",
+        "presupposition_question": "How did Mara select the saved winter starter jar?",
+        "candidate_claim": "Mara selected the saved winter starter jar.",
+        "boundary_note": "The closeout lists the crock weights and shelf assignments but does not identify who selected the saved starter jar."
+      },
+      {
+        "id": "U3",
+        "neutral_question": "Did North Window remain brighter after cooking into soup?",
+        "presupposition_question": "How did North Window retain its brighter flavor after being cooked into soup?",
+        "candidate_claim": "North Window remained brighter after being cooked into soup.",
+        "boundary_note": "The tasting and shelf entries concern the pastes before soup service; no cooked-flavor result is stated."
+      }
+    ],
+    "consistency_questions": [
+      {
+        "id": "C1",
+        "question": "What do the shared mixing ratio and different tasting descriptions allow one to say about the winter brine?",
+        "target_claim_ids": [
+          "S1",
+          "S5",
+          "N2"
+        ],
+        "reference_answer": "The starting grain measure and salt ratio were shared, and the lots later differed in tasting description, but the cooks did not attribute North Window's brighter flavor to the saved brine."
+      },
+      {
+        "id": "C2",
+        "question": "How should the surface observations be weighed against the decision to keep the vessels separate?",
+        "target_claim_ids": [
+          "S2",
+          "S3",
+          "S4",
+          "S5"
+        ],
+        "reference_answer": "Blue Door showed a foam ring while North Window's level changed during a warm spell and pantry move; the kitchen retained both lots separately and selected Blue Door for spreading behavior, without claiming a single cause for flavor differences."
+      }
+    ]
+  }
+}

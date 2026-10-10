@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL042",
+  "family_id": "nl042_fair_dance_set_adaptation",
+  "domain": "music_performance",
+  "title": "The tune the dancers asked for",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "Musician's diaries often combine set lists with impressions of the people and rooms where a group performs. The following fictional entry comes from a traveling dance band at a town fair. It uses familiar concert details—players, callers, and dancers—to place one evening in a touring musician's notes.",
+  "source_title": "Fiddler Tamsin Vale's Oatbank fair tour notebook",
+  "source_text": "I set the fiddle case under the caller's table at Oatbank fair because the rain had driven everyone into the long hall. Our card listed two waltzes followed by Lantern Reel, with a short break before the final dance. The floor steward had a brass handbell for starts, and he rang it from the doorway while the market stalls were still being cleared. We could see the bell but could not hear it over the chairs scraping across the boards.\n\nAt the first waltz, the caller Bram gave the musicians a raised palm instead of waiting for the bell. We began on the flute's pickup, and the first set finished without a stop. Two dancers near the wall missed the opening turn, so Bram walked the step with them during the break while the accordionist tried the bass pattern more slowly. The hall was crowded, but the floor stayed clear around the musicians' stand.\n\nLantern Reel was next on the card. Before we began, a group at the back asked for Turn at the Gate, an older reel that was not on the printed list. Bram checked with us, and I nodded because we knew the tune. We started Lantern Reel, then changed at the agreed break into Turn at the Gate. The caller repeated the same short figure so late arrivals could join without crossing the line of dancers.\n\nWe played Turn at the Gate twice. On the second pass, the two dancers from the wall were leading the inside circle, and the caller let them finish the figure before bringing the musicians to the final chord. The set card had no extra verse marked, and we sang none. Afterward, the steward returned the handbell to his coat pocket and asked us to leave the floor clear for the prize table.\n\nI wrote down the order on the train home because the printed card no longer matched the tune we finished with. The accordionist said the slower bass pattern made the first turn easier to follow; I thought Bram's walking lesson mattered just as much. The notebook's next page begins with a different town and a different caller. There is no Oatbank booking slip tucked into the cover.",
+  "structure_tags": ["listener request changes a planned tune at an agreed break", "caller teaches a movement during an interval", "first-person diary separates musician's interpretation from observed sequence"],
+  "authoring_note": "A tour diary joins a planned set, an inaudible start signal, a negotiated tune substitution, and dancers' participation while keeping competing explanations attributed.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "The printed card listed two waltzes followed by Lantern Reel and a short break before the final dance.", "evidence": ["Our card listed two waltzes followed by Lantern Reel, with a short break before the final dance."]},
+      {"id": "S2", "claim": "The musicians could see the steward's bell but could not hear it over the chairs.", "evidence": ["We could see the bell but could not hear it over the chairs scraping across the boards."]},
+      {"id": "S3", "claim": "Bram used a raised palm as the musicians' start cue for the first waltz.", "evidence": ["At the first waltz, the caller Bram gave the musicians a raised palm instead of waiting for the bell."]},
+      {"id":"S4","claim":"The group changed from Lantern Reel to the requested Turn at the Gate at an agreed break.","evidence":["Before we began, a group at the back asked for Turn at the Gate, an older reel that was not on the printed list. Bram checked with us, and I nodded because we knew the tune. We started Lantern Reel, then changed at the agreed break into Turn at the Gate."]},
+      {"id": "S5", "claim": "The group played Turn at the Gate twice, and two dancers later led the inside circle.", "evidence": ["We played Turn at the Gate twice. On the second pass, the two dancers from the wall were leading the inside circle, and the caller let them finish the figure before bringing the musicians to the final chord."]},
+      {"id": "S6", "claim": "Vale and the accordionist offered different views about what helped the first turn.", "evidence": ["The accordionist said the slower bass pattern made the first turn easier to follow; I thought Bram's walking lesson mattered just as much."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "The musicians did not hear the handbell over the chairs.", "evidence": ["We could see the bell but could not hear it over the chairs scraping across the boards."]},
+      {"id": "N2", "claim": "The group sang no extra verse at the fair.", "evidence": ["The set card had no extra verse marked, and we sang none."]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "The group had a usable start cue despite the bell being inaudible to the musicians.", "premise_ids": ["S2", "S3"], "rationale": "Vale says the group could not hear the bell and that Bram gave a raised palm instead; the account does not say the bell failed for everyone in the hall."},
+      {"id": "I2", "claim": "The actual closing tune differed from the printed card because the players accepted a request and switched at a planned break.", "premise_ids": ["S1", "S4", "S5"], "rationale": "Lantern Reel was printed next, but the band changed into the requested tune and played it twice; the card alone does not describe the later choice."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "Did Oatbank change its start-signal arrangement for later dances?", "presupposition_question": "Why did Oatbank replace the handbell with Bram's raised-palm signal for later dances?", "candidate_claim": "Oatbank replaced the handbell with Bram's raised-palm signal for later dances.", "boundary_note": "The diary describes one evening's cue and gives no later fair protocol or booking record."},
+      {"id": "U2", "neutral_question": "Who first requested Turn at the Gate?", "presupposition_question": "How did the two dancers from the wall request Turn at the Gate?", "candidate_claim": "The two dancers from the wall requested Turn at the Gate.", "boundary_note": "The request came from a group at the back, but Vale does not identify its members."},
+      {"id": "U3", "neutral_question": "Did the dancers keep using the inside-circle figure after the fair?", "presupposition_question": "Why did the Oatbank dancers keep using the inside-circle figure at later dances?", "candidate_claim": "The Oatbank dancers kept using the inside-circle figure at later dances.", "boundary_note": "The diary reports one set and no later event or follow-up from the dancers."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "How did the musicians start and then adapt the planned set?", "target_claim_ids": ["S1", "S2", "S3", "S4"], "reference_answer": "The printed card listed the waltzes and Lantern Reel. The players could not hear the bell, so Bram used a raised palm for the opening; later they accepted a request and changed into Turn at the Gate at an agreed break."},
+      {"id": "C2", "question": "What happened to the dancers during the requested tune, and what explanations did the musicians give for the earlier turn?", "target_claim_ids": ["S5", "S6", "N2"], "reference_answer": "The band played the requested tune twice, and two dancers from the wall led the inside circle during the second pass. The accordionist credited the slower bass pattern for helping the first turn, while Vale also credited Bram's walking lesson; no extra verse was sung."}
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL057",
+  "family_id": "nl057_film_reel_splice_order",
+  "domain": "technology_archives",
+  "title": "The projectionist's letter about the missing doorway",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "A projectionist writes to a fictional film archive about an old silent reel and its accompanying paperwork. The letter belongs to the practical correspondence of a small film room, where operators inspect reels, cue sheets and storage materials. The file preserves the ordinary exchange between two specialists.",
+  "source_title": "Letter from projectionist Len Arlo to the Tallow Street Film Room",
+  "source_text": "Dear Iven, I ran the short reel called The Glass Door at the slow inspection speed you requested. The paper cue sheet lists a porter entering the hall before the visitor reaches the gate, but the first surviving scene shows the visitor already inside. The reel has two joins with clear cement and one older join where the edge is dark. I would not use the joins alone to put the scenes in order; the dark edge could come from handling before the reel reached us.\n\nThe first section begins with a wide view of the station clock, then a close shot of a brass key. The cue sheet names the second shot as the key being returned to a porter. There is no hand in the frame, so that action is supplied by the paper, not visible in the image. The next section shows the porter looking toward a doorway that is outside the picture. I can say he turns toward it, but not that he enters it. The sheet's next line reads, 'Porter opens the glass door.' I have kept the line in quotation marks on the revised cue card and added a note that the image does not show the opening.\n\nA later shot contains the same station clock with its minute hand lower than in the first view. That suggests the shot was made later in the scene, but the clock could have been reset between takes. The reel carries no soundtrack and no printed leader naming a camera order. I found a narrow paper strip in the tin that repeats the title but gives no reel number. I put the strip in a sleeve beside the reel rather than attach it to the film.\n\nThe archive asked me to splice the clear-cement joins into the order on the cue sheet. I left them in place and prepared two cards: one records the physical order as projected, and the other transcribes the cue sheet with the unpictured actions marked as its wording. The technician signed both cards. Arlo returned them to the folder beside the tin, where the reel can be inspected again without changing its present joins. He wiped dust from the projector gate and returned the film to the cabinet.",
+  "structure_tags": [
+    "physical splice order distinguished from an attributed cue-sheet account",
+    "visible gesture separated from off-screen action asserted by the paper",
+    "two parallel descriptions preserved without rearranging the reel"
+  ],
+  "authoring_note": "A projectionist's letter about interpreting a silent film with a mismatching cue sheet; it preserves physical and documentary order as distinct records.",
+  "evaluation": {
+    "supported_claims": [
+      {
+        "id": "S1",
+        "claim": "The cue sheet places the porter entering before the visitor reaches the gate, but the first surviving scene shows the visitor already inside.",
+        "evidence": [
+          "The paper cue sheet lists a porter entering the hall before the visitor reaches the gate, but the first surviving scene shows the visitor already inside."
+        ]
+      },
+      {
+        "id": "S2",
+        "claim": "Arlo would not use the joins alone to establish scene order because the dark edge might result from earlier handling.",
+        "evidence": [
+          "I would not use the joins alone to put the scenes in order; the dark edge could come from handling before the reel reached us."
+        ]
+      },
+      {
+        "id": "S3",
+        "claim": "The key shot does not show a hand returning it to a porter, although the cue sheet describes that action.",
+        "evidence": [
+          "The cue sheet names the second shot as the key being returned to a porter. There is no hand in the frame, so that action is supplied by the paper, not visible in the image."
+        ]
+      },
+      {
+        "id": "S4",
+        "claim": "The porter is shown turning toward an off-screen doorway, but the image does not show him entering it.",
+        "evidence": [
+          "The next section shows the porter looking toward a doorway that is outside the picture. I can say he turns toward it, but not that he enters it."
+        ]
+      },
+      {
+        "id": "S5",
+        "claim": "Arlo left the joins unchanged and made one card for the projected physical order and another for the cue-sheet wording.",
+        "evidence": [
+          "I left them in place and prepared two cards: one records the physical order as projected, and the other transcribes the cue sheet with the unpictured actions marked as its wording."
+        ]
+      },
+      {
+        "id": "S6",
+        "claim": "The reel has no soundtrack and no printed leader naming a camera order.",
+        "evidence": [
+          "The reel carries no soundtrack and no printed leader naming a camera order."
+        ]
+      },
+      {
+        "id": "S7",
+        "claim": "The cue sheet says the porter opens the glass door, but the image does not show the opening.",
+        "evidence": [
+          "The sheet's next line reads, 'Porter opens the glass door.' I have kept the line in quotation marks on the revised cue card and added a note that the image does not show the opening."
+        ]
+      },
+      {
+        "id": "S8",
+        "claim": "The second clock view has a lower minute hand, but Arlo notes that the clock could have been reset between takes.",
+        "evidence": [
+          "A later shot contains the same station clock with its minute hand lower than in the first view. That suggests the shot was made later in the scene, but the clock could have been reset between takes."
+        ]
+      }
+    ],
+    "explicit_negatives": [
+      {
+        "id": "N1",
+        "claim": "The reel does not show the porter entering the off-screen doorway.",
+        "evidence": [
+          "I can say he turns toward it, but not that he enters it."
+        ]
+      },
+      {
+        "id": "N2",
+        "claim": "The reel has no soundtrack.",
+        "evidence": [
+          "The reel carries no soundtrack and no printed leader naming a camera order."
+        ]
+      }
+    ],
+    "licensed_inferences": [
+      {
+        "id": "I1",
+        "claim": "The cue sheet supplies some actions that cannot be confirmed from the visible frames alone.",
+        "premise_ids": [
+          "S3",
+          "S7"
+        ],
+        "rationale": "The cue sheet describes the key being returned and the glass door being opened, but neither the hand's return nor the door opening is visible in the film."
+      },
+      {
+        "id": "I2",
+        "claim": "The clock difference is not enough to establish a definitive scene chronology.",
+        "premise_ids": [
+          "S2",
+          "S6",
+          "S8"
+        ],
+        "rationale": "Arlo says the clock may have been reset between takes and the reel has no printed camera-order leader; the physical joins are also not treated as decisive."
+      }
+    ],
+    "unspecified_probes": [
+      {
+        "id": "U1",
+        "neutral_question": "Did the cue-sheet writer see the key being returned?",
+        "presupposition_question": "What in the scene showed the cue-sheet writer the key being returned?",
+        "candidate_claim": "The original cue-sheet writer saw the key being returned.",
+        "boundary_note": "The letter does not identify the cue-sheet writer or say whether that person saw the return."
+      },
+      {
+        "id": "U2",
+        "neutral_question": "Will the archive show the reel to visitors?",
+        "presupposition_question": "When will the archive show the reel to visitors?",
+        "candidate_claim": "The archive will show the reel to visitors.",
+        "boundary_note": "The letter does not mention a public screening or a decision about showing the reel to visitors."
+      },
+      {
+        "id": "U3",
+        "neutral_question": "Does the second clock view depict a later moment in the story?",
+        "presupposition_question": "How much later in the story is the moment depicted by the second clock view?",
+        "candidate_claim": "The second clock view depicts a later moment in the story.",
+        "boundary_note": "The lower minute hand suggests a later story moment, but it could have been reset between takes; the letter does not establish story chronology or filming order."
+      }
+    ],
+    "consistency_questions": [
+      {
+        "id": "C1",
+        "question": "How does the film's visible evidence differ from the cue sheet's description of the key and doorway?",
+        "target_claim_ids": [
+          "S3",
+          "S4",
+          "S7"
+        ],
+        "reference_answer": "The cue sheet says the key is returned, but no hand is visible; the porter turns toward an off-screen doorway without entering it on screen; the cue sheet also says he opens the glass door, but the image does not show that opening."
+      },
+      {
+        "id": "C2",
+        "question": "How did Arlo preserve the two accounts of the reel without treating either as definitive scene order?",
+        "target_claim_ids": [
+          "S2",
+          "S5",
+          "S6"
+        ],
+        "reference_answer": "He left the splices in place and made separate cards for physical projection order and cue-sheet wording; the reel lacks a soundtrack and camera-order leader, and joins alone were insufficient."
+      }
+    ]
+  }
+}

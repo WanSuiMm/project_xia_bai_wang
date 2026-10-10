@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL032",
+  "family_id": "business_serial_return_authority_safety_disposition",
+  "domain": "business_operations",
+  "title": "Case 884: the carton serial did not match",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "Service businesses often separate a customer's request from the decision to refund, repair, or replace an item. Return records can combine serial checks, delegated approval limits, inspection results, and customer communication. Such records describe a particular case rather than a general warranty promise.",
+  "source_title": "Pine Relay service desk return-authorization correspondence",
+  "source_text": "Case 884 arrived at the Pine Relay service desk with a request to exchange a countertop mixer for the same model. The customer had bought it from a regional dealer eleven days earlier and said it had stopped during kneading. The front desk clerk checked the receipt and found that the mixer body serial ended in 1842, while the carton label ended in 1482. The clerk did not issue a replacement token while the two identifiers disagreed.\n\nThe service manual allowed front desk staff to issue a refund below eighty credits only for an unopened item with matching serial labels. Opened equipment needed a bench note, and any safety-related fault required a supervisor to approve the remedy. The customer had opened the carton, so the request went to the bench. The technician found a split strain-relief sleeve on the power cord but no motor fault during the short no-load check. The sleeve was kept with the case tag for inspection.\n\nA supervisor compared the body serial with the dealer invoice and confirmed that the body, not the carton, matched the purchase. The desk corrected the carton record and authorized a refund rather than an exchange because the damaged sleeve could not be returned to sale stock. The customer accepted the refund by phone that afternoon. No replacement mixer was shipped, and the original mixer remained in the safety-hold cabinet.\n\nThe clerk completed the return authorization with separate fields for serial correction, bench finding, and remedy. The service desk credited the dealer's account after receiving the returned unit, while the customer receipt showed the refund date and case number. The dealer signed the collection slip for the unit but left the optional comments field blank. The supervisor scheduled a cord inspection for the next safety review because two other mixers from the same delivery had similar sleeves.\n\nThe correspondence confirms that the refund was processed and the returned mixer stayed under hold. The desk closed the customer case but kept the safety review open under a separate tracking number. The clerk filed the dealer's signed collection slip behind the return authorization and carried the inspection tag into the review folder.",
+  "structure_tags": [
+    "serial discrepancy corrected against dealer invoice",
+    "safety-related defect routes remedy to supervisor",
+    "customer refund closes case while product review stays open"
+  ],
+  "authoring_note": "The case separates customer remedy from an unresolved supplier and fleet-level safety review.",
+  "evaluation": {
+    "supported_claims": [
+      {
+        "id": "S1",
+        "claim": "Front desk refund authority required an unopened item and matching serial labels under the eighty-credit threshold.",
+        "evidence": [
+          "The service manual allowed front desk staff to issue a refund below eighty credits only for an unopened item with matching serial labels."
+        ]
+      },
+      {
+        "id": "S2",
+        "claim": "Case 884 had a body/carton serial mismatch and an opened carton, so the clerk withheld a replacement token and routed it to the bench.",
+        "evidence": [
+"The front desk clerk checked the receipt and found that the mixer body serial ended in 1842, while the carton label ended in 1482. The clerk did not issue a replacement token while the two identifiers disagreed.",
+"The customer had opened the carton, so the request went to the bench."
+        ]
+      },
+      {
+        "id": "S3",
+        "claim": "The technician found a split strain-relief sleeve and no motor fault in the short no-load check.",
+        "evidence": [
+          "The technician found a split strain-relief sleeve on the power cord but no motor fault during the short no-load check."
+        ]
+      },
+      {
+        "id": "S4",
+        "claim": "The supervisor corrected the carton record and authorized a refund rather than exchange because the sleeve damage prevented resale.",
+        "evidence": [
+          "The desk corrected the carton record and authorized a refund rather than an exchange because the damaged sleeve could not be returned to sale stock."
+        ]
+      },
+      {
+        "id": "S5",
+        "claim": "The customer accepted the refund and the original mixer stayed in the safety-hold cabinet.",
+        "evidence": [
+          "The customer accepted the refund by phone that afternoon. No replacement mixer was shipped, and the original mixer remained in the safety-hold cabinet."
+        ]
+      },
+      {
+        "id": "S6",
+        "claim": "The customer case closed while the safety review remained open separately.",
+        "evidence": [
+          "The desk closed the customer case but kept the safety review open under a separate tracking number."
+        ]
+      }
+    ],
+    "explicit_negatives": [
+      {
+        "id": "N1",
+        "claim": "The clerk did not issue a replacement token while the serial identifiers disagreed.",
+        "evidence": [
+          "The clerk did not issue a replacement token while the two identifiers disagreed."
+        ]
+      },
+      {
+        "id": "N2",
+        "claim": "No replacement mixer was shipped.",
+        "evidence": [
+          "No replacement mixer was shipped, and the original mixer remained in the safety-hold cabinet."
+        ]
+      }
+    ],
+    "licensed_inferences": [
+      {
+        "id": "I1",
+        "claim": "Correcting the carton serial resolved the identity discrepancy but did not make the mixer eligible for resale.",
+        "premise_ids": [
+          "S3",
+          "S4"
+        ],
+        "rationale": "The supervisor corrected the carton record, while the damaged sleeve was the stated reason the mixer could not return to sale stock."
+      },
+      {
+        "id": "I2",
+        "claim": "The customer remedy and safety investigation had different closure states.",
+        "premise_ids": [
+          "S5",
+          "S6"
+        ],
+        "rationale": "The refund closed the customer case, but a separate safety review remained open."
+      }
+    ],
+    "unspecified_probes": [
+      {
+        "id": "U1",
+        "neutral_question": "Did the supplier reimburse Pine Relay for the sleeve defect?",
+        "presupposition_question": "How did the supplier reimburse Pine Relay for the split sleeve on the returned mixer?",
+        "candidate_claim": "The supplier reimbursed Pine Relay for the split sleeve on the returned mixer.",
+        "boundary_note": "The case file includes the dealer collection and safety hold, not a later supplier credit."
+      },
+      {
+        "id": "U2",
+        "neutral_question": "Did the other two mixers have the same sleeve fault?",
+        "presupposition_question": "What caused both other mixers from the delivery to have split strain-relief sleeves?",
+        "candidate_claim": "Both other mixers from the delivery had split strain-relief sleeves.",
+        "boundary_note": "The source says those units were scheduled for review but reports no inspection result."
+      },
+      {
+        "id": "U3",
+        "neutral_question": "Was the mixer repaired after the refund?",
+        "presupposition_question": "How did Pine Relay repair the original mixer after refunding the customer?",
+        "candidate_claim": "Pine Relay repaired the original mixer after refunding the customer.",
+        "boundary_note": "The mixer remained on safety hold, and no subsequent repair disposition is given."
+      }
+    ],
+    "consistency_questions": [
+      {
+        "id": "C1",
+        "question": "How did the serial correction and bench finding shape the customer's remedy?",
+        "target_claim_ids": [
+          "S1",
+          "S2",
+          "S3",
+          "S4",
+          "S5"
+        ],
+        "reference_answer": "The opened item and serial mismatch prevented a front desk token. Bench inspection found sleeve damage but no motor fault; after the supervisor confirmed the body serial against the invoice, the desk refunded rather than exchanged it because it could not return to sale stock."
+      },
+      {
+        "id": "C2",
+        "question": "What remained active after the refund closed the customer's case?",
+        "target_claim_ids": [
+          "S5",
+          "S6"
+        ],
+        "reference_answer": "The original mixer stayed in the safety-hold cabinet and the separate safety review remained open, despite the accepted refund and closed customer case."
+      }
+    ]
+  }
+}

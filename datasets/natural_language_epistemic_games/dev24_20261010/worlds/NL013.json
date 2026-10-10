@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL013",
+  "family_id": "nl013_apartment_toolroom_named_custody",
+  "domain": "ethnography_social",
+  "title": "Toolroom Handoffs at Wren Court",
+  "split": "development",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "Wren Court is a fictional apartment building with shared indoor spaces used by residents. A fieldworker observed routine activity there over several afternoons and prepared notes about everyday interactions in the building. This dossier is limited to the people and events present during that observation period and does not represent any real community.",
+  "source_title": "Wren Court toolroom observation notes",
+  "source_text": "The toolroom at Wren Court opens when a resident leaves the brass key in a numbered pocket beside the mailboxes. A borrower writes a first name and the tool’s painted number on a card, then hangs the card on the empty hook. Most residents return the tool to the same hook, but the card stays there until the next person checks the count. The arrangement makes a missing item visible without requiring a building manager to be present.\n\nDuring one Tuesday visit, Nessa borrowed the long level to adjust a shelf and returned it with a cracked bubble window. She left the tool on the repair mat and wrote “already cracked?” on the card. Jo, who had borrowed it the previous week, said the window had looked cloudy but had not split. Nessa told the observer she had not dropped it. The notes record both accounts and do not establish when the crack began.\n\nAt the next residents’ tea, the group decided that a tool returned damaged should remain on the repair mat until someone who knows that tool checks it. The person who last borrowed it is invited to describe what happened, but is not asked to pay before the group understands the damage. The practice is explained as a way to prevent a quick accusation from stopping future borrowing. No one at the tea called the card a deposit or a punishment.\n\nA week later, resident Olan tested the level against a tile edge and found that the bubble still moved, though its casing had to be held at one angle. Olan added “usable for rough work” to the card and placed a strip of yellow tape over the cracked window. The group postponed buying a replacement until the monthly building meeting. They did not agree that Nessa or Jo should cover the cost. The level remained on the repair mat while residents used shorter levels for shelves.\n\nPeople described the cards differently. One resident said they protected tools from being forgotten; another said they helped new tenants learn where things belonged. A third rarely used the room and called the cards “too much writing.” The fieldworker visited on four afternoons and did not observe overnight borrowing. The notes do not say who owns the tools, who bought the level, or whether the same handoff practice is used in other buildings. The observer’s account is limited to exchanges seen or discussed at Wren Court during that month.",
+  "structure_tags": ["visible borrowing trail", "damage inquiry without immediate blame", "usability-based deferral"],
+  "authoring_note": "The social mechanism ties named handoffs to a non-punitive damage inquiry and a practical usability judgment; it does not describe a cultural custom or a generic reciprocity ledger.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "Borrowers record a first name and tool number on a card that hangs on the empty hook.", "evidence": ["A borrower writes a first name and the tool’s painted number on a card, then hangs the card on the empty hook."]},
+      {"id": "S2", "claim": "Nessa returned the long level with a cracked bubble window and said she had not dropped it.", "evidence": ["Nessa borrowed the long level to adjust a shelf and returned it with a cracked bubble window.", "Nessa told the observer she had not dropped it."]},
+      {"id": "S3", "claim": "The group asks the last borrower to describe what happened but does not require payment before understanding the damage.", "evidence": ["The person who last borrowed it is invited to describe what happened, but is not asked to pay before the group understands the damage."]},
+      {"id": "S4", "claim": "Olan found that the level's bubble still moved, although its casing had to be held at an angle, and marked it usable for rough work.", "evidence": ["A week later, resident Olan tested the level against a tile edge and found that the bubble still moved, though its casing had to be held at one angle.", "Olan added “usable for rough work” to the card and placed a strip of yellow tape over the cracked window."]},
+      {"id": "S5", "claim": "Residents postponed buying a replacement until the monthly building meeting.", "evidence": ["The group postponed buying a replacement until the monthly building meeting."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "The notes do not establish when the crack began.", "evidence": ["The notes record both accounts and do not establish when the crack began."]},
+      {"id": "N2", "claim": "The group did not agree that Nessa or Jo should pay for a replacement.", "evidence": ["They did not agree that Nessa or Jo should cover the cost."]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "The group separates describing a damaged tool from assigning financial responsibility.", "premise_ids": ["S3", "N2"], "rationale": "The last borrower is invited to explain before payment is discussed, and the group did not assign the replacement cost to either named borrower. This supports procedural separation in this case, not a rule for every future case."},
+      {"id": "I2", "claim": "The notes establish both Olan's limited usability assessment and a later replacement deferral, but do not establish that one caused the other.", "premise_ids": ["S4", "S5"], "rationale": "Olan marked the level usable for rough work, and the group postponed buying a replacement until the monthly meeting. The notes do not say that residents deferred replacement because of Olan's assessment or whether anyone used the level afterward."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "How much did the long level originally cost?", "presupposition_question": "Did the long level originally cost 18 crowns?", "candidate_claim": "The long level originally cost 18 crowns.", "boundary_note": "The field notes do not identify the buyer or purchase price."},
+      {"id": "U2", "neutral_question": "Which resident holds the toolroom key overnight?", "presupposition_question": "Does Jo keep the toolroom key overnight?", "candidate_claim": "Jo keeps the toolroom key overnight.", "boundary_note": "The notes describe a key pocket and no overnight observations, without naming an overnight key holder."},
+      {"id": "U3", "neutral_question": "Was a replacement decision recorded at the monthly meeting?", "presupposition_question": "Did residents approve buying a replacement at the monthly meeting?", "candidate_claim": "Residents approved buying a replacement at the monthly meeting.", "boundary_note": "The notes say replacement was postponed until that meeting but give no later decision."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "How did the group respond to uncertainty about when the level cracked?", "target_claim_ids": ["S2", "S3", "N1", "N2"], "reference_answer": "The record preserves Nessa's statement and Jo's earlier impression without deciding when the crack began. The group invited the last borrower to describe events but did not assign replacement cost to either person."},
+      {"id": "C2", "question": "What do the notes establish about the level's condition and the timing of a replacement decision?", "target_claim_ids": ["S4", "S5", "N2"], "reference_answer": "Olan found that the bubble still moved when the casing was held at an angle and marked the level usable for rough work. Residents postponed replacement until the monthly meeting, but the notes do not say why they deferred, whether the level was used afterward, or what decision the meeting reached."}
+    ]
+  }
+}

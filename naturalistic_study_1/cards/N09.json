@@ -1,0 +1,29 @@
+{
+  "case_id": "N09",
+  "domain": "science_nature",
+  "title": "Humidity bands in reedlace acoustic tile",
+  "public_context": "At the fictional North Quay materials lab, engineers are studying a lightweight tile made from fired clay and a plant-derived binder. It is intended for indoor acoustic panels, where room humidity changes gradually. Samples develop a faint banded appearance during humid periods and return close to their original look after drying. This dossier summarizes measured changes and the limits of a proposed explanation.",
+  "source_title": "North Quay note on humidity response in reedlace tile",
+  "source_text": "All materials, measurements, and the North Quay laboratory in this dossier are fictional. Reedlace is a porous acoustic tile made from fired clay particles joined by a plant-derived binder and pressed through a patterned die. The development team examined 12 tiles from one production batch, each about 30 centimeters wide. Samples were held at stable room temperature while relative humidity moved from 35 percent to 65 percent and then returned to 35 percent over two cycles. Fixed-light photographs showed faint dark bands appearing within several hours at higher humidity. The bands ran in the same direction as the die's print lanes. After the chamber returned to its initial humidity, the tiles looked close to their starting appearance.\n\nTile mass rose by an average of 0.8 percent during the humid interval and returned near baseline after drying. Average thickness changed by less than 0.2 percent. A dense, glazed clay control exposed to the same humidity cycle gained about 0.1 percent mass and showed no visible bands. No surface cracking or flaking was recorded in the reedlace samples. The team repeated the cycle once, and the banding returned in the same general locations, although its contrast varied somewhat across tiles.\n\nThe confirmed finding is a reversible humidity-linked change in appearance accompanied by modest mass uptake in these samples. The researchers offer capillary water within connected pores as a working explanation: water could reduce optical scattering where pore and solid refractive indices differ. The alignment with print lanes suggests that material placement may shape the band pattern. The team therefore treats the pore-water account as plausible rather than established. The dossier documents a response in one tile batch and does not establish long-term performance in installed panels.",
+  "analyst_notes": {
+    "core_facts": [
+      "In 12 fictional reedlace tiles from one batch, faint dark bands appeared after humidity rose from 35 to 65 percent and faded near the starting appearance after drying.",
+      "Tile mass rose by about 0.8 percent during humid exposure and returned near baseline; thickness changed by less than 0.2 percent.",
+      "A dense glazed clay control gained about 0.1 percent mass and showed no visible bands under the same cycle.",
+      "Banding recurred in generally similar locations on a repeat cycle, with variable contrast."
+    ],
+    "explicit_negations": [
+      "The glazed control showed no visible bands.",
+      "No surface cracking or flaking was recorded in the reedlace samples."
+    ],
+    "source_boundaries": [
+      "The measurements cover one production batch and a short two-cycle humidity protocol; installed-panel lifetime is not established.",
+      "Pore water and refractive-index effects are a plausible interpretation, not a confirmed optical mechanism; the study did not collect pore-scale images or spectra.",
+      "The association between print-lane direction and band alignment does not by itself establish the microstructural cause."
+    ],
+    "consistency_checks": [
+      "State the humidity-linked appearance and mass changes as measured; keep the capillary-water explanation provisional.",
+      "Do not generalize short-cycle behavior from one batch to long-term performance after installation."
+    ]
+  }
+}

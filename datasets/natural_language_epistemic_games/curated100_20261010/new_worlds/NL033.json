@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL033",
+  "family_id": "business_competing_orders_expiring_stock_reservations",
+  "domain": "business_operations",
+  "title": "Valve-set reservation at the east warehouse",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "A warehouse may receive several requests for the same limited stock, with different levels of commitment and different deadlines. Reservation records distinguish a temporary hold from a confirmed allocation and show how released stock returns to the available count. The fictional report below concerns one product and a single busy morning.",
+  "source_title": "East Warehouse reservation desk incident report",
+  "source_text": "The east warehouse opened with five V-14 valve sets available on 6 March. Its reservation desk used three statuses: a quote hold lasted thirty minutes, a confirmed customer order held stock until dispatch, and a maintenance ticket reserved a set only after a technician scanned the equipment serial. Staff could not extend a quote hold by editing its original timestamp; the customer had to submit a new request.\n\nAt 8:05, Lumen Controls placed a quote hold on two sets while its purchasing officer sought internal approval. At 8:19, the service bay scanned a serial for two planned replacements, converting two sets to maintenance reservations. The availability count included Lumen's quote hold even though no valve set left the shelf. The desk showed one set still free. Lumen's approval arrived at 8:41, six minutes after its hold expired at 8:35, so the clerk could not convert that earlier hold. The purchasing officer submitted a new confirmed order for three sets instead.\n\nA second customer, Mica Works, had asked for four sets the previous afternoon but had not completed its payment authorization. The clerk called Mica before accepting Lumen's new order because the warehouse's posted rule gave confirmed orders precedence over unconfirmed requests, not earlier emails. Mica authorized payment for two sets and accepted delivery on a later truck. Lumen received the remaining one set immediately, with two more listed on a backorder for the next replenishment.\n\nThe warehouse count reconciled to four reserved sets and one dispatched set by noon. The two maintenance sets remained tagged in the service bay; they were not included in Lumen's backorder. No stock was removed from the shelf for Lumen while its first quote hold was active. The desk sent both customers a revised confirmation showing the quantity and delivery status, and each account representative acknowledged the change.\n\nThe report credits the shared log with making allocation changes visible. At noon, the clerk filed the revised confirmations behind the stock reconciliation and marked the customer orders for the next dispatch review. The afternoon clerk signed the reconciliation page and took over the shared log for the next reservation shift.",
+  "structure_tags": [
+    "temporary quote hold expires without extension",
+    "technician scan creates maintenance reservation",
+    "confirmed order precedence over earlier unconfirmed request"
+  ],
+  "authoring_note": "This warehouse report distinguishes time-limited quote holds, serial-linked maintenance reservations, and paid customer orders competing for stock.",
+  "evaluation": {
+    "supported_claims": [
+      {
+        "id": "S1",
+        "claim": "A quote hold lasted thirty minutes, a confirmed order held stock until dispatch, and maintenance reservation required a technician's serial scan.",
+        "evidence": [
+          "Its reservation desk used three statuses: a quote hold lasted thirty minutes, a confirmed customer order held stock until dispatch, and a maintenance ticket reserved a set only after a technician scanned the equipment serial."
+        ]
+      },
+      {
+        "id": "S2",
+        "claim": "Lumen's first two-set hold expired before approval, so it could not be converted and the new request was for three sets.",
+        "evidence": [
+          "Lumen's approval arrived at 8:41, six minutes after its hold expired at 8:35, so the clerk could not convert that earlier hold. The purchasing officer submitted a new confirmed order for three sets instead."
+        ]
+      },
+      {
+        "id": "S3",
+        "claim": "The service bay reserved two sets after scanning a serial.",
+        "evidence": [
+          "At 8:19, the service bay scanned a serial for two planned replacements, converting two sets to maintenance reservations."
+        ]
+      },
+      {
+        "id": "S4",
+        "claim": "Mica paid for two sets and accepted a later truck, while Lumen immediately received one and backordered two.",
+        "evidence": [
+          "Mica authorized payment for two sets and accepted delivery on a later truck. Lumen received the remaining one set immediately, with two more listed on a backorder for the next replenishment."
+        ]
+      },
+      {
+        "id": "S5",
+        "claim": "By noon the count reconciled to four reserved sets and one dispatched set.",
+        "evidence": [
+          "The warehouse count reconciled to four reserved sets and one dispatched set by noon."
+        ]
+      },
+      {
+        "id": "S6",
+        "claim": "Earlier unconfirmed emails did not outrank confirmed orders.",
+        "evidence": [
+          "The clerk called Mica before accepting Lumen's new order because the warehouse's posted rule gave confirmed orders precedence over unconfirmed requests, not earlier emails."
+        ]
+      }
+    ],
+    "explicit_negatives": [
+      {
+        "id": "N1",
+        "claim": "Staff could not extend an expired quote hold by editing its timestamp.",
+        "evidence": [
+          "Staff could not extend a quote hold by editing its original timestamp; the customer had to submit a new request."
+        ]
+      },
+      {
+        "id": "N2",
+        "claim": "No stock was removed for Lumen while its first quote hold was active.",
+        "evidence": [
+          "No stock was removed from the shelf for Lumen while its first quote hold was active."
+        ]
+      }
+    ],
+    "licensed_inferences": [
+      {
+        "id": "I1",
+        "claim": "Lumen's expired hold did not entitle it to the original two sets, even though it had requested them first.",
+        "premise_ids": [
+          "S1",
+          "S2",
+          "S6"
+        ],
+        "rationale": "The hold expired before approval, conversion was barred, and confirmed orders outranked unconfirmed requests."
+      },
+      {
+        "id": "I2",
+        "claim": "The noon inventory total includes service commitments as well as customer order fulfillment.",
+        "premise_ids": [
+          "S3",
+          "S4",
+          "S5"
+        ],
+        "rationale": "Two sets were reserved for maintenance, while customer stock was dispatched, backordered, or assigned a later truck."
+      }
+    ],
+    "unspecified_probes": [
+      {
+        "id": "U1",
+        "neutral_question": "Did the next replenishment arrive on schedule?",
+        "presupposition_question": "What allowed the next replenishment to arrive before Lumen's backorder deadline?",
+        "candidate_claim": "The next replenishment arrived before Lumen's backorder deadline.",
+        "boundary_note": "The report gives no arrival date or backorder deadline outcome."
+      },
+      {
+        "id": "U2",
+        "neutral_question": "Did Mica receive its two sets on the later truck?",
+        "presupposition_question": "How did Mica receive both sets on the later truck it accepted?",
+        "candidate_claim": "Mica received both sets on the later truck.",
+        "boundary_note": "The account records Mica's acceptance of a later truck but no delivery confirmation."
+      },
+      {
+        "id": "U3",
+        "neutral_question": "Were the two maintenance replacements completed?",
+        "presupposition_question": "How did the service bay install both reserved valve sets?",
+        "candidate_claim": "The service bay installed both reserved valve sets.",
+        "boundary_note": "The serial scan reserved stock but does not report repair completion."
+      }
+    ],
+    "consistency_questions": [
+      {
+        "id": "C1",
+        "question": "Why did Lumen receive fewer sets immediately than its first request suggested?",
+        "target_claim_ids": [
+          "S1",
+          "S2",
+          "S3",
+          "S6"
+        ],
+      "reference_answer": "The two-set quote hold expired before approval and could not be converted. Two sets were committed to a scanned maintenance ticket, and confirmed orders took precedence over earlier unconfirmed emails, so Lumen placed a new three-set order and received one immediately."
+      },
+      {
+        "id": "C2",
+        "question": "How do the service reservation and the customer delivery statuses fit the noon count?",
+        "target_claim_ids": [
+          "S3",
+          "S4",
+          "S5"
+        ],
+        "reference_answer": "Two sets remained reserved for maintenance, one customer set had dispatched, Mica's two were assigned to a later truck, and two Lumen sets were backordered; the reported count was four reserved and one dispatched."
+      }
+    ]
+  }
+}

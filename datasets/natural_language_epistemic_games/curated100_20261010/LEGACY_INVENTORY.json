@@ -1,0 +1,764 @@
+{
+  "schema_version": 1,
+  "inventory_id": "legacy_natural_language_worlds_20261010",
+  "counting_unit": "One distinct fictional source-world/case family. Alternate full source texts and counterfactual versions remain variants within that family.",
+  "world_count": 30,
+  "full_source_text_count": 42,
+  "worlds": [
+    {
+      "legacy_id": "LEGACY_N01",
+      "original_ids": [
+        "N01"
+      ],
+      "domain": "history_institutions",
+      "topic": "evening berth, inspection admission, and port queue order",
+      "title": "The Veyran Evening Berth Accord",
+      "public_context": "This fictional dossier concerns an agreement between neighboring river ports about vessels arriving late in the day. The setting uses familiar institutions: harbor offices, cargo clerks, municipal councils, merchant complaints and written ledgers. The agreement acquired a short popular name, the Evening Berth Accord. Discuss its operation and historical setting as described in the dossier, rather than treating it as a real treaty.",
+      "source_text": "The Evening Berth Accord was adopted by the fictional ports of Veyran and Ostel in the ninth year of the River Council. It addressed a recurring dispute: vessels arriving near dusk could obtain a sheltered berth but could not finish cargo inspection before the warehouse clerks departed. Captains sometimes treated an overnight berth as permission to unload, leaving the morning office to reconstruct what had entered the town.\n\nThe accord separated shelter from admission. A harbor keeper could assign an overnight berth after recording the vessel, captain and declared cargo in a blue arrival ledger. This entry protected the captain's place in the next inspection queue; it did not authorize sale or unloading. The warehouse office, not the keeper, issued an admission mark after inspection. Passenger baggage and a small quantity of food for the crew could be brought ashore in the keeper's presence, but neither exception extended to goods offered for trade.\n\nPriority was normally the order of blue-ledger entries. A vessel carrying a leaking cargo could be moved ahead to prevent damage to neighboring boats, provided the keeper entered a reason and a second harbor employee signed it. The concession changed inspection order without waiving inspection. Cargo owners could complain to a joint committee, which met alternately in the two ports every six weeks. It could correct a ledger entry and order repayment of a berth charge, but it could not grant exemption from municipal cargo dues.\n\nThe surviving digest reproduces eleven complaints from the first season. Eight concerned queue order and three concerned charges; none alleged that the accord had abolished customs inspection. A council marginal note credits the shared ledger format with reducing disputes between the ports. The digest treats that explanation as the council's assessment, rather than a measured comparison with the previous season.",
+      "variants": [],
+      "source_reference": {
+        "path": "naturalistic_study_1/cards/N01.json",
+        "json_key": "source_text"
+      },
+      "family_notes": [
+        "One card-level source world; any role assignment or replay using this card does not add a world.",
+        "Draft naturalistic material; its presence in the inventory does not establish qualification or statistical independence."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_N02",
+      "original_ids": [
+        "N02"
+      ],
+      "domain": "history_institutions",
+      "topic": "guild repair seals, independent inspection, and liability",
+      "title": "The Kelvor Guild's Joint Seal",
+      "public_context": "The fictional town of Kelvor had a guild of instrument makers whose repair work sometimes crossed workshop boundaries. A short institutional dossier describes a practice called the joint seal and its relation to training, responsibility and disputes over workmanship. The setting involves ordinary craft institutions and apprenticeship. The guild and its records are invented; answer from the dossier if you have access to it.",
+      "source_text": "Kelvor's instrument makers introduced the joint seal after a series of disputes over repaired measuring balances. A balance could pass through several workshops, and customers sometimes found that every maker blamed a different stage of the repair. The guild's register records the new practice in its forty-second annual volume, alongside workshop transfers and apprentice examinations.\n\nA joint seal consisted of two workshop marks impressed into a narrow strip attached to the repaired instrument's case. One mark identified the workshop that performed the work; the other identified a workshop that inspected the completed repair. The inspector had to examine the instrument after assembly. Signing a plan or lending a tool did not qualify as inspection. The seal recorded responsibility for the stated repair and its inspection, not a promise that every component was new. A maker could inspect another workshop's repair even when the two shops had previously competed for the same customer.\n\nSenior apprentices could perform work entered under their supervising workshop's mark. They could explain the procedure at the inspection, but they could not supply the second workshop mark on their own authority. If the supervising master was absent, the repaired instrument remained in the workshop until another authorized member accepted responsibility for that first mark. This was distinct from the independent inspector's responsibility.\n\nWhen a customer challenged a sealed repair, the guild required both workshops to attend a hearing. The hearing could assign the cost of correction to one workshop, divide it, or dismiss the complaint. Shared attendance therefore did not imply equal liability. The register includes a case in which the repairing shop paid for correction while the inspector paid only the repeat examination fee.\n\nThe guild clerk described the seal as a way to make a chain of responsibility visible. Its adoption did not prohibit unsealed repairs: those could still be sold, but they could not be advertised as guild-inspected work.",
+      "variants": [],
+      "source_reference": {
+        "path": "naturalistic_study_1/cards/N02.json",
+        "json_key": "source_text"
+      },
+      "family_notes": [
+        "One card-level source world; any role assignment or replay using this card does not add a world.",
+        "Draft naturalistic material; its presence in the inventory does not establish qualification or statistical independence."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_N03",
+      "original_ids": [
+        "N03"
+      ],
+      "domain": "history_institutions",
+      "topic": "archaeological storage slips and the interpretation of a sealed deposit",
+      "title": "The Ash-Step Archive at Morven Reach",
+      "public_context": "This invented archaeological dossier concerns a river settlement called Morven Reach, where excavators recovered an unusual group of inscribed clay pieces near a damaged stairway. The report connects physical context, document use and competing interpretations. Its vocabulary draws on familiar archaeological practice, but the site and findings are fictional. Discuss what the reported evidence supports without assuming that a complete history of the settlement is available.",
+      "source_text": "The ash-step deposit at Morven Reach was uncovered beneath the landing of a stairway leading from a riverside storehouse to an upper courtyard. The excavation team found thirty-six thin clay slips in a layer containing charcoal, collapsed plaster and fragments of a wooden box. Most slips carried a short name, a quantity and a repeated sign resembling a forked reed. Seven also carried a small circular impression on the reverse.\n\nThe report identifies the slips as records of temporary storage allocations. This interpretation rests on their concentration beside the storehouse and on a courtyard wall inscription that pairs the forked-reed sign with a phrase translated provisionally as held until collection. The names are interpreted as depositors, not necessarily owners of the building. The circular impression occurs on slips with several different names and quantities. The team therefore rejects the suggestion that it identified one particular family; they tentatively associate it with a completed collection or another closing action.\n\nThe slips were fired before they entered the ash layer. Several bear worn edges underneath later soot, so the report does not treat the building fire as the event that made the clay durable. Nor does it treat charcoal alone as evidence of an attack. A scorched beam and a repaired hearth show that fire occurred, while the cause remains a matter of interpretation.\n\nThe deposit includes two slips with the same name and quantity but different small strokes beside the quantity. The report proposes that these strokes may record installments, while acknowledging that revisions or separate storage occasions would also fit. It does not combine the pair into a single confirmed transaction.\n\nA later paving surface sealed the stairway landing. That sequence places disposal before the paving, but the report assigns neither event an exact year. The report's strongest claim is a localized record-keeping practice linked to storage, rather than a reconstruction of the settlement's entire tax system.",
+      "variants": [],
+      "source_reference": {
+        "path": "naturalistic_study_1/cards/N03.json",
+        "json_key": "source_text"
+      },
+      "family_notes": [
+        "One card-level source world; any role assignment or replay using this card does not add a world.",
+        "Draft naturalistic material; its presence in the inventory does not establish qualification or statistical independence."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_N04",
+      "original_ids": [
+        "N04"
+      ],
+      "domain": "anthropology_social",
+      "topic": "neighborhood custom around the ferry's after-dark timetable",
+      "title": "The Lantern Passage at Mallow Quay",
+      "public_context": "This openly synthetic micro-dossier concerns an invented coastal neighborhood with an everyday passenger ferry, a public timetable office, and seasonal changes to the service. It is presented as a short local archive account. The place, people, event, and institutions are fictional; the details are designed to read like an ordinary community record rather than a puzzle or a report about a real culture.",
+      "source_text": "Compiled from ferry-room notebooks and two interviews, 2019–2024.\n\nIn Mallow Quay, the Lantern Passage marks the first week the passenger ferry resumes its after-dark crossing after the winter timetable. Residents meet at the old ticket window shortly before sunset. It is a neighborhood custom, not a civic ceremony, and people who live elsewhere can walk along if invited.\n\nA retired deck lamp, cleaned but left visibly dented from a 2016 storm, is carried from the ferry room to the beacon stair. The outgoing winter dispatcher gives it to the incoming timetable keeper, whose name has already been entered in the station's ordinary duty book. The handover is not an appointment: the ferry cooperative assigned the keeper in February after its members reviewed availability and training. This distinction matters because visitors sometimes describe the lamp as choosing its bearer.\n\nThe walk pauses where the lane meets the beach. A bell is struck once when the harbor clock reaches the posted departure time, whether or not a boat is visible. At the stair landing, the keeper turns the lamp down and reads the first crossing time; neighbors then continue to the waiting shed, where tea is served from a flask kept by the ticket clerk. In recent years, families have brought folding chairs, and the walk has become less formal.\n\nLongtime residents describe the custom as a way of recognizing the people who maintain an evening service. No prayer or pledge is part of the recorded sequence. Nor does participation give anyone a fare discount, a berth, or a say in ferry scheduling. Notebooks list occasional absences when weather prevented the walk; the timetable still began on the date set by the cooperative.",
+      "variants": [],
+      "source_reference": {
+        "path": "naturalistic_study_1/cards/N04.json",
+        "json_key": "source_text"
+      },
+      "family_notes": [
+        "One card-level source world; any role assignment or replay using this card does not add a world.",
+        "Draft naturalistic material; its presence in the inventory does not establish qualification or statistical independence."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_N05",
+      "original_ids": [
+        "N05"
+      ],
+      "domain": "anthropology_social",
+      "topic": "orchard plot-use claims and successor eligibility",
+      "title": "Use Claims at Fenlock Hill Orchard",
+      "public_context": "This openly synthetic micro-dossier is set in a fictional orchard district where several households share a cooperative hillside and keep local records about its upkeep. It resembles familiar small-town property and family arrangements, while naming only invented people and institutions. The passage is an archival summary for a social-institution study; it does not describe an actual community or reproduce a real legal system.",
+      "source_text": "Condensed from meeting minutes and maintenance books, 1987–2023.\n\nFenlock's Hill Orchard occupies a slope above the bus road. The Fenlock Hill Association owns the whole tract, including its retaining wall, pump shed, and twenty-four numbered tree plots. Member households hold continuing use claims to individual plots. The claims cannot be sold outside the association, although a household may name a successor in its annual return.\n\nWhen a claim-holder dies, the register leaves the plot with the household through the end of that year's harvest. At the winter meeting, the household may continue the claim under one adult's name. The clerk records the successor after members confirm that the person has taken part in two orchard workdays during the previous three seasons. Workdays can include pruning, pump cleaning, or wall repair; picking fruit is not counted for this purpose. If no successor is recorded by the meeting, the claim returns to the association's unassigned list for the next season.\n\nMinutes from 2017 describe Mara Venn taking over plot 8 after her aunt died. Her cousins had helped with picking, but Mara had logged pump cleaning and pruning on two spring workdays. The clerk entered Mara's name for plot 8 and noted that the household's ladder and hand tools stayed with the family.\n\nThe association's chair says the return is meant to pair access with care for the shared slope. Members still debate whether two workdays are enough in years of illness or poor weather. The rule is written into the local register, not a civil inheritance code. It does not govern household money, houses on private lots, or personal tools.",
+      "variants": [],
+      "source_reference": {
+        "path": "naturalistic_study_1/cards/N05.json",
+        "json_key": "source_text"
+      },
+      "family_notes": [
+        "One card-level source world; any role assignment or replay using this card does not add a world.",
+        "Draft naturalistic material; its presence in the inventory does not establish qualification or statistical independence."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_N06",
+      "original_ids": [
+        "N06"
+      ],
+      "domain": "anthropology_social",
+      "topic": "cooperative press access, harvest shifts, and seasonal maintenance",
+      "title": "Harvest Work at the Gable Press Cooperative",
+      "public_context": "This openly synthetic micro-dossier follows a fictional hill town with small orchards, a shared cider press, and a narrow harvest season. It is written as a local cooperative history in familiar terms such as shift boards, meals, and equipment cleaning. All names and institutions are invented, and the account should be read as an ordinary record of collective seasonal work.",
+      "source_text": "Excerpts from the Gable Press Cooperative season books, Tarrow Mill, 1998–2024.\n\nThe press sits behind the former flour store and serves households from three lanes of hillside orchards. Plums arrive first, followed by early apples and then late keepers. The work season usually runs from the last week of August through the third week of October, but the foreman opens each fruit lot when a sample tray is ready rather than by a fixed calendar date.\n\nA household may reserve a pressing slot after one adult has completed a cooperative shift that season. A shift is four hours and may involve washing crates, sorting fruit, tending the belt press, or cleaning the settling room. The household receives one booking token for its first shift; later shifts earn a shared credit toward repairs, not additional priority. Tokens can be given to another household before its lot is weighed, but once weighing begins the slot stays with the lot listed on the board.\n\nOn busy days, the foreman moves the queue if fruit is bruising or a machine needs cleaning. The board records the reason and keeps the original token with the household, so a delay does not erase a completed shift. Cooperative notes from 2011 mention a family whose booked fruit waited overnight while a belt was replaced; they received the next safe pressing slot and helped wash the equipment before work resumed.\n\nMeals rotate among households working the evening shift. The host brings soup or bread, while the cooperative supplies cider from the prior season. A shift is not a wage, and tokens cannot be exchanged for cash. The arrangement covers press access and seasonal maintenance; it does not set orchard ownership or decide who may sell finished cider.",
+      "variants": [],
+      "source_reference": {
+        "path": "naturalistic_study_1/cards/N06.json",
+        "json_key": "source_text"
+      },
+      "family_notes": [
+        "One card-level source world; any role assignment or replay using this card does not add a world.",
+        "Draft naturalistic material; its presence in the inventory does not establish qualification or statistical independence."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_N07",
+      "original_ids": [
+        "N07"
+      ],
+      "domain": "science_nature",
+      "topic": "leaf-posture response to flooding and root-zone aeration",
+      "title": "The rain-lift response of lantern fenleaf",
+      "public_context": "In the fictional Alderwash reserve, a recently surveyed wetland herb called lantern fenleaf shares shallow seasonal pools with familiar grasses and sedges. Field notes describe an unusual change in leaf posture after water levels rise. The observation has drawn interest because nearby plants experience similar weather without showing the same visible shift. This dossier summarizes measurements from one small study.",
+      "source_text": "All organisms, sites, and measurements in this dossier are fictional. Lantern fenleaf is a low herb recorded along shallow pools at Alderwash, a temperate reserve. During two spring surveys, observers marked 24 plants on a low shelf that flooded briefly after rain and 20 plants on a nearby raised shelf. Within six hours of inundation, low-shelf plants held their youngest leaves at a steeper angle; the raised-shelf plants changed little. Leaf angle was measured from fixed photographs, and the same tagged plants were followed for three days. The shift was most visible in new leaves and faded after the water receded. No plants died, and flower number did not differ detectably between shelves during the survey.\n\nTo separate water contact from other field conditions, a greenhouse trial used 48 nursery-grown plants from one seed lot. Pots received equal light, temperature, and water volume. Half had root-zone air exchange restricted for eight hours while drainage openings were covered; the remainder drained freely. The restricted group showed a larger average upward leaf-angle change. In a small follow-up, reopening the covered openings was followed by partial return toward baseline within a day. Spraying the foliage without restricting drainage produced no comparable shift. Leaf temperature and stem thickness were similar between groups.\n\nThe authors confirm a repeatable posture change under the tested low-aeration treatment and its partial reversibility after drainage resumed. They suggest that low root-zone aeration may trigger a hydraulic or chemical signal that changes leaf growth or turgor. Ethylene signaling is discussed as one candidate because flooding responses in plants can involve it. Closing drainage changes more than gas exchange, so the treatment does not isolate oxygen availability. The team treats this as a provisional account of the response, not a demonstrated signaling pathway. Its observations support a bounded response under the tested conditions; they do not establish a survival advantage or a general account of the species.",
+      "variants": [],
+      "source_reference": {
+        "path": "naturalistic_study_1/cards/N07.json",
+        "json_key": "source_text"
+      },
+      "family_notes": [
+        "One card-level source world; any role assignment or replay using this card does not add a world.",
+        "Draft naturalistic material; its presence in the inventory does not establish qualification or statistical independence."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_N08",
+      "original_ids": [
+        "N08"
+      ],
+      "domain": "science_nature",
+      "topic": "larval case orientation under stream-current conditions",
+      "title": "Current-following cases of the shale ribbon larva",
+      "public_context": "At the fictional Bracken Cut, a shallow stream crossing a wooded park, researchers have tracked a small case-building larva that attaches fragments of leaf litter to its shelter. Case shape and orientation appear to vary across reaches with different current speeds, even where the streambed looks similar. The dossier combines field observations with a controlled channel study and distinguishes repeatable behavior from a proposed sensory explanation.",
+      "source_text": "All organisms, sites, and measurements in this dossier are fictional. The shale ribbon larva is a small stream insect that carries a portable case assembled from overlapping leaf fragments. Each case has a clear open mouth and tapered rear, so researchers can score its facing direction. Researchers compared four slow-water reaches and four faster reaches along Bracken Cut, a wooded stream. They photographed 30 occupied cases per reach against a marked scale. In the faster reaches, most cases lay with their long axis parallel to the current; in still pools, orientations were scattered. Field photographs recorded only the long axis, an undirected measure. Larval body length, water temperature, and the broad mix of leaf fragments were similar across the two reach types. The field pattern suggested an association with flow but could not isolate its cause.\n\nA recirculating channel trial followed 36 larvae collected from a slow reach. The channel provided a gravel bed and a steady light field. At low current, open-mouth direction showed no consistent change over 20 minutes. After the current rose, 29 of 36 larvae turned the mouth end upstream within 20 minutes. When flow reversed at constant speed, 23 of 36 turned the mouth end toward the new upstream within 12 minutes. Changing the light direction without changing the current produced no comparable turn. Larvae remained attached to their cases and resumed crawling or feeding after the observation period.\n\nThe team confirms that open-mouth direction tracked current direction in this channel setup. They propose that movement of water across the larva or case prompts repositioning, perhaps through sensory input near the body. The team treats this as a working interpretation; current-linked turning remains the confirmed result. The study's confirmed outcome is turning behavior.",
+      "variants": [],
+      "source_reference": {
+        "path": "naturalistic_study_1/cards/N08.json",
+        "json_key": "source_text"
+      },
+      "family_notes": [
+        "One card-level source world; any role assignment or replay using this card does not add a world.",
+        "Draft naturalistic material; its presence in the inventory does not establish qualification or statistical independence."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_N09",
+      "original_ids": [
+        "N09"
+      ],
+      "domain": "science_nature",
+      "topic": "humidity bands and acoustic-tile behavior",
+      "title": "Humidity bands in reedlace acoustic tile",
+      "public_context": "At the fictional North Quay materials lab, engineers are studying a lightweight tile made from fired clay and a plant-derived binder. It is intended for indoor acoustic panels, where room humidity changes gradually. Samples develop a faint banded appearance during humid periods and return close to their original look after drying. This dossier summarizes measured changes and the limits of a proposed explanation.",
+      "source_text": "All materials, measurements, and the North Quay laboratory in this dossier are fictional. Reedlace is a porous acoustic tile made from fired clay particles joined by a plant-derived binder and pressed through a patterned die. The development team examined 12 tiles from one production batch, each about 30 centimeters wide. Samples were held at stable room temperature while relative humidity moved from 35 percent to 65 percent and then returned to 35 percent over two cycles. Fixed-light photographs showed faint dark bands appearing within several hours at higher humidity. The bands ran in the same direction as the die's print lanes. After the chamber returned to its initial humidity, the tiles looked close to their starting appearance.\n\nTile mass rose by an average of 0.8 percent during the humid interval and returned near baseline after drying. Average thickness changed by less than 0.2 percent. A dense, glazed clay control exposed to the same humidity cycle gained about 0.1 percent mass and showed no visible bands. No surface cracking or flaking was recorded in the reedlace samples. The team repeated the cycle once, and the banding returned in the same general locations, although its contrast varied somewhat across tiles.\n\nThe confirmed finding is a reversible humidity-linked change in appearance accompanied by modest mass uptake in these samples. The researchers offer capillary water within connected pores as a working explanation: water could reduce optical scattering where pore and solid refractive indices differ. The alignment with print lanes suggests that material placement may shape the band pattern. The team therefore treats the pore-water account as plausible rather than established. The dossier documents a response in one tile batch and does not establish long-term performance in installed panels.",
+      "variants": [],
+      "source_reference": {
+        "path": "naturalistic_study_1/cards/N09.json",
+        "json_key": "source_text"
+      },
+      "family_notes": [
+        "One card-level source world; any role assignment or replay using this card does not add a world.",
+        "Draft naturalistic material; its presence in the inventory does not establish qualification or statistical independence."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_N10",
+      "original_ids": [
+        "N10"
+      ],
+      "domain": "math_language",
+      "topic": "Vale Strip Balance: mathematical and linguistic procedure",
+      "title": "Vale Strip Balance",
+      "public_context": "The Vale Institute and its bead-strip registry are fictional. Clerks compare finite, nonempty rows of integer labels and sometimes discuss a row after every label is increased by the same amount or after the row is read backward. The registry uses a numerical balance for filing related strips. Its scoring convention is withheld from this public description; the dossier gives the complete construction and examples.",
+      "source_text": "At the fictional Vale Institute, a strip is a finite, nonempty ordered row of integer labels. Its balance is computed by numbering positions from the left, beginning with one. Add the labels in odd-numbered positions to obtain O, and add those in even-numbered positions to obtain E. The registered balance is |O − E|, the absolute difference; it is never the signed difference. Position parity depends on a label's place in the row, not on whether the label itself is odd or even.\n\nIn daily work, the balance is a quick shelf index: strips with similar balances are filed nearby so clerks can find candidates before checking a full row. It is not a unique identifier; different strips can share one balance, and the labels remain the definitive record.\n\nFor the strip [4, 1, 6], O = 4 + 6 = 10 and E = 1, so the balance is 9. For [4, 1, 6, 3], O = 4 + 6 = 10 and E = 1 + 3 = 4, giving 6. Reading that four-label strip backward gives [3, 6, 1, 4]: O = 3 + 1 = 4 and E = 6 + 4 = 10, so its balance is also 6. Reversal preserves the result because it either keeps the two position groups in place or exchanges them, and the absolute difference is unchanged.\n\nUniform changes have a length-dependent consequence. Adding 2 to every entry of the three-label strip gives [6, 3, 8], with O = 14 and E = 3; the balance rises from 9 to 11. For an even-length strip, adding the same amount contributes equally to O and E, so the balance is unchanged: [4, 1, 6, 3] becomes [6, 3, 8, 5], with O = 14 and E = 8, still giving 6. These identities follow from the construction and apply to any integer labels. The institute records no balance for an empty strip.",
+      "variants": [],
+      "source_reference": {
+        "path": "naturalistic_study_1/cards/N10.json",
+        "json_key": "source_text"
+      },
+      "family_notes": [
+        "One card-level source world; any role assignment or replay using this card does not add a world.",
+        "Draft naturalistic material; its presence in the inventory does not establish qualification or statistical independence."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_N11",
+      "original_ids": [
+        "N11"
+      ],
+      "domain": "math_language",
+      "topic": "Rovelin final-stop patterns",
+      "title": "Final Stops in Rovelin",
+      "public_context": "Rovelin is a fictional language recorded in a small historical grammar. The dossier compares older reconstructed forms with current pronunciations and includes a few inflected words and later borrowings. The pattern concerns a familiar class of consonants and a word boundary, with some lexical history affecting the modern forms. The public description names the topic but does not state the sound change.",
+      "source_text": "Rovelin is a fictional language. In inherited vocabulary, the voiced stops /b/, /d/, and /g/ are pronounced voiceless as [p], [t], and [k] when they stand at the end of a phonological word. The change is limited to that final position: a voiced stop between vowels remains voiced, as in /daba/ [daba], ‘to weave’. The standard spelling preserves the inherited stop letter, while the pronunciation key records the devoiced sound.\n\nThe contrast is visible in related forms. The inherited noun /gub/ ‘jar’ is [gup] when cited alone. With the vowel-initial plural ending /-i/, it is /gub-i/ [gubi]; the /b/ is no longer word-final and remains voiced. Likewise, /bad/ ‘reed’ is [bat] alone but /bad-en/ [baden] ‘reeds’ with the plural ending. The ending does not itself change the stem's underlying consonant; it changes the position in which that consonant is heard.\n\nTwo historical groups do not follow the inherited pattern. Recent loans adopted after the change retain their original final voicing in careful Rovelin, as in trade term /zeb/ [zeb]. A small set of ceremonial names also preserves final [d] in the fixed recitation register, although the same names take [t] in ordinary conversation. These are limited lexical and register exceptions, not evidence that every final stop may vary freely. The grammar treats them as two distinct exception types rather than a productive alternation.\n\nThe pronunciation rule applies to phonological-word edges, not merely spaces in a printed sentence. A suffix that joins the stem forms one word; a pause or a separate following word does not restore voicing. The description covers the standard northern pronunciation and inherited forms listed in the appendix, rather than every regional accent or the full history of Rovelin.",
+      "variants": [],
+      "source_reference": {
+        "path": "naturalistic_study_1/cards/N11.json",
+        "json_key": "source_text"
+      },
+      "family_notes": [
+        "One card-level source world; any role assignment or replay using this card does not add a world.",
+        "Draft naturalistic material; its presence in the inventory does not establish qualification or statistical independence."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_N12",
+      "original_ids": [
+        "N12"
+      ],
+      "domain": "math_language",
+      "topic": "Keldan petition folio and its language rules",
+      "title": "Keldan Petition Folio",
+      "public_context": "The Keldan Water Board and its clerical register are fictional. The board receives written requests about shared canal turns, sluice repairs, and well access. Its clerks distinguish petitions from witness quotations and final board orders. A short archive dossier describes one formal writing convention and the circumstances in which it is used; the convention itself is not stated in this context.",
+      "source_text": "The Keldan Water Board keeps a formal petition register for requests about canal turns, sluice repairs, and access to shared wells. A petition begins with a heading naming the office responsible for the matter, followed by a body that states the requested action before giving its grounds. The ordinary closing formula is ‘el var’, literally ‘placed for decision’. It marks submission for the board's consideration; it does not mean that the request has been approved.\n\nA typical folio reads: ‘East Sluice Office’ as the heading; ‘Reserve two night turns for the upper channel’ as the requested action; ‘The lower gate is being repaired this week’ as the grounds; and ‘el var’ as the closing. The clerk reads the heading, action, grounds, then closing when the petition is presented at a meeting. If a request is fully specified by an attached allocation schedule, the grounds sentence may be omitted, but the office heading and closing formula remain. A petition can therefore be concise without losing its register form.\n\nThe format is not used to turn every statement into a request. Witness testimony is copied under a ‘Witness words’ label in the speaker's original order, and the clerk does not append ‘el var’ to the quotation. A board decision is entered separately under ‘Order’ and receives the seal notation ‘sanet’; that notation records adoption, while ‘el var’ only records submission. Direct maintenance instructions issued by an office also use the order format, rather than the petition closing.\n\nThis convention belongs to Keldan's formal water-board paperwork. It supports routing, reading aloud, and later retrieval of requests; it does not prescribe everyday conversation or establish that the stated grounds are true. The archive guide describes the petition frame, its permitted short form, and its distinction from testimony and adopted orders.",
+      "variants": [],
+      "source_reference": {
+        "path": "naturalistic_study_1/cards/N12.json",
+        "json_key": "source_text"
+      },
+      "family_notes": [
+        "One card-level source world; any role assignment or replay using this card does not add a world.",
+        "Draft naturalistic material; its presence in the inventory does not establish qualification or statistical independence."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_S01",
+      "original_ids": [
+        "S01"
+      ],
+      "domain": "social_institution",
+      "topic": "community seed-room register, collection limits, and failed-crop eligibility",
+      "title": "Orren Seed Room: autumn register extract",
+      "public_context": "This fictional local-history dossier concerns a village seed room used by household gardeners. Its setting includes member lists, numbered packets, seasonal returns, volunteer work and a clerk's register. All people and institutions are invented. Discuss the arrangements described in the dossier as a specific local practice, rather than treating them as universal agricultural or inheritance rules.",
+      "source_text": "The Orren Seed Room occupies two cupboards in the former school porch. Its surviving register covers 2009–2022 and lists thirty-one member households. The room lends planting seed, not food grain. Each spring a household can collect one numbered packet for each of two named garden beds. The register records the packet number, crop and receiving household; it does not record the gardener's land ownership.\n\nAt the autumn meeting, members return dried seed from the resulting crop. A return is recorded as a contribution to the common stock, not repayment of the same physical seeds. The clerk checks that the packet carries a crop name and harvest year. It stays on a separate shelf until two volunteers have inspected it for visible mould and mixed debris. This inspection is not a germination test or certification of varietal purity.\n\nMembers whose crop failed may bring an empty packet bearing the original loan number and a short account of the failure. The register keeps them eligible for the following spring; it does not require replacement seed purchased elsewhere. A larger successful return does not increase a household's two-bed allowance. Households may give seed privately to neighbours, but cannot transfer a registered collection slot without the clerk changing its name before the spring distribution.\n\nIn 2016, Edda Rill returned empty packets for beds 4 and 9 after standing water spoiled her bean crop. Her next spring collection remained recorded. In the same meeting, Toben Marr brought three jars of pea seed; the surplus entered the common stock without giving him a third bed allocation. Neither entry reports how much seed the following season produced.\n\nThe annual cleaning afternoon is voluntary and separate from collection eligibility. Minutes attribute the empty-packet arrangement to keeping failed crops visible in the register instead of encouraging silent withdrawals. They do not compare failure rates before and after its adoption.",
+      "variants": [],
+      "source_reference": {
+        "path": "strategic_bluff_pilot/cards/S01.json",
+        "json_key": "source_text"
+      },
+      "family_notes": [
+        "The same source card is reused across natural/strong instructions, retry and completion trajectories; those conditions do not add source worlds."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_S02",
+      "original_ids": [
+        "S02"
+      ],
+      "domain": "science_nature",
+      "topic": "dapplefin contrast observations at a fictional field station",
+      "title": "Dapplefin contrast notes from the Vale Mere station",
+      "public_context": "This fictional biological dossier describes a small pond fish whose fin markings vary in visibility. It uses familiar field and laboratory practices such as specimen counts, tank transfers, background panels and comparison photographs. The species, station and observations are invented. Explain the particular evidence and interpretations in the dossier, without treating it as an established real-world discovery.",
+      "source_text": "Vale Mere station calls the fish dapplefin because adults carry a row of pale spots along the rear edge of the dorsal fin. A notebook by Sera Nol covers three ponds sampled in May 2021. The team recorded thirty-two adults: twelve at East Cut, eleven at Willow Basin and nine at the Old Mill pool. Spots were conspicuous against dark submerged leaves and less conspicuous over pale sand. The field notes alone did not distinguish a change in the fish from a change in viewing contrast.\n\nThe station later kept eighteen adults in three tanks, six per tank. Each tank had a removable dark panel and a pale panel, with lamp position, feeding time and water supply held constant. Observers moved the panels rather than adding coloured dye or changing the lamp. They photographed the same fish beside a white reference card after two hours on each background. Fourteen fish showed a broader pale spot margin after the dark-panel period; four showed no clear difference in the photographs. The notebook does not label the four as a separate variety.\n\nSix of the fourteen responsive fish were transferred from a dark panel to a pale panel and then back again on the next day. All six narrowed and widened the visible margins in that order. Removing a panel briefly for photography did not immediately erase the pattern. This supports a reversible response over the tested interval, but the notes give no observation beyond the two-day transfer sequence.\n\nNol proposes that cells beneath the spot boundary alter pigment distribution. No cells were counted, and neither hormones nor gene expression were measured. The team did not test whether the spots attract mates or confuse predators. It also did not compare juveniles, measure body growth, or record a salinity threshold.\n\nA caption distinguishes spot width from the number of spots: the photographs concern the visible margins, not newly appearing spots. The author treats background-associated adjustment as the working interpretation while leaving handling stress and imperfect photographic scoring as unresolved limitations.",
+      "variants": [],
+      "source_reference": {
+        "path": "strategic_bluff_pilot/cards/S02.json",
+        "json_key": "source_text"
+      },
+      "family_notes": [
+        "The same source card is reused across natural/strong instructions, retry and completion trajectories; those conditions do not add source worlds."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_EB01",
+      "original_ids": [
+        "EB01"
+      ],
+      "domain": "materials_science",
+      "topic": "laminated panel shape changes after damp/dry room transfers",
+      "title": "Foldglass panels across damp and dry rooms",
+      "public_context": "A fictional workshop dossier studies thin laminated panels that change shape between damp and dry rooms. Familiar laboratory practices include trays, timed transfers, reference photographs and repeat observations. The workshop, panel names, people and observations are invented. Discuss the particular dossier rather than established facts about a real product.",
+      "source_text": "Corda workshop calls its thin laminated test panels foldglass. A bench notebook by Maro Pell, dated September 2019, compares their shape after movement between a damp room and a dry room. The workshop uses these panels as experimental samples rather than approved building components. Each sample carries an inked identifier that remains attached throughout the sequence.\n\nThe notebook follows 24 panels in four shallow trays, with 6 panels in each tray. The observers keep the tray supports and room lamps unchanged. They move whole trays rather than spray individual panels. After three hours in each room, they photograph each identified sample beside the same square-grid reference card. The card supplies a visual reference, not a reported angle measurement.\n\nAfter the damp-room period, 16 panels have their free edges visibly raised; the remaining 8 have no clear change in the photographs. The notebook does not identify the unresponsive samples as a separate manufacturing batch. Its comparison concerns edge shape, not the appearance of a new coating or a different ink label.\n\nOn the next day, 7 responsive panels undergo a damp-to-dry-to-damp sequence. All 7 flatten and then raise their edges again in that order. Brief removal from a room for photography does not immediately erase the observed shape. The recorded sequence covers two days and supports reversibility only over that observed interval.\n\nThe author proposes unequal moisture uptake across the laminated layers as a working explanation. Room transfers alone do not isolate that mechanism from temperature drift or handling effects. The notebook treats these as unresolved alternatives and warns that judging an edge from a photograph can depend on camera position.\n\nNo internal-layer microscopy was performed. No outdoor-weather exposure trial was conducted. The team did not test repeated cycling over several weeks.",
+      "variants": [
+        {
+          "variant_id": "source_1",
+          "source_text": "Paven workshop calls its thin laminated test panels reedleaf. A bench notebook by Tessa Rin, dated November 2018, compares their shape after movement between a damp room and a dry room. The workshop uses these panels as experimental samples rather than approved building components. Each sample carries an inked identifier that remains attached throughout the sequence.\n\nThe notebook follows 32 panels in four shallow trays, with 8 panels in each tray. The observers keep the tray supports and room lamps unchanged. They move whole trays rather than spray individual panels. After three hours in each room, they photograph each identified sample beside the same square-grid reference card. The card supplies a visual reference, not a reported angle measurement.\n\nAfter the damp-room period, 24 panels have their free edges visibly raised; the remaining 8 have no clear change in the photographs. The notebook does not identify the unresponsive samples as a separate manufacturing batch. Its comparison concerns edge shape, not the appearance of a new coating or a different ink label.\n\nOn the next day, 6 responsive panels undergo a damp-to-dry-to-damp sequence. All 6 flatten and then raise their edges again in that order. Brief removal from a room for photography does not immediately erase the observed shape. The recorded sequence covers two days and supports reversibility only over that observed interval.\n\nThe author proposes unequal moisture uptake across the laminated layers as a working explanation. Room transfers alone do not isolate that mechanism from temperature drift or handling effects. The notebook treats these as unresolved alternatives and warns that judging an edge from a photograph can depend on camera position.\n\nThe notebook contains no comparison of adhesive formulations. The team did not test repeated cycling over several weeks. No chemical-composition assay was performed.",
+          "source_reference": {
+            "path": "epistemic_boundary_mimicry/materials/frozen_pack_20261004/cards.json",
+            "json_key": "[case_id=EB01].sources[1].source_text"
+          }
+        }
+      ],
+      "source_reference": {
+        "path": "epistemic_boundary_mimicry/materials/frozen_pack_20261004/cards.json",
+        "json_key": "[case_id=EB01].sources[0].source_text"
+      },
+      "family_notes": [
+        "Count once at the shared case/public-context family level. source_1 is preserved as an in-family parallel source text, not counted as another world or as a V0/V1 intervention.",
+        "Strong, boundary-aware, symmetric-frozen arms, seat assignments, models, and replay trajectories reuse these materials and do not add worlds."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_EB02",
+      "original_ids": [
+        "EB02"
+      ],
+      "domain": "civic_institutions",
+      "topic": "temporary boarding priority and records during ferry interruption",
+      "title": "Storm boarding slips at Mallow Ford",
+      "public_context": "A fictional river district uses temporary boarding slips when storm conditions interrupt ordinary ferry service. A small administrative dossier describes issuing slips, priority queues and later checks against records. The district, offices, people and scheme are invented. Discuss this particular arrangement rather than the law or practice of any real jurisdiction.",
+      "source_text": "A memorandum signed by Mira Fenn in October 2013 describes the storm-boarding slip scheme in Mallow Ford. The West Quay Office issues temporary paper slips when the district marks ordinary ferry departures as disrupted by river conditions. The scheme concerns queue priority during a declared disruption, rather than ownership of a boat or a permanent ferry reservation.\n\nThe illustrated register contains 18 households distributed across three landing routes, with 6 listed on each route. A slip records the household identifier, landing route and issue day. The clerk stamps it with a square mark when issued; the later boarding steward uses a round mark after admitting the household. These two marks record different actions and must not be read as interchangeable evidence.\n\nA household may join the priority queue at its listed landing on the issue day. If no departure occurs before that evening, the clerk can carry the same slip forward once by writing the next day beneath the original date. This extension requires confirmation that the route was still disrupted; it is not an automatic renewal for everyone holding a slip.\n\nThe memorandum describes a later check of 12 slips against the steward sheets. Of these, 10 have corresponding round boarding marks and 2 lack a matching steward entry. The author does not infer that the unmatched households deliberately avoided boarding: missing sheets and unused slips are both left possible. A clerk stamp alone therefore does not establish that a journey occurred.\n\nOne example concerns a household arriving at a different landing from the route printed on its slip. Staff direct it to the ordinary queue at that landing rather than alter the recorded route. The memorandum offers this as an application of the route rule. It does not establish a general policy for every emergency that might prevent a household reaching its assigned landing.\n\nThe scheme grants no separate priority for cargo. An absent boarding mark is not itself treated as an offence. No later review of lost-slip replacement was conducted.",
+      "variants": [
+        {
+          "variant_id": "source_1",
+          "source_text": "A memorandum signed by Oren Hale in October 2016 describes the storm-boarding slip scheme in Mallow Ford. The West Quay Office issues temporary paper slips when the district marks ordinary ferry departures as disrupted by river conditions. The scheme concerns queue priority during a declared disruption, rather than ownership of a boat or a permanent ferry reservation.\n\nThe illustrated register contains 24 households distributed across three landing routes, with 8 listed on each route. A slip records the household identifier, landing route and issue day. The clerk stamps it with a square mark when issued; the later boarding steward uses a round mark after admitting the household. These two marks record different actions and must not be read as interchangeable evidence.\n\nA household may join the priority queue at its listed landing on the issue day. If no departure occurs before that evening, the clerk can carry the same slip forward once by writing the next day beneath the original date. This extension requires confirmation that the route was still disrupted; it is not an automatic renewal for everyone holding a slip.\n\nThe memorandum describes a later check of 15 slips against the steward sheets. Of these, 12 have corresponding round boarding marks and 3 lack a matching steward entry. The author does not infer that the unmatched households deliberately avoided boarding: missing sheets and unused slips are both left possible. A clerk stamp alone therefore does not establish that a journey occurred.\n\nOne example concerns a household arriving at a different landing from the route printed on its slip. Staff direct it to the ordinary queue at that landing rather than alter the recorded route. The memorandum offers this as an application of the route rule. It does not establish a general policy for every emergency that might prevent a household reaching its assigned landing.\n\nA slip cannot be transferred to a different household. The scheme grants no separate priority for cargo. Holding a slip does not waive the ordinary fare.",
+          "source_reference": {
+            "path": "epistemic_boundary_mimicry/materials/frozen_pack_20261004/cards.json",
+            "json_key": "[case_id=EB02].sources[1].source_text"
+          }
+        }
+      ],
+      "source_reference": {
+        "path": "epistemic_boundary_mimicry/materials/frozen_pack_20261004/cards.json",
+        "json_key": "[case_id=EB02].sources[0].source_text"
+      },
+      "family_notes": [
+        "Count once at the shared case/public-context family level. source_1 is preserved as an in-family parallel source text, not counted as another world or as a V0/V1 intervention.",
+        "Strong, boundary-aware, symmetric-frozen arms, seat assignments, models, and replay trajectories reuse these materials and do not add worlds."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_EB03",
+      "original_ids": [
+        "EB03"
+      ],
+      "domain": "ecology",
+      "topic": "moth resting position after shade-screen rearrangement",
+      "title": "Silverfold moth resting positions at Nacre Ridge",
+      "public_context": "A fictional ecological field station records where an invented adult moth rests when cloth shade screens are rearranged around its enclosure. A finite research note describes short observations, a follow-up and limits on what the observations establish. The station, species and records are invented. Discuss this particular note rather than established facts about a real species.",
+      "source_text": "Sol Arven kept a field-station note at Nacre Ridge in April 2017. It concerns 30 adult silverfold moths housed individually in mesh enclosures. The animals were collected from one sheltered grove. Their resting positions were recorded before any cloth screen was moved. The note concerns resting behavior in enclosures, not the abundance or migration of moths outside the station.\n\nA cloth screen shaded one side of each enclosure. Staff moved that screen to the opposite side, waited 24 minutes, and recorded resting position again. They left the support branches in place, did not turn the enclosures, and used the same recording sheet before and after each move. A blank resting-position entry means the observer could not locate the animal; it is not a recorded absence of movement. The note supplies no instrument readings for illumination.\n\nAfter the screen move, 21 animals rested on the newly shaded side; 9 remained at their recorded original positions. No individual tracking path was recorded between the two observations. Staff therefore could not tell whether an animal moved directly or explored several positions first. The record does not classify nonresponders as a different variety.\n\nThe next afternoon, 4 of the responding animals received a reverse screen move. All 4 were found on the newly shaded side at the second observation. The branch positions were unchanged. This short follow-up shows repeatable position changes in that selected subset; it does not estimate a response rate for an independent sample.\n\nThe author treats shelter from light as a working explanation, not an isolated mechanism. The screen might also alter air movement or local temperature. The observers did not run a screen-free control and did not compare juveniles with adults. No sensory-organ examination was performed. The note contains no sex breakdown, enclosure dimensions or thermometer specification. It does not report behavior after release. Its conclusion is restricted to the recorded screen moves and cannot establish a seasonal habitat preference.",
+      "variants": [
+        {
+          "variant_id": "source_1",
+          "source_text": "Edda Roan kept a field-station note at Nacre Ridge in April 2017. It concerns 30 adult silverfold moths housed individually in mesh enclosures. The animals were collected from one sheltered grove. Their resting positions were recorded before any cloth screen was moved. The note concerns resting behavior in enclosures, not the abundance or migration of moths outside the station.\n\nA cloth screen shaded one side of each enclosure. Staff moved that screen to the opposite side, waited 18 minutes, and recorded resting position again. They left the support branches in place, did not turn the enclosures, and used the same recording sheet before and after each move. A blank resting-position entry means the observer could not locate the animal; it is not a recorded absence of movement. The note supplies no instrument readings for illumination.\n\nAfter the screen move, 25 animals rested on the newly shaded side; 5 remained at their recorded original positions. No individual tracking path was recorded between the two observations. Staff therefore could not tell whether an animal moved directly or explored several positions first. The record does not classify nonresponders as a different variety.\n\nThe next afternoon, 6 of the responding animals received a reverse screen move. All 6 were found on the newly shaded side at the second observation. The branch positions were unchanged. This short follow-up shows repeatable position changes in that selected subset; it does not estimate a response rate for an independent sample.\n\nThe author treats shelter from light as a working explanation, not an isolated mechanism. The screen might also alter air movement or local temperature. The observers did not run a screen-free control and did not compare juveniles with adults. No sensory-organ examination was performed. The note contains no sex breakdown, enclosure dimensions or thermometer specification. It does not report behavior after release. Its conclusion is restricted to the recorded screen moves and cannot establish a seasonal habitat preference.",
+          "source_reference": {
+            "path": "epistemic_boundary_mimicry/published_runs/go_frozen_pair_completed_20261004/bundle.json",
+            "json_key": "EB03_D1_symmetric_frozen.sources[1].source_text"
+          }
+        }
+      ],
+      "source_reference": {
+        "path": "epistemic_boundary_mimicry/published_runs/go_frozen_pair_completed_20261004/bundle.json",
+        "json_key": "EB03_D1_symmetric_frozen.sources[0].source_text"
+      },
+      "family_notes": [
+        "Count once at the shared case/public-context family level. source_1 is preserved as an in-family parallel source text, not counted as another world or as a V0/V1 intervention.",
+        "Strong, boundary-aware, symmetric-frozen arms, seat assignments, models, and replay trajectories reuse these materials and do not add worlds."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_EB04",
+      "original_ids": [
+        "EB04"
+      ],
+      "domain": "archaeology_conservation",
+      "topic": "conservation observations for painted clay inventory tags",
+      "title": "Painted clay inventory-tag conservation",
+      "public_context": "A fictional archaeological archive records conservation work on painted clay inventory tags recovered from a storeroom. A finite treatment note describes observations, a small follow-up and limits on interpretation. The site, staff and records are invented. Discuss this particular note rather than general archaeological practice.",
+      "source_text": "Lena Corven wrote a conservation note at the archive of Tessel Yard in October 2020. It concerns 30 painted clay inventory tags recovered together from a collapsed storeroom shelf. Their painted marks were partly obscured by a pale surface deposit. The note records a treatment trial, not an interpretation of the marks or a reconstruction of the storeroom economy.\n\nStaff photographed every tag before placing it in a closed humidity chamber for 15 minutes. They then lifted loosened deposit with a dry soft brush and photographed it again under the same lamp position. No liquid solvent was applied. Tags were handled separately, and fragments were not joined during this trial. A blank visibility entry means the conservator could not assess the painted line; it does not mean the line was absent.\n\nAfter treatment, painted lines on 26 tags were rated clearer than before; 4 showed no rated improvement. Two of the improved tags also lost small flakes from already cracked margins. The sheet records these as handling losses, without assigning a chemical cause. Clarity was judged by comparison with the photographs, not by an automated image score. No lettering was transcribed or translated.\n\nOne week later, staff checked 3 improved tags selected because their painted areas remained intact. All 3 retained the recorded visibility rating, and no new loose flakes were noted. The other tags were not included in this follow-up. These observations concern the selected subset and cannot establish a long-term preservation rate for the collection.\n\nThe author regards deposit loosening as a practical observation rather than proof of a particular mineral reaction. No chemical analysis of the deposit or pigment was performed. There was no untreated comparison group, and the trial did not compare alternative chamber durations. The note does not date the tags, identify their makers, or connect individual marks to named merchants. It concludes that visibility sometimes improved under this procedure, with handling damage still possible; it does not recommend applying the treatment to every painted object in the archive.",
+      "variants": [
+        {
+          "variant_id": "source_1",
+          "source_text": "Maro Sel wrote a conservation note at the archive of Orven Hall in June 2016. It concerns 18 painted clay inventory tags recovered together from a collapsed storeroom shelf. Their painted marks were partly obscured by a pale surface deposit. The note records a treatment trial, not an interpretation of the marks or a reconstruction of the storeroom economy.\n\nStaff photographed every tag before placing it in a closed humidity chamber for 15 minutes. They then lifted loosened deposit with a dry soft brush and photographed it again under the same lamp position. No liquid solvent was applied. Tags were handled separately, and fragments were not joined during this trial. A blank visibility entry means the conservator could not assess the painted line; it does not mean the line was absent.\n\nAfter treatment, painted lines on 12 tags were rated clearer than before; 6 showed no rated improvement. Two of the improved tags also lost small flakes from already cracked margins. The sheet records these as handling losses, without assigning a chemical cause. Clarity was judged by comparison with the photographs, not by an automated image score. No lettering was transcribed or translated.\n\nOne week later, staff checked 4 improved tags selected because their painted areas remained intact. All 4 retained the recorded visibility rating, and no new loose flakes were noted. The other tags were not included in this follow-up. These observations concern the selected subset and cannot establish a long-term preservation rate for the collection.\n\nThe author regards deposit loosening as a practical observation rather than proof of a particular mineral reaction. No chemical analysis of the deposit or pigment was performed. There was no untreated comparison group, and the trial did not compare alternative chamber durations. The note does not date the tags, identify their makers, or connect individual marks to named merchants. It concludes that visibility sometimes improved under this procedure, with handling damage still possible; it does not recommend applying the treatment to every painted object in the archive.",
+          "source_reference": {
+            "path": "epistemic_boundary_mimicry/published_runs/go_frozen_pair_completed_20261004/bundle.json",
+            "json_key": "EB04_D1_symmetric_frozen.sources[1].source_text"
+          }
+        }
+      ],
+      "source_reference": {
+        "path": "epistemic_boundary_mimicry/published_runs/go_frozen_pair_completed_20261004/bundle.json",
+        "json_key": "EB04_D1_symmetric_frozen.sources[0].source_text"
+      },
+      "family_notes": [
+        "Count once at the shared case/public-context family level. source_1 is preserved as an in-family parallel source text, not counted as another world or as a V0/V1 intervention.",
+        "Strong, boundary-aware, symmetric-frozen arms, seat assignments, models, and replay trajectories reuse these materials and do not add worlds."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_EB05",
+      "original_ids": [
+        "EB05"
+      ],
+      "domain": "civic_institutions",
+      "topic": "temporary access tokens during a hillside footbridge closure",
+      "title": "Access tokens during footbridge repairs",
+      "public_context": "A fictional district uses temporary access tokens when storm damage interrupts its hillside footbridge. A finite local record describes who can use the tokens, a record check and the limits of that check. All places, people and documents are invented. Discuss this particular record, not general emergency administration.",
+      "source_text": "The East Hollow committee's September 2019 memorandum, signed by Rina Vale, describes a token scheme during repairs to the district footbridge. Thirty households appear on its register, ten from each of three lanes. The token permits a household to use the staffed service crossing during its assigned morning window. It neither reserves a vehicle nor grants permission to enter the closed bridge.\n\nA clerk puts a triangular mark on a token at issue. At the service crossing, the attendant adds a short horizontal stroke after admitting the household. These marks document different events. A triangle is not evidence that anyone actually crossed. Tokens carry a lane identifier and issue date; a steward checks both before admitting a group.\n\nIf the service crossing closes before a household's window ends, its token can be moved to the following morning once. The clerk must first confirm the closure with the attendant. The document does not allow a household to hand its token to another household. Goods carried by the admitted group receive no separate priority.\n\nFor a retrospective check, the committee selected twelve issued tokens. Nine had corresponding entries in the crossing ledger; three did not. The memorandum leaves both unused tokens and incomplete ledger pages as possible explanations for the unmatched cases. It reports no investigation of individual households and assigns no penalty for an unmatched entry alone.\n\nA worked example describes a household arriving in the afternoon instead of its morning window. It joins the ordinary queue; the attendant does not erase and replace the token's window. This example explains how the recorded scheduling rule was applied, rather than prescribing a response to every possible emergency. The author concludes that the marks can distinguish issue from admission when both records survive. The check cannot establish how often people crossed without a token or whether the arrangement shortened average waiting times.",
+      "variants": [
+        {
+          "variant_id": "source_1",
+          "source_text": "Four unmatched records, rather than a claim of misconduct, are the puzzle in Mira Doren's account of the West Orchard crossing arrangements. Her note is dated November 2021. Staff compared fifteen temporary tokens with admission sheets, finding a corresponding entry for eleven. A token might have remained unused, or its admission sheet might have gone missing. The note does not settle which explanation applies to any of the four cases.\n\nThe arrangement began while a damaged hillside footbridge was closed. Twenty-four registered households, organized in three groups of eight, could use a supervised service crossing. Each token identified the group and the afternoon period allocated to it. Its purpose was access scheduling, not ownership of a crossing place. It conveyed no authority to use the damaged bridge.\n\nReading a token requires distinguishing two inscriptions: the office's circular issue stamp and the attendant's vertical admission line. Only the second records that the group was admitted. A circular stamp by itself cannot establish a crossing. The office recorded an issue day alongside the group identifier.\n\nAn afternoon closure could justify a single extension to the next afternoon, but only after the attendant confirmed that service had stopped. Holders could not pass the permission to another household. The same token also gave no special entitlement for carried goods. In a described late-arrival case, a family appeared the following morning and was placed in the ordinary queue instead of having its afternoon allocation rewritten.\n\nDoren cautions against using the small check to calculate total unauthorized crossings. The staff made no household-by-household inquiry, and unmatched paperwork alone incurred no sanction. Surviving pairs of records can show a distinction between issuance and admission; they do not demonstrate a reduction in waiting time or the completeness of every day's sheets.",
+          "source_reference": {
+            "path": "epistemic_boundary_mimicry/published_runs/go_surface_diverse_cutoff_20261005/bundle.json",
+            "json_key": "cases[case_id=EB05].sources[1].source_text"
+          }
+        }
+      ],
+      "source_reference": {
+        "path": "epistemic_boundary_mimicry/published_runs/go_surface_diverse_cutoff_20261005/bundle.json",
+        "json_key": "cases[case_id=EB05].sources[0].source_text"
+      },
+      "family_notes": [
+        "Count once at the shared case/public-context family level. source_1 is preserved as an in-family parallel source text, not counted as another world or as a V0/V1 intervention.",
+        "Strong, boundary-aware, symmetric-frozen arms, seat assignments, models, and replay trajectories reuse these materials and do not add worlds."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_EB06",
+      "original_ids": [
+        "EB06"
+      ],
+      "domain": "ecology",
+      "topic": "seed wrapping and emergence of an invented marsh plant",
+      "title": "Paper wrapping and marsh-plant emergence",
+      "public_context": "A fictional seed nursery tests whether a removable wrapping changes the emergence of an invented marsh plant in trays. A finite cultivation note describes the procedure, observations and a limited follow-up. The nursery, plant and record are invented. Discuss the particular note, not established facts about a real plant.",
+      "source_text": "For this trial, the paper wraps were removed before planting; the wraps were not buried with the seeds. That procedural distinction is central to Arlen Moss's cultivation note from the Bracken Pool nursery, dated April 2020. Staff gave eighteen adult-collected greyreed seeds a twelve-minute exposure inside damp paper and planted another eighteen without that preparation. Both sets occupied neighboring trays filled from the same soil batch.\n\nTwelve prepared seeds produced a visible shoot by the seventh morning, compared with nine untreated seeds. The tally counts first visible emergence, not survival to maturity. A blank cell on the observation sheet means the seed position was not assessed that morning. It must not be interpreted as a negative observation. The staff did not replace seeds that remained unseen.\n\nTray positions were exchanged each afternoon to avoid leaving one treatment continuously nearest the door. Staff applied the same watering schedule to both trays. The note supplies no basis for deciding whether the wrapping changed water absorption or merely altered the handling of the seed surface. Those are possible explanations, not established mechanisms.\n\nFive emerged plants from the prepared tray were kept under observation for another six days. All five still had visible shoots at the last inspection. They had been selected because their shoots were easy to locate, so the follow-up is not a random sample of all emerged plants and does not estimate survival for the full planting.\n\nThere was no comparison of alternative wrapping materials and no chemical assay of the seed surface. Staff did not investigate later flowering. Moss restricts the conclusion to these two trays and the recorded observation interval. The difference in emergence counts does not establish how the procedure would perform across multiple soil types, seasons or nurseries.",
+      "variants": [
+        {
+          "variant_id": "source_1",
+          "source_text": "The Larch Mere nursery's May 2022 report opens with a caution about its follow-up: observing six easily located shoots for five additional days cannot establish a survival rate for the whole sowing. All six remained visible, but selection favored plants that were convenient to inspect. Jana Pell, who compiled the report, treats that observation as a limited check rather than a test of later flowering.\n\nThe main comparison involved two trays of amberrush seeds collected from adult plants. Twenty seeds were assigned to each tray. One group spent fifteen minutes in damp paper before sowing; the other was planted without this treatment. Paper was taken away before seeds entered the soil. Nothing in the report describes a buried wrapping or a continuing paper cover.\n\nBy the eighth morning, fourteen positions in the prepared tray showed shoots and ten in the other tray did. These numbers describe emergence, not mature plants. The observers left nonemerging seeds in place. When a position could not be checked, its sheet entry remained blank; that blank is not a recorded failure to emerge.\n\nBoth trays contained material from one soil batch and were watered on the same schedule. Staff swapped their locations daily so neither stayed next to the doorway. Pell considers altered moisture uptake and handling of the seed surface as possible accounts of the difference. The experiment did not isolate either process, so neither can be presented as the demonstrated cause.\n\nNo surface-chemistry analysis was undertaken, and no other wrapping material was compared. The staff made no flowering study. The report confines its inference to the observed trays: it offers no estimate for another soil, another season or an independently repeated sowing. Its small selected follow-up cannot supply those missing comparisons.",
+          "source_reference": {
+            "path": "epistemic_boundary_mimicry/published_runs/go_surface_diverse_cutoff_20261005/bundle.json",
+            "json_key": "cases[case_id=EB06].sources[1].source_text"
+          }
+        }
+      ],
+      "source_reference": {
+        "path": "epistemic_boundary_mimicry/published_runs/go_surface_diverse_cutoff_20261005/bundle.json",
+        "json_key": "cases[case_id=EB06].sources[0].source_text"
+      },
+      "family_notes": [
+        "Count once at the shared case/public-context family level. source_1 is preserved as an in-family parallel source text, not counted as another world or as a V0/V1 intervention.",
+        "Strong, boundary-aware, symmetric-frozen arms, seat assignments, models, and replay trajectories reuse these materials and do not add worlds."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_SQ01",
+      "original_ids": [
+        "SQ01"
+      ],
+      "domain": "archival administration",
+      "topic": "returned ledgers at the tavren borough archive",
+      "title": "Returned Ledgers at the Tavren Borough Archive",
+      "public_context": "Municipal archives often receive records back from reading rooms, temporary offices, or outside depositors. Staff may track custody separately from decisions about permanent arrangement, and registers can preserve uncertainty when two catalogue entries appear to refer to one object. This invented dossier concerns a short reconciliation exercise at a local records office.",
+      "source_text": "On 18 February 2022, Sella Venn, records officer at the Tavren Borough Archive, completed a reconciliation of tenancy ledgers returned from the civic reading room. The exercise concerned paper volumes from the former Orchard Ward, not current tenant files. Staff checked custody and shelf references; they were not deciding whether any tenancy claim was valid.\n\nThe intake register lists 31 volumes arriving in three wheeled carts over two mornings. A receiving clerk wrote each cart number and arrival time on a narrow green band placed around the volume. The band stayed with the volume until a registrar compared its pencilled shelf reference with the catalogue. When a reference appeared beside another volume, the clerk attached a temporary hold slip before the next registrar review.\n\nAt the first check, 27 volumes matched one catalogue entry each. Four had references that also appeared on another volume, so Venn placed them in the review cabinet pending a comparison with the accession ledger. The register makes no judgment about which duplicate entry is older. By the end of the exercise, three of the four had been reconciled to distinct ledger pages; the fourth remained in the cabinet.\n\nThe two intake mornings had separate work tables, with each cart checked at a table before its bands were copied into the register. Venn's reconciliation sheet records the review cabinet's final contents and carries initials from both registrars. A clerk filed the sheet behind the month divider, while the matched volumes were returned to their recorded shelves in the same order they had been checked.\n\nThe note calls the exercise a custody reconciliation. Its tally summarizes all 31 volumes and groups outcomes by catalogue status. Staff completed the register before the next scheduled reading-room session, and the return carts were folded and stored near the archive entrance.",
+      "variants": [],
+      "source_reference": {
+        "path": "epistemic_boundary_mimicry/strategic_qualification/materials_20261008.json",
+        "json_key": "cases[case_id=SQ01].source_text"
+      },
+      "family_notes": [
+        "One hand-authored qualification dossier per case ID; the four-case set is a selected material set, not a random sample."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_SQ02",
+      "original_ids": [
+        "SQ02"
+      ],
+      "domain": "ecology",
+      "topic": "evening counts in the selnor basin",
+      "title": "Evening Counts in the Selnor Basin",
+      "public_context": "Field ecologists often use repeated observations to compare activity among habitat zones. A count of calls or sightings can be useful as a local index, but repeated detections do not automatically identify individual animals or estimate a whole population. This invented account summarizes a short early-season survey in a protected wetland.",
+      "source_text": "During the 2021 survey season, ecologist Ruvan Elsen coordinated evening counts of the lantern marsh frog around the fictional Selnor Basin. The survey compared three shore zones in a protected wetland; it did not estimate the total number of animals living in the basin. Observers recorded calls and visible adults as separate event types.\n\nSix fixed listening stations were visited on eight evenings between May 3 and May 18. At each station, an observer waited until 35 minutes after sunset, then recorded for 9 minutes from a marked platform. A second observer handled the field sheet, noting cloud cover and whether a passing vehicle interrupted the interval. A disturbed interval was repeated once at the end of that evening.\n\nThe eastern sedge zone produced 42 frog-call events across the survey, while the west pool edge produced 28. These were event totals, not unique callers: the same frog could call on more than one evening. The central willow zone had 31 events. Visible adults were noted on five survey evenings, but they were not individually marked, and the note keeps those sightings separate from the call count.\n\nTwo of the six stations had interrupted intervals. Both repeats were included in the totals after the original interrupted segments were crossed out in the field sheets. Elsen reviewed the eight sheets with a reserve technician and entered a short code beside each accepted interval. The code records whether the sound was assigned to the lantern marsh frog or left unidentified.\n\nThe field report describes the station layout, timing, and event totals as an early-season index for comparing zones during those eight evenings. It gives no estimate for other months or years. The team used handheld recorders and field sheets, and the reserve retained the audio files with the survey folder.",
+      "variants": [],
+      "source_reference": {
+        "path": "epistemic_boundary_mimicry/strategic_qualification/materials_20261008.json",
+        "json_key": "cases[case_id=SQ02].source_text"
+      },
+      "family_notes": [
+        "One hand-authored qualification dossier per case ID; the four-case set is a selected material set, not a random sample."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_SQ03",
+      "original_ids": [
+        "SQ03"
+      ],
+      "domain": "material preservation",
+      "topic": "a dry-pad cleaning trial for bronze register weights",
+      "title": "A Dry-Pad Cleaning Trial for Bronze Register Weights",
+      "public_context": "Conservation labs often compare gentle cleaning methods on historic metal objects by documenting each step and measuring a limited surface change. Such trials can support claims about the specific samples and indicator used, while leaving broader durability questions open. This invented dossier concerns a small workshop study of reusable bronze components.",
+      "source_text": "At the Ralden City Museum in 2019, conservator Evi Toren reviewed a cleaning trial on 18 bronze register weights removed from a decommissioned tide clock. The pieces all had shallow engraved numbers; the numbers were used to track them, not to judge whether a weight remained suitable for use. The trial compared two dry cleaning pads and one soft-brush protocol.\n\nBefore treatment, an assistant photographed each numbered weight beside a grey reference strip. The team divided the pieces into three groups of six, with each protocol assigned to one group. For every piece, the operator made four passes using the assigned tool, collecting material from each pass on a fresh labeled paper square. Each square was weighed immediately before and after that pass to estimate collected loose residue.\n\nThe first-pass record lists median residue masses of 14 milligrams for the blue pad, 11 milligrams for the cream pad, and 13 milligrams for the brush. By the fourth pass, each group's median per-pass residue mass was lower than its first-pass median, although the note cautions that this measures material transferred to the collection surface rather than all corrosion removed from the object. Two pieces from the blue-pad group were reviewed again because their engraved digits were less legible in the final photographs.\n\nToren's summary says the cream pad produced the lowest median on the paper-square measure after the first pass. It recommends retaining the labels and photographs with the collection record before any later treatment decision. The trial ran across two afternoons, and a second conservator initialed the final table after checking the arithmetic against the weighing slips.\n\nThe report treats its result as a comparison among these 18 pieces under this protocol. Each group kept the same numbered members throughout, and no weight was returned to active use during the trial.",
+      "variants": [],
+      "source_reference": {
+        "path": "epistemic_boundary_mimicry/strategic_qualification/materials_20261008.json",
+        "json_key": "cases[case_id=SQ03].source_text"
+      },
+      "family_notes": [
+        "One hand-authored qualification dossier per case ID; the four-case set is a selected material set, not a random sample."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_SQ04",
+      "original_ids": [
+        "SQ04"
+      ],
+      "domain": "linguistic fieldwork",
+      "topic": "elicitation notebook from the orvani ridge",
+      "title": "Elicitation Notebook from the Orvani Ridge",
+      "public_context": "Linguistic field teams often document how speakers respond to controlled prompts and keep counts separate from claims about a whole language. Notes may record who participated, what materials were used, and which forms occurred in particular contexts. This fictional dossier summarizes one small study of a local speech variety in a mountain district.",
+      "source_text": "Between 9 and 14 July 2020, field linguist Arel Vosen recorded elicitation sessions in three villages of the Orvani Ridge. The project focused on how speakers marked the source of information in short event descriptions. It was a small descriptive sample, not a census of the region's speech community. Participants chose their own pseudonyms, which the notebook uses in place of legal names.\n\nTwelve adults completed the same set of 18 picture prompts. Each prompt showed a simple event, such as a cup falling or a gate opening, without printed words. Vosen asked for one sentence per picture and then asked participants to retell four of the scenes as if reporting something they had heard from a neighbor. Responses were recorded on a handheld audio device and transcribed after each session.\n\nIn the transcripts, the suffix -ra appeared in 41 of 216 firsthand descriptions and in 9 of 48 neighbor retellings. The particle -mu appeared in 22 neighbor retellings. The notebook treats -ra and -mu as distinct forms; it does not merge them into a single evidential category. Three participants used both forms during the sessions, while the others supplied at least one response without either suffix.\n\nA speaker from Neral village corrected the spelling of one picture label before recording began. Vosen kept that correction in the field log and used the revised label in all later sessions. The notebooks were checked by a second fieldworker, who compared the transcripts against the audio for the first four sessions and marked uncertain syllables for review.\n\nThe summary tables group responses by prompt type and form. The report describes the observed distribution within these sessions and leaves broader social or historical explanations for later work.",
+      "variants": [],
+      "source_reference": {
+        "path": "epistemic_boundary_mimicry/strategic_qualification/materials_20261008.json",
+        "json_key": "cases[case_id=SQ04].source_text"
+      },
+      "family_notes": [
+        "One hand-authored qualification dossier per case ID; the four-case set is a selected material set, not a random sample."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_CS01",
+      "original_ids": [
+        "CS01"
+      ],
+      "domain": "institutional history: canal waterworks",
+      "topic": "maintenance rights at peldrin canal's sedge reach",
+      "title": "Maintenance Rights at Peldrin Canal's Sedge Reach",
+      "public_context": "Fictional institutional history dossier titled 'Maintenance Rights at Peldrin Canal's Sedge Reach' about the Peldrin Canal Board's review. It places a hand-operated water gate within local irrigation rights, seasonal inspections, and the work of a small canal institution.",
+      "source_text": "During the autumn of 1936, the fictional Peldrin Canal Board reviewed the stone lift gate at Sedge Reach, where a narrow feeder channel meets the main cut. The board was a local waterworks institution rather than a shipping company; its minutes concern maintenance rights, seasonal access, and inspection labor. The lock still used hand cranks, and the review followed three seasons of uneven drawdown. A brass key for the west gate bore a keeper mark and was kept in the wheel house.\n\nThe gate's granite cheeks were set in 1889 by mason Oris Pell, while the original oak leaves were replaced with iron-bound larch in 1918. A wheel house stood on the north bank, and a towpath crossed the spill channel on a low timber bridge. The board assigned two wardens to inspect the gate each month from March through October. In drought years, farmers on the upper reach could request a two-hour draw at the board's Thursday meeting.\n\nThe 1936 review found a worn lower hinge pin and a shallow crack in the wheel-house sill. It recommended replacing the pin before winter freeze and leaving the sill under observation until spring. The canal's western branch served four dye gardens and a millpond; the eastern branch returned water to a reed meadow. Members agreed that no branch would lose its customary first draw while repairs were under way.\n\nThe printed plan uses plain names for the lock, bridge, and branches. It marks the gate wheel with a small circle and distinguishes the north and south leaves by position. A later hand added measurements in inches, but the report does not assign a separate engineering grade to the stonework. The surveyor's sketch was adopted as a working reference for the maintenance crew. The record closes with winter labor allocations and notes that the gate remained operable at the meeting.",
+      "variants": [
+        {
+          "variant_id": "source_v1",
+          "source_text": "During the autumn of 1936, the fictional Peldrin Canal Board reviewed the stone lift gate at Sedge Reach, where a narrow feeder channel meets the main cut. The board was a local waterworks institution rather than a shipping company; its minutes concern maintenance rights, seasonal access, and inspection labor. The lock still used hand cranks, and the review followed three seasons of uneven drawdown. A brass key for the west gate bore a keeper mark and was kept in the wheel house.\n\nThe gate's granite cheeks were set in 1889 by mason Oris Pell, while the original oak leaves were replaced with iron-bound larch in 1918. A wheel house stood on the north bank, and a towpath crossed the spill channel on a low timber bridge. The board assigned two wardens to inspect the gate each month from March through October. In drought years, farmers on the upper reach could request a two-hour draw at the board's Thursday meeting.\n\nThe 1936 review found a worn lower hinge pin and a shallow crack in the wheel-house sill. It recommended replacing the pin before winter freeze and leaving the sill under observation until spring. The canal's western branch served four dye gardens and a millpond; the eastern branch returned water to a reed meadow. Members agreed that no branch would lose its customary first draw while repairs were under way.\n\nThe printed plan uses plain names for the lock, bridge, and branches. It marks the gate wheel with a small circle and distinguishes the north and south leaves by position. A later hand added measurements in inches, but the report does not assign a separate engineering grade to the stonework. The surveyor's sketch was adopted as a working reference for the maintenance crew. The record closes with winter labor allocations and notes that the gate remained operable at the meeting.\n\nThe west-gate brass key carries the board's keeper mark RQ-58.",
+          "source_reference": {
+            "path": "epistemic_boundary_mimicry/counterfactual_source_boundary/materials_20261008.json",
+            "json_key": "[case_id=CS01].source_v1"
+          }
+        }
+      ],
+      "source_reference": {
+        "path": "epistemic_boundary_mimicry/counterfactual_source_boundary/materials_20261008.json",
+        "json_key": "[case_id=CS01].source_v0"
+      },
+      "family_notes": [
+        "source_v0 is the base source; source_v1 is the same source plus the one specified sentence. Keep both versions under this one case/world.",
+        "The preparation script validates source_v0 == base_source and source_v1 == base_source + two newlines + addition_sentence; the counterfactual version does not add a world."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_CS02",
+      "original_ids": [
+        "CS02"
+      ],
+      "domain": "institutional history: ferry cooperative",
+      "topic": "night ferry rules of the edrin sound trust",
+      "title": "Night Ferry Rules of the Edrin Sound Trust",
+      "public_context": "Fictional institutional history dossier titled 'Night Ferry Rules of the Edrin Sound Trust'. It describes how neighboring landings shared access, storm rules, and maintenance duties for the cable crossing between Harn Point and Sular.",
+      "source_text": "In 1928 the fictional Edrin Sound Ferry Trust maintained a hand-pulled cable ferry between Harn Point and the low market at Sular. The crossing was short, but the tidal channel changed depth quickly around the basalt shoals. Three landing villages shared the trust's rules for fares, storm closure, and repair of the cable wheel. There was no motor launch, and two boatmen took turns guiding the platform across.\n\nThe ferry platform carried six passengers or a handcart, with livestock moved only on the morning crossing. A floating pine marker showed the channel's deeper side, and a stone step at Harn Point remained usable at low water. The cable ran through a timber drum fixed to a masonry pier. Each village sent one member to the monthly trust meeting, where the boatmen reported wear on the rope and the condition of the landings.\n\nA gale in November 1926 had loosened two pier stones and forced a week of closure. The trust then adopted a rule that either boatman could suspend service when spray hid the opposite landing. The closure notice was read aloud at both markets and posted beside the weigh house. Repairs were funded from a small toll on carts, while residents on foot crossed without charge.\n\nAt night, a shaded oil lantern was hung on the platform and covered during the approach to each landing. The trust kept a spare lantern hook in its shed, and the hook bore an enamel mark. The boatmen checked the cable after heavy rain because silt could collect around the drum. A school path used the ferry before dawn, so the trust kept a dry plank near the Harn steps for wet days. The surviving rule sheet lists fares and duties, and the sheet was kept folded inside a tarred canvas pouch between crossings.",
+      "variants": [
+        {
+          "variant_id": "source_v1",
+          "source_text": "In 1928 the fictional Edrin Sound Ferry Trust maintained a hand-pulled cable ferry between Harn Point and the low market at Sular. The crossing was short, but the tidal channel changed depth quickly around the basalt shoals. Three landing villages shared the trust's rules for fares, storm closure, and repair of the cable wheel. There was no motor launch, and two boatmen took turns guiding the platform across.\n\nThe ferry platform carried six passengers or a handcart, with livestock moved only on the morning crossing. A floating pine marker showed the channel's deeper side, and a stone step at Harn Point remained usable at low water. The cable ran through a timber drum fixed to a masonry pier. Each village sent one member to the monthly trust meeting, where the boatmen reported wear on the rope and the condition of the landings.\n\nA gale in November 1926 had loosened two pier stones and forced a week of closure. The trust then adopted a rule that either boatman could suspend service when spray hid the opposite landing. The closure notice was read aloud at both markets and posted beside the weigh house. Repairs were funded from a small toll on carts, while residents on foot crossed without charge.\n\nAt night, a shaded oil lantern was hung on the platform and covered during the approach to each landing. The trust kept a spare lantern hook in its shed, and the hook bore an enamel mark. The boatmen checked the cable after heavy rain because silt could collect around the drum. A school path used the ferry before dawn, so the trust kept a dry plank near the Harn steps for wet days. The surviving rule sheet lists fares and duties, and the sheet was kept folded inside a tarred canvas pouch between crossings.\n\nThe spare lantern hook in the trust's shed is stamped with enamel mark U-31.",
+          "source_reference": {
+            "path": "epistemic_boundary_mimicry/counterfactual_source_boundary/materials_20261008.json",
+            "json_key": "[case_id=CS02].source_v1"
+          }
+        }
+      ],
+      "source_reference": {
+        "path": "epistemic_boundary_mimicry/counterfactual_source_boundary/materials_20261008.json",
+        "json_key": "[case_id=CS02].source_v0"
+      },
+      "family_notes": [
+        "source_v0 is the base source; source_v1 is the same source plus the one specified sentence. Keep both versions under this one case/world.",
+        "The preparation script validates source_v0 == base_source and source_v1 == base_source + two newlines + addition_sentence; the counterfactual version does not add a world."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_CS03",
+      "original_ids": [
+        "CS03"
+      ],
+      "domain": "ecology: coastal dune succession",
+      "topic": "seed drift along the esh hollow dune line",
+      "title": "Seed Drift Along the Esh Hollow Dune Line",
+      "public_context": "Fictional ecology dossier titled 'Seed Drift Along the Esh Hollow Dune Line'. It follows a small field survey of wind exposure, damp hollows, and the changing cover of dune grasses after winter storms.",
+      "source_text": "Ecologist Mara Deren mapped the fictional Esh Hollow dune line over four visits between late February and May 2023. The site is a narrow crescent of wind-shaped sand behind a shingle beach, where salt spray reaches the outer ridge but not the shallow inland hollows. The survey asked how seedling patches formed after winter storms; it was not intended as a census of all plants along the coast.\n\nDeren marked three transects running inland from the beach lip. Transect A crossed a bare foredune, B passed through a hollow with standing water, and C ended beside an old driftwood ridge. A cloth tag was tied to the north reference stake at transect C. A handheld anemometer was used only during the first visit, when gusts were strongest. The team recorded plant cover in square frames, photographed exposed roots, and noted whether each frame had a crust of salt after high tide.\n\nThe blue-rib grass spread most densely along the upper edge of the wet hollow, while small patches of thread sedge appeared between older marram clumps. Several seedlings had been buried by sand in March, but shoots were visible again by the next visit. A line of empty seed husks near the driftwood suggested that some wind-borne seed had settled beyond the marked frames.\n\nRain pooled briefly in the hollow after each storm, then drained through a gap in the shingle. The beach face lost height over the survey period, although the inland ridge changed little. Deren's field note describes the seedling patches as local responses to shelter and moisture rather than evidence of a general shift in the dune system. The team left the transect stakes in place so that the same frames could be revisited after the next winter season.",
+      "variants": [
+        {
+          "variant_id": "source_v1",
+          "source_text": "Ecologist Mara Deren mapped the fictional Esh Hollow dune line over four visits between late February and May 2023. The site is a narrow crescent of wind-shaped sand behind a shingle beach, where salt spray reaches the outer ridge but not the shallow inland hollows. The survey asked how seedling patches formed after winter storms; it was not intended as a census of all plants along the coast.\n\nDeren marked three transects running inland from the beach lip. Transect A crossed a bare foredune, B passed through a hollow with standing water, and C ended beside an old driftwood ridge. A cloth tag was tied to the north reference stake at transect C. A handheld anemometer was used only during the first visit, when gusts were strongest. The team recorded plant cover in square frames, photographed exposed roots, and noted whether each frame had a crust of salt after high tide.\n\nThe blue-rib grass spread most densely along the upper edge of the wet hollow, while small patches of thread sedge appeared between older marram clumps. Several seedlings had been buried by sand in March, but shoots were visible again by the next visit. A line of empty seed husks near the driftwood suggested that some wind-borne seed had settled beyond the marked frames.\n\nRain pooled briefly in the hollow after each storm, then drained through a gap in the shingle. The beach face lost height over the survey period, although the inland ridge changed little. Deren's field note describes the seedling patches as local responses to shelter and moisture rather than evidence of a general shift in the dune system. The team left the transect stakes in place so that the same frames could be revisited after the next winter season.\n\nA cloth tag on the north reference stake at transect C reads M-27.",
+          "source_reference": {
+            "path": "epistemic_boundary_mimicry/counterfactual_source_boundary/materials_20261008.json",
+            "json_key": "[case_id=CS03].source_v1"
+          }
+        }
+      ],
+      "source_reference": {
+        "path": "epistemic_boundary_mimicry/counterfactual_source_boundary/materials_20261008.json",
+        "json_key": "[case_id=CS03].source_v0"
+      },
+      "family_notes": [
+        "source_v0 is the base source; source_v1 is the same source plus the one specified sentence. Keep both versions under this one case/world.",
+        "The preparation script validates source_v0 == base_source and source_v1 == base_source + two newlines + addition_sentence; the counterfactual version does not add a world."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_CS04",
+      "original_ids": [
+        "CS04"
+      ],
+      "domain": "materials science: porous ceramic composites",
+      "topic": "freeze cycling of tuff-and-ash hearth tiles",
+      "title": "Freeze Cycling of Tuff-and-Ash Hearth Tiles",
+      "public_context": "Fictional materials science dossier titled 'Freeze Cycling of Tuff-and-Ash Hearth Tiles'. It compares how porous ceramic mixtures made with local volcanic tuff and reed ash take up water and weather through controlled freeze cycles for a sheltered public walkway.",
+      "source_text": "Materials engineer Ilva Rusk prepared porous hearth tiles from gray tuff fines and reed ash collected near the fictional Calden Flats. The tiles were proposed for a sheltered walkway beside the local bathhouse, where visitors often tracked in wet grit. The study compared three binder ratios and two firing temperatures. It was a small durability exercise, not a structural certification for floors or bridges.\n\nEach mix was pressed into shallow molds and dried for two days before firing. The first kiln ran at a lower peak temperature to preserve open pores, while the next two were hotter to reduce edge crumbling. The team measured dry mass, water uptake after a fixed soak, and surface loss after repeated freezing and thawing. No glaze was applied, because the walkway design called for a rough surface that could drain quickly.\n\nThe tuff-rich tiles held more water than the ash-rich mix, but their corners stayed intact through the first six cycles. One tray warped slightly when a corner rested against the kiln shelf, so those specimens were kept separate from the main comparison. Rusk noted that minor chips appeared near the mold seams rather than across the broad faces. A second technician photographed each tile beside a ruler before weighing it again.\n\nThe report describes the best-performing ratio as a candidate for sheltered paving, while recommending another season of weather exposure before installation. Calden's builders favored local materials because the road to the flats floods in spring. The retained specimens were placed in labeled paper sleeves, and the sealed tins of dry blends stayed in a cool cabinet. A separate sealed tin held the third kiln's tuff-and-ash blend and carried a batch label. A hand-drawn diagram identifies the three kilns by position and locates the firing table beside the rear vent.",
+      "variants": [
+        {
+          "variant_id": "source_v1",
+          "source_text": "Materials engineer Ilva Rusk prepared porous hearth tiles from gray tuff fines and reed ash collected near the fictional Calden Flats. The tiles were proposed for a sheltered walkway beside the local bathhouse, where visitors often tracked in wet grit. The study compared three binder ratios and two firing temperatures. It was a small durability exercise, not a structural certification for floors or bridges.\n\nEach mix was pressed into shallow molds and dried for two days before firing. The first kiln ran at a lower peak temperature to preserve open pores, while the next two were hotter to reduce edge crumbling. The team measured dry mass, water uptake after a fixed soak, and surface loss after repeated freezing and thawing. No glaze was applied, because the walkway design called for a rough surface that could drain quickly.\n\nThe tuff-rich tiles held more water than the ash-rich mix, but their corners stayed intact through the first six cycles. One tray warped slightly when a corner rested against the kiln shelf, so those specimens were kept separate from the main comparison. Rusk noted that minor chips appeared near the mold seams rather than across the broad faces. A second technician photographed each tile beside a ruler before weighing it again.\n\nThe report describes the best-performing ratio as a candidate for sheltered paving, while recommending another season of weather exposure before installation. Calden's builders favored local materials because the road to the flats floods in spring. The retained specimens were placed in labeled paper sleeves, and the sealed tins of dry blends stayed in a cool cabinet. A separate sealed tin held the third kiln's tuff-and-ash blend and carried a batch label. A hand-drawn diagram identifies the three kilns by position and locates the firing table beside the rear vent.\n\nThe sealed tin for the third kiln's tuff-and-ash blend bears batch code N6-P2.",
+          "source_reference": {
+            "path": "epistemic_boundary_mimicry/counterfactual_source_boundary/materials_20261008.json",
+            "json_key": "[case_id=CS04].source_v1"
+          }
+        }
+      ],
+      "source_reference": {
+        "path": "epistemic_boundary_mimicry/counterfactual_source_boundary/materials_20261008.json",
+        "json_key": "[case_id=CS04].source_v0"
+      },
+      "family_notes": [
+        "source_v0 is the base source; source_v1 is the same source plus the one specified sentence. Keep both versions under this one case/world.",
+        "The preparation script validates source_v0 == base_source and source_v1 == base_source + two newlines + addition_sentence; the counterfactual version does not add a world."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_CS05",
+      "original_ids": [
+        "CS05"
+      ],
+      "domain": "linguistics: coastal weather lexicon",
+      "topic": "wind words at the varo sound inlet",
+      "title": "Wind Words at the Varo Sound Inlet",
+      "public_context": "Fictional linguistics dossier titled 'Wind Words at the Varo Sound Inlet'. It records a coastal vocabulary used by boat crews for recurring wind and water conditions, with attention to where speakers use each term while reading the inlet.",
+      "source_text": "Field linguist Ena Vorel visited the fictional Varo Sound inlet during two spring fishing seasons to document words used by boat crews when describing short-lived wind shifts. The work focused on vocabulary in practical conversation, not on a complete grammar of the community's language. Interviews were held in a net-mending shed above the east landing, where speakers could point toward the water while explaining the conditions they named.\n\nVorel kept a small map of the inlet beside the notebook. It showed the outer reef, a freshwater stream, and a sheltered cove where boats waited at low tide. Five speakers described the first landward gust after dawn as a cue to leave the cove before the afternoon chop grew. They used the local term sava for that gust, while another term referred to a steady offshore breeze that carried rain away from the headland.\n\nThe recording sessions included short route descriptions and unscripted accounts of days when fog hid the reef. A deckhand corrected one compass arrow on Vorel's map, and the correction was copied into the final field sketch. Speakers disagreed about whether a weak breeze from the south belonged to the same category as a true landward gust. Vorel preserved both judgments rather than merging them into a single definition.\n\nA weather station on the headland logged wind direction every half hour, but its instruments stood higher than the boats' working level. The notes compare the station record with the speakers' descriptions only for mornings when at least two boats were present. One transcript was incomplete because rain reached the recorder's microphone. The field report concludes that the vocabulary is tied closely to local routes and visibility, while leaving seasonal variation open for a longer survey.",
+      "variants": [
+        {
+          "variant_id": "source_v1",
+          "source_text": "Field linguist Ena Vorel visited the fictional Varo Sound inlet during two spring fishing seasons to document words used by boat crews when describing short-lived wind shifts. The work focused on vocabulary in practical conversation, not on a complete grammar of the community's language. Interviews were held in a net-mending shed above the east landing, where speakers could point toward the water while explaining the conditions they named.\n\nVorel kept a small map of the inlet beside the notebook. It showed the outer reef, a freshwater stream, and a sheltered cove where boats waited at low tide. Five speakers described the first landward gust after dawn as a cue to leave the cove before the afternoon chop grew. They used the local term sava for that gust, while another term referred to a steady offshore breeze that carried rain away from the headland.\n\nThe recording sessions included short route descriptions and unscripted accounts of days when fog hid the reef. A deckhand corrected one compass arrow on Vorel's map, and the correction was copied into the final field sketch. Speakers disagreed about whether a weak breeze from the south belonged to the same category as a true landward gust. Vorel preserved both judgments rather than merging them into a single definition.\n\nA weather station on the headland logged wind direction every half hour, but its instruments stood higher than the boats' working level. The notes compare the station record with the speakers' descriptions only for mornings when at least two boats were present. One transcript was incomplete because rain reached the recorder's microphone. The field report concludes that the vocabulary is tied closely to local routes and visibility, while leaving seasonal variation open for a longer survey.\n\nThe local term sava for the first landward gust carries elicitation label KOV-12 in the notebook.",
+          "source_reference": {
+            "path": "epistemic_boundary_mimicry/counterfactual_source_boundary/materials_20261008.json",
+            "json_key": "[case_id=CS05].source_v1"
+          }
+        }
+      ],
+      "source_reference": {
+        "path": "epistemic_boundary_mimicry/counterfactual_source_boundary/materials_20261008.json",
+        "json_key": "[case_id=CS05].source_v0"
+      },
+      "family_notes": [
+        "source_v0 is the base source; source_v1 is the same source plus the one specified sentence. Keep both versions under this one case/world.",
+        "The preparation script validates source_v0 == base_source and source_v1 == base_source + two newlines + addition_sentence; the counterfactual version does not add a world."
+      ],
+      "status": "exploratory_only"
+    },
+    {
+      "legacy_id": "LEGACY_CS06",
+      "original_ids": [
+        "CS06"
+      ],
+      "domain": "mathematics: river geomorphology",
+      "topic": "arc fits for the thawing kestrel bend",
+      "title": "Arc Fits for the Thawing Kestrel Bend",
+      "public_context": "Fictional mathematics dossier titled 'Arc Fits for the Thawing Kestrel Bend'. It connects mapped bank shapes, seasonal water levels, and a compact geometric model used to compare inside-bank arcs along a gravel-lined thaw-fed river.",
+      "source_text": "Mathematician Oren Dal mapped the fictional Kestrel Bend during the first six weeks of snowmelt in 2024. The reach winds through a gravel plain below a ridge of dark slate, where the river splits around two low bars before joining again. Dal's team wanted a compact description of bank curvature that could be compared across water levels, not a forecast of the next flood.\n\nSurveyors placed temporary stakes along both banks and measured their positions from a fixed rock marker. The inside bank at the upper bend was smooth, while the lower bend had a sharp shoulder where willow roots held the gravel together. A staff gauge at the footbridge recorded water height each morning. Readings rose after warm nights and fell after cloudy days, though brief rain made the pattern less regular.\n\nDal fitted circular arcs and a family of gently widening curves to the measured points. The widening curves followed the upper bend more closely, while both forms described the lower shoulder poorly. A field assistant repeated six measurements after finding that one stake had shifted in soft gravel. The revised positions changed the estimated radius slightly but left the broad comparison intact.\n\nThe notebook includes a sketch of the reach, a table of measured coordinates, and notes on where each curve departed from the bank. The team used the same rock marker for both banks so that the plotted shapes shared a common origin. Willow cover was heavier on the inside of the lower bend, where the current slowed around the gravel bar. The report treats the curves as a descriptive aid for this reach and does not claim that one family represents rivers with different sediment or flow conditions.",
+      "variants": [
+        {
+          "variant_id": "source_v1",
+          "source_text": "Mathematician Oren Dal mapped the fictional Kestrel Bend during the first six weeks of snowmelt in 2024. The reach winds through a gravel plain below a ridge of dark slate, where the river splits around two low bars before joining again. Dal's team wanted a compact description of bank curvature that could be compared across water levels, not a forecast of the next flood.\n\nSurveyors placed temporary stakes along both banks and measured their positions from a fixed rock marker. The inside bank at the upper bend was smooth, while the lower bend had a sharp shoulder where willow roots held the gravel together. A staff gauge at the footbridge recorded water height each morning. Readings rose after warm nights and fell after cloudy days, though brief rain made the pattern less regular.\n\nDal fitted circular arcs and a family of gently widening curves to the measured points. The widening curves followed the upper bend more closely, while both forms described the lower shoulder poorly. A field assistant repeated six measurements after finding that one stake had shifted in soft gravel. The revised positions changed the estimated radius slightly but left the broad comparison intact.\n\nThe notebook includes a sketch of the reach, a table of measured coordinates, and notes on where each curve departed from the bank. The team used the same rock marker for both banks so that the plotted shapes shared a common origin. Willow cover was heavier on the inside of the lower bend, where the current slowed around the gravel bar. The report treats the curves as a descriptive aid for this reach and does not claim that one family represents rivers with different sediment or flow conditions.\n\nThe fitted curve family for inside-bank arcs is labeled H-omega-3 in the survey notebook.",
+          "source_reference": {
+            "path": "epistemic_boundary_mimicry/counterfactual_source_boundary/materials_20261008.json",
+            "json_key": "[case_id=CS06].source_v1"
+          }
+        }
+      ],
+      "source_reference": {
+        "path": "epistemic_boundary_mimicry/counterfactual_source_boundary/materials_20261008.json",
+        "json_key": "[case_id=CS06].source_v0"
+      },
+      "family_notes": [
+        "source_v0 is the base source; source_v1 is the same source plus the one specified sentence. Keep both versions under this one case/world.",
+        "The preparation script validates source_v0 == base_source and source_v1 == base_source + two newlines + addition_sentence; the counterfactual version does not add a world."
+      ],
+      "status": "exploratory_only"
+    }
+  ],
+  "excluded": [
+    {
+      "family": "early Boolean tables",
+      "reason": "Excluded by scope; structured Boolean material is not counted as a natural-language source-world."
+    },
+    {
+      "family": "JES32",
+      "reason": "Excluded by scope; pure probability-question material does not supply a qualifying natural-language source-world."
+    },
+    {
+      "family": "OSI48",
+      "reason": "Excluded by scope; pure probability-question material does not supply a qualifying natural-language source-world."
+    }
+  ],
+  "missing_source_exclusions": [],
+  "dedup_check": {
+    "comparison_set": "datasets/natural_language_epistemic_games/dev24_20261010/worlds/NL001-NL024.json",
+    "exact_normalized_source_text_matches_with_dev24": [],
+    "exact_duplicate_canonical_source_text_groups_within_legacy": [],
+    "exact_duplicate_all_source_text_groups_within_legacy": []
+  },
+  "limitations": "The inventory is a source-availability and family-deduplication aid. It does not establish a common distribution, representativeness, exchangeability, or statistical independence across worlds."
+}
+

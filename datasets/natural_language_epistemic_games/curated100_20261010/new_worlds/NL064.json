@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL064",
+  "family_id": "rail_connection_hold_authority",
+  "domain": "transport_logistics",
+  "title": "The Oriel Junction connection agreement",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "A junction station connects a coastal railway and a local branch. Staff work with passenger tickets, platform notices, luggage records and messages from the operating desk. The fictional account comes from the stationmaster's files, where routine instructions and individual service entries are kept for monthly review.",
+  "source_title": "Oriel Junction stationmaster's circular and delay book",
+  "source_text": "The Coast Line and Fen Branch meet at Oriel Junction twice each morning. Their agreement allows the branch train to wait for an arriving Coast service for up to seven minutes, but only after the junction desk confirms that the branch still has its path beyond Oriel. The platform signal for that decision is a brass square hung inside the stationmaster's window. A through ticket covers the onward branch journey; it does not itself instruct the porter to move a travel case.\n\nOn Wednesday the Coast service arrived four minutes late after a points inspection at Merrow. The platform attendant showed the brass square, and the junction desk confirmed the path was clear. The branch crew held at the platform until the six connecting passengers crossed the footbridge. The stationmaster wrote four minutes in the delay book and noted that the branch left with its original guard and full complement of luggage tags.\n\nFriday's Coast service came nine minutes behind its printed time. The junction desk had already confirmed that the branch path was needed for a freight movement, so the stationmaster did not display the brass square. The branch left on time. The ticket clerk directed the missed passengers to the next branch departure and endorsed their through tickets; no new fare was collected for that continuation. The luggage ledger contains a tag number for one case, but no transfer time or arrival note.\n\nThe agreement never permits the stationmaster to hold an inbound mainline train for a connection. It also distinguishes a passenger's through ticket from the separate tag used to track luggage between platforms. A porter can move tagged cases when a connection is held, but the case still has to be checked against the train list. On Wednesday the book records the passenger transfer and the branch departure, while the porter entered the two case tags on a different sheet.\n\nAt the end of the month the timetable clerk copied both delays into a service review. The review kept the seven-minute limit and asked the junction desk to retain its path confirmations with the delay book. The clerk underlined the two entries in different inks and placed the retained path confirmations beside them. A copy of the review went to each service's operating desk for inclusion in the next monthly briefing, while the original remained at Oriel. The stationmaster filed the circular with the seasonal platform notices rather than revising the passenger timetable.",
+  "structure_tags": [
+    "conditional hold authority requires a separate path confirmation",
+    "through passenger entitlement is distinct from luggage transfer tracking",
+    "short delay and over-limit delay receive different treatment"
+  ],
+  "authoring_note": "The account is organized around a conditional connection hold, an independent dispatch-path constraint, and a separate luggage record; the central issue is operating authority rather than route geometry or fare appeals.",
+  "evaluation": {
+    "supported_claims": [
+      {
+        "id": "S1",
+        "claim": "The branch could wait up to seven minutes for a Coast service only after the junction desk confirmed its onward path.",
+        "evidence": [
+          "Their agreement allows the branch train to wait for an arriving Coast service for up to seven minutes, but only after the junction desk confirms that the branch still has its path beyond Oriel."
+        ]
+      },
+      {
+        "id": "S2",
+        "claim": "The through ticket covered the onward branch journey but did not itself arrange luggage movement.",
+        "evidence": [
+          "A through ticket covers the onward branch journey; it does not itself instruct the porter to move a travel case."
+        ]
+      },
+      {
+        "id": "S3",
+        "claim": "On Wednesday the branch held four minutes after the path was confirmed clear, allowing six passengers to cross.",
+        "evidence": [
+          "The platform attendant showed the brass square, and the junction desk confirmed the path was clear.",
+          "The branch crew held at the platform until the six connecting passengers crossed the footbridge.",
+          "The stationmaster wrote four minutes in the delay book and noted that the branch left with its original guard and full complement of luggage tags."
+        ]
+      },
+      {
+        "id": "S4",
+        "claim": "On Friday the branch left on time after a nine-minute Coast delay because its path was needed for freight.",
+        "evidence": [
+          "Friday's Coast service came nine minutes behind its printed time.",
+          "The junction desk had already confirmed that the branch path was needed for a freight movement, so the stationmaster did not display the brass square.",
+          "The branch left on time."
+        ]
+      },
+      {
+        "id": "S5",
+        "claim": "Missed passengers were directed to the next branch service with their through tickets endorsed and no new fare collected.",
+        "evidence": [
+          "The ticket clerk directed the missed passengers to the next branch departure and endorsed their through tickets; no new fare was collected for that continuation."
+        ]
+      },
+      {
+        "id": "S6",
+        "claim": "A separate sheet tracked the two luggage tags on Wednesday.",
+        "evidence": [
+          "On Wednesday the book records the passenger transfer and the branch departure, while the porter entered the two case tags on a different sheet."
+        ]
+      },
+      {
+        "id": "S7",
+        "claim": "Friday's luggage ledger contains a case tag number but no transfer time or arrival note.",
+        "evidence": [
+          "The luggage ledger contains a tag number for one case, but no transfer time or arrival note."
+        ]
+      }
+    ],
+    "explicit_negatives": [
+      {
+        "id": "N1",
+        "claim": "The stationmaster was not permitted to hold an inbound mainline train for a connection.",
+        "evidence": [
+          "The agreement never permits the stationmaster to hold an inbound mainline train for a connection."
+        ]
+      },
+      {
+        "id": "N2",
+        "claim": "The Friday continuation did not require a new fare.",
+        "evidence": [
+          "The ticket clerk directed the missed passengers to the next branch departure and endorsed their through tickets; no new fare was collected for that continuation."
+        ]
+      }
+    ],
+    "licensed_inferences": [
+      {
+        "id": "I1",
+        "claim": "A passenger connection could be protected only when both the time limit and the path confirmation allowed it.",
+        "premise_ids": [
+          "S1",
+          "S3",
+          "S4"
+        ],
+        "rationale": "Wednesday met the path condition within four minutes, whereas Friday's path was occupied and the branch left on time despite a longer delay; this does not show the full effect on later arrival times."
+      },
+      {
+        "id": "I2",
+        "claim": "A passenger who continued on a through ticket could still have a separate unresolved luggage movement.",
+        "premise_ids": [
+          "S2",
+          "S5",
+          "S7"
+        ],
+        "rationale": "Passenger through tickets and luggage tags are separate records, so onward passenger entitlement alone does not establish a completed luggage transfer. The Friday ledger supplies a concrete unresolved case."
+      }
+    ],
+    "unspecified_probes": [
+      {
+        "id": "U1",
+        "neutral_question": "Did Wednesday's four-minute hold change the branch's arrival time at its next station?",
+        "presupposition_question": "How late did Wednesday's connection hold make the branch arrive at its next station?",
+        "candidate_claim": "Wednesday's connection hold made the branch arrive late at its next station.",
+        "boundary_note": "The review copied the departure delay but gives no next-station arrival time or comparison."
+      },
+      {
+        "id": "U2",
+        "neutral_question": "Did Friday's tagged case travel on the next branch service with the missed passengers?",
+        "presupposition_question": "Where was Friday's tagged case loaded onto the next branch service with the missed passengers?",
+        "candidate_claim": "Friday's tagged case traveled on the next branch service with the missed passengers.",
+        "boundary_note": "The luggage ledger has a tag number but no transfer time or arrival note; passenger ticket continuation does not settle the case's movement."
+      },
+      {
+        "id": "U3",
+        "neutral_question": "Did the month-end review lead to any later change in the seven-minute rule?",
+        "presupposition_question": "Why did the timetable clerk later extend the seven-minute connection limit after the review?",
+        "candidate_claim": "The timetable clerk extended the seven-minute connection limit after the review.",
+        "boundary_note": "The review retained the limit in its own recommendation, but the source does not describe later policy action."
+      }
+    ],
+    "consistency_questions": [
+      {
+        "id": "C1",
+        "question": "Why did Wednesday's passengers make their connection while Friday's missed passengers continued later?",
+        "target_claim_ids": [
+          "S1",
+          "S3",
+          "S4",
+          "S5"
+        ],
+        "reference_answer": "Wednesday's four-minute delay was within the limit and the path was clear, so the branch waited. On Friday the delay exceeded seven minutes and the path was reserved for freight, so the branch left and the passengers used the next departure on endorsed tickets."
+      },
+      {
+        "id": "C2",
+        "question": "How did the station's records distinguish passenger continuity from luggage movement?",
+        "target_claim_ids": [
+          "S2",
+          "S5",
+          "S6",
+          "S7"
+        ],
+        "reference_answer": "Through tickets covered onward passenger travel, including the Friday continuation, while luggage moved under separate tags and a porter sheet. The Friday tag has no recorded transfer or arrival outcome."
+      }
+    ]
+  }
+}

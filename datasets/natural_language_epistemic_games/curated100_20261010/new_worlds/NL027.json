@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL027",
+  "family_id": "agriculture_canal_emergency_bypass_witness_rule",
+  "domain": "agriculture_food",
+  "title": "Night gate record after the reed mat slipped",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "Shared irrigation channels depend on local rules for ordinary turns and urgent repairs. Committee records may describe who can alter a gate, how neighbors are notified, and what happens when water is diverted temporarily. A written incident account can settle some procedural questions while leaving later effects to another season.",
+  "source_title": "Lower Bend irrigation committee incident report",
+  "source_text": "At 9:10 on 18 June, the Lower Bend ditch tender reported that a reed mat had slipped across the east culvert. Water backed against the upstream footbridge and the lower vegetable plots received only a trickle. The normal schedule gave the east branch the first evening turn, but the committee's rule allowed a temporary bypass when a culvert blockage threatened the bridge or a planted bed. The bypass had to be witnessed by one upstream and one downstream holder.\n\nThe tender called the two holders listed for that evening. Ivo arrived from the upstream terrace and Lin from the lower allotments. They agreed to open the stone relief notch for twenty minutes while the tender lifted the mat. Lin kept a lantern at the channel marker, and Ivo watched the bridge footings. The water level fell enough for the tender to pull the mat free with a hooked pole. The report records that no bank stones were removed and no tools entered the culvert.\n\nThe committee measured the notch opening with a marked slat before restoring the gate to its scheduled position. The lower plots received the remaining turn, and the next household on the branch was notified by a runner because the bell rope had snapped earlier that week. The report says the temporary release did not reach the west branch. It also states that no holder lost a scheduled turn as a penalty for the repair.\n\nAt the next morning's walk, the bridge footing was dry and the east culvert passed water without obstruction. The tender tied the recovered reed mat above the channel rather than throwing it away, since its weave was still intact. A separate note asked the committee to replace the frayed bell rope before the next rotation. The holders signed the incident report, and the clerk entered the twenty-minute bypass in the monthly water ledger.\n\nThe account credits the quick repair to the witnesses' presence, but it does not compare the repair with any other response. It gives no measurement of crop stress in the lower plots and does not say whether the committee changed the order of turns later in June. The next scheduled inspection was entered for the following Monday, when the tender planned to check the culvert after the upper terrace's usual turn.",
+  "structure_tags": [
+    "witnessed emergency bypass distinct from scheduled turns",
+    "repair preserves turn entitlement",
+    "physical obstruction removal with recovered material retained"
+  ],
+  "authoring_note": "This incident report concerns a locally witnessed emergency water diversion and the preservation of scheduled entitlements.",
+  "evaluation": {
+    "supported_claims": [
+      {
+        "id": "S1",
+        "claim": "A temporary bypass was permitted for a threatening culvert blockage and required upstream and downstream witnesses.",
+        "evidence": [
+          "The normal schedule gave the east branch the first evening turn, but the committee's rule allowed a temporary bypass when a culvert blockage threatened the bridge or a planted bed. The bypass had to be witnessed by one upstream and one downstream holder."
+        ]
+      },
+      {
+        "id": "S2",
+        "claim": "Ivo and Lin witnessed a twenty-minute opening of the relief notch while the tender removed the reed mat.",
+        "evidence": [
+          "Ivo arrived from the upstream terrace and Lin from the lower allotments. They agreed to open the stone relief notch for twenty minutes while the tender lifted the mat."
+        ]
+      },
+      {
+        "id": "S3",
+        "claim": "Water level fell enough for the tender to free the mat, and no bank stones were removed.",
+        "evidence": [
+          "The water level fell enough for the tender to pull the mat free with a hooked pole. The report records that no bank stones were removed and no tools entered the culvert."
+        ]
+      },
+      {
+        "id": "S4",
+        "claim": "The lower plots received the remaining turn and no holder lost a scheduled turn as a penalty.",
+        "evidence": [
+          "The lower plots received the remaining turn, and the next household on the branch was notified by a runner because the bell rope had snapped earlier that week. The report says the temporary release did not reach the west branch. It also states that no holder lost a scheduled turn as a penalty for the repair."
+        ]
+      },
+      {
+        "id": "S5",
+        "claim": "At the next morning walk the bridge footing was dry and the culvert passed water freely.",
+        "evidence": [
+          "At the next morning's walk, the bridge footing was dry and the east culvert passed water without obstruction."
+        ]
+      },
+      {
+        "id": "S6",
+        "claim": "The committee recorded the bypass in its monthly water ledger.",
+        "evidence": [
+          "The holders signed the incident report, and the clerk entered the twenty-minute bypass in the monthly water ledger."
+        ]
+      }
+    ],
+    "explicit_negatives": [
+      {
+        "id": "N1",
+        "claim": "The temporary release did not reach the west branch.",
+        "evidence": [
+          "The report says the temporary release did not reach the west branch."
+        ]
+      },
+      {
+        "id": "N2",
+        "claim": "No holder lost a scheduled turn as a repair penalty.",
+        "evidence": [
+          "It also states that no holder lost a scheduled turn as a penalty for the repair."
+        ]
+      }
+    ],
+    "licensed_inferences": [
+      {
+        "id": "I1",
+        "claim": "The witnessed bypass preserved a record of the emergency action while allowing the normal schedule to resume.",
+        "premise_ids": [
+          "S1",
+          "S2",
+          "S6"
+        ],
+        "rationale": "The rule required witnesses, the two holders signed, and the clerk entered the short release in the monthly ledger."
+      },
+      {
+        "id": "I2",
+        "claim": "The successful repair did not itself document how much crop stress the blockage caused.",
+        "premise_ids": [
+          "S5"
+        ],
+        "rationale": "A dry footing and restored flow establish the later channel condition, but the report separately gives no crop-stress measurement."
+      }
+    ],
+    "unspecified_probes": [
+      {
+        "id": "U1",
+        "neutral_question": "Did the committee change the turn order later in June?",
+        "presupposition_question": "How did the blockage lead the lower branch to receive an earlier turn later in June?",
+        "candidate_claim": "The lower branch received an earlier turn later in June because of the blockage.",
+        "boundary_note": "The report says it does not state whether the committee changed turn order; it does not settle a later adjustment."
+      },
+      {
+        "id": "U2",
+        "neutral_question": "How much crop stress did the lower plots experience?",
+        "presupposition_question": "How much of its crop did the lower plots lose because of the trickle?",
+        "candidate_claim": "The lower plots lost part of their crop because of the trickle.",
+        "boundary_note": "The report gives no crop-stress measurement or crop-loss outcome."
+      },
+      {
+        "id": "U3",
+        "neutral_question": "Was the frayed bell rope replaced before the next rotation?",
+        "presupposition_question": "How did the committee replace the bell rope before the next rotation?",
+        "candidate_claim": "The committee replaced the bell rope before the next rotation.",
+        "boundary_note": "A replacement was requested, but the report supplies no later completion record."
+      }
+    ],
+    "consistency_questions": [
+      {
+        "id": "C1",
+        "question": "How did the emergency release affect the ordinary turn schedule and the west branch?",
+        "target_claim_ids": [
+          "S2",
+          "S4",
+          "N1",
+          "N2"
+        ],
+        "reference_answer": "The two witnesses allowed a twenty-minute relief-notch opening; the lower plots received the remaining scheduled turn, the release did not reach the west branch, and no holder lost a turn as a penalty."
+      },
+      {
+        "id": "C2",
+        "question": "What evidence links the repair action to the later condition of the channel?",
+        "target_claim_ids": [
+          "S2",
+          "S3",
+          "S5",
+          "S6"
+        ],
+        "reference_answer": "The witnessed opening let the tender remove the reed mat without entering the culvert or removing bank stones. The next morning the footing was dry and water passed freely, and the event was logged."
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL024",
+  "family_id": "nl024-sealed-bundle-custody-procedure",
+  "domain": "investigations_history",
+  "title": "The missing countermark in the Orveth archive hearing",
+  "split": "development",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "A fictional archive hearing considers a bundle transferred between the east store and the reading room. Its minutes describe custodians, a porter, a transfer slip, and an examination note. The case is set in a historical records office with procedures for moving stored material.",
+  "source_title": "Orveth Archive hearing minutes on Bundle 6",
+  "source_text": "The Orveth Archive hearing considered whether Bundle 6 had remained sealed during a move from the east store to the reading room in the fictional year 1832. The archive's standing procedure required two custodians to sign the transfer slip and press separate wax marks before a bundle left storage. A receiving clerk was then to compare both marks with the store copy before placing the bundle on a reading-room shelf. The procedure describes custody checks; it does not list the bundle's contents.\n\nPorter Deren testified that he carried Bundle 6 in a closed box and received it from the east-store clerk with two wax marks visible. Reading-room clerk Avra said the box arrived with one unbroken mark and a loose ribbon, but she could not recall whether the second mark was missing before she opened the box. Their accounts refer to different points in the transfer. Neither statement is accompanied by a signed receipt from the moment of handoff.\n\nThe surviving transfer slip bears one custodian's signature and a smudged place where a second signature might have been. The store copy lists two wax marks as required but has no drawing or description of their shapes. A later examination note records that one fragment of blue wax was found inside the box; it does not say when the fragment separated or whether it came from the second mark. The minutes do not report a complete contents inventory for Bundle 6.\n\nThe archivist who chaired the hearing said the missing signature was a procedural defect, not proof that the bundle had been opened. A junior copyist testified that she saw the box on the shelf before the hearing, while the porter said he remembered returning an empty box to the east store. The minutes do not establish whether the copyist saw the same box or whether the porter meant Bundle 6's outer box. No spare-key register survives for the east-store cabinet, and no witness testified to using a key outside the transfer procedure.\n\nThe hearing ordered the bundle resealed and asked for future transfers to preserve two signed receipts. Its minutes leave open who handled the box between the porter and the receiving clerk, whether a second mark was ever pressed, and what the bundle contained. The procedure and testimony can be compared to locate the missing custody evidence, but neither the single surviving signature nor the wax fragment independently proves opening, tampering, or loss of contents.",
+  "structure_tags": [
+    "two-custodian transfer protocol and incomplete signature trace",
+    "witnesses report observations at different handoff points",
+    "physical fragment cannot establish timing or provenance"
+  ],
+  "authoring_note": "This investigation is organized around custody procedure, handoff observations, and a partial physical trace. It differs from NL022's clock reconstruction and NL023's rebate incentives because its core uncertainty is whether required procedural evidence was preserved.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "The transfer procedure required two custodians to sign and press separate wax marks before a bundle left storage.", "evidence": ["The archive's standing procedure required two custodians to sign the transfer slip and press separate wax marks before a bundle left storage."]},
+      {"id": "S2", "claim": "Deren testified that he received the bundle with two visible wax marks, while Avra recalled one unbroken mark and a loose ribbon on arrival.", "evidence": ["Porter Deren testified that he carried Bundle 6 in a closed box and received it from the east-store clerk with two wax marks visible. Reading-room clerk Avra said the box arrived with one unbroken mark and a loose ribbon"]},
+      {"id": "S3", "claim": "The surviving transfer slip has one signature and a smudged place where a second signature might have been.", "evidence": ["The surviving transfer slip bears one custodian's signature and a smudged place where a second signature might have been."]},
+      {"id": "S4", "claim": "A later examination found a blue wax fragment inside the box but did not say when it separated or whether it came from the second mark.", "evidence": ["A later examination note records that one fragment of blue wax was found inside the box; it does not say when the fragment separated or whether it came from the second mark."]},
+      {"id": "S5", "claim": "The chair characterized the missing signature as a procedural defect rather than proof of opening.", "evidence": ["The archivist who chaired the hearing said the missing signature was a procedural defect, not proof that the bundle had been opened."]},
+      {"id": "S6", "claim": "The hearing ordered resealing and requested two signed receipts for future transfers.", "evidence": ["The hearing ordered the bundle resealed and asked for future transfers to preserve two signed receipts."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "The procedure does not list the bundle's contents.", "evidence": ["The procedure describes custody checks; it does not list the bundle's contents."]},
+      {"id": "N2", "claim": "Neither the single surviving signature nor the wax fragment independently proves opening, tampering, or loss of contents.", "evidence": ["neither the single surviving signature nor the wax fragment independently proves opening, tampering, or loss of contents."]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "The surviving paperwork does not demonstrate compliance with the two-signature transfer rule, but that gap alone does not demonstrate that the bundle was opened.", "premise_ids": ["S1", "S3", "S5"], "rationale": "The rule called for two signatures, only one is legible, and the chair explicitly treats the defect as insufficient proof of opening. The conclusion concerns the surviving record, not what the custodians actually did."},
+      {"id": "I2", "claim": "The two witnesses' accounts do not by themselves locate when a mark was lost because they describe different points in the transfer.", "premise_ids": ["S2", "S4"], "rationale": "Deren describes receipt from the store clerk and Avra describes arrival at the reading room; the wax fragment has no timing or proven source. The handoff interval remains undocumented."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "What documents were inside Bundle 6?", "presupposition_question": "Why was the east-store census ledger inside Bundle 6?", "candidate_claim": "The east-store census ledger was inside Bundle 6.", "boundary_note": "The minutes explicitly say they contain no complete contents inventory and the procedure lists no contents."},
+      {"id": "U2", "neutral_question": "Who pressed the second wax mark, if it was pressed?", "presupposition_question": "Why did custodian Meren press the second wax mark?", "candidate_claim": "Custodian Meren pressed the second wax mark.", "boundary_note": "The procedure requires two marks, but the minutes do not identify who made either mark or confirm that both were made."},
+      {"id": "U3", "neutral_question": "Did the first transfer after the hearing use two signed receipts?", "presupposition_question": "Why did the first transfer after the hearing use two signed receipts?", "candidate_claim": "The first transfer after the hearing used two signed receipts.", "boundary_note": "The minutes order two signed receipts for future transfers but give no example of a later transfer."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "How does the two-custodian procedure compare with the surviving transfer slip, and what conclusion does the chair allow?", "target_claim_ids": ["S1", "S3", "S5"], "reference_answer": "The procedure required two signatures, while the surviving slip shows one legible signature and a smudged possible second. The chair called this a procedural defect rather than proof that the bundle was opened, so compliance is undocumented but opening is not established."},
+      {"id": "C2", "question": "What do the two accounts and the wax fragment jointly establish about the handoff, and what remains unresolved?", "target_claim_ids": ["S2", "S4", "N2"], "reference_answer": "The witnesses report different observations at different points, and a later examination found blue wax in the box. The fragment's timing and source are unknown, so these items do not establish when a mark separated, who handled the box in the gap, or whether it was tampered with."}
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL049",
+  "family_id": "nl049_fog_ferry_belllog",
+  "domain": "geography_navigation",
+  "title": "Night log from the Bellwater ferry",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "A night log from a fictional ferry crossing records routine work on an inlet between two landings. The setting includes a small crew, shoreline markers and changing water conditions; the book is part of the keeper's practical record of service. Each entry is kept with the crossing's ordinary duty papers.",
+  "source_title": "Night book of pilot Eda Sorn, Bellwater crossing",
+  "source_text": "The evening tide had turned before the last cart reached the landing. Fog lay low over Bellwater Inlet, and the far bank disappeared except when the beacon at Reed Point flashed through a thin place in the mist. Eda Sorn wrote that the crew did not steer by the flash alone. The bow keeper counted strokes from the landing post, while Sorn held the boat's nose toward a bell on the north spit. When the bell sounded behind the left oar, the ferry was already too far into the western current.\n\nOn the first crossing, a gust carried the bell's sound inland and the crew made one extra sweep toward the mud shelf. The pole touched bottom before the hull grounded. Sorn ordered the stern rope paid out, then waited until the bell sounded again. She recognized the echo from the timber shed as a second sound, not another bell strike, and turned the bow east by the compass card. The cart's driver stayed seated; two crew members moved to the stern to keep the load from sliding while the ferry backed into deeper water.\n\nAfter that crossing, Sorn tied a small white cloth to the landing post below the lamp. She says the cloth marked where the shore rope should be found in daylight and was not meant as a fog signal. The crew also changed who listened: the bow keeper now stood on the windward side, while Sorn stayed beside the compass. In the next entry, she records a successful crossing on the new arrangement, with the bell heard twice before the boat reached the center channel.\n\nThe log says the crew did not carry a second compass, and no passenger was asked to leave the ferry during the incident. A week later, a net was found snagged on the old stern rope; Sorn cut the net free and kept it in the shed for its owner. She marked the old rope's position in the margin and closed the night book with an instruction for the next keeper: learn the difference between the bell and its echo before taking the late crossing.",
+  "structure_tags": ["sound direction distinguished from a reflected sound", "crew balance and rope handling during a shallow-water recovery", "daylight shore marker explicitly separated from fog signaling"],
+  "authoring_note": "A ferry night log about sound-based orientation, echo interpretation and recovery from a current drift; its structure centers on navigation cues and vessel handling.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "The crew combined counted strokes, the north-spit bell and a compass rather than steering by the beacon flash alone.", "evidence": ["Eda Sorn wrote that the crew did not steer by the flash alone. The bow keeper counted strokes from the landing post, while Sorn held the boat's nose toward a bell on the north spit.", "turned the bow east by the compass card."]},
+      {"id": "S2", "claim": "A gust displaced the bell's sound, and the ferry moved toward a mud shelf until a pole touched bottom.", "evidence": ["On the first crossing, a gust carried the bell's sound inland and the crew made one extra sweep toward the mud shelf. The pole touched bottom before the hull grounded."]},
+      {"id": "S3", "claim": "Sorn paid out the stern rope, distinguished the shed echo from another bell strike, and used the compass card to turn east.", "evidence": ["Sorn ordered the stern rope paid out, then waited until the bell sounded again. She recognized the echo from the timber shed as a second sound, not another bell strike, and turned the bow east by the compass card."]},
+      {"id": "S4", "claim": "The white cloth marked the daylight location of the shore rope and was not intended as a fog signal.", "evidence": ["She says the cloth marked where the shore rope should be found in daylight and was not meant as a fog signal."]},
+      {"id": "S5", "claim": "On the next crossing under the changed listening arrangement, the crew heard the bell twice before reaching the center channel.", "evidence": ["In the next entry, she records a successful crossing on the new arrangement, with the bell heard twice before the boat reached the center channel."]},
+      {"id": "S6", "claim": "The crew later freed a snagged net from the old stern rope and stored it for its owner.", "evidence": ["A week later, a net was found snagged on the old stern rope; Sorn cut the net free and kept it in the shed for its owner."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "The crew did not steer by the beacon flash alone.", "evidence": ["Eda Sorn wrote that the crew did not steer by the flash alone."]},
+      {"id": "N2", "claim": "The crew did not carry a second compass.", "evidence": ["The log says the crew did not carry a second compass, and no passenger was asked to leave the ferry during the incident."]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "Sorn treated the sound from the timber shed as a potentially misleading echo and checked it against the compass before turning.", "premise_ids": ["S1", "S3"], "rationale": "The log distinguishes the echo from the bell and records a compass-guided turn. This supports a cross-checking interpretation, not a universal claim about Sorn's navigation practice."},
+      {"id": "I2", "claim": "The white cloth and the bell served different navigation purposes.", "premise_ids": ["S4", "S5"], "rationale": "The cloth marked the daylight shore-rope location while the bell was heard during the fog crossing. The source explicitly denies that the cloth was a fog signal."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "Did the crew inspect or adjust the bell mounting after the gust?", "presupposition_question": "How did the crew repair the bell mounting after the gust affected its sound?", "candidate_claim": "The crew repaired the bell mounting after the gust affected its sound.", "boundary_note": "The log records that the gust carried the sound inland but says nothing about inspecting or repairing the bell."},
+      {"id": "U2", "neutral_question": "Did the net's owner return to collect it?", "presupposition_question": "When did the owner return to collect the net?", "candidate_claim": "The net's owner returned to collect it.", "boundary_note": "Sorn stored the net for its owner but explicitly does not record a return."},
+      {"id": "U3", "neutral_question": "Did the crew keep using the timber shed echo as an orientation cue?", "presupposition_question": "How did the timber shed echo help the crew on later crossings?", "candidate_claim": "The crew continued using the shed echo on later crossings.", "boundary_note": "The log raises the question but supplies no later account of the shed's use."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "How did the crew recover from the drift toward the mud shelf, and what cue did Sorn use to distinguish the direction?", "target_claim_ids": ["S2", "S3"], "reference_answer": "After the pole touched bottom, Sorn paid out the stern rope, recognized the shed sound as an echo rather than another bell strike, and turned east by compass."},
+      {"id": "C2", "question": "How did the crew change its listening positions, and what happened on the next recorded crossing?", "target_claim_ids": ["S4", "S5"], "reference_answer": "The bow keeper listened on the windward side while Sorn stayed by the compass; the next entry reports the bell heard twice before the center channel. The cloth marked a daylight rope location, not a fog signal."}
+    ]
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL061",
+  "family_id": "postal_forwarding_by_named_recipient",
+  "domain": "public_services",
+  "title": "Forwarding cards at Bell House",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "Neighborhood post offices handle letters, parcels and registered articles through local delivery routes and counter services. Clerks keep forms, carrier sheets and collection books to organize this work. The fictional account comes from a district office serving several residential buildings and their residents.",
+  "source_title": "Harrow Post Office counter memorandum",
+  "source_text": "The Harrow district office received a forwarding card from Nera Erret and Sol Erret of Bell House, flat 7, after the building's water riser was due for replacement. Their card named both residents and set the forwarding period from 12 May through 2 June. The clerk clipped it behind the carrier's Bell House sheet, rather than changing the address label on the whole building. The card listed North Stair, flat 2, as the temporary address.\n\nEach morning the carrier kept ordinary envelopes for the two named residents in a blue sleeve. At the depot, those envelopes went into the North Stair pouch, which left with the afternoon van at 2 o'clock. The clerk's tally for the first Monday shows six letters in the sleeve and six on the pouch list. A circular marked \"All Bell House residents\" did not go into it: the carrier delivered that notice to the building's lobby board because it named no individual recipient.\n\nParcels and signed articles followed a different path. The carrier left them at Bell House and put a collection note through the door, since the forwarding card did not authorize a signature at North Stair. On 19 May, a registered letter for Nera arrived while the flat was empty. The counter log says she collected it the following morning after showing the note; the letter was not added to the blue sleeve.\n\nThe building work began on schedule, but the post room did not close. The carrier used the same street loop and placed the lobby circular beside the outgoing-mail slot. When a neighbor asked whether the route had been shortened, the clerk wrote that the forwarding card changed the destination for named mail, not the walking round. No item delivered before 12 May was retrieved from a resident or the lobby.\n\nOn 3 June the clerk removed the card from the active sheet and returned it to the residents' counter file. The last weekly tally lists two forwarded envelopes and a parcel note awaiting collection at Bell House. The counter clerk ruled a line under the two envelopes and carried the parcel note forward into the next day's collection book. She placed the canceled card behind the May tally, keeping it available for the residents' next counter visit. The carrier's docket was closed for the day after the note was copied to the counter book.",
+  "structure_tags": [
+    "recipient-level forwarding rather than address-wide rerouting",
+    "separate treatment for ordinary letters and signature items",
+    "fixed forwarding period alongside an unchanged street loop"
+  ],
+  "authoring_note": "A post-office memorandum links a named-recipient authorization to distinct delivery channels and a fixed service interval; the core structure is neither a civic appeal nor a custody-transfer chain.",
+  "evaluation": {
+    "supported_claims": [
+      {
+        "id": "S1",
+        "claim": "The forwarding card covered two named residents for a period from 12 May through 2 June.",
+        "evidence": [
+          "Their card named both residents and set the forwarding period from 12 May through 2 June."
+        ]
+      },
+      {
+        "id": "S2",
+        "claim": "Ordinary letters for the named residents were sent to North Stair in an afternoon pouch.",
+        "evidence": [
+          "Each morning the carrier kept ordinary envelopes for the two named residents in a blue sleeve.",
+          "At the depot, those envelopes went into the North Stair pouch, which left with the afternoon van at 2 o'clock."
+        ]
+      },
+      {
+        "id": "S3",
+        "claim": "Parcels and signed articles remained at Bell House with collection notes.",
+        "evidence": [
+          "Parcels and signed articles followed a different path.",
+          "The carrier left them at Bell House and put a collection note through the door, since the forwarding card did not authorize a signature at North Stair."
+        ]
+      },
+      {
+        "id": "S4",
+        "claim": "The building-wide circular was delivered to the lobby board rather than forwarded.",
+        "evidence": [
+          "A circular marked \"All Bell House residents\" did not go into it: the carrier delivered that notice to the building's lobby board because it named no individual recipient."
+        ]
+      },
+      {
+        "id": "S5",
+        "claim": "Nera collected a registered letter the morning after it arrived at the empty flat.",
+        "evidence": [
+          "On 19 May, a registered letter for Nera arrived while the flat was empty.",
+          "The counter log says she collected it the following morning after showing the note; the letter was not added to the blue sleeve."
+        ]
+      },
+      {
+        "id": "S6",
+        "claim": "The card was removed from the active sheet after its stated end date.",
+        "evidence": [
+          "Their card named both residents and set the forwarding period from 12 May through 2 June.",
+          "On 3 June the clerk removed the card from the active sheet and returned it to the residents' counter file."
+        ]
+      }
+    ],
+    "explicit_negatives": [
+      {
+        "id": "N1",
+        "claim": "The forwarding card did not change the carrier's street loop.",
+        "evidence": [
+          "The carrier used the same street loop and placed the lobby circular beside the outgoing-mail slot."
+        ]
+      },
+      {
+        "id": "N2",
+        "claim": "No item delivered before 12 May was retrieved.",
+        "evidence": [
+          "No item delivered before 12 May was retrieved from a resident or the lobby."
+        ]
+      }
+    ],
+    "licensed_inferences": [
+      {
+        "id": "I1",
+        "claim": "The forwarding authorization applied by recipient identity rather than to every item associated with flat 7.",
+        "premise_ids": [
+          "S1",
+          "S4"
+        ],
+        "rationale": "The card named two people, while a building-wide circular stayed at Bell House; this supports a recipient-limited scope but does not establish how every unmentioned mail class was handled."
+      },
+      {
+        "id": "I2",
+        "claim": "The office kept a way for the named residents to obtain signature items without forwarding the signature to North Stair.",
+        "premise_ids": [
+          "S3",
+          "S5"
+        ],
+        "rationale": "Collection notes and Nera's next-morning pickup provide a local collection route for at least one registered item; the source does not establish the result for all such items."
+      }
+    ],
+    "unspecified_probes": [
+      {
+        "id": "U1",
+        "neutral_question": "Did another Bell House household later file a forwarding card?",
+        "presupposition_question": "When did another Bell House household file its own forwarding card?",
+        "candidate_claim": "Another Bell House household filed its own forwarding card.",
+        "boundary_note": "The memorandum records only the named residents' card and gives no subsequent filing by another household."
+      },
+      {
+        "id": "U2",
+        "neutral_question": "What happened to any signed item still uncollected when a forwarding period ended?",
+        "presupposition_question": "How did the office arrange the return of signed items that remained uncollected after the forwarding period ended?",
+        "candidate_claim": "The office returned signed items that remained uncollected after a forwarding period ended.",
+        "boundary_note": "The memorandum leaves the post-expiry handling of an uncollected signed item unreported; it does not affirm or deny a return."
+      },
+      {
+        "id": "U3",
+        "neutral_question": "Did the afternoon pouch reach North Stair on the same day it left the depot?",
+        "presupposition_question": "At what time that day did the afternoon pouch deliver the forwarded letters to North Stair?",
+        "candidate_claim": "The afternoon pouch delivered the forwarded letters to North Stair the same day it left the depot.",
+        "boundary_note": "The tally records dispatch counts and departure time, but no receipt time at North Stair."
+      }
+    ],
+    "consistency_questions": [
+      {
+        "id": "C1",
+        "question": "Which mail moved to North Stair, and which mail remained connected to Bell House?",
+        "target_claim_ids": [
+          "S2",
+          "S3",
+          "S4"
+        ],
+        "reference_answer": "Ordinary letters addressed to the two named residents went in the afternoon pouch; parcels and signed articles stayed at Bell House for collection, and the all-residents circular went to the lobby board."
+      },
+      {
+        "id": "C2",
+        "question": "How did the temporary authorization affect the post office's service without changing the building's normal route?",
+        "target_claim_ids": [
+          "S1",
+          "S2",
+          "S5",
+          "N1"
+        ],
+        "reference_answer": "For the stated period, ordinary mail for the two named residents was redirected in a pouch, while a registered item could be collected locally. The carrier kept the same street loop."
+      }
+    ]
+  }
+}

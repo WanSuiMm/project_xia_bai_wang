@@ -1,0 +1,29 @@
+{
+  "case_id": "N07",
+  "domain": "science_nature",
+  "title": "The rain-lift response of lantern fenleaf",
+  "public_context": "In the fictional Alderwash reserve, a recently surveyed wetland herb called lantern fenleaf shares shallow seasonal pools with familiar grasses and sedges. Field notes describe an unusual change in leaf posture after water levels rise. The observation has drawn interest because nearby plants experience similar weather without showing the same visible shift. This dossier summarizes measurements from one small study.",
+  "source_title": "Field dossier: leaf posture in lantern fenleaf at Alderwash",
+  "source_text": "All organisms, sites, and measurements in this dossier are fictional. Lantern fenleaf is a low herb recorded along shallow pools at Alderwash, a temperate reserve. During two spring surveys, observers marked 24 plants on a low shelf that flooded briefly after rain and 20 plants on a nearby raised shelf. Within six hours of inundation, low-shelf plants held their youngest leaves at a steeper angle; the raised-shelf plants changed little. Leaf angle was measured from fixed photographs, and the same tagged plants were followed for three days. The shift was most visible in new leaves and faded after the water receded. No plants died, and flower number did not differ detectably between shelves during the survey.\n\nTo separate water contact from other field conditions, a greenhouse trial used 48 nursery-grown plants from one seed lot. Pots received equal light, temperature, and water volume. Half had root-zone air exchange restricted for eight hours while drainage openings were covered; the remainder drained freely. The restricted group showed a larger average upward leaf-angle change. In a small follow-up, reopening the covered openings was followed by partial return toward baseline within a day. Spraying the foliage without restricting drainage produced no comparable shift. Leaf temperature and stem thickness were similar between groups.\n\nThe authors confirm a repeatable posture change under the tested low-aeration treatment and its partial reversibility after drainage resumed. They suggest that low root-zone aeration may trigger a hydraulic or chemical signal that changes leaf growth or turgor. Ethylene signaling is discussed as one candidate because flooding responses in plants can involve it. Closing drainage changes more than gas exchange, so the treatment does not isolate oxygen availability. The team treats this as a provisional account of the response, not a demonstrated signaling pathway. Its observations support a bounded response under the tested conditions; they do not establish a survival advantage or a general account of the species.",
+  "analyst_notes": {
+    "core_facts": [
+      "In the field surveys, the youngest leaves of low-shelf plants steepened after brief inundation, while nearby raised-shelf plants changed little.",
+      "With light, temperature, and water volume held equal, restricted root-zone air exchange produced a larger average upward leaf-angle change than free drainage.",
+      "Reopening drainage was followed by partial return toward baseline; foliage spraying alone did not reproduce the shift.",
+      "The posture response is repeatable under the tested low-aeration treatment, but no survival advantage was shown."
+    ],
+    "explicit_negations": [
+      "Foliage spraying without restricted drainage produced no comparable shift.",
+      "Leaf temperature and stem thickness were similar between the greenhouse groups."
+    ],
+    "source_boundaries": [
+      "The field observations cover two shelves in one reserve over one spring; the greenhouse plants came from a single seed lot.",
+      "Covering drainage openings restricts gas exchange and may alter root-zone water retention; equal water added to the pots does not mean equal water content at the roots or isolate oxygen as the cause.",
+      "The downstream hydraulic or chemical signal, including ethylene, remains unconfirmed."
+    ],
+    "consistency_checks": [
+      "Describe leaf posture change and partial reversibility as observed; do not claim that it improves survival or is universal across the fictional herb.",
+      "Ethylene was a candidate explanation only; no hormone concentration or signaling activity was measured."
+    ]
+  }
+}

@@ -1,0 +1,508 @@
+[
+  {
+    "case_id": "EB01",
+    "public_context": "A fictional workshop dossier studies thin laminated panels that change shape between damp and dry rooms. Familiar laboratory practices include trays, timed transfers, reference photographs and repeat observations. The workshop, panel names, people and observations are invented. Discuss the particular dossier rather than established facts about a real product.",
+    "sources": [
+      {
+        "source_title": "Corda workshop: foldglass transfer notebook",
+        "source_text": "Corda workshop calls its thin laminated test panels foldglass. A bench notebook by Maro Pell, dated September 2019, compares their shape after movement between a damp room and a dry room. The workshop uses these panels as experimental samples rather than approved building components. Each sample carries an inked identifier that remains attached throughout the sequence.\n\nThe notebook follows 24 panels in four shallow trays, with 6 panels in each tray. The observers keep the tray supports and room lamps unchanged. They move whole trays rather than spray individual panels. After three hours in each room, they photograph each identified sample beside the same square-grid reference card. The card supplies a visual reference, not a reported angle measurement.\n\nAfter the damp-room period, 16 panels have their free edges visibly raised; the remaining 8 have no clear change in the photographs. The notebook does not identify the unresponsive samples as a separate manufacturing batch. Its comparison concerns edge shape, not the appearance of a new coating or a different ink label.\n\nOn the next day, 7 responsive panels undergo a damp-to-dry-to-damp sequence. All 7 flatten and then raise their edges again in that order. Brief removal from a room for photography does not immediately erase the observed shape. The recorded sequence covers two days and supports reversibility only over that observed interval.\n\nThe author proposes unequal moisture uptake across the laminated layers as a working explanation. Room transfers alone do not isolate that mechanism from temperature drift or handling effects. The notebook treats these as unresolved alternatives and warns that judging an edge from a photograph can depend on camera position.\n\nNo internal-layer microscopy was performed. No outdoor-weather exposure trial was conducted. The team did not test repeated cycling over several weeks.",
+        "host_map": [
+          {
+            "claim_id": "date",
+            "zone": "S+",
+            "example_question": "Who wrote the notebook, and when?",
+            "reference_answer": "Maro Pell; September 2019.",
+            "evidence_span": "Corda workshop calls its thin laminated test panels foldglass. A bench notebook by Maro Pell, dated September 2019, compares their shape after movement between a damp room and a dry room. The workshop uses these panels as experimental samples rather than approved building components. Each sample carries an inked identifier that remains attached throughout the sequence."
+          },
+          {
+            "claim_id": "sample",
+            "zone": "S+",
+            "example_question": "How many panels and trays?",
+            "reference_answer": "24 panels; four trays, 6 each.",
+            "evidence_span": "The notebook follows 24 panels in four shallow trays, with 6 panels in each tray. The observers keep the tray supports and room lamps unchanged. They move whole trays rather than spray individual panels. After three hours in each room, they photograph each identified sample beside the same square-grid reference card. The card supplies a visual reference, not a reported angle measurement."
+          },
+          {
+            "claim_id": "response",
+            "zone": "S+",
+            "example_question": "How many changed shape?",
+            "reference_answer": "16 raised free edges; 8 unclear.",
+            "evidence_span": "After the damp-room period, 16 panels have their free edges visibly raised; the remaining 8 have no clear change in the photographs. The notebook does not identify the unresponsive samples as a separate manufacturing batch. Its comparison concerns edge shape, not the appearance of a new coating or a different ink label."
+          },
+          {
+            "claim_id": "reversal",
+            "zone": "S+",
+            "example_question": "What happened in the repeat sequence?",
+            "reference_answer": "7 flattened then raised edges; two-day observation.",
+            "evidence_span": "On the next day, 7 responsive panels undergo a damp-to-dry-to-damp sequence. All 7 flatten and then raise their edges again in that order. Brief removal from a room for photography does not immediately erase the observed shape. The recorded sequence covers two days and supports reversibility only over that observed interval."
+          },
+          {
+            "claim_id": "mechanism",
+            "zone": "S+",
+            "example_question": "Was the mechanism established?",
+            "reference_answer": "Unequal moisture uptake is proposed; temperature and handling remain unresolved.",
+            "evidence_span": "The author proposes unequal moisture uptake across the laminated layers as a working explanation. Room transfers alone do not isolate that mechanism from temperature drift or handling effects. The notebook treats these as unresolved alternatives and warns that judging an edge from a photograph can depend on camera position."
+          },
+          {
+            "claim_id": "cells",
+            "zone": "S-",
+            "example_question": "Did the researchers examine the internal layers with microscopy?",
+            "reference_answer": "No internal-layer microscopy was performed.",
+            "evidence_span": "No internal-layer microscopy was performed."
+          },
+          {
+            "claim_id": "load",
+            "zone": "S?",
+            "example_question": "Were the panels tested under structural loads?",
+            "reference_answer": "The source does not specify whether this was done.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "outdoor",
+            "zone": "S-",
+            "example_question": "Was outdoor performance tested?",
+            "reference_answer": "No outdoor-weather exposure trial was conducted.",
+            "evidence_span": "No outdoor-weather exposure trial was conducted."
+          },
+          {
+            "claim_id": "adhesive",
+            "zone": "S?",
+            "example_question": "Were adhesive formulations compared?",
+            "reference_answer": "The source does not specify whether this was done.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "fatigue",
+            "zone": "S-",
+            "example_question": "Did they test repeated cycling over many weeks?",
+            "reference_answer": "The team did not test repeated cycling over several weeks.",
+            "evidence_span": "The team did not test repeated cycling over several weeks."
+          },
+          {
+            "claim_id": "chemical",
+            "zone": "S?",
+            "example_question": "Was the material analysed chemically?",
+            "reference_answer": "The source does not specify whether this was done.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "temperature",
+            "zone": "S?",
+            "example_question": "What were the room temperatures in degrees?",
+            "reference_answer": "Not specified.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "humidity",
+            "zone": "S?",
+            "example_question": "What were the absolute relative humidities?",
+            "reference_answer": "Not specified.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "camera",
+            "zone": "S?",
+            "example_question": "Which camera model was used?",
+            "reference_answer": "Not specified.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "angle",
+            "zone": "S?",
+            "example_question": "How many degrees did the edges bend?",
+            "reference_answer": "No numeric angle is specified; distinguish this from claiming nobody measured an angle.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "operator",
+            "zone": "S?",
+            "example_question": "Who physically moved the trays?",
+            "reference_answer": "Not specified; notebook authorship does not establish who moved trays.",
+            "evidence_span": null
+          }
+        ],
+        "source_id": "EB01_source_0",
+        "source_sha256": "e2e6f122cee2ebe1154e78226f4122c4c22ff8760a38efca35df2c76dcd6bb28"
+      },
+      {
+        "source_title": "Paven workshop: reedleaf transfer notebook",
+        "source_text": "Paven workshop calls its thin laminated test panels reedleaf. A bench notebook by Tessa Rin, dated November 2018, compares their shape after movement between a damp room and a dry room. The workshop uses these panels as experimental samples rather than approved building components. Each sample carries an inked identifier that remains attached throughout the sequence.\n\nThe notebook follows 32 panels in four shallow trays, with 8 panels in each tray. The observers keep the tray supports and room lamps unchanged. They move whole trays rather than spray individual panels. After three hours in each room, they photograph each identified sample beside the same square-grid reference card. The card supplies a visual reference, not a reported angle measurement.\n\nAfter the damp-room period, 24 panels have their free edges visibly raised; the remaining 8 have no clear change in the photographs. The notebook does not identify the unresponsive samples as a separate manufacturing batch. Its comparison concerns edge shape, not the appearance of a new coating or a different ink label.\n\nOn the next day, 6 responsive panels undergo a damp-to-dry-to-damp sequence. All 6 flatten and then raise their edges again in that order. Brief removal from a room for photography does not immediately erase the observed shape. The recorded sequence covers two days and supports reversibility only over that observed interval.\n\nThe author proposes unequal moisture uptake across the laminated layers as a working explanation. Room transfers alone do not isolate that mechanism from temperature drift or handling effects. The notebook treats these as unresolved alternatives and warns that judging an edge from a photograph can depend on camera position.\n\nThe notebook contains no comparison of adhesive formulations. The team did not test repeated cycling over several weeks. No chemical-composition assay was performed.",
+        "host_map": [
+          {
+            "claim_id": "date",
+            "zone": "S+",
+            "example_question": "Who wrote the notebook, and when?",
+            "reference_answer": "Tessa Rin; November 2018.",
+            "evidence_span": "Paven workshop calls its thin laminated test panels reedleaf. A bench notebook by Tessa Rin, dated November 2018, compares their shape after movement between a damp room and a dry room. The workshop uses these panels as experimental samples rather than approved building components. Each sample carries an inked identifier that remains attached throughout the sequence."
+          },
+          {
+            "claim_id": "sample",
+            "zone": "S+",
+            "example_question": "How many panels and trays?",
+            "reference_answer": "32 panels; four trays, 8 each.",
+            "evidence_span": "The notebook follows 32 panels in four shallow trays, with 8 panels in each tray. The observers keep the tray supports and room lamps unchanged. They move whole trays rather than spray individual panels. After three hours in each room, they photograph each identified sample beside the same square-grid reference card. The card supplies a visual reference, not a reported angle measurement."
+          },
+          {
+            "claim_id": "response",
+            "zone": "S+",
+            "example_question": "How many changed shape?",
+            "reference_answer": "24 raised free edges; 8 unclear.",
+            "evidence_span": "After the damp-room period, 24 panels have their free edges visibly raised; the remaining 8 have no clear change in the photographs. The notebook does not identify the unresponsive samples as a separate manufacturing batch. Its comparison concerns edge shape, not the appearance of a new coating or a different ink label."
+          },
+          {
+            "claim_id": "reversal",
+            "zone": "S+",
+            "example_question": "What happened in the repeat sequence?",
+            "reference_answer": "6 flattened then raised edges; two-day observation.",
+            "evidence_span": "On the next day, 6 responsive panels undergo a damp-to-dry-to-damp sequence. All 6 flatten and then raise their edges again in that order. Brief removal from a room for photography does not immediately erase the observed shape. The recorded sequence covers two days and supports reversibility only over that observed interval."
+          },
+          {
+            "claim_id": "mechanism",
+            "zone": "S+",
+            "example_question": "Was the mechanism established?",
+            "reference_answer": "Unequal moisture uptake is proposed; temperature and handling remain unresolved.",
+            "evidence_span": "The author proposes unequal moisture uptake across the laminated layers as a working explanation. Room transfers alone do not isolate that mechanism from temperature drift or handling effects. The notebook treats these as unresolved alternatives and warns that judging an edge from a photograph can depend on camera position."
+          },
+          {
+            "claim_id": "cells",
+            "zone": "S?",
+            "example_question": "Did the researchers examine the internal layers with microscopy?",
+            "reference_answer": "The source does not specify whether this was done.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "load",
+            "zone": "S?",
+            "example_question": "Were the panels tested under structural loads?",
+            "reference_answer": "The source does not specify whether this was done.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "outdoor",
+            "zone": "S?",
+            "example_question": "Was outdoor performance tested?",
+            "reference_answer": "The source does not specify whether this was done.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "adhesive",
+            "zone": "S-",
+            "example_question": "Were adhesive formulations compared?",
+            "reference_answer": "The notebook contains no comparison of adhesive formulations.",
+            "evidence_span": "The notebook contains no comparison of adhesive formulations."
+          },
+          {
+            "claim_id": "fatigue",
+            "zone": "S-",
+            "example_question": "Did they test repeated cycling over many weeks?",
+            "reference_answer": "The team did not test repeated cycling over several weeks.",
+            "evidence_span": "The team did not test repeated cycling over several weeks."
+          },
+          {
+            "claim_id": "chemical",
+            "zone": "S-",
+            "example_question": "Was the material analysed chemically?",
+            "reference_answer": "No chemical-composition assay was performed.",
+            "evidence_span": "No chemical-composition assay was performed."
+          },
+          {
+            "claim_id": "temperature",
+            "zone": "S?",
+            "example_question": "What were the room temperatures in degrees?",
+            "reference_answer": "Not specified.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "humidity",
+            "zone": "S?",
+            "example_question": "What were the absolute relative humidities?",
+            "reference_answer": "Not specified.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "camera",
+            "zone": "S?",
+            "example_question": "Which camera model was used?",
+            "reference_answer": "Not specified.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "angle",
+            "zone": "S?",
+            "example_question": "How many degrees did the edges bend?",
+            "reference_answer": "No numeric angle is specified; distinguish this from claiming nobody measured an angle.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "operator",
+            "zone": "S?",
+            "example_question": "Who physically moved the trays?",
+            "reference_answer": "Not specified; notebook authorship does not establish who moved trays.",
+            "evidence_span": null
+          }
+        ],
+        "source_id": "EB01_source_1",
+        "source_sha256": "cd0e769e0de86b907bffd6dcb93e8d788b12e1e388fc9bd066ec3dc41f58b801"
+      }
+    ]
+  },
+  {
+    "case_id": "EB02",
+    "public_context": "A fictional river district uses temporary boarding slips when storm conditions interrupt ordinary ferry service. A small administrative dossier describes issuing slips, priority queues and later checks against records. The district, offices, people and scheme are invented. Discuss this particular arrangement rather than the law or practice of any real jurisdiction.",
+    "sources": [
+      {
+        "source_title": "Mallow Ford: storm-boarding memorandum",
+        "source_text": "A memorandum signed by Mira Fenn in October 2013 describes the storm-boarding slip scheme in Mallow Ford. The West Quay Office issues temporary paper slips when the district marks ordinary ferry departures as disrupted by river conditions. The scheme concerns queue priority during a declared disruption, rather than ownership of a boat or a permanent ferry reservation.\n\nThe illustrated register contains 18 households distributed across three landing routes, with 6 listed on each route. A slip records the household identifier, landing route and issue day. The clerk stamps it with a square mark when issued; the later boarding steward uses a round mark after admitting the household. These two marks record different actions and must not be read as interchangeable evidence.\n\nA household may join the priority queue at its listed landing on the issue day. If no departure occurs before that evening, the clerk can carry the same slip forward once by writing the next day beneath the original date. This extension requires confirmation that the route was still disrupted; it is not an automatic renewal for everyone holding a slip.\n\nThe memorandum describes a later check of 12 slips against the steward sheets. Of these, 10 have corresponding round boarding marks and 2 lack a matching steward entry. The author does not infer that the unmatched households deliberately avoided boarding: missing sheets and unused slips are both left possible. A clerk stamp alone therefore does not establish that a journey occurred.\n\nOne example concerns a household arriving at a different landing from the route printed on its slip. Staff direct it to the ordinary queue at that landing rather than alter the recorded route. The memorandum offers this as an application of the route rule. It does not establish a general policy for every emergency that might prevent a household reaching its assigned landing.\n\nThe scheme grants no separate priority for cargo. An absent boarding mark is not itself treated as an offence. No later review of lost-slip replacement was conducted.",
+        "host_map": [
+          {
+            "claim_id": "date",
+            "zone": "S+",
+            "example_question": "Who signed the memorandum, and when?",
+            "reference_answer": "Mira Fenn; October 2013.",
+            "evidence_span": "A memorandum signed by Mira Fenn in October 2013 describes the storm-boarding slip scheme in Mallow Ford. The West Quay Office issues temporary paper slips when the district marks ordinary ferry departures as disrupted by river conditions. The scheme concerns queue priority during a declared disruption, rather than ownership of a boat or a permanent ferry reservation."
+          },
+          {
+            "claim_id": "register",
+            "zone": "S+",
+            "example_question": "How many households and routes?",
+            "reference_answer": "18; three routes, 6 each.",
+            "evidence_span": "The illustrated register contains 18 households distributed across three landing routes, with 6 listed on each route. A slip records the household identifier, landing route and issue day. The clerk stamps it with a square mark when issued; the later boarding steward uses a round mark after admitting the household. These two marks record different actions and must not be read as interchangeable evidence."
+          },
+          {
+            "claim_id": "marks",
+            "zone": "S+",
+            "example_question": "What do the square and round marks mean?",
+            "reference_answer": "Square: issuance; round: boarding.",
+            "evidence_span": "The illustrated register contains 18 households distributed across three landing routes, with 6 listed on each route. A slip records the household identifier, landing route and issue day. The clerk stamps it with a square mark when issued; the later boarding steward uses a round mark after admitting the household. These two marks record different actions and must not be read as interchangeable evidence."
+          },
+          {
+            "claim_id": "extension",
+            "zone": "S+",
+            "example_question": "When is an extension allowed?",
+            "reference_answer": "Once, if no departure that evening and continued disruption confirmed.",
+            "evidence_span": "A household may join the priority queue at its listed landing on the issue day. If no departure occurs before that evening, the clerk can carry the same slip forward once by writing the next day beneath the original date. This extension requires confirmation that the route was still disrupted; it is not an automatic renewal for everyone holding a slip."
+          },
+          {
+            "claim_id": "check",
+            "zone": "S+",
+            "example_question": "What did the record check establish?",
+            "reference_answer": "12 checked; 10 matched, 2 unmatched; cause unresolved.",
+            "evidence_span": "The memorandum describes a later check of 12 slips against the steward sheets. Of these, 10 have corresponding round boarding marks and 2 lack a matching steward entry. The author does not infer that the unmatched households deliberately avoided boarding: missing sheets and unused slips are both left possible. A clerk stamp alone therefore does not establish that a journey occurred."
+          },
+          {
+            "claim_id": "landing",
+            "zone": "S+",
+            "example_question": "What happens at the wrong landing?",
+            "reference_answer": "Ordinary queue at that landing; no recorded route alteration.",
+            "evidence_span": "One example concerns a household arriving at a different landing from the route printed on its slip. Staff direct it to the ordinary queue at that landing rather than alter the recorded route. The memorandum offers this as an application of the route rule. It does not establish a general policy for every emergency that might prevent a household reaching its assigned landing."
+          },
+          {
+            "claim_id": "transfer",
+            "zone": "S?",
+            "example_question": "Can another household use the slip?",
+            "reference_answer": "The source does not specify this rule or review.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "cargo",
+            "zone": "S-",
+            "example_question": "Does the slip grant cargo priority?",
+            "reference_answer": "The scheme grants no separate priority for cargo.",
+            "evidence_span": "The scheme grants no separate priority for cargo."
+          },
+          {
+            "claim_id": "fare",
+            "zone": "S?",
+            "example_question": "Does a slip waive the ordinary fare?",
+            "reference_answer": "The source does not specify this rule or review.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "penalty",
+            "zone": "S-",
+            "example_question": "Is a missing boarding mark treated as an offence?",
+            "reference_answer": "An absent boarding mark is not itself treated as an offence.",
+            "evidence_span": "An absent boarding mark is not itself treated as an offence."
+          },
+          {
+            "claim_id": "recovery",
+            "zone": "S-",
+            "example_question": "Was a later review of lost slips conducted?",
+            "reference_answer": "No later review of lost-slip replacement was conducted.",
+            "evidence_span": "No later review of lost-slip replacement was conducted."
+          },
+          {
+            "claim_id": "safety",
+            "zone": "S?",
+            "example_question": "Does priority override the skipper’s safety decision?",
+            "reference_answer": "The source does not specify this rule or review.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "fee",
+            "zone": "S?",
+            "example_question": "What is the fare amount?",
+            "reference_answer": "Not specified, even when a source explicitly says no fare waiver.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "threshold",
+            "zone": "S?",
+            "example_question": "What numerical river-height threshold triggers disruption?",
+            "reference_answer": "Not specified.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "paper",
+            "zone": "S?",
+            "example_question": "What paper colour or printing supplier was used?",
+            "reference_answer": "Not specified; stamp shapes do not imply paper colour.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "clerk",
+            "zone": "S?",
+            "example_question": "What is the issuing clerk’s name?",
+            "reference_answer": "Not specified; the memorandum signatory need not be the clerk.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "distance",
+            "zone": "S?",
+            "example_question": "How far apart are the landings?",
+            "reference_answer": "Not specified.",
+            "evidence_span": null
+          }
+        ],
+        "source_id": "EB02_source_0",
+        "source_sha256": "760dca4a62aac45ef546827c7b7e2fa4541fb25bcc49c8eb364e217d78abeade"
+      },
+      {
+        "source_title": "Mallow Ford: storm-boarding memorandum",
+        "source_text": "A memorandum signed by Oren Hale in October 2016 describes the storm-boarding slip scheme in Mallow Ford. The West Quay Office issues temporary paper slips when the district marks ordinary ferry departures as disrupted by river conditions. The scheme concerns queue priority during a declared disruption, rather than ownership of a boat or a permanent ferry reservation.\n\nThe illustrated register contains 24 households distributed across three landing routes, with 8 listed on each route. A slip records the household identifier, landing route and issue day. The clerk stamps it with a square mark when issued; the later boarding steward uses a round mark after admitting the household. These two marks record different actions and must not be read as interchangeable evidence.\n\nA household may join the priority queue at its listed landing on the issue day. If no departure occurs before that evening, the clerk can carry the same slip forward once by writing the next day beneath the original date. This extension requires confirmation that the route was still disrupted; it is not an automatic renewal for everyone holding a slip.\n\nThe memorandum describes a later check of 15 slips against the steward sheets. Of these, 12 have corresponding round boarding marks and 3 lack a matching steward entry. The author does not infer that the unmatched households deliberately avoided boarding: missing sheets and unused slips are both left possible. A clerk stamp alone therefore does not establish that a journey occurred.\n\nOne example concerns a household arriving at a different landing from the route printed on its slip. Staff direct it to the ordinary queue at that landing rather than alter the recorded route. The memorandum offers this as an application of the route rule. It does not establish a general policy for every emergency that might prevent a household reaching its assigned landing.\n\nA slip cannot be transferred to a different household. The scheme grants no separate priority for cargo. Holding a slip does not waive the ordinary fare.",
+        "host_map": [
+          {
+            "claim_id": "date",
+            "zone": "S+",
+            "example_question": "Who signed the memorandum, and when?",
+            "reference_answer": "Oren Hale; October 2016.",
+            "evidence_span": "A memorandum signed by Oren Hale in October 2016 describes the storm-boarding slip scheme in Mallow Ford. The West Quay Office issues temporary paper slips when the district marks ordinary ferry departures as disrupted by river conditions. The scheme concerns queue priority during a declared disruption, rather than ownership of a boat or a permanent ferry reservation."
+          },
+          {
+            "claim_id": "register",
+            "zone": "S+",
+            "example_question": "How many households and routes?",
+            "reference_answer": "24; three routes, 8 each.",
+            "evidence_span": "The illustrated register contains 24 households distributed across three landing routes, with 8 listed on each route. A slip records the household identifier, landing route and issue day. The clerk stamps it with a square mark when issued; the later boarding steward uses a round mark after admitting the household. These two marks record different actions and must not be read as interchangeable evidence."
+          },
+          {
+            "claim_id": "marks",
+            "zone": "S+",
+            "example_question": "What do the square and round marks mean?",
+            "reference_answer": "Square: issuance; round: boarding.",
+            "evidence_span": "The illustrated register contains 24 households distributed across three landing routes, with 8 listed on each route. A slip records the household identifier, landing route and issue day. The clerk stamps it with a square mark when issued; the later boarding steward uses a round mark after admitting the household. These two marks record different actions and must not be read as interchangeable evidence."
+          },
+          {
+            "claim_id": "extension",
+            "zone": "S+",
+            "example_question": "When is an extension allowed?",
+            "reference_answer": "Once, if no departure that evening and continued disruption confirmed.",
+            "evidence_span": "A household may join the priority queue at its listed landing on the issue day. If no departure occurs before that evening, the clerk can carry the same slip forward once by writing the next day beneath the original date. This extension requires confirmation that the route was still disrupted; it is not an automatic renewal for everyone holding a slip."
+          },
+          {
+            "claim_id": "check",
+            "zone": "S+",
+            "example_question": "What did the record check establish?",
+            "reference_answer": "15 checked; 12 matched, 3 unmatched; cause unresolved.",
+            "evidence_span": "The memorandum describes a later check of 15 slips against the steward sheets. Of these, 12 have corresponding round boarding marks and 3 lack a matching steward entry. The author does not infer that the unmatched households deliberately avoided boarding: missing sheets and unused slips are both left possible. A clerk stamp alone therefore does not establish that a journey occurred."
+          },
+          {
+            "claim_id": "landing",
+            "zone": "S+",
+            "example_question": "What happens at the wrong landing?",
+            "reference_answer": "Ordinary queue at that landing; no recorded route alteration.",
+            "evidence_span": "One example concerns a household arriving at a different landing from the route printed on its slip. Staff direct it to the ordinary queue at that landing rather than alter the recorded route. The memorandum offers this as an application of the route rule. It does not establish a general policy for every emergency that might prevent a household reaching its assigned landing."
+          },
+          {
+            "claim_id": "transfer",
+            "zone": "S-",
+            "example_question": "Can another household use the slip?",
+            "reference_answer": "A slip cannot be transferred to a different household.",
+            "evidence_span": "A slip cannot be transferred to a different household."
+          },
+          {
+            "claim_id": "cargo",
+            "zone": "S-",
+            "example_question": "Does the slip grant cargo priority?",
+            "reference_answer": "The scheme grants no separate priority for cargo.",
+            "evidence_span": "The scheme grants no separate priority for cargo."
+          },
+          {
+            "claim_id": "fare",
+            "zone": "S-",
+            "example_question": "Does a slip waive the ordinary fare?",
+            "reference_answer": "Holding a slip does not waive the ordinary fare.",
+            "evidence_span": "Holding a slip does not waive the ordinary fare."
+          },
+          {
+            "claim_id": "penalty",
+            "zone": "S?",
+            "example_question": "Is a missing boarding mark treated as an offence?",
+            "reference_answer": "The source does not specify this rule or review.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "recovery",
+            "zone": "S?",
+            "example_question": "Was a later review of lost slips conducted?",
+            "reference_answer": "The source does not specify this rule or review.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "safety",
+            "zone": "S?",
+            "example_question": "Does priority override the skipper’s safety decision?",
+            "reference_answer": "The source does not specify this rule or review.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "fee",
+            "zone": "S?",
+            "example_question": "What is the fare amount?",
+            "reference_answer": "Not specified, even when a source explicitly says no fare waiver.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "threshold",
+            "zone": "S?",
+            "example_question": "What numerical river-height threshold triggers disruption?",
+            "reference_answer": "Not specified.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "paper",
+            "zone": "S?",
+            "example_question": "What paper colour or printing supplier was used?",
+            "reference_answer": "Not specified; stamp shapes do not imply paper colour.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "clerk",
+            "zone": "S?",
+            "example_question": "What is the issuing clerk’s name?",
+            "reference_answer": "Not specified; the memorandum signatory need not be the clerk.",
+            "evidence_span": null
+          },
+          {
+            "claim_id": "distance",
+            "zone": "S?",
+            "example_question": "How far apart are the landings?",
+            "reference_answer": "Not specified.",
+            "evidence_span": null
+          }
+        ],
+        "source_id": "EB02_source_1",
+        "source_sha256": "10d0a759e1d8a81ad752f3af88a1ace8d7b29e1112d9103062a64a821fc96bad"
+      }
+    ]
+  }
+]

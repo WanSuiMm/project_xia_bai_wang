@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL034",
+  "family_id": "business_milestone_escrow_exception_signoff",
+  "domain": "business_operations",
+  "title": "Retained balance on the Cedar Arcade installation",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "Commercial installation contracts often release payment in stages tied to delivery, inspection, and customer acceptance. A payment memorandum can show which milestones were documented, how an exception was handled, and what remained pending at the close of a reporting period. The record below is fictional and concerns one installation.",
+  "source_title": "Cedar Arcade installation payment memorandum",
+  "source_text": "The Cedar Arcade lighting contract divided the price into three releases: forty percent when the equipment arrived, forty percent after the circuits passed inspection, and the final twenty percent after the site manager signed the completion sheet. The contractor's payment clerk kept each release attached to a dated delivery ticket or inspection form. A phone assurance did not count as a milestone record. The clerk's guide treated an unresolved exception as a stop on the last release, even when a manager's signature appeared.\n\nThe first shipment arrived on 4 April with every fixture listed on the packing sheet. The arcade manager signed the ticket after the installer counted the cartons in the loading bay. The clerk released the first forty percent that afternoon. During wiring, the contractor moved two switches to clear a newly installed display case. The change appeared on a hand sketch, but the amended drawing was not yet in the project file.\n\nThe inspector tested every circuit on 15 April and signed the inspection form, noting that the moved switches worked and that the hand sketch should be added to the final drawing set. The clerk released the second forty percent. The site manager later signed a completion sheet with an exception beside the drawing-set line: the marked-up final drawing had not been delivered. The clerk therefore held the last twenty percent rather than treating the signature as unconditional acceptance.\n\nThe contractor delivered the revised drawing set the next morning. The site manager initialed the exception as resolved and attached the drawing to the completion sheet. The payment clerk entered a request to release the retained balance, but the memorandum was filed before the bank transfer appeared in the account ledger. The contractor's invoice remained open for that amount at the end of the reporting week.\n\nThe memorandum credits the staged forms with making the drawing exception visible before final payment. The clerk recommends that future change sketches carry the project number and revision date before a moved switch is installed. The note records no circuit failure during the inspection. At the week's close, the payment clerk clipped the resolved hand sketch behind the signed completion sheet.",
+  "structure_tags": [
+    "three-stage escrow-like payment tied to documentary milestones",
+    "conditional completion signature retains final balance",
+    "late drawing delivery resolves exception before transfer receipt"
+  ],
+  "authoring_note": "The payment chain turns on conditional acceptance and a resolved drawing exception; the recorded release request is distinct from bank settlement.",
+  "evaluation": {
+    "supported_claims": [
+      {
+        "id": "S1",
+        "claim": "The contract released forty percent on arrival, forty percent after circuit inspection, and twenty percent after the site manager signed the completion sheet.",
+        "evidence": [
+          "The Cedar Arcade lighting contract divided the price into three releases: forty percent when the equipment arrived, forty percent after the circuits passed inspection, and the final twenty percent after the site manager signed the completion sheet."
+        ]
+      },
+      {
+        "id": "S2",
+        "claim": "The first release followed a signed delivery ticket after cartons were counted.",
+        "evidence": [
+          "The arcade manager signed the ticket after the installer counted the cartons in the loading bay. The clerk released the first forty percent that afternoon."
+        ]
+      },
+      {
+        "id": "S3",
+        "claim": "The inspector passed every circuit but noted the moved switches and missing final drawing update.",
+        "evidence": [
+          "The inspector tested every circuit on 15 April and signed the inspection form, noting that the moved switches worked and that the hand sketch should be added to the final drawing set."
+        ]
+      },
+      {
+        "id": "S4",
+        "claim": "The site manager signed completion with an exception, so the clerk held the final twenty percent.",
+        "evidence": [
+          "The site manager later signed a completion sheet with an exception beside the drawing-set line: the marked-up final drawing had not been delivered. The clerk therefore held the last twenty percent rather than treating the signature as unconditional acceptance."
+        ]
+      },
+      {
+        "id": "S5",
+        "claim": "The contractor delivered the drawing set the next morning and the site manager resolved the exception.",
+        "evidence": [
+          "The contractor delivered the revised drawing set the next morning. The site manager initialed the exception as resolved and attached the drawing to the completion sheet."
+        ]
+      },
+      {
+        "id": "S6",
+        "claim": "A release request was entered, but the bank transfer had not appeared in the account ledger when the memorandum was filed.",
+        "evidence": [
+          "The payment clerk entered a request to release the retained balance, but the memorandum was filed before the bank transfer appeared in the account ledger."
+        ]
+      }
+    ],
+    "explicit_negatives": [
+      {
+        "id": "N1",
+        "claim": "A phone assurance did not count as milestone documentation.",
+        "evidence": [
+          "A phone assurance did not count as a milestone record."
+        ]
+      },
+      {
+        "id": "N2",
+        "claim": "The completion signature was not treated as unconditional acceptance while the drawing was missing.",
+        "evidence": [
+          "The clerk therefore held the last twenty percent rather than treating the signature as unconditional acceptance."
+        ]
+      }
+    ],
+    "licensed_inferences": [
+      {
+        "id": "I1",
+        "claim": "The drawing exception delayed the final payment release after inspection had passed.",
+        "premise_ids": [
+          "S3",
+          "S4",
+          "S5"
+        ],
+        "rationale": "Circuits passed, but the completion sheet identified a missing revised drawing; delivery resolved the exception and prompted a release request."
+      },
+      {
+        "id": "I2",
+        "claim": "The file documents authorization to release the retained amount but not completed bank settlement.",
+        "premise_ids": [
+          "S5",
+          "S6"
+        ],
+        "rationale": "The exception was initialed as resolved and a request was entered, yet the transfer was absent from the ledger at filing time."
+      }
+    ],
+    "unspecified_probes": [
+      {
+        "id": "U1",
+        "neutral_question": "Was the retained balance transferred after the memorandum was filed?",
+        "presupposition_question": "How did Cedar Arcade transfer the retained balance the next business day?",
+        "candidate_claim": "Cedar Arcade transferred the retained balance the next business day.",
+        "boundary_note": "At the reporting week's close the contractor's invoice remained open; the file contains no later bank entry."
+      },
+      {
+        "id": "U2",
+        "neutral_question": "Did the contractor request late-payment interest?",
+        "presupposition_question": "Why did the contractor request late-payment interest on the retained balance?",
+        "candidate_claim": "The contractor requested late-payment interest on the retained balance.",
+        "boundary_note": "The memorandum documents the open invoice and completion exception but carries no interest request or charge."
+      },
+      {
+        "id": "U3",
+        "neutral_question": "Did the customer request additional switch moves during installation?",
+        "presupposition_question": "Why did the customer ask the contractor to move additional switches during installation?",
+        "candidate_claim": "The customer asked the contractor to move additional switches during installation.",
+        "boundary_note": "The memo reports two moved switches but does not attribute the change request or mention other switches."
+      }
+    ],
+    "consistency_questions": [
+      {
+        "id": "C1",
+        "question": "Why were the two first payment releases made while the final one was held?",
+        "target_claim_ids": [
+          "S1",
+          "S2",
+          "S3",
+          "S4"
+        ],
+        "reference_answer": "The arrival ticket supported the first forty percent and the circuit inspection supported the second. The final twenty percent required completion acceptance, which was conditional because the revised drawing was missing."
+      },
+      {
+        "id": "C2",
+        "question": "What does the record establish about completion and actual payment of the retained balance?",
+        "target_claim_ids": [
+          "S5",
+          "S6"
+        ],
+        "reference_answer": "The drawing exception was resolved and a release request was entered, but the memorandum was filed before the bank transfer appeared, so it establishes preparation for release rather than completed settlement."
+      }
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL031",
+  "family_id": "business_title_level_revenue_waterfall",
+  "domain": "business_operations",
+  "title": "August settlement note for the shared imprint",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "Small publishing and design businesses sometimes pool sales from projects whose contributors have different contractual shares. A settlement statement can show which charges are deducted before a split, how refunds attach to earlier sales, and when each contributor receives a payment. The details below belong to a fictional imprint and its accounting period.",
+  "source_title": "North Quay Editions monthly settlement statement",
+  "source_text": "North Quay Editions closed its August books on the last business day of the month and prepared one settlement sheet for each title. The imprint sells short-run field guides through its own counter and three independent shops. Counter receipts carry a title code, while shop statements arrive with the shop's monthly remittance. The accounts clerk matched both kinds of receipts before calculating contributor shares.\n\nEach title agreement assigns 48 percent of net receipts to the print shop, 32 percent to the illustrator, and 20 percent to North Quay for storage and distribution. Card-processing charges are removed from the receipt first; sales tax is tracked separately and is not part of the share pool. The clerk used the same order of operations for counter sales and shop remittances, then attached a line-by-line worksheet to each title statement. No contributor received a share of sales tax.\n\nOne shop returned a water-damaged copy from the July shipment after August's books had closed. The clerk entered the refund under that guide's title code in September and reduced that title's next share calculation. The August payments were not reopened, and the refund was not spread across the other titles. The shop's note said the book had arrived with a damp lower corner, but the statement did not charge the carrier because no delivery inspection had been signed.\n\nFor the remaining August titles, the print shop and illustrator shares matched the worksheets. North Quay held its own distribution amount until the shop invoices were checked, since two invoices listed packing materials on separate lines. The print shop agreed that one line was a reimbursable sleeve and the other was ordinary packing already covered by its share. The clerk corrected the worksheet before releasing the August transfers.\n\nThe statement records that all three contributors were paid for the closed August titles before the September refund was entered. At the monthly meeting, the clerk recommended keeping title-specific refund entries so a single damaged shipment would not silently alter unrelated project balances. The clerk filed the corrected worksheet with the title sheets and carried the guide-specific refund entry into the September ledger.",
+  "structure_tags": [
+    "title-level revenue split after transaction costs",
+    "late refund attached to originating title in next period",
+    "invoice classification held before payout"
+  ],
+  "authoring_note": "This accounting statement uses title-specific settlement and a period-later refund adjustment, separating the contributor split from tax and invoice review.",
+  "evaluation": {
+    "supported_claims": [
+      {
+        "id": "S1",
+        "claim": "North Quay matched counter receipts and shop remittances by title before calculating contributor shares.",
+        "evidence": [
+          "Counter receipts carry a title code, while shop statements arrive with the shop's monthly remittance. The accounts clerk matched both kinds of receipts before calculating contributor shares."
+        ]
+      },
+      {
+        "id": "S2",
+        "claim": "Each title allocated net receipts 48 percent to the print shop, 32 percent to the illustrator, and 20 percent to North Quay.",
+        "evidence": [
+          "Each title agreement assigns 48 percent of net receipts to the print shop, 32 percent to the illustrator, and 20 percent to North Quay for storage and distribution."
+        ]
+      },
+      {
+        "id": "S3",
+        "claim": "Card-processing charges were removed first, while sales tax stayed outside the share pool.",
+        "evidence": [
+          "Card-processing charges are removed from the receipt first; sales tax is tracked separately and is not part of the share pool."
+        ]
+      },
+      {
+        "id": "S4",
+        "claim": "A July copy returned after August close reduced that title's September calculation, without reopening August or affecting other titles.",
+        "evidence": [
+          "The clerk entered the refund under that guide's title code in September and reduced that title's next share calculation. The August payments were not reopened, and the refund was not spread across the other titles."
+        ]
+      },
+      {
+        "id": "S5",
+        "claim": "North Quay delayed its distribution amount while two packing invoices were checked.",
+        "evidence": [
+          "North Quay held its own distribution amount until the shop invoices were checked, since two invoices listed packing materials on separate lines."
+        ]
+      },
+      {
+        "id": "S6",
+        "claim": "All three contributors were paid for closed August titles before the September refund was entered.",
+        "evidence": [
+          "The statement records that all three contributors were paid for the closed August titles before the September refund was entered."
+        ]
+      }
+    ],
+    "explicit_negatives": [
+      {
+        "id": "N1",
+        "claim": "No contributor received a share of sales tax.",
+        "evidence": [
+          "No contributor received a share of sales tax."
+        ]
+      },
+      {
+        "id": "N2",
+        "claim": "The August payments were not reopened for the late refund.",
+        "evidence": [
+          "The August payments were not reopened, and the refund was not spread across the other titles."
+        ]
+      }
+    ],
+    "licensed_inferences": [
+      {
+        "id": "I1",
+        "claim": "The settlement protected unrelated title balances from a single late return.",
+        "premise_ids": [
+          "S4"
+        ],
+        "rationale": "The refund was entered against its own title code in the next period and was not spread across other titles."
+      },
+      {
+        "id": "I2",
+        "claim": "The split was applied to receipts after at least the stated card charge, rather than gross receipts including that charge.",
+        "premise_ids": [
+          "S2",
+          "S3"
+        ],
+        "rationale": "The agreement defines shares on net receipts and the clerk removes card-processing charges first; the statement does not specify every possible cost classification."
+      }
+    ],
+    "unspecified_probes": [
+      {
+        "id": "U1",
+        "neutral_question": "Did the carrier accept responsibility for the damp copy?",
+        "presupposition_question": "What led the carrier to accept responsibility for the water-damaged copy?",
+        "candidate_claim": "The carrier accepted responsibility for the water-damaged copy.",
+        "boundary_note": "The shipment note says the carrier was not charged because no delivery inspection was signed; a later acceptance or denial is not recorded."
+      },
+      {
+        "id": "U2",
+        "neutral_question": "Was the percentage schedule changed after September?",
+        "presupposition_question": "Why did North Quay raise its distribution share after September?",
+        "candidate_claim": "North Quay raised its distribution share after September.",
+        "boundary_note": "The settlement sheets document August's shares but contain no later percentage schedule or amendment."
+      },
+      {
+        "id": "U3",
+        "neutral_question": "Did the illustrator review the packing invoice correction?",
+        "presupposition_question": "How did the illustrator approve the corrected packing invoice?",
+        "candidate_claim": "The illustrator approved the corrected packing invoice.",
+        "boundary_note": "The statement reports the print shop's agreement and clerk's correction, but no illustrator review."
+      }
+    ],
+    "consistency_questions": [
+      {
+        "id": "C1",
+        "question": "How were contributor shares affected by card charges, sales tax, and the late return?",
+        "target_claim_ids": [
+          "S2",
+          "S3",
+          "S4",
+          "N1"
+        ],
+        "reference_answer": "The stated shares were calculated on net receipts after card-processing charges; sales tax stayed outside the pool. The late return was applied to that title in September, not reopened against August or spread across other titles."
+      },
+      {
+        "id": "C2",
+        "question": "Why was North Quay's distribution amount held even though contributors were paid for closed titles?",
+        "target_claim_ids": [
+          "S5",
+          "S6"
+        ],
+        "reference_answer": "The clerk held North Quay's own distribution amount while two packing invoice lines were classified, then corrected the worksheet; the statement still records payments for the closed August titles before the later refund."
+      }
+    ]
+  }
+}

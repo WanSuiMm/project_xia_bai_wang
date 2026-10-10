@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL029",
+  "family_id": "agriculture_granary_arrival_age_rotation",
+  "domain": "agriculture_food",
+  "title": "A steward's letter on the north granary",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "Community granaries must preserve grain while making stored lots available in a workable order. Stewards may use arrival marks, stack positions, and issue slips to prevent newer deliveries from hiding older ones. Letters about storage often mix practical instructions with the history of a particular season's inventory.",
+  "source_title": "North Granary autumn rotation letter",
+  "source_text": "To the North Granary committee: I am writing after the autumn intake because the front aisle has again filled before the upper loft was ready. On 2 September, the first barley carts arrived damp from a night shower, so the steward placed those sacks on the slatted lower platform with extra space between rows. Later carts came dry and were stacked on the upper loft after the carpenters finished its railing. Each sack bears its arrival day and the household mark, not a quality grade.\n\nThe issue rule follows arrival order within a grain type, but the steward may hold a sack for inspection if its tie is loose, its mark is unreadable, or its contents need a condition check. On 6 September, one barley sack had a broken cord and spilled a small quantity into the aisle. The clerk swept the loose grain into a clean tin, weighed it with the sack, and added a repair tie before issuing it. The sack stayed in the barley queue; it was not moved behind the later carts.\n\nAt month's end, the upper loft was partly cleared because the earliest dry sacks had been issued first. The damp arrivals remained on the lower platform until the inspector found no clumping inside the sample jars. The committee then released them in their arrival order. No sack was issued without a signed slip, and the household that received the repaired sack returned the empty tie tag the next week. The letter says that the tag helped the clerk close the repair entry against the correct lot.\n\nThe steward asks the committee to keep the upper loft's railing clear of hanging sacks, since a blocked walkway makes it difficult to turn the hand trolley. He also recommends that the next intake record include cart arrival time when two lots reach the gate on the same day. The current ledger uses only dates, so the clerk had to ask two drivers which cart arrived first on 2 September. Both drivers agreed on the order, and the issue sequence was preserved.\n\nThe committee approved the walkway rule at its October meeting and assigned the carpenter to add a painted height mark beside the loft entrance. The letter reports that no grain was discarded during the rotation. The clerk copied the signed October decision into the intake binder and placed the drivers' statements behind the dated issue ledger.",
+  "structure_tags": [
+    "first-in first-out within grain type with repair hold",
+    "arrival order preserved after sack repair",
+    "storage layout and intake record changes"
+  ],
+  "authoring_note": "A granary steward letter links lot rotation, a repair exception, and a later improvement to tie-breaking records.",
+  "evaluation": {
+    "supported_claims": [
+      {
+        "id": "S1",
+        "claim": "The first barley carts arrived damp and were placed on a lower slatted platform with space between rows.",
+        "evidence": [
+          "On 2 September, the first barley carts arrived damp from a night shower, so the steward placed those sacks on the slatted lower platform with extra space between rows."
+        ]
+      },
+      {
+        "id": "S2",
+        "claim": "Issue order followed arrival order within a grain type, with inspection holds for damaged ties, unreadable marks, or a condition check.",
+        "evidence": [
+          "The issue rule follows arrival order within a grain type, but the steward may hold a sack for inspection if its tie is loose, its mark is unreadable, or its contents need a condition check."
+        ]
+      },
+      {
+        "id": "S3",
+        "claim": "The clerk repaired a spill-damaged sack and kept it in the barley queue.",
+        "evidence": [
+          "On 6 September, one barley sack had a broken cord and spilled a small quantity into the aisle. The clerk swept the loose grain into a clean tin, weighed it with the sack, and added a repair tie before issuing it. The sack stayed in the barley queue; it was not moved behind the later carts."
+        ]
+      },
+      {
+        "id": "S4",
+        "claim": "The damp arrivals were released in arrival order after sample jars showed no clumping.",
+        "evidence": [
+          "The damp arrivals remained on the lower platform until the inspector found no clumping inside the sample jars. The committee then released them in their arrival order."
+        ]
+      },
+      {
+        "id": "S5",
+        "claim": "No sack was issued without a signed slip.",
+        "evidence": [
+          "No sack was issued without a signed slip, and the household that received the repaired sack returned the empty tie tag the next week."
+        ]
+      },
+      {
+        "id": "S6",
+        "claim": "The committee approved the walkway rule and assigned a painted height mark.",
+        "evidence": [
+          "The committee approved the walkway rule at its October meeting and assigned the carpenter to add a painted height mark beside the loft entrance."
+        ]
+      }
+    ],
+    "explicit_negatives": [
+      {
+        "id": "N1",
+        "claim": "No grain was discarded during the rotation.",
+        "evidence": [
+          "The letter reports that no grain was discarded during the rotation."
+        ]
+      },
+      {
+        "id": "N2",
+        "claim": "The current ledger did not use arrival time to order lots that arrived on the same date.",
+        "evidence": [
+          "The current ledger uses only dates, so the clerk had to ask two drivers which cart arrived first on 2 September."
+        ]
+      }
+    ],
+    "licensed_inferences": [
+      {
+        "id": "I1",
+        "claim": "The repair hold did not override the arrival-order rule once the damaged sack was made issuable.",
+        "premise_ids": [
+          "S2",
+          "S3"
+        ],
+        "rationale": "The sack was inspected, repaired, and then explicitly kept in its original place in the barley queue."
+      },
+      {
+        "id": "I2",
+        "claim": "A date-only ledger could require human confirmation when same-day arrivals need an order.",
+        "premise_ids": [
+          "S6",
+          "N2"
+        ],
+        "rationale": "The clerk had to ask drivers to distinguish two carts on the same date, prompting a recommendation to record arrival time."
+      }
+    ],
+    "unspecified_probes": [
+      {
+        "id": "U1",
+        "neutral_question": "Could the damp barley safely remain on the lower platform for a full month?",
+        "presupposition_question": "What kept the damp barley safe on the lower platform for a full month?",
+        "candidate_claim": "The damp barley could safely remain on the lower platform for a full month.",
+        "boundary_note": "The letter gives no safe-duration estimate; the inspector only found no clumping in sample jars before release."
+      },
+      {
+        "id": "U2",
+        "neutral_question": "Did the painted height mark reduce handling time?",
+        "presupposition_question": "How did the new height mark reduce trolley handling time in later intakes?",
+        "candidate_claim": "The new height mark reduced trolley handling time in later intakes.",
+        "boundary_note": "The mark was assigned for installation, but no later handling-time result is reported."
+      },
+      {
+        "id": "U3",
+        "neutral_question": "Which grain type had the most sacks in the upper loft?",
+        "presupposition_question": "Why was barley the grain type with the most sacks in the upper loft?",
+        "candidate_claim": "Barley was the grain type with the most sacks in the upper loft.",
+        "boundary_note": "The letter describes barley placement but provides no comparative counts across grain types."
+      }
+    ],
+    "consistency_questions": [
+      {
+        "id": "C1",
+        "question": "How did the inspection exception affect the damaged sack's place in the queue?",
+        "target_claim_ids": [
+          "S2",
+          "S3",
+          "S5"
+        ],
+        "reference_answer": "A loose tie permitted an inspection hold; after sweeping, weighing, and repair, the sack stayed in its barley arrival queue and was issued with a signed slip."
+      },
+      {
+        "id": "C2",
+        "question": "Why did the steward recommend recording cart arrival time?",
+        "target_claim_ids": [
+          "S6",
+          "N2"
+        ],
+        "reference_answer": "The date-only ledger could not order two same-day carts without asking drivers, so the steward recommended adding arrival time; the committee also approved walkway access and a height mark."
+      }
+    ]
+  }
+}

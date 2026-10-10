@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL007",
+  "family_id": "archaeology_stratigraphic_intercut_lens",
+  "domain": "archaeology_conservation",
+  "title": "Context sheet for the Varda Shelf sounding",
+  "split": "development",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "Archaeological context sheets describe where finds were recovered and how deposits relate to one another. A cut, fill, surface, or later disturbance can complicate chronology, especially when excavation windows are narrow. The recorded relationships constrain interpretation, but a field note may preserve more than one viable sequence.",
+  "source_title": "Varda Shelf sounding context record",
+  "source_text": "The Varda Shelf team opened a narrow sounding beside a low stone platform after rain exposed a line of compacted clay. The excavation was divided into two squares, A and B, separated by an unexcavated baulk. In square A, a dark ash lens rested above a pale silt layer and below a scatter of roof fragments. In square B, the ash lens thinned toward the baulk and could not be followed continuously into A. The field drawing records the visible contacts rather than extending them across the gap.\n\nA shallow cut entered the north edge of square A and ended at the baulk. Its fill contained charcoal flecks, small shell fragments, and one blue-glazed sherd. The cut's lower edge was clear against the pale silt, but its upper edge merged with the ash lens. The excavator described the cut as later than the silt and possibly contemporary with the ash, while noting that the shared edge was not preserved in section.\n\nIn square B, a row of flat stones lay partly within the roof-fragment scatter. The stones formed no complete wall line, and two were tilted toward the platform. A notebook sketch places the row below a thin gravel seam, but the seam disappeared before it reached square A. The team recorded the stones as a possible setting rather than a confirmed structure. No mortar or matching foundation trench was observed in the opened area.\n\nThe team did not assign the blue-glazed sherd to a sealed floor deposit. It came from the mixed fill of the shallow cut, whose top edge merged with the ash lens. The report also does not treat the ash as proof of a single burning event; its charcoal was not sampled for dating, and the lens could include material gathered from more than one episode. These qualifications remain on the context sheet even though the platform is visible at the surface.\n\nAfter rain, a small slump exposed the baulk face and loosened several fragments of the gravel seam. Staff covered the exposed area with cloth and recorded its position before closing the sounding. The report recommends returning with a wider trench to test whether the stone row continues and whether the ash contacts align across the baulk. It gives no date for the platform and leaves open whether the shallow cut predates, overlaps, or postdates the ash deposition.",
+  "structure_tags": ["incomplete cross-square stratigraphic continuity", "cut with ambiguous upper contact", "surface stones without confirmed wall line"],
+  "authoring_note": "This archaeological record is organized around discontinuous stratigraphic contacts and a cut whose lower and upper relationships differ in certainty.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "The ash lens lay above pale silt and below roof fragments in square A but could not be traced continuously into square B.", "evidence": ["In square A, a dark ash lens rested above a pale silt layer and below a scatter of roof fragments. In square B, the ash lens thinned toward the baulk and could not be followed continuously into A."]},
+      {"id": "S2", "claim": "The shallow cut was later than the silt, while its relation to the ash was only possibly contemporary.", "evidence": ["The excavator described the cut as later than the silt and possibly contemporary with the ash, while noting that the shared edge was not preserved in section."]},
+      {"id": "S3", "claim": "The cut fill contained charcoal flecks, shell fragments, and one blue-glazed sherd.", "evidence": ["Its fill contained charcoal flecks, small shell fragments, and one blue-glazed sherd."]},
+      {"id": "S4", "claim": "Square B had an incomplete row of stones recorded as a possible setting rather than a confirmed structure.", "evidence": ["The team recorded the stones as a possible setting rather than a confirmed structure."]},
+      {"id": "S5", "claim": "The exposed baulk face slumped after rain, and staff covered it after recording its position.", "evidence": ["After rain, a small slump exposed the baulk face and loosened several fragments of the gravel seam. Staff covered the exposed area with cloth and recorded its position before closing the sounding."]},
+      {"id": "S6", "claim": "The report leaves the shallow cut's timing relative to ash deposition unresolved.", "evidence": ["It gives no date for the platform and leaves open whether the shallow cut predates, overlaps, or postdates the ash deposition."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "The blue-glazed sherd was not assigned to a sealed floor deposit.", "evidence": ["The team did not assign the blue-glazed sherd to a sealed floor deposit."]},
+      {"id": "N2", "claim": "The ash lens was not treated as proof of one burning event.", "evidence": ["The report also does not treat the ash as proof of a single burning event; its charcoal was not sampled for dating, and the lens could include material gathered from more than one episode."]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "The sherd can inform the contents of the cut fill but cannot securely date a floor or the platform from this context alone.", "premise_ids": ["S2", "S3", "N1"], "rationale": "It came from a cut with an ambiguous upper contact and was explicitly not assigned to a sealed floor deposit."},
+      {"id": "I2", "claim": "The current record supports a possible stone setting in square B but not a continuous wall interpretation across the sounding.", "premise_ids": ["S1", "S4"], "rationale": "Contacts do not continue across the baulk and the incomplete stone row has no confirmed wall line or foundation trench."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "What was the exact depth of the blue-glazed sherd below the surface?", "presupposition_question": "Was the blue-glazed sherd recovered 62 centimetres below the surface?", "candidate_claim": "The blue-glazed sherd was recovered 62 centimetres below the surface.", "boundary_note": "The context sheet gives no measured recovery depth for the sherd."},
+      {"id": "U2", "neutral_question": "Which tool was used to remove the pale silt?", "presupposition_question": "Did the excavator use a wooden spatula to remove the pale silt?", "candidate_claim": "A wooden spatula was used to remove the pale silt.", "boundary_note": "The excavation method is described by contacts and squares, without naming a tool."},
+      {"id": "U3", "neutral_question": "What was the chronological relation, if any, between the shallow cut and the ash lens?", "presupposition_question": "Did the shallow cut postdate the ash lens?", "candidate_claim": "The shallow cut postdated the ash lens.", "boundary_note": "The record leaves the cut's relation to ash open as before, overlapping, or later; it does not rule out the postdate possibility."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "How does the cut's lower contact, upper contact, and sherd provenance constrain its chronology?", "target_claim_ids": ["S2", "S3", "N1", "S6"], "reference_answer": "The cut is later than the silt, but its upper relation to ash is uncertain; the sherd was in mixed cut fill, so it cannot securely date a sealed floor or resolve whether the cut predates, overlaps, or postdates ash deposition."},
+      {"id": "C2", "question": "What can the stone row and discontinuous deposits establish about a possible structure?", "target_claim_ids": ["S1", "S4"], "reference_answer": "The row may be a setting, but it is incomplete and the stratigraphic seam does not continue across the baulk, so a complete wall or cross-square sequence is not established."}
+    ]
+  }
+}

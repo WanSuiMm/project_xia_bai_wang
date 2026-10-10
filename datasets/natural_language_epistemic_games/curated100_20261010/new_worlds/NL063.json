@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL063",
+  "family_id": "cold_chain_split_with_logger_gap",
+  "domain": "transport_logistics",
+  "title": "The Rill Yard temperature handover",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "Carriers move laboratory supplies between depots, yards and receiving facilities using vehicles and transport paperwork. Drivers, dispatchers and receiving clerks each contribute records to the delivery file. This fictional account belongs to a regional carrier serving municipal laboratories, within the ordinary setting of scheduled goods transport.",
+  "source_title": "North Spur carrier incident sheet 18B",
+  "source_text": "Eight insulated cartons of assay reagent left Quill Depot in a refrigerated van, bound for two municipal water laboratories. The manifest set a carriage band of three to seven degrees Celsius and marked the cartons A through H. A continuous logger was clipped inside the original van compartment, while a smaller logger traveled inside carton G. The dispatch clerk copied both serial numbers onto the route card before the doors were sealed.\n\nAt Rill Yard the compressor warning lamp came on while the van waited for a platform slot. The driver called the route desk rather than opening the load. The dispatcher sent a second chilled van from the nearby depot and ordered cartons E through H moved across, leaving A through D in the original vehicle. The transfer took fourteen minutes. Both drivers and the yard checker signed the same route card, and the carton seals were photographed before either vehicle left.\n\nThe original compartment logger recorded between 4.1 and 5.8 degrees through the stop. The wall display in the second van showed readings in the stated band when the checker wrote them down. Carton G's own logger, however, restarted after the transfer; its printout has no temperature values from 6:12 to 6:26. The card records the reset but gives no cause. The checker did not enter a replacement value from the second van's wall display for that interval.\n\nQuill Laboratory received A through D at 8:05 and released them after comparing the intact seals with the route card. Weir Laboratory received E through H at 9:10. A calibrated probe in the buffer carton read 5.3 degrees at the dock. The receiver released E, F, and G to the cold room but held H apart because its destination label had peeled at one corner. The supervisor tied on a duplicate label before the day ended; the incident sheet does not record whether H was later issued for work.\n\nNo reagent vial was opened at Rill Yard, and neither laboratory rejected the whole consignment. The report closes the compressor call as a vehicle maintenance matter and attaches both logger slips. The receiving reading and intact seals document the cartons at arrival, while the blank on G's printout remains between transfer and restart. The driver placed a copy in the cab's defect wallet for the next workshop shift. At the route desk, the dispatcher matched the eight carton letters against both receiving signatures before returning the manifest to the completed-deliveries tray.",
+  "structure_tags": [
+    "one consignment divided between vehicles after an equipment warning",
+    "compartment display and carton logger provide different coverage",
+    "arrival release depends on both route trace and a separate label exception"
+  ],
+  "authoring_note": "This incident record follows a split cold-chain transfer and the unequal evidential reach of vehicle and carton sensors; it is not a stock allocation or purchase-order story.",
+  "evaluation": {
+    "supported_claims": [
+      {
+        "id": "S1",
+        "claim": "Eight cartons of assay reagent traveled under a stated three-to-seven-degree carriage band to two laboratories.",
+        "evidence": [
+          "Eight insulated cartons of assay reagent left Quill Depot in a refrigerated van, bound for two municipal water laboratories.",
+          "The manifest set a carriage band of three to seven degrees Celsius and marked the cartons A through H."
+        ]
+      },
+      {
+        "id": "S2",
+        "claim": "After a compressor warning, cartons E through H were moved to a second chilled van while A through D stayed in the original vehicle.",
+        "evidence": [
+          "At Rill Yard the compressor warning lamp came on while the van waited for a platform slot.",
+          "The dispatcher sent a second chilled van from the nearby depot and ordered cartons E through H moved across, leaving A through D in the original vehicle."
+        ]
+      },
+      {
+        "id": "S3",
+        "claim": "The original compartment logger stayed within the stated band through the stop.",
+        "evidence": [
+          "The original compartment logger recorded between 4.1 and 5.8 degrees through the stop."
+        ]
+      },
+      {
+        "id": "S4",
+        "claim": "Carton G's logger printout had a fourteen-minute gap associated with its restart after the transfer.",
+        "evidence": [
+          "Carton G's own logger, however, restarted after the transfer; its printout has no temperature values from 6:12 to 6:26."
+        ]
+      },
+      {
+        "id": "S5",
+        "claim": "The dock probe read 5.3 degrees, after which E, F, and G were released and H was held for a label issue.",
+        "evidence": [
+          "A calibrated probe in the buffer carton read 5.3 degrees at the dock.",
+          "The receiver released E, F, and G to the cold room but held H apart because its destination label had peeled at one corner."
+        ]
+      },
+      {
+        "id": "S6",
+        "claim": "A duplicate label was attached to H, but the sheet does not record whether it was later issued for work.",
+        "evidence": [
+          "The supervisor tied on a duplicate label before the day ended; the incident sheet does not record whether H was later issued for work."
+        ]
+      }
+    ],
+    "explicit_negatives": [
+      {
+        "id": "N1",
+        "claim": "No reagent vial was opened at Rill Yard.",
+        "evidence": [
+          "No reagent vial was opened at Rill Yard, and neither laboratory rejected the whole consignment."
+        ]
+      },
+      {
+        "id": "N2",
+        "claim": "Neither receiving laboratory rejected the whole consignment.",
+        "evidence": [
+          "No reagent vial was opened at Rill Yard, and neither laboratory rejected the whole consignment."
+        ]
+      }
+    ],
+    "licensed_inferences": [
+      {
+        "id": "I1",
+        "claim": "The original van's logger cannot by itself establish carton G's temperature during the transfer gap.",
+        "premise_ids": [
+          "S2",
+          "S3",
+          "S4"
+        ],
+        "rationale": "G moved to the second van while the original logger remained with the first compartment, and G's own printout has a gap. This does not show that G warmed or that it remained within band."
+      },
+      {
+        "id": "I2",
+        "claim": "The dock probe supports a within-band reading at arrival but does not fill the missing interval on G's logger.",
+        "premise_ids": [
+          "S4",
+          "S5"
+        ],
+        "rationale": "The probe was used at the receiving dock after transport; the source provides no measurement for the earlier transfer interval."
+      }
+    ],
+    "unspecified_probes": [
+      {
+        "id": "U1",
+        "neutral_question": "Did carton G warm above seven degrees during the logger gap?",
+        "presupposition_question": "Why did carton G warm above seven degrees during the logger gap?",
+        "candidate_claim": "Carton G warmed above seven degrees during the logger gap.",
+        "boundary_note": "The source identifies a blank interval and a later dock reading but does not establish the temperature inside G during the transfer."
+      },
+      {
+        "id": "U2",
+        "neutral_question": "What caused the compressor warning lamp to come on?",
+        "presupposition_question": "How did the loose electrical connection cause the compressor warning?",
+        "candidate_claim": "A loose electrical connection caused the compressor warning.",
+        "boundary_note": "The sheet records a warning and a maintenance referral but no diagnosis; a loose connection is neither confirmed nor ruled out."
+      },
+      {
+        "id": "U3",
+        "neutral_question": "Was carton H later issued for laboratory work?",
+        "presupposition_question": "When did Weir Laboratory issue carton H for work after its label was replaced?",
+        "candidate_claim": "Weir Laboratory issued carton H for work after its label was replaced.",
+        "boundary_note": "The duplicate label resolved the recorded identification issue, but the sheet gives no later use or disposition for H."
+      }
+    ],
+    "consistency_questions": [
+      {
+        "id": "C1",
+        "question": "What did the route and sensor records establish for the two parts of the shipment, and what remained unmeasured?",
+        "target_claim_ids": [
+          "S2",
+          "S3",
+          "S4",
+          "S5"
+        ],
+        "reference_answer": "A through D stayed in the original van, whose logger stayed within band; E through H moved to the second van. A dock probe read within band, but carton G's own logger had no values during the transfer interval."
+      },
+      {
+        "id": "C2",
+        "question": "Why were three cartons released while the fourth remained separate, and did the log settle its later use?",
+        "target_claim_ids": [
+          "S5",
+          "S6"
+        ],
+        "reference_answer": "E, F, and G were released after the dock check; H was held because its label peeled, then received a duplicate label. The incident sheet does not say whether H was later issued for work."
+      }
+    ]
+  }
+}

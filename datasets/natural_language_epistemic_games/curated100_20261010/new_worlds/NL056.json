@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL056",
+  "family_id": "nl056_tidal_chart_clock_drift",
+  "domain": "technology_archives",
+  "title": "The recorder that ran ahead of the water",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "An oral-history interview recalls a keeper's work at a fictional tidal station. The setting includes a gauge room, paper charts, handwritten logs and mechanical instruments, and the account is part of a station archive of operator memories. The recorded conversation was later transcribed for the collection.",
+  "source_title": "Interview with former station keeper Olan Vey, North Shoal gauge room",
+  "source_text": "Olan Vey remembers the recorder as a wooden box with a brass drum that turned under a sheet of gridded paper. A float in the outer well moved a cord, and the cord lifted the pen arm as the water rose. Every midnight the keeper wound the drum clock and wrote the time on the margin. The machine did not print a date; the date came from the keeper's pencil and the paper strip's drawer label. Vey says the system worked well until a hard frost stiffened the cord.\n\nDuring the frost of Year Nine, the pen line flattened while the outside tide marks kept climbing. Vey first thought the water had stopped rising, but when the float well was opened after dawn, a thin skin of ice held the float below the surface. He cleared the well with a wooden scoop and the arm moved again. He did not use a metal hook because it could scratch the float and leave a false notch in later traces. The morning logbook records the ice, the scoop and the time when the pen resumed.\n\nThe paper chart and the logbook were stored in separate drawers because the chart could be removed from the drum only after the day's turn ended. Vey says the chart clock ran eleven minutes ahead of the station's wall clock by the end of the cold week. He wrote both times on the chart sleeve and drew a small bracket between them. The archive kept the chart with the original pen line, even where the line was flat, and filed the logbook beside it rather than drawing a corrected curve over the gap.\n\nVey recalls that a later keeper fitted a warmer cover over the cord passage. He never saw a second float recorder in the room. Near the end of the interview, Vey tapped the paper chart and said its value was that a reader could compare the machine trace with the keeper's notes, not that the line alone answered every question. He asked the archivist to keep the sleeve beside the logbook on the gauge-room shelf.",
+  "structure_tags": ["water level transmitted by a float, cord and pen arm to a clockwork drum", "ice mechanically decouples the float from the tide", "original flat trace retained beside handwritten context"],
+  "authoring_note": "An operator's oral history about a mechanical recording chain, a frozen linkage and preservation of an uninterpreted original trace alongside notes.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "The recorder used an outer-well float, cord, pen arm and clockwork drum to make a paper trace.", "evidence": ["Olan Vey remembers the recorder as a wooden box with a brass drum that turned under a sheet of gridded paper.", "A float in the outer well moved a cord, and the cord lifted the pen arm as the water rose. Every midnight the keeper wound the drum clock and wrote the time on the margin."]},
+      {"id": "S2", "claim": "The recorder did not print a date; the keeper wrote it by hand and identified the paper strip through a drawer label.", "evidence": ["The machine did not print a date; the date came from the keeper's pencil and the paper strip's drawer label."]},
+      {"id": "S3", "claim": "During a frost, ice held the float below the surface, and Vey cleared the well with a wooden scoop.", "evidence": ["when the float well was opened after dawn, a thin skin of ice held the float below the surface. He cleared the well with a wooden scoop"]},
+      {"id": "S4", "claim": "The chart clock ran eleven minutes ahead of the station wall clock by the end of the cold week.", "evidence": ["Vey says the chart clock ran eleven minutes ahead of the station's wall clock by the end of the cold week."]},
+      {"id": "S5", "claim": "The archive kept the original flat chart and filed the logbook beside it instead of drawing over the gap.", "evidence": ["The archive kept the chart with the original pen line, even where the line was flat, and filed the logbook beside it rather than drawing a corrected curve over the gap."]},
+      {"id": "S6", "claim": "A later keeper fitted a warmer cover over the cord passage.", "evidence": ["Vey recalls that a later keeper fitted a warmer cover over the cord passage."]},
+      {"id": "S7", "claim": "The outside tide marks kept climbing while the pen line was flat.", "evidence": ["During the frost of Year Nine, the pen line flattened while the outside tide marks kept climbing."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "Vey did not use a metal hook to clear the float well.", "evidence": ["He did not use a metal hook because it could scratch the float and leave a false notch in later traces."]},
+      {"id": "N2", "claim": "Vey never saw a second float recorder in the room.", "evidence": ["He never saw a second float recorder in the room."]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "The flat pen line during the frost cannot by itself establish that the tide stopped rising.", "premise_ids": ["S1", "S3", "S5", "S7"], "rationale": "The outside tide marks kept climbing while ice held the float below the surface, interrupting the float-cord-pen mechanism. The flat trace therefore cannot establish that the tide stopped rising."},
+      {"id": "I2", "claim": "The chart's timestamps require contextual interpretation because the machine and wall clocks differed.", "premise_ids": ["S2", "S4", "S5"], "rationale": "Dates were handwritten, the chart clock ran ahead of the wall clock, and the original chart was retained with separate notes. The source does not state the final reconciliation method."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "Did the warmer cover prevent the cord from freezing during the following winter?", "presupposition_question": "How did the warmer cover prevent the cord from freezing during the following winter?", "candidate_claim": "The warmer cover prevented the cord from freezing during the following winter.", "boundary_note": "Vey reports the cover but gives no installation date relative to the following winter or outcome for that winter."},
+      {"id": "U2", "neutral_question": "Were the chart times reconciled to one clock for the harbor ledger?", "presupposition_question": "Which clock did the harbor ledger use after reconciling the chart times?", "candidate_claim": "The chart times were reconciled to one clock for the harbor ledger.", "boundary_note": "The interview reports a clock difference and a note of both times on the sleeve, but no reconciliation to one reference for the harbor ledger."},
+      {"id": "U3", "neutral_question": "When was the warmer cover installed relative to the next winter?", "presupposition_question": "Why did the keeper install the warmer cover before the next winter?", "candidate_claim": "The cover was installed before the next winter.", "boundary_note": "The source says a later keeper fitted the cover but gives no date relative to the next winter."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "Why did the pen line flatten, how was the recorder cleared, and what record was retained?", "target_claim_ids": ["S1", "S3", "S5"], "reference_answer": "Ice held the float below the surface in a float-cord-pen system; Vey cleared it with a wooden scoop, and the archive retained the original flat trace beside the logbook."},
+      {"id": "C2", "question": "What clock discrepancy did Vey observe, and why does the chart need the handwritten context?", "target_claim_ids": ["S2", "S4", "S5"], "reference_answer": "The chart clock ran eleven minutes ahead of the wall clock; the machine did not print dates, so the handwritten chart sleeve and adjacent logbook matter, while the final reconciliation remains unspecified."}
+    ]
+  }
+}

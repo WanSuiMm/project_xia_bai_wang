@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL054",
+  "family_id": "nl054_atoll_gazetteer_names",
+  "domain": "geography_navigation",
+  "title": "Proofs for the Kettle Reef gazetteer",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "An editor's proof notes accompany a fictional island gazetteer. The material includes chart insets, coastal descriptions and route directions, and belongs to the ordinary publication process for a local reference work. Proof sheets circulate among editors, local offices and printers.",
+  "source_title": "Editor's proof notes for the Kettle Reef coast gazetteer",
+  "source_text": "The proofreader returned the west-coast page with a red line beneath Lantern Point. On the harbor chart, Lantern Point labels a low rock at the mouth of the inner cove. The pilot's field sketch uses the same name for the taller headland beyond the cove, where a lantern once stood. Editor Iva Renn compared the sketch with the chart and found that the two marks had been copied from different survey editions. She did not assume that one name was simply wrong; each edition had inherited a different local usage.\n\nThe revised page calls the low rock Lantern Stone and reserves Lantern Point for the headland. It gives the rock's position as east of the split palm and the headland's as the next high ground north of the cove. The proof also warns readers that the palm is visible only from the water and can be hidden by spray. Renn added a compass bearing from the old water tower for travelers walking the cliff path, so the directions do not depend on seeing the palm. The tower is still standing, but its roof vane was removed years ago.\n\nA note from the island boatmen says they continue to call both places Lantern Point in conversation. Renn left that usage in a boxed note rather than reproduce it in the route directions. The note explains that a boatman may point with an oar when speaking, while a visitor reading the gazetteer has no shared gesture. The editor asks the printer to keep the box beside the chart inset, not in the index, because the distinction matters when someone follows a written bearing.\n\nThe next proof has a new sketch showing a sand tongue across the inner cove. The surveyor marked the tongue at low water and wrote that it can be crossed on foot then, but the sketch gives no depth at high water. Renn added a warning to consult the tide board before leaving the path. She signed both the chart proof and the route directions and sent them back to the printer in separate bundles. The printer returned the page with the two Lantern names separated.",
+  "structure_tags": ["one place name inherited by distinct chart editions for different features", "written bearings supplemented when a local visual marker is obscured", "low-water crossing described without high-water depth"],
+  "authoring_note": "A gazetteer proof record about duplicated local names, chart provenance and a conditional crossing; its central structure is disambiguation across editions and audiences.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "Lantern Point labeled a low rock on the harbor chart and a taller headland on the pilot's sketch because the names came from different survey editions.", "evidence": ["On the harbor chart, Lantern Point labels a low rock at the mouth of the inner cove. The pilot's field sketch uses the same name for the taller headland beyond the cove, where a lantern once stood. Editor Iva Renn compared the sketch with the chart and found that the two marks had been copied from different survey editions."]},
+      {"id": "S2", "claim": "The revised page names the low rock Lantern Stone and reserves Lantern Point for the headland.", "evidence": ["The revised page calls the low rock Lantern Stone and reserves Lantern Point for the headland."]},
+      {"id": "S3", "claim": "The palm can be hidden by spray, so Renn added a compass bearing from the old water tower for cliff-path travelers.", "evidence": ["The proof also warns readers that the palm is visible only from the water and can be hidden by spray. Renn added a compass bearing from the old water tower for travelers walking the cliff path, so the directions do not depend on seeing the palm."]},
+      {"id": "S4", "claim": "Boatmen continued to use Lantern Point for both places, and Renn kept that usage in a boxed note rather than the route directions.", "evidence": ["A note from the island boatmen says they continue to call both places Lantern Point in conversation. Renn left that usage in a boxed note rather than reproduce it in the route directions."]},
+      {"id": "S5", "claim": "The sand tongue could be crossed on foot at low water, and Renn added a warning to consult the tide board.", "evidence": ["The surveyor marked the tongue at low water and wrote that it can be crossed on foot then, but the sketch gives no depth at high water. Renn added a warning to consult the tide board before leaving the path."]},
+      {"id": "S6", "claim": "The printer returned the page with the two Lantern names separated.", "evidence": ["The printer returned the page with the two Lantern names separated."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "Renn did not assume that one of the two chart usages was simply wrong.", "evidence": ["She did not assume that one name was simply wrong; each edition had inherited a different local usage."]},
+      {"id": "N2", "claim": "The proof does not give a depth for the sand tongue at high water.", "evidence": ["The surveyor marked the tongue at low water and wrote that it can be crossed on foot then, but the sketch gives no depth at high water."]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "The edited route directions were designed to reduce confusion between two features sharing a local name.", "premise_ids": ["S1", "S2", "S4"], "rationale": "The chart and sketch applied the same name to separate features; the revision separated the written names while preserving boatmen's usage in a note."},
+      {"id": "I2", "claim": "A low-water walking route cannot be assumed usable at high water from this proof.", "premise_ids": ["S5", "N2"], "rationale": "The crossing is described as passable on foot at low water, while no high-water depth is given and a tide-board warning is added."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "Will the island office use the gazetteer's names on harbor signs?", "presupposition_question": "When will the island office replace the harbor signs with the gazetteer's names?", "candidate_claim": "The island office will adopt the gazetteer's names on its harbor signs.", "boundary_note": "The office has not sent a statement about sign naming."},
+      {"id": "U2", "neutral_question": "Who posts and updates the tide board?", "presupposition_question": "How often does the tide-board keeper update the board?", "candidate_claim": "A tide-board keeper posts and updates the board.", "boundary_note": "The revised route warns readers to consult the tide board but gives no account of its custodian."},
+      {"id": "U3", "neutral_question": "Did the surveyor record a high-water depth for the sand tongue?", "presupposition_question": "How did the surveyor measure the 1.4-metre depth of the sand tongue at high water?", "candidate_claim": "The surveyor recorded a depth of 1.4 metres for the sand tongue at high water.", "boundary_note": "The sketch describes low-water passage but supplies no high-water depth, so the proposed measurement remains unsettled."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "How did the editor distinguish the two places called Lantern Point while preserving local speech?", "target_claim_ids": ["S1", "S2", "S4"], "reference_answer": "The name came from different survey editions; the revised page called the low rock Lantern Stone and reserved Lantern Point for the headland, while a boxed note preserved boatmen's shared usage."},
+      {"id": "C2", "question": "How does the gazetteer help a traveler find the headland or cross the sand tongue safely?", "target_claim_ids": ["S3", "S5", "N2"], "reference_answer": "It adds a water-tower compass bearing when the palm can be hidden by spray, and it describes the sand tongue as walkable at low water while warning readers to consult the tide board; its high-water depth is not given."}
+    ]
+  }
+}

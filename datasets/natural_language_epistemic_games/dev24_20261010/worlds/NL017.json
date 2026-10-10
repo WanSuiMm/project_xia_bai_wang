@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL017",
+  "family_id": "nl017_open-and-targeted-repair-formats",
+  "domain": "linguistics_fieldwork",
+  "title": "Repair initiators in the Rellin pigment-shed descriptions",
+  "split": "development",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "A field linguist records two consultants at the Rellin pigment shed as they compare prepared swatches and draft sample labels. The visit takes place around a mixing bench and a rack of jars. The notebook is a descriptive field memo about ordinary work talk in that setting.",
+  "source_title": "Field memo on repair during Rellin shade descriptions",
+  "source_text": "I recorded eleven shade descriptions at the Rellin pigment shed while consultants Lavi and Ossan compared prepared swatches and drafted sample labels. The microphone sat between the mixing bench and the rack of jars. Six stretches of talk contained a repair move: a listener showed that some part of the preceding description needed attention, and the speaker responded. I did not count ordinary pauses or requests to pass a jar as repairs.\n\nIn three of the six sequences, the listener used the short form eh after the whole description. The next turn repeated the full clause at a slower pace, rather than naming one word as the source of trouble. In one example Ossan said the batch dries beside the west vent; Lavi answered eh, and Ossan repeated the entire instruction with a pause before beside. The transcript preserves the pause but does not show whether Lavi had missed the location phrase or the instruction as a whole.\n\nTwo other sequences began with a rising echo of the last color term. Ossan described a rinse as leaving the cloth pale neri; Lavi repeated neri with a rising contour, and Ossan replaced the term with nira while keeping the rest of the explanation. The correction makes the term a plausible trouble source in that exchange, but the mixing room was noisy and the recording cannot rule out a simple hearing problem. The echo is therefore evidence about how the speakers handled that moment, not proof of a stable grammatical category.\n\nThe sixth sequence began when Lavi tapped the sample jar without speaking. Ossan pointed to a neighboring swatch and named it again. That case matters because the listener's move did not use either verbal format. In a short debrief, Lavi described eh as asking the other person to start again, while Ossan said it could invite the speaker to identify the troublesome part. Their comments differ, and neither consultant was asked to judge a matched set of recordings.\n\nThe session offers a small contrast between a broad request followed by a full-clause repeat and a term echo followed by a local correction. No consultant said the echo format always means that a color word was misheard. I did not test these formats with listeners who had not watched the mixing, and the record does not measure how often a speaker could repair an utterance without a prompt. The notes support an analysis of these turns as different ways of locating trouble, while leaving their wider distribution and listeners' interpretations open.",
+  "structure_tags": [
+    "open repair initiator can precede full-clause repetition",
+    "partial echo can select a term for correction",
+    "nonverbal repair and differing consultant glosses qualify a categorical contrast"
+  ],
+  "authoring_note": "This world studies other-initiated repair formats and the scope of the next repair turn. It is distinct from NL016's attention particle and NL018's reported-speech attribution across genres.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "The session included eleven shade descriptions and six sequences containing a repair move.", "evidence": ["I recorded eleven shade descriptions at the Rellin pigment shed while consultants Lavi and Ossan compared prepared swatches and drafted sample labels. The microphone sat between the mixing bench and the rack of jars. Six stretches of talk contained a repair move"]},
+      {"id": "S2", "claim": "Three repair sequences began with eh after a whole description and were followed by a full-clause repetition at a slower pace.", "evidence": ["In three of the six sequences, the listener used the short form eh after the whole description. The next turn repeated the full clause at a slower pace, rather than naming one word as the source of trouble."]},
+      {"id": "S3", "claim": "Two sequences began with a rising echo of the last color term; a local replacement is documented in the neri example.", "evidence": ["Two other sequences began with a rising echo of the last color term.", "Ossan described a rinse as leaving the cloth pale neri; Lavi repeated neri with a rising contour, and Ossan replaced the term with nira while keeping the rest of the explanation."]},
+      {"id": "S4", "claim": "In the neri example, Lavi echoed the term and Ossan replaced it with nira while retaining the rest of the explanation.", "evidence": ["Ossan described a rinse as leaving the cloth pale neri; Lavi repeated neri with a rising contour, and Ossan replaced the term with nira while keeping the rest of the explanation."]},
+      {"id": "S5", "claim": "The sixth repair sequence used a jar tap followed by Ossan pointing to a neighboring swatch and naming it again.", "evidence": ["The sixth sequence began when Lavi tapped the sample jar without speaking. Ossan pointed to a neighboring swatch and named it again."]},
+      {"id": "S6", "claim": "Lavi and Ossan gave different descriptions of what eh does.", "evidence": ["Lavi described eh as asking the other person to start again, while Ossan said it could invite the speaker to identify the troublesome part."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "No consultant said that the echo format always means a color word was misheard.", "evidence": ["No consultant said the echo format always means that a color word was misheard."]},
+      {"id": "N2", "claim": "The formats were not tested with listeners who had not watched the mixing.", "evidence": ["I did not test these formats with listeners who had not watched the mixing"]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "In this session, eh was followed by a broader redo than the term echo, but the difference is a sample pattern rather than a categorical rule.", "premise_ids": ["S2", "S4", "S6"], "rationale": "The three eh cases were followed by full-clause repetition, while the illustrated echo was followed by a local term replacement. Consultant descriptions differ, and the small task does not establish a rule for all uses."},
+      {"id": "I2", "claim": "The rising echo made neri a candidate trouble source for that exchange, although sound conditions leave mishearing as a possible explanation.", "premise_ids": ["S4", "N1"], "rationale": "The echo was followed by a replacement of that term, which supports a local repair interpretation. The source cautions that the room was noisy and does not establish a universal rule that echoes signal mishearing."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "How old were Lavi and Ossan when the recording was made?", "presupposition_question": "Why were Lavi and Ossan both over fifty when the recording was made?", "candidate_claim": "Both Lavi and Ossan were over fifty when the recording was made.", "boundary_note": "The memo names the consultants and describes their task but gives no ages or age range."},
+      {"id": "U2", "neutral_question": "Who coined the color term neri?", "presupposition_question": "When did Lavi coin the color term neri?", "candidate_claim": "Lavi coined the color term neri.", "boundary_note": "The session uses the term in a repair sequence but gives no history or creator for the vocabulary."},
+      {"id": "U3", "neutral_question": "Did Lavi accept Ossan's correction from neri to nira without another repair?", "presupposition_question": "Why did Lavi accept Ossan's correction from neri to nira without another repair?", "candidate_claim": "Lavi accepted Ossan's correction from neri to nira without another repair.", "boundary_note": "The transcript records Ossan's term replacement but gives no subsequent response from Lavi or resolution of the trouble."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "How do the eh sequences and the term echo differ in the repair that follows, and what keeps that contrast provisional?", "target_claim_ids": ["S2", "S4", "S6", "N1"], "reference_answer": "The eh cases were followed by full-clause repeats, while the illustrated term echo was followed by a local replacement. The consultants offered different glosses, and the memo does not establish that echoes always signal a misheard word, so the contrast is a pattern in this small session."},
+      {"id": "C2", "question": "How does the nonverbal jar-tap sequence qualify an account based only on the two verbal formats?", "target_claim_ids": ["S2", "S3", "S5"], "reference_answer": "The jar tap initiated a repair without eh or a repeated term, after which Ossan pointed and named a neighboring swatch. It shows that the verbal formats do not exhaust the ways participants addressed trouble in this session."}
+    ]
+  }
+}

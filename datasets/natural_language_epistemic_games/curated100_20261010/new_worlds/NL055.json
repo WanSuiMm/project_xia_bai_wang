@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL055",
+  "family_id": "nl055_microfilm_edge_registration",
+  "domain": "technology_archives",
+  "title": "Service bulletin for the East Cabinet reader",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "A service bulletin belongs to a fictional archive's microfilm room, where operators use a reader to inspect narrow ledger film. The document is part of equipment maintenance paperwork and concerns the routine relationship between a reading machine and its stored media.",
+  "source_title": "Service bulletin 6: image-edge registration on the East Cabinet reader",
+  "source_text": "The East Cabinet reader began clipping the final character from pages made on the narrow ledger film. Technician Oris Vale first suspected that the film had been cut too close to its frame marks, but a low-power inspection showed the marks intact on the reel. The image shifted only when the take-up roller warmed after several minutes of use. The reader's glass gate was level; the right idler wheel had a flat patch that pulled the film a fraction toward the casing.\n\nVale removed the reel and laid a paper alignment strip across the gate before touching the wheel. She marked the old screw position with removable chalk, loosened the idler mount, and turned it by one notch toward the center. On the next pass, the final character stayed within the viewing field, though a thin black edge appeared on two frames. Vale wrote that the edge was part of the frame boundary, not a second line of text. She kept the original film unchanged and made a fresh contact copy only after the alignment held through three warm-up cycles.\n\nThe bulletin directs operators to compare the first and last character on each test frame before returning a reel to the cabinet. It says not to trim the film or paint over the frame edge to improve the screen image. When the reader loses registration again, the operator should stop, record the reel number, and place a paper flag at the frame where the drift first becomes visible. The paper flag is stored beside the reel box, not threaded into the film path.\n\nVale tested four narrow ledger reels from the same shelf. Three stayed aligned after the adjustment; the fourth still drifted when its splice passed the roller. She labeled that reel for a separate bench inspection and did not include its images in the contact copy. Vale set its box in a shallow tray with a red tag for the next shift, clipped the bulletin beside the reader controls, and asked operators to report a clipped character with its reel number and warm-up cycle, since a fault may belong to the reader rather than the film.",
+  "structure_tags": ["reader alignment fault distinguished from damaged film", "reversible one-notch adjustment tested through warm-up cycles", "one reel remains excluded due to a splice-linked drift"],
+  "authoring_note": "A service bulletin centered on separating a storage-medium fault from a reader fault and documenting a limited repair; its evidence includes a single unresolved reel exception.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "The film's frame marks were intact, while the image shifted after the take-up roller warmed.", "evidence": ["a low-power inspection showed the marks intact on the reel. The image shifted only when the take-up roller warmed after several minutes of use."]},
+      {"id": "S2", "claim": "A flat patch on the right idler wheel pulled the film toward the casing.", "evidence": ["The reader's glass gate was level; the right idler wheel had a flat patch that pulled the film a fraction toward the casing."]},
+      {"id": "S3", "claim": "Vale adjusted the idler mount one notch toward the center and confirmed alignment through three warm-up cycles before making a contact copy.", "evidence": ["She marked the old screw position with removable chalk, loosened the idler mount, and turned it by one notch toward the center.", "She kept the original film unchanged and made a fresh contact copy only after the alignment held through three warm-up cycles."]},
+      {"id": "S4", "claim": "Vale kept the original film unchanged and made a fresh contact copy only after alignment held through three warm-up cycles.", "evidence": ["She kept the original film unchanged and made a fresh contact copy only after the alignment held through three warm-up cycles."]},
+      {"id": "S5", "claim": "Three of four tested reels stayed aligned, while the fourth drifted at its splice and was reserved for separate inspection.", "evidence": ["Three stayed aligned after the adjustment; the fourth still drifted when its splice passed the roller. She labeled that reel for a separate bench inspection and did not include its images in the contact copy."]},
+      {"id": "S6", "claim": "Operators were directed to stop, record the reel number and flag the first visible drift rather than trim film or paint over its edge.", "evidence": ["It says not to trim the film or paint over the frame edge to improve the screen image. When the reader loses registration again, the operator should stop, record the reel number, and place a paper flag at the frame where the drift first becomes visible."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "Vale did not change the original film.", "evidence": ["She kept the original film unchanged and made a fresh contact copy only after the alignment held through three warm-up cycles."]},
+      {"id": "N2", "claim": "The fourth reel's images were not included in the contact copy.", "evidence": ["She labeled that reel for a separate bench inspection and did not include its images in the contact copy."]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "The bulletin treats the clipping as a reader-alignment problem for the tested reels rather than evidence that their frame marks were damaged.", "premise_ids": ["S1", "S2", "S3"], "rationale": "The marks were intact, a wheel defect pulled the warmed film off-center, and adjusting that wheel restored alignment for three reels. The remaining splice-linked exception stays separate."},
+      {"id": "I2", "claim": "The archive kept a traceable path for an unresolved reel instead of silently copying its drifting images.", "premise_ids": ["S5", "S6", "N2"], "rationale": "The fourth reel was flagged for bench inspection and excluded from the copy; the operator instructions also require recording and flagging the location of drift."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "Did the separate inspection correct the fourth reel's splice-linked drift?", "presupposition_question": "How did the bench inspection repair the fourth reel's splice-linked drift?", "candidate_claim": "The bench inspection corrected the fourth reel's drift.", "boundary_note": "The bulletin records a planned separate inspection but no result."},
+      {"id": "U2", "neutral_question": "Did the archive director approve release of the full ledger sequence?", "presupposition_question": "When did the director release the full ledger sequence after the reader was repaired?", "candidate_claim": "The full ledger sequence was released.", "boundary_note": "The director's release question is recorded without a decision."},
+      {"id": "U3", "neutral_question": "Did other readers use the same idler design as the East Cabinet reader?", "presupposition_question": "Which other readers used the same idler design as the East Cabinet reader?", "candidate_claim": "Other readers used the same idler design as the East Cabinet reader.", "boundary_note": "The bulletin does not say whether other readers used this reader's idler design."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "How did Vale determine that the fault belonged to the reader, and what repair did she make?", "target_claim_ids": ["S1", "S2", "S3"], "reference_answer": "The film marks were intact and drift appeared after warm-up; a flat idler patch pulled the film off-center, so Vale moved the mount one notch inward and tested it through warm-up cycles."},
+      {"id": "C2", "question": "What happened to the fourth reel, and how did the bulletin preserve an audit trail for future drift?", "target_claim_ids": ["S5", "S6"], "reference_answer": "It still drifted at its splice, was set aside for bench inspection and excluded from the copy; operators were told to record the reel number and flag the first drift frame."}
+    ]
+  }
+}

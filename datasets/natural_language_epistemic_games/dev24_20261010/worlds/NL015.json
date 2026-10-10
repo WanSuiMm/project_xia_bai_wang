@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL015",
+  "family_id": "nl015_repair_clinic_consent_before_hands_on_help",
+  "domain": "ethnography_social",
+  "title": "Asking Before Adjusting at the Repair Table",
+  "split": "development",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "The Beacon Room is a fictional neighborhood space that hosts a monthly volunteer event for small household repairs. A fieldworker visited on two occasions and recorded several interactions between visitors and volunteers. This dossier summarizes those observations and some participants' explanations of how the event is organized, within the limits of a small observation sample.",
+  "source_title": "Beacon Room repair-table observations",
+  "source_text": "The Beacon Room sets out three work mats on the first Saturday of each month. Visitors place an object on a mat and explain what they have tried; volunteers look first and ask before touching it. The organizer says that asking matters because an object may carry personal or practical value that is not obvious from its condition. The sign on the door lists the hours and says volunteers cannot promise that every object will be repaired.\n\nWhen Tavi brought a desk clock with a loose minute hand, volunteer Ren pointed to a small screw near the dial and asked whether Tavi wanted a demonstration. Tavi said yes, but asked Ren to leave the back cover closed because a paper note was tucked inside. Ren showed how to steady the hand with a wooden pick, then let Tavi make the adjustment. The clock ticked for several minutes on the mat, though the notes do not say whether it kept time afterward.\n\nA second visitor had a lamp whose plug was warm. Ren asked the visitor not to use it until the cord could be checked, and the organizer moved it to a separate table. The visitor chose to take the lamp home rather than wait. The volunteers did not open it that day. The observer records this as a safety limit, not as a refusal to help.\n\nSeveral regulars described advice differently. One said the table was a place to learn by doing; another said that offering a repair too quickly can make an owner feel watched. The organizer asks volunteers to offer one next step at a time, but the notes do not show that every volunteer follows this approach. A visitor who declines hands-on help can still watch a demonstration or leave with a suggested tool name.\n\nThe fieldworker visited twice and observed seven object consultations. In one case, the owner asked a volunteer to finish the repair because the owner had to catch a bus; in another, the owner declined all advice and took the object away. The notes do not give the volunteers’ training histories, the objects’ replacement values, or later repair outcomes. The observer writes that the table seemed to make expertise available while allowing owners to control contact with their belongings, but that interpretation is based on a small number of visits.",
+  "structure_tags": ["permission before touch", "owner-controlled demonstration", "safety boundary and varied participation"],
+  "authoring_note": "The social structure concerns consent around expertise and physical access to belongings, distinct from reciprocal food exchange and shared-property custody.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "Volunteers look first and ask before touching an object.", "evidence": ["Visitors place an object on a mat and explain what they have tried; volunteers look first and ask before touching it."]},
+      {"id": "S2", "claim": "Ren demonstrated the adjustment with a wooden pick and let Tavi make it.", "evidence": ["Ren showed how to steady the hand with a wooden pick, then let Tavi make the adjustment."]},
+      {"id": "S3", "claim": "The lamp with a warm plug was moved aside and was not opened that day.", "evidence": ["A second visitor had a lamp whose plug was warm. Ren asked the visitor not to use it until the cord could be checked, and the organizer moved it to a separate table.", "The volunteers did not open it that day."]},
+      {"id": "S4", "claim": "An owner who declines hands-on help may still observe a demonstration or receive a suggested tool name.", "evidence": ["A visitor who declines hands-on help can still watch a demonstration or leave with a suggested tool name."]},
+      {"id": "S5", "claim": "The fieldworker observed seven consultations across two visits.", "evidence": ["The fieldworker visited twice and observed seven object consultations."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "The volunteers did not open the warm-plug lamp during that session.", "evidence": ["The volunteers did not open it that day."]},
+      {"id": "N2", "claim": "The note does not say whether Tavi's clock kept time after the brief test.", "evidence": ["The clock ticked for several minutes on the mat, though the notes do not say whether it kept time afterward."]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "The repair table gives owners some control over how volunteers use their expertise and handle objects.", "premise_ids": ["S1", "S2", "S4"], "rationale": "Volunteers ask before touching, Tavi chose to make the adjustment after a demonstration, and declining hands-on help does not end participation. This supports a limited reading of owner control, not a claim that owners direct every technical decision."},
+      {"id": "I2", "claim": "Safety concerns can suspend a repair even when the table otherwise offers help.", "premise_ids": ["S3", "S4"], "rationale": "The warm-plug lamp was isolated and left unopened, while the general participation options remain available for other visitors. The source does not say whether the lamp was later repaired elsewhere."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "What model was Tavi's desk clock?", "presupposition_question": "Was Tavi's desk clock a Sella 20 model?", "candidate_claim": "Tavi's desk clock was a Sella 20.", "boundary_note": "The notes describe the loose minute hand but do not name a maker or model."},
+      {"id": "U2", "neutral_question": "How many volunteers were present at the repair table?", "presupposition_question": "Were six volunteers present at the repair table?", "candidate_claim": "Six volunteers were present.", "boundary_note": "The account describes multiple volunteers and consultations but gives no volunteer headcount."},
+      {"id": "U3", "neutral_question": "What, if anything, was observed about the clock after the consultation?", "presupposition_question": "Did Tavi's clock keep time for twenty minutes after the consultation?", "candidate_claim": "Tavi's clock kept time for twenty minutes after the consultation.", "boundary_note": "The clock ticked for several minutes during the observation, but the notes do not say whether it kept time afterward or for how long."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "How does Tavi's clock consultation illustrate the table's approach to expertise and ownership?", "target_claim_ids": ["S1", "S2", "S4", "N2"], "reference_answer": "Ren asked whether Tavi wanted a demonstration and then allowed Tavi to make the adjustment, consistent with asking before touching and preserving owner participation. The brief ticking does not establish that the clock kept time afterward."},
+      {"id": "C2", "question": "Why was the lamp consultation handled differently from the clock consultation?", "target_claim_ids": ["S2", "S3", "S4"], "reference_answer": "The clock owner accepted a demonstration, while the warm plug led Ren to advise against use and the organizer to isolate the lamp. The volunteers did not open it that day, showing a safety limit; the notes do not describe a later repair."}
+    ]
+  }
+}

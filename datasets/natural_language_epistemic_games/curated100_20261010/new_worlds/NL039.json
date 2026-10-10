@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL039",
+  "family_id": "nl039_premiere_score_permission",
+  "domain": "music_performance",
+  "title": "The premiere cut in Quiet Salt",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "Composers and performers often exchange letters during rehearsal and concert preparation. The following fictional correspondence comes from a chamber recital archive and concerns a singer preparing a new work. It uses familiar musical materials such as scores, parts, letters, and a concert date.",
+  "source_title": "Correspondence between composer Ilya Ronn and singer Cora Venn",
+  "source_text": "The archive clipped five letters together under the title Quiet Salt, a four-song cycle by Ilya Ronn. Cora Venn was preparing its first performance at the Glass Room recital on 19 January. The master score filed with the letters has two returns of the opening line after the final stanza of the last song. Ronn's first letter says those returns are part of the song's shape, not optional repeats for a short evening.\n\nVenn writes on 8 January that the second return leaves her breathless before the last consonants. She asks to omit it for the premiere and keep the stanza order unchanged. She says the first return lets the room settle after the long held note, but the second makes the text sound like a separate ending. In the margin she has drawn a small breath mark before the final phrase, though the letter does not say whether she tried it in rehearsal.\n\nRonn replies the next day that Venn may omit the second return at the 19 January premiere. He asks her to keep the final consonant and the order of the four stanzas, and he does not authorize new words. His note says he wants to hear the shortened version once before deciding whether to alter the master score. The envelope carries the Glass Room location mark in its postmark, separate from the recital date stated in the letter.\n\nOn 20 January Venn sends a brief report: she used the shorter ending at the premiere, retained the four-song sequence, and held the last note until the piano chord faded. She says the hall was quiet enough for the final consonant to carry. Ronn writes back that he has placed a slash through the second return in her part and labeled it premiere cut. The master score in the archive packet still shows both returns without a mark.\n\nA clerk's inventory lists one master score, Venn's marked part, and the five letters. The sheet music was returned to the cycle folder after the recital, while the singer's part stayed with the correspondence for comparison. The archive clerk closed the folder after checking that the master and marked part were both enclosed.",
+  "structure_tags": ["performance-specific permission for a score change", "marked performer part separated from unaltered master score", "artistic negotiation about breath, text, and form"],
+  "authoring_note": "The dossier concerns interpretive authority and version history; correspondence distinguishes one authorized premiere variant from a later editorial decision that remains open.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "Quiet Salt is a four-song cycle, and the master score has two returns after the final stanza of its last song.", "evidence": ["The archive clipped five letters together under the title Quiet Salt, a four-song cycle by Ilya Ronn. Cora Venn was preparing its first performance at the Glass Room recital on 19 January. The master score filed with the letters has two returns of the opening line after the final stanza of the last song."]},
+      {"id": "S2", "claim": "Venn asked to omit the second return at the premiere while keeping stanza order unchanged.", "evidence": ["She asks to omit it for the premiere and keep the stanza order unchanged."]},
+      {"id": "S3", "claim": "Ronn allowed the omission for the 19 January premiere and kept the text and stanza-order limits.", "evidence": ["Ronn replies the next day that Venn may omit the second return at the 19 January premiere. He asks her to keep the final consonant and the order of the four stanzas, and he does not authorize new words."]},
+      {"id": "S4", "claim": "Venn reports that she used the shorter ending at the premiere and held the final note until the piano chord faded.", "evidence": ["On 20 January Venn sends a brief report: she used the shorter ending at the premiere, retained the four-song sequence, and held the last note until the piano chord faded."]},
+      {"id": "S5", "claim": "Ronn marked Venn's part as a premiere cut, while the filed master score retained both returns unmarked.", "evidence": ["Ronn writes back that he has placed a slash through the second return in her part and labeled it premiere cut. The master score in the archive packet still shows both returns without a mark."]},
+      {"id": "S6", "claim": "The archive packet contains a master score, Venn's marked part, and the five letters.", "evidence": ["A clerk's inventory lists one master score, Venn's marked part, and the five letters."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "Ronn did not authorize new words.", "evidence": ["He asks her to keep the final consonant and the order of the four stanzas, and he does not authorize new words."]},
+      {"id": "N2", "claim": "Venn did not change the four-song sequence for the premiere.", "evidence": ["On 20 January Venn sends a brief report: she used the shorter ending at the premiere, retained the four-song sequence, and held the last note until the piano chord faded."]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "The agreed cut was authorized for the premiere rather than as a standing revision to the cycle.", "premise_ids": ["S2", "S3", "S5"], "rationale": "Venn asked for a premiere-only omission, Ronn granted it for that date, and the archived master remained unmarked; this does not determine what Ronn did later."},
+      {"id": "I2", "claim": "The archive preserves evidence of the performed variant separately from the master version.", "premise_ids": ["S4", "S5", "S6"], "rationale": "Venn's report and marked part document the shorter ending while the master score still shows both returns."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "Did Ronn later revise the master score after hearing the premiere?", "presupposition_question": "Why did Ronn remove the second return from the master score after hearing the premiere?", "candidate_claim": "Ronn removed the second return from the master score after hearing the premiere.", "boundary_note": "The filed master is unmarked; the packet contains no later score state or revision approval."},
+      {"id": "U2", "neutral_question": "Did Venn use the shortened ending at another concert?", "presupposition_question": "How did Venn keep using the shortened ending at the next concert?", "candidate_claim": "Venn kept using the shortened ending at the next concert.", "boundary_note": "The archive file reports the premiere performance but includes no later-concert account."},
+      {"id": "U3", "neutral_question": "Did the audience notice that one return was omitted?", "presupposition_question": "How did the audience react after noticing the omitted second return in the final song?", "candidate_claim": "The audience noticed the omitted second return in the final song.", "boundary_note": "Venn describes the quiet hall but does not report audience recognition or reaction."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "What limits did Ronn place on Venn's proposed premiere change?", "target_claim_ids": ["S2", "S3", "N1", "N2"], "reference_answer": "Ronn permitted omitting the second return for the 19 January premiere, while retaining the final consonant and stanza order and declining new words. Venn reports keeping the four-song sequence."},
+      {"id": "C2", "question": "What evidence distinguishes the performed ending from the archived master?", "target_claim_ids": ["S4", "S5", "S6"], "reference_answer": "Venn reports using the shorter ending and Ronn marked her part as a premiere cut, but the master score remained unmarked with both returns. The packet documents one performance variant, not a later master revision."}
+    ]
+  }
+}

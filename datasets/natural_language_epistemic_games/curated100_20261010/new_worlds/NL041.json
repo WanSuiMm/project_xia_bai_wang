@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL041",
+  "family_id": "nl041_review_printed_program_encore",
+  "domain": "music_performance",
+  "title": "A song after the printed ending",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "Newspaper arts columns often discuss the works on a concert program, the musicians' sound, and the character of the hall. The following fictional review appears in a town weekly and concerns a chamber recital in a repurposed industrial building, a familiar setting for a small ensemble.",
+  "source_title": "Arts column from the Foundry Weekly",
+  "source_text": "The Vale Street Ensemble filled the old foundry's upper room on Saturday with a program that moved between bowed strings and hand percussion. The printed card listed Lantern Study, The Silt Road, and Four Windows in that order. There was no spoken introduction. The reviewer calls Lantern Study the loosest piece of the evening, though the trio's soft opening made the room settle before the first drum entered.\n\nThe middle work, The Silt Road, was played without the pause printed between its two sections. The violist kept the last note of the first section alive while the cellist began a walking figure underneath it. From the back wall, the reviewer heard the percussionist wait for the cellist's second phrase before joining. The effect was less like a new movement than a door left open between rooms. That is a judgment about the sound, not a stage direction printed in the program.\n\nFour Windows closed the announced program. Its final section begins with the violin alone, then gathers the other three players around a low repeated pulse. The quartet held the last chord until it faded; the conductor closed the score and stepped away from the stand. The audience applauded for a long time, and the players returned to the platform after the lights came up.\n\nThe singer then performed Window Song, which was not listed on the printed card. The review describes it as a short unaccompanied piece and says the room became quiet before its last line. The column praises the choice because it changed the scale of the evening after Four Windows' broad ending. It does not call the song an encore in the headline; the word appears only in a caption written by the page editor.\n\nThe reviewer closes by saying the ensemble made the foundry room feel smaller without making it feel crowded. A note in the margin corrects the singer's name from Vale to Venn, but the published column carries the corrected spelling. The printed card remains in the archive folder with the review. Neither record gives a rehearsal schedule or describes how the singer selected Window Song.",
+  "structure_tags": ["critic distinguishes a printed program from the event's closing sequence", "reviewer's sensory judgment separated from score instruction", "unlisted vocal piece follows a completed ensemble work"],
+  "authoring_note": "A review presents an attributed critical voice and concrete event chronology but cannot establish whether an unlisted final piece was planned or requested.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "The printed card listed three ensemble works in a fixed order.", "evidence": ["The printed card listed Lantern Study, The Silt Road, and Four Windows in that order."]},
+      {"id": "S2", "claim": "The reviewer says The Silt Road proceeded without its printed pause and describes the violist sustaining a note under the cellist's figure.", "evidence": ["The middle work, The Silt Road, was played without the pause printed between its two sections. The violist kept the last note of the first section alive while the cellist began a walking figure underneath it."]},
+      {"id": "S3", "claim": "The reviewer heard the percussionist join after the cellist's second phrase.", "evidence": ["From the back wall, the reviewer heard the percussionist wait for the cellist's second phrase before joining."]},
+      {"id": "S4", "claim": "Four Windows ended the announced program with a held chord, after which the conductor closed the score and stepped away.", "evidence": ["Four Windows closed the announced program. Its final section begins with the violin alone, then gathers the other three players around a low repeated pulse. The quartet held the last chord until it faded; the conductor closed the score and stepped away from the stand."]},
+      {"id":"S5","claim":"After the players returned, the singer performed an unlisted, short unaccompanied piece called Window Song.","evidence":["The audience applauded for a long time, and the players returned to the platform after the lights came up.","The singer then performed Window Song, which was not listed on the printed card. The review describes it as a short unaccompanied piece and says the room became quiet before its last line."]},
+      {"id": "S6", "claim": "The published column carries the corrected spelling Venn, although a margin note says the name was first written as Vale.", "evidence": ["A note in the margin corrects the singer's name from Vale to Venn, but the published column carries the corrected spelling."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "The concert had no spoken introduction.", "evidence": ["There was no spoken introduction."]},
+      {"id": "N2", "claim": "Window Song was not listed on the printed card.", "evidence": ["The singer then performed Window Song, which was not listed on the printed card."]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "The performance continued beyond the printed ensemble program with a separate vocal piece.", "premise_ids": ["S1", "S4", "S5", "N2"], "rationale": "The printed card ended with Four Windows, the review says that work closed the announced program, and it then describes an unlisted song."},
+      {"id": "I2", "claim": "The review does not establish whether Window Song was planned in advance or chosen in response to the audience.", "premise_ids": ["S5", "N2"], "rationale": "The column reports the song's placement and says the records contain no rehearsal schedule or selection account; its being unlisted does not by itself establish spontaneity."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "Was Window Song planned before the concert?", "presupposition_question": "Why did the ensemble plan Window Song as an encore before the concert?", "candidate_claim": "The ensemble planned Window Song as an encore before the concert.", "boundary_note": "The review says the song was unlisted and gives no rehearsal schedule or account of how it was selected."},
+      {"id": "U2", "neutral_question": "Who selected Window Song for the end of the concert?", "presupposition_question": "Why did the singer choose Window Song herself for the end of the concert?", "candidate_claim": "The singer chose Window Song herself for the end of the concert.", "boundary_note": "The published review does not attribute the selection to the singer, ensemble, or audience."},
+      {"id": "U3", "neutral_question": "Did the ensemble perform Window Song at another concert?", "presupposition_question": "Why did the ensemble repeat Window Song at its next concert?", "candidate_claim": "The ensemble repeated Window Song at its next concert.", "boundary_note": "The review concerns Saturday's recital and supplies no later performance account."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "How did the actual closing sequence relate to the printed program?", "target_claim_ids": ["S1", "S4", "S5", "N2"], "reference_answer": "The card listed Four Windows last. The quartet finished it, the conductor closed the score, and after applause and a return to the platform the singer performed Window Song, which was not printed on the card."},
+      {"id": "C2", "question": "Which details are the reviewer's impressions, and which are reported sequence facts?", "target_claim_ids": ["S2", "S3", "S5"], "reference_answer": "The reviewer reports the sustained note, the percussionist's entrance, and the later unaccompanied song; describing The Silt Road as a door left open and praising Window Song's effect are the reviewer's judgments. The account does not establish why the song was selected."}
+    ]
+  }
+}

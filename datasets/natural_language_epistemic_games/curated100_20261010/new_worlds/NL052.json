@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL052",
+  "family_id": "nl052_saltplain_windstakes",
+  "domain": "geography_navigation",
+  "title": "Traverse notes from the salt plain",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "A surveyor's field book covers work on a fictional dry salt plain. Its setting includes a camp, distant ridges and route landmarks, and the document belongs to the practical record of a small geographic survey team. The pages combine route descriptions with the everyday language of field notes.",
+  "source_title": "Field book of surveyor Teren Vail, south pan traverse",
+  "source_text": "We left the salt camp before sunrise, carrying two iron staffs and a canvas water roll. The low ridges looked black against the eastern light, and the shallow grooves left by yesterday's cart were still visible. I placed a short cairn at the first basalt post, then another at the pale shelf where the ground changed from hard crust to loose powder. By noon, the second cairn had been flattened and its stones scattered downwind. The basalt posts remained fixed because their lower collars were set below the salt crust.\n\nMy first route sheet used the name West Scar for the long ridge beyond the pan. The water haulers call the same-looking rise Split Horn, but I cannot tell from my notes whether they mean the same ridge or the two teeth that appear farther north when the light is low. I drew both names beside the margin rather than choose one. A traveler who follows a name alone could turn too early, so the sheet gives the ridge's position relative to the black notch in the eastern wall.\n\nAt midday, heat made the next post seem to float above the ground. We stopped at the pale shelf and waited until a strip of shadow appeared beneath it. From there, the iron staff at the far post lined up with the notch, but the strip of shadow crossed the pan at an angle. I walked toward the post while my assistant stayed by the shelf and raised a blue cloth when I reached the hard crust. The cloth was a sighting aid for our return, not a permanent marker; we folded it into the water roll before leaving.\n\nThe return traverse began after the wind weakened. We found the first cairn intact and the second one dispersed, yet both basalt collars were visible. We used the collars and the eastern notch to recover the camp line, then checked the distance against the cart grooves where they had not been covered. The notebook does not give a final measured distance because the chain's brass link cracked at the last station. We made camp before dark and sent the broken chain back with the haulers. I copied the notch bearing onto the next sheet before closing the field book, with both ridge names still written beside it.",
+  "structure_tags": ["wind disperses temporary cairns while buried collars stay fixed", "place names remain unresolved but directions include relative landmarks", "midday mirage is handled by waiting for a shadow cue"],
+  "authoring_note": "A survey traverse notebook about unstable surface markers, ambiguous ridge names and timed visual cues; its structure combines physical marker persistence with unresolved local nomenclature.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "The second small cairn was dispersed by wind while the basalt posts remained fixed by collars below the crust.", "evidence": ["By noon, the second cairn had been flattened and its stones scattered downwind. The basalt posts remained fixed because their lower collars were set below the salt crust."]},
+      {"id": "S2", "claim": "Vail recorded West Scar and Split Horn without deciding whether they named the same ridge.", "evidence": ["The water haulers call the same-looking rise Split Horn, but I cannot tell from my notes whether they mean the same ridge or the two teeth that appear farther north when the light is low. I drew both names beside the margin rather than choose one."]},
+      {"id": "S3", "claim": "The route sheet positioned the ridge relative to the black notch rather than relying on its name alone.", "evidence": ["A traveler who follows a name alone could turn too early, so the sheet gives the ridge's position relative to the black notch in the eastern wall."]},
+      {"id": "S4", "claim": "The team waited for a shadow beneath the shelf when heat made the post appear to float.", "evidence": ["At midday, heat made the next post seem to float above the ground. We stopped at the pale shelf and waited until a strip of shadow appeared beneath it."]},
+      {"id": "S5", "claim": "The blue cloth was a temporary return-sighting aid that the team folded away before leaving.", "evidence": ["The cloth was a sighting aid for our return, not a permanent marker; we folded it into the water roll before leaving."]},
+      {"id": "S6", "claim": "The return route used the collars and eastern notch, with cart grooves as an additional check where visible.", "evidence": ["We used the collars and the eastern notch to recover the camp line, then checked the distance against the cart grooves where they had not been covered."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "Vail did not choose between the names West Scar and Split Horn.", "evidence": ["I drew both names beside the margin rather than choose one."]},
+      {"id": "N2", "claim": "The notebook does not provide a final measured distance because the chain link cracked.", "evidence": ["The notebook does not give a final measured distance because the chain's brass link cracked at the last station."]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "The surveyors relied more on anchored and relative landmarks than on temporary surface traces when returning.", "premise_ids": ["S1", "S3", "S6"], "rationale": "The second cairn dispersed, while collars and a notch were used to recover the line; cart grooves were only a conditional check. This supports the described return method, not a claim that cairns were never useful."},
+      {"id": "I2", "claim": "The route sheet was designed to reduce the risk created by ambiguous place names.", "premise_ids": ["S2", "S3"], "rationale": "Vail left the names unresolved and supplied a relative position to the notch because a traveler following a name alone could turn early."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "Did the haulers later rename West Scar as Split Horn?", "presupposition_question": "When did the haulers rename West Scar as Split Horn?", "candidate_claim": "The haulers later renamed West Scar as Split Horn.", "boundary_note": "Vail cannot tell whether the haulers' name refers to the same ridge or nearby teeth, and the notes report no renaming event."},
+      {"id": "U2", "neutral_question": "Did a later crew establish a settled name for the ridge?", "presupposition_question": "Which name did the later survey crew establish for the ridge?", "candidate_claim": "A later survey crew established a name for the ridge.", "boundary_note": "This traverse preserves two names but contains no later naming decision."},
+      {"id": "U3", "neutral_question": "Who maintains the basalt collars?", "presupposition_question": "How does a maintenance crew keep the basalt collars visible?", "candidate_claim": "A maintenance crew maintains the basalt collars.", "boundary_note": "The field book does not describe any custodian or maintenance work for the collars."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "Which markers survived the wind, and how did the team reconstruct the return line?", "target_claim_ids": ["S1", "S3", "S6"], "reference_answer": "The small cairn was scattered while buried collars stayed fixed; the team used collars and the eastern notch, then checked cart grooves where they remained visible."},
+      {"id": "C2", "question": "How did Vail handle the uncertain ridge name and the heat-distorted view?", "target_claim_ids": ["S2", "S3", "S4"], "reference_answer": "Vail retained both names without choosing, supplied the ridge's relation to the eastern notch, and waited for a shadow beneath the shelf when heat made the post seem to float."}
+    ]
+  }
+}

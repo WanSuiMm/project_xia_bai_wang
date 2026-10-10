@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL045",
+  "family_id": "nl045_storywheel_revision",
+  "domain": "education_learning",
+  "title": "Letters about the story wheel",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "Two teachers at a fictional lower school exchange professional letters about a writing workshop. The correspondence sits in a teaching portfolio with diagrams and student work, and concerns the ordinary planning and reflection that accompany a classroom activity. The writers use the exchange to share classroom language across a school year.",
+  "source_title": "Three letters between Aven Rowe and Lio Marr, collected in a teaching portfolio",
+  "source_text": "Dear Lio, the story wheel worked better than I expected once I stopped treating it as a race. We put six paper spokes on the table, each with a different opening condition: a locked window, a missing shadow, a late visitor, and three others the children invented. Each pair chose one spoke and wrote only the next two sentences before turning the wheel to the next pair. The new pair had to keep one detail from the page but could change the narrator. That rule gave the quieter writers a way to enter without defending the whole story.\n\nI worried that the turn would make every plot crooked, so we read the pages aloud after the third handoff. In one story a baker's door was locked in the first section, yet a later narrator walked through it without noticing. The children caught the mismatch before I did. They decided that the baker had opened a side hatch, then added a sentence showing it. I kept the first draft under the revised one in the folder so the class could see why a small bridge mattered. No child was asked to claim a page as solely theirs; the wheel made the pages shared work.\n\nYour reply about the red-pencil table helped. I tried it the next Friday: anyone could put a folded note beside a sentence they wanted to keep unchanged, and the group had to ask that writer before editing it. The first note protected a deliberately repeated word, not a spelling error. The group left it alone and revised the surrounding sentence instead. I did not collect the notes for marks, and nobody lost a turn for declining to read aloud. One child asked if the rule meant a writer could veto any change in the entire story. I said the note protected one marked sentence for that session, not the plot forever.\n\nI am sending the wheel diagram and the two versions of the baker story, with the children's names removed. We have not decided whether the next workshop will use the same spokes or start with endings. The head of the lower school asked whether we could show the work at the family evening, but I have not answered because the children have not discussed that invitation. If we do share it, I would rather show the revisions than choose a winning story. Your own class may find the turn useful, though it may need fewer spokes for a shorter period.",
+  "structure_tags": ["rotating co-authorship with narrator changes", "continuity error repaired by a learner-proposed bridge", "sentence-level protection is limited to one session"],
+  "authoring_note": "Teacher correspondence about collective creative writing and bounded revision rights; the central structure is authorship transfer and a repaired narrative continuity break.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "Pairs wrote two sentences from a selected opening and handed the story to another pair, which could change the narrator while retaining a detail.", "evidence": ["Each pair chose one spoke and wrote only the next two sentences before turning the wheel to the next pair. The new pair had to keep one detail from the page but could change the narrator."]},
+      {"id": "S2", "claim": "Learners noticed that a baker passed through a locked door and repaired the continuity with a side hatch.", "evidence": ["In one story a baker's door was locked in the first section, yet a later narrator walked through it without noticing. The children caught the mismatch before I did. They decided that the baker had opened a side hatch, then added a sentence showing it."]},
+      {"id": "S3", "claim": "The first draft was kept beneath the revised story to show the change.", "evidence": ["I kept the first draft under the revised one in the folder so the class could see why a small bridge mattered."]},
+      {"id": "S4", "claim": "A folded note could protect one sentence from editing for that session, after asking its writer.", "evidence": ["I tried it the next Friday: anyone could put a folded note beside a sentence they wanted to keep unchanged, and the group had to ask that writer before editing it.", "I said the note protected one marked sentence for that session, not the plot forever."]},
+      {"id": "S5", "claim": "Rowe did not collect the notes for marks, and declining to read aloud did not cost a turn.", "evidence": ["I did not collect the notes for marks, and nobody lost a turn for declining to read aloud."]},
+      {"id": "S6", "claim": "The teachers had not decided whether to use the same spokes or begin with endings at the next workshop.", "evidence": ["We have not decided whether the next workshop will use the same spokes or start with endings."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "The story pages were not assigned as sole authorship to individual children.", "evidence": ["No child was asked to claim a page as solely theirs; the wheel made the pages shared work."]},
+      {"id": "N2", "claim": "The folded notes were not collected for marks.", "evidence": ["I did not collect the notes for marks, and nobody lost a turn for declining to read aloud."]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "The wheel's handoff rule allowed plot continuity to be corrected by the group rather than only by the teacher.", "premise_ids": ["S1", "S2", "S3"], "rationale": "Pairs inherited one detail and jointly supplied the side-hatch bridge, which was preserved with the earlier draft. The account does not claim that all continuity errors were caught."},
+      {"id": "I2", "claim": "The protection note constrained a specific edit rather than giving a writer control over the whole shared story.", "premise_ids": ["S4", "S5"], "rationale": "The note applied to one sentence for one session and was not used for marks. The author explicitly rejected a permanent plot veto, so the inference is limited to the described rule."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "Did the children agree to show their stories at family evening?", "presupposition_question": "Which stories did the class present at family evening?", "candidate_claim": "The class presented stories at family evening.", "boundary_note": "Rowe has not answered the invitation, and the children have not discussed it in the described exchange."},
+      {"id": "U2", "neutral_question": "Did the next workshop use openings, endings, or another prompt structure?", "presupposition_question": "How did the class use endings in the next workshop?", "candidate_claim": "The next workshop began with endings.", "boundary_note": "The teachers have not decided whether to keep the spokes or start with endings."},
+      {"id": "U3", "neutral_question": "Did Lio's class try the story wheel, and how did it go?", "presupposition_question": "What changes did Lio make when using the story wheel?", "candidate_claim": "Lio used the story wheel with the class.", "boundary_note": "Rowe suggests the exercise but the correspondence contains no report from Lio about trying it."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "What continuity problem did the children repair, and how could later readers see the repair process?", "target_claim_ids": ["S2", "S3"], "reference_answer": "They added a side hatch to explain a passage through a previously locked door, and the first draft was kept beneath the revised version."},
+      {"id": "C2", "question": "What did a writer's folded note protect, and what did it not allow the writer to control?", "target_claim_ids": ["S4", "S5", "N1"], "reference_answer": "It protected one marked sentence for that session after the writer was consulted; it did not create a permanent veto over the plot, and the notes were not graded."}
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL036",
+  "family_id": "business_quote_version_price_lock_delivery_slot",
+  "domain": "business_operations",
+  "title": "Quote 41B and the revised delivery window",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "Businesses that sell configured goods often revise quotes as costs, quantities, or delivery dates change. Quote-control records help distinguish which price a customer accepted from which logistics details still need confirmation. The fictional memo below follows one order through revision without describing a general pricing policy.",
+  "source_title": "Harbor Loom commercial quote-control memo",
+  "source_text": "Harbor Loom prepared Quote 41A for twenty-four acoustic panels on 9 January. The quote listed the fabric, frame, unit price, and a requested delivery week. The quote could be accepted within seven days of issue; once signed acceptance and the deposit reached the sales desk, its quoted price stayed fixed for the order. A delivery week was a request only; dispatch assigned a confirmed day after the production planner matched the order to a loading slot.\n\nOn 13 January, the customer asked to change the fabric on six panels and keep the other eighteen as quoted. The sales clerk created Quote 41B rather than editing the first file. The revised quote kept the original unit price for eighteen panels and listed a new price for the six panels because the alternate fabric had a higher mill cost. The customer signed 41B and paid the deposit on 15 January. The clerk marked 41A superseded and attached the payment receipt to 41B.\n\nThe production planner reserved materials against the signed version but did not reserve a truck date. On 18 January, the customer requested delivery on Tuesday morning, when the loading dock would be available. The planner replied that Tuesday was full and offered Wednesday afternoon. The customer accepted the new window by email, and the planner recorded it in the dispatch calendar without changing either quote's price lines.\n\nAll twenty-four panels passed the final count. The warehouse separated the eighteen original-fabric panels from the six alternate-fabric panels and printed labels with the 41B reference. The delivery ticket listed Wednesday afternoon; the customer signed after counting the two groups. The invoice matched the split pricing in 41B, and the accounts clerk applied the deposit to that invoice.\n\nThe memo says the quoted price and the delivery appointment were tracked in separate records, and it reports no difference between the final count and the signed ticket. The sales clerk filed the signed count sheet with the invoice and linked the dispatch-calendar entry to the 41B copy for the quarter's reconciliation. The sales manager asked staff to retain superseded versions so a revised order could be audited from request through delivery.",
+  "structure_tags": [
+    "immutable quote versions with prior version marked superseded",
+    "price lock follows signed quote and deposit",
+    "delivery appointment tracked separately from price acceptance"
+  ],
+  "authoring_note": "This control memo separates commercial acceptance of a revised price from later scheduling of a loading slot.",
+  "evaluation": {
+    "supported_claims": [
+      {
+        "id": "S1",
+        "claim": "Quote 41A held a price for seven days after signed acceptance and deposit, while a delivery week remained only a request.",
+        "evidence": [
+          "Harbor Loom prepared Quote 41A for twenty-four acoustic panels on 9 January. The quote listed the fabric, frame, unit price, and a requested delivery week. The quote could be accepted within seven days of issue; once signed acceptance and the deposit reached the sales desk, its quoted price stayed fixed for the order. A delivery week was a request only; dispatch assigned a confirmed day after the production planner matched the order to a loading slot."
+        ]
+      },
+      {
+        "id": "S2",
+        "claim": "Quote 41B changed the fabric and price for six panels while retaining the original price for eighteen.",
+        "evidence": [
+          "The revised quote kept the original unit price for eighteen panels and listed a new price for the six panels because the alternate fabric had a higher mill cost."
+        ]
+      },
+      {
+        "id": "S3",
+        "claim": "The customer signed 41B and paid the deposit, after which 41A was marked superseded.",
+        "evidence": [
+          "The customer signed 41B and paid the deposit on 15 January. The clerk marked 41A superseded and attached the payment receipt to 41B."
+        ]
+      },
+      {
+        "id": "S4",
+        "claim": "The planner offered Wednesday afternoon after Tuesday was full, and the customer accepted.",
+        "evidence": [
+          "The planner replied that Tuesday was full and offered Wednesday afternoon. The customer accepted the new window by email, and the planner recorded it in the dispatch calendar without changing either quote's price lines."
+        ]
+      },
+      {
+        "id": "S5",
+        "claim": "All twenty-four panels passed final count and were separated into the two fabric groups.",
+        "evidence": [
+          "All twenty-four panels passed the final count. The warehouse separated the eighteen original-fabric panels from the six alternate-fabric panels and printed labels with the 41B reference."
+        ]
+      },
+      {
+        "id": "S6",
+        "claim": "The final invoice matched the split pricing in 41B and the deposit was applied.",
+        "evidence": [
+          "The invoice matched the split pricing in 41B, and the accounts clerk applied the deposit to that invoice."
+        ]
+      }
+    ],
+    "explicit_negatives": [
+      {
+        "id": "N1",
+        "claim": "The planner did not reserve a truck date when reserving production materials.",
+        "evidence": [
+          "The production planner reserved materials against the signed version but did not reserve a truck date."
+        ]
+      },
+      {
+        "id": "N2",
+        "claim": "The delivery change did not alter either quote's price lines.",
+        "evidence": [
+          "The customer accepted the new window by email, and the planner recorded it in the dispatch calendar without changing either quote's price lines."
+        ]
+      }
+    ],
+    "licensed_inferences": [
+      {
+        "id": "I1",
+        "claim": "The signed and deposited 41B is the commercial basis for the final invoice rather than superseded 41A.",
+        "premise_ids": [
+          "S2",
+          "S3",
+          "S6"
+        ],
+        "rationale": "The clerk attached the deposit to 41B, marked 41A superseded, and the invoice matched 41B's two price lines."
+      },
+      {
+        "id": "I2",
+        "claim": "Price acceptance and delivery scheduling were independent controls in this order.",
+        "premise_ids": [
+          "S1",
+          "S4",
+          "N1"
+        ],
+        "rationale": "The quote terms govern the price lock, while the planner later assigned a confirmed delivery window in a separate dispatch calendar."
+      }
+    ],
+    "unspecified_probes": [
+      {
+        "id": "U1",
+        "neutral_question": "Did Harbor Loom later extend the acceptance window for other customers?",
+        "presupposition_question": "How did Harbor Loom later extend its seven-day acceptance window for other customers?",
+        "candidate_claim": "Harbor Loom later extended its seven-day acceptance window for other customers.",
+        "boundary_note": "The memo gives no later policy decision; a request to retain quote versions does not imply a window change."
+      },
+      {
+        "id": "U2",
+        "neutral_question": "Did the customer install the panels in the rooms originally planned?",
+        "presupposition_question": "How did the customer install all twenty-four panels in the rooms originally planned?",
+        "candidate_claim": "The customer installed all twenty-four panels in the rooms originally planned.",
+        "boundary_note": "The memo ends at delivery and invoice application without reporting installation or room placement."
+      },
+      {
+        "id": "U3",
+        "neutral_question": "Were any panels damaged after the signed count?",
+        "presupposition_question": "What damage did the panels sustain after the customer signed the delivery ticket?",
+        "candidate_claim": "One or more panels were damaged after the customer signed the delivery ticket.",
+        "boundary_note": "The signed count matched and no later condition is described."
+      }
+    ],
+    "consistency_questions": [
+      {
+        "id": "C1",
+        "question": "How did the order revision affect its price basis and delivery date?",
+        "target_claim_ids": [
+          "S1",
+          "S2",
+          "S3",
+          "S4",
+          "S6"
+        ],
+        "reference_answer": "The signed, deposited 41B retained one price for eighteen panels and set a new price for six; it superseded 41A. The delivery slot was later moved from Tuesday to Wednesday without changing those price lines."
+      },
+      {
+        "id": "C2",
+        "question": "What records connect the revised order to the delivered goods and invoice?",
+        "target_claim_ids": [
+          "S3",
+          "S5",
+          "S6"
+        ],
+        "reference_answer": "The customer signed and deposited against 41B, warehouse labels referenced 41B for both fabric groups, the final count was twenty-four, and the invoice matched 41B with the deposit applied."
+      }
+    ]
+  }
+}

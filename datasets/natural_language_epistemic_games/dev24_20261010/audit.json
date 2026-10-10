@@ -1,0 +1,50 @@
+{
+  "dataset_id": "natural_language_epistemic_games_dev24_20261010",
+  "material_status": "DEVELOPMENT_DRAFTS",
+  "structural_status": "PASS",
+  "semantic_status": "AUTHOR_ANNOTATED_REQUIRES_INDEPENDENT_HUMAN_QUALIFICATION",
+  "ai_cross_review_report": "SEMANTIC_REVIEW.md",
+  "dialogue_collection_status": "NOT_COLLECTED",
+  "provider_requests": 0,
+  "fine_tuning_runs": 0,
+  "world_count": 24,
+  "family_id_count": 24,
+  "iid_qualification": false,
+  "domain_counts": {
+    "archaeology_conservation": 3,
+    "civic_institutions": 3,
+    "ecology_fieldwork": 3,
+    "ethnography_social": 3,
+    "investigations_history": 3,
+    "linguistics_fieldwork": 3,
+    "materials_engineering": 3,
+    "mathematics_practice": 3
+  },
+  "source_word_total": 9782,
+  "source_word_range": [
+    367,
+    475
+  ],
+  "public_word_range": [
+    41,
+    63
+  ],
+  "evaluation_record_counts": {
+    "supported_claims": 136,
+    "explicit_negatives": 48,
+    "licensed_inferences": 48,
+    "unspecified_probes": 72,
+    "consistency_questions": 48
+  },
+  "initial_role_projection_checks": 168,
+  "runtime_router_verified": false,
+  "configuration_status": "OFFLINE_DRAFT_NOT_DISPATCH_READY",
+  "errors": [],
+  "warnings": [
+    "No real multi-agent trajectories have been collected.",
+    "Exact source-span matching does not certify semantic support or unspecifiedness.",
+    "Development worlds cannot be relabeled as unseen confirmatory tests after inspection.",
+    "Unique family IDs and balanced domains do not establish independent sampling.",
+    "Provider-default reasoning is not equal internal compute; preflight remains pending."
+  ]
+}

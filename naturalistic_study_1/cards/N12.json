@@ -1,0 +1,29 @@
+{
+  "case_id": "N12",
+  "domain": "math_language",
+  "title": "Keldan Petition Folio",
+  "public_context": "The Keldan Water Board and its clerical register are fictional. The board receives written requests about shared canal turns, sluice repairs, and well access. Its clerks distinguish petitions from witness quotations and final board orders. A short archive dossier describes one formal writing convention and the circumstances in which it is used; the convention itself is not stated in this context.",
+  "source_title": "Keldan archive guide to petitions",
+  "source_text": "The Keldan Water Board keeps a formal petition register for requests about canal turns, sluice repairs, and access to shared wells. A petition begins with a heading naming the office responsible for the matter, followed by a body that states the requested action before giving its grounds. The ordinary closing formula is ‘el var’, literally ‘placed for decision’. It marks submission for the board's consideration; it does not mean that the request has been approved.\n\nA typical folio reads: ‘East Sluice Office’ as the heading; ‘Reserve two night turns for the upper channel’ as the requested action; ‘The lower gate is being repaired this week’ as the grounds; and ‘el var’ as the closing. The clerk reads the heading, action, grounds, then closing when the petition is presented at a meeting. If a request is fully specified by an attached allocation schedule, the grounds sentence may be omitted, but the office heading and closing formula remain. A petition can therefore be concise without losing its register form.\n\nThe format is not used to turn every statement into a request. Witness testimony is copied under a ‘Witness words’ label in the speaker's original order, and the clerk does not append ‘el var’ to the quotation. A board decision is entered separately under ‘Order’ and receives the seal notation ‘sanet’; that notation records adoption, while ‘el var’ only records submission. Direct maintenance instructions issued by an office also use the order format, rather than the petition closing.\n\nThis convention belongs to Keldan's formal water-board paperwork. It supports routing, reading aloud, and later retrieval of requests; it does not prescribe everyday conversation or establish that the stated grounds are true. The archive guide describes the petition frame, its permitted short form, and its distinction from testimony and adopted orders.",
+  "analyst_notes": {
+    "core_facts": [
+      "A formal petition starts with the responsible office heading, then requested action, then grounds, and closes with ‘el var’.",
+      "‘El var’ marks submission for consideration, not approval.",
+      "Grounds may be omitted when an attached allocation schedule fully specifies the request, while the heading and closing remain.",
+      "Witness quotations preserve the speaker's order and do not take the petition closing; adopted orders use a separate ‘sanet’ seal notation."
+    ],
+    "explicit_negations": [
+      "‘El var’ does not mean that the request has been approved.",
+      "The petition format is not used for witness quotations or direct maintenance orders."
+    ],
+    "source_boundaries": [
+      "The convention is limited to Keldan's formal water-board paperwork.",
+      "It does not prescribe everyday conversation or certify the truth of petition grounds."
+    ],
+    "consistency_checks": [
+      "The sample petition orders its office heading, action, grounds, and ‘el var’ closing in that sequence.",
+      "An attached schedule can replace the grounds sentence but cannot remove the office heading or petition closing.",
+      "A witness quotation remains in the speaker's order and does not use ‘el var’; a board-adopted order instead carries ‘sanet’."
+    ]
+  }
+}

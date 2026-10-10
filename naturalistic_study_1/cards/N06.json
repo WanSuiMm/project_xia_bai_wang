@@ -1,0 +1,30 @@
+{
+  "case_id": "N06",
+  "domain": "anthropology_social",
+  "title": "Harvest Work at the Gable Press Cooperative",
+  "public_context": "This openly synthetic micro-dossier follows a fictional hill town with small orchards, a shared cider press, and a narrow harvest season. It is written as a local cooperative history in familiar terms such as shift boards, meals, and equipment cleaning. All names and institutions are invented, and the account should be read as an ordinary record of collective seasonal work.",
+  "source_title": "Season Book of the Gable Press Cooperative",
+  "source_text": "Excerpts from the Gable Press Cooperative season books, Tarrow Mill, 1998–2024.\n\nThe press sits behind the former flour store and serves households from three lanes of hillside orchards. Plums arrive first, followed by early apples and then late keepers. The work season usually runs from the last week of August through the third week of October, but the foreman opens each fruit lot when a sample tray is ready rather than by a fixed calendar date.\n\nA household may reserve a pressing slot after one adult has completed a cooperative shift that season. A shift is four hours and may involve washing crates, sorting fruit, tending the belt press, or cleaning the settling room. The household receives one booking token for its first shift; later shifts earn a shared credit toward repairs, not additional priority. Tokens can be given to another household before its lot is weighed, but once weighing begins the slot stays with the lot listed on the board.\n\nOn busy days, the foreman moves the queue if fruit is bruising or a machine needs cleaning. The board records the reason and keeps the original token with the household, so a delay does not erase a completed shift. Cooperative notes from 2011 mention a family whose booked fruit waited overnight while a belt was replaced; they received the next safe pressing slot and helped wash the equipment before work resumed.\n\nMeals rotate among households working the evening shift. The host brings soup or bread, while the cooperative supplies cider from the prior season. A shift is not a wage, and tokens cannot be exchanged for cash. The arrangement covers press access and seasonal maintenance; it does not set orchard ownership or decide who may sell finished cider.",
+  "analyst_notes": {
+    "core_facts": [
+      "The harvest season usually runs from late August through the third week of October, while each lot opens when its sample tray is ready.",
+      "One adult from a household must complete a four-hour cooperative shift that season before the household can reserve a pressing slot.",
+      "The first shift yields one booking token; later shifts earn a shared repair credit rather than added queue priority.",
+      "Tokens may be transferred before weighing, but once weighing begins the slot stays with the listed lot.",
+      "The foreman may move the queue when fruit is bruising or equipment needs cleaning, with the reason recorded on the board."
+    ],
+    "explicit_negations": [
+      "A cooperative shift is not a wage, and tokens cannot be exchanged for cash.",
+      "The arrangement does not determine orchard ownership or who may sell finished cider."
+    ],
+    "source_boundaries": [
+      "The late-August-to-October window is described as usual; actual lot timing follows the sample tray rather than a fixed date.",
+      "The account concerns press access and seasonal maintenance, not orchard tenure or the sale of finished cider.",
+      "The 2011 delay is one recorded example of queue handling, not a separate permanent schedule."
+    ],
+    "consistency_checks": [
+      "Explicit fact: the first completed shift yields a token, while later shifts yield repair credit without added priority. Plausible inference: participation connects household access to seasonal service rather than allowing priority to accumulate without limit.",
+      "Explicit fact: the foreman records queue changes caused by bruising fruit or cleaning needs. Plausible inference: the queue balances booking order with the condition of perishable fruit and equipment."
+    ]
+  }
+}

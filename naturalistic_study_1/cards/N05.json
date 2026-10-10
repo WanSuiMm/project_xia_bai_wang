@@ -1,0 +1,30 @@
+{
+  "case_id": "N05",
+  "domain": "anthropology_social",
+  "title": "Use Claims at Fenlock Hill Orchard",
+  "public_context": "This openly synthetic micro-dossier is set in a fictional orchard district where several households share a cooperative hillside and keep local records about its upkeep. It resembles familiar small-town property and family arrangements, while naming only invented people and institutions. The passage is an archival summary for a social-institution study; it does not describe an actual community or reproduce a real legal system.",
+  "source_title": "The Fenlock Hill Orchard Register",
+  "source_text": "Condensed from meeting minutes and maintenance books, 1987–2023.\n\nFenlock's Hill Orchard occupies a slope above the bus road. The Fenlock Hill Association owns the whole tract, including its retaining wall, pump shed, and twenty-four numbered tree plots. Member households hold continuing use claims to individual plots. The claims cannot be sold outside the association, although a household may name a successor in its annual return.\n\nWhen a claim-holder dies, the register leaves the plot with the household through the end of that year's harvest. At the winter meeting, the household may continue the claim under one adult's name. The clerk records the successor after members confirm that the person has taken part in two orchard workdays during the previous three seasons. Workdays can include pruning, pump cleaning, or wall repair; picking fruit is not counted for this purpose. If no successor is recorded by the meeting, the claim returns to the association's unassigned list for the next season.\n\nMinutes from 2017 describe Mara Venn taking over plot 8 after her aunt died. Her cousins had helped with picking, but Mara had logged pump cleaning and pruning on two spring workdays. The clerk entered Mara's name for plot 8 and noted that the household's ladder and hand tools stayed with the family.\n\nThe association's chair says the return is meant to pair access with care for the shared slope. Members still debate whether two workdays are enough in years of illness or poor weather. The rule is written into the local register, not a civil inheritance code. It does not govern household money, houses on private lots, or personal tools.",
+  "analyst_notes": {
+    "core_facts": [
+      "The Fenlock Hill Association owns the orchard and grants member households continuing use claims to numbered plots.",
+      "After a claim-holder dies, the household keeps the plot through that year's harvest and may name one adult at the winter meeting.",
+      "The named successor must have completed two qualifying orchard workdays in the previous three seasons; picking fruit does not qualify.",
+      "If no successor is recorded by the winter meeting, the plot returns to the association's unassigned list for the next season.",
+      "Mara Venn succeeded her aunt on plot 8 after logging pruning and pump-cleaning workdays."
+    ],
+    "explicit_negations": [
+      "A plot claim cannot be sold outside the association, and fruit picking is not a qualifying workday.",
+      "The register does not govern household money, private-lot houses, or personal tools."
+    ],
+    "source_boundaries": [
+      "The 2017 minutes record Mara's work entries and succession but do not characterize any family disagreement.",
+      "The chair's explanation is an attributed account of the arrangement's purpose; it does not establish unanimous member interpretation.",
+      "The register governs association plot claims and is expressly bounded away from civil inheritance and household property."
+    ],
+    "consistency_checks": [
+      "Explicit fact: the household retains the plot through harvest and names one adult at the winter meeting after qualifying work. Plausible inference: the association links continued use to recorded maintenance participation.",
+      "Explicit fact: the family's ladder and hand tools stayed with the family when Mara took the plot claim. Plausible inference: plot claims and household equipment follow distinct arrangements; the source does not establish a general rule for every item."
+    ]
+  }
+}

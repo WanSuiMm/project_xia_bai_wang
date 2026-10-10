@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL020",
+  "family_id": "nl020-precedence-order-refinement-dockets",
+  "domain": "mathematics_practice",
+  "title": "Precedence refinements in the Orvane bindery docket",
+  "split": "development",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "A fictional bindery office maintains a docket for dependencies among ledger-preparation operations. The circular describes how clerks record work order for a batch and communicate requirements among staff. Its setting is a small workshop preparing documents for delivery after copying and sealing.",
+  "source_title": "Orvane Bindery scheduling circular: precedence orders",
+  "source_text": "The Orvane bindery keeps a dependency docket for batches of hand-bound ledgers. A docket is not a minute-by-minute plan; it records which operations must precede others before a batch can leave the shop. The clerks model a batch as a finite set of operations with a strict partial order. The relation is transitive and irreflexive: if sealing must precede copying and copying must precede delivery, sealing must precede delivery, while no operation is recorded as preceding itself.\n\nThe circular's example has four operations: seal the signatures (A), countersign the custody slip (B), copy the index (C), and deliver the ledger (D). The original docket requires A before C, B before C, and C before D. It does not rank A against B. Accordingly, both A-B-C-D and B-A-C-D are valid schedules, while any schedule placing C before either A or B, or D before C, violates a listed dependency. The two schedules differ only in which of the independent first operations is done first.\n\nWhen a later carrier asks to see the custody slip before the signatures are sealed, the clerk may refine the docket by adding B before A. A refinement keeps every old requirement and adds a compatible one; it must still be acyclic, since mutually required precedence would make a schedule impossible. With B before A added, B-A-C-D remains valid and A-B-C-D does not. Thus the revised docket removes one previously permitted schedule without adding a new schedule. The circular calls this a refinement because the set of acceptable schedules becomes narrower.\n\nThe clerks use this language to distinguish a dependency from a preference. A supervisor may prefer A first because signatures are easy to gather early, but that preference is not part of the partial order unless written as a requirement. The docket does not say that A is more important than B, nor does an absent comparison mean that the two operations take equal time. The circular also warns that a proposed refinement can fail: adding D before A would create a cycle with A before C and C before D, so no valid schedule would satisfy all three.\n\nThe example establishes how the office represents precedence and checks a proposed refinement. It does not report how long the four operations take, whether a real carrier made the later request, or how often clerks use such refinements. A schedule is an allowed ordering of this batch's operations, not evidence that the shop followed it on a particular day. The docket leaves those practical facts outside its mathematical record.",
+  "structure_tags": [
+    "finite strict partial order over operations",
+    "linear extensions are valid schedules",
+    "compatible refinement narrows the set of schedules while cycles make it empty"
+  ],
+  "authoring_note": "This world concerns partial orders, incomparable operations, and refinement of the schedule set. It is separate from the lane-traversal condition in NL019 and the pair-covering incidence construction in NL021.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "The bindery models a batch as a finite set of operations with a strict partial order that is transitive and irreflexive.", "evidence": ["The clerks model a batch as a finite set of operations with a strict partial order. The relation is transitive and irreflexive: if sealing must precede copying and copying must precede delivery, sealing must precede delivery, while no operation is recorded as preceding itself."]},
+      {"id": "S2", "claim": "The original four-operation docket requires A before C, B before C, and C before D, but does not order A against B.", "evidence": ["The original docket requires A before C, B before C, and C before D. It does not rank A against B."]},
+      {"id": "S3", "claim": "Both A-B-C-D and B-A-C-D are valid schedules under the original docket.", "evidence": ["Accordingly, both A-B-C-D and B-A-C-D are valid schedules"]},
+      {"id": "S4", "claim": "Adding B before A leaves B-A-C-D valid and removes A-B-C-D.", "evidence": ["With B before A added, B-A-C-D remains valid and A-B-C-D does not."]},
+      {"id": "S5", "claim": "The carrier requested the custody slip before the signatures were sealed, and the circular defines refinement as adding a compatible requirement.", "evidence": ["When a later carrier asks to see the custody slip before the signatures are sealed, the clerk may refine the docket by adding B before A.", "A refinement keeps every old requirement and adds a compatible one"]},
+      {"id": "S6", "claim": "Adding D before A creates a cycle with the existing A-before-C and C-before-D dependencies.", "evidence": ["adding D before A would create a cycle with A before C and C before D"]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "The docket does not say that A is more important than B.", "evidence": ["The docket does not say that A is more important than B"]},
+      {"id": "N2", "claim": "The example does not report how long the four operations take.", "evidence": ["It does not report how long the four operations take"]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "Under the original dependencies, A and B are incomparable: either can be placed first while satisfying the listed requirements.", "premise_ids": ["S2", "S3"], "rationale": "The docket states no order between A and B, and it explicitly permits one valid schedule in each order. This is a claim about the recorded partial order, not equal duration or importance."},
+      {"id": "I2", "claim": "The compatible B-before-A refinement reduces the listed valid schedules from the two shown to one.", "premise_ids": ["S3", "S4", "S5"], "rationale": "The original example names two valid schedules, and the added requirement retains B-A-C-D while excluding A-B-C-D. No other schedule count is claimed for a different operation set."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "How many minutes did copying the index take?", "presupposition_question": "Why did copying the index take twenty minutes?", "candidate_claim": "Copying the index took twenty minutes.", "boundary_note": "The circular explicitly excludes operation durations from the example."},
+      {"id": "U2", "neutral_question": "Who made the later request about the custody slip?", "presupposition_question": "Why did carrier Dalen make the later request about the custody slip?", "candidate_claim": "Carrier Dalen made the later request about the custody slip.", "boundary_note": "The text says a later carrier asks, but supplies no name or further identity."},
+      {"id": "U3", "neutral_question": "Who authorized adding B before A to the docket?", "presupposition_question": "Why did the assistant manager authorize adding B before A to the docket?", "candidate_claim": "The assistant manager authorized adding B before A to the docket.", "boundary_note": "The example gives a carrier's request and a possible refinement but names no approver."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "Why are both displayed original schedules valid, and what does their difference say about A and B?", "target_claim_ids": ["S2", "S3"], "reference_answer": "Both put A and B before C and C before D. Their different first-two orderings satisfy all required precedence, showing that the original docket leaves A and B incomparable; it says nothing about their durations or importance."},
+      {"id": "C2", "question": "What happens to the displayed schedule set under the B-before-A refinement, and why is the proposed D-before-A alternative rejected?", "target_claim_ids": ["S4", "S5", "S6"], "reference_answer": "The compatible refinement retains B-A-C-D and removes A-B-C-D, so it narrows the displayed choices. D-before-A combined with A-before-C and C-before-D forms a cycle, leaving no schedule that satisfies those requirements."}
+    ]
+  }
+}

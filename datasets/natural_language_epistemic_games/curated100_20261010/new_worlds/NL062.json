@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL062",
+  "family_id": "conservatory_opening_by_room_and_route",
+  "domain": "public_services",
+  "title": "A week of altered paths at the winter garden",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "A public winter garden has several connected rooms, outdoor paths, and more than one accessible entrance. A caretaker's weekly log can record opening arrangements and temporary route changes while repair work is underway. The account concerns a fictional municipal conservatory.",
+  "source_title": "Larchmere Winter Garden caretaker's weekbook",
+  "source_text": "The winter garden's front gate opened at nine each weekday, but the roof walk stayed latched until the morning glass check. The keeper used a brass card at the gate to show whether a room was open, rather than closing the entire conservatory whenever one path needed attention. On Monday the roof walk opened at half past ten after the upper panes had dried.\n\nBefore Tuesday's first tour, water began dripping across the east fern corridor. The keeper put a rope across that passage and moved the tour's starting point to the Palm Gallery. The plant labels and benches there were left in place, and the guide used the same printed route sheet with one turn crossed out in pencil. The public gate remained open throughout the morning.\n\nThat afternoon the lift serving the west entrance stopped between floors. The keeper directed visitors who needed a step-free entrance to the east ramp, where a volunteer stayed until the lift contractor arrived. The west entrance was not used again that day. The caretaker's margin note says the east ramp's stone landing had been swept before the diversion, and no staff member sent visitors through the potting room.\n\nOn Wednesday the maintenance pair cleared leaves from the roof gutter above the fern corridor. They left a tray under the drip while the floor dried. At opening on Thursday, the keeper laid paper strips along the corridor and found them dry on a second walk; the rope then came down at noon. The roof walk did not reopen with the corridor, because a separate glass check was still due.\n\nThe weekbook records no full-day closure. Friday's tour began in the Palm Gallery again, even though the corridor was open, because the guide had already arranged a seated talk there. For the seated talk, the guide drew the benches into a shallow arc and pinned the crossed-out route sheet beside the door. The contractor's lift slip stayed clipped to Tuesday's page, separate from the gutter entry. Staff used those two pages when returning ropes and signs to the equipment cupboard. The keeper filed the card for the following Monday with the regular room schedule restored.",
+  "structure_tags": [
+    "room-specific opening cards rather than whole-site closure",
+    "accessible entrance diversion during a separate lift outage",
+    "two repairs with distinct reopening checks"
+  ],
+  "authoring_note": "A caretaker's log connects room-by-room access, a step-free entrance diversion, and independent reopening checks; it differs from civic queue ranking and temporary street-use review mechanisms.",
+  "evaluation": {
+    "supported_claims": [
+      {
+        "id": "S1",
+        "claim": "The front gate opened at nine on weekdays, while the roof walk awaited a glass check.",
+        "evidence": [
+          "The winter garden's front gate opened at nine each weekday, but the roof walk stayed latched until the morning glass check."
+        ]
+      },
+      {
+        "id": "S2",
+        "claim": "A leak in the east fern corridor led the keeper to rope it off and move a tour's start to the Palm Gallery.",
+        "evidence": [
+          "Before Tuesday's first tour, water began dripping across the east fern corridor.",
+          "The keeper put a rope across that passage and moved the tour's starting point to the Palm Gallery."
+        ]
+      },
+      {
+        "id": "S3",
+        "claim": "Visitors needing step-free access were directed to the east ramp during the west lift outage.",
+        "evidence": [
+          "That afternoon the lift serving the west entrance stopped between floors.",
+          "The keeper directed visitors who needed a step-free entrance to the east ramp, where a volunteer stayed until the lift contractor arrived."
+        ]
+      },
+      {
+        "id": "S4",
+        "claim": "The maintenance pair cleared leaves from the gutter above the corridor on Wednesday.",
+        "evidence": [
+          "On Wednesday the maintenance pair cleared leaves from the roof gutter above the fern corridor."
+        ]
+      },
+      {
+        "id": "S5",
+        "claim": "The corridor reopened at noon Thursday after the keeper found the paper strips dry.",
+        "evidence": [
+          "At opening on Thursday, the keeper laid paper strips along the corridor and found them dry on a second walk; the rope then came down at noon."
+        ]
+      },
+      {
+        "id": "S6",
+        "claim": "The roof walk still awaited a separate glass check after the corridor reopened.",
+        "evidence": [
+          "The roof walk did not reopen with the corridor, because a separate glass check was still due."
+        ]
+      }
+    ],
+    "explicit_negatives": [
+      {
+        "id": "N1",
+        "claim": "The conservatory did not close for a full day during the recorded week.",
+        "evidence": [
+          "The weekbook records no full-day closure."
+        ]
+      },
+      {
+        "id": "N2",
+        "claim": "Visitors were not sent through the potting room during the route diversion.",
+        "evidence": [
+          "The caretaker's margin note says the east ramp's stone landing had been swept before the diversion, and no staff member sent visitors through the potting room."
+        ]
+      }
+    ],
+    "licensed_inferences": [
+      {
+        "id": "I1",
+        "claim": "The caretaker treated the fern corridor and roof walk as separate access decisions.",
+        "premise_ids": [
+          "S5",
+          "S6"
+        ],
+        "rationale": "The corridor reopened after its floor check while the roof walk remained latched for its own glass check; this does not establish the eventual roof-walk reopening time."
+      },
+      {
+        "id": "I2",
+        "claim": "The lift outage prompted an alternate step-free entrance rather than a diversion through the potting room.",
+        "premise_ids": [
+          "S3",
+          "N2"
+        ],
+        "rationale": "Visitors needing step-free entry were directed to the east ramp, and the record explicitly rules out sending visitors through the potting room. This does not establish comparative route length."
+      }
+    ],
+    "unspecified_probes": [
+      {
+        "id": "U1",
+        "neutral_question": "Was the Palm Gallery crowded during Tuesday's detour?",
+        "presupposition_question": "Why did Tuesday's corridor closure make the Palm Gallery crowded?",
+        "candidate_claim": "Tuesday's corridor closure made the Palm Gallery crowded.",
+        "boundary_note": "The log records a detour and furniture arrangements but no crowding observation or visitor count."
+      },
+      {
+        "id": "U2",
+        "neutral_question": "Did the east-ramp diversion make the accessible route longer?",
+        "presupposition_question": "How much did the east-ramp diversion lengthen the accessible route through the conservatory?",
+        "candidate_claim": "The east-ramp diversion lengthened the accessible route through the conservatory.",
+        "boundary_note": "The log identifies the alternate entrance but gives no route distances or comparison of travel time."
+      },
+      {
+        "id": "U3",
+        "neutral_question": "Did a glass defect keep the roof walk closed after Thursday noon?",
+        "presupposition_question": "Which glass defect kept the roof walk closed after the corridor reopened?",
+        "candidate_claim": "A glass defect kept the roof walk closed after the corridor reopened.",
+        "boundary_note": "A separate glass check was pending, but the log does not state that it found a defect or caused a later closure."
+      }
+    ],
+    "consistency_questions": [
+      {
+        "id": "C1",
+        "question": "How did the two separate maintenance issues affect opening and visitor routes during the week?",
+        "target_claim_ids": [
+          "S2",
+          "S3",
+          "S5",
+          "S6"
+        ],
+        "reference_answer": "The fern corridor closed after a leak and its tour start moved to the Palm Gallery; the west lift outage redirected step-free entry to the east ramp. The corridor reopened after a dry-floor check, while the roof walk still awaited a separate glass check."
+      },
+      {
+        "id": "C2",
+        "question": "Why did reopening the fern corridor not mean every nearby area was open?",
+        "target_claim_ids": [
+          "S1",
+          "S5",
+          "S6"
+        ],
+        "reference_answer": "The corridor reopened at noon Thursday after the floor strips were dry, but the roof walk had a separate glass check still due and had not reopened with it."
+      }
+    ]
+  }
+}

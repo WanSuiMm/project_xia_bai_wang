@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL051",
+  "family_id": "nl051_flooded_footbridge_incident",
+  "domain": "geography_navigation",
+  "title": "Incident report after the footbridge vanished",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "An incident report from a fictional valley ward concerns a rise in a mountain stream near a footbridge. The record brings together dispatch notes, a keeper's log and a local route notice, within the ordinary work of a small public office.",
+  "source_title": "North Fork Ward incident report 8, filed after the April rise",
+  "source_text": "At 06:20 the footbridge between Larch Court and the mill field was still in place, though water had reached the lower rail. A groundskeeper sent a runner to the ward office after hearing the north abutment strike driftwood. The runner used the orchard lane and arrived before the bridge keeper could reach the signal box. The ward map showed the old plank crossing as the shortest walk, but the runner's note said the lane was dry because its ditch discharged above the flooded bend.\n\nThe bridge keeper did not attempt a crossing. She closed the west gate and tied a red canvas strip to the handrail so people coming from the mill field would see the closure from the bend. A second team took the quarry track to reach three cottages on the high bank. The report says the track was passable for people carrying packs but too narrow for the ward cart; the team carried drinking water and a dry blanket on foot. No one was moved from the cottages during that trip.\n\nAt 08:05 the north abutment shifted and the bridge deck dropped into the stream. The keeper's log says the red strip went with it. A surveyor later found two deck boards lodged against the alder island. The ward posted a new notice at the orchard lane entrance, directing walkers to the quarry track and asking them not to follow the bank below the mill field. The notice did not reopen the bridge or mark the quarry track for carts.\n\nBy midday the water had fallen below the lower rail height, but the ward left the west gate closed. The report records no injuries, and the three cottages remained occupied. A mason inspected the north abutment from the bank and marked a crack with chalk; she did not enter the stream. The ward office requested a fresh survey before rebuilding and put two lanterns at the orchard lane fork. The clerk filed a duplicate of the notice beside the runner's dispatch slip and copied the quarry track onto the back of the ward map. She folded the map with the bridge keeper's log and set them together in the incident drawer.",
+  "structure_tags": [
+    "river rise disables a foot crossing after an initial access route is used",
+    "walking route remains open but is unsuitable for a ward cart",
+    "bridge debris location is only partially recorded"
+  ],
+  "authoring_note": "An incident report about flood-driven route closure, response access and incomplete debris accounting; the core structure is changing terrain rather than a fixed route choice.",
+  "evaluation": {
+    "supported_claims": [
+      {
+        "id": "S1",
+        "claim": "The runner used the orchard lane, which remained dry because its ditch discharged above the flooded bend.",
+        "evidence": [
+          "The runner used the orchard lane and arrived before the bridge keeper could reach the signal box.",
+          "the runner's note said the lane was dry because its ditch discharged above the flooded bend."
+        ]
+      },
+      {
+        "id": "S2",
+        "claim": "The bridge keeper closed the west gate and tied a red canvas strip to the handrail to mark the closure for people from the mill field.",
+        "evidence": [
+          "She closed the west gate and tied a red canvas strip to the handrail so people coming from the mill field would see the closure from the bend."
+        ]
+      },
+      {
+        "id": "S3",
+        "claim": "A team reached the high-bank cottages by the quarry track on foot because the track was too narrow for the ward cart.",
+        "evidence": [
+          "A second team took the quarry track to reach three cottages on the high bank. The report says the track was passable for people carrying packs but too narrow for the ward cart"
+        ]
+      },
+      {
+        "id": "S4",
+        "claim": "The bridge deck fell into the stream after the north abutment shifted, and two boards were later found at the alder island.",
+        "evidence": [
+          "At 08:05 the north abutment shifted and the bridge deck dropped into the stream. The keeper's log says the red strip went with it. A surveyor later found two deck boards lodged against the alder island."
+        ]
+      },
+      {
+        "id": "S5",
+        "claim": "The ward's new notice directed walkers to the quarry track and asked them not to follow the bank below the mill field.",
+        "evidence": [
+          "The ward posted a new notice at the orchard lane entrance, directing walkers to the quarry track and asking them not to follow the bank below the mill field."
+        ]
+      },
+      {
+        "id": "S6",
+        "claim": "By midday the ward kept the west gate closed and had requested a fresh survey before rebuilding.",
+        "evidence": [
+          "By midday the water had fallen below the lower rail height, but the ward left the west gate closed.",
+          "The ward office requested a fresh survey before rebuilding"
+        ]
+      }
+    ],
+    "explicit_negatives": [
+      {
+        "id": "N1",
+        "claim": "The bridge keeper did not attempt a crossing.",
+        "evidence": [
+          "The bridge keeper did not attempt a crossing."
+        ]
+      },
+      {
+        "id": "N2",
+        "claim": "The report records no injuries.",
+        "evidence": [
+          "The report records no injuries, and the three cottages remained occupied."
+        ]
+      }
+    ],
+    "licensed_inferences": [
+      {
+        "id": "I1",
+        "claim": "The ward's response distinguished routes suitable for people on foot from routes usable by the cart.",
+        "premise_ids": [
+          "S1",
+          "S3",
+          "S5"
+        ],
+        "rationale": "The orchard lane was used by the runner, while the quarry track was explicitly too narrow for the ward cart and became the walker detour. The report does not state that all other routes were closed."
+      },
+      {
+        "id": "I2",
+        "claim": "The gate remained closed even after the water receded below the recorded rail height.",
+        "premise_ids": [
+          "S4",
+          "S6",
+          "N1"
+        ],
+        "rationale": "The bridge deck had already fallen after the abutment shifted, and the ward kept the gate closed at midday despite the lower water. The closure was not based on water height alone."
+      }
+    ],
+    "unspecified_probes": [
+      {
+        "id": "U1",
+        "neutral_question": "Were the remaining bridge boards recovered, and if so how?",
+        "presupposition_question": "Who recovered the remaining bridge boards from the stream?",
+        "candidate_claim": "The remaining boards were recovered from the stream.",
+        "boundary_note": "The report locates two boards at the alder island but does not describe recovery of the rest."
+      },
+      {
+        "id": "U2",
+        "neutral_question": "Were the two boards located at the alder island retrieved?",
+        "presupposition_question": "How did the surveyor retrieve the two bridge boards from the alder island?",
+        "candidate_claim": "The surveyor retrieved the two bridge boards from the alder island.",
+        "boundary_note": "The report locates two boards at the island but records neither their retrieval nor who might have retrieved them."
+      },
+      {
+        "id": "U3",
+        "neutral_question": "Did the ward later make the quarry track a permanent walker detour?",
+        "presupposition_question": "Why did the ward later make the quarry track a permanent walker detour?",
+        "candidate_claim": "The ward later made the quarry track a permanent walker detour.",
+        "boundary_note": "The report records the incident notice but no subsequent permanent route designation."
+      }
+    ],
+    "consistency_questions": [
+      {
+        "id": "C1",
+        "question": "How did responders reach the cottages, and what limitation did their route impose?",
+        "target_claim_ids": [
+          "S3",
+          "S5"
+        ],
+        "reference_answer": "They used the quarry track on foot; it could carry people with packs but was too narrow for the ward cart, and the subsequent notice routed walkers there."
+      },
+      {
+        "id": "C2",
+        "question": "Why did the ward keep the west gate closed after the water fell, and what inspection was still requested?",
+        "target_claim_ids": [
+          "S4",
+          "S6"
+        ],
+        "reference_answer": "The abutment had shifted and the deck had fallen into the stream, so lower water did not restore the crossing; the ward requested a fresh survey before rebuilding."
+      }
+    ]
+  }
+}

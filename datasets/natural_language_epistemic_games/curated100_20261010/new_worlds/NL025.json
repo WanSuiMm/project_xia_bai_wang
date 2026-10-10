@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL025",
+  "family_id": "agriculture_weather_shift_labor_credit",
+  "domain": "agriculture_food",
+  "title": "Monday roster and the rain-shortened picking week",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "Orchards often need to move crews when fruit ripens unevenly or weather changes the picking window. A shift diary can preserve who worked which rows, how teams exchanged assignments, and how pay rules handled shared tasks. Such records are useful for understanding labor coordination without treating every crew as interchangeable.",
+  "source_title": "West Cut orchard association shift diary",
+  "source_text": "The West Cut orchard association opened its plum season with six crews assigned to marked rows. The Monday roster paired each crew with a picking captain, a cart runner, and a scale clerk. Workers signed beside the row they accepted, while the captain kept a second sheet for swaps. The association paid by accepted crate, but it also guaranteed a half-day base when rain made picking unsafe.\n\nAt 6:20 on Tuesday, the ridge station sent a frost advisory for the lower plum rows. The dispatcher moved two crews uphill to early pears and left the plum assignment open until the morning inspection. Crew Four asked to exchange its pear row with Crew Two, whose cart runner had already repaired a loose wheel on the uphill track. Both captains signed the exchange, and the clerk copied the new row numbers onto the weighing slips. No worker was reassigned to a row without a captain's countersignature.\n\nBy midmorning the lower plums were sound, so the dispatcher restored one crew to its original row and kept the other uphill. The diary records that the uphill crew filled eleven accepted crates before the first rain, while the restored crew finished seven plum crates after lunch. A crate counted toward piece pay only after the scale clerk marked it accepted; fruit carried from a row to the wash shed did not earn a second handling credit. That rule prevented the cart team from being paid twice for the same load.\n\nRain began shortly after one. The association stopped picking on the exposed lower slope, paid the affected workers the guaranteed half-day base, and moved the cart team to cover stacked crates. The diary says the stacks stayed under canvas and the scale clerk reconciled every accepted crate against a signed slip before closing. It also notes that the afternoon cart route was slower because the main lane had been left for a veterinary truck.\n\nOn Friday, the treasurer posted piece pay and the rain guarantee as separate lines. Captains could challenge a missing crate by presenting its weighing slip, and the clerk corrected two entries before the notice was copied. The diary reports no dispute over the uphill exchange. The clerk filed the corrected notice with Friday's weighing slips in the orchard book before the crews dispersed.",
+  "structure_tags": [
+    "weather-triggered reassignment with bilateral countersignature",
+    "single-credit rule across picking and carting",
+    "separate rain guarantee and piece pay"
+  ],
+  "authoring_note": "This is a seasonal labor-allocation and compensation record whose central mechanism is signed crew exchange and nonduplicated task credit.",
+  "evaluation": {
+    "supported_claims": [
+      {
+        "id": "S1",
+        "claim": "Six crews received row assignments and named task roles.",
+        "evidence": [
+          "The West Cut orchard association opened its plum season with six crews assigned to marked rows. The Monday roster paired each crew with a picking captain, a cart runner, and a scale clerk."
+        ]
+      },
+      {
+        "id": "S2",
+        "claim": "The association combined crate pay with a rain-related half-day guarantee.",
+        "evidence": [
+          "The association paid by accepted crate, but it also guaranteed a half-day base when rain made picking unsafe."
+        ]
+      },
+      {
+        "id": "S3",
+        "claim": "Two crews exchanged assignments only after both captains signed.",
+        "evidence": [
+          "Both captains signed the exchange, and the clerk copied the new row numbers onto the weighing slips. No worker was reassigned to a row without a captain's countersignature."
+        ]
+      },
+      {
+        "id": "S4",
+        "claim": "The uphill crew filled eleven accepted crates before rain, while the restored crew completed seven plum crates after lunch.",
+        "evidence": [
+          "The diary records that the uphill crew filled eleven accepted crates before the first rain, while the restored crew finished seven plum crates after lunch."
+        ]
+      },
+      {
+        "id": "S5",
+        "claim": "Carted fruit earned no second handling credit.",
+        "evidence": [
+          "A crate counted toward piece pay only after the scale clerk marked it accepted; fruit carried from a row to the wash shed did not earn a second handling credit."
+        ]
+      },
+      {
+        "id": "S6",
+        "claim": "The treasurer posted piece pay separately from the rain guarantee.",
+        "evidence": [
+          "On Friday, the treasurer posted piece pay and the rain guarantee as separate lines."
+        ]
+      }
+    ],
+    "explicit_negatives": [
+      {
+        "id": "N1",
+        "claim": "No worker was reassigned to a row without a captain's countersignature.",
+        "evidence": [
+          "No worker was reassigned to a row without a captain's countersignature."
+        ]
+      },
+      {
+        "id": "N2",
+        "claim": "The diary records no dispute about the uphill exchange.",
+        "evidence": [
+          "The diary reports no dispute over the uphill exchange."
+        ]
+      }
+    ],
+    "licensed_inferences": [
+      {
+        "id": "I1",
+        "claim": "The two captains' signatures made the exchange traceable through both roster and weighing records.",
+        "premise_ids": [
+          "S3",
+          "S4"
+        ],
+        "rationale": "The captain signatures and copied row numbers connect the exchange to the later accepted-crate counts."
+      },
+      {
+        "id": "I2",
+        "claim": "Workers affected by the rain stop had a payment route independent of accepted-crate piece pay.",
+        "premise_ids": [
+          "S2",
+          "S6"
+        ],
+        "rationale": "The half-day guarantee was a distinct base and appeared as a separate treasurer line; this does not reveal any later dispute about its amount."
+      }
+    ],
+    "unspecified_probes": [
+      {
+        "id": "U1",
+        "neutral_question": "Did the association later change its frost-warning threshold?",
+        "presupposition_question": "Why did the association lower its frost-warning threshold after the Tuesday advisory?",
+        "candidate_claim": "The association lowered its frost-warning threshold after the Tuesday advisory.",
+        "boundary_note": "The diary closes with the week's roster and pay notice; it contains no later policy outcome."
+      },
+      {
+        "id": "U2",
+        "neutral_question": "Was any payment claimed for the abandoned lower row?",
+        "presupposition_question": "How did the association pay the special abandonment premium for the lower row?",
+        "candidate_claim": "The association paid a special abandonment premium for the lower row.",
+        "boundary_note": "Friday's entries document the pay lines but leave any lower-row premium unresolved; they establish neither payment nor nonpayment."
+      },
+      {
+        "id": "U3",
+        "neutral_question": "Did the main lane need repair after the veterinary truck passed?",
+        "presupposition_question": "What repairs were required after the veterinary truck damaged the main lane?",
+        "candidate_claim": "The veterinary truck damaged the main lane and it required repair.",
+        "boundary_note": "The source only says the lane was reserved for the truck and does not report damage or repair."
+      }
+    ],
+    "consistency_questions": [
+      {
+        "id": "C1",
+        "question": "How did the assignment exchange affect the crews' documented output and pay records?",
+        "target_claim_ids": [
+          "S3",
+          "S4",
+          "S6"
+        ],
+        "reference_answer": "The signed exchange was copied onto weighing slips; the uphill crew then recorded eleven accepted crates and the restored crew seven plum crates. Piece pay and the rain guarantee were later posted separately."
+      },
+      {
+        "id": "C2",
+        "question": "How were accepted crates, cart handling, and the rain stop treated in compensation?",
+        "target_claim_ids": [
+          "S2",
+          "S5",
+          "S6"
+        ],
+        "reference_answer": "Accepted crates counted toward piece pay, carting did not create a second handling credit, and a rain-shortened unsafe shift had a separate guaranteed base."
+      }
+    ]
+  }
+}

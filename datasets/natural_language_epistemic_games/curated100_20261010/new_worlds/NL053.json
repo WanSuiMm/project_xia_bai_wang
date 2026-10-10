@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL053",
+  "family_id": "nl053_harbor_pilot_current_window",
+  "domain": "geography_navigation",
+  "title": "Pilot's note on the turning water",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "A pilotage note from a fictional harbor concerns a vessel approaching a marked entrance. The setting includes gauges, buoys, shore landmarks and working crews, and the document is part of the port's local navigation records. Such books sit beside tide tables and vessel-call registers.",
+  "source_title": "Pilotage note 12 from the Grayhook Harbor book",
+  "source_text": "The cutter Low Bell called at the outer buoy just before the morning tide turned. The gauge at Chapel Pier showed more water than the gauge at the customs steps, but the two readings were taken on opposite sides of the inlet and were not a direct depth comparison. Pilot Ansel Dorr watched a line of foam move east past the outer buoy while the water surface still appeared to rise. He told the cutter's master to hold outside the marked channel until the foam line turned west.\n\nA tug offered to take the cutter's bow, but Dorr declined because the tug was already working a barge inside the harbor mouth. He asked the cutter to keep its own engine at idle and to show the green side lamp toward the breakwater. When the foam turned west, Dorr boarded by the lee ladder and used the bell tower roof and the old kiln chimney as a pair of shore marks. The kiln chimney disappeared behind the tower for one short interval; Dorr says that was the moment to hold the heading rather than correct toward the west wall.\n\nThe cutter crossed the entrance without touching the channel buoys. Once inside, Dorr ordered a slow turn into the basin because the current continued east along the north quay. The master reported that the bow swung farther than expected, but the stern line was made fast to the inside ring and the vessel stopped before reaching the coal pier. The crew then shifted a small launch from the north side to the south davit so that the quay crew could unload on the sheltered side.\n\nDorr's note says the current changed direction before the tide gauge reached its highest mark. It also says no sounding lead was dropped during the passage, and the pilot did not board the barge that had delayed the tug. The harbor clerk filed copies of the two gauge readings and the master's statement beside Dorr's note. He recommended keeping the foam observation in the pilot book next to the gauge times, since tide height alone would not explain the westward turn.",
+  "structure_tags": ["current direction changes before the gauge reaches maximum height", "shore alignment used to hold rather than correct heading", "tug unavailability affects pilot boarding sequence"],
+  "authoring_note": "A pilotage record about the difference between water level and current, plus a momentary alignment cue; the structure is an operational sequence rather than a route graph or generic safety checklist.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "The two harbor gauges differed in reading but were on opposite sides of the inlet, so they were not a direct depth comparison.", "evidence": ["The gauge at Chapel Pier showed more water than the gauge at the customs steps, but the two readings were taken on opposite sides of the inlet and were not a direct depth comparison."]},
+      {"id": "S2", "claim": "Dorr told the cutter to wait outside the channel until the foam line turned west.", "evidence": ["He told the cutter's master to hold outside the marked channel until the foam line turned west."]},
+      {"id": "S3", "claim": "Dorr declined the tug because it was working a barge inside the harbor mouth.", "evidence": ["A tug offered to take the cutter's bow, but Dorr declined because the tug was already working a barge inside the harbor mouth."]},
+      {"id": "S4", "claim": "Dorr used the bell tower roof and kiln chimney as shore marks and held heading when the chimney disappeared behind the tower.", "evidence": ["When the foam turned west, Dorr boarded by the lee ladder and used the bell tower roof and the old kiln chimney as a pair of shore marks. The kiln chimney disappeared behind the tower for one short interval; Dorr says that was the moment to hold the heading rather than correct toward the west wall."]},
+      {"id": "S5", "claim": "The cutter entered without touching buoys, then stopped before the coal pier after its stern line was secured to an inside ring.", "evidence": ["The cutter crossed the entrance without touching the channel buoys. Once inside, Dorr ordered a slow turn into the basin because the current continued east along the north quay. The master reported that the bow swung farther than expected, but the stern line was made fast to the inside ring and the vessel stopped before reaching the coal pier."]},
+      {"id": "S6", "claim": "Dorr reported that the current changed direction before the gauge reached its highest mark.", "evidence": ["Dorr's note says the current changed direction before the tide gauge reached its highest mark."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "No sounding lead was dropped during the passage.", "evidence": ["It also says no sounding lead was dropped during the passage, and the pilot did not board the barge that had delayed the tug."]},
+      {"id": "N2", "claim": "Dorr did not board the barge that had delayed the tug.", "evidence": ["It also says no sounding lead was dropped during the passage, and the pilot did not board the barge that had delayed the tug."]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "The pilot's hold decision depended on observed current direction as well as tide height.", "premise_ids": ["S1", "S2", "S6"], "rationale": "The readings were not directly comparable, the foam line was watched for its turn, and the current changed before the gauge peak. The source does not say tide height was irrelevant."},
+      {"id": "I2", "claim": "The cutter passed the entrance without the tug's assistance, although the tug was occupied elsewhere.", "premise_ids": ["S3", "S5"], "rationale": "Dorr declined the tug due to its barge assignment and later records that the cutter crossed the entrance. This does not establish whether the cutter would have needed a tug in other conditions."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "Was the channel surveyed after this passage?", "presupposition_question": "What depth changes did the later channel survey find?", "candidate_claim": "A later channel survey was conducted.", "boundary_note": "The pilot's note focuses on this passage and offers no later survey account."},
+      {"id": "U2", "neutral_question": "Did the tug later return for the cutter?", "presupposition_question": "When did the tug return to take the cutter's bow?", "candidate_claim": "The tug returned for the cutter.", "boundary_note": "The tug's barge assignment explains the initial refusal; a later return is not covered."},
+      {"id": "U3", "neutral_question": "Did the north-quay current affect another vessel that morning?", "presupposition_question": "Which other vessel was affected by the north-quay current?", "candidate_claim": "Another vessel was affected by that current.", "boundary_note": "The account records the current at the quay but contains no account of another vessel there."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "Why did Dorr wait outside the channel, and what observation indicated that conditions had changed?", "target_claim_ids": ["S1", "S2", "S6"], "reference_answer": "The gauges were on opposite sides of the inlet and not a direct depth comparison; Dorr waited until the foam turned west, noting that current direction changed before the gauge peaked."},
+      {"id": "C2", "question": "How did the cutter enter without the tug and what happened during its turn inside the harbor?", "target_claim_ids": ["S3", "S4", "S5"], "reference_answer": "Dorr declined the busy tug, used the bell tower and kiln chimney to hold the approach, crossed without touching buoys, then secured a stern line to stop before the coal pier."}
+    ]
+  }
+}

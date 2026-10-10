@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL046",
+  "family_id": "nl046_puppet_shadow_apprenticeship",
+  "domain": "education_learning",
+  "title": "A notebook from the shadow stage",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "An apprentice keeps a first-person notebook at a fictional shadow-theatre workshop. The entries concern stage figures, lamps, screens and rehearsal work, and the notebook is part of a craft-training setting where learners record tasks and observations across a term. The pages use the vocabulary of a small stage crew.",
+  "source_title": "Notebook of Sera Lint, first-year shadow-stage apprentice",
+  "source_text": "On the first Monday, Master Davi gave us a paper screen, three lamp positions, and a box of cut figures. We were told not to memorize the instructor's hands. Each apprentice had to make one figure cross the screen while another person moved the lamp, and a third called the cue from a script. I thought the person holding the figure controlled the whole scene, but the first crossing vanished when the lamp moved too close to the screen. Davi made us repeat it with the lamp on the floor and the figure held farther back. The shadow grew larger, though its edge blurred.\n\nFor the next session, we changed jobs at every short scene. I called the cue first and missed the word that told the lamp mover to wait. The figure entered before its shadow had reached the painted doorway. Davi stopped us and asked the lamp mover to describe what she had seen, not what the script said. She had followed my hand signal instead of the spoken cue because I raised my palm while turning a page. We agreed that a raised palm would mean hold, and that the spoken word would start movement. Davi wrote both meanings on the wall card so the next group would not inherit our disagreement.\n\nThe apprentice who called a cue now stands beside the lamp mover, not behind the screen. Davi says this makes the caller see the light as well as hear the line. During a later rehearsal, we tested a low lamp for a scene with a bird. The floor shadow made the bird seem to climb, so we moved the lamp to the side and tilted the screen by one handspan. The bird crossed cleanly, but the painted moon slipped out of view. We restored the moon by shifting the figure, not by moving the screen back. The margin of my notebook has a little drawing of the three positions and an arrow for each change.\n\nWe have not performed for an audience this term, and Davi has not graded the scenes. The work list says our final week will include a public demonstration, but no date is written beside it. I do not know whether the painted moon will be used again; it belongs to a different scene than the bird. I now understand that a shadow can be moved by changing the light, the object, or the screen, but I still confuse the cue that begins a crossing with the cue that pauses it when the script is noisy.",
+  "structure_tags": ["three-person performance roles with changing assignments", "conflicting visual and spoken cues resolved into separate meanings", "stage composition adjusted by changing object position"],
+  "authoring_note": "An apprentice's first-person notebook about learning a coordinated performance craft; its central structure is cue interpretation and stage geometry, distinct from classroom assessment or collaborative writing.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "Apprentices rotated among figure handling, lamp movement and calling cues.", "evidence": ["Each apprentice had to make one figure cross the screen while another person moved the lamp, and a third called the cue from a script.", "For the next session, we changed jobs at every short scene."]},
+      {"id": "S2", "claim": "A misread hand signal caused a premature figure entrance, and the group assigned distinct meanings to the raised palm and spoken word.", "evidence": ["She had followed my hand signal instead of the spoken cue because I raised my palm while turning a page. We agreed that a raised palm would mean hold, and that the spoken word would start movement."]},
+      {"id": "S3", "claim": "The caller was moved beside the lamp mover so the caller could see the light as well as hear the line.", "evidence": ["The apprentice who called a cue now stands beside the lamp mover, not behind the screen. Davi says this makes the caller see the light as well as hear the line."]},
+      {"id": "S4", "claim": "The bird's shadow was improved by moving the lamp to the side and tilting the screen, while the moon was restored by shifting the figure.", "evidence": ["The floor shadow made the bird seem to climb, so we moved the lamp to the side and tilted the screen by one handspan. The bird crossed cleanly, but the painted moon slipped out of view. We restored the moon by shifting the figure, not by moving the screen back."]},
+      {"id": "S5", "claim": "The class had not performed for an audience during the term and the scenes were not graded by Davi.", "evidence": ["We have not performed for an audience this term, and Davi has not graded the scenes."]},
+      {"id": "S6", "claim": "The work list mentioned a final-week public demonstration but gave no date beside it.", "evidence": ["The work list says our final week will include a public demonstration, but no date is written beside it."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "The apprentices did not perform for an audience that term.", "evidence": ["We have not performed for an audience this term, and Davi has not graded the scenes."]},
+      {"id": "N2", "claim": "Davi did not grade the scenes.", "evidence": ["We have not performed for an audience this term, and Davi has not graded the scenes."]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "The workshop treated cue confusion as a coordination problem that could be clarified through agreed signals.", "premise_ids": ["S2", "S3"], "rationale": "The group separated the meanings of a gesture and spoken cue, then repositioned the caller to see the lighting. This supports a coordination-focused response but not a claim that confusion never recurred."},
+      {"id": "I2", "claim": "The class used more than one stage variable to solve composition problems.", "premise_ids": ["S1", "S4"], "rationale": "The apprentices rotated across roles and changed lamp, screen and figure positions to address different visual problems. The notebook does not specify a general optimization rule."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "Was the public demonstration held, and on what date?", "presupposition_question": "What scenes did the apprentices present at their public demonstration?", "candidate_claim": "The apprentices held the public demonstration.", "boundary_note": "The work list anticipates a demonstration but gives no date or later confirmation."},
+      {"id": "U2", "neutral_question": "Did the painted moon appear in another scene later?", "presupposition_question": "How did the painted moon work in the later scene?", "candidate_claim": "The painted moon was used in a later scene.", "boundary_note": "The apprentice does not know whether it will be used again."},
+      {"id": "U3", "neutral_question": "Did the group later resolve the apprentice's confusion about the start and pause cues?", "presupposition_question": "What exercise resolved the apprentice's confusion about the start and pause cues?", "candidate_claim": "A later exercise resolved the apprentice's cue confusion.", "boundary_note": "The notebook ends with the confusion still present and supplies no subsequent practice outcome."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "What caused the early entrance, and what signal convention did the apprentices adopt?", "target_claim_ids": ["S2", "S3"], "reference_answer": "A page-turning raised palm was mistaken for the spoken start cue; the group made the palm mean hold and the spoken word mean start, then placed the caller beside the lamp mover."},
+      {"id": "C2", "question": "How did the group improve the bird crossing and recover the moon in the scene?", "target_claim_ids": ["S1", "S4"], "reference_answer": "They moved the lamp sideways and tilted the screen to improve the bird's shadow, then shifted the figure to restore the moon."}
+    ]
+  }
+}

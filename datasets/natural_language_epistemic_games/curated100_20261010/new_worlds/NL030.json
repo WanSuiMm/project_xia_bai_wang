@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL030",
+  "family_id": "agriculture_picker_contract_collective_grade_bonus",
+  "domain": "agriculture_food",
+  "title": "The contract meeting after the pear harvest",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "Harvest contracts often combine individual piece rates with shared quality or delivery conditions. A hearing record can reveal how grades are assigned, which weather events affect guaranteed pay, and how a crew resolves a disputed lot. Different orchards set different terms, so the minutes should be read as one association's agreement.",
+  "source_title": "Hill Ladder growers' contract hearing minutes",
+  "source_text": "The Hill Ladder growers met on 12 August to settle the pear-picking account after three crews challenged the grade summary. Their contract paid each picker by accepted crate and added a crew bonus if every scheduled row was cleared before the packing shed's Friday noon cutoff. A separate base payment covered hours worked during a weather stop. The growers brought the weighing slips and the graders' marked cards to the meeting.\n\nThe dispute concerned six crates from the western row. The picker captain said the pears had been placed in the wrong grade after a bruised branch fell during loading. The shed grader showed that the crate cards had been marked before the cart left the row, and the captain agreed that the bruises were visible then. The committee kept four crates in the lower grade and moved two to the market grade after checking the stored fruit. The revised decision was written on both the crew sheet and the shed copy.\n\nA storm stopped work at 2:40 on Wednesday. The crews moved the remaining crates beneath the packing awning, and the supervisor recorded the stop time for the base payment. The contract did not count a weather-stopped row as cleared for the Friday bonus, even if its fruit had already been picked. The growers voted to honor the base payment and waive the cutoff for one crew whose scheduled row was inaccessible after a fallen limb blocked the lane. No other crew received a cutoff waiver.\n\nBy Friday noon, the other two crews had cleared their assigned rows. The blocked crew's lane remained inaccessible until a county crew removed the fallen limb Friday afternoon; that crew cleared its row after work resumed that evening. The shed clerk reconciled each accepted crate with a weighing slip, and the treasurer posted piece pay before calculating the collective bonus. The minutes state that all three crews received the bonus, including the crew whose cutoff was waived. The growers asked the supervisor to photograph future lane obstructions before moving them, so a later waiver would have a dated record.\n\nThe meeting closed with a unanimous vote to keep the grade cards attached to the weekly pay sheet. The minutes report no further challenge to the six crates. The secretary filed the signed vote beside the grade cards before the pay sheets were sent to the treasurer.",
+  "structure_tags": [
+    "crate-level grade appeal resolved by records and inspection",
+    "weather guarantee separated from shared deadline bonus",
+    "single crew receives a documented cutoff waiver"
+  ],
+  "authoring_note": "These hearing minutes make the bonus depend on collective clearance, while resolving one grade appeal and a narrow weather waiver.",
+  "evaluation": {
+    "supported_claims": [
+      {
+        "id": "S1",
+        "claim": "Picker pay was based on accepted crates and a shared bonus required every scheduled row to be cleared before the Friday cutoff.",
+        "evidence": [
+          "Their contract paid each picker by accepted crate and added a crew bonus if every scheduled row was cleared before the packing shed's Friday noon cutoff."
+        ]
+      },
+      {
+        "id": "S2",
+        "claim": "A grade dispute was resolved by moving two of six crates to market grade and leaving four in the lower grade.",
+        "evidence": [
+          "The dispute concerned six crates from the western row. The picker captain said the pears had been placed in the wrong grade after a bruised branch fell during loading. The shed grader showed that the crate cards had been marked before the cart left the row, and the captain agreed that the bruises were visible then. The committee kept four crates in the lower grade and moved two to the market grade after checking the stored fruit."
+        ]
+      },
+      {
+        "id": "S3",
+        "claim": "The storm stop triggered a base-payment record, while the contract excluded weather-stopped rows from cutoff clearance.",
+        "evidence": [
+          "A storm stopped work at 2:40 on Wednesday. The crews moved the remaining crates beneath the packing awning, and the supervisor recorded the stop time for the base payment. The contract did not count a weather-stopped row as cleared for the Friday bonus, even if its fruit had already been picked."
+        ]
+      },
+      {
+        "id": "S4",
+        "claim": "The growers waived the deadline for one crew whose row was blocked by a fallen limb.",
+        "evidence": [
+          "The growers voted to honor the base payment and waive the cutoff for one crew whose scheduled row was inaccessible after a fallen limb blocked the lane."
+        ]
+      },
+      {
+        "id": "S5",
+        "claim": "All three crews, including the waived crew, received the bonus.",
+        "evidence": [
+          "The minutes state that all three crews received the bonus, including the crew whose cutoff was waived."
+        ]
+      },
+      {
+        "id": "S6",
+        "claim": "The meeting voted to keep grade cards attached to weekly pay sheets.",
+        "evidence": [
+          "The meeting closed with a unanimous vote to keep the grade cards attached to the weekly pay sheet."
+        ]
+      }
+    ],
+    "explicit_negatives": [
+      {
+        "id": "N1",
+        "claim": "A weather-stopped row did not count as cleared for the deadline bonus even when its fruit had been picked.",
+        "evidence": [
+          "The contract did not count a weather-stopped row as cleared for the Friday bonus, even if its fruit had already been picked."
+        ]
+      },
+      {
+        "id": "N2",
+        "claim": "The minutes record no further challenge to the six crates.",
+        "evidence": [
+          "The minutes report no further challenge to the six crates."
+        ]
+      }
+    ],
+    "licensed_inferences": [
+      {
+        "id": "I1",
+        "claim": "The deadline waiver allowed the blocked crew to receive the shared bonus after it cleared its row by Friday.",
+        "premise_ids": [
+          "S4",
+          "S5"
+        ],
+        "rationale": "The committee waived the cutoff for that crew and the minutes later confirm all three crews received the bonus."
+      },
+      {
+        "id": "I2",
+        "claim": "The grade appeal and the bonus calculation relied on separate records.",
+        "premise_ids": [
+          "S2",
+          "S5",
+          "S6"
+        ],
+        "rationale": "Grade cards and fruit inspection resolved the six-crate dispute, while weighing slips were reconciled before pay and the cards were attached to pay sheets for future review."
+      }
+    ],
+    "unspecified_probes": [
+      {
+        "id": "U1",
+        "neutral_question": "Was the fallen limb reported before Wednesday's storm?",
+        "presupposition_question": "How did a picker report the fallen limb before Wednesday's storm?",
+        "candidate_claim": "A picker reported the fallen limb before Wednesday's storm.",
+        "boundary_note": "The meeting notes discuss the Wednesday blockage but include no pre-storm report time or reporter."
+      },
+      {
+        "id": "U2",
+        "neutral_question": "Did the growers later adopt the photograph rule for every harvest?",
+        "presupposition_question": "Why did the growers later require photographs of every harvest lane obstruction?",
+        "candidate_claim": "The growers later required photographs of every harvest lane obstruction.",
+        "boundary_note": "The meeting proposed future photographs, but the minutes give no later adoption record."
+      },
+      {
+        "id": "U3",
+        "neutral_question": "Did the lower-grade pears sell at a discount?",
+        "presupposition_question": "Why were the four lower-grade crates sold at a discount?",
+        "candidate_claim": "The four lower-grade crates were sold at a discount.",
+        "boundary_note": "The hearing records the grade decision but not prices or the eventual sale terms."
+      }
+    ],
+    "consistency_questions": [
+      {
+        "id": "C1",
+        "question": "How did the grade appeal differ from the weather-related bonus exception?",
+        "target_claim_ids": [
+          "S2",
+          "S3",
+          "S4",
+          "S5"
+        ],
+        "reference_answer": "The six-crate appeal changed the grade of two crates after inspection. Separately, the contract excluded weather-stopped rows from cutoff clearance, but the growers waived that deadline for the limb-blocked crew, and all three crews ultimately received the bonus."
+      },
+      {
+        "id": "C2",
+        "question": "Which records linked fruit acceptance, pay, and later review?",
+        "target_claim_ids": [
+          "S1",
+          "S5",
+          "S6"
+        ],
+        "reference_answer": "Accepted crates were reconciled to weighing slips before piece pay and the collective bonus were calculated; grade cards were attached to the weekly pay sheet for review."
+      }
+    ]
+  }
+}

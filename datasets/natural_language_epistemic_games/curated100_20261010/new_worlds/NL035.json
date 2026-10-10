@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL035",
+  "family_id": "business_franchise_warranty_reimbursement_flat_rate_audit",
+  "domain": "business_operations",
+  "title": "Two labor claims from the same service route",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "A service network may reimburse local contractors under a schedule that distinguishes approved labor from diagnostic work. Review records can connect repair tickets to replaced parts and correct payments when documentation falls outside the schedule. A single audit can contain both an accepted claim and a denied one without establishing a pattern for every location.",
+  "source_title": "Morrow Meter franchise reimbursement review",
+  "source_text": "Morrow Meter's franchise agreement reimbursed a standard control-board replacement at one labor unit when the failed board was returned with the service ticket. A diagnostic visit could be billed separately if it led to a different repair, but a repeated diagnostic on the same fault was not paid without a network authorization number. The central reviewer compared the route sheets with the parts cage log at month end. Travel and diagnostic work occupied separate billing lines on the submitted form.\n\nTicket 771 described a meter that stopped during a cold morning. The technician replaced the control board and returned the removed board in a sealed sleeve marked with the ticket number. The parts cage log recorded the same number and the board's stamped serial. The reviewer approved one labor unit and the part allowance. The technician's route sheet also showed a brief customer callback, but the contract did not list callbacks as reimbursable labor.\n\nTicket 776 covered a second visit to the same meter three days later. The franchise submitted another diagnostic charge, saying the display had flickered after the customer reset the unit. The reviewer found no new fault code and no network authorization for a repeat visit. The charge was denied, while the travel line was approved because the technician had collected the removed board from the site on the way back. The reviewer corrected the total instead of rejecting the entire ticket.\n\nThe franchise manager objected that the callback should count as troubleshooting. The network's response distinguished remote advice from a technician's on-site diagnostic and cited the same-fault clause in the agreement. The manager accepted the corrected amount but asked that future customer calls be tagged separately from site visits. The reviewer added that suggestion to the next contract meeting agenda.\n\nThe review closed both tickets with an approval and a denial line, preserving the returned board record. At closeout, the clerk filed both disposition lines with the returned-board log and copied the corrected total to the franchise manager's monthly account. The manager initialed the account copy at pickup, and the reviewer carried the call-tagging proposal into the next contract agenda.",
+  "structure_tags": [
+    "part return tied to reimbursement by ticket number",
+    "same-fault repeat diagnostic needs central authorization",
+    "partial line-item correction instead of whole-ticket rejection"
+  ],
+  "authoring_note": "A reimbursement review distinguishes a documented part replacement from an unauthorized repeat diagnostic and preserves accepted lines.",
+  "evaluation": {
+    "supported_claims": [
+      {
+        "id": "S1",
+        "claim": "A standard control-board replacement was reimbursable at one labor unit when the removed board returned with the ticket.",
+        "evidence": [
+          "Morrow Meter's franchise agreement reimbursed a standard control-board replacement at one labor unit when the failed board was returned with the service ticket."
+        ]
+      },
+      {
+        "id": "S2",
+        "claim": "Ticket 771's returned board matched the ticket number and stamped serial, and one labor unit plus the part allowance was approved.",
+        "evidence": [
+          "The technician replaced the control board and returned the removed board in a sealed sleeve marked with the ticket number. The parts cage log recorded the same number and the board's stamped serial. The reviewer approved one labor unit and the part allowance."
+        ]
+      },
+      {
+        "id": "S3",
+        "claim": "Ticket 776's repeated diagnostic charge was denied for lack of a new fault code and network authorization.",
+        "evidence": [
+          "The reviewer found no new fault code and no network authorization for a repeat visit. The charge was denied, while the travel line was approved because the technician had collected the removed board from the site on the way back."
+        ]
+      },
+      {
+        "id": "S4",
+        "claim": "The reviewer corrected the amount without rejecting the entire ticket.",
+        "evidence": [
+          "The reviewer corrected the total instead of rejecting the entire ticket."
+        ]
+      },
+      {
+        "id": "S5",
+        "claim": "The franchise manager accepted the corrected amount and requested separate tags for calls and site visits.",
+        "evidence": [
+          "The manager accepted the corrected amount but asked that future customer calls be tagged separately from site visits."
+        ]
+      },
+      {
+        "id": "S6",
+        "claim": "The reviewer added the call-tagging suggestion to the next contract meeting agenda.",
+        "evidence": [
+          "The reviewer added that suggestion to the next contract meeting agenda."
+        ]
+      }
+    ],
+    "explicit_negatives": [
+      {
+        "id": "N1",
+        "claim": "Customer callbacks were not listed as reimbursable labor.",
+        "evidence": [
+          "The technician's route sheet also showed a brief customer callback, but the contract did not list callbacks as reimbursable labor."
+        ]
+      },
+      {
+        "id": "N2",
+        "claim": "The repeated diagnostic charge was not paid without the required authorization.",
+        "evidence": [
+          "The charge was denied, while the travel line was approved because the technician had collected the removed board from the site on the way back."
+        ]
+      }
+    ],
+    "licensed_inferences": [
+      {
+        "id": "I1",
+        "claim": "The reviewer applied the reimbursement rule at the line level, preserving eligible travel while denying the unsupported diagnostic.",
+        "premise_ids": [
+          "S3",
+          "S4"
+        ],
+        "rationale": "The diagnostic was denied, travel was approved for a documented collection task, and the total was corrected rather than the entire ticket rejected."
+      },
+      {
+        "id": "I2",
+        "claim": "The accepted ticket 771 evidence does not establish a network-wide rate of valid claims.",
+        "premise_ids": [
+          "S2",
+          "S6"
+        ],
+        "rationale": "One returned board matched its ticket, but the review sampled no other franchise claims."
+      }
+    ],
+    "unspecified_probes": [
+      {
+        "id": "U1",
+        "neutral_question": "Did the customer reset cause the display flicker?",
+        "presupposition_question": "How did the customer's reset cause the display to flicker?",
+        "candidate_claim": "The customer's reset caused the display to flicker.",
+        "boundary_note": "Ticket 776 reports the customer reset and later flicker but identifies no cause."
+      },
+      {
+        "id": "U2",
+        "neutral_question": "Did the meter later need another repair?",
+        "presupposition_question": "Why did the meter require another repair after the reviewed visits?",
+        "candidate_claim": "The meter required another repair after the reviewed visits.",
+        "boundary_note": "The review closes with the two ticket dispositions and contains no later service visit or repair entry."
+      },
+      {
+        "id": "U3",
+        "neutral_question": "Did other franchises submit repeat diagnostic claims?",
+        "presupposition_question": "Why did most other franchises submit repeat diagnostic claims that month?",
+        "candidate_claim": "Most other franchises submitted repeat diagnostic claims that month.",
+        "boundary_note": "The file covers the two meter tickets and supplies no network-wide denominator for repeat diagnostic claims."
+      }
+    ],
+    "consistency_questions": [
+      {
+        "id": "C1",
+        "question": "Why did ticket 771 receive labor reimbursement while the later diagnostic on ticket 776 did not?",
+        "target_claim_ids": [
+          "S1",
+          "S2",
+          "S3",
+          "N1"
+        ],
+        "reference_answer": "Ticket 771 documented a standard replacement and returned the failed board with matching identifiers. Ticket 776 repeated diagnostics on the same fault without a new fault code or authorization; callbacks were not separately reimbursable."
+      },
+      {
+        "id": "C2",
+        "question": "Which parts of ticket 776 remained payable after review?",
+        "target_claim_ids": [
+          "S3",
+          "S4"
+        ],
+        "reference_answer": "The repeated diagnostic charge was denied, but the travel line for collecting the removed board was approved, and the reviewer corrected the total rather than rejecting the whole ticket."
+      }
+    ]
+  }
+}

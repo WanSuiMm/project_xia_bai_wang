@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "world_id": "NL050",
+  "family_id": "nl050_snowpass_mail_letters",
+  "domain": "geography_navigation",
+  "title": "Letters from the upper pass",
+  "split": "candidate_test",
+  "language": "en",
+  "synthetic": true,
+  "public_context": "Two fictional post riders exchange letters while working a winter route over a mountain pass. Their correspondence belongs to a district mail service and concerns travel, weather, landmarks and the practical equipment carried between settlements. The letters are filed with the district's seasonal correspondence.",
+  "source_title": "Letters of Nera Voss and Pell Arin, winter post route",
+  "source_text": "Pell, the west saddle looked lower than I remembered because the new snow joined its lip to the shoulder behind it. I did not follow the line of old cairns once the ridge disappeared. Instead I counted the three stone drain mouths below the wind wall, then kept the sunlit notch of White Tooth on my right until the track bent south. The second drain was half covered, but its water made a dark seam in the snow. I marked the place with a willow switch for the return trip.\n\nPell replied that the switch had not been there the week before and might have been pulled by a goat or a passing sled. He said he had reached the same bend by listening for the creek under the ice, which was audible only when the wind dropped. He did not consider the creek a reliable guide at dusk because the frozen channel split around the boulder field. His letter describes a narrow shelf above the creek where he waited for a clear view of the notch before descending.\n\nWe agreed to carry the letters in the blue oilskin pouch rather than the wooden dispatch case. The case's hinge had swollen and would not close, but the pouch could be tied inside the coat. Pell left the case at the upper shelter with a note for the repairer. The shelter's roof was sound, yet the north door had drifted shut, so he entered through the store hatch and left a length of rope on the inside latch for the next rider. He says he did not light the stove because the flue had been blocked during the autumn cleaning.\n\nMy return was in clear weather. I found the willow switch still standing and the second drain open, but I did not use the creek sound; the thaw had made it run everywhere under the track. I followed the notch until the shoulder came into view, then used the cairns only for the last descent below the wind wall. Pell's second letter reports that the repairer collected the wooden case. We will keep the oilskin pouch in service through the end of the month. I entered the switch and drainage notes on the back of the route sheet before sending it to the district office.",
+  "structure_tags": ["landmark alignment supplemented by counted terrain features", "creek sound judged conditionally reliable by time and weather", "shelter access routed through a secondary hatch"],
+  "authoring_note": "A correspondence exchange about winter route-finding and a shelter access exception; its cues depend on weather, terrain and temporal conditions rather than an abstract path graph.",
+  "evaluation": {
+    "supported_claims": [
+      {"id": "S1", "claim": "Nera stopped following the old cairn line when the ridge disappeared and used three drain mouths and White Tooth notch instead.", "evidence": ["I did not follow the line of old cairns once the ridge disappeared. Instead I counted the three stone drain mouths below the wind wall, then kept the sunlit notch of White Tooth on my right until the track bent south."]},
+      {"id": "S2", "claim": "Pell used the creek sound when the wind dropped but considered it unreliable at dusk because the frozen channel split around boulders.", "evidence": ["He said he had reached the same bend by listening for the creek under the ice, which was audible only when the wind dropped. He did not consider the creek a reliable guide at dusk because the frozen channel split around the boulder field."]},
+      {"id": "S3", "claim": "The riders used a blue oilskin pouch because the wooden case hinge had swollen and would not close.", "evidence": ["We agreed to carry the letters in the blue oilskin pouch rather than the wooden dispatch case. The case's hinge had swollen and would not close, but the pouch could be tied inside the coat."]},
+      {"id": "S4", "claim": "Pell entered the shelter through the store hatch because the north door had drifted shut and left rope on the inside latch.", "evidence": ["The shelter's roof was sound, yet the north door had drifted shut, so he entered through the store hatch and left a length of rope on the inside latch for the next rider."]},
+      {"id": "S5", "claim": "Nera found the willow switch standing on her return but did not use creek sound because thaw made it audible under the track everywhere.", "evidence": ["I found the willow switch still standing and the second drain open, but I did not use the creek sound; the thaw had made it run everywhere under the track."]},
+      {"id": "S6", "claim": "Pell reported that the repairer collected the wooden case.", "evidence": ["Pell's second letter reports that the repairer collected the wooden case."]}
+    ],
+    "explicit_negatives": [
+      {"id": "N1", "claim": "Nera did not follow the old cairn line when the ridge disappeared.", "evidence": ["I did not follow the line of old cairns once the ridge disappeared."]},
+      {"id": "N2", "claim": "Pell did not light the shelter stove because the flue was blocked.", "evidence": ["He says he did not light the stove because the flue had been blocked during the autumn cleaning."]}
+    ],
+    "licensed_inferences": [
+      {"id": "I1", "claim": "The riders treated navigation cues as conditional on visibility, wind and thaw rather than universally dependable.", "premise_ids": ["S1", "S2", "S5"], "rationale": "Nera changed from cairns to terrain features when the ridge disappeared; Pell limited creek sound to calm conditions; and thaw made that sound nonlocal. The letters describe context-sensitive choices."},
+      {"id": "I2", "claim": "The riders made the shelter usable for a later person despite the blocked main door.", "premise_ids": ["S4", "N2"], "rationale": "Pell entered by the store hatch and left a rope on the inside latch, while the stove remained unused due to its blocked flue. The inference is limited to access, not comfort or safety."}
+    ],
+    "unspecified_probes": [
+      {"id": "U1", "neutral_question": "Was the wooden case hinge repaired after collection?", "presupposition_question": "How did the repairer fix the swollen hinge on the wooden case?", "candidate_claim": "The repairer fixed the hinge.", "boundary_note": "The second letter confirms collection of the case but does not give a later repair outcome."},
+      {"id": "U2", "neutral_question": "Was the shelter's north door cleared before the next snowfall?", "presupposition_question": "Who cleared the shelter's north door before the next snowfall?", "candidate_claim": "Someone cleared the north door before the next snowfall.", "boundary_note": "Neither letter records whether the door was cleared."},
+      {"id": "U3", "neutral_question": "Did the district office keep the route open after the thaw?", "presupposition_question": "How long did the district office keep the route open after the thaw?", "candidate_claim": "The district office kept the route open after the thaw.", "boundary_note": "The office has not stated the route's post-thaw status."}
+    ],
+    "consistency_questions": [
+      {"id": "C1", "question": "How did Nera and Pell choose different cues for the same bend, and when did each cue fail or become less useful?", "target_claim_ids": ["S1", "S2", "S5"], "reference_answer": "Nera used drain mouths and the White Tooth notch when the ridge vanished; Pell used creek sound only when wind dropped and distrusted it at dusk. Nera later avoided that sound during thaw because it ran everywhere under the track."},
+      {"id": "C2", "question": "How did Pell manage the shelter and the mail case, and what remained unresolved about both?", "target_claim_ids": ["S3", "S4", "S6"], "reference_answer": "He carried mail in the pouch, entered through the store hatch and left rope for the next rider. The repairer collected the case, but the hinge result and later clearing of the north door are not reported."}
+    ]
+  }
+}
