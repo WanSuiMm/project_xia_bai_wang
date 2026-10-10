@@ -1,4 +1,28 @@
-# Latest incremental review: OSI48 amended completion
+# Latest incremental review: 100-world natural-language material bank
+
+Review base: `3d4b0641945c549a9c942f74357348f585630a04`.
+Evidence head: `ee9c190b25ba856c612a2969938bfe8d0fd3cd9d`.
+This later commit adds review metadata only; the material evidence head stays fixed.
+
+Minimal reading order:
+
+1. [Public delivery scope and offline reproduction](datasets/natural_language_epistemic_games/PUBLICATION_20261010.md).
+2. [100-world catalog](datasets/natural_language_epistemic_games/curated100_20261010/CATALOG.md), [material review](datasets/natural_language_epistemic_games/curated100_20261010/MATERIAL_REVIEW.md), and [compact audit](datasets/natural_language_epistemic_games/curated100_20261010/audit.json). Read the full JSONL and source dossiers only for specific evidence.
+3. [Common model configuration](datasets/natural_language_epistemic_games/dev24_20261010/EXPERIMENT_CONFIG.json) and [role prompt modules](datasets/natural_language_epistemic_games/dev24_20261010/PROMPT_MODULES.json).
+
+New material: 100 source-world lineages, comprising 30 legacy exploratory worlds, 24 existing development dossiers and 46 newly authored candidates. Nineteen domains and 36,160 English source words; 12 additional in-family variants do not add independent worlds. Forty-two legacy source strings match original JSON fields, and the 24 development world hashes are preserved. Seventy worlds use the structured S/N/I/U/C schema; 30 legacy worlds still need schema normalization, with raw original-format annotations retained where available for 26. There are no new provider requests, speaker answers or Judge trajectories.
+
+Changed scope: the user selected 100 total materials and subsequently authorized this public source-bank delivery. Earlier frozen construction documents keep their original scope statements. Publication does not establish iid sampling, behavioral effect sizes or confirmatory power. The `candidate_test` authoring group is now public and cannot be described as a secret unexposed holdout. Qwen/GLM reciprocal roles share task and sampling/output controls, with same-model independent Speakers and provider-default reasoning; current interface preflight and paid collection remain pending. Provider defaults do not certify equal hidden computation. Full multi-round collection has not been implemented or run by this material update.
+
+Unchanged evidence: all earlier Arena/OpenCode runs, negative results, incomplete cutoffs, JES32 qualification failure and OSI48 mixed-budget limits retain their historical interpretation. This update does not add behavioral confirmation or fine-tuning. Unrelated manuscript edits and private execution records are excluded.
+
+Verification: a fresh checkout of the staged repository, without private run directories, passes the offline publication verifier (115 bound dependency files, 100 reconstructed records and 700 initial role projections) and all 19 software tests. The 172 checked local Markdown links resolve. Staged path allowlisting, credential/private-session/machine-path scans and whitespace checks pass. Scoped Git attributes preserve hash-bound inventory formatting and reconstruct two old bundle inputs' recorded CRLF checkout bytes without changing their existing Git blobs. The supplemental publication manifest includes transitive dependencies missing from the original material manifest; neither original manifest was rewritten.
+
+Code entry: `python -X utf8 -B scripts/verify_natural_language_publication.py`. Material routing and role projections are implemented in `build_natural_language_corpus100.collect/role_packet` and `build_natural_language_dataset.audit/role_packet`; these offline checks are not an API or multi-round rollout qualification.
+
+Reviewer questions: Are worlds distinguished from in-family variants and repeated configurations? Are the remaining legacy annotation gaps and public precollection status explicit? Do role projections exclude Host-only annotations and source/provenance metadata? Does the shared configuration avoid claiming equal hidden compute or completed provider validation? Which prospective paired design and world-level uncertainty analysis should be frozen before collecting behavior?
+
+# Previous incremental review: OSI48 amended completion
 
 Review base: `e6515ed306abd56bb662e6ead6c1c1a461db9a3c`.
 Evidence head: `76c5f5efde9af449ecc2350479f1aa3ce03f3c78`.
